@@ -1,16 +1,186 @@
+body {
+  margin: 0;
+  font-family: "Merriweather", Georgia, serif;
+  background: linear-gradient(180deg, #ead0aa 0%, #d8b98d 100%);
+  color: #1f140c;
+}
+
+button {
+  font-family: inherit;
+}
+
+.rathmer-page {
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+.rathmer-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.rathmer-header h1 {
+  font-size: 4rem;
+  margin: 0 0 0.75rem;
+}
+
+.rathmer-header p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.rathmer-main-card {
+  color: white;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
+}
+
+.rathmer-main-card h2 {
+  font-size: 2.4rem;
+  margin: 0 0 1rem;
+}
+
+.rathmer-main-card span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.rathmer-core-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.rathmer-core-button {
+  border: none;
+  background: rgba(255, 255, 255, 0.35);
+  padding: 0.9rem 1.35rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.rathmer-core-button:hover {
+  background: rgba(255, 255, 255, 0.55);
+  transform: translateY(-2px);
+}
+
+.rathmer-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.rathmer-subtypes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.rathmer-subtype-card {
+  color: white;
+  border-radius: 2rem;
+  padding: 1.7rem;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.rathmer-subtype-card h3 {
+  font-size: 2.6rem;
+  margin: 0 0 1.2rem;
+}
+
+.rathmer-traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
 .rathmer-trait-button {
   border: none;
-  background: rgba(255,255,255,0.22);
+  background: rgba(255, 255, 255, 0.22);
   color: white;
-  padding: 0.4rem 0.8rem;
+  padding: 0.45rem 0.85rem;
   border-radius: 999px;
   cursor: pointer;
-  font-family: inherit;
   font-weight: 700;
   transition: 0.2s ease;
 }
 
 .rathmer-trait-button:hover {
-  background: rgba(255,255,255,0.34);
+  background: rgba(255, 255, 255, 0.34);
   transform: translateY(-2px);
+}
+
+.rathmer-module-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.rathmer-module-button {
+  border: none;
+  background: rgba(255, 255, 255, 0.16);
+  color: white;
+  padding: 0.95rem 1rem;
+  border-radius: 1rem;
+  text-align: left;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.rathmer-module-button:hover {
+  background: rgba(255, 255, 255, 0.26);
+  transform: translateX(4px);
+}
+
+.rathmer-info-panel {
+  position: sticky;
+  top: 2rem;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(14px);
+  border-radius: 2rem;
+  padding: 2rem;
+  min-height: 420px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+.rathmer-info-type {
+  display: block;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.65;
+  margin-bottom: 1.2rem;
+}
+
+.rathmer-info-panel h2 {
+  font-size: 1.8rem;
+  margin: 0 0 1rem;
+}
+
+.rathmer-info-panel p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 1000px) {
+  .rathmer-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .rathmer-subtypes {
+    grid-template-columns: 1fr;
+  }
+
+  .rathmer-info-panel {
+    position: static;
+  }
 }
