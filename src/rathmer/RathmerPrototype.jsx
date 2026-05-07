@@ -1,3 +1,4 @@
+import "./rathmer.css";
 import React from "react";
 import { rathmerData } from "./rathmerData";
 
