@@ -17,7 +17,20 @@ export const rathmerData = {
   subtypes: [
   {
     code: "se2",
-    traits: ["warm", "kindlich", "Kontra"],
+    traits: [
+  {
+    label: "warm",
+    content: "Hier steht später die Erklärung zu warm bei se2."
+  },
+  {
+    label: "kindlich",
+    content: "Hier steht später die Erklärung zu kindlich bei se2."
+  },
+  {
+    label: "Kontra",
+    content: "Hier steht später die Erklärung zu Kontra bei se2."
+  }
+]
     modules: [
       "Demaskierung",
       "Blinder Fleck",
