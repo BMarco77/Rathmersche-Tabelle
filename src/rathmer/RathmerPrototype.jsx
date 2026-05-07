@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { rathmerData } from "./rathmerData";
 import "./rathmer.css";
 
@@ -7,88 +7,132 @@ export default function RathmerPrototype() {
 
   return (
     <div className="rathmer-page">
-      <header className="rathmer-header">
+      <div className="rathmer-header">
         <h1>Rathmer´sche Tabelle</h1>
         <p>{rathmerData.center}</p>
-      </header>
+      </div>
 
-      <section className="rathmer-type-card">
+      {/* Hauptkarte */}
+      <div
+        className="rathmer-main-card"
+        style={{
+          background: `linear-gradient(
+            135deg,
+            ${rathmerData.color},
+            #7b2cbf
+          )`,
+        }}
+      >
         <h2>{rathmerData.title}</h2>
-        <p>{rathmerData.side}</p>
-      </section>
+        <span>{rathmerData.side}</span>
+      </div>
 
-      <section className="rathmer-core-grid">
+      {/* Core Module */}
+      <div className="rathmer-core-grid">
         {rathmerData.coreModules.map((module) => (
           <button
-            key={module}
-            className="rathmer-core-pill"
+            key={module.label}
+            className="rathmer-core-button"
             onClick={() =>
               setSelectedItem({
-                subtype: "Typ 2",
-                title: module,
-                content: "Hier steht später der Tooltip-Text."
+                type: rathmerData.type,
+                title: module.label,
+                content: module.content,
               })
             }
           >
-            {module}
+            {module.label}
           </button>
         ))}
-      </section>
+      </div>
 
-      <main className="rathmer-layout">
-        <section className="rathmer-subtype-grid">
+      {/* Layout */}
+      <div className="rathmer-layout">
+        {/* Subtypen */}
+        <div className="rathmer-subtypes">
           {rathmerData.subtypes.map((subtype) => (
-            <article key={subtype.code} className="rathmer-subtype-card">
+            <div
+              key={subtype.code}
+              className="rathmer-subtype-card"
+              style={{
+                background: `linear-gradient(
+                  135deg,
+                  ${rathmerData.color},
+                  #7b2cbf
+                )`,
+              }}
+            >
               <h3>{subtype.code}</h3>
 
+              {/* Traits */}
               <div className="rathmer-traits">
                 {subtype.traits.map((trait) => (
-                  <span key={trait}>{trait}</span>
+                  <button
+                    key={trait.label}
+                    className="rathmer-trait-button"
+                    onClick={() =>
+                      setSelectedItem({
+                        subtype: subtype.code,
+                        title: trait.label,
+                        content: trait.content,
+                      })
+                    }
+                  >
+                    {trait.label}
+                  </button>
                 ))}
               </div>
 
+              {/* Module */}
               <div className="rathmer-module-list">
                 {subtype.modules.map((module) => (
                   <button
-                    key={module}
+                    key={module.label}
                     className="rathmer-module-button"
                     onClick={() =>
                       setSelectedItem({
                         subtype: subtype.code,
-                        title: module,
-                        content: "Hier steht später der Tooltip-Text."
+                        title: module.label,
+                        content: module.content,
                       })
                     }
                   >
-                    {module}
+                    {module.label}
                   </button>
                 ))}
               </div>
-            </article>
+            </div>
           ))}
-        </section>
+        </div>
 
-        <aside className="rathmer-info-panel">
+        {/* Info Panel */}
+        <div className="rathmer-info-panel">
           {selectedItem ? (
             <>
-              <span className="rathmer-info-kicker">
-                {selectedItem.subtype}
+              <span className="rathmer-info-type">
+                {selectedItem.subtype
+                  ? selectedItem.subtype.toUpperCase()
+                  : `TYP ${selectedItem.type}`}
               </span>
+
               <h2>{selectedItem.title}</h2>
+
               <p>{selectedItem.content}</p>
             </>
           ) : (
             <>
-              <span className="rathmer-info-kicker">Wissensblock</span>
-              <h2>Wähle ein Modul</h2>
+              <span className="rathmer-info-type">INFO</span>
+
+              <h2>Wissensmodul</h2>
+
               <p>
-                Klicke auf eine Kategorie, um die dahinterliegenden
-                Informationen sichtbar zu machen.
+                Klicke auf ein Modul, Trait oder Feld, um Informationen
+                anzuzeigen.
               </p>
             </>
           )}
-        </aside>
-      </main>
+        </div>
+      </div>
     </div>
   );
 }
