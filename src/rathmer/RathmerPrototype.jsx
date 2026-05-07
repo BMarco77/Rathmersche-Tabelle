@@ -1,166 +1,94 @@
-import "./rathmer.css";
-import React from "react";
+import React, { useState } from "react";
 import { rathmerData } from "./rathmerData";
+import "./rathmer.css";
 
 export default function RathmerPrototype() {
+  const [selectedItem, setSelectedItem] = useState(null);
+
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-        background: "#1a1a1a",
-        color: "white",
-        padding: "40px",
-        fontFamily: "Arial"
-      }}
-    >
-      {/* Überschrift */}
-      <h1
-        style={{
-          fontSize: "48px",
-          marginBottom: "10px"
-        }}
-      >
-        Rathmer´sche Tabelle
-      </h1>
+    <div className="rathmer-page">
+      <header className="rathmer-header">
+        <h1>Rathmer´sche Tabelle</h1>
+        <p>{rathmerData.center}</p>
+      </header>
 
-      <h2
-        style={{
-          color: "#cccccc",
-          marginBottom: "40px"
-        }}
-      >
-        {rathmerData.center}
-      </h2>
+      <section className="rathmer-type-card">
+        <h2>{rathmerData.title}</h2>
+        <p>{rathmerData.side}</p>
+      </section>
 
-      {/* Typkarte */}
-      <div
-        style={{
-          background: rathmerData.color,
-          borderRadius: "24px",
-          padding: "30px",
-          marginBottom: "40px",
-          boxShadow: "0 0 30px rgba(0,0,0,0.4)"
-        }}
-      >
-        <h2
-          style={{
-            fontSize: "42px",
-            marginBottom: "10px"
-          }}
-        >
-          {rathmerData.title}
-        </h2>
-
-        <p
-          style={{
-            fontSize: "24px",
-            opacity: 0.9
-          }}
-        >
-          {rathmerData.side}
-        </p>
-      </div>
-
-      {/* Globale Module */}
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: "16px",
-          marginBottom: "60px"
-        }}
-      >
-        {rathmerData.coreModules.map((module, index) => (
-          <div
-            key={index}
-            style={{
-              background: "rgba(255,255,255,0.12)",
-              padding: "18px 24px",
-              borderRadius: "16px",
-              fontSize: "20px",
-              backdropFilter: "blur(10px)"
-            }}
+      <section className="rathmer-core-grid">
+        {rathmerData.coreModules.map((module) => (
+          <button
+            key={module}
+            className="rathmer-core-pill"
+            onClick={() =>
+              setSelectedItem({
+                subtype: "Typ 2",
+                title: module,
+                content: "Hier steht später der Tooltip-Text."
+              })
+            }
           >
             {module}
-          </div>
+          </button>
         ))}
-      </div>
+      </section>
 
-      {/* Subtypen */}
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-          gap: "24px"
-        }}
-      >
-        {rathmerData.subtypes.map((subtype) => (
-          <div
-            key={subtype.code}
-            style={{
-              background: rathmerData.color,
-              padding: "24px",
-              borderRadius: "24px",
-              boxShadow: "0 0 20px rgba(0,0,0,0.3)"
-            }}
-          >
-            <h3
-              style={{
-                fontSize: "42px",
-                marginBottom: "20px"
-              }}
-            >
-              {subtype.code}
-            </h3>
+      <main className="rathmer-layout">
+        <section className="rathmer-subtype-grid">
+          {rathmerData.subtypes.map((subtype) => (
+            <article key={subtype.code} className="rathmer-subtype-card">
+              <h3>{subtype.code}</h3>
 
-            {/* Traits */}
-            <div
-              style={{
-                marginBottom: "24px"
-              }}
-            >
-              {subtype.traits.map((trait, index) => (
-                <div
-                  key={index}
-                  style={{
-                    fontSize: "22px",
-                    marginBottom: "8px"
-                  }}
-                >
-                  {trait}
-                </div>
-              ))}
-            </div>
+              <div className="rathmer-traits">
+                {subtype.traits.map((trait) => (
+                  <span key={trait}>{trait}</span>
+                ))}
+              </div>
 
-            {/* Module */}
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "12px"
-              }}
-            >
-              {subtype.modules.map((module, index) => (
-                <button
-                  key={index}
-                  style={{
-                    background: "rgba(0,0,0,0.18)",
-                    border: "none",
-                    color: "white",
-                    padding: "14px",
-                    borderRadius: "14px",
-                    fontSize: "18px",
-                    cursor: "pointer",
-                    textAlign: "left"
-                  }}
-                >
-                  {module}
-                </button>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
+              <div className="rathmer-module-list">
+                {subtype.modules.map((module) => (
+                  <button
+                    key={module}
+                    className="rathmer-module-button"
+                    onClick={() =>
+                      setSelectedItem({
+                        subtype: subtype.code,
+                        title: module,
+                        content: "Hier steht später der Tooltip-Text."
+                      })
+                    }
+                  >
+                    {module}
+                  </button>
+                ))}
+              </div>
+            </article>
+          ))}
+        </section>
+
+        <aside className="rathmer-info-panel">
+          {selectedItem ? (
+            <>
+              <span className="rathmer-info-kicker">
+                {selectedItem.subtype}
+              </span>
+              <h2>{selectedItem.title}</h2>
+              <p>{selectedItem.content}</p>
+            </>
+          ) : (
+            <>
+              <span className="rathmer-info-kicker">Wissensblock</span>
+              <h2>Wähle ein Modul</h2>
+              <p>
+                Klicke auf eine Kategorie, um die dahinterliegenden
+                Informationen sichtbar zu machen.
+              </p>
+            </>
+          )}
+        </aside>
+      </main>
     </div>
   );
 }
