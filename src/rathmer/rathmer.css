@@ -197,17 +197,21 @@ button {
 }
 
 .rathmer-wappen {
-  width: 90px;
-  height: 90px;
-  margin: 0 auto 1.5rem;
-  border-radius: 50%;
-  border: 2px solid rgba(31, 20, 12, 0.5);
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  background: rgba(255, 255, 255, 0.28);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+  margin-bottom: 1.5rem;
+}
+
+.rathmer-wappen img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.28));
+  transition: transform 0.25s ease;
+}
+
+.rathmer-wappen img:hover {
+  transform: scale(1.04);
 }
 
 .rathmer-home-header h1 {
