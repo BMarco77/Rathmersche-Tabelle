@@ -1,3 +1,4 @@
+import { TYPE_COLORS } from "../data/typeColors";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
 
@@ -5,25 +6,25 @@ const centers = [
   {
     title: "Herz-Menschen",
     types: [
-      { number: 2, name: "Liebe", color: "#9b4dcc" },
-      { number: 3, name: "Erfolg", color: "#d6a02f" },
-      { number: 4, name: "Individualität", color: "#8b4a6f" },
-    ],
+  { number: 2, name: "Liebe", color: TYPE_COLORS[2] },
+  { number: 3, name: "Erfolg", color: TYPE_COLORS[3] },
+  { number: 4, name: "Individualität", color: TYPE_COLORS[4] },
+]
   },
   {
     title: "Kopf-Menschen",
     types: [
-      { number: 5, name: "Wissen", color: "#2f6f9f" },
-      { number: 6, name: "Sicherheit", color: "#4f6f7f" },
-      { number: 7, name: "Spaß", color: "#e0a13a" },
+      { number: 5, name: "Wissen", color: TYPE_COLORS[5] },
+      { number: 6, name: "Sicherheit", color: TYPE_COLORS[6] },
+      { number: 7, name: "Spaß", color: TYPE_COLORS[7] },
     ],
   },
   {
     title: "Bauch-Menschen",
     types: [
-      { number: 8, name: "Kraft", color: "#9f2f2f" },
-      { number: 9, name: "Harmonie", color: "#5f8f65" },
-      { number: 1, name: "Perfektion", color: "#7f7f7f" },
+      { number: 8, name: "Kraft", color: TYPE_COLORS[8] },
+      { number: 9, name: "Harmonie", color: TYPE_COLORS[9] },
+      { number: 1, name: "Perfektion", color: TYPE_COLORS[1] },
     ],
   },
 ];
