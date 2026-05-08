@@ -1,10 +1,11 @@
+import { TYPE_COLORS } from "../typeColors";
 export const type2Data = {
   type: 2,
   title: "2 - Liebe",
   center: "Herz-Menschen",
   side: "weibliche Seite",
-  color: "#9b4dcc",
-
+ color: TYPE_COLORS[2],
+  
   coreModules: [
     {
       label: "Bewusstseinsstufen",
