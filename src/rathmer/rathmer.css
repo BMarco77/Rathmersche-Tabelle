@@ -210,10 +210,6 @@ button {
   transition: transform 0.25s ease;
 }
 
-.rathmer-wappen img:hover {
-  transform: scale(1.04);
-}
-
 .rathmer-home-header h1 {
   font-size: 4rem;
   margin: 0 0 1rem;
