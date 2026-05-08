@@ -2,11 +2,14 @@ import { useState } from "react";
 import { type2Data } from "../data/types/type2";
 import "../rathmer.css";
 
-export default function RathmerPrototype() {
+export default function TypePage({ onBack }) {
   const [selectedItem, setSelectedItem] = useState(null);
 
   return (
     <div className="rathmer-page">
+      <button className="rathmer-back-button" onClick={onBack}>
+  ← Zur Übersicht
+</button>
       <div className="rathmer-header">
         <h1>Rathmer´sche Tabelle</h1>
         <p>{type2Data.center}</p>
