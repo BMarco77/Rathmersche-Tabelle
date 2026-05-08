@@ -1,3 +1,4 @@
+import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
 
 const centers = [
@@ -31,7 +32,9 @@ export default function HomePage({ onSelectType }) {
   return (
     <div className="rathmer-home">
       <header className="rathmer-home-header">
-        <div className="rathmer-wappen">❖</div>
+       <div className="rathmer-wappen">
+  <img src={wappen} alt="Rathmer Wappen" />
+</div>
 
         <h1>Rathmer´sche Tabelle</h1>
 
