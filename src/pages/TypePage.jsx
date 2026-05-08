@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { type2Data } from "../data/types/type2";
-import "./rathmer.css";
+import "../rathmer.css";
 
 export default function RathmerPrototype() {
   const [selectedItem, setSelectedItem] = useState(null);
