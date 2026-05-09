@@ -337,3 +337,34 @@ button {
 .rathmer-side-button:hover {
   text-decoration: underline;
 }
+.rathmer-center-button:hover,
+.rathmer-title-button:hover,
+.rathmer-side-button:hover {
+  text-decoration: underline;
+}
+
+/* HIER DRUNTER */
+
+.rathmer-type-top {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.rathmer-type-top .rathmer-wappen {
+  margin-bottom: 1rem;
+}
+
+.rathmer-center-button {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #2a1a10;
+  transition: 0.2s ease;
+}
+
+.rathmer-center-button:hover {
+  opacity: 0.7;
+}
