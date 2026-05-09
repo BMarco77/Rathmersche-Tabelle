@@ -13,6 +13,7 @@ export default function TypePage({ onBack }) {
         ← Zur Übersicht
       </button>
 
+      {/* Kopfbereich */}
       <div className="rathmer-type-top">
         <div className="rathmer-wappen">
           <img src={wappen} alt="Wappen" />
@@ -22,6 +23,7 @@ export default function TypePage({ onBack }) {
           className="rathmer-center-button"
           onClick={() =>
             setSelectedCoreItem({
+              area: "center",
               subtype: "Zentrum",
               title: type2Data.centerInfo.title,
               content: type2Data.centerInfo.content,
@@ -32,6 +34,12 @@ export default function TypePage({ onBack }) {
         </button>
       </div>
 
+      {/* Zentrum Info */}
+      {selectedCoreItem?.area === "center" && (
+        <CoreInfoPanel item={selectedCoreItem} />
+      )}
+
+      {/* Hauptkarte */}
       <div
         className="rathmer-main-card"
         style={{
@@ -42,6 +50,7 @@ export default function TypePage({ onBack }) {
           className="rathmer-title-button"
           onClick={() =>
             setSelectedCoreItem({
+              area: "type",
               subtype: "Typ 2",
               title: type2Data.typeInfo.title,
               content: type2Data.typeInfo.content,
@@ -55,6 +64,7 @@ export default function TypePage({ onBack }) {
           className="rathmer-side-button"
           onClick={() =>
             setSelectedCoreItem({
+              area: "type",
               subtype: "Seite",
               title: type2Data.sideInfo.title,
               content: type2Data.sideInfo.content,
@@ -65,6 +75,12 @@ export default function TypePage({ onBack }) {
         </button>
       </div>
 
+      {/* Typ Info */}
+      {selectedCoreItem?.area === "type" && (
+        <CoreInfoPanel item={selectedCoreItem} />
+      )}
+
+      {/* Core Module */}
       <div className="rathmer-core-grid">
         {type2Data.coreModules.map((module) => (
           <button
@@ -72,6 +88,7 @@ export default function TypePage({ onBack }) {
             className="rathmer-core-button"
             onClick={() =>
               setSelectedCoreItem({
+                area: "core",
                 type: type2Data.type,
                 title: module.label,
                 content: module.content,
@@ -83,20 +100,14 @@ export default function TypePage({ onBack }) {
         ))}
       </div>
 
-      {selectedCoreItem && (
-        <div className="rathmer-core-info-panel">
-          <span className="rathmer-info-type">
-            {selectedCoreItem.subtype
-              ? selectedCoreItem.subtype.toUpperCase()
-              : `TYP ${selectedCoreItem.type}`}
-          </span>
-
-          <h2>{selectedCoreItem.title}</h2>
-          <p>{selectedCoreItem.content}</p>
-        </div>
+      {/* Core Info */}
+      {selectedCoreItem?.area === "core" && (
+        <CoreInfoPanel item={selectedCoreItem} />
       )}
 
+      {/* Layout */}
       <div className="rathmer-layout">
+        {/* Subtypen */}
         <div className="rathmer-subtypes">
           {type2Data.subtypes.map((subtype) => (
             <div
@@ -108,6 +119,7 @@ export default function TypePage({ onBack }) {
             >
               <h3>{subtype.code}</h3>
 
+              {/* Traits */}
               <div className="rathmer-traits">
                 {subtype.traits.map((trait) => (
                   <button
@@ -126,6 +138,7 @@ export default function TypePage({ onBack }) {
                 ))}
               </div>
 
+              {/* Module */}
               <div className="rathmer-module-list">
                 {subtype.modules.map((module) => (
                   <button
@@ -147,6 +160,7 @@ export default function TypePage({ onBack }) {
           ))}
         </div>
 
+        {/* Rechtes Panel */}
         <div className="rathmer-info-panel">
           {selectedSubtypeItem ? (
             <>
@@ -155,12 +169,15 @@ export default function TypePage({ onBack }) {
               </span>
 
               <h2>{selectedSubtypeItem.title}</h2>
+
               <p>{selectedSubtypeItem.content}</p>
             </>
           ) : (
             <>
               <span className="rathmer-info-type">SUBTYP</span>
+
               <h2>Subtyp-Wissen</h2>
+
               <p>
                 Klicke auf einen Trait oder ein Modul innerhalb von se2, so2
                 oder sx2, um die zugehörigen Informationen anzuzeigen.
@@ -169,6 +186,20 @@ export default function TypePage({ onBack }) {
           )}
         </div>
       </div>
+    </div>
+  );
+}
+
+function CoreInfoPanel({ item }) {
+  return (
+    <div className="rathmer-core-info-panel">
+      <span className="rathmer-info-type">
+        {item.subtype ? item.subtype.toUpperCase() : `TYP ${item.type}`}
+      </span>
+
+      <h2>{item.title}</h2>
+
+      <p>{item.content}</p>
     </div>
   );
 }
