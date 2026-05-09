@@ -5,6 +5,24 @@ export const type2Data = {
   center: "Herz-Menschen",
   side: "weibliche Seite",
  color: TYPE_COLORS[2],
+
+  centerInfo: {
+    title: "Herz-Menschen",
+    content:
+      "Die Herzmenschen umfassen die Typen 2, 3 und 4. Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz."
+  },
+
+  typeInfo: {
+    title: "2 - Liebe",
+    content:
+      "Überentwickelte Herzenergie. Die Herzenergie wird nach außen gerichtet. Grundmotivation: Liebe. Abwehrmechanismus: Liebe als Tauschhandel."
+  },
+
+  sideInfo: {
+    title: "weibliche Seite",
+    content:
+      "Die weibliche Seite des Enneagramms umfasst die Enneagrammtypen 1–4 und zeichnet sich durch weibliche Charakter- und Körperzüge aus."
+  },
   
   coreModules: [
     {
