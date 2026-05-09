@@ -10,9 +10,24 @@ export default function TypePage({ onBack }) {
       <button className="rathmer-back-button" onClick={onBack}>
   ← Zur Übersicht
 </button>
-      <div className="rathmer-header">
-  <h1>Rathmer´sche Tabelle</h1>
+      <div className="rathmer-type-top">
+  <div className="rathmer-wappen">
+    <img src="/wappen.png" alt="Wappen" />
+  </div>
 
+  <button
+    className="rathmer-center-button"
+    onClick={() =>
+      setSelectedItem({
+        subtype: "Zentrum",
+        title: type2Data.centerInfo.title,
+        content: type2Data.centerInfo.content,
+      })
+    }
+  >
+    {type2Data.center}
+  </button>
+</div>      <div className="rathmer-type-header">
   <button
     className="rathmer-center-button"
     onClick={() =>
