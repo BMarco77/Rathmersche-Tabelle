@@ -17,14 +17,18 @@ export default function TypePage({ onBack }) {
       </button>
 
       {/* HEADER */}
-      <header className="rathmer-header-v3">
-        <div className="rathmer-wappen">
-          <img src={wappen} alt="Wappen" />
-        </div>
+      <header className="rathmer-home-header">
+  <div className="rathmer-wappen">
+    <img src={wappen} alt="Rathmer Wappen" />
+  </div>
 
-        <h1>Typ 2 – Der Helfer</h1>
-      </header>
+  <h1>Typ 2 – Der Helfer</h1>
 
+  <p>
+    Eine interaktive Übersicht der Typ-2-Struktur, ihrer Grunddynamik und
+    Subtypen.
+  </p>
+</header>
       {/* TOP NAV */}
       <section className="rathmer-top-grid">
         <button
