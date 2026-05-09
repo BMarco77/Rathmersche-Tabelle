@@ -1,3 +1,4 @@
+import wappen from "../assets/wappen-512.png";
 import { useState } from "react";
 import { type2Data } from "../data/types/type2";
 import "../rathmer/rathmer.css";
