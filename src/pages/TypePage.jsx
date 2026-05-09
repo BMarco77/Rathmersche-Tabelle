@@ -15,76 +15,73 @@ export default function TypePage({ onBack }) {
 
       {/* Kopfbereich */}
       <div className="rathmer-top-nav">
-  <div className="rathmer-wappen">
-    <img src={wappen} alt="Wappen" />
-  </div>
+        <div className="rathmer-wappen">
+          <img src={wappen} alt="Wappen" />
+        </div>
 
-  <div className="rathmer-meta-nav">
-    <button
-      className="rathmer-meta-button"
-      onClick={() =>
-        setSelectedCoreItem({
-  area: "center",
-  subtype: "Zentrum",
-  title: type2Data.centerInfo.title,
-  content: type2Data.centerInfo.content,
-})
-      }
-    >
-      {type2Data.center}
-    </button>
+        <div className="rathmer-meta-nav">
+          <button
+            className="rathmer-meta-button"
+            onClick={() =>
+              setSelectedCoreItem({
+                area: "meta",
+                subtype: "Zentrum",
+                title: type2Data.centerInfo.title,
+                content: type2Data.centerInfo.content,
+              })
+            }
+          >
+            {type2Data.center}
+          </button>
 
-    <button
-      className="rathmer-meta-button"
-      onClick={() =>
-       setSelectedCoreItem({
-  area: "type",
-  subtype: "Typ 2",
-  title: type2Data.typeInfo.title,
-  content: type2Data.typeInfo.content,
-})
-      }
-    >
-      {type2Data.title}
-    </button>
+          <button
+            className="rathmer-meta-button"
+            onClick={() =>
+              setSelectedCoreItem({
+                area: "meta",
+                subtype: "Typ 2",
+                title: type2Data.typeInfo.title,
+                content: type2Data.typeInfo.content,
+              })
+            }
+          >
+            {type2Data.title}
+          </button>
 
-    <button
-      className="rathmer-meta-button"
-      onClick={() =>
-        setSelectedCoreItem({
-  area: "type",
-  subtype: "Seite",
-  title: type2Data.sideInfo.title,
-  content: type2Data.sideInfo.content,
-})
-      }
-    >
-      {type2Data.side}
-    </button>
-  </div>
-</div>
+          <button
+            className="rathmer-meta-button"
+            onClick={() =>
+              setSelectedCoreItem({
+                area: "meta",
+                subtype: "Seite",
+                title: type2Data.sideInfo.title,
+                content: type2Data.sideInfo.content,
+              })
+            }
+          >
+            {type2Data.side}
+          </button>
+        </div>
+      </div>
 
-      {/* Zentrum Info */}
-      {selectedCoreItem?.area === "center" && (
+      {/* Meta Info */}
+      {selectedCoreItem?.area === "meta" && (
         <CoreInfoPanel item={selectedCoreItem} />
       )}
 
-      {/* Hauptkarte */}
-<div
-  className="rathmer-main-card"
-  style={{
-    background: `linear-gradient(135deg, ${type2Data.color}, #8b35c9)`,
-  }}
->
-  <div className="rathmer-main-card-content">
-    <div className="rathmer-main-glow" />
-  </div>
-</div>
+      {/* Kompakte Typkarte */}
+      <div
+        className="rathmer-main-card rathmer-main-card-compact"
+        style={{
+          background: `linear-gradient(135deg, ${type2Data.color}, #8b35c9)`,
+        }}
+      >
+        <h2>{type2Data.title}</h2>
 
-      {/* Typ Info */}
-      {selectedCoreItem?.area === "type" && (
-        <CoreInfoPanel item={selectedCoreItem} />
-      )}
+        <p>{type2Data.side}</p>
+
+        <span>Leidenschaft = Stolz</span>
+      </div>
 
       {/* Core Module */}
       <div className="rathmer-core-grid">
@@ -120,7 +117,11 @@ export default function TypePage({ onBack }) {
               key={subtype.code}
               className="rathmer-subtype-card"
               style={{
-                background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
+                background: `linear-gradient(
+                  135deg,
+                  ${type2Data.color},
+                  #7b2cbf
+                )`,
               }}
             >
               <h3>{subtype.code}</h3>
