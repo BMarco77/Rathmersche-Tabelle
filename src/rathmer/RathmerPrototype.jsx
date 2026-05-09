@@ -12,8 +12,8 @@ export default function RathmerPrototype() {
 
   <button
     className="rathmer-center-button"
-    onClick={() =>
-      setSelectedItem({
+   onClick={() => alert
+     ("Herz-Menschen geklickt")}
         subtype: "Zentrum",
         title: rathmerData.centerInfo.title,
         content: rathmerData.centerInfo.content,
