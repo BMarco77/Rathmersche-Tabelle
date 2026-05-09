@@ -299,3 +299,41 @@ button {
     font-size: 2.8rem;
   }
 }
+.rathmer-center-button,
+.rathmer-title-button,
+.rathmer-side-button {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+  padding: 0;
+}
+
+.rathmer-center-button {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.rathmer-title-button {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.rathmer-side-button {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  opacity: 0.95;
+}
+
+.rathmer-center-button:hover,
+.rathmer-title-button:hover,
+.rathmer-side-button:hover {
+  text-decoration: underline;
+}
