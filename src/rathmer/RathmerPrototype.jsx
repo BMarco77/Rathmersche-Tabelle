@@ -7,11 +7,22 @@ export default function RathmerPrototype() {
 
   return (
     <div className="rathmer-page">
-      <div className="rathmer-header">
-        <h1>Rathmer´sche Tabelle</h1>
-        <p>{rathmerData.center}</p>
-      </div>
+     <div className="rathmer-header">
+  <h1>Rathmer´sche Tabelle</h1>
 
+  <button
+    className="rathmer-center-button"
+    onClick={() =>
+      setSelectedItem({
+        subtype: "Zentrum",
+        title: rathmerData.centerInfo.title,
+        content: rathmerData.centerInfo.content,
+      })
+    }
+  >
+    {rathmerData.center}
+  </button>
+</div>
       {/* Hauptkarte */}
       <div
         className="rathmer-main-card"
@@ -23,8 +34,31 @@ export default function RathmerPrototype() {
           )`,
         }}
       >
-        <h2>{rathmerData.title}</h2>
-        <span>{rathmerData.side}</span>
+       <button
+  className="rathmer-title-button"
+  onClick={() =>
+    setSelectedItem({
+      subtype: "Typ 2",
+      title: rathmerData.typeInfo.title,
+      content: rathmerData.typeInfo.content,
+    })
+  }
+>
+  {rathmerData.title}
+</button>
+
+<button
+  className="rathmer-side-button"
+  onClick={() =>
+    setSelectedItem({
+      subtype: "Seite",
+      title: rathmerData.sideInfo.title,
+      content: rathmerData.sideInfo.content,
+    })
+  }
+>
+  {rathmerData.side}
+</button>
       </div>
 
       {/* Core Module */}
