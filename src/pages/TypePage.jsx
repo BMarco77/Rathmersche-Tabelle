@@ -11,9 +11,21 @@ export default function TypePage({ onBack }) {
   ← Zur Übersicht
 </button>
       <div className="rathmer-header">
-        <h1>Rathmer´sche Tabelle</h1>
-        <p>{type2Data.center}</p>
-      </div>
+  <h1>Rathmer´sche Tabelle</h1>
+
+  <button
+    className="rathmer-center-button"
+    onClick={() =>
+      setSelectedItem({
+        subtype: "Zentrum",
+        title: type2Data.centerInfo.title,
+        content: type2Data.centerInfo.content,
+      })
+    }
+  >
+    {type2Data.center}
+  </button>
+</div>
 
       {/* Hauptkarte */}
       <div
@@ -26,8 +38,31 @@ export default function TypePage({ onBack }) {
           )`,
         }}
       >
-        <h2>{type2Data.title}</h2>
-        <span>{type2Data.side}</span>
+        <button
+  className="rathmer-title-button"
+  onClick={() =>
+    setSelectedItem({
+      subtype: "Typ 2",
+      title: type2Data.typeInfo.title,
+      content: type2Data.typeInfo.content,
+    })
+  }
+>
+  {type2Data.title}
+</button>
+
+<button
+  className="rathmer-side-button"
+  onClick={() =>
+    setSelectedItem({
+      subtype: "Seite",
+      title: type2Data.sideInfo.title,
+      content: type2Data.sideInfo.content,
+    })
+  }
+>
+  {type2Data.side}
+</button>
       </div>
 
       {/* Core Module */}
