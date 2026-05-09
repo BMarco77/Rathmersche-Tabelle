@@ -23,11 +23,12 @@ export default function TypePage({ onBack }) {
     <button
       className="rathmer-meta-button"
       onClick={() =>
-        setSelectedItem({
-          subtype: "Zentrum",
-          title: type2Data.centerInfo.title,
-          content: type2Data.centerInfo.content,
-        })
+        setSelectedCoreItem({
+  area: "center",
+  subtype: "Zentrum",
+  title: type2Data.centerInfo.title,
+  content: type2Data.centerInfo.content,
+})
       }
     >
       {type2Data.center}
@@ -36,11 +37,12 @@ export default function TypePage({ onBack }) {
     <button
       className="rathmer-meta-button"
       onClick={() =>
-        setSelectedItem({
-          subtype: "Typ 2",
-          title: type2Data.typeInfo.title,
-          content: type2Data.typeInfo.content,
-        })
+        setSelectedCoreItem({
+  area: "center",
+  subtype: "Zentrum",
+  title: type2Data.centerInfo.title,
+  content: type2Data.centerInfo.content,
+})
       }
     >
       {type2Data.title}
@@ -49,11 +51,12 @@ export default function TypePage({ onBack }) {
     <button
       className="rathmer-meta-button"
       onClick={() =>
-        setSelectedItem({
-          subtype: "Seite",
-          title: type2Data.sideInfo.title,
-          content: type2Data.sideInfo.content,
-        })
+        setSelectedCoreItem({
+  area: "center",
+  subtype: "Zentrum",
+  title: type2Data.centerInfo.title,
+  content: type2Data.centerInfo.content,
+})
       }
     >
       {type2Data.side}
