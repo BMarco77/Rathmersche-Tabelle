@@ -37,11 +37,11 @@ export default function TypePage({ onBack }) {
     <button
       className="rathmer-meta-button"
       onClick={() =>
-        setSelectedCoreItem({
-  area: "center",
-  subtype: "Zentrum",
-  title: type2Data.centerInfo.title,
-  content: type2Data.centerInfo.content,
+       setSelectedCoreItem({
+  area: "type",
+  subtype: "Typ 2",
+  title: type2Data.typeInfo.title,
+  content: type2Data.typeInfo.content,
 })
       }
     >
@@ -52,10 +52,10 @@ export default function TypePage({ onBack }) {
       className="rathmer-meta-button"
       onClick={() =>
         setSelectedCoreItem({
-  area: "center",
-  subtype: "Zentrum",
-  title: type2Data.centerInfo.title,
-  content: type2Data.centerInfo.content,
+  area: "type",
+  subtype: "Seite",
+  title: type2Data.sideInfo.title,
+  content: type2Data.sideInfo.content,
 })
       }
     >
