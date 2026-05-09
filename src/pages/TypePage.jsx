@@ -67,37 +67,16 @@ export default function TypePage({ onBack }) {
       )}
 
       {/* Hauptkarte */}
-     <div className="rathmer-main-card-content">
-  <div className="rathmer-main-glow" />
+<div
+  className="rathmer-main-card"
+  style={{
+    background: `linear-gradient(135deg, ${type2Data.color}, #8b35c9)`,
+  }}
+>
+  <div className="rathmer-main-card-content">
+    <div className="rathmer-main-glow" />
+  </div>
 </div>
-        <button
-          className="rathmer-title-button"
-          onClick={() =>
-            setSelectedCoreItem({
-              area: "type",
-              subtype: "Typ 2",
-              title: type2Data.typeInfo.title,
-              content: type2Data.typeInfo.content,
-            })
-          }
-        >
-          {type2Data.title}
-        </button>
-
-        <button
-          className="rathmer-side-button"
-          onClick={() =>
-            setSelectedCoreItem({
-              area: "type",
-              subtype: "Seite",
-              title: type2Data.sideInfo.title,
-              content: type2Data.sideInfo.content,
-            })
-          }
-        >
-          {type2Data.side}
-        </button>
-      </div>
 
       {/* Typ Info */}
       {selectedCoreItem?.area === "type" && (
