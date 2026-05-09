@@ -458,3 +458,30 @@ button {
       transparent 40%
     );
 }
+
+.rathmer-main-card-compact {
+  min-height: auto;
+  padding: 2rem 2.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.rathmer-main-card-compact h2 {
+  font-size: 2.6rem;
+  margin: 0 0 0.5rem;
+}
+
+.rathmer-main-card-compact p {
+  margin: 0 0 0.8rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+.rathmer-main-card-compact span {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+  font-weight: 700;
+}
