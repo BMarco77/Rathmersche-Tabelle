@@ -4,7 +4,8 @@ import { type2Data } from "../data/types/type2";
 import "../rathmer/rathmer.css";
 
 export default function TypePage({ onBack }) {
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedCoreItem, setSelectedCoreItem] = useState(null);
+  const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
 
   return (
     <div className="rathmer-page">
@@ -20,7 +21,7 @@ export default function TypePage({ onBack }) {
         <button
           className="rathmer-center-button"
           onClick={() =>
-            setSelectedItem({
+            setSelectedCoreItem({
               subtype: "Zentrum",
               title: type2Data.centerInfo.title,
               content: type2Data.centerInfo.content,
@@ -40,7 +41,7 @@ export default function TypePage({ onBack }) {
         <button
           className="rathmer-title-button"
           onClick={() =>
-            setSelectedItem({
+            setSelectedCoreItem({
               subtype: "Typ 2",
               title: type2Data.typeInfo.title,
               content: type2Data.typeInfo.content,
@@ -53,7 +54,7 @@ export default function TypePage({ onBack }) {
         <button
           className="rathmer-side-button"
           onClick={() =>
-            setSelectedItem({
+            setSelectedCoreItem({
               subtype: "Seite",
               title: type2Data.sideInfo.title,
               content: type2Data.sideInfo.content,
@@ -70,7 +71,7 @@ export default function TypePage({ onBack }) {
             key={module.label}
             className="rathmer-core-button"
             onClick={() =>
-              setSelectedItem({
+              setSelectedCoreItem({
                 type: type2Data.type,
                 title: module.label,
                 content: module.content,
@@ -81,6 +82,19 @@ export default function TypePage({ onBack }) {
           </button>
         ))}
       </div>
+
+      {selectedCoreItem && (
+        <div className="rathmer-core-info-panel">
+          <span className="rathmer-info-type">
+            {selectedCoreItem.subtype
+              ? selectedCoreItem.subtype.toUpperCase()
+              : `TYP ${selectedCoreItem.type}`}
+          </span>
+
+          <h2>{selectedCoreItem.title}</h2>
+          <p>{selectedCoreItem.content}</p>
+        </div>
+      )}
 
       <div className="rathmer-layout">
         <div className="rathmer-subtypes">
@@ -100,7 +114,7 @@ export default function TypePage({ onBack }) {
                     key={trait.label}
                     className="rathmer-trait-button"
                     onClick={() =>
-                      setSelectedItem({
+                      setSelectedSubtypeItem({
                         subtype: subtype.code,
                         title: trait.label,
                         content: trait.content,
@@ -118,7 +132,7 @@ export default function TypePage({ onBack }) {
                     key={module.label}
                     className="rathmer-module-button"
                     onClick={() =>
-                      setSelectedItem({
+                      setSelectedSubtypeItem({
                         subtype: subtype.code,
                         title: module.label,
                         content: module.content,
@@ -134,24 +148,22 @@ export default function TypePage({ onBack }) {
         </div>
 
         <div className="rathmer-info-panel">
-          {selectedItem ? (
+          {selectedSubtypeItem ? (
             <>
               <span className="rathmer-info-type">
-                {selectedItem.subtype
-                  ? selectedItem.subtype.toUpperCase()
-                  : `TYP ${selectedItem.type}`}
+                {selectedSubtypeItem.subtype.toUpperCase()}
               </span>
 
-              <h2>{selectedItem.title}</h2>
-              <p>{selectedItem.content}</p>
+              <h2>{selectedSubtypeItem.title}</h2>
+              <p>{selectedSubtypeItem.content}</p>
             </>
           ) : (
             <>
-              <span className="rathmer-info-type">INFO</span>
-              <h2>Wissensmodul</h2>
+              <span className="rathmer-info-type">SUBTYP</span>
+              <h2>Subtyp-Wissen</h2>
               <p>
-                Klicke auf ein Modul, Trait oder Feld, um Informationen
-                anzuzeigen.
+                Klicke auf einen Trait oder ein Modul innerhalb von se2, so2
+                oder sx2, um die zugehörigen Informationen anzuzeigen.
               </p>
             </>
           )}
