@@ -368,3 +368,30 @@ button {
 .rathmer-center-button:hover {
   opacity: 0.7;
 }
+.rathmer-core-info-panel {
+  max-width: 1100px;
+  margin: 0 auto 2.5rem;
+  padding: 2rem 2.3rem;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 248, 235, 0.72),
+    rgba(245, 226, 198, 0.72)
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 2rem;
+
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+}
+
+.rathmer-core-info-panel h2 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+}
+
+.rathmer-core-info-panel p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
