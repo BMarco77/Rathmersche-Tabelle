@@ -14,25 +14,52 @@ export default function TypePage({ onBack }) {
       </button>
 
       {/* Kopfbereich */}
-      <div className="rathmer-type-top">
-        <div className="rathmer-wappen">
-          <img src={wappen} alt="Wappen" />
-        </div>
+      <div className="rathmer-top-nav">
+  <div className="rathmer-wappen">
+    <img src={wappen} alt="Wappen" />
+  </div>
 
-        <button
-          className="rathmer-center-button"
-          onClick={() =>
-            setSelectedCoreItem({
-              area: "center",
-              subtype: "Zentrum",
-              title: type2Data.centerInfo.title,
-              content: type2Data.centerInfo.content,
-            })
-          }
-        >
-          {type2Data.center}
-        </button>
-      </div>
+  <div className="rathmer-meta-nav">
+    <button
+      className="rathmer-meta-button"
+      onClick={() =>
+        setSelectedItem({
+          subtype: "Zentrum",
+          title: type2Data.centerInfo.title,
+          content: type2Data.centerInfo.content,
+        })
+      }
+    >
+      {type2Data.center}
+    </button>
+
+    <button
+      className="rathmer-meta-button"
+      onClick={() =>
+        setSelectedItem({
+          subtype: "Typ 2",
+          title: type2Data.typeInfo.title,
+          content: type2Data.typeInfo.content,
+        })
+      }
+    >
+      {type2Data.title}
+    </button>
+
+    <button
+      className="rathmer-meta-button"
+      onClick={() =>
+        setSelectedItem({
+          subtype: "Seite",
+          title: type2Data.sideInfo.title,
+          content: type2Data.sideInfo.content,
+        })
+      }
+    >
+      {type2Data.side}
+    </button>
+  </div>
+</div>
 
       {/* Zentrum Info */}
       {selectedCoreItem?.area === "center" && (
@@ -40,12 +67,9 @@ export default function TypePage({ onBack }) {
       )}
 
       {/* Hauptkarte */}
-      <div
-        className="rathmer-main-card"
-        style={{
-          background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
-        }}
-      >
+     <div className="rathmer-main-card-content">
+  <div className="rathmer-main-glow" />
+</div>
         <button
           className="rathmer-title-button"
           onClick={() =>
