@@ -5,6 +5,23 @@ export const rathmerData = {
   side: "weibliche Seite",
   color: "#9b4dcc",
 
+  centerInfo: {
+  title: "Herz-Menschen",
+  content:
+    "Die Herzmenschen umfassen die Typen 2, 3 und 4. Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz."
+},
+
+typeInfo: {
+  title: "2 - Liebe",
+  content:
+    "Überentwickelte Herzenergie. Liebe wird nach außen gerichtet. Grundmotivation: Liebe. Abwehrmechanismus: Liebe als Tauschhandel."
+},
+
+sideInfo: {
+  title: "weibliche Seite",
+  content:
+    "Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus."
+},
   coreModules: [
     {
       label: "Bewusstseinsstufen",
