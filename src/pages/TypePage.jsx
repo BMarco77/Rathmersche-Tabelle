@@ -7,7 +7,8 @@ export default function TypePage({ onBack }) {
   const [selectedTopItem, setSelectedTopItem] = useState(null);
   const [selectedTheoryItem, setSelectedTheoryItem] = useState(null);
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
-
+  const theoryRow1 = type2Data.coreModules.slice(0, 4);
+  const theoryRow2 = type2Data.coreModules.slice(4, 8);
   return (
     <div className="rathmer-page">
       {/* BACK */}
@@ -72,30 +73,55 @@ export default function TypePage({ onBack }) {
       )}
 
       {/* THEORY GRID */}
-      <section className="rathmer-theory-grid">
-        {type2Data.coreModules.map((module) => (
-          <button
-            key={module.label}
-            className="rathmer-theory-button"
-            onClick={() =>
-              setSelectedTheoryItem({
-                title: module.label,
-                content: module.content,
-              })
-            }
-          >
-            {module.label}
-          </button>
-        ))}
-      </section>
+     <section className="rathmer-theory-grid">
+  {theoryRow1.map((module) => (
+    <button
+      key={module.label}
+      className="rathmer-theory-button"
+      onClick={() =>
+        setSelectedTheoryItem({
+          row: 1,
+          title: module.label,
+          content: module.content,
+        })
+      }
+    >
+      {module.label}
+    </button>
+  ))}
+</section>
 
-      {/* THEORY INFO */}
-      {selectedTheoryItem && (
-        <div className="rathmer-inline-info">
-          <h2>{selectedTheoryItem.title}</h2>
-          <p>{selectedTheoryItem.content}</p>
-        </div>
-      )}
+{selectedTheoryItem?.row === 1 && (
+  <div className="rathmer-inline-info">
+    <h2>{selectedTheoryItem.title}</h2>
+    <p>{selectedTheoryItem.content}</p>
+  </div>
+)}
+
+<section className="rathmer-theory-grid">
+  {theoryRow2.map((module) => (
+    <button
+      key={module.label}
+      className="rathmer-theory-button"
+      onClick={() =>
+        setSelectedTheoryItem({
+          row: 2,
+          title: module.label,
+          content: module.content,
+        })
+      }
+    >
+      {module.label}
+    </button>
+  ))}
+</section>
+
+{selectedTheoryItem?.row === 2 && (
+  <div className="rathmer-inline-info">
+    <h2>{selectedTheoryItem.title}</h2>
+    <p>{selectedTheoryItem.content}</p>
+  </div>
+)}
 
       {/* MAIN GRID */}
       <section className="rathmer-main-grid">
