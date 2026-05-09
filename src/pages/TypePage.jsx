@@ -13,7 +13,7 @@ export default function TypePage({ onBack }) {
 </button>
       <div className="rathmer-type-top">
   <div className="rathmer-wappen">
-    <img src="/wappen-512.png" alt="Wappen" />
+    <img src={wappen} alt="Wappen" />
   </div>
 
   <button
