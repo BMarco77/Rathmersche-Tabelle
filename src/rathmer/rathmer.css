@@ -627,3 +627,175 @@ button {
   box-shadow:
     0 10px 18px rgba(0,0,0,0.14);
 }
+
+/* =========================
+   V3 LAYOUT
+========================= */
+
+.rathmer-header-v3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.rathmer-header-v3 h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.rathmer-top-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.rathmer-top-button,
+.rathmer-theory-button {
+  border: none;
+  background: rgba(255,255,255,0.34);
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 1.3rem;
+
+  padding: 1rem 1.2rem;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.22s ease;
+
+  box-shadow:
+    0 8px 18px rgba(0,0,0,0.08);
+}
+
+.rathmer-top-button:hover,
+.rathmer-theory-button:hover {
+  transform: translateY(-2px);
+
+  background: rgba(255,255,255,0.5);
+}
+
+.rathmer-inline-info {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.52),
+      rgba(255,255,255,0.34)
+    );
+
+  border-radius: 1.6rem;
+
+  padding: 1.8rem;
+
+  margin-bottom: 2rem;
+
+  box-shadow:
+    0 12px 24px rgba(0,0,0,0.08);
+}
+
+.rathmer-inline-info h2 {
+  margin-top: 0;
+}
+
+.rathmer-theory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+
+  margin-bottom: 1.2rem;
+}
+
+.rathmer-main-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(3, 1fr)
+    420px;
+
+  gap: 1.2rem;
+
+  align-items: start;
+}
+
+.rathmer-subtype-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rathmer-subtype-header {
+  border-radius: 1.4rem;
+
+  padding: 1.1rem;
+
+  color: white;
+
+  text-align: center;
+
+  box-shadow:
+    0 12px 24px rgba(0,0,0,0.16);
+}
+
+.rathmer-subtype-header h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.rathmer-trait-grid,
+.rathmer-module-grid {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.rathmer-side-info {
+  position: sticky;
+  top: 2rem;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.5),
+      rgba(255,255,255,0.32)
+    );
+
+  border-radius: 1.8rem;
+
+  padding: 2rem;
+
+  min-height: 520px;
+
+  box-shadow:
+    0 12px 24px rgba(0,0,0,0.1);
+}
+
+.rathmer-info-label {
+  display: block;
+
+  font-size: 0.82rem;
+
+  letter-spacing: 0.12em;
+
+  opacity: 0.6;
+
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .rathmer-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rathmer-side-info {
+    position: static;
+  }
+}
+
+@media (max-width: 900px) {
+  .rathmer-top-grid,
+  .rathmer-theory-grid {
+    grid-template-columns: 1fr;
+  }
+}
