@@ -22,7 +22,7 @@ const centers = [
   {
     title: "Bauch-Menschen",
     types: [
-      { number: 8, name: "Kraft", color: TYPE_COLORS[8] },
+      { number: 8, name: "Macht", color: TYPE_COLORS[8] },
       { number: 9, name: "Harmonie", color: TYPE_COLORS[9] },
       { number: 1, name: "Perfektion", color: TYPE_COLORS[1] },
     ],
