@@ -36,15 +36,13 @@ export default function TypePage({ onBack }) {
         <button
           className="rathmer-top-button"
           onClick={() => {
-  if (
-    selectedTopItem?.title ===
-    type2Data.centerInfo.title
-  ) {
+  if (selectedTopItem?.id === "center") {
     setSelectedTopItem(null);
     return;
   }
 
   setSelectedTopItem({
+    id: "center",
     title: type2Data.centerInfo.title,
     content: type2Data.centerInfo.content,
   });
@@ -56,15 +54,13 @@ export default function TypePage({ onBack }) {
         <button
           className="rathmer-top-button"
          onClick={() => {
-  if (
-    selectedTopItem?.title ===
-    type2Data.centerInfo.title
-  ) {
+  if (selectedTopItem?.id === "type") {
     setSelectedTopItem(null);
     return;
   }
 
   setSelectedTopItem({
+    id: "center",
     title: type2Data.centerInfo.title,
     content: type2Data.centerInfo.content,
   });
@@ -76,15 +72,13 @@ export default function TypePage({ onBack }) {
         <button
           className="rathmer-top-button"
           onClick={() => {
-  if (
-    selectedTopItem?.title ===
-    type2Data.centerInfo.title
-  ) {
+  if (selectedTopItem?.id === "side") {
     setSelectedTopItem(null);
     return;
   }
 
   setSelectedTopItem({
+    id: "center",
     title: type2Data.centerInfo.title,
     content: type2Data.centerInfo.content,
   });
