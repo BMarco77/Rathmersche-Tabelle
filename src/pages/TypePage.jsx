@@ -343,19 +343,13 @@ export default function TypePage({ onBack }) {
         >
           {selectedSubtypeItem ? (
             <>
-              <span className="rathmer-info-label">
-                {selectedSubtypeItem.subtype.toUpperCase()}
-              </span>
+             <span className="rathmer-info-label">
+  {selectedSubtypeItem.subtype.toUpperCase()}
+</span>
 
-              <h2>
-                {selectedSubtypeItem.title}
-              </h2>
+<h2>{selectedSubtypeItem.title}</h2>
 
-              <p>
-                {
-                  selectedSubtypeItem.content
-                }
-              </p>
+<p>{selectedSubtypeItem.content}</p>
             </>
           ) : (
             <div className="rathmer-side-placeholder">
