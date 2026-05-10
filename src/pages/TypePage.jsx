@@ -196,29 +196,27 @@ export default function TypePage({ onBack }) {
     </div>
   ))}
 
-  <aside className="rathmer-side-info">
-    {selectedSubtypeItem ? (
-      <>
-        <span className="rathmer-info-label">
-          {selectedSubtypeItem.subtype.toUpperCase()}
-        </span>
+  <aside
+  className={`rathmer-side-info ${
+    selectedSubtypeItem ? "is-expanded" : ""
+  }`}
+>
+  {selectedSubtypeItem ? (
+    <>
+      <span className="rathmer-info-label">
+        {selectedSubtypeItem.subtype.toUpperCase()}
+      </span>
 
-        <h2>{selectedSubtypeItem.title}</h2>
+      <h2>{selectedSubtypeItem.title}</h2>
 
-        <p>{selectedSubtypeItem.content}</p>
-      </>
-    ) : (
-      <>
-        <span className="rathmer-info-label">SUBTYP</span>
-
-        <h2>Subtyp-Wissen</h2>
-
-        <p>
-          Wähle ein Trait oder Modul aus, um Informationen anzuzeigen.
-        </p>
-      </>
-    )}
-  </aside>
+      <p>{selectedSubtypeItem.content}</p>
+    </>
+  ) : (
+    <div className="rathmer-side-placeholder">
+      <span>Wissen</span>
+    </div>
+  )}
+</aside>
 </section>
     </div>
   );
