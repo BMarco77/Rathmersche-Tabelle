@@ -60,10 +60,10 @@ export default function TypePage({ onBack }) {
   }
 
   setSelectedTopItem({
-    id: "center",
-    title: type2Data.centerInfo.title,
-    content: type2Data.centerInfo.content,
-  });
+  id: "type",
+  title: type2Data.typeInfo.title,
+  content: type2Data.typeInfo.content,
+});
 }}
         >
           {type2Data.title}
@@ -78,10 +78,10 @@ export default function TypePage({ onBack }) {
   }
 
   setSelectedTopItem({
-    id: "center",
-    title: type2Data.centerInfo.title,
-    content: type2Data.centerInfo.content,
-  });
+  id: "side",
+  title: type2Data.sideInfo.title,
+  content: type2Data.sideInfo.content,
+});
 }}
         >
           {type2Data.side}
