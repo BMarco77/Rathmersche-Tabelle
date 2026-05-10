@@ -55,24 +55,40 @@ export default function TypePage({ onBack }) {
 
         <button
           className="rathmer-top-button"
-          onClick={() =>
-            setSelectedTopItem({
-              title: type2Data.typeInfo.title,
-              content: type2Data.typeInfo.content,
-            })
-          }
+          onClick={() => {
+  if (
+    selectedTopItem?.title ===
+    type2Data.centerInfo.title
+  ) {
+    setSelectedTopItem(null);
+    return;
+  }
+
+  setSelectedTopItem({
+    title: type2Data.centerInfo.title,
+    content: type2Data.centerInfo.content,
+  });
+}}
         >
           {type2Data.title}
         </button>
 
         <button
           className="rathmer-top-button"
-          onClick={() =>
-            setSelectedTopItem({
-              title: type2Data.sideInfo.title,
-              content: type2Data.sideInfo.content,
-            })
-          }
+          onClick={() => {
+  if (
+    selectedTopItem?.title ===
+    type2Data.centerInfo.title
+  ) {
+    setSelectedTopItem(null);
+    return;
+  }
+
+  setSelectedTopItem({
+    title: type2Data.centerInfo.title,
+    content: type2Data.centerInfo.content,
+  });
+}}
         >
           {type2Data.side}
         </button>
