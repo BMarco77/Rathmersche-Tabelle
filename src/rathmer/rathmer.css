@@ -956,7 +956,7 @@ button {
     color 0.35s ease,
     transform 0.25s ease;
 
-  min-height: 84px;
+  min-height: 94px;
 
   padding: 0;
 
@@ -969,36 +969,24 @@ button {
 
 .rathmer-side-info.is-expanded {
   background: rgba(255,255,255,0.32);
-
   color: #1f140c;
-
   backdrop-filter: blur(10px);
-
   min-height: 420px;
-
   padding: 2rem;
-
-  border:
-    1px solid rgba(255,255,255,0.42);
-
-  box-shadow:
-    0 16px 38px rgba(0,0,0,0.10);
+  border: 1px solid rgba(255,255,255,0.42);
+  box-shadow:  0 16px 38px rgba(0,0,0,0.10);
 }
 
 .rathmer-side-placeholder {
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
-  height: 84px;
-
-  font-size: 1.4rem;
-
+  height: 100%;
+  width: 100%;
+  font-size: 3rem;
   font-weight: 700;
-
-  letter-spacing: 0.08em;
-
-  color: rgba(35, 20, 12, 0.72);
+  color: white;
+  letter-spacing: 0.02em;
+  text-shadow:
+    0 2px 12px rgba(0,0,0,0.18);
 }
