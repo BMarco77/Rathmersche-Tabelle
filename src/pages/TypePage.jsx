@@ -55,7 +55,7 @@ export default function TypePage({ onBack }) {
 
         <button
           className="rathmer-top-button"
-          onClick={() => {
+         onClick={() => {
   if (
     selectedTopItem?.title ===
     type2Data.centerInfo.title
