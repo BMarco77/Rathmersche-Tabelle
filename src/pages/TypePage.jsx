@@ -347,8 +347,6 @@ export default function TypePage({ onBack }) {
   {selectedSubtypeItem.subtype.toUpperCase()}
 </span>
 
-<h2>{selectedSubtypeItem.title}</h2>
-
 <p>{selectedSubtypeItem.content}</p>
             </>
           ) : (
