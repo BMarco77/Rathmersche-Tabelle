@@ -130,107 +130,96 @@ export default function TypePage({ onBack }) {
 )}
 
       {/* MAIN GRID */}
-      <section className="rathmer-main-grid">
-        {/* SE */}
-        {type2Data.subtypes.map((subtype) => (
-          <div
-            key={subtype.code}
-            className="rathmer-subtype-column"
-          >
-            <button
-  className={`rathmer-subtype-header ${
-    openSubtype === subtype.code ? "is-open" : ""
-  }`}
-  style={{
-    background: `linear-gradient(
-      135deg,
-      ${type2Data.color},
-      #7b2cbf
-    )`,
-  }}
-  onClick={() => {
-    setOpenSubtype(openSubtype === subtype.code ? null : subtype.code);
-    setSelectedSubtypeItem({
-      subtype: subtype.code,
-      title: subtype.code.toUpperCase(),
-      content:
-        subtype.subtypeInfo ||
-        `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
-    });
-  }}
->
-  <h3>{subtype.code}</h3>
-</button>
+<section className="rathmer-main-grid">
+  {type2Data.subtypes.map((subtype) => (
+    <div key={subtype.code} className="rathmer-subtype-column">
+      <button
+        className={`rathmer-subtype-header ${
+          openSubtype === subtype.code ? "is-open" : ""
+        }`}
+        style={{
+          background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
+        }}
+        onClick={() => {
+          setOpenSubtype(openSubtype === subtype.code ? null : subtype.code);
+          setSelectedSubtypeItem({
+            subtype: subtype.code,
+            title: subtype.code.toUpperCase(),
+            content:
+              subtype.subtypeInfo ||
+              `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
+          });
+        }}
+      >
+        <h3>{subtype.code}</h3>
+      </button>
 
-            {/* TRAITS */}
-            {openSubtype === subtype.code && (
-  <>
-    <div className="rathmer-trait-grid">
-      {subtype.traits.map((trait) => (
-        <button
-          key={trait.label}
-          className="rathmer-trait-button"
-          onClick={() =>
-            setSelectedSubtypeItem({
-              subtype: subtype.code,
-              title: trait.label,
-              content: trait.content,
-            })
-          }
-        >
-          {trait.label}
-        </button>
-      ))}
+      {openSubtype === subtype.code && (
+        <>
+          <div className="rathmer-trait-grid">
+            {subtype.traits.map((trait) => (
+              <button
+                key={trait.label}
+                className="rathmer-trait-button"
+                onClick={() =>
+                  setSelectedSubtypeItem({
+                    subtype: subtype.code,
+                    title: trait.label,
+                    content: trait.content,
+                  })
+                }
+              >
+                {trait.label}
+              </button>
+            ))}
+          </div>
+
+          <div className="rathmer-module-grid">
+            {subtype.modules.map((module) => (
+              <button
+                key={module.label}
+                className="rathmer-module-button"
+                onClick={() =>
+                  setSelectedSubtypeItem({
+                    subtype: subtype.code,
+                    title: module.label,
+                    content: module.content,
+                  })
+                }
+              >
+                {module.label}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
     </div>
+  ))}
 
-    <div className="rathmer-module-grid">
-      {subtype.modules.map((module) => (
-        <button
-          key={module.label}
-          className="rathmer-module-button"
-          onClick={() =>
-            setSelectedSubtypeItem({
-              subtype: subtype.code,
-              title: module.label,
-              content: module.content,
-            })
-          }
-        >
-          {module.label}
-        </button>
-      ))}
-    </div>
-  </>
-)}
+  <aside className="rathmer-side-info">
+    {selectedSubtypeItem ? (
+      <>
+        <span className="rathmer-info-label">
+          {selectedSubtypeItem.subtype.toUpperCase()}
+        </span>
 
-        {/* SIDE INFO */}
-        <aside className="rathmer-side-info">
-          {selectedSubtypeItem ? (
-            <>
-              <span className="rathmer-info-label">
-                {selectedSubtypeItem.subtype.toUpperCase()}
-              </span>
+        <h2>{selectedSubtypeItem.title}</h2>
 
-              <h2>{selectedSubtypeItem.title}</h2>
+        <p>{selectedSubtypeItem.content}</p>
+      </>
+    ) : (
+      <>
+        <span className="rathmer-info-label">SUBTYP</span>
 
-              <p>{selectedSubtypeItem.content}</p>
-            </>
-          ) : (
-            <>
-              <span className="rathmer-info-label">
-                SUBTYP
-              </span>
+        <h2>Subtyp-Wissen</h2>
 
-              <h2>Subtyp-Wissen</h2>
-
-              <p>
-                Wähle ein Trait oder Modul aus,
-                um Informationen anzuzeigen.
-              </p>
-            </>
-          )}
-        </aside>
-      </section>
+        <p>
+          Wähle ein Trait oder Modul aus, um Informationen anzuzeigen.
+        </p>
+      </>
+    )}
+  </aside>
+</section>
     </div>
   );
 }
