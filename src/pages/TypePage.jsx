@@ -35,12 +35,20 @@ export default function TypePage({ onBack }) {
       <section className="rathmer-top-grid">
         <button
           className="rathmer-top-button"
-          onClick={() =>
-            setSelectedTopItem({
-              title: type2Data.centerInfo.title,
-              content: type2Data.centerInfo.content,
-            })
-          }
+          onClick={() => {
+  if (
+    selectedTopItem?.title ===
+    type2Data.centerInfo.title
+  ) {
+    setSelectedTopItem(null);
+    return;
+  }
+
+  setSelectedTopItem({
+    title: type2Data.centerInfo.title,
+    content: type2Data.centerInfo.content,
+  });
+}}
         >
           {type2Data.center}
         </button>
