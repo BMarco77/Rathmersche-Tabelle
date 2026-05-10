@@ -931,24 +931,29 @@ button {
 }
 
 .rathmer-side-info {
-  background: rgba(255,255,255,0.28);
+  background: linear-gradient(
+    135deg,
+    rgba(155, 77, 204, 0.92),
+    rgba(123, 44, 191, 0.92)
+  );
+
+  color: white;
 
   border:
-    1px solid rgba(255,255,255,0.38);
+    1px solid rgba(255,255,255,0.18);
 
   border-radius: 28px;
 
-  backdrop-filter: blur(10px);
-
   box-shadow:
-    0 10px 28px rgba(0,0,0,0.08);
+    0 14px 34px rgba(0,0,0,0.14);
 
   overflow: hidden;
 
   transition:
     min-height 0.35s ease,
     padding 0.35s ease,
-    box-shadow 0.35s ease,
+    background 0.35s ease,
+    color 0.35s ease,
     transform 0.25s ease;
 
   min-height: 84px;
@@ -963,9 +968,21 @@ button {
 }
 
 .rathmer-side-info.is-expanded {
+  background: rgba(255,255,255,0.32);
+
+  color: #1f140c;
+
+  backdrop-filter: blur(10px);
+
   min-height: 420px;
 
   padding: 2rem;
+
+  border:
+    1px solid rgba(255,255,255,0.42);
+
+  box-shadow:
+    0 16px 38px rgba(0,0,0,0.10);
 }
 
 .rathmer-side-placeholder {
