@@ -972,21 +972,31 @@ button {
   color: #1f140c;
   backdrop-filter: blur(10px);
   min-height: 420px;
-  padding: 2rem;
+  padding: 0 24px;
   border: 1px solid rgba(255,255,255,0.42);
   box-shadow:  0 16px 38px rgba(0,0,0,0.10);
 }
 
 .rathmer-side-placeholder {
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
   height: 100%;
+
   width: 100%;
-  font-size: 3rem;
+
+  font-size: 1.15rem;
+
   font-weight: 700;
+
   color: white;
+
   letter-spacing: 0.02em;
+
   text-shadow:
     0 2px 12px rgba(0,0,0,0.18);
+}
 }
