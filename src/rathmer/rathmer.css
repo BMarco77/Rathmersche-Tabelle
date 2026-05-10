@@ -266,7 +266,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background: rgba(155, 77, 204, 0.06);}
+  }
 
 .rathmer-subtype-header {
   width: 100%;
@@ -630,7 +630,7 @@ align-items: flex-start;
 .rathmer-subtype-column:has(.is-open) {
   padding: 0.35rem;
   border-radius: 1.7rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(155, 77, 204, 0.06);
 }
 .rathmer-side-info h2 {
   display: block;
