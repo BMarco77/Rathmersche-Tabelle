@@ -141,15 +141,21 @@ export default function TypePage({ onBack }) {
           background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
         }}
         onClick={() => {
-          setOpenSubtype(openSubtype === subtype.code ? null : subtype.code);
-          setSelectedSubtypeItem({
-            subtype: subtype.code,
-            title: subtype.code.toUpperCase(),
-            content:
-              subtype.subtypeInfo ||
-              `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
-          });
-        }}
+  if (openSubtype === subtype.code) {
+    setOpenSubtype(null);
+    setSelectedSubtypeItem(null);
+    return;
+  }
+
+  setOpenSubtype(subtype.code);
+  setSelectedSubtypeItem({
+    subtype: subtype.code,
+    title: subtype.code.toUpperCase(),
+    content:
+      subtype.subtypeInfo ||
+      `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
+  });
+}}
       >
         <h3>{subtype.code}</h3>
       </button>
