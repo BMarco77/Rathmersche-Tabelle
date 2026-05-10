@@ -403,9 +403,8 @@ button {
 }
 
 .rathmer-side-info.is-expanded {
-  align-items: flex-start;
   justify-content: flex-start;
-
+align-items: flex-start;
   height: auto;
   min-height: 420px;
 
@@ -636,4 +635,8 @@ button {
   padding: 0.35rem;
   border-radius: 1.7rem;
   background: rgba(255, 255, 255, 0.08);
+}
+.rathmer-side-info h2 {
+  display: block;
+  width: 100%;
 }
