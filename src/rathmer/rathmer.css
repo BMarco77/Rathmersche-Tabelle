@@ -316,10 +316,10 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.18);
 
   background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.20),
-    rgba(255, 255, 255, 0.10)
-  );
+  180deg,
+  rgba(255,255,255,0.30),
+  rgba(255,255,255,0.16)
+);
 
   color: white;
 
@@ -637,4 +637,10 @@ button {
 
   box-shadow:
     0 14px 24px rgba(0,0,0,0.14);
+}
+
+.rathmer-subtype-column:has(.is-open) {
+  padding: 0.35rem;
+  border-radius: 1.7rem;
+  background: rgba(255, 255, 255, 0.08);
 }
