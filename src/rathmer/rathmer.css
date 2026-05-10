@@ -500,3 +500,135 @@ button {
     left: 1rem;
   }
 }
+/* =========================
+   SUBTYPE CONTENT
+========================= */
+
+.rathmer-trait-grid,
+.rathmer-module-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.rathmer-trait-grid {
+  margin-top: -0.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.rathmer-module-grid {
+  padding-top: 0.4rem;
+
+  border-top:
+    1px solid rgba(255,255,255,0.08);
+}
+
+/* =========================
+   TRAIT BUTTONS
+========================= */
+
+.rathmer-trait-button {
+  border:
+    1px solid rgba(255,255,255,0.12);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.14),
+      rgba(255,255,255,0.06)
+    );
+
+  color: rgba(255,255,255,0.94);
+
+  min-height: 56px;
+
+  padding: 0.85rem 1rem;
+
+  border-radius: 1.1rem;
+
+  cursor: pointer;
+
+  font-weight: 700;
+
+  font-size: 0.98rem;
+
+  transition:
+    transform 0.18s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 8px 18px rgba(0,0,0,0.08);
+
+  text-align: center;
+}
+
+.rathmer-trait-button:hover {
+  transform: translateY(-1px);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.20),
+      rgba(255,255,255,0.10)
+    );
+
+  box-shadow:
+    0 12px 22px rgba(0,0,0,0.12);
+}
+
+/* =========================
+   MODULE BUTTONS
+========================= */
+
+.rathmer-module-button {
+  border:
+    1px solid rgba(255,255,255,0.10);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.10),
+      rgba(255,255,255,0.04)
+    );
+
+  color: rgba(255,255,255,0.96);
+
+  min-height: 64px;
+
+  padding: 1rem 1.1rem;
+
+  border-radius: 1.2rem;
+
+  cursor: pointer;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  transition:
+    transform 0.2s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease;
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,0.08);
+
+  text-align: left;
+}
+
+.rathmer-module-button:hover {
+  transform: translateX(2px);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.18),
+      rgba(255,255,255,0.08)
+    );
+
+  box-shadow:
+    0 14px 24px rgba(0,0,0,0.14);
+}
