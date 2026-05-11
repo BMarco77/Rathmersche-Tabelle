@@ -761,3 +761,15 @@ button {
     transition: none !important;
   }
 }
+.rathmer-top-button.is-active,
+.rathmer-theory-button.is-active {
+  border-color: rgba(155, 77, 204, 0.55);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.82),
+    rgba(255, 255, 255, 0.58)
+  );
+  box-shadow:
+    0 14px 30px rgba(155, 77, 204, 0.18),
+    0 0 0 1px rgba(155, 77, 204, 0.18) inset;
+}
