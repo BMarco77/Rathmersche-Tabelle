@@ -63,6 +63,9 @@ button {
   top: 2rem;
   left: 2rem;
   z-index: 50;
+  font-size: 0.85rem;
+  padding: 0.55rem 0.85rem;
+  opacity: 0.82;
 
   border: none;
   border-radius: 999px;
@@ -614,6 +617,11 @@ button {
   .rathmer-center-section h2 {
     font-size: 1.55rem;
   }
+
+  .rathmer-back-button {
+  font-size: 0.78rem;
+  padding: 0.45rem 0.7rem;
+}
 
   .rathmer-type-button,
   .rathmer-top-button,
