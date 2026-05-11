@@ -24,11 +24,11 @@ button {
    HEADER / BRAND
 ========================= */
 
-.rathmer-home-header h1 {
-  font-size: 4rem;
-  line-height: 0.95;
-  letter-spacing: -0.02em;
-  margin: 0 0 1rem;
+.rathmer-home-header {
+  text-align: center;
+  max-width: 900px;
+  min-height: 250px;
+  margin: 0 auto 4rem;
 }
 
 .rathmer-wappen {
@@ -46,15 +46,17 @@ button {
 
 .rathmer-home-header h1 {
   font-size: 4rem;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
   margin: 0 0 1rem;
 }
 
-.rathmer-home-header {
-  text-align: center;
-  max-width: 900px;
-  min-height: 250px;
-  margin: 0 auto 4rem;
+.rathmer-home-header p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  opacity: 0.75;
 }
+
 /* =========================
    BACK BUTTON
 ========================= */
@@ -64,10 +66,6 @@ button {
   top: 2rem;
   left: 2rem;
   z-index: 50;
-  font-size: 0.85rem;
-  padding: 0.55rem 0.85rem;
-  opacity: 0.82;
-  color: #2d1d16;
 
   border: none;
   border-radius: 999px;
@@ -75,12 +73,17 @@ button {
   background: rgba(255, 255, 255, 0.34);
   backdrop-filter: blur(10px);
 
-  padding: 0.75rem 1.1rem;
+  padding: 0.55rem 0.85rem;
 
   cursor: pointer;
+
+  font-size: 0.85rem;
   font-weight: 700;
+  color: #2d1d16;
+  opacity: 0.82;
 
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+
   transition: all 0.22s ease;
 }
 
@@ -102,14 +105,13 @@ button {
 .rathmer-center-section {
   background: rgba(255, 248, 235, 0.34);
   border: 1px solid rgba(255, 255, 255, 0.42);
-
   border-radius: 1.7rem;
 
   padding: 1.5rem 1.55rem;
 
- box-shadow:
-  0 14px 30px rgba(0, 0, 0, 0.12),
-  inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  box-shadow:
+    0 14px 30px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
 .rathmer-center-section h2 {
@@ -125,15 +127,10 @@ button {
 
 .rathmer-type-button {
   border: 1px solid rgba(255, 255, 255, 0.14);
-  color: rgba(255, 255, 255, 0.92);
-
   border-radius: 1.3rem;
-  padding: 0.95rem 1.15rem;
 
   min-height: 68px;
-
-  cursor: pointer;
-  text-align: left;
+  padding: 0.95rem 1.15rem;
 
   display: flex;
   align-items: center;
@@ -141,10 +138,16 @@ button {
   overflow: hidden;
   background-clip: padding-box;
 
- box-shadow:
-  0 10px 20px rgba(0, 0, 0, 0.12),
-  inset 0 1px 0 rgba(255, 255, 255, 0.18),
-  inset 0 -1px 0 rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+  text-align: left;
+
+  color: rgba(255, 255, 255, 0.92);
+
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+
   transition:
     transform 0.22s ease,
     box-shadow 0.22s ease,
@@ -155,16 +158,10 @@ button {
   transform: translateY(-3px);
   filter: saturate(1.06) brightness(1.03);
 
- box-shadow:
-  0 16px 28px rgba(0, 0, 0, 0.18),
-  inset 0 1px 0 rgba(255, 255, 255, 0.22),
-  inset 0 -1px 0 rgba(0, 0, 0, 0.12);
-
-.rathmer-type-number {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
+  box-shadow:
+    0 16px 28px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .rathmer-type-name {
@@ -173,10 +170,18 @@ button {
   font-size: 1.03rem;
   font-weight: 700;
   line-height: 1.2;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
   letter-spacing: 0.01em;
 
   color: rgba(255, 255, 255, 0.93);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+}
+
+/* Falls noch irgendwo genutzt */
+.rathmer-type-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 /* =========================
@@ -190,12 +195,6 @@ button {
   margin-bottom: 1.2rem;
 }
 
-.rathmer-top-grid > div,
-.rathmer-theory-grid > div {
-  display: flex;
-  flex-direction: column;
-  align-self: start;
-}
 .rathmer-theory-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -208,6 +207,27 @@ button {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.2rem;
   align-items: start;
+}
+
+.rathmer-top-grid > div,
+.rathmer-theory-grid > div {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+
+.rathmer-top-grid > div,
+.rathmer-theory-grid > div,
+.rathmer-trait-grid > div,
+.rathmer-module-grid > div {
+  min-width: 0;
+}
+
+.rathmer-top-grid button,
+.rathmer-theory-grid button,
+.rathmer-trait-grid button,
+.rathmer-module-grid button {
+  width: 100%;
 }
 
 /* =========================
@@ -256,13 +276,28 @@ button {
 
   background: linear-gradient(
     180deg,
-    rgba(255,255,255,0.78),
-    rgba(255,255,255,0.58)
+    rgba(255, 255, 255, 0.78),
+    rgba(255, 255, 255, 0.58)
   );
 
   box-shadow:
-    0 10px 22px rgba(155,77,204,0.10),
-    0 0 0 1px rgba(255,255,255,0.22) inset;
+    0 10px 22px rgba(155, 77, 204, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.22) inset;
+}
+
+.rathmer-top-button.is-active,
+.rathmer-theory-button.is-active {
+  border-color: rgba(155, 77, 204, 0.55);
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.82),
+    rgba(255, 255, 255, 0.58)
+  );
+
+  box-shadow:
+    0 14px 30px rgba(155, 77, 204, 0.18),
+    0 0 0 1px rgba(155, 77, 204, 0.18) inset;
 }
 
 /* =========================
@@ -281,6 +316,7 @@ button {
 
   padding: 1.5rem 1.8rem;
   margin: 0.8rem 0 0;
+
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.12);
 }
 
@@ -288,13 +324,14 @@ button {
   margin: 0 0 0.75rem;
 }
 
-.rathmer-inline-info p {
-  margin: 0;
-  line-height: 1.65;
-}
 .rathmer-inline-info p,
 .rathmer-side-info p {
   white-space: pre-line;
+}
+
+.rathmer-inline-info p {
+  margin: 0;
+  line-height: 1.65;
 }
 
 /* =========================
@@ -331,7 +368,8 @@ button {
 
   transition:
     transform 0.22s ease,
-    box-shadow 0.22s ease;
+    box-shadow 0.22s ease,
+    filter 0.22s ease;
 }
 
 .rathmer-subtype-header h3 {
@@ -341,22 +379,17 @@ button {
 }
 
 .rathmer-subtype-header:hover {
-  transform: translateY(-2px);
-}
-
-.rathmer-subtype-header:hover {
   transform: translateY(-1px);
-
   filter: brightness(1.03);
 
-  box-shadow:
-    0 14px 28px rgba(0,0,0,0.18);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
 }
+
 .rathmer-subtype-header.is-open {
   box-shadow:
-    0 18px 34px rgba(0,0,0,0.22),
-    0 0 0 2px rgba(255,255,255,0.18) inset,
-    0 0 0 3px rgba(180,120,255,0.30);
+    0 18px 34px rgba(0, 0, 0, 0.22),
+    0 0 0 2px rgba(255, 255, 255, 0.18) inset,
+    0 0 0 3px rgba(180, 120, 255, 0.3);
 }
 
 /* =========================
@@ -386,14 +419,13 @@ button {
 
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.30),
+    rgba(255, 255, 255, 0.3),
     rgba(255, 255, 255, 0.16)
   );
 
   color: rgba(255, 255, 255, 0.96);
 
   cursor: pointer;
-
   font-weight: 700;
 
   backdrop-filter: blur(10px);
@@ -427,10 +459,23 @@ button {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.36),
-    rgba(255, 255, 255, 0.20)
+    rgba(255, 255, 255, 0.2)
   );
 
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+}
+
+.rathmer-trait-button.is-active,
+.rathmer-module-button.is-active {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.42),
+    rgba(255, 255, 255, 0.24)
+  );
+
+  box-shadow:
+    0 14px 28px rgba(0, 0, 0, 0.16),
+    0 0 0 1px rgba(255, 255, 255, 0.24) inset;
 }
 
 /* =========================
@@ -484,9 +529,6 @@ button {
 
   padding: 2rem;
 
-  align-items: flex-start;
-  justify-content: flex-start;
-
   overflow: visible;
 
   background: rgba(255, 255, 255, 0.32);
@@ -496,7 +538,7 @@ button {
 
   border: 1px solid rgba(255, 255, 255, 0.42);
 
-  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.1);
 }
 
 .rathmer-side-placeholder {
@@ -545,7 +587,7 @@ button {
 }
 
 /* =========================
-   RESPONSIVE REFINEMENT
+   RESPONSIVE
 ========================= */
 
 @media (max-width: 1200px) {
@@ -599,6 +641,20 @@ button {
     top: 1rem;
     left: 1rem;
   }
+
+  .desktop-info {
+    display: none;
+  }
+
+  .mobile-info {
+    display: block;
+    margin: 0.8rem 0 1rem;
+  }
+
+  .rathmer-side-info,
+  .rathmer-side-info.is-expanded {
+    display: none;
+  }
 }
 
 @media (max-width: 560px) {
@@ -640,9 +696,9 @@ button {
   }
 
   .rathmer-back-button {
-  font-size: 0.78rem;
-  padding: 0.45rem 0.7rem;
-}
+    font-size: 0.78rem;
+    padding: 0.45rem 0.7rem;
+  }
 
   .rathmer-type-button,
   .rathmer-top-button,
@@ -665,7 +721,7 @@ button {
   }
 
   .rathmer-side-placeholder {
-    height: 72px;
+    height: 66px;
     font-size: 1.55rem;
   }
 
@@ -687,45 +743,17 @@ button {
     min-height: 56px;
   }
 }
+
+/* =========================
+   MOBILE / DESKTOP INFO
+========================= */
+
 .mobile-info {
   display: none;
 }
 
 .desktop-info {
   display: block;
-}
-
-.rathmer-top-grid > div,
-.rathmer-theory-grid > div,
-.rathmer-trait-grid > div,
-.rathmer-module-grid > div {
-  min-width: 0;
-}
-
-.rathmer-top-grid button,
-.rathmer-theory-grid button,
-.rathmer-trait-grid button,
-.rathmer-module-grid button {
-  width: 100%;
-}
-
-@media (max-width: 900px) {
-  .desktop-info {
-    display: none;
-  }
-
-  .mobile-info {
-    display: block;
-    margin: 0.8rem 0 1rem;
-  }
-
-  .rathmer-side-info {
-    display: none;
-  }
-
-  .rathmer-side-info.is-expanded {
-    display: none;
-  }
 }
 
 /* =========================
@@ -780,16 +808,4 @@ button {
   * {
     transition: none !important;
   }
-}
-.rathmer-top-button.is-active,
-.rathmer-theory-button.is-active {
-  border-color: rgba(155, 77, 204, 0.55);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.82),
-    rgba(255, 255, 255, 0.58)
-  );
-  box-shadow:
-    0 14px 30px rgba(155, 77, 204, 0.18),
-    0 0 0 1px rgba(155, 77, 204, 0.18) inset;
 }
