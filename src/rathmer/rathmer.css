@@ -286,6 +286,10 @@ button {
   margin: 0;
   line-height: 1.65;
 }
+.rathmer-inline-info p,
+.rathmer-side-info p {
+  white-space: pre-line;
+}
 
 /* =========================
    SUBTYPE COLUMNS
