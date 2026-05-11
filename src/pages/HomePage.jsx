@@ -60,8 +60,10 @@ export default function HomePage({ onSelectType }) {
                   }}
                   onClick={() => onSelectType(type.number)}
                 >
-                  <span className="rathmer-type-number">{type.number}</span>
-                  <span className="rathmer-type-name">{type.name}</span>
+                 <span className="rathmer-type-number">{type.number}</span>
+<span className="rathmer-type-name">
+  Typ {type.number} – {type.name}
+</span>
                 </button>
               ))}
             </div>
