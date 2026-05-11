@@ -1,7 +1,7 @@
 import { TYPE_COLORS } from "../typeColors";
 export const type2Data = {
   type: 2,
-  title: "2 - Liebe",
+  title: "Liebe",
   center: "Herz-Menschen",
   side: "weibliche Seite",
  color: TYPE_COLORS[2],
@@ -30,13 +30,13 @@ Identifikation:
     title: "Liebe",
 
   content: `Überentwickelte Herzenergie:
-(Herzenergie wird nach außen gerichtet)
+    (Herzenergie wird nach außen gerichtet)
 
 Grundmotivation:
-Liebe
+    Liebe
 
 Abwehrmechanismus:
-Liebe als Tauschhandel`
+    Liebe als Tauschhandel`
 },
 
   sideInfo: {
@@ -47,15 +47,15 @@ Liebe als Tauschhandel`
 Indizien, die hier häufiger beobachtet werden können:
 
 • Nasenform
-   zierlich, filigran, ästhetisch,
-   weich geformt, feminin
+    zierlich, filigran, ästhetisch,
+    weich geformt, feminin
 
 • Gesichtspartie
-   weiche Haut, reine Haut,
-   lange Wimpern
+    weiche Haut, reine Haut,
+    lange Wimpern
 
 • Wirkung
-   feminin, zart, fein`
+    feminin, zart, fein`
   },
   
   coreModules: [
