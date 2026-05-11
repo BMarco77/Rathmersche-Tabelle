@@ -9,7 +9,21 @@ export const type2Data = {
   centerInfo: {
     title: "Herz-Menschen",
     content:
-      "Die Herzmenschen umfassen die Typen 2, 3 und 4. Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz."
+      `Die Herzmenschen umfassen die Typen 2, 3 und 4.
+
+Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz.
+
+Grundproblem:
+    Liebes-Defizit
+    (Gefühl, nicht geliebt zu werden /
+    nicht anerkannt zu sein)
+
+Hauptthemen:
+    Image, Beziehungen, Empathie,
+    Leistung, Charme / Scham, Gefühle
+
+Identifikation:
+    „Ich bin, wie ich auf andere wirke.“`
   },
 
   typeInfo: {
