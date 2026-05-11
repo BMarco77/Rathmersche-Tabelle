@@ -305,7 +305,7 @@ button {
 
 .rathmer-subtype-header {
   width: 100%;
-  height: 86px;
+  height: 76px;
 
   border: none;
   border-radius: 1.4rem;
@@ -326,8 +326,8 @@ button {
 
 .rathmer-subtype-header h3 {
   margin: 0;
-  font-size: 2rem;
-  line-height: 86px;
+  font-size: 1.8rem;
+  line-height: 76px;
 }
 
 .rathmer-subtype-header:hover {
@@ -644,14 +644,14 @@ button {
 
   .rathmer-subtype-header,
   .rathmer-side-info {
-    height: 72px;
-    min-height: 72px;
+    height: 66px;
+    min-height: 66px;
     border-radius: 1.15rem;
   }
 
   .rathmer-subtype-header h3 {
-    font-size: 1.65rem;
-    line-height: 72px;
+    font-size: 1.5rem;
+    line-height: 66px;
   }
 
   .rathmer-side-placeholder {
