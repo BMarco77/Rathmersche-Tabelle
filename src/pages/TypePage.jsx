@@ -53,7 +53,7 @@ export default function TypePage({ onBack }) {
   return (
     <div className="rathmer-page">
       <button className="rathmer-back-button" onClick={onBack}>
-        ← Home
+        Home
       </button>
 
       <header className="rathmer-home-header">
@@ -72,7 +72,9 @@ export default function TypePage({ onBack }) {
       <section className="rathmer-top-grid">
         <div>
           <button
-            className="rathmer-top-button"
+            className={`rathmer-top-button ${
+              selectedTopItem?.id === "center" ? "is-active" : ""
+            }`}
             onClick={() => toggleTopItem("center", type2Data.centerInfo)}
           >
             {type2Data.center}
@@ -85,7 +87,9 @@ export default function TypePage({ onBack }) {
 
         <div>
           <button
-            className="rathmer-top-button"
+            className={`rathmer-top-button ${
+              selectedTopItem?.id === "type" ? "is-active" : ""
+            }`}
             onClick={() => toggleTopItem("type", type2Data.typeInfo)}
           >
             {type2Data.title}
@@ -98,7 +102,9 @@ export default function TypePage({ onBack }) {
 
         <div>
           <button
-            className="rathmer-top-button"
+            className={`rathmer-top-button ${
+              selectedTopItem?.id === "side" ? "is-active" : ""
+            }`}
             onClick={() => toggleTopItem("side", type2Data.sideInfo)}
           >
             {type2Data.side}
@@ -116,7 +122,9 @@ export default function TypePage({ onBack }) {
         {theoryRow1.map((module) => (
           <div key={module.label}>
             <button
-              className="rathmer-theory-button"
+              className={`rathmer-theory-button ${
+                selectedTheoryRow1?.title === module.label ? "is-active" : ""
+              }`}
               onClick={() => toggleTheoryRow1(module)}
             >
               {module.label}
@@ -137,7 +145,9 @@ export default function TypePage({ onBack }) {
         {theoryRow2.map((module) => (
           <div key={module.label}>
             <button
-              className="rathmer-theory-button"
+              className={`rathmer-theory-button ${
+                selectedTheoryRow2?.title === module.label ? "is-active" : ""
+              }`}
               onClick={() => toggleTheoryRow2(module)}
             >
               {module.label}
@@ -195,7 +205,12 @@ export default function TypePage({ onBack }) {
                   {subtype.traits.map((trait) => (
                     <div key={trait.label}>
                       <button
-                        className="rathmer-trait-button"
+                        className={`rathmer-trait-button ${
+                          selectedSubtypeItem?.subtype === subtype.code &&
+                          selectedSubtypeItem?.title === trait.label
+                            ? "is-active"
+                            : ""
+                        }`}
                         onClick={() =>
                           setSelectedSubtypeItem({
                             subtype: subtype.code,
@@ -219,7 +234,12 @@ export default function TypePage({ onBack }) {
                   {subtype.modules.map((module) => (
                     <div key={module.label}>
                       <button
-                        className="rathmer-module-button"
+                        className={`rathmer-module-button ${
+                          selectedSubtypeItem?.subtype === subtype.code &&
+                          selectedSubtypeItem?.title === module.label
+                            ? "is-active"
+                            : ""
+                        }`}
                         onClick={() =>
                           setSelectedSubtypeItem({
                             subtype: subtype.code,
@@ -269,7 +289,11 @@ export default function TypePage({ onBack }) {
 
 function InlineInfo({ item, variant }) {
   return (
-    <div className={`rathmer-inline-info ${variant === "mobile" ? "mobile-info" : "desktop-info"}`}>
+    <div
+      className={`rathmer-inline-info ${
+        variant === "mobile" ? "mobile-info" : "desktop-info"
+      }`}
+    >
       <h2>{item.title}</h2>
       <p>{item.content}</p>
     </div>
