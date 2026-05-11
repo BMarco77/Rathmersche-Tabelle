@@ -69,6 +69,7 @@ export default function TypePage({ onBack }) {
         </p>
       </header>
 
+      {/* TOP ROW */}
       <section className="rathmer-top-grid">
         <div>
           <button
@@ -81,7 +82,7 @@ export default function TypePage({ onBack }) {
           </button>
 
           {selectedTopItem?.id === "center" && (
-            <InlineInfo item={selectedTopItem} variant="mobile" />
+            <InlineInfo item={selectedTopItem} />
           )}
         </div>
 
@@ -96,7 +97,7 @@ export default function TypePage({ onBack }) {
           </button>
 
           {selectedTopItem?.id === "type" && (
-            <InlineInfo item={selectedTopItem} variant="mobile" />
+            <InlineInfo item={selectedTopItem} />
           )}
         </div>
 
@@ -111,13 +112,12 @@ export default function TypePage({ onBack }) {
           </button>
 
           {selectedTopItem?.id === "side" && (
-            <InlineInfo item={selectedTopItem} variant="mobile" />
+            <InlineInfo item={selectedTopItem} />
           )}
         </div>
       </section>
 
-      {selectedTopItem && <InlineInfo item={selectedTopItem} variant="desktop" />}
-
+      {/* THEORY ROW 1 */}
       <section className="rathmer-theory-grid">
         {theoryRow1.map((module) => (
           <div key={module.label}>
@@ -131,16 +131,13 @@ export default function TypePage({ onBack }) {
             </button>
 
             {selectedTheoryRow1?.title === module.label && (
-              <InlineInfo item={selectedTheoryRow1} variant="mobile" />
+              <InlineInfo item={selectedTheoryRow1} />
             )}
           </div>
         ))}
       </section>
 
-      {selectedTheoryRow1 && (
-        <InlineInfo item={selectedTheoryRow1} variant="desktop" />
-      )}
-
+      {/* THEORY ROW 2 */}
       <section className="rathmer-theory-grid">
         {theoryRow2.map((module) => (
           <div key={module.label}>
@@ -154,16 +151,13 @@ export default function TypePage({ onBack }) {
             </button>
 
             {selectedTheoryRow2?.title === module.label && (
-              <InlineInfo item={selectedTheoryRow2} variant="mobile" />
+              <InlineInfo item={selectedTheoryRow2} />
             )}
           </div>
         ))}
       </section>
 
-      {selectedTheoryRow2 && (
-        <InlineInfo item={selectedTheoryRow2} variant="desktop" />
-      )}
-
+      {/* SUBTYPE GRID */}
       <section className="rathmer-main-grid">
         {type2Data.subtypes.map((subtype) => (
           <div key={subtype.code} className="rathmer-subtype-column">
@@ -287,13 +281,9 @@ export default function TypePage({ onBack }) {
   );
 }
 
-function InlineInfo({ item, variant }) {
+function InlineInfo({ item }) {
   return (
-    <div
-      className={`rathmer-inline-info ${
-        variant === "mobile" ? "mobile-info" : "desktop-info"
-      }`}
-    >
+    <div className="rathmer-inline-info">
       <h2>{item.title}</h2>
       <p>{item.content}</p>
     </div>
