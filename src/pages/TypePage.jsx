@@ -5,349 +5,256 @@ import "../rathmer/rathmer.css";
 
 export default function TypePage({ onBack }) {
   const [selectedTopItem, setSelectedTopItem] = useState(null);
+  const [selectedTheoryRow1, setSelectedTheoryRow1] = useState(null);
+  const [selectedTheoryRow2, setSelectedTheoryRow2] = useState(null);
+  const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
+  const [openSubtype, setOpenSubtype] = useState(null);
 
-  const [selectedTheoryRow1, setSelectedTheoryRow1] =
-    useState(null);
+  const theoryRow1 = type2Data.coreModules.slice(0, 4);
+  const theoryRow2 = type2Data.coreModules.slice(4, 8);
 
-  const [selectedTheoryRow2, setSelectedTheoryRow2] =
-    useState(null);
+  const toggleTopItem = (id, item) => {
+    if (selectedTopItem?.id === id) {
+      setSelectedTopItem(null);
+      return;
+    }
 
-  const [selectedSubtypeItem, setSelectedSubtypeItem] =
-    useState(null);
+    setSelectedTopItem({
+      id,
+      title: item.title,
+      content: item.content,
+    });
+  };
 
-  const [openSubtype, setOpenSubtype] =
-    useState(null);
+  const toggleTheoryRow1 = (module) => {
+    if (selectedTheoryRow1?.title === module.label) {
+      setSelectedTheoryRow1(null);
+      return;
+    }
 
-  const theoryRow1 =
-    type2Data.coreModules.slice(0, 4);
+    setSelectedTheoryRow1({
+      title: module.label,
+      content: module.content,
+    });
+  };
 
-  const theoryRow2 =
-    type2Data.coreModules.slice(4, 8);
+  const toggleTheoryRow2 = (module) => {
+    if (selectedTheoryRow2?.title === module.label) {
+      setSelectedTheoryRow2(null);
+      return;
+    }
+
+    setSelectedTheoryRow2({
+      title: module.label,
+      content: module.content,
+    });
+  };
 
   return (
     <div className="rathmer-page">
-      {/* BACK */}
-      <button
-        className="rathmer-back-button"
-        onClick={onBack}
-      >
+      <button className="rathmer-back-button" onClick={onBack}>
         ← Zur Übersicht
       </button>
 
-      {/* HEADER */}
       <header className="rathmer-home-header">
         <div className="rathmer-wappen">
-          <img
-            src={wappen}
-            alt="Rathmer Wappen"
-          />
+          <img src={wappen} alt="Rathmer Wappen" />
         </div>
 
         <h1>Typ 2 – Der Helfer</h1>
 
         <p>
-          Eine interaktive Übersicht der
-          Typ-2-Struktur, ihrer
-          Grunddynamik und Subtypen.
+          Eine interaktive Übersicht der Typ-2-Struktur, ihrer Grunddynamik und
+          Subtypen.
         </p>
       </header>
 
-      {/* TOP NAV */}
       <section className="rathmer-top-grid">
-        <button
-          className="rathmer-top-button"
-          onClick={() => {
-            if (
-              selectedTopItem?.id ===
-              "center"
-            ) {
-              setSelectedTopItem(null);
-              return;
-            }
+        <div>
+          <button
+            className="rathmer-top-button"
+            onClick={() => toggleTopItem("center", type2Data.centerInfo)}
+          >
+            {type2Data.center}
+          </button>
 
-            setSelectedTopItem({
-              id: "center",
-              title:
-                type2Data.centerInfo.title,
-              content:
-                type2Data.centerInfo.content,
-            });
-          }}
-        >
-          {type2Data.center}
-        </button>
+          {selectedTopItem?.id === "center" && (
+            <InlineInfo item={selectedTopItem} variant="mobile" />
+          )}
+        </div>
 
-        <button
-          className="rathmer-top-button"
-          onClick={() => {
-            if (
-              selectedTopItem?.id ===
-              "type"
-            ) {
-              setSelectedTopItem(null);
-              return;
-            }
+        <div>
+          <button
+            className="rathmer-top-button"
+            onClick={() => toggleTopItem("type", type2Data.typeInfo)}
+          >
+            {type2Data.title}
+          </button>
 
-            setSelectedTopItem({
-              id: "type",
-              title:
-                type2Data.typeInfo.title,
-              content:
-                type2Data.typeInfo.content,
-            });
-          }}
-        >
-          {type2Data.title}
-        </button>
+          {selectedTopItem?.id === "type" && (
+            <InlineInfo item={selectedTopItem} variant="mobile" />
+          )}
+        </div>
 
-        <button
-          className="rathmer-top-button"
-          onClick={() => {
-            if (
-              selectedTopItem?.id ===
-              "side"
-            ) {
-              setSelectedTopItem(null);
-              return;
-            }
+        <div>
+          <button
+            className="rathmer-top-button"
+            onClick={() => toggleTopItem("side", type2Data.sideInfo)}
+          >
+            {type2Data.side}
+          </button>
 
-            setSelectedTopItem({
-              id: "side",
-              title:
-                type2Data.sideInfo.title,
-              content:
-                type2Data.sideInfo.content,
-            });
-          }}
-        >
-          {type2Data.side}
-        </button>
+          {selectedTopItem?.id === "side" && (
+            <InlineInfo item={selectedTopItem} variant="mobile" />
+          )}
+        </div>
       </section>
 
-      {/* TOP INFO */}
-      {selectedTopItem && (
-        <div className="rathmer-inline-info">
-          <h2>{selectedTopItem.title}</h2>
+      {selectedTopItem && <InlineInfo item={selectedTopItem} variant="desktop" />}
 
-          <p>{selectedTopItem.content}</p>
-        </div>
-      )}
-
-      {/* THEORY ROW 1 */}
       <section className="rathmer-theory-grid">
         {theoryRow1.map((module) => (
-          <button
-            key={module.label}
-            className="rathmer-theory-button"
-            onClick={() => {
-              if (
-                selectedTheoryRow1?.title ===
-                module.label
-              ) {
-                setSelectedTheoryRow1(null);
-                return;
-              }
+          <div key={module.label}>
+            <button
+              className="rathmer-theory-button"
+              onClick={() => toggleTheoryRow1(module)}
+            >
+              {module.label}
+            </button>
 
-              setSelectedTheoryRow1({
-                title: module.label,
-                content: module.content,
-              });
-            }}
-          >
-            {module.label}
-          </button>
+            {selectedTheoryRow1?.title === module.label && (
+              <InlineInfo item={selectedTheoryRow1} variant="mobile" />
+            )}
+          </div>
         ))}
       </section>
 
       {selectedTheoryRow1 && (
-        <div className="rathmer-inline-info">
-          <h2>
-            {selectedTheoryRow1.title}
-          </h2>
-
-          <p>
-            {selectedTheoryRow1.content}
-          </p>
-        </div>
+        <InlineInfo item={selectedTheoryRow1} variant="desktop" />
       )}
 
-      {/* THEORY ROW 2 */}
       <section className="rathmer-theory-grid">
         {theoryRow2.map((module) => (
-          <button
-            key={module.label}
-            className="rathmer-theory-button"
-            onClick={() => {
-              if (
-                selectedTheoryRow2?.title ===
-                module.label
-              ) {
-                setSelectedTheoryRow2(null);
-                return;
-              }
+          <div key={module.label}>
+            <button
+              className="rathmer-theory-button"
+              onClick={() => toggleTheoryRow2(module)}
+            >
+              {module.label}
+            </button>
 
-              setSelectedTheoryRow2({
-                title: module.label,
-                content: module.content,
-              });
-            }}
-          >
-            {module.label}
-          </button>
+            {selectedTheoryRow2?.title === module.label && (
+              <InlineInfo item={selectedTheoryRow2} variant="mobile" />
+            )}
+          </div>
         ))}
       </section>
 
       {selectedTheoryRow2 && (
-        <div className="rathmer-inline-info">
-          <h2>
-            {selectedTheoryRow2.title}
-          </h2>
-
-          <p>
-            {selectedTheoryRow2.content}
-          </p>
-        </div>
+        <InlineInfo item={selectedTheoryRow2} variant="desktop" />
       )}
 
-      {/* MAIN GRID */}
       <section className="rathmer-main-grid">
-        {type2Data.subtypes.map(
-          (subtype) => (
-            <div
-              key={subtype.code}
-              className="rathmer-subtype-column"
+        {type2Data.subtypes.map((subtype) => (
+          <div key={subtype.code} className="rathmer-subtype-column">
+            <button
+              className={`rathmer-subtype-header ${
+                openSubtype === subtype.code ? "is-open" : ""
+              }`}
+              style={{
+                background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
+              }}
+              onClick={() => {
+                if (openSubtype === subtype.code) {
+                  setOpenSubtype(null);
+                  setSelectedSubtypeItem(null);
+                  return;
+                }
+
+                setOpenSubtype(subtype.code);
+                setSelectedSubtypeItem({
+                  subtype: subtype.code,
+                  title: subtype.code.toUpperCase(),
+                  content:
+                    subtype.subtypeInfo ||
+                    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
+                });
+              }}
             >
-              <button
-                className={`rathmer-subtype-header ${
-                  openSubtype ===
-                  subtype.code
-                    ? "is-open"
-                    : ""
-                }`}
-                style={{
-                  background: `linear-gradient(
-                    135deg,
-                    ${type2Data.color},
-                    #7b2cbf
-                  )`,
-                }}
-                onClick={() => {
-                  if (
-                    openSubtype ===
-                    subtype.code
-                  ) {
-                    setOpenSubtype(null);
+              <h3>{subtype.code}</h3>
+            </button>
 
-                    setSelectedSubtypeItem(
-                      null
-                    );
-
-                    return;
-                  }
-
-                  setOpenSubtype(
-                    subtype.code
-                  );
-
-                  setSelectedSubtypeItem({
-                    subtype:
-                      subtype.code,
-
-                    title:
-                      subtype.code.toUpperCase(),
-
-                    content:
-                      subtype.subtypeInfo ||
-                      `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
-                  });
-                }}
-              >
-                <h3>{subtype.code}</h3>
-              </button>
-
-              {openSubtype ===
-                subtype.code && (
-                <>
-                  {/* TRAITS */}
-                  <div className="rathmer-trait-grid">
-                    {subtype.traits.map(
-                      (trait) => (
-                        <button
-                          key={
-                            trait.label
-                          }
-                          className="rathmer-trait-button"
-                          onClick={() =>
-                            setSelectedSubtypeItem(
-                              {
-                                subtype:
-                                  subtype.code,
-
-                                title:
-                                  trait.label,
-
-                                content:
-                                  trait.content,
-                              }
-                            )
-                          }
-                        >
-                          {trait.label}
-                        </button>
-                      )
-                    )}
-                  </div>
-
-                  {/* MODULES */}
-                  <div className="rathmer-module-grid">
-                    {subtype.modules.map(
-                      (module) => (
-                        <button
-                          key={
-                            module.label
-                          }
-                          className="rathmer-module-button"
-                          onClick={() =>
-                            setSelectedSubtypeItem(
-                              {
-                                subtype:
-                                  subtype.code,
-
-                                title:
-                                  module.label,
-
-                                content:
-                                  module.content,
-                              }
-                            )
-                          }
-                        >
-                          {module.label}
-                        </button>
-                      )
-                    )}
-                  </div>
-                </>
+            {selectedSubtypeItem?.title === subtype.code.toUpperCase() &&
+              selectedSubtypeItem?.subtype === subtype.code && (
+                <SubtypeMobileInfo item={selectedSubtypeItem} />
               )}
-            </div>
-          )
-        )}
 
-        {/* SIDE INFO */}
+            {openSubtype === subtype.code && (
+              <>
+                <div className="rathmer-trait-grid">
+                  {subtype.traits.map((trait) => (
+                    <div key={trait.label}>
+                      <button
+                        className="rathmer-trait-button"
+                        onClick={() =>
+                          setSelectedSubtypeItem({
+                            subtype: subtype.code,
+                            title: trait.label,
+                            content: trait.content,
+                          })
+                        }
+                      >
+                        {trait.label}
+                      </button>
+
+                      {selectedSubtypeItem?.subtype === subtype.code &&
+                        selectedSubtypeItem?.title === trait.label && (
+                          <SubtypeMobileInfo item={selectedSubtypeItem} />
+                        )}
+                    </div>
+                  ))}
+                </div>
+
+                <div className="rathmer-module-grid">
+                  {subtype.modules.map((module) => (
+                    <div key={module.label}>
+                      <button
+                        className="rathmer-module-button"
+                        onClick={() =>
+                          setSelectedSubtypeItem({
+                            subtype: subtype.code,
+                            title: module.label,
+                            content: module.content,
+                          })
+                        }
+                      >
+                        {module.label}
+                      </button>
+
+                      {selectedSubtypeItem?.subtype === subtype.code &&
+                        selectedSubtypeItem?.title === module.label && (
+                          <SubtypeMobileInfo item={selectedSubtypeItem} />
+                        )}
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+        ))}
+
         <aside
           className={`rathmer-side-info ${
-            selectedSubtypeItem
-              ? "is-expanded"
-              : ""
+            selectedSubtypeItem ? "is-expanded" : ""
           }`}
         >
           {selectedSubtypeItem ? (
             <>
-             <span className="rathmer-info-label">
-  {selectedSubtypeItem.subtype.toUpperCase()}
-</span>
+              <span className="rathmer-info-label">
+                {selectedSubtypeItem.subtype.toUpperCase()}
+              </span>
 
-<p>{selectedSubtypeItem.content}</p>
+              <p>{selectedSubtypeItem.content}</p>
             </>
           ) : (
             <div className="rathmer-side-placeholder">
@@ -356,6 +263,24 @@ export default function TypePage({ onBack }) {
           )}
         </aside>
       </section>
+    </div>
+  );
+}
+
+function InlineInfo({ item, variant }) {
+  return (
+    <div className={`rathmer-inline-info ${variant === "mobile" ? "mobile-info" : "desktop-info"}`}>
+      <h2>{item.title}</h2>
+      <p>{item.content}</p>
+    </div>
+  );
+}
+
+function SubtypeMobileInfo({ item }) {
+  return (
+    <div className="rathmer-inline-info mobile-info">
+      <span className="rathmer-info-label">{item.subtype.toUpperCase()}</span>
+      <p>{item.content}</p>
     </div>
   );
 }
