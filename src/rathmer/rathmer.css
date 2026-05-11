@@ -99,8 +99,9 @@ button {
 
 .rathmer-center-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.8rem;
+  width: 100%;
 }
 
 .rathmer-center-section {
@@ -116,6 +117,10 @@ button {
     inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
+.rathmer-center-section,
+.rathmer-type-button {
+  box-sizing: border-box;
+}
 .rathmer-center-section h2 {
   text-align: center;
   margin: 0 0 1.5rem;
