@@ -243,19 +243,19 @@ button {
 
 .rathmer-top-button:hover,
 .rathmer-theory-button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 
-  border-color: rgba(155, 77, 204, 0.4);
+  border-color: rgba(155, 77, 204, 0.34);
 
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.76),
-    rgba(255, 255, 255, 0.56)
+    rgba(255,255,255,0.78),
+    rgba(255,255,255,0.58)
   );
 
   box-shadow:
-    0 14px 26px rgba(155, 77, 204, 0.14),
-    0 0 0 1px rgba(255, 255, 255, 0.22) inset;
+    0 10px 22px rgba(155,77,204,0.10),
+    0 0 0 1px rgba(255,255,255,0.22) inset;
 }
 
 /* =========================
@@ -334,10 +334,13 @@ button {
   transform: translateY(-2px);
 }
 
-.rathmer-subtype-header.is-open {
+.rathmer-subtype-header:hover {
+  transform: translateY(-1px);
+
+  filter: brightness(1.03);
+
   box-shadow:
-    0 16px 32px rgba(0, 0, 0, 0.22),
-    0 0 0 2px rgba(255, 255, 255, 0.28) inset;
+    0 14px 28px rgba(0,0,0,0.18);
 }
 
 /* =========================
@@ -403,7 +406,7 @@ button {
 
 .rathmer-trait-button:hover,
 .rathmer-module-button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 
   background: linear-gradient(
     180deg,
