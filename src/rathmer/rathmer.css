@@ -658,3 +658,43 @@ button {
     min-height: 56px;
   }
 }
+.mobile-info {
+  display: none;
+}
+
+.desktop-info {
+  display: block;
+}
+
+.rathmer-top-grid > div,
+.rathmer-theory-grid > div,
+.rathmer-trait-grid > div,
+.rathmer-module-grid > div {
+  min-width: 0;
+}
+
+.rathmer-top-grid button,
+.rathmer-theory-grid button,
+.rathmer-trait-grid button,
+.rathmer-module-grid button {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .desktop-info {
+    display: none;
+  }
+
+  .mobile-info {
+    display: block;
+    margin: 0.8rem 0 1rem;
+  }
+
+  .rathmer-side-info {
+    display: none;
+  }
+
+  .rathmer-side-info.is-expanded {
+    display: none;
+  }
+}
