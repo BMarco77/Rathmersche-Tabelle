@@ -18,7 +18,7 @@ const centers = [
   {
     title: "Herz-Menschen",
     types: [
-  { number: 2, name: "Liebe", color: TYPE_COLORS[2] },
+  { number: 2, name: "Der Helfer", color: TYPE_COLORS[2] },
   { number: 3, name: "Erfolg", color: TYPE_COLORS[3] },
   { number: 4, name: "Individualität", color: TYPE_COLORS[4] },
 ]
