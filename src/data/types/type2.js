@@ -13,7 +13,7 @@ export const type2Data = {
   },
 
   typeInfo: {
-    title: "2 – Liebe",
+    title: "Liebe",
 
   content: `Überentwickelte Herzenergie:
 (Herzenergie wird nach außen gerichtet)
@@ -28,7 +28,18 @@ Liebe als Tauschhandel`
   sideInfo: {
     title: "weibliche Seite",
     content:
-      "Die weibliche Seite des Enneagramms umfasst die Enneagrammtypen 1–4 und zeichnet sich durch weibliche Charakter- und Körperzüge aus."
+      `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+
+Indizien, die hier häufiger beobachtet werden können:
+
+• Nasenform:
+fein, zierlich, filigran, ästhetisch, weich geformt, feminin
+
+• Gesichtspartie:
+weiche Haut, reine Haut, wenig markante Gesichtsform, lange Wimpern
+
+• Wirkung:
+feminin, zart, fein`
   },
   
   coreModules: [
