@@ -2,6 +2,18 @@ import { TYPE_COLORS } from "../data/typeColors";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
 
+const typeGradients = {
+  1: "linear-gradient(135deg, #cfcaca 0%, #948785 40%, #5a4540 100%)",
+  2: "linear-gradient(135deg, #b45cff 0%, #8d46c7 38%, #533248 100%)",
+  3: "linear-gradient(135deg, #69d7ee 0%, #4e9cab 40%, #4a3d3b 100%)",
+  4: "linear-gradient(135deg, #82f043 0%, #5f9b35 42%, #463427 100%)",
+  5: "linear-gradient(135deg, #4d6dff 0%, #4757ba 40%, #473847 100%)",
+  6: "linear-gradient(135deg, #d2944c 0%, #9b6a37 40%, #57392d 100%)",
+  7: "linear-gradient(135deg, #f0d63a 0%, #b89a2f 42%, #5b4427 100%)",
+  8: "linear-gradient(135deg, #ef2e22 0%, #b52b23 40%, #5c2f2c 100%)",
+  9: "linear-gradient(135deg, #f7a028 0%, #c07a27 40%, #5d3e2a 100%)",
+};
+
 const centers = [
   {
     title: "Herz-Menschen",
@@ -56,7 +68,7 @@ export default function HomePage({ onSelectType }) {
                   key={type.number}
                   className="rathmer-type-button"
                  style={{
-  background: `linear-gradient(135deg, ${type.color} 0%, #5a3c31 100%)`,
+  background: typeGradients[type.number],
 }}
                   onClick={() => onSelectType(type.number)}
                 >
