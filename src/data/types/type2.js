@@ -13,10 +13,17 @@ export const type2Data = {
   },
 
   typeInfo: {
-    title: "2 - Liebe",
-    content:
-      "Überentwickelte Herzenergie. Die Herzenergie wird nach außen gerichtet. Grundmotivation: Liebe. Abwehrmechanismus: Liebe als Tauschhandel."
-  },
+    title: "2 – Liebe",
+
+  content: `Überentwickelte Herzenergie:
+(Herzenergie wird nach außen gerichtet)
+
+Grundmotivation:
+Liebe
+
+Abwehrmechanismus:
+Liebe als Tauschhandel`
+},
 
   sideInfo: {
     title: "weibliche Seite",
