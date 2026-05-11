@@ -107,8 +107,9 @@ button {
 
   padding: 1.5rem 1.55rem;
 
-  box-shadow:
-    0 12px 26px rgba(0, 0, 0, 0.12);
+ box-shadow:
+  0 14px 30px rgba(0, 0, 0, 0.12),
+  inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
 .rathmer-center-section h2 {
@@ -140,10 +141,10 @@ button {
   overflow: hidden;
   background-clip: padding-box;
 
-  box-shadow:
-    0 10px 20px rgba(0, 0, 0, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08);
-
+ box-shadow:
+  0 10px 20px rgba(0, 0, 0, 0.12),
+  inset 0 1px 0 rgba(255, 255, 255, 0.18),
+  inset 0 -1px 0 rgba(0, 0, 0, 0.10);
   transition:
     transform 0.22s ease,
     box-shadow 0.22s ease,
@@ -154,10 +155,10 @@ button {
   transform: translateY(-3px);
   filter: saturate(1.06) brightness(1.03);
 
-  box-shadow:
-    0 15px 26px rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.12);
-}
+ box-shadow:
+  0 16px 28px rgba(0, 0, 0, 0.18),
+  inset 0 1px 0 rgba(255, 255, 255, 0.22),
+  inset 0 -1px 0 rgba(0, 0, 0, 0.12);
 
 .rathmer-type-number {
   display: block;
@@ -170,9 +171,9 @@ button {
   display: block;
 
   font-size: 1.03rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.2;
-
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
   letter-spacing: 0.01em;
 
   color: rgba(255, 255, 255, 0.93);
