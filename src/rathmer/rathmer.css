@@ -350,7 +350,7 @@ button {
 
 .rathmer-inline-info p,
 .rathmer-side-info p {
-  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 .rathmer-inline-info p {
