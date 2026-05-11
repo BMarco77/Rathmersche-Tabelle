@@ -193,6 +193,7 @@ button {
 .rathmer-theory-grid > div {
   display: flex;
   flex-direction: column;
+  align-self: start;
 }
 .rathmer-theory-grid {
   display: grid;
