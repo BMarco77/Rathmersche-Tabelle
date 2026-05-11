@@ -189,6 +189,11 @@ button {
   margin-bottom: 1.2rem;
 }
 
+.rathmer-top-grid > div,
+.rathmer-theory-grid > div {
+  display: flex;
+  flex-direction: column;
+}
 .rathmer-theory-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
