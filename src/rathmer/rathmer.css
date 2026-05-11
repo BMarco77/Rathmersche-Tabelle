@@ -114,8 +114,11 @@ button {
 }
 
 .rathmer-type-button {
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   color: white;
+
+  overflow: hidden;
+  background-clip: padding-box;
 
   border-radius: 1.35rem;
   padding: 1.05rem 1.25rem;
