@@ -53,7 +53,7 @@ export default function TypePage({ onBack }) {
   return (
     <div className="rathmer-page">
       <button className="rathmer-back-button" onClick={onBack}>
-        ← Zur Übersicht
+        ← Home
       </button>
 
       <header className="rathmer-home-header">
