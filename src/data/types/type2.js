@@ -33,7 +33,7 @@ Liebe als Tauschhandel`
 Indizien, die hier häufiger beobachtet werden können:
 
 • Nasenform
-  fein, zierlich, filigran, ästhetisch,
+  &nbsp;&nbsp;, zierlich, filigran, ästhetisch,
   weich geformt, feminin
 
 • Gesichtspartie
