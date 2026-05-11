@@ -707,3 +707,55 @@ button {
     display: none;
   }
 }
+
+/* =========================
+   MOTION / POLISH
+========================= */
+
+.rathmer-inline-info,
+.rathmer-side-info.is-expanded {
+  animation: rathmerFadeUp 0.28s ease both;
+}
+
+@keyframes rathmerFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rathmer-top-button,
+.rathmer-theory-button,
+.rathmer-subtype-header,
+.rathmer-trait-button,
+.rathmer-module-button,
+.rathmer-type-button {
+  will-change: transform;
+}
+
+.rathmer-top-button:focus-visible,
+.rathmer-theory-button:focus-visible,
+.rathmer-subtype-header:focus-visible,
+.rathmer-trait-button:focus-visible,
+.rathmer-module-button:focus-visible,
+.rathmer-type-button:focus-visible,
+.rathmer-back-button:focus-visible {
+  outline: 2px solid rgba(155, 77, 204, 0.45);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rathmer-inline-info,
+  .rathmer-side-info.is-expanded {
+    animation: none;
+  }
+
+  * {
+    transition: none !important;
+  }
+}
