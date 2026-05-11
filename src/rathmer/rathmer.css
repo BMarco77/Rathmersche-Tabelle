@@ -52,9 +52,10 @@ button {
 }
 
 .rathmer-home-header p {
-  font-size: 1.15rem;
-  line-height: 1.7;
-  opacity: 0.75;
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: 0;
+  opacity: 0.72;
 }
 
 /* =========================
