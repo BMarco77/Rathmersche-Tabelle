@@ -55,9 +55,9 @@ export default function HomePage({ onSelectType }) {
                 <button
                   key={type.number}
                   className="rathmer-type-button"
-                  style={{
-                    background: `linear-gradient(135deg, ${type.color}, #3a2418)`,
-                  }}
+                 style={{
+  background: `linear-gradient(135deg, ${type.color} 0%, #5a3c31 100%)`,
+}}
                   onClick={() => onSelectType(type.number)}
                 >
                 <span className="rathmer-type-name">
