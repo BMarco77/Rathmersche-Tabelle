@@ -252,7 +252,25 @@ Entwicklung im negativen Fall:
     },
     {
       label: "Entspannungspunkt = 4",
-      content: "Hier steht später der Tooltip-Text zum Entspannungspunkt 4."
+      content: `Definition Entspannungspunkt:
+
+Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+
+Entspannungspunkt in Typ 4:
+
+Entwicklung im positiven Fall:
+
+- kreativ
+- tiefgründig
+- ausdrucksstark
+- empathisch
+
+Entwicklung im negativen Fall:
+
+- chaotisch
+- anspruchsvoll
+- melancholisch
+- hysterisch`
     }
   ],
 
