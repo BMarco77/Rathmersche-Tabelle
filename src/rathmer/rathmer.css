@@ -112,15 +112,13 @@ button {
   overflow: hidden;
   padding: 1.5rem 1.55rem;
 
+  box-sizing: border-box;
+
   box-shadow:
     0 14px 30px rgba(0, 0, 0, 0.12),
     inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
-.rathmer-center-section,
-.rathmer-type-button {
-  box-sizing: border-box;
-}
 .rathmer-center-section h2 {
   text-align: center;
   margin: 0 0 1.5rem;
@@ -130,7 +128,6 @@ button {
 .rathmer-type-button-grid {
   display: grid;
   gap: 1rem;
-
   width: 100%;
 }
 
@@ -148,6 +145,7 @@ button {
 
   overflow: hidden;
   background-clip: padding-box;
+  box-sizing: border-box;
 
   cursor: pointer;
   text-align: left;
@@ -163,14 +161,14 @@ button {
     box-shadow 0.22s ease,
     filter 0.22s ease;
 }
+
 .rathmer-type-button:hover {
   transform: translateY(-3px);
   filter: saturate(1.06) brightness(1.03);
 
   box-shadow:
     0 16px 28px rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.22),
-    inset 0 -1px 0 rgba(0, 0, 0, 0.12);
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
 .rathmer-type-button::before {
@@ -182,30 +180,68 @@ button {
 
   background: linear-gradient(
     180deg,
-    rgba(255,255,255,0.12),
-    rgba(255,255,255,0.02)
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0.02)
   );
 
   pointer-events: none;
 }
-.rathmer-type-name {
-  display: block;
 
+.rathmer-type-button-inner {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rathmer-type-big-number {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+
+  width: 2.8rem;
+
+  transform: translateY(-50%);
+
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(255, 255, 255, 0.18);
+
+  pointer-events: none;
+  user-select: none;
+}
+
+.rathmer-type-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.rathmer-type-archetype {
   font-size: 1.03rem;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.96);
 
-  color: rgba(255, 255, 255, 0.93);
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.18);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
 }
 
 /* Falls noch irgendwo genutzt */
-.rathmer-type-number {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
+.rathmer-type-name,
+.rathmer-type-number,
+.rathmer-type-label {
+  display: none;
 }
 
 /* =========================
@@ -611,6 +647,18 @@ button {
 }
 
 /* =========================
+   MOBILE / DESKTOP INFO
+========================= */
+
+.mobile-info {
+  display: none;
+}
+
+.desktop-info {
+  display: block;
+}
+
+/* =========================
    RESPONSIVE
 ========================= */
 
@@ -719,16 +767,6 @@ button {
     font-size: 1.55rem;
   }
 
-  .rathmer-type-big-number {
-  left: 0.3rem;
-  width: 2.0rem;
-  font-size: 2.0rem;
-}
-
-.rathmer-type-archetype {
-  font-size: 0.98rem;
-}
-
   .rathmer-back-button {
     font-size: 0.78rem;
     padding: 0.45rem 0.7rem;
@@ -740,6 +778,16 @@ button {
     min-height: 58px;
     padding: 0.85rem 1rem;
     border-radius: 1.05rem;
+  }
+
+  .rathmer-type-big-number {
+    left: 0.3rem;
+    width: 2rem;
+    font-size: 2rem;
+  }
+
+  .rathmer-type-archetype {
+    font-size: 0.98rem;
   }
 
   .rathmer-subtype-header,
@@ -776,18 +824,6 @@ button {
   .rathmer-module-button {
     min-height: 56px;
   }
-}
-
-/* =========================
-   MOBILE / DESKTOP INFO
-========================= */
-
-.mobile-info {
-  display: none;
-}
-
-.desktop-info {
-  display: block;
 }
 
 /* =========================
@@ -842,62 +878,4 @@ button {
   * {
     transition: none !important;
   }
-}
-
-.rathmer-type-button-inner {
-  position: relative;
-
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.rathmer-type-big-number {
-  position: absolute;
-  left: 0.85rem;
-  top: 50%;
-
-  width: 2.8rem;
-
-  transform: translateY(-50%);
-
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 1;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: rgba(255,255,255,0.18);
-
-  pointer-events: none;
-  user-select: none;
-}
-.rathmer-type-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-}
-
-.rathmer-type-label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-
-  color: rgba(255,255,255,0.72);
-
-  margin-bottom: 0.12rem;
-}
-
-.rathmer-type-archetype {
-  font-size: 1.03rem;
-  font-weight: 600;
-  color: rgba(255,255,255,0.96);
 }
