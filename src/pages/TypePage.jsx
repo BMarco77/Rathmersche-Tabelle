@@ -210,14 +210,15 @@ export default function TypePage({ onBack }) {
                   return;
                 }
 
-                setOpenSubtype(subtype.code);
-                setSelectedSubtypeItem({
-                  subtype: subtype.code,
-                  title: subtype.code.toUpperCase(),
-                  content:
-                    subtype.subtypeInfo ||
-                    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
-                });
+               setOpenSubtype(subtype.code);
+
+setSelectedSubtypeItem({
+  subtype: subtype.code,
+  title: subtype.code.toUpperCase(),
+  content:
+    subtype.content ||
+    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
+});
               }}
             >
               <h3>{subtype.code}</h3>
