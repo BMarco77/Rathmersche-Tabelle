@@ -61,7 +61,28 @@ Indizien, die hier häufiger beobachtet werden können:
   coreModules: [
     {
       label: "Bewusstseinsstufen",
-      content: "Hier steht später der Tooltip-Text zu Bewusstseinsstufen."
+      content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
+
+(1 = sehr unbewusst/ungesund,
+9 = sehr bewusst/gesund)
+
+1. Psychosomatisches Opfer
+
+2. Dominanter Erpresser
+
+3. Selbstbetrügerischer Manipulator
+
+4. Überheblicher Heiliger
+
+5. Besitzergreifender Intimfreund
+
+6. Großsprecherischer Freund
+
+7. Fürsorglicher
+
+8. Einfühlsamer
+
+9. Uneigennütziger Altruist`
     },
     {
       label: "Tritypen",
