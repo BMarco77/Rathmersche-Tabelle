@@ -30,30 +30,7 @@ Identifikation:
   },
 
   typeInfo: {
-centerInfo: {
-  content: `Die Herzmenschen umfassen die Typen 2, 3 und 4.
-
-Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz.
-
-Grundproblem:
-- Liebes-Defizit
-- Gefühl, nicht geliebt zu werden /
-  nicht anerkannt zu sein
-
-Hauptthemen:
-- Image
-- Beziehungen
-- Empathie
-- Leistung
-- Charme / Scham
-- Gefühle
-
-Identifikation:
-- „Ich bin, wie ich auf andere wirke.“`
-},
-
-typeInfo: {
-  content: `Überentwickelte Herzenergie:
+    content: `Überentwickelte Herzenergie:
 - Herzenergie wird nach außen gerichtet
 
 Grundmotivation:
@@ -61,10 +38,10 @@ Grundmotivation:
 
 Abwehrmechanismus:
 - Liebe als Tauschhandel`
-},
+  },
 
-sideInfo: {
-  content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+  sideInfo: {
+    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
 
 Indizien, die hier häufiger beobachtet werden können:
 
@@ -84,11 +61,12 @@ Indizien, die hier häufiger beobachtet werden können:
 - feminin
 - zart
 - fein`
-},
+  },
 
-{
-  label: "Bewusstseinsstufen",
-  content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
+  coreModules: [
+    {
+      label: "Bewusstseinsstufen",
+      content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
 9 = sehr bewusst/gesund)
@@ -102,11 +80,11 @@ Indizien, die hier häufiger beobachtet werden können:
 7. Fürsorglicher
 8. Einfühlsamer
 9. Uneigennütziger Altruist`
-},
+    },
 
-{
-  label: "Tritypen",
-  content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+    {
+      label: "Tritypen",
+      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
 
@@ -139,11 +117,11 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
 - 2-7-9: Friedensstifter
 - 2-6-8: Retter
 - 2-7-8: Freigeist`
-},
+    },
 
-{
-  label: "Leidenschaft - Stolz",
-  content: `Bedeutung von Leidenschaft in diesem Kontext:
+    {
+      label: "Leidenschaft - Stolz",
+      content: `Bedeutung von Leidenschaft in diesem Kontext:
 
 - Pseudo-Schutz-Mechanismus,
   der wortwörtlich „Leiden schafft“
@@ -157,11 +135,11 @@ Gesteigerte Formen:
 
 - Hochmut
 - Scheinheiligkeit`
-},
+    },
 
-{
-  label: "Umgang",
-  content: `- Dankbarkeit zeigen
+    {
+      label: "Umgang",
+      content: `- Dankbarkeit zeigen
 
 - Respekt & Rücksichtnahme
 
@@ -175,11 +153,11 @@ Gesteigerte Formen:
 - „Tauschhandel“ berücksichtigen
   und das zurückgeben, was man
   vom Gegenüber bekommt`
-},
+    },
 
-{
-  label: "Flügel = 1",
-  content: `Bedeutung der Flügel:
+    {
+      label: "Flügel = 1",
+      content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 - Dies führt zu einer Eigenschaftsadaption
@@ -212,11 +190,11 @@ Eigenschaften im negativen Fall:
 - Konfliktsucht
 - Kritikunfähigkeit
 - zwanghafte Präsentation von Überlegenheit`
-},
+    },
 
-{
-  label: "Flügel = 3",
-  content: `Bedeutung der Flügel:
+    {
+      label: "Flügel = 3",
+      content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 - Dies führt zu einer Eigenschaftsadaption
@@ -250,11 +228,11 @@ Eigenschaften im negativen Fall:
 - übermäßige Identifikation mit äußeren Werten
 - Oberflächlichkeit
 - Opportunismus`
-},
+    },
 
-{
-  label: "Stresspunkt = 8",
-  content: `Definition Stresspunkt:
+    {
+      label: "Stresspunkt = 8",
+      content: `Definition Stresspunkt:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
@@ -273,11 +251,11 @@ Entwicklung im negativen Fall:
 - herrisch
 - dominant
 - aggressiv`
-},
+    },
 
-{
-  label: "Entspannungspunkt = 4",
-  content: `Definition Entspannungspunkt:
+    {
+      label: "Entspannungspunkt = 4",
+      content: `Definition Entspannungspunkt:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
@@ -296,4 +274,83 @@ Entwicklung im negativen Fall:
 - anspruchsvoll
 - melancholisch
 - hysterisch`
-},
+    }
+  ],
+
+  subtypes: [
+    {
+      code: "se2",
+      traits: [
+        {
+          label: "warm",
+          content: "Hier steht später die Erklärung zu warm bei se2."
+        },
+        {
+          label: "kindlich",
+          content: "Hier steht später die Erklärung zu kindlich bei se2."
+        },
+        {
+          label: "Kontra",
+          content: "Hier steht später die Erklärung zu Kontra bei se2."
+        }
+      ],
+
+      modules: [
+        {
+          label: "Demaskierung",
+          content: "Hier steht später der Tooltip-Text zur Demaskierung bei se2."
+        }
+      ]
+    },
+
+    {
+      code: "so2",
+      traits: [
+        {
+          label: "kalt",
+          content: "Hier steht später die Erklärung zu kalt bei so2."
+        },
+        {
+          label: "erwachsen",
+          content: "Hier steht später die Erklärung zu erwachsen bei so2."
+        },
+        {
+          label: "Verst.",
+          content: "Hier steht später die Erklärung zu Verst. bei so2."
+        }
+      ],
+
+      modules: [
+        {
+          label: "Demaskierung",
+          content: "Hier steht später der Tooltip-Text zur Demaskierung bei so2."
+        }
+      ]
+    },
+
+    {
+      code: "sx2",
+      traits: [
+        {
+          label: "hitzig",
+          content: "Hier steht später die Erklärung zu hitzig bei sx2."
+        },
+        {
+          label: "jugendlich",
+          content: "Hier steht später die Erklärung zu jugendlich bei sx2."
+        },
+        {
+          label: "Normal",
+          content: "Hier steht später die Erklärung zu Normal bei sx2."
+        }
+      ],
+
+      modules: [
+        {
+          label: "Demaskierung",
+          content: "Hier steht später der Tooltip-Text zur Demaskierung bei sx2."
+        }
+      ]
+    }
+  ]
+};
