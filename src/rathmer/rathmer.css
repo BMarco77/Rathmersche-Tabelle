@@ -844,16 +844,16 @@ button {
 }
 
 .rathmer-type-big-number {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 3.7rem;
+  font-weight: 800;
   line-height: 1;
-
+  margin-right: -0.15rem;
   color: rgba(255, 255, 255, 0.18);
 
   letter-spacing: -0.04em;
 
   text-shadow:
-    0 2px 12px rgba(255,255,255,0.08);
+    0 2px 12px rgba(255,255,255,0.16);
 
   flex-shrink: 0;
 }
@@ -876,12 +876,13 @@ button {
 }
 
 .rathmer-type-archetype {
-  font-size: 1.15rem;
-  font-weight: 700;
-  line-height: 1.1;
+  font-size: 1rem;
+  font-weight: 600;
 
-  color: rgba(255,255,255,0.96);
+  letter-spacing: -0.01em;
+
+  color: rgba(255,255,255,0.94);
 
   text-shadow:
-    0 1px 10px rgba(0,0,0,0.18);
+    0 1px 8px rgba(0,0,0,0.14);
 }
