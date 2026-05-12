@@ -137,7 +137,20 @@ Gesteigerte Formen:
     },
     {
       label: "Umgang",
-      content: "Hier steht später der Tooltip-Text zum Umgang mit Typ 2."
+      content: `    Dankbarkeit zeigen
+
+    Respekt & Rücksichtnahme
+
+    Ehrlichkeit & Empathie,
+    um zu verhindern, dass das Gegenüber
+    sich betrogen fühlt
+
+    emotionale Wärme suggerieren /
+    auf emotionaler Ebene begegnen
+
+    „Tauschhandel“ berücksichtigen
+    und das zurückgeben, was man
+    vom Gegenüber bekommt`
     },
     {
       label: "Flügel = 1",
