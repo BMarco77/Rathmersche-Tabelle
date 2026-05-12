@@ -230,7 +230,25 @@ Eigenschaften im negativen Fall:
     },
     {
       label: "Stresspunkt = 8",
-      content: "Hier steht später der Tooltip-Text zum Stresspunkt 8."
+      content: `Definition Stresspunkt:
+
+Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+
+Stresspunkt in Typ 8:
+
+Entwicklung im positiven Fall:
+
+- beschützerisch
+- stark
+- unabhängig
+- stabil
+
+Entwicklung im negativen Fall:
+
+- kontrollierend
+- herrisch
+- dominant
+- aggressiv`
     },
     {
       label: "Entspannungspunkt = 4",
