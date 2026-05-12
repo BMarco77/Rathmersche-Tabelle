@@ -319,12 +319,10 @@ export default function TypePage({ onBack }) {
 function InlineInfo({ item }) {
   return (
     <div className="rathmer-inline-info">
-      <h2>{item.title}</h2>
       <p>{item.content}</p>
     </div>
   );
 }
-
 function SubtypeMobileInfo({ item }) {
   return (
     <div className="rathmer-inline-info mobile-info">
