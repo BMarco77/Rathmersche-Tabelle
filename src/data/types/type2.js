@@ -27,7 +27,6 @@ Identifikation:
   },
 
   typeInfo: {
-    title: "Liebe",
 
   content: `Überentwickelte Herzenergie:
     (Herzenergie wird nach außen gerichtet)
@@ -40,8 +39,7 @@ Abwehrmechanismus:
 },
 
   sideInfo: {
-    title: "weibliche Seite",
-    content:
+        content:
       `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
 
 Indizien, die hier häufiger beobachtet werden können:
@@ -60,7 +58,7 @@ Indizien, die hier häufiger beobachtet werden können:
   
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
+      
       content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
@@ -85,7 +83,6 @@ Indizien, die hier häufiger beobachtet werden können:
 9. Uneigennütziger Altruist`
     },
     {
-      label: "Tritypen",
       content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
@@ -121,8 +118,21 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
     2-7-8: Freigeist`
     },
     {
-      label: "Leidenschaft = Stolz",
-      content: "Hier steht später der Tooltip-Text zur Leidenschaft Stolz."
+      
+      content: `Bedeutung von Leidenschaft in diesem Kontext:
+
+    Pseudo-Schutz-Mechanismus,
+    der wortwörtlich „Leiden schafft“
+
+Bedeutung von Stolz in diesem Kontext:
+
+    Überzeugung, etwas zu leisten,
+    um Liebe zu bekommen
+
+Gesteigerte Formen:
+
+    Hochmut
+    Scheinheiligkeit`
     },
     {
       label: "Umgang",
