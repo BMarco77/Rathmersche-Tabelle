@@ -8,7 +8,7 @@ export const type2Data = {
   color: TYPE_COLORS[2],
 
   centerInfo: {
-    content: `Die Herzmenschen umfassen die Typen 2, 3 und 4.
+  content: `Die Herzmenschen umfassen die Typen 2, 3 und 4.
 
 Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz.
 
@@ -27,10 +27,10 @@ Hauptthemen:
 
 Identifikation:
 - „Ich bin, wie ich auf andere wirke.“`
-  },
+},
 
-  typeInfo: {
-    content: `Überentwickelte Herzenergie:
+typeInfo: {
+  content: `Überentwickelte Herzenergie:
 - Herzenergie wird nach außen gerichtet
 
 Grundmotivation:
@@ -38,10 +38,10 @@ Grundmotivation:
 
 Abwehrmechanismus:
 - Liebe als Tauschhandel`
-  },
+},
 
-  sideInfo: {
-    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+sideInfo: {
+  content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
 
 Indizien, die hier häufiger beobachtet werden können:
 
@@ -61,12 +61,11 @@ Indizien, die hier häufiger beobachtet werden können:
 - feminin
 - zart
 - fein`
-  },
+},
 
-  coreModules: [
-    {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
+{
+  label: "Bewusstseinsstufen",
+  content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
 9 = sehr bewusst/gesund)
@@ -80,11 +79,11 @@ Indizien, die hier häufiger beobachtet werden können:
 7. Fürsorglicher
 8. Einfühlsamer
 9. Uneigennütziger Altruist`
-    },
+},
 
-    {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+{
+  label: "Tritypen",
+  content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
 
@@ -117,11 +116,11 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
 - 2-7-9: Friedensstifter
 - 2-6-8: Retter
 - 2-7-8: Freigeist`
-    },
+},
 
-    {
-      label: "Leidenschaft - Stolz",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+{
+  label: "Leidenschaft - Stolz",
+  content: `Bedeutung von Leidenschaft in diesem Kontext:
 
 - Pseudo-Schutz-Mechanismus,
   der wortwörtlich „Leiden schafft“
@@ -135,11 +134,11 @@ Gesteigerte Formen:
 
 - Hochmut
 - Scheinheiligkeit`
-    },
+},
 
-    {
-      label: "Umgang",
-      content: `- Dankbarkeit zeigen
+{
+  label: "Umgang",
+  content: `- Dankbarkeit zeigen
 
 - Respekt & Rücksichtnahme
 
@@ -153,11 +152,11 @@ Gesteigerte Formen:
 - „Tauschhandel“ berücksichtigen
   und das zurückgeben, was man
   vom Gegenüber bekommt`
-    },
+},
 
-    {
-      label: "Flügel = 1",
-      content: `Bedeutung der Flügel:
+{
+  label: "Flügel = 1",
+  content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 - Dies führt zu einer Eigenschaftsadaption
@@ -190,11 +189,11 @@ Eigenschaften im negativen Fall:
 - Konfliktsucht
 - Kritikunfähigkeit
 - zwanghafte Präsentation von Überlegenheit`
-    },
+},
 
-    {
-      label: "Flügel = 3",
-      content: `Bedeutung der Flügel:
+{
+  label: "Flügel = 3",
+  content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 - Dies führt zu einer Eigenschaftsadaption
@@ -228,11 +227,11 @@ Eigenschaften im negativen Fall:
 - übermäßige Identifikation mit äußeren Werten
 - Oberflächlichkeit
 - Opportunismus`
-    },
+},
 
-    {
-      label: "Stresspunkt = 8",
-      content: `Definition Stresspunkt:
+{
+  label: "Stresspunkt = 8",
+  content: `Definition Stresspunkt:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
@@ -251,11 +250,11 @@ Entwicklung im negativen Fall:
 - herrisch
 - dominant
 - aggressiv`
-    },
+},
 
-    {
-      label: "Entspannungspunkt = 4",
-      content: `Definition Entspannungspunkt:
+{
+  label: "Entspannungspunkt = 4",
+  content: `Definition Entspannungspunkt:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
@@ -274,7 +273,7 @@ Entwicklung im negativen Fall:
 - anspruchsvoll
 - melancholisch
 - hysterisch`
-    }
+}
   ],
 
   subtypes: [
