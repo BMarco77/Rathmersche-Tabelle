@@ -301,7 +301,9 @@ Stichpunktartige Beschreibung:
       traits: [
         {
           label: "warm",
-          content: "Hier steht später die Erklärung zu warm bei se2."
+          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+
+Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
         },
         {
           label: "kindlich",
