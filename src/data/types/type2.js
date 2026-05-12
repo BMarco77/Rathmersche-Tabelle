@@ -58,7 +58,7 @@ Indizien, die hier häufiger beobachtet werden können:
   
   coreModules: [
     {
-      
+      label: "Tritypen",
       content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
