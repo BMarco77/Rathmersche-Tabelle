@@ -833,3 +833,55 @@ button {
     transition: none !important;
   }
 }
+
+.rathmer-type-button-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  width: 100%;
+  position: relative;
+}
+
+.rathmer-type-big-number {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+
+  color: rgba(255, 255, 255, 0.18);
+
+  letter-spacing: -0.04em;
+
+  text-shadow:
+    0 2px 12px rgba(255,255,255,0.08);
+
+  flex-shrink: 0;
+}
+
+.rathmer-type-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rathmer-type-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+
+  color: rgba(255,255,255,0.72);
+
+  margin-bottom: 0.12rem;
+}
+
+.rathmer-type-archetype {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.1;
+
+  color: rgba(255,255,255,0.96);
+
+  text-shadow:
+    0 1px 10px rgba(0,0,0,0.18);
+}
