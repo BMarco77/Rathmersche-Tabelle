@@ -273,7 +273,7 @@ Entwicklung im negativen Fall:
 - anspruchsvoll
 - melancholisch
 - hysterisch`
-}
+},
   ],
 
   subtypes: [
