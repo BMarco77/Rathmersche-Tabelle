@@ -78,9 +78,7 @@ export default function HomePage({ onSelectType }) {
   </div>
 
   <div className="rathmer-type-text">
-    <span className="rathmer-type-label">
-      Typ {type.number}
-    </span>
+   
 
     <span className="rathmer-type-archetype">
       {type.name}
