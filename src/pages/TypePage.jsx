@@ -328,8 +328,7 @@ function InlineInfo({ item }) {
 function SubtypeMobileInfo({ item }) {
   return (
     <div className="rathmer-inline-info mobile-info">
-      
-        {item.subtype.toUpperCase()}</span>
+      <span className="rathmer-info-label">        {item.subtype.toUpperCase()}</span>
       <p>{item.content}</p>
     </div>
   );
