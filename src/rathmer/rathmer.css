@@ -847,14 +847,14 @@ button {
 
 .rathmer-type-big-number {
   position: absolute;
-  left: 1.1rem;
+  left: 1.15rem;
   top: 50%;
 
-  width: 3.2rem;
+  width: 2.8rem;
 
   transform: translateY(-50%);
 
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 1;
 
@@ -862,7 +862,7 @@ button {
   align-items: center;
   justify-content: center;
 
-  color: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.18);
 
   pointer-events: none;
   user-select: none;
