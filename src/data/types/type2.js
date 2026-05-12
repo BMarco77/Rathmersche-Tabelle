@@ -281,20 +281,20 @@ Entwicklung im negativen Fall:
     {
       code: "se2",
       content: `Grundmotivation:
-- Liebe (in der Selbsterhaltung)
+Liebe in der Selbsterhaltung
 
 Leidenschaft:
-- Stolz (in der Selbsterhaltung)
+Stolz in der Selbsterhaltung
 
 Stichpunktartige Beschreibung:
 
-- "Ich-Zuerst"-Mentalität
+- Ich-zuerst-Mentalität
 - starke Bedürfnisse
-- liebevoll & kümmernd, bis die eigenen Bedürfnisse eingeschnitten werden
-- dann ruppig / grob im Verhalten
-  (bis hin zur Rücksichtslosigkeit)
-- wirkt so, als ob sie der Meinung wäre, privilegiert zu sein
-- ist stark gekränkt, wenn er für seine "Dienste" keine Gegenleistungen erhält
+- liebevoll und kümmernd
+- bei verletzten Bedürfnissen ruppig / grob
+- kann rücksichtslos wirken
+- fühlt sich schnell übergangen
+- erwartet Gegenleistung für Dienste
 - starke Bedürftigkeit
 - Naivität`,
 
