@@ -58,7 +58,7 @@ Indizien, die hier häufiger beobachtet werden können:
   
   coreModules: [
     {
-      label: "Tritypen",
+      label: "Bewusstseinsstufen",
       content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
@@ -83,6 +83,7 @@ Indizien, die hier häufiger beobachtet werden können:
 9. Uneigennütziger Altruist`
     },
     {
+      label: "Tritypen",
       content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
@@ -118,7 +119,7 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
     2-7-8: Freigeist`
     },
     {
-      
+      label: "Leidenschaft - Stolz",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
     Pseudo-Schutz-Mechanismus,
