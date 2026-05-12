@@ -193,7 +193,40 @@ Eigenschaften im negativen Fall:
     },
     {
       label: "Flügel = 3",
-      content: "Hier steht später der Tooltip-Text zum Flügel 3."
+      content: `Bedeutung der Flügel:
+
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
+
+Flügel zu Typ 3:
+
+Eigenschaften im positiven Fall:
+
+- Ehrgeiz
+- Fokus / Tunnelblick
+- viele Visionen & Ziele
+- Nüchternheit
+- Charme
+- Selbstdarstellung
+- Fähigkeit zum Einnehmen einer Vorbildfunktion
+- Arbeitsamkeit
+- Leistungsanspruch
+- Image-Bewusstsein
+
+Eigenschaften im negativen Fall:
+
+- Selbst- & Fremdtäuschung / Lügen
+- Eitelkeit
+- mehr Schein als Sein
+- Empathielosigkeit
+- emotionale Kälte
+- Gefühlsblindheit
+- Hang zur Überarbeitung
+- Skrupellosigkeit
+- übermäßige Identifikation mit äußeren Werten
+- Oberflächlichkeit
+- Opportunismus`
     },
     {
       label: "Stresspunkt = 8",
