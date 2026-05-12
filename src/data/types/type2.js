@@ -7,7 +7,7 @@ export const type2Data = {
  color: TYPE_COLORS[2],
 
   centerInfo: {
-    title: "Herz-Menschen",
+    
     content:
       `Die Herzmenschen umfassen die Typen 2, 3 und 4.
 
