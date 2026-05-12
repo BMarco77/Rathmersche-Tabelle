@@ -848,6 +848,7 @@ button {
   font-weight: 800;
   line-height: 1;
   margin-right: -0.15rem;
+  opacity: 0.14;
   color: rgba(255, 255, 255, 0.18);
 
   letter-spacing: -0.04em;
@@ -876,13 +877,14 @@ button {
 }
 
 .rathmer-type-archetype {
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.02rem;
+
+  font-weight: 500;
 
   letter-spacing: -0.01em;
 
   color: rgba(255,255,255,0.94);
 
   text-shadow:
-    0 1px 8px rgba(0,0,0,0.14);
+    0 1px 6px rgba(0,0,0,0.10);
 }
