@@ -72,9 +72,21 @@ export default function HomePage({ onSelectType }) {
 }}
                   onClick={() => onSelectType(type.number)}
                 >
-                <span className="rathmer-type-name">
-  Typ {type.number} – {type.name}
-</span>
+                <div className="rathmer-type-button-inner">
+  <div className="rathmer-type-big-number">
+    {type.number}
+  </div>
+
+  <div className="rathmer-type-text">
+    <span className="rathmer-type-label">
+      Typ {type.number}
+    </span>
+
+    <span className="rathmer-type-archetype">
+      {type.name}
+    </span>
+  </div>
+</div>
                 </button>
               ))}
             </div>
