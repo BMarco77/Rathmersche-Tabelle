@@ -280,7 +280,7 @@ Entwicklung im negativen Fall:
   subtypes: [
     {
       code: "se2",
-      description: `Grundmotivation:
+      content: `Grundmotivation:
 - Liebe (in der Selbsterhaltung)
 
 Leidenschaft:
