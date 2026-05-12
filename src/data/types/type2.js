@@ -156,67 +156,40 @@ Gesteigerte Formen:
       label: "Flügel = 1",
       content: `Bedeutung der Flügel:
 
-    Die Nachbartypen eines Enneatyps
-    haben einen Einfluss auf ihn
-
-    Dies führt zu einer
-    Eigenschaftsadaption
-
-    Einer der beiden Flügel ist
-    besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps
+  haben einen Einfluss auf ihn
+- Dies führt zu einer
+  Eigenschaftsadaption
+- Einer der beiden Flügel ist
+  besonders stark ausgeprägt
 
 Flügel zu Typ 1:
 
 Eigenschaften im positiven Fall:
 
-    stark ausgeprägte Vernunft
-    und Prinzipientreue
-
-    Talent für die Kreation von
-    Struktur / Ordnung
-
-    hohes Maß an Ehrgeiz
-
-    viel Fokus
-
-    Fähigkeit, die Rolle eines
-    Mentors einzunehmen
-
-    Drang nach Optimierung /
-    Fehlerbewusstsein
-
-    Überzeugungskraft
-
-    mentale Stärke & Disziplin
-
-    Gewissenhaftigkeit
-
-    hohe Werte
-
-    Diskussionsfähigkeit
+- stark ausgeprägte Vernunft und Prinzipientreue
+- Talent für die Kreation von Struktur / Ordnung
+- hohes Maß an Ehrgeiz
+- viel Fokus
+ -Fähigkeit, die Rolle eines Mentors einzunehmen
+- Drang nach Optimierung / Fehlerbewusstsein
+- Überzeugungskraft
+- mentale Stärke & Disziplin
+- Gewissenhaftigkeit
+- hohe Werte
+- Diskussionsfähigkeit
 
 Eigenschaften im negativen Fall:
 
-    Engstirnigkeit
-
-    Rechthaberei
-
-    Doppelmoral
-
-    zu hohe Ansprüche
-    Mitmenschen gegenüber
-
-    Arroganz
-
-    Intoleranz anderen Meinungen
-    gegenüber
-
-    Konfliktsucht
-
-    Kritikunfähigkeit
-
-    zwanghafte Präsentation
-    von Überlegenheit`
+- Engstirnigkeit
+- Rechthaberei
+- Doppelmoral
+- zu hohe Ansprüche Mitmenschen gegenüber
+- Arroganz
+- Intoleranz anderen Meinungen gegenüber
+- Konfliktsucht
+- Kritikunfähigkeit
+- zwanghafte Präsentation von Überlegenheit`
     },
     {
       label: "Flügel = 3",
