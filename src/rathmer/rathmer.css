@@ -474,30 +474,31 @@ button {
 
 .rathmer-trait-button,
 .rathmer-module-button {
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 1.1rem;
+  border: 1px solid rgba(255,255,255,0.22);
 
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.3),
-    rgba(255, 255, 255, 0.16)
+    rgba(255,248,240,0.34),
+    rgba(255,255,255,0.16)
   );
 
-  color: rgba(255, 255, 255, 0.96);
+  color: rgba(255,255,255,0.92);
 
-  cursor: pointer;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 0.94rem;
+  letter-spacing: 0.01em;
 
-  backdrop-filter: blur(10px);
+  box-shadow:
+    0 6px 14px rgba(0,0,0,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.16);
 
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(8px);
 
   transition:
-    transform 0.2s ease,
-    background 0.22s ease,
-    box-shadow 0.22s ease;
+    transform 0.18s ease,
+    box-shadow 0.22s ease,
+    background 0.22s ease;
 }
-
 .rathmer-trait-button {
   min-height: 56px;
   padding: 0.85rem 1rem;
@@ -527,15 +528,20 @@ button {
 
 .rathmer-trait-button.is-active,
 .rathmer-module-button.is-active {
+
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.42),
-    rgba(255, 255, 255, 0.24)
+    rgba(180,120,255,0.24),
+    rgba(140,70,210,0.18)
   );
 
+  border: 1px solid rgba(210,170,255,0.34);
+
   box-shadow:
-    0 14px 28px rgba(0, 0, 0, 0.16),
-    0 0 0 1px rgba(255, 255, 255, 0.24) inset;
+    0 10px 22px rgba(120,70,180,0.16),
+    0 0 0 1px rgba(255,255,255,0.08) inset;
+
+  transform: translateY(-1px);
 }
 
 /* =========================
