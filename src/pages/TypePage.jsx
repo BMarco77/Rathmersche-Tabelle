@@ -7,7 +7,6 @@ export default function TypePage({ onBack }) {
   const [openTopItems, setOpenTopItems] = useState([]);
   const [openTheoryRow1Items, setOpenTheoryRow1Items] = useState([]);
   const [openTheoryRow2Items, setOpenTheoryRow2Items] = useState([]);
-
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
   const [openSubtype, setOpenSubtype] = useState(null);
 
@@ -41,20 +40,21 @@ export default function TypePage({ onBack }) {
   };
 
   const scrollToMobileTarget = (id) => {
-  if (window.innerWidth > 900) return;
+    if (window.innerWidth > 900) return;
 
-  setTimeout(() => {
-    document.getElementById(id)?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }, 80);
-};
+    setTimeout(() => {
+      document.getElementById(id)?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 90);
+  };
 
-const makeId = (prefix, subtypeCode, label = "") =>
-  `${prefix}-${subtypeCode}-${label}`
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-");
+  const makeId = (prefix, subtypeCode, label = "") =>
+    `${prefix}-${subtypeCode}-${label}`
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-");
+
   return (
     <div className="rathmer-page">
       <button className="rathmer-back-button" onClick={onBack}>
@@ -74,7 +74,6 @@ const makeId = (prefix, subtypeCode, label = "") =>
         </p>
       </header>
 
-      {/* TOP ROW */}
       <section className="rathmer-top-grid">
         <div>
           <button
@@ -143,7 +142,6 @@ const makeId = (prefix, subtypeCode, label = "") =>
         </div>
       </section>
 
-      {/* THEORY ROW 1 */}
       <section className="rathmer-theory-grid">
         {theoryRow1.map((module) => {
           const id = `row1-${module.label}`;
@@ -175,7 +173,6 @@ const makeId = (prefix, subtypeCode, label = "") =>
         })}
       </section>
 
-      {/* THEORY ROW 2 */}
       <section className="rathmer-theory-grid">
         {theoryRow2.map((module) => {
           const id = `row2-${module.label}`;
@@ -207,13 +204,12 @@ const makeId = (prefix, subtypeCode, label = "") =>
         })}
       </section>
 
-      {/* SUBTYPE GRID */}
       <section className="rathmer-main-grid">
         {type2Data.subtypes.map((subtype) => (
           <div key={subtype.code} className="rathmer-subtype-column">
             <button
-  id={`subtype-${subtype.code}`}
-  className={`rathmer-subtype-header ${
+              id={`subtype-${subtype.code}`}
+              className={`rathmer-subtype-header ${
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
               style={{
@@ -226,17 +222,17 @@ const makeId = (prefix, subtypeCode, label = "") =>
                   return;
                 }
 
-               setOpenSubtype(subtype.code);
+                setOpenSubtype(subtype.code);
 
-setSelectedSubtypeItem({
-  subtype: subtype.code,
-  title: subtype.code.toUpperCase(),
-  content:
-    subtype.content ||
-    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
-});
+                setSelectedSubtypeItem({
+                  subtype: subtype.code,
+                  title: subtype.code.toUpperCase(),
+                  content:
+                    subtype.content ||
+                    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
+                });
 
-scrollToMobileTarget(`subtype-${subtype.code}`);
+                scrollToMobileTarget(`subtype-${subtype.code}`);
               }}
             >
               <h3>{subtype.code}</h3>
@@ -250,67 +246,83 @@ scrollToMobileTarget(`subtype-${subtype.code}`);
             {openSubtype === subtype.code && (
               <>
                 <div className="rathmer-trait-grid">
-                  {subtype.traits.map((trait) => (
-                    <div key={trait.label}>
-                      <button
-                        className={`rathmer-trait-button ${
-                          selectedSubtypeItem?.subtype === subtype.code &&
-                          selectedSubtypeItem?.title === trait.label
-                            ? "is-active"
-                            : ""
-                        }`}
-                        onClick={() =>
-                          setSelectedSubtypeItem({
-                            subtype: subtype.code,
-                            title: trait.label,
-                            content: trait.content,
-                          })
-                        }
-                      >
-                        {trait.label}
-                      </button>
+                  {subtype.traits.map((trait) => {
+                    const targetId = makeId("trait", subtype.code, trait.label);
 
-                      {selectedSubtypeItem?.subtype === subtype.code &&
-                        selectedSubtypeItem?.title === trait.label && (
-                          <SubtypeMobileInfo item={selectedSubtypeItem} />
-                        )}
-                    </div>
-                  ))}
+                    return (
+                      <div key={trait.label} id={targetId}>
+                        <button
+                          className={`rathmer-trait-button ${
+                            selectedSubtypeItem?.subtype === subtype.code &&
+                            selectedSubtypeItem?.title === trait.label
+                              ? "is-active"
+                              : ""
+                          }`}
+                          onClick={() => {
+                            setSelectedSubtypeItem({
+                              subtype: subtype.code,
+                              title: trait.label,
+                              content: trait.content,
+                            });
+
+                            scrollToMobileTarget(targetId);
+                          }}
+                        >
+                          {trait.label}
+                        </button>
+
+                        {selectedSubtypeItem?.subtype === subtype.code &&
+                          selectedSubtypeItem?.title === trait.label && (
+                            <SubtypeMobileInfo item={selectedSubtypeItem} />
+                          )}
+                      </div>
+                    );
+                  })}
                 </div>
 
                 <div className="rathmer-module-grid">
-                  {subtype.modules.map((module, index) => (
-  <React.Fragment key={module.label}>
-    <div>
-      <button
-        className={`rathmer-module-button ${
-          selectedSubtypeItem?.subtype === subtype.code &&
-          selectedSubtypeItem?.title === module.label
-            ? "is-active"
-            : ""
-        }`}
-        onClick={() =>
-          setSelectedSubtypeItem({
-            subtype: subtype.code,
-            title: module.label,
-            content: module.content,
-          })
-        }
-      >
-        {module.label}
-      </button>
+                  {subtype.modules.map((module, index) => {
+                    const targetId = makeId(
+                      "module",
+                      subtype.code,
+                      module.label
+                    );
 
-      {selectedSubtypeItem?.subtype === subtype.code &&
-        selectedSubtypeItem?.title === module.label && (
-          <SubtypeMobileInfo item={selectedSubtypeItem} />
-        )}
-    </div>
+                    return (
+                      <React.Fragment key={module.label}>
+                        <div id={targetId}>
+                          <button
+                            className={`rathmer-module-button ${
+                              selectedSubtypeItem?.subtype === subtype.code &&
+                              selectedSubtypeItem?.title === module.label
+                                ? "is-active"
+                                : ""
+                            }`}
+                            onClick={() => {
+                              setSelectedSubtypeItem({
+                                subtype: subtype.code,
+                                title: module.label,
+                                content: module.content,
+                              });
 
-    {(index === 1 || index === 8) && (
-      <div className="rathmer-module-spacer" />
-    )}
-  </React.Fragment>
-))}
+                              scrollToMobileTarget(targetId);
+                            }}
+                          >
+                            {module.label}
+                          </button>
+
+                          {selectedSubtypeItem?.subtype === subtype.code &&
+                            selectedSubtypeItem?.title === module.label && (
+                              <SubtypeMobileInfo item={selectedSubtypeItem} />
+                            )}
+                        </div>
+
+                        {(index === 1 || index === 8) && (
+                          <div className="rathmer-module-spacer" />
+                        )}
+                      </React.Fragment>
+                    );
+                  })}
                 </div>
               </>
             )}
@@ -348,11 +360,13 @@ function InlineInfo({ item }) {
     </div>
   );
 }
+
 function SubtypeMobileInfo({ item }) {
   return (
     <div className="rathmer-inline-info mobile-info">
-      <span className="rathmer-info-label">        
-        {item.subtype.toUpperCase()}</span>
+      <span className="rathmer-info-label">
+        {item.subtype.toUpperCase()}
+      </span>
       <p>{item.content}</p>
     </div>
   );
