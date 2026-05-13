@@ -494,37 +494,21 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
         {
           label: "Führung",
           content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-
 - Liebe und Wertschätzung entgegenbringen
-
 - Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-
 - Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-
 - Dankbarkeit für die Leistung der se2 zeigen
-
 - kleine Geschenke und Zusicherungen machen
-
 - statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-
 - kein grober Umgang gegenüber der se2
-
 - erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-
 - klare Kommunikation, um Missverständnisse zu vermeiden
-
 - emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-
 - vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-
 - Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-
 - mit kleinen Geschenken und Belohnungen motivieren
-
 - beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-
 - Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-
 - erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
         }
       ]
