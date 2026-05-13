@@ -261,32 +261,38 @@ setSelectedSubtypeItem({
                 </div>
 
                 <div className="rathmer-module-grid">
-                  {subtype.modules.map((module) => (
-                    <div key={module.label}>
-                      <button
-                        className={`rathmer-module-button ${
-                          selectedSubtypeItem?.subtype === subtype.code &&
-                          selectedSubtypeItem?.title === module.label
-                            ? "is-active"
-                            : ""
-                        }`}
-                        onClick={() =>
-                          setSelectedSubtypeItem({
-                            subtype: subtype.code,
-                            title: module.label,
-                            content: module.content,
-                          })
-                        }
-                      >
-                        {module.label}
-                      </button>
+                  {subtype.modules.map((module, index) => (
+  <React.Fragment key={module.label}>
+    <div>
+      <button
+        className={`rathmer-module-button ${
+          selectedSubtypeItem?.subtype === subtype.code &&
+          selectedSubtypeItem?.title === module.label
+            ? "is-active"
+            : ""
+        }`}
+        onClick={() =>
+          setSelectedSubtypeItem({
+            subtype: subtype.code,
+            title: module.label,
+            content: module.content,
+          })
+        }
+      >
+        {module.label}
+      </button>
 
-                      {selectedSubtypeItem?.subtype === subtype.code &&
-                        selectedSubtypeItem?.title === module.label && (
-                          <SubtypeMobileInfo item={selectedSubtypeItem} />
-                        )}
-                    </div>
-                  ))}
+      {selectedSubtypeItem?.subtype === subtype.code &&
+        selectedSubtypeItem?.title === module.label && (
+          <SubtypeMobileInfo item={selectedSubtypeItem} />
+        )}
+    </div>
+
+    {(index === 1 || index === 8) && (
+      <div className="rathmer-module-spacer" />
+    )}
+  </React.Fragment>
+))}
                 </div>
               </>
             )}
