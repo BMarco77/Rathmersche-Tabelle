@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import wappen from "../assets/wappen-512.png";
 import { type2Data } from "../data/types/type2";
 import "../rathmer/rathmer.css";
@@ -333,7 +333,8 @@ function InlineInfo({ item }) {
 function SubtypeMobileInfo({ item }) {
   return (
     <div className="rathmer-inline-info mobile-info">
-      <span className="rathmer-info-label">        {item.subtype.toUpperCase()}</span>
+      <span className="rathmer-info-label">        
+        {item.subtype.toUpperCase()}</span>
       <p>{item.content}</p>
     </div>
   );
