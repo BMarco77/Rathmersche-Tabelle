@@ -1,6 +1,6 @@
 import { TYPE_COLORS } from "../typeColors";
 
-export const type2Data = {
+export const type3Data = {
   type: 3,
   title: "Erfolg",
   center: "Herz-Menschen",
