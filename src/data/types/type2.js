@@ -755,7 +755,7 @@ Statistisch gesehen wählt die so2 folgende Partner am ehesten:
 
     {
       code: "sx2",
-      description: `Grundmotivation:
+      content: `Grundmotivation:
 - Liebe (in der zwischenmenschlichen Beziehung)
 
 Leidenschaft:
