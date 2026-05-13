@@ -330,47 +330,217 @@ Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stol
       modules: [
         {
           label: "Demaskierung",
-          content: "Hier steht später der Tooltip-Text zur Demaskierung bei se2."
+          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+
+- er hat viele Bedürfnisse
+- er hat eine Abneigung gegen Abhängigkeiten
+- er ist sehr hilfsbereit, solange es ihm selbst gut geht
+- er besitzt einen "gesunden Egoismus"
+- er legt viel Wert auf Dankbarkeit & Wertschätzung
+- er kann sich gut in andere hineinversetzen
+- er wird oftmals als zu grob / direkt wahrgenommen
+- er ist vorsichtig und skeptisch, hat zudem immer das Gefühl, ausgenutzt / betrogen zu werden
+- er kann unter Umständen sehr fordernd sein und für seine Bedürfnisse und Werte einstehen
+- er ist ein Kontrollfreak
+- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
+- er ist sehr sensibel und nimmt viel wahr
+- er kann im Stressfall schnell sehr gereizt werden`
         },
         {
           label: "Blinder Fleck",
-          content: "Hier steht später der Tooltip-Text zum blinden Fleck bei se2."
+          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+
+- emotionale Hysterie
+- Image-Identifikation
+- Gefühls-Identifikation
+- Liebes-Defizit
+
+Blinder Fleck von Typ 2 im Allgemeinen:
+
+- Stolz & Hochmut als Liebesgarant
+- starkes Schaffen von Abhängigkeiten im außen
+- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+
+Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+
+- materialistisches Denken
+- Egoismus
+- Bedürfnisorientierung
+
+Blinder Fleck, speziell bei der se2:
+
+- Kampf gegen den Stolz
+- Abhängigkeit von inneren Bedürfnissen
+- ungesunder Egoismus
+- Schein-Abhängigkeit von materiellem Wohlbefinden`
         },
         {
           label: "Augen",
-          content: "Hier steht später der Tooltip-Text zu den Augen bei se2."
+          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+
+- warm
+- freundlich
+- mütterlich
+- kümmernd
+- einfühlsam
+- emotional
+- naiv
+
+Die Blickqualität der se2 ergänzt sich wie folgt:
+
+- dominant
+- herrisch`
         },
         {
           label: "Körper",
-          content: "Hier steht später der Tooltip-Text zum Körper bei se2."
+          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+
+- „Bambi-Augen“ (große, braune Augen)
+- volle Lippen
+- weibliche, „kurvige“ Züge
+
+Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
+
+- weicher, runder, kleiner Körperbau
+- üppiger Vorbau`
         },
         {
           label: "Wirkung",
-          content: "Hier steht später der Tooltip-Text zur Wirkung bei se2."
+         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+
+- mütterlich
+- feminin
+- warm
+- freundlich
+- süß
+- weich
+- verführerisch
+
+Die Wirkweisen der se2 ergänzen sich wie folgt:
+
+„Matriarchin“-Ausstrahlung:
+
+- stark
+- rau
+- naiv
+- egoistisch`
         },
         {
           label: "Weiteres",
-          content: "Hier steht später weiterer Tooltip-Text bei se2."
+         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+
+- passen sich tendenziell an den Gesprächspartner an
+
+Über den se2 sollte man explizit noch Folgendes wissen:
+
+- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
         },
         {
           label: "Bsp.",
-          content: "Hier stehen später Beispielpersonen für se2."
+          content: `- Wolfgang Amadeus Mozart
+- Quentin Tarantino
+- Ice Cube
+- Greta Thunberg
+- Pamela Michaelis
+- 6ix9ine
+- Ron Bielecki
+- Danielle Pinnock
+- Wilson Gonzales Ochsenknecht
+- Leni Klum`
         },
         {
           label: "Lookalikes",
-          content: "Hier stehen später Lookalikes für se2."
+          content: `Verwechslung in männlicher Form:
+
+- se8
+- se7
+
+Verwechslung in weiblicher Form:
+
+- se8
+- se7
+- se4`
         },
         {
           label: "Partnerwahl",
-          content: "Hier steht später der Tooltip-Text zur Partnerwahl bei se2."
+          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+
+Statistisch gesehen wählt die se2 folgende Partner am ehesten:
+
+- se/so7
+- se3
+- se1
+- sx/so/se6`
         },
         {
           label: "Verkauf",
-          content: "Hier steht später der Tooltip-Text zum Verkauf bei se2."
+          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
+
+- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
+
+- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
+
+- Helfer- & Gastgebermentalität an den Tag legen
+
+- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
+
+- Fragen stellen
+
+- immer darauf achten, großzügig/freigiebig zu sein
+
+- Dankbarkeit schon bei kleinen Gesten zeigen
+
+- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
+
+- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
+
+- Wertschätzung entgegenbringen / Komplimente machen
+
+- kleine Geschenke und Zusatzbedürfnisse erfüllen
+
+- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
+
+- Empathie & Verständnis entgegenbringen
+
+- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
+
+- ständige Unterstützung zusichern`
         },
         {
           label: "Führung",
-          content: "Hier steht später der Tooltip-Text zur Führung bei se2."
+          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
+
+- Liebe und Wertschätzung entgegenbringen
+
+- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
+
+- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
+
+- Dankbarkeit für die Leistung der se2 zeigen
+
+- kleine Geschenke und Zusicherungen machen
+
+- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
+
+- kein grober Umgang gegenüber der se2
+
+- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
+
+- klare Kommunikation, um Missverständnisse zu vermeiden
+
+- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
+
+- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
+
+- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
+
+- mit kleinen Geschenken und Belohnungen motivieren
+
+- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
+
+- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
+
+- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
         }
       ]
     },
