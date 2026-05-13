@@ -755,20 +755,53 @@ Statistisch gesehen wählt die so2 folgende Partner am ehesten:
 
     {
       code: "sx2",
-      description: "Hier steht später die Hauptbeschreibung zu sx2.",
+      description: `Grundmotivation:
+- Liebe (in der zwischenmenschlichen Beziehung)
+
+Leidenschaft:
+- Stolz (in der zwischenmenschlichen Beziehung)
+
+Stichpunktartige Beschreibung:
+
+- sehr feminin
+- unersättlicher Liebesdurst
+- erlebnisorientiert
+- sprunghaft
+- schmeichelnd-manipulativ
+- legt viel Wert auf Attraktivität
+- tierlieb
+- hartnäckig
+- engstirnig
+- verführerisch
+- geht zwischenmenschlich auf andere zu
+- fühlt sich schnell vom Partner betrogen
+- macht sich schnell abhängig vom Partner
+- unterstützend`,
 
       traits: [
         {
           label: "hitzig",
-          content: "Hier steht später die Erklärung zu hitzig bei sx2."
+          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+
+Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
         },
         {
           label: "jugendlich",
-          content: "Hier steht später die Erklärung zu jugendlich bei sx2."
+          content: content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+
+Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
         },
         {
           label: "Normaltyp",
-          content: "Hier steht später die Erklärung zu Normal bei sx2."
+          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+
+Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+
+Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+
+Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
         }
       ],
 
