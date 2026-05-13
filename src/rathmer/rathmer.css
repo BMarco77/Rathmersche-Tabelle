@@ -893,3 +893,10 @@ border: 1px solid rgba(210,170,255,0.28);
     transition: none !important;
   }
 }
+@media (max-width: 900px) {
+  .rathmer-subtype-header,
+  .rathmer-trait-grid > div,
+  .rathmer-module-grid > div {
+    scroll-margin-top: 1rem;
+  }
+}
