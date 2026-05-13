@@ -570,47 +570,185 @@ Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach
       modules: [
         {
           label: "Demaskierung",
-          content: "Hier steht später der Tooltip-Text zur Demaskierung bei so2."
+          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+
+- er ist hilfsbereit
+- er ist sensibel
+- er legt viel Wert auf Respekt
+- er besitzt eine gewisse Skepsis
+- er kümmert sich gerne um seine Freunde & Verwandten
+- er hat ein starkes Verantwortungsgefühl
+- er ist sehr feminin
+- er ist stolz auf das, was er bereits geschafft hat
+- er hat von Zeit zu Zeit emotionale Löcher
+- er braucht ein gutes Umfeld, um sich zu entwickeln
+- er kann gut vermitteln
+- er hat einen Hang zur Aufopferung
+- er ist sehr ehrgeizig
+- er ist vernünftig
+- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
+- er ist verlässlich`
         },
         {
           label: "Blinder Fleck",
-          content: "Hier steht später der Tooltip-Text zum blinden Fleck bei so2."
+         content: `Blinder Fleck der Herzenergie im Allgemeinen:
+
+- emotionale Hysterie
+- Image-Identifikation
+- Gefühls-Identifikation
+- Liebes-Defizit
+
+Blinder Fleck von Typ 2 im Allgemeinen:
+
+- Stolz & Hochmut als Liebesgarant
+- starke Abhängigkeiten im Außen
+- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+
+Blinder Fleck des sozialen Typs im Allgemeinen:
+
+- Gruppen-Abhängigkeit
+- Anpassung an die Gruppe
+- fehlende Motivation ohne Gruppenabgleich
+
+Blinder Fleck, speziell bei der so2:
+
+- starkes Ausleben des Stolzes
+- Abhängigkeit von der Anerkennung durch eine Gruppe
+- ungesunde Aufopferungsbereitschaft
+- Spießigkeit, um anerkannt zu werden`
         },
         {
           label: "Augen",
-          content: "Hier steht später der Tooltip-Text zu den Augen bei so2."
+         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+
+- warm
+- freundlich
+- mütterlich
+- kümmernd
+- einfühlsam
+- emotional
+- naiv
+
+Die Blickqualität der so2 ergänzt sich wie folgt:
+
+- hochmütig
+- ernst`
         },
         {
           label: "Körper",
-          content: "Hier steht später der Tooltip-Text zum Körper bei so2."
+          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+
+- “Bambi-Augen” (große, braune Augen)
+- volle Lippen
+- weibliche, “kurvige” Züge
+
+Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
+
+- üppiger Vorbau`
         },
         {
           label: "Wirkung",
-          content: "Hier steht später der Tooltip-Text zur Wirkung bei so2."
+          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+
+- mütterlich
+- feminin
+- warm
+- freundlich
+- süß
+- weich
+- verführerisch
+
+Die Wirkweisen der so2 ergänzen sich wie folgt:
+
+“Diplomaten”-Ausstrahlung:
+
+- vernünftig
+- strebsam
+- spießig`
         },
         {
           label: "Weiteres",
-          content: "Hier steht später weiterer Tooltip-Text bei so2."
+          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+
+- passen sich tendenziell an den Gesprächspartner an
+
+Über den so2 sollte man explizit noch Folgendes wissen:
+
+- oftmals in Führungspositionen
+- großzügig
+- ehrgeizig`
         },
         {
           label: "Beispiele",
-          content: "Hier stehen später Beispielpersonen für so2."
+          content: `- Jenna Ortega
+- Samuel L. Jackson
+- Lewis Hamilton
+- Barack Obama
+- Drake
+- Akon
+- Fynn Kliemann
+- Dr. Dre
+- Will Smith
+- Liam Payne`
         },
         {
           label: "Lookalikes",
-          content: "Hier stehen später Lookalikes für so2."
+          content: content: `Verwechslung in männlicher Form:
+
+- so3
+- se3
+- se7
+- so7
+- so9
+
+Verwechslung in weiblicher Form:
+
+- so3
+- se7
+- so9
+- se3`
         },
         {
           label: "Partnerwahl",
-          content: "Hier steht später der Tooltip-Text zur Partnerwahl bei so2."
+          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+
+Statistisch gesehen wählt die so2 folgende Partner am ehesten:
+
+- so7
+- so/se3
+- so/se1
+- so6
+- se8 (vereinzelt)`
         },
         {
           label: "Verkauf",
-          content: "Hier steht später der Tooltip-Text zum Verkauf bei so2."
+          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
+-> den Stolz nicht kränken
+
+- Anerkennung für Leistungen und Erfolge geben
+- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
+- Verantwortungsbewusstsein der so2 herausstellen und loben
+- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
+- Helferrolle übernehmen
+- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
+- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
+- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
+- Engagement im Kundenstamm zeigen
+- mitfühlend sein`
         },
         {
           label: "Führung",
-          content: "Hier steht später der Tooltip-Text zur Führung bei so2."
+          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
+- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
+- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
+- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
+- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
+- Lob erteilen bei guter Aufgabenerfüllung
+- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
+- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
+- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
+- Empathie und Einfühlungsvermögen erbringen
+- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
         }
       ]
     },
