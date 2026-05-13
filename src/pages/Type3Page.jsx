@@ -56,7 +56,7 @@ export default function TypePage({ onBack }) {
       .replace(/[^a-z0-9]+/g, "-");
 
   return (
-    <div className="rathmer-page">
+    <div className="rathmer-page type-3-page">
       <button className="rathmer-back-button" onClick={onBack}>
         Home
       </button>
