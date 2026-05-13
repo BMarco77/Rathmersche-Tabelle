@@ -587,7 +587,7 @@ Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach
 - er ist sehr ehrgeizig
 - er ist vernünftig
 - er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`,
+- er ist verlässlich`
         },
         {
           label: "Blinder Fleck",
@@ -615,7 +615,7 @@ Blinder Fleck, speziell bei der so2:
 - starkes Ausleben des Stolzes
 - Abhängigkeit von der Anerkennung durch eine Gruppe
 - ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`,
+- Spießigkeit, um anerkannt zu werden`
         },
         {
           label: "Augen",
@@ -632,7 +632,7 @@ Blinder Fleck, speziell bei der so2:
 Die Blickqualität der so2 ergänzt sich wie folgt:
 
 - hochmütig
-- ernst`,
+- ernst`
         },
         {
           label: "Körper",
@@ -664,7 +664,7 @@ Die Wirkweisen der so2 ergänzen sich wie folgt:
 
 - vernünftig
 - strebsam
-- spießig`,
+- spießig`
         },
         {
           label: "Weiteres",
@@ -689,11 +689,11 @@ Die Wirkweisen der so2 ergänzen sich wie folgt:
 - Fynn Kliemann
 - Dr. Dre
 - Will Smith
-- Liam Payne`,
+- Liam Payne`
         },
         {
           label: "Lookalikes",
-          content: content: `Verwechslung in männlicher Form:
+          content: `Verwechslung in männlicher Form:
 
 - so3
 - se3
@@ -706,7 +706,7 @@ Verwechslung in weiblicher Form:
 - so3
 - se7
 - so9
-- se3`,
+- se3`
         },
         {
           label: "Partnerwahl",
@@ -718,7 +718,7 @@ Statistisch gesehen wählt die so2 folgende Partner am ehesten:
 - so/se3
 - so/se1
 - so6
-- se8 (vereinzelt)`,
+- se8 (vereinzelt)`
         },
         {
           label: "Verkauf",
@@ -734,7 +734,7 @@ Statistisch gesehen wählt die so2 folgende Partner am ehesten:
 - Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
 - erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
 - Engagement im Kundenstamm zeigen
-- mitfühlend sein`,
+- mitfühlend sein`
         },
         {
           label: "Führung",
@@ -748,7 +748,7 @@ Statistisch gesehen wählt die so2 folgende Partner am ehesten:
 - Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
 - dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
 - Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`,
+- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
         }
       ]
     },
