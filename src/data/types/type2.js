@@ -436,7 +436,7 @@ Die Wirkweisen der se2 ergänzen sich wie folgt:
 - verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
         },
         {
-          label: "Bsp.",
+          label: "Beispiele",
           content: `- Wolfgang Amadeus Mozart
 - Quentin Tarantino
 - Ice Cube
