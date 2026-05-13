@@ -157,13 +157,13 @@ Gesteigerte Formen:
 
     {
       label: "Flügel = 1",
-      content: `Bedeutung der Flügel
+      content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 - Dies führt zu einer Eigenschaftsadaption
 - Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 1
+Flügel zu Typ 1:
 
 Eigenschaften im positiven Fall:
 
@@ -194,13 +194,13 @@ Eigenschaften im negativen Fall:
 
     {
       label: "Flügel = 3",
-      content: `Bedeutung der Flügel
+      content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 - Dies führt zu einer Eigenschaftsadaption
 - Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 3
+Flügel zu Typ 3:
 
 Eigenschaften im positiven Fall:
 
@@ -236,7 +236,7 @@ Eigenschaften im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 8
+Stresspunkt in Typ 8:
 
 Entwicklung im positiven Fall:
 
@@ -259,7 +259,7 @@ Entwicklung im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
-Entspannungspunkt in Typ 4
+Entspannungspunkt in Typ 4:
 
 Entwicklung im positiven Fall:
 
