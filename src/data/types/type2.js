@@ -543,19 +543,19 @@ Stichpunktartige Beschreibung:
       traits: [
         {
           label: "kalt",
-          content: content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
 
 Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
         },
         {
           label: "erwachsen",
-          content: content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
 
 Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
         },
         {
           label: "Verstärkungstyp",
-          content: content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
 Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
