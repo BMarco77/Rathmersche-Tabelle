@@ -66,10 +66,10 @@ export default function TypePage({ onBack }) {
           <img src={wappen} alt="Rathmer Wappen" />
         </div>
 
-        <h1>Typ 2 – Der Helfer</h1>
+        <h1>Typ 3 – Der Erfolgreiche</h1>
 
         <p>
-          Eine interaktive Übersicht der Typ-2-Struktur, ihrer Grunddynamik und
+          Eine interaktive Übersicht der Typ-3-Struktur, ihrer Grunddynamik und
           Subtypen.
         </p>
       </header>
@@ -89,7 +89,7 @@ export default function TypePage({ onBack }) {
               )
             }
           >
-            {type2Data.center}
+            {type3Data.center}
           </button>
 
           {isOpen(openTopItems, "center") && (
@@ -107,11 +107,11 @@ export default function TypePage({ onBack }) {
                 openTopItems,
                 setOpenTopItems,
                 "type",
-                type2Data.typeInfo
+                type3Data.typeInfo
               )
             }
           >
-            {type2Data.title}
+            {type3Data.title}
           </button>
 
           {isOpen(openTopItems, "type") && (
@@ -129,11 +129,11 @@ export default function TypePage({ onBack }) {
                 openTopItems,
                 setOpenTopItems,
                 "side",
-                type2Data.sideInfo
+                type3Data.sideInfo
               )
             }
           >
-            {type2Data.side}
+            {type3Data.side}
           </button>
 
           {isOpen(openTopItems, "side") && (
@@ -205,7 +205,7 @@ export default function TypePage({ onBack }) {
       </section>
 
       <section className="rathmer-main-grid">
-        {type2Data.subtypes.map((subtype) => (
+        {type3Data.subtypes.map((subtype) => (
           <div key={subtype.code} className="rathmer-subtype-column">
             <button
               id={`subtype-${subtype.code}`}
@@ -213,7 +213,7 @@ export default function TypePage({ onBack }) {
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
               style={{
-                background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
+                background: `linear-gradient(135deg, ${type3Data.color}, #7b2cbf)`,
               }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
