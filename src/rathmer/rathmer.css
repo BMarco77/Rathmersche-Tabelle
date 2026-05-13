@@ -472,6 +472,11 @@ button {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.rathmer-module-button:nth-child(2),
+.rathmer-module-button:nth-child(9) {
+  margin-bottom: 1rem;
+}
+
 .rathmer-trait-button,
 .rathmer-module-button {
   border: 1px solid rgba(255,255,255,0.22);
