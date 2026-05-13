@@ -45,19 +45,19 @@ Abwehrmechanismus:
 
 Indizien, die hier häufiger beobachtet werden können:
 
-Nasenform
+Nasenform:
 - zierlich
 - filigran
 - ästhetisch
 - weich geformt
 - feminin
 
-Gesichtspartie
+Gesichtspartie:
 - weiche Haut
 - reine Haut
 - lange Wimpern
 
-Wirkung
+Wirkung:
 - feminin
 - zart
 - fein`
@@ -236,7 +236,7 @@ Eigenschaften im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 8:
+Stresspunkt in Typ 8
 
 Entwicklung im positiven Fall:
 
@@ -259,7 +259,7 @@ Entwicklung im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
-Entspannungspunkt in Typ 4:
+Entspannungspunkt in Typ 4
 
 Entwicklung im positiven Fall:
 
