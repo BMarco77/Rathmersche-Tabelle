@@ -307,11 +307,23 @@ Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltung
         },
         {
           label: "kindlich",
-          content: "Hier steht später die Erklärung zu kindlich bei se2."
+          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+
+Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
         },
         {
           label: "Kontra",
-          content: "Hier steht später die Erklärung zu Kontra bei se2."
+          content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+
+Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+
+Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
+
+Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
         }
       ],
 
