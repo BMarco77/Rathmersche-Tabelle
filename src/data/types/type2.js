@@ -45,19 +45,19 @@ Abwehrmechanismus:
 
 Indizien, die hier häufiger beobachtet werden können:
 
-- Nasenform
+Nasenform
 - zierlich
 - filigran
 - ästhetisch
 - weich geformt
 - feminin
 
-- Gesichtspartie
+Gesichtspartie
 - weiche Haut
 - reine Haut
 - lange Wimpern
 
-- Wirkung
+Wirkung
 - feminin
 - zart
 - fein`
