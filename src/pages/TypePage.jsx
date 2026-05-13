@@ -40,6 +40,21 @@ export default function TypePage({ onBack }) {
     return items.find((item) => item.id === id);
   };
 
+  const scrollToMobileTarget = (id) => {
+  if (window.innerWidth > 900) return;
+
+  setTimeout(() => {
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }, 80);
+};
+
+const makeId = (prefix, subtypeCode, label = "") =>
+  `${prefix}-${subtypeCode}-${label}`
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-");
   return (
     <div className="rathmer-page">
       <button className="rathmer-back-button" onClick={onBack}>
@@ -197,7 +212,8 @@ export default function TypePage({ onBack }) {
         {type2Data.subtypes.map((subtype) => (
           <div key={subtype.code} className="rathmer-subtype-column">
             <button
-              className={`rathmer-subtype-header ${
+  id={`subtype-${subtype.code}`}
+  className={`rathmer-subtype-header ${
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
               style={{
@@ -219,6 +235,8 @@ setSelectedSubtypeItem({
     subtype.content ||
     `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
 });
+
+scrollToMobileTarget(`subtype-${subtype.code}`);
               }}
             >
               <h3>{subtype.code}</h3>
