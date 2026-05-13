@@ -543,15 +543,27 @@ Stichpunktartige Beschreibung:
       traits: [
         {
           label: "kalt",
-          content: "Hier steht später die Erklärung zu kalt bei so2."
+          content: content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+
+Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
         },
         {
           label: "erwachsen",
-          content: "Hier steht später die Erklärung zu erwachsen bei so2."
+          content: content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+
+Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
         },
         {
           label: "Verstärkungstyp",
-          content: "Hier steht später die Erklärung zu Verst. bei so2."
+          content: content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+
+Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+
+Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+
+Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
         }
       ],
 
