@@ -558,10 +558,11 @@ border: 1px solid rgba(210,170,255,0.28);
 
 .type-3-page .rathmer-side-info {
   background: linear-gradient(
-    135deg,
-    rgba(105, 215, 238, 0.92),
-    rgba(95, 136, 201, 0.92) 45%,
-    rgba(74, 83, 97, 0.92)
+    145deg,
+    rgba(116, 222, 245, 0.92) 0%,
+    rgba(107, 168, 218, 0.92) 35%,
+    rgba(97, 118, 165, 0.92) 65%,
+    rgba(74, 83, 97, 0.92) 100%
   );
 }
 .rathmer-side-info {
