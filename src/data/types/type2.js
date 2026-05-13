@@ -333,14 +333,14 @@ Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stol
           content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
 
 - er hat viele Bedürfnisse
-- er hat eine Abneigung gegen Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm selbst gut geht
+- er hat eine Abneigung gegen   Abhängigkeiten
+- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
 - er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit & Wertschätzung
-- er kann sich gut in andere hineinversetzen
-- er wird oftmals als zu grob / direkt wahrgenommen
-- er ist vorsichtig und skeptisch, hat zudem immer das Gefühl, ausgenutzt / betrogen zu werden
-- er kann unter Umständen sehr fordernd sein und für seine Bedürfnisse und Werte einstehen
+- er legt viel Wert auf Dankbarkeit &   Wertschätzung
+- er kann sich gut in andere   hineinversetzen
+- er wird oftmals als zu grob / direkt   wahrgenommen
+- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
+- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
 - er ist ein Kontrollfreak
 - er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
 - er ist sehr sensibel und nimmt viel wahr
