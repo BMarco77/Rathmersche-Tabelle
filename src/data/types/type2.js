@@ -475,35 +475,20 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
         {
           label: "Verkauf",
           content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-
 - Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-
 - Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-
 - Helfer- & Gastgebermentalität an den Tag legen
-
 - akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-
 - Fragen stellen
-
 - immer darauf achten, großzügig/freigiebig zu sein
-
 - Dankbarkeit schon bei kleinen Gesten zeigen
-
 - alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-
 - ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-
 - Wertschätzung entgegenbringen / Komplimente machen
-
 - kleine Geschenke und Zusatzbedürfnisse erfüllen
-
 - authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-
 - Empathie & Verständnis entgegenbringen
-
 - Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-
 - ständige Unterstützung zusichern`
         },
         {
