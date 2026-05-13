@@ -529,18 +529,17 @@ button {
 .rathmer-trait-button.is-active,
 .rathmer-module-button.is-active {
 
-  background: linear-gradient(
-    180deg,
-    rgba(180,120,255,0.24),
-    rgba(140,70,210,0.18)
-  );
+ background: linear-gradient(
+  180deg,
+  rgba(185,140,220,0.22),
+  rgba(145,95,195,0.16)
+);
 
-  border: 1px solid rgba(210,170,255,0.34);
+border: 1px solid rgba(210,170,255,0.28);
 
   box-shadow:
-    0 10px 22px rgba(120,70,180,0.16),
-    0 0 0 1px rgba(255,255,255,0.08) inset;
-
+  0 8px 18px rgba(120,70,180,0.12),
+  inset 0 1px 0 rgba(255,255,255,0.08);
   transform: translateY(-1px);
 }
 
