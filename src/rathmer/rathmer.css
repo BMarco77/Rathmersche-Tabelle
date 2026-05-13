@@ -556,6 +556,14 @@ border: 1px solid rgba(210,170,255,0.28);
    SIDE INFO / 4TH COLUMN
 ========================= */
 
+.type-3-page .rathmer-side-info {
+  background: linear-gradient(
+    135deg,
+    rgba(105, 215, 238, 0.92),
+    rgba(95, 136, 201, 0.92) 45%,
+    rgba(74, 83, 97, 0.92)
+  );
+}
 .rathmer-side-info {
   width: 100%;
   height: 76px;
