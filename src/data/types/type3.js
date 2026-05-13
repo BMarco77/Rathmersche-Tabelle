@@ -5,7 +5,7 @@ export const type3Data = {
   title: "Erfolg",
   center: "Herz-Menschen",
   side: "weibliche Seite",
-  color: TYPE_COLORS[2],
+  color: TYPE_COLORS[3],
 
   centerInfo: {
     content: `Die Herzmenschen umfassen die Typen 2, 3 und 4.
