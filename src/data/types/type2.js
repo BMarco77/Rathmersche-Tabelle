@@ -808,47 +808,186 @@ Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach
       modules: [
         {
           label: "Demaskierung",
-          content: "Hier steht später der Tooltip-Text zur Demaskierung bei sx2."
+         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+
+- sehr hilfsbereit
+- er erlebt gerne viel
+- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
+- er denkt sehr partnerschaftlich
+- er kümmert sich gut um sein Äußeres
+- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
+- er kümmert sich gerne um seine Familie & Freunde
+- er ist sehr empathisch
+- er kann im Stressfall sehr gereizt werden
+- er ist charmant
+- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
+- er ist sehr sensibel
+- er geht auf im Zwischenmenschlichen
+- er verfügt über viele Emotionen`
         },
         {
           label: "Blinder Fleck",
-          content: "Hier steht später der Tooltip-Text zum blinden Fleck bei sx2."
+          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+
+- emotionale Hysterie
+- Image-Identifikation
+- Gefühls-Identifikation
+- Liebes-Defizit
+
+Blinder Fleck von Typ 2 im Allgemeinen:
+
+- Stolz & Hochmut als Liebesgarant
+- starke Abhängigkeiten im Außen
+- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+
+Blinder Fleck des sexuellen Typs im Allgemeinen:
+
+- starke & ständige Rivalität mit anderen Menschen
+- Abhängigkeit von äußerer Attraktivität & Bindungen
+- Angst vor Entwertung & Degradierung
+
+Blinder Fleck, speziell bei der sx2:
+
+- sexueller Stolz (Gefühl, betrogen zu werden)
+- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
+- starke Erlebnisorientierung`
         },
         {
           label: "Augen",
-          content: "Hier steht später der Tooltip-Text zu den Augen bei sx2."
+          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+
+- warm
+- freundlich
+- mütterlich
+- kümmernd
+- einfühlsam
+- emotional
+- naiv
+
+Die Blickqualität der sx2 ergänzt sich wie folgt:
+
+- verführerisch
+- begeistert`
         },
         {
           label: "Körper",
-          content: "Hier steht später der Tooltip-Text zum Körper bei sx2."
+          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+
+- "Bambi-Augen" (große, braune Augen)
+- volle Lippen
+- weibliche, "kurvige" Züge
+
+Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
+
+- schlank
+- lange Haare
+- Model-Statur
+- Tattoos`
         },
         {
           label: "Wirkung",
-          content: "Hier steht später der Tooltip-Text zur Wirkung bei sx2."
+          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+
+- mütterlich
+- feminin
+- warm
+- freundlich
+- süß
+- weich
+- verführerisch
+
+Die Wirkweisen der sx2 ergänzen sich wie folgt:
+
+“Casanova”-Ausstrahlung:
+
+- verführerisch
+- abenteuerlustig
+- manipulativ
+- aufreizend`
         },
         {
           label: "Weiteres",
-          content: "Hier steht später weiterer Tooltip-Text bei sx2."
+          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+
+- passen sich tendenziell an den Gesprächspartner an
+
+Über den sx2 sollte man explizit noch Folgendes wissen:
+
+- häufig Tattoos`
         },
         {
           label: "Beispiele",
-          content: "Hier stehen später Beispielpersonen für sx2."
+          content: `- Ariana Grande
+- Elvis Presley
+- Jay-Z
+- Tobias Beck
+- Robert Downey Jr.
+- Pamela Reif
+- Monika Gruber
+- Julienco
+- Ryan Gosling
+- Shawn Mendes`
         },
         {
           label: "Lookalikes",
-          content: "Hier stehen später Lookalikes für sx2."
+          content: `Verwechslung in männlicher Form:
+
+- sx2
+- sx4
+- sx7
+
+Verwechslung in weiblicher Form:
+
+- sx3
+- sx4
+- sx6
+- sx7`
         },
         {
           label: "Partnerwahl",
-          content: "Hier steht später der Tooltip-Text zur Partnerwahl bei sx2."
+          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+
+Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+
+- sx/so6
+- sx/so7
+- sx/so3
+- sx5
+- sx9`
         },
         {
           label: "Verkauf",
-          content: "Hier steht später der Tooltip-Text zum Verkauf bei sx2."
+          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
+- Verständnis entgegenbringen
+- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
+- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
+-> Stolz nicht kränken
+- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
+-> das Gefühl geben, dass man sich um alles kümmert
+- Interesse an ihr und ihren Themen zeigen
+- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
+- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
+- liebevollen und warmen Umgang pflegen
+- Sensibilität und Empathie zeigen
+- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
+- Großzügigkeit und Freigebigkeit zeigen`
         },
         {
           label: "Führung",
-          content: "Hier steht später der Tooltip-Text zur Führung bei sx2."
+          content: `- Dankbarkeit für die sx2 entgegenbringen
+- Komplimente machen
+- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
+- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
+- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
+- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
+- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
+- Verlässlichkeit der sx2 wertschätzen
+- Liebe und Zuneigung entgegenbringen
+- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
+- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
+- empathischer Umgang ist essentiell
+- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
+          
         }
       ]
     }
