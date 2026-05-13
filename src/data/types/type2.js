@@ -787,7 +787,7 @@ Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu
         },
         {
           label: "jugendlich",
-          content: content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
 
 Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
         },
