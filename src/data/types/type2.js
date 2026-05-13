@@ -516,7 +516,29 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
 
     {
       code: "so2",
-      description: "Hier steht später die Hauptbeschreibung zu so2.",
+      description: `Grundmotivation:
+- Liebe (in der sozialen Gruppe)
+
+Leidenschaft:
+- Stolz (in der sozialen Gruppe)
+
+Stichpunktartige Beschreibung:
+
+- charmant & schmeichelnd
+- Naivität
+- "die rechte Hand"
+- Seelsorger-Mentalität
+- starkes Helfersyndrom
+- spießig / kultiviert
+- starker Ehrgeiz
+- Verantwortungsbewusstsein
+- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
+- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
+- Einflussnahme in einer Gruppe
+- fachlich kompetent
+- "erwachsen"
+- manipulativ
+- tierlieb`
 
       traits: [
         {
