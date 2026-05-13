@@ -10,8 +10,8 @@ export default function TypePage({ onBack }) {
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
   const [openSubtype, setOpenSubtype] = useState(null);
 
-  const theoryRow1 = type2Data.coreModules.slice(0, 4);
-  const theoryRow2 = type2Data.coreModules.slice(4, 8);
+  const theoryRow1 = type3Data.coreModules.slice(0, 4);
+  const theoryRow2 = type3Data.coreModules.slice(4, 8);
 
   const toggleItem = (items, setItems, id, item) => {
     const alreadyOpen = items.some((openItem) => openItem.id === id);
@@ -85,7 +85,7 @@ export default function TypePage({ onBack }) {
                 openTopItems,
                 setOpenTopItems,
                 "center",
-                type2Data.centerInfo
+                type3Data.centerInfo
               )
             }
           >
