@@ -538,7 +538,7 @@ Stichpunktartige Beschreibung:
 - fachlich kompetent
 - "erwachsen"
 - manipulativ
-- tierlieb`
+- tierlieb`,
 
       traits: [
         {
