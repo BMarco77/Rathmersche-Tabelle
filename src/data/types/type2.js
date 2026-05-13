@@ -312,7 +312,7 @@ Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltung
 Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Kontra",
+          label: "Kontratyp",
           content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
 Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
@@ -528,7 +528,7 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
           content: "Hier steht später die Erklärung zu erwachsen bei so2."
         },
         {
-          label: "Verst.",
+          label: "Verstärkungstyp",
           content: "Hier steht später die Erklärung zu Verst. bei so2."
         }
       ],
@@ -559,7 +559,7 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
           content: "Hier steht später weiterer Tooltip-Text bei so2."
         },
         {
-          label: "Bsp.",
+          label: "Beispiele",
           content: "Hier stehen später Beispielpersonen für so2."
         },
         {
@@ -595,7 +595,7 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
           content: "Hier steht später die Erklärung zu jugendlich bei sx2."
         },
         {
-          label: "Normal",
+          label: "Normaltyp",
           content: "Hier steht später die Erklärung zu Normal bei sx2."
         }
       ],
@@ -626,7 +626,7 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
           content: "Hier steht später weiterer Tooltip-Text bei sx2."
         },
         {
-          label: "Bsp.",
+          label: "Beispiele",
           content: "Hier stehen später Beispielpersonen für sx2."
         },
         {
