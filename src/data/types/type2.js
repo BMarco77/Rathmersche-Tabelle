@@ -516,7 +516,7 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
 
     {
       code: "so2",
-      description: `Grundmotivation:
+      content: `Grundmotivation:
 - Liebe (in der sozialen Gruppe)
 
 Leidenschaft:
