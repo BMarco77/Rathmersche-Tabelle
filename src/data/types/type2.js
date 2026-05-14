@@ -3,8 +3,8 @@ import { TYPE_COLORS } from "../typeColors";
 export const type2Data = {
   type: 2,
   title: "Liebe",
-  center: "Herz-Menschen",
-  side: "weibliche Seite",
+  center: "Herz-Mensch",
+  side: "Weibliche Seite",
   color: TYPE_COLORS[2],
 
   centerInfo: {
@@ -120,7 +120,7 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
     },
 
     {
-      label: "Leidenschaft - Stolz",
+      label: "Leidenschaft: Stolz",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
 - Pseudo-Schutz-Mechanismus,
@@ -156,7 +156,7 @@ Gesteigerte Formen:
     },
 
     {
-      label: "Flügel = 1",
+      label: "Flügel: 1",
       content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
@@ -193,7 +193,7 @@ Eigenschaften im negativen Fall:
     },
 
     {
-      label: "Flügel = 3",
+      label: "Flügel: 3",
       content: `Bedeutung der Flügel:
 
 - Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
@@ -231,7 +231,7 @@ Eigenschaften im negativen Fall:
     },
 
     {
-      label: "Stresspunkt = 8",
+      label: "Stresspunkt: 8",
       content: `Definition Stresspunkt:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
@@ -254,7 +254,7 @@ Entwicklung im negativen Fall:
     },
 
     {
-      label: "Entspannungspunkt = 4",
+      label: "Entspannungspunkt: 4",
       content: `Definition Entspannungspunkt:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
