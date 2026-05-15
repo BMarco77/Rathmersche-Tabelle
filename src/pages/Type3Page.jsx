@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import wappen from "../assets/wappen-512.png";
 import { type3Data } from "../data/types/type3";
 import { TYPE_GRADIENTS } from "../data/typeColors";
@@ -6,6 +6,10 @@ import "../rathmer/rathmer.css";
 
 export default function TypePage({ onBack }) {
   const [openTopItems, setOpenTopItems] = useState([]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [openTheoryRow1Items, setOpenTheoryRow1Items] = useState([]);
   const [openTheoryRow2Items, setOpenTheoryRow2Items] = useState([]);
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
