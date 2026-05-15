@@ -212,9 +212,9 @@ export default function TypePage({ onBack }) {
               className={`rathmer-subtype-header ${
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
-              style={{
-                background: `linear-gradient(135deg, ${type2Data.color}, #7b2cbf)`,
-              }}
+             style={{
+  background: TYPE_GRADIENTS[type2Data.type],
+}}
               onClick={() => {
                 if (openSubtype === subtype.code) {
                   setOpenSubtype(null);
