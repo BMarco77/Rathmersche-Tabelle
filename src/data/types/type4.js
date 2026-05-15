@@ -33,10 +33,11 @@ Identifikation:
     content: `Umgewandelte Herzenergie
 (Herzenergie wird auf sich selbst projiziert)
 
-Grundmotivation: Individualität
+Grundmotivation: 
+- Individualität
 
 Abwehrmechanismus: 
-Liebe durch Selbstausdruck`
+- Liebe durch Selbstausdruck`
   },
 
   sideInfo: {
