@@ -17,7 +17,7 @@ export default function App() {
   }
 
    if (selectedType === 1) {
-    return <TypePage onBack={() => setSelectedType(null)} />;
+    return <Type1Page onBack={() => setSelectedType(null)} />;
   }
 
   return <HomePage onSelectType={setSelectedType} />;
