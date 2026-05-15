@@ -119,18 +119,19 @@ Im Fall von Typ 4 gibt es folgende Möglichkeiten für die Tritypen:
       label: "Leidenschaft: Neid",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
-- Pseudo-Schutz-Mechanismus,
-  der wortwörtlich „Leiden schafft“
+- Pseudo-Schutz-Mechanismus, 
+  der wortwörtlich "Leiden schafft"
 
-Bedeutung von Stolz in diesem Kontext:
+Bedeutung von Neid in diesem Kontext:
 
-- Überzeugung, etwas zu leisten,
-  um Liebe zu bekommen
+- Vergleich mit der Außenwelt,    
+  um etwas besonderes zu sein 
 
-Gesteigerte Formen:
+Gesteigerte Formen: 
 
-- Hochmut
-- Scheinheiligkeit`
+- Missgunst
+- Pessimismus
+- Dramatik`
     },
 
     {
