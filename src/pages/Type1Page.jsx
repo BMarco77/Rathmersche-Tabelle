@@ -129,7 +129,7 @@ export default function TypePage({ onBack }) {
                 openTopItems,
                 setOpenTopItems,
                 "side",
-                type3Data.sideInfo
+                type1Data.sideInfo
               )
             }
           >
