@@ -84,39 +84,35 @@ Wirkung:
 
     {
       label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist. 
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
+Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen: "Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?"
 
-„Wenn der Mensch ein Herzmensch / Kopfmensch / Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
-
-So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann. 
 
 Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
 
-- Typ 1: fleißig, sorgfältig, moralisch
-- Typ 2: besorgt, mitfühlend, dienend
-- Typ 3: fokussiert, effizient, ehrgeizig
-- Typ 4: intuitiv, ursprünglich, echt, kreativ
-- Typ 5: sachkundig, wissend, weise
-- Typ 6: fragend, prüfend, unterstützend
-- Typ 7: innovativ, inspirierend, anregend
-- Typ 8: beschützend, direkt, geradlinig
-- Typ 9: akzeptierend, friedlich, friedfertig
+Typ 1: fleißig, sorgfältig, moralisch
+Typ 2: besorgt, mitfühlend, dienend
+Typ 3: fokussiert, effizient, ehrgeizig
+Typ 4: intuitiv, ursprünglich, echt, kreativ
+Typ 5: sachkundig, wissend, weise
+Typ 6: fragend, prüfend, unterstützend
+Typ 7: innovativ, inspirierend, anregend
+Typ 8: beschützend, direkt, geradlinig
+Typ 9: akzeptierend, friedlich, friedfertig
 
-Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
+Im Fall von Typ 4 gibt es folgende Möglichkeiten für die Tritypen:
 
-- 2-5-1: Mentor / Ratgeber
-- 2-6-1: Unterstützer
-- 2-5-9: Problemlöser
-- 2-7-1: Lehrer
-- 2-6-9: Guter Samariter
-- 2-5-8: Stratege
-- 2-7-9: Friedensstifter
-- 2-6-8: Retter
-- 2-7-8: Freigeist`
+4-5-1: Forscher
+4-6-1: Philosoph
+4-5-9: Kontemplativer
+4-7-1: Visionär
+4-6-9: Suchender
+4-5-8: Gelehrter
+4-7-9: Wahrheitsliebender Geist`
     },
 
     {
