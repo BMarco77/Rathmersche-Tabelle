@@ -157,13 +157,9 @@ Gesteigerte Formen:
       label: "Flügel: 3",
       content: `Bedeutung der Flügel:
 
-- Die Nachbartypen eines 
-  Enneatyps haben einen Einfluss 
-  auf ihn
-- Dies führt zu einer 
-  Eigenschaftsadaption
-- Einer der beiden Flügel ist 
-  besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
 
 Flügel zu Typ 3:
 
@@ -201,13 +197,9 @@ Eigenschaften im negativen Fall:
       label: "Flügel: 5",
       content: `Bedeutung der Flügel:
 
-- Die Nachbartypen eines 
-  Enneatyps haben einen Einfluss 
-  auf ihn
-- Dies führt zu einer 
-  Eigenschaftsadaption
-- Einer der beiden Flügel ist 
-  besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
 
 Flügel zu Typ 5:
 
