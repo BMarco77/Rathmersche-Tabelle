@@ -136,20 +136,21 @@ Gesteigerte Formen:
 
     {
       label: "Umgang",
-      content: `- Dankbarkeit zeigen
+      content: `- Tiefgründigkeit im Umgang
 
-- Respekt & Rücksichtnahme
+- an die Individualität des Gegenübers appellieren
 
-- Ehrlichkeit & Empathie,
-  um zu verhindern, dass das Gegenüber
-  sich betrogen fühlt
+- "mitspielen" bei Dramatik & Stabilität vermitteln 
 
-- emotionale Wärme suggerieren /
-  auf emotionaler Ebene begegnen
+- Anerkennung & Ernstnehmen der Probleme des Gegenübers
 
-- „Tauschhandel“ berücksichtigen
-  und das zurückgeben, was man
-  vom Gegenüber bekommt`
+- das Gegenüber symbolisch auf ein Podest stellen
+
+- Empathie & besondere Behandlung des Gegenübers
+
+- Anerkennung der Sensibilität des Gegenübers zeigen
+
+- Berücksichtigung der Sensibilität des Gegenübers`
     },
 
     {
