@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import wappen from "../assets/wappen-512.png";
 import { type1Data } from "../data/types/type1";
+import { TYPE_GRADIENTS } from "../data/typeColors";
 import "../rathmer/rathmer.css";
 
 export default function TypePage({ onBack }) {
