@@ -413,13 +413,6 @@ button {
   border-radius: 1.7rem;
   background: rgba(155, 77, 204, 0.06);
 }
-
-.type-3-page .rathmer-subtype-header {
-  border: none;
-
-  box-shadow:
-    0 12px 24px rgba(0, 0, 0, 0.16),
-    inset 0 1px 0 rgba(255, 255, 255, 0.10);
 }
 .rathmer-subtype-header {
   width: 100%;
@@ -455,18 +448,11 @@ button {
 
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
 }
-
-.type-3-page .rathmer-subtype-header.is-open {
-  box-shadow:
-    0 14px 28px rgba(0, 0, 0, 0.20),
-    0 0 16px rgba(105, 215, 238, 0.22),
-    inset 0 1px 0 rgba(255, 255, 255, 0.14);
 }
 .rathmer-subtype-header.is-open {
   box-shadow:
     0 18px 34px rgba(0, 0, 0, 0.22),
-    0 0 0 2px rgba(255, 255, 255, 0.18) inset,
-    0 0 0 3px rgba(180, 120, 255, 0.3);
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
 }
 
 /* =========================
