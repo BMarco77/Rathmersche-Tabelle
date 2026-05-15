@@ -230,47 +230,47 @@ Eigenschaften im negativen Fall:
     {
       label: "Stresspunkt: 2",
       content: `Definition Stresspunkt:
-
+ 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 8:
+Stresspunkt in Typ 2:
 
 Entwicklung im positiven Fall:
 
-- beschützerisch
-- stark
-- unabhängig
-- stabil
+- liebevoll
+- kümmernd
+- warm
+- mitfühlend
 
 Entwicklung im negativen Fall:
 
-- kontrollierend
-- herrisch
-- dominant
-- aggressiv`
+- bedürftig
+- abhängig
+- manipulativ
+- klammernd`
     },
 
     {
       label: "Entspannungspunkt: 1",
       content: `Definition Entspannungspunkt:
-
+ 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
 Entspannungspunkt in Typ 1:
 
 Entwicklung im positiven Fall:
 
-- kreativ
-- tiefgründig
-- ausdrucksstark
-- empathisch
+- ordentlich
+- diszipliniert
+- vernünftig
+- strukturiert
 
 Entwicklung im negativen Fall:
 
-- chaotisch
-- anspruchsvoll
-- melancholisch
-- hysterisch`
+- rechthaberisch
+- perfektionistisch
+- arrogant
+- scheinheilig`
     }
   ],
 
