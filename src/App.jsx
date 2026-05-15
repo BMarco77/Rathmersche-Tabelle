@@ -2,6 +2,8 @@ import { useState } from "react";
 import HomePage from "./pages/HomePage";
 import TypePage from "./pages/TypePage";
 import Type3Page from "./pages/Type3Page";
+import Type1Page from "./pages/Type1Page";
+
 
 export default function App() {
   const [selectedType, setSelectedType] = useState(null);
@@ -12,6 +14,10 @@ export default function App() {
 
   if (selectedType === 3) {
     return <Type3Page onBack={() => setSelectedType(null)} />;
+  }
+
+   if (selectedType === 1) {
+    return <TypePage onBack={() => setSelectedType(null)} />;
   }
 
   return <HomePage onSelectType={setSelectedType} />;
