@@ -156,75 +156,87 @@ Gesteigerte Formen:
       label: "Flügel: 3",
       content: `Bedeutung der Flügel:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- Die Nachbartypen eines 
+  Enneatyps haben einen Einfluss 
+  auf ihn
+- Dies führt zu einer 
+  Eigenschaftsadaption
+- Einer der beiden Flügel ist 
+  besonders stark ausgeprägt
 
-Flügel zu Typ 1:
+Flügel zu Typ 3:
 
 Eigenschaften im positiven Fall:
 
-- stark ausgeprägte Vernunft und Prinzipientreue
-- Talent für die Kreation von Struktur / Ordnung
-- hohes Maß an Ehrgeiz
-- viel Fokus
-- Fähigkeit, die Rolle eines Mentors einzunehmen
-- Drang nach Optimierung / Fehlerbewusstsein
-- Überzeugungskraft
-- mentale Stärke & Disziplin
-- Gewissenhaftigkeit
-- hohe Werte
-- Diskussionsfähigkeit
+- Ehrgeiz 
+- Fokus / Tunnelblick 
+- viele Visionen & Ziele 
+- Nüchternheit 
+- Charme 
+- Selbstdarstellung 
+- Fähigkeit zum Einnehmen einer 
+  Vorbildfunktion 
+- Arbeitsamkeit  
+- Leistungsanspruch 
+- Image-Bewusstsein
 
 Eigenschaften im negativen Fall:
 
-- Engstirnigkeit
-- Rechthaberei
-- Doppelmoral
-- zu hohe Ansprüche Mitmenschen gegenüber
-- Arroganz
-- Intoleranz anderen Meinungen gegenüber
-- Konfliktsucht
-- Kritikunfähigkeit
-- zwanghafte Präsentation von Überlegenheit`
+- Selbst- & Fremdtäuschung / Lügen 
+- Eitelkeit 
+- mehr Schein als Sein 
+- Empathielosigkeit  
+- emotionale Kälte  
+- Gefühlsblindheit 
+- Hang zur Überarbeitung 
+- Skrupellosigkeit 
+- übermäßige Identifikation mit - 
+  äußeren Werten 
+- Oberflächlichkeit 
+- Opportunismus`
     },
 
     {
       label: "Flügel: 5",
       content: `Bedeutung der Flügel:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- Die Nachbartypen eines 
+  Enneatyps haben einen Einfluss 
+  auf ihn
+- Dies führt zu einer 
+  Eigenschaftsadaption
+- Einer der beiden Flügel ist 
+  besonders stark ausgeprägt
 
-Flügel zu Typ 3:
+Flügel zu Typ 5:
 
 Eigenschaften im positiven Fall:
 
-- Ehrgeiz
-- Fokus / Tunnelblick
-- viele Visionen & Ziele
-- Nüchternheit
-- Charme
-- Selbstdarstellung
-- Fähigkeit zum Einnehmen einer Vorbildfunktion
-- Arbeitsamkeit
-- Leistungsanspruch
-- Image-Bewusstsein
+- Analyse-Fähigkeit 
+- tiefes Interesse 
+- Forschergeist 
+- Rationalismus 
+- Nüchternheit 
+- Sparsamkeit 
+- Wissbegier 
+- Fähigkeit zur 
+  Informationsbeschaffung 
+- Skepsis 
+- Beobachter-Fähigkeit 
+- geistige Klarheit
 
 Eigenschaften im negativen Fall:
 
-- Selbst- & Fremdtäuschung / Lügen
-- Eitelkeit
-- mehr Schein als Sein
-- Empathielosigkeit
-- emotionale Kälte
-- Gefühlsblindheit
-- Hang zur Überarbeitung
-- Skrupellosigkeit
-- übermäßige Identifikation mit äußeren Werten
-- Oberflächlichkeit
-- Opportunismus`
+- Geiz / Habsucht 
+- mangelnde Empathie 
+- übermäßige Rationalisierung  
+- Praxis-Unfähigkeit 
+- Tendenz, emotionskarg zu sein 
+- Isolation 
+- Zurückhaltung von Wissen 
+- Scheue 
+- mangelnde Selbstdarstellung 
+- Reaktionsarmut`
     },
 
     {
