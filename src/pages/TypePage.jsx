@@ -311,7 +311,7 @@ export default function TypePage({ onBack }) {
                            onClick={() => {
   const isSameItem =
     selectedSubtypeItem?.subtype === subtype.code &&
-    selectedSubtypeItem?.title === trait.label;
+    selectedSubtypeItem?.title === module.label;
 
   if (isSameItem) {
     setSelectedSubtypeItem(null);
@@ -320,8 +320,8 @@ export default function TypePage({ onBack }) {
 
   setSelectedSubtypeItem({
     subtype: subtype.code,
-    title: trait.label,
-    content: trait.content,
+    title: module.label,
+    content: module.content,
   });
 
   scrollToMobileTarget(targetId);
