@@ -213,8 +213,8 @@ export default function TypePage({ onBack }) {
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
               style={{
-                background: `linear-gradient(135deg, ${type1Data.color}, #5f88c9 45%, #4a5361)`,
-              }}
+  background: TYPE_GRADIENTS[type1Data.type],
+}}
               onClick={() => {
                 if (openSubtype === subtype.code) {
                   setOpenSubtype(null);
