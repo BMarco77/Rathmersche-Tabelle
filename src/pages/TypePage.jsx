@@ -258,15 +258,24 @@ export default function TypePage({ onBack }) {
                               ? "is-active"
                               : ""
                           }`}
-                          onClick={() => {
-                            setSelectedSubtypeItem({
-                              subtype: subtype.code,
-                              title: trait.label,
-                              content: trait.content,
-                            });
+                         onClick={() => {
+  const isSameItem =
+    selectedSubtypeItem?.subtype === subtype.code &&
+    selectedSubtypeItem?.title === module.label;
 
-                            scrollToMobileTarget(targetId);
-                          }}
+  if (isSameItem) {
+    setSelectedSubtypeItem(null);
+    return;
+  }
+
+  setSelectedSubtypeItem({
+    subtype: subtype.code,
+    title: module.label,
+    content: module.content,
+  });
+
+  scrollToMobileTarget(targetId);
+}}
                         >
                           {trait.label}
                         </button>
@@ -298,15 +307,24 @@ export default function TypePage({ onBack }) {
                                 ? "is-active"
                                 : ""
                             }`}
-                            onClick={() => {
-                              setSelectedSubtypeItem({
-                                subtype: subtype.code,
-                                title: module.label,
-                                content: module.content,
-                              });
+                           onClick={() => {
+  const isSameItem =
+    selectedSubtypeItem?.subtype === subtype.code &&
+    selectedSubtypeItem?.title === module.label;
 
-                              scrollToMobileTarget(targetId);
-                            }}
+  if (isSameItem) {
+    setSelectedSubtypeItem(null);
+    return;
+  }
+
+  setSelectedSubtypeItem({
+    subtype: subtype.code,
+    title: module.label,
+    content: module.content,
+  });
+
+  scrollToMobileTarget(targetId);
+}}
                           >
                             {module.label}
                           </button>
