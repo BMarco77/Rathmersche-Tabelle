@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import TypePage from "./pages/TypePage";
 import Type3Page from "./pages/Type3Page";
 import Type1Page from "./pages/Type1Page";
+import Type4Page from "./pages/Type4Page";
 
 
 export default function App() {
