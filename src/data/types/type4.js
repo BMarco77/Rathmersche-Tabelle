@@ -66,20 +66,20 @@ Wirkung:
   coreModules: [
     {
       label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
+      content: `Die Gesundheit des Gemüts von Typ 4 wird in folgenden Zuständen gemessen:
 
-(1 = sehr unbewusst/ungesund,
+(1 = sehr unbewusst/ungesund, 
 9 = sehr bewusst/gesund)
 
-1. Psychosomatisches Opfer
-2. Dominanter Erpresser
-3. Selbstbetrügerischer Manipulator
-4. Überheblicher Heiliger
-5. Besitzergreifender Intimfreund
-6. Großsprecherischer Freund
-7. Fürsorglicher
-8. Einfühlsamer
-9. Uneigennütziger Altruist`
+1. Selbstzerstörerischer
+2. Emotional Leidender 
+3. Selbstentfremdeter Depressiver
+4. Schwacher Ästhet
+5. Selbstverliebter Introvertierter
+6. Phantasievoller Künstler
+7. Sich offenbarender Mensch
+8. Intuitiv Lebender
+9. Inspiriert-schöpferischer Mensch`
     },
 
     {
