@@ -349,10 +349,15 @@ export default function TypePage({ onBack }) {
         ))}
 
         <aside
-          className={`rathmer-side-info ${
-            selectedSubtypeItem ? "is-expanded" : ""
-          }`}
-        >
+  className={`rathmer-side-info ${
+    selectedSubtypeItem ? "is-expanded" : ""
+  }`}
+  style={{
+    background: selectedSubtypeItem
+      ? undefined
+      : TYPE_GRADIENTS[type3Data.type],
+  }}
+>
           {selectedSubtypeItem ? (
             <>
               <span className="rathmer-info-label">
