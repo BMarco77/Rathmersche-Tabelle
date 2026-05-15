@@ -30,14 +30,13 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Überentwickelte Herzenergie:
-- Herzenergie wird nach außen gerichtet
+    content: `Umgewandelte Herzenergie
+(Herzenergie wird auf sich selbst projiziert)
 
-Grundmotivation:
-- Liebe
+Grundmotivation: Individualität
 
-Abwehrmechanismus:
-- Liebe als Tauschhandel`
+Abwehrmechanismus: 
+Liebe durch Selbstausdruck`
   },
 
   sideInfo: {
