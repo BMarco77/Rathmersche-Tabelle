@@ -247,48 +247,48 @@ export default function TypePage({ onBack }) {
             {openSubtype === subtype.code && (
               <>
                 <div className="rathmer-trait-grid">
-                  {subtype.traits.map((trait) => {
-                    const targetId = makeId("trait", subtype.code, trait.label);
+  {subtype.traits.map((trait) => {
+    const targetId = makeId("trait", subtype.code, trait.label);
 
-                    return (
-                      <div key={trait.label} id={targetId}>
-                        <button
-                          className={`rathmer-trait-button ${
-                            selectedSubtypeItem?.subtype === subtype.code &&
-                            selectedSubtypeItem?.title === trait.label
-                              ? "is-active"
-                              : ""
-                          }`}
-                         onClick={() => {
-  const isSameItem =
-    selectedSubtypeItem?.subtype === subtype.code &&
-    selectedSubtypeItem?.title === module.label;
+    return (
+      <div key={trait.label} id={targetId}>
+        <button
+          className={`rathmer-trait-button ${
+            selectedSubtypeItem?.subtype === subtype.code &&
+            selectedSubtypeItem?.title === trait.label
+              ? "is-active"
+              : ""
+          }`}
+          onClick={() => {
+            const isSameItem =
+              selectedSubtypeItem?.subtype === subtype.code &&
+              selectedSubtypeItem?.title === trait.label;
 
-  if (isSameItem) {
-    setSelectedSubtypeItem(null);
-    return;
-  }
+            if (isSameItem) {
+              setSelectedSubtypeItem(null);
+              return;
+            }
 
-  setSelectedSubtypeItem({
-    subtype: subtype.code,
-    title: module.label,
-    content: module.content,
-  });
+            setSelectedSubtypeItem({
+              subtype: subtype.code,
+              title: trait.label,
+              content: trait.content,
+            });
 
-  scrollToMobileTarget(targetId);
-}}
-                        >
-                          {trait.label}
-                        </button>
+            scrollToMobileTarget(targetId);
+          }}
+        >
+          {trait.label}
+        </button>
 
-                        {selectedSubtypeItem?.subtype === subtype.code &&
-                          selectedSubtypeItem?.title === trait.label && (
-                            <SubtypeMobileInfo item={selectedSubtypeItem} />
-                          )}
-                      </div>
-                    );
-                  })}
-                </div>
+        {selectedSubtypeItem?.subtype === subtype.code &&
+          selectedSubtypeItem?.title === trait.label && (
+            <SubtypeMobileInfo item={selectedSubtypeItem} />
+          )}
+      </div>
+    );
+  })}
+</div>
 
                 <div className="rathmer-module-grid">
                   {subtype.modules.map((module, index) => {
