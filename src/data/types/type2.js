@@ -96,27 +96,27 @@ So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Ei
 
 Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
 
-- Typ 1: fleißig, sorgfältig, moralisch
-- Typ 2: besorgt, mitfühlend, dienend
-- Typ 3: fokussiert, effizient, ehrgeizig
-- Typ 4: intuitiv, ursprünglich, echt, kreativ
-- Typ 5: sachkundig, wissend, weise
-- Typ 6: fragend, prüfend, unterstützend
-- Typ 7: innovativ, inspirierend, anregend
-- Typ 8: beschützend, direkt, geradlinig
-- Typ 9: akzeptierend, friedlich, friedfertig
+Typ 1: fleißig, sorgfältig, moralisch
+Typ 2: besorgt, mitfühlend, dienend
+Typ 3: fokussiert, effizient, ehrgeizig
+Typ 4: intuitiv, ursprünglich, echt, kreativ
+Typ 5: sachkundig, wissend, weise
+Typ 6: fragend, prüfend, unterstützend
+Typ 7: innovativ, inspirierend, anregend
+Typ 8: beschützend, direkt, geradlinig
+Typ 9: akzeptierend, friedlich, friedfertig
 
 Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
 
-- 2-5-1: Mentor / Ratgeber
-- 2-6-1: Unterstützer
-- 2-5-9: Problemlöser
-- 2-7-1: Lehrer
-- 2-6-9: Guter Samariter
-- 2-5-8: Stratege
-- 2-7-9: Friedensstifter
-- 2-6-8: Retter
-- 2-7-8: Freigeist`
+2-5-1: Mentor / Ratgeber
+2-6-1: Unterstützer
+2-5-9: Problemlöser
+2-7-1: Lehrer
+2-6-9: Guter Samariter
+2-5-8: Stratege
+2-7-9: Friedensstifter
+2-6-8: Retter
+2-7-8: Freigeist`
     },
 
     {
@@ -128,8 +128,7 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
 
 Bedeutung von Stolz in diesem Kontext:
 
-- Überzeugung, etwas zu leisten,
-  um Liebe zu bekommen
+- Überzeugung, etwas zu leisten, um Liebe zu bekommen
 
 Gesteigerte Formen:
 
@@ -144,15 +143,11 @@ Gesteigerte Formen:
 - Respekt & Rücksichtnahme
 
 - Ehrlichkeit & Empathie,
-  um zu verhindern, dass das Gegenüber
-  sich betrogen fühlt
+  um zu verhindern, dass das Gegenüber sich betrogen fühlt
 
-- emotionale Wärme suggerieren /
-  auf emotionaler Ebene begegnen
+- emotionale Wärme suggerieren / auf emotionaler Ebene begegnen
 
-- „Tauschhandel“ berücksichtigen
-  und das zurückgeben, was man
-  vom Gegenüber bekommt`
+- „Tauschhandel“ berücksichtigen und das zurückgeben, was man vom Gegenüber bekommt`
     },
 
     {
