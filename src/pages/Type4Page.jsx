@@ -4,7 +4,7 @@ import { type4Data } from "../data/types/type4";
 import { TYPE_GRADIENTS } from "../data/typeColors";
 import "../rathmer/rathmer.css";
 
-export default function TypePage({ onBack }) {
+export default function Type4Page({ onBack }) {
   const [openTopItems, setOpenTopItems] = useState([]);
 
   useEffect(() => {
