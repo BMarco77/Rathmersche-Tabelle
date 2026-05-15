@@ -142,8 +142,7 @@ Gesteigerte Formen:
 
 - Respekt & Rücksichtnahme
 
-- Ehrlichkeit & Empathie,
-  um zu verhindern, dass das Gegenüber sich betrogen fühlt
+- Ehrlichkeit & Empathie, um zu verhindern, dass das Gegenüber sich betrogen fühlt
 
 - emotionale Wärme suggerieren / auf emotionaler Ebene begegnen
 
