@@ -254,7 +254,7 @@ Entwicklung im negativen Fall:
     },
 
     {
-      label: "Entspannungspunkt: 6",
+      label: "Entspannungspunkt: 7",
       content: `Definition Entspannungspunkt:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
