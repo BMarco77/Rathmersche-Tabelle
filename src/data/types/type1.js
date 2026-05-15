@@ -1,4 +1,4 @@
-import { TYPE_COLORS } from "../typeColors";
+import { TYPE_COLORS, TYPE_GRADIENTS } from "../data/typeColors";
 
 export const type1Data = {
   type: 1,
