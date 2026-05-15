@@ -4,7 +4,7 @@ export const type3Data = {
   type: 3,
   title: "Erfolg",
   center: "Herz-Mensch",
-  side: "weibliche Seite",
+  side: "Weibliche Seite",
   color: TYPE_COLORS[3],
 
   centerInfo: {
@@ -231,7 +231,7 @@ Eigenschaften im negativen Fall:
     },
 
     {
-      label: "Stresspunkt: 8",
+      label: "Stresspunkt: 9",
       content: `Definition Stresspunkt:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
@@ -254,7 +254,7 @@ Entwicklung im negativen Fall:
     },
 
     {
-      label: "Entspannungspunkt: 4",
+      label: "Entspannungspunkt: 6",
       content: `Definition Entspannungspunkt:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
