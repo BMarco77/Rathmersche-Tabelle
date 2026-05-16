@@ -187,9 +187,9 @@ Eigenschaften im negativen Fall:
       label: "Flügel: 2",
       content: `Bedeutung der Flügel:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+Dies führt zu einer Eigenschaftsadaption
+Einer der beiden Flügel ist besonders stark ausgeprägt
 
 Flügel zu Typ 2:
 
@@ -198,7 +198,8 @@ Eigenschaften im positiven Fall:
 - Hang zur Helfermentalität
 - bemerkenswerte Weiblichkeit
 - stark ausgeprägte Empathie
-- ständige Fürsorge (-> Gastgebermentalität)
+- ständige Fürsorge 
+(-> Gastgebermentalität)
 - starker Zugang zu Emotionen
 - instinktives Ausleben der Seelsorger-Fähigkeit
 - natürliche unterstützende Ader 
@@ -224,30 +225,7 @@ Eigenschaften im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 8:
-
-Entwicklung im positiven Fall:
-
-- beschützerisch
-- stark
-- unabhängig
-- stabil
-
-Entwicklung im negativen Fall:
-
-- kontrollierend
-- herrisch
-- dominant
-- aggressiv`
-    },
-
-    {
-      label: "Entspannungspunkt: 7",
-      content: `Definition Entspannungspunkt:
-
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
-
-Entspannungspunkt in Typ 7:
+Stresspunkt in Typ 4:
 
 Entwicklung im positiven Fall:
 
@@ -262,6 +240,29 @@ Entwicklung im negativen Fall:
 - anspruchsvoll
 - melancholisch
 - hysterisch`
+    },
+
+    {
+      label: "Entspannungspunkt: 7",
+      content: `Definition Entspannungspunkt:
+
+Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+
+Entspannungspunkt in Typ 7:
+
+Entwicklung im positiven Fall:
+
+- locker
+- humorvoll
+- weltoffen
+- gelassen
+
+Entwicklung im negativen Fall:
+
+- oberflächlich
+- verdrängend
+- abgelenkt
+- narzisstisch`
     }
   ],
 
