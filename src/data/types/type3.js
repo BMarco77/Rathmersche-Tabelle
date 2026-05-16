@@ -30,14 +30,14 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Überentwickelte Herzenergie:
-- Herzenergie wird nach außen gerichtet
+    content: `Blockierte Herzenergie:
+- Herzenergie wird unterdrückt
 
 Grundmotivation:
-- Liebe
+- Erfolg
 
 Abwehrmechanismus:
-- Liebe als Tauschhandel`
+- Liebe durch äußere Werte`
   },
 
   sideInfo: {
@@ -66,20 +66,20 @@ Wirkung:
   coreModules: [
     {
       label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
+      content: `Die Gesundheit des Gemüts von Typ 3 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
 9 = sehr bewusst/gesund)
 
-1. Psychosomatisches Opfer
-2. Dominanter Erpresser
-3. Selbstbetrügerischer Manipulator
-4. Überheblicher Heiliger
-5. Besitzergreifender Intimfreund
-6. Großsprecherischer Freund
-7. Fürsorglicher
-8. Einfühlsamer
-9. Uneigennütziger Altruist`
+1. Rachsüchtiger Psychopath
+2. Böswilliger Verräter
+3. Ausbeuterischer Opportunist
+4. Durchsetzungsstarker Narzisst
+5. Image-Orientierter Pragmatiker
+6. Statusbesessener
+7. Großes Vorbild
+8. Selbstsicherer Mensch
+9. Authentische Persönlichkeit`
     },
 
     {
