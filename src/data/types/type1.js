@@ -9,8 +9,8 @@ export const type1Data = {
 
   centerInfo: {
     content: `Grundproblem:
-- Schutz-Defizit
-- (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+- Schutz-Defizit 
+(Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
@@ -60,20 +60,20 @@ Wirkung:
   coreModules: [
     {
       label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 2 wird in folgenden Zuständen gemessen:
+      content: `Die Gesundheit des Gemüts von Typ 1 wird in folgenden Zuständen gemessen:
 
 (1 = sehr unbewusst/ungesund,
 9 = sehr bewusst/gesund)
 
-1. Psychosomatisches Opfer
-2. Dominanter Erpresser
-3. Selbstbetrügerischer Manipulator
-4. Überheblicher Heiliger
-5. Besitzergreifender Intimfreund
-6. Großsprecherischer Freund
-7. Fürsorglicher
-8. Einfühlsamer
-9. Uneigennütziger Altruist`
+1. Gnadenloser Rächer
+2. Zwanghafter Heuchler
+3. Intoleranter
+4. Besserwisserischer Perfektionist
+5. Ordnungssüchtiger Mensch
+6. Idealistischer Reformer
+7. Prinzipientreuer Lehrer
+8. Vernunftbegabter Mensch
+9. Weiser Realist`
     },
 
     {
@@ -83,38 +83,37 @@ Wirkung:
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
 
 Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
+„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
 
-„Wenn der Mensch ein Herzmensch / Kopfmensch / Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
-
-So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
 
 Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
 
-- Typ 1: fleißig, sorgfältig, moralisch
-- Typ 2: besorgt, mitfühlend, dienend
-- Typ 3: fokussiert, effizient, ehrgeizig
-- Typ 4: intuitiv, ursprünglich, echt, kreativ
-- Typ 5: sachkundig, wissend, weise
-- Typ 6: fragend, prüfend, unterstützend
-- Typ 7: innovativ, inspirierend, anregend
-- Typ 8: beschützend, direkt, geradlinig
-- Typ 9: akzeptierend, friedlich, friedfertig
+Typ 1: fleißig, sorgfältig, moralisch
+Typ 2: besorgt, mitfühlend, dienend
+Typ 3: fokussiert, effizient, ehrgeizig
+Typ 4: intuitiv, ursprünglich, echt, kreativ
+Typ 5: sachkundig, wissend, weise
+Typ 6: fragend, prüfend, unterstützend
+Typ 7: innovativ, inspirierend, anregend
+Typ 8: beschützend, direkt, geradlinig
+Typ 9: akzeptierend, friedlich, friedfertig
 
-Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
+Im Fall von Typ 1 gibt es folgende Möglichkeiten für die Tritypen:
 
-- 2-5-1: Mentor / Ratgeber
-- 2-6-1: Unterstützer
-- 2-5-9: Problemlöser
-- 2-7-1: Lehrer
-- 2-6-9: Guter Samariter
-- 2-5-8: Stratege
-- 2-7-9: Friedensstifter
-- 2-6-8: Retter
-- 2-7-8: Freigeist`
+1-2-5: Mentor / Ratgeber
+1-2-6: Unterstützer
+1-4-5: Forscher
+1-2-7: Lehrer
+1-4-6: Philosoph
+1-3-5: Ingenieur
+1-4-7: Visionär
+1-3-6: Arbeitgeber
+1-3-7: Konstrukteur`
     },
 
     {
-      label: "Leidenschaft: Perfektion",
+      label: "Leidenschaft: Groll/Zorn",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
 - Pseudo-Schutz-Mechanismus,
