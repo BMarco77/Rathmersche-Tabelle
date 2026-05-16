@@ -30,14 +30,14 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Überentwickelte Herzenergie:
-- Herzenergie wird nach außen gerichtet
+    content: `umgewandelte Bauchenergie:
+- Bauchenergie wird auf sich selbst bezogen
 
 Grundmotivation:
-- Liebe
+- Perfektion
 
 Abwehrmechanismus:
-- Liebe als Tauschhandel`
+- Schutz durch Optimierung`
   },
 
   sideInfo: {
