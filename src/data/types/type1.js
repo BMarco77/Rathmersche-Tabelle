@@ -134,57 +134,53 @@ Gesteigerte Formen:
 
     {
       label: "Umgang",
-      content: `- Dankbarkeit zeigen
-
-- Respekt & Rücksichtnahme
-
-- Ehrlichkeit & Empathie,
-  um zu verhindern, dass das Gegenüber
-  sich betrogen fühlt
-
-- emotionale Wärme suggerieren /
-  auf emotionaler Ebene begegnen
-
-- „Tauschhandel“ berücksichtigen
-  und das zurückgeben, was man
-  vom Gegenüber bekommt`
+      content: `- Anerkennung der Expertise des Gegenübers
+- keine „unbegründete“ Kritik äußern
+- vernünftig & rational argumentieren
+- keine „sinnlosen“ Argumente anbringen
+- Ordnung & Moral stärken & als Wert präsentieren
+- Unabhängigkeit & Eigenverantwortung des Gegenübers stärken
+- Vorbildcharakter des Gegenübers proklamieren
+- „richtig & falsch“ als Richtwerte anführen
+- Disziplin & Ausdauer zeigen`
     },
 
     {
       label: "Flügel: 9",
       content: `Bedeutung der Flügel:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+Dies führt zu einer Eigenschaftsadaption
+Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 1:
+Flügel zu Typ 9:
 
 Eigenschaften im positiven Fall:
 
-- stark ausgeprägte Vernunft und Prinzipientreue
-- Talent für die Kreation von Struktur / Ordnung
-- hohes Maß an Ehrgeiz
-- viel Fokus
-- Fähigkeit, die Rolle eines Mentors einzunehmen
-- Drang nach Optimierung / Fehlerbewusstsein
-- Überzeugungskraft
-- mentale Stärke & Disziplin
-- Gewissenhaftigkeit
-- hohe Werte
-- Diskussionsfähigkeit
+- Harmoniestreben
+- Schlichtung
+- Vermittlungskompetenz
+- Besonnenheit
+- Spiritualität
+- Zurückhaltung
+- Anpassungsfähigkeit
+- Reflektion
+- Empathie
+- Harmlosigkeit
+- Freundlichkeit
 
 Eigenschaften im negativen Fall:
 
-- Engstirnigkeit
-- Rechthaberei
-- Doppelmoral
-- zu hohe Ansprüche Mitmenschen gegenüber
-- Arroganz
-- Intoleranz anderen Meinungen gegenüber
-- Konfliktsucht
-- Kritikunfähigkeit
-- zwanghafte Präsentation von Überlegenheit`
+- Konfliktunfähigkeit
+- Entscheidungsunfähigkeit
+- Trägheit
+- Selbstbetäubung
+- Ego, kein Ego zu haben
+- Langsamkeit
+- Stagnation
+- Verschmelzungstendenz
+- Charakterschwäche
+- Durchsetzungsschwäche`
     },
 
     {
@@ -195,34 +191,31 @@ Eigenschaften im negativen Fall:
 - Dies führt zu einer Eigenschaftsadaption
 - Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 3:
+Flügel zu Typ 2:
 
 Eigenschaften im positiven Fall:
 
-- Ehrgeiz
-- Fokus / Tunnelblick
-- viele Visionen & Ziele
-- Nüchternheit
+- Hang zur Helfermentalität
+- bemerkenswerte Weiblichkeit
+- stark ausgeprägte Empathie
+- ständige Fürsorge (-> Gastgebermentalität)
+- starker Zugang zu Emotionen
+- instinktives Ausleben der Seelsorger-Fähigkeit
+- natürliche unterstützende Ader 
 - Charme
-- Selbstdarstellung
-- Fähigkeit zum Einnehmen einer Vorbildfunktion
-- Arbeitsamkeit
-- Leistungsanspruch
-- Image-Bewusstsein
+- hat ein „großes Herz“
+- zwischenmenschliche Wärme
 
 Eigenschaften im negativen Fall:
 
-- Selbst- & Fremdtäuschung / Lügen
-- Eitelkeit
-- mehr Schein als Sein
-- Empathielosigkeit
-- emotionale Kälte
-- Gefühlsblindheit
-- Hang zur Überarbeitung
-- Skrupellosigkeit
-- übermäßige Identifikation mit äußeren Werten
-- Oberflächlichkeit
-- Opportunismus`
+- starke emotionale Abhängigkeit
+- Hang zur Manipulation
+- Hysterie
+- steigert sich gerne in Emotionen hinein
+- Naivität
+- viele Bedürfnisse
+- zu stark ausgeprägte Weichheit
+- Aufopferungsdrang`
     },
 
     {
