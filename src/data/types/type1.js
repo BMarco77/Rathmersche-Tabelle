@@ -8,25 +8,19 @@ export const type1Data = {
   color: TYPE_COLORS[1],
 
   centerInfo: {
-    content: `Die Herzmenschen umfassen die Typen 2, 3 und 4.
-
-Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz.
-
-Grundproblem:
-- Liebes-Defizit
-- Gefühl, nicht geliebt zu werden /
-  nicht anerkannt zu sein
+    content: `Grundproblem:
+- Schutz-Defizit
+- (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
-- Image
-- Beziehungen
-- Empathie
-- Leistung
-- Charme / Scham
-- Gefühle
+- Instinkt 
+- Territorium 
+- Angriff & Verteidigung 
+- Aggressionen 
+- Handlungen
 
 Identifikation:
-- „Ich bin, wie ich auf andere wirke.“`
+- „Ich bin, wie ich handle.“`
   },
 
   typeInfo: {
