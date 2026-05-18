@@ -84,15 +84,13 @@ Wirkung:
 
     {
       label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist. 
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
+Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen: "Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?"
 
-„Wenn der Mensch ein Herzmensch / Kopfmensch / Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
-
-So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann. 
 
 Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
 
@@ -106,53 +104,48 @@ Typ 7: innovativ, inspirierend, anregend
 Typ 8: beschützend, direkt, geradlinig
 Typ 9: akzeptierend, friedlich, friedfertig
 
-Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
+Im Fall von Typ 3 gibt es folgende Möglichkeiten für die Tritypen:
 
-2-5-1: Mentor / Ratgeber
-2-6-1: Unterstützer
-2-5-9: Problemlöser
-2-7-1: Lehrer
-2-6-9: Guter Samariter
-2-5-8: Stratege
-2-7-9: Friedensstifter
-2-6-8: Retter
-2-7-8: Freigeist`
+3-5-1: Ingenieur
+3-6-1: Arbeitgeber
+3-5-9: Denker
+3-7-1: Konstrukteur
+3-6-9: Vermittler
+3-5-8: Allrounder
+3-7-9: Botschafter
+3-6-8: Gerechtigkeitskämpfer
+3-7-8: Macher`
     },
 
     {
       label: "Leidenschaft: Eitelkeit",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
-- Pseudo-Schutz-Mechanismus,
-  der wortwörtlich „Leiden schafft“
+- Pseudo-Schutz-Mechanismus, der wortwörtlich "Leiden schafft"
 
-Bedeutung von Stolz in diesem Kontext:
+Bedeutung von Eitelkeit in diesem Kontext:
 
-- Überzeugung, etwas zu leisten,
-  um Liebe zu bekommen
+- Starke Gewichtung der Außendarstellung, um erfolgreich zu sein
 
-Gesteigerte Formen:
+Gesteigerte Formen: 
 
-- Hochmut
-- Scheinheiligkeit`
+- mangelnde Authentizität
+- Falschheit
+- Lüge`
     },
 
     {
       label: "Umgang",
-      content: `- Dankbarkeit zeigen
+      content: `- Wertschätzung für Erfolge 
+  entgegenbringen 
 
-- Respekt & Rücksichtnahme
+- Fokus & Effizienz im Umgang
 
-- Ehrlichkeit & Empathie,
-  um zu verhindern, dass das Gegenüber
-  sich betrogen fühlt
+- Anerkennung geben, damit das Gegenüber einen Sinn für den Umgang mit dir sieht
 
-- emotionale Wärme suggerieren /
-  auf emotionaler Ebene begegnen
+und/oder
 
-- „Tauschhandel“ berücksichtigen
-  und das zurückgeben, was man
-  vom Gegenüber bekommt`
+- Kompetenz vermitteln, damit das Gegenüber einen Sinn für den Umgang mit dir sieht`
     },
 
     {
@@ -163,33 +156,32 @@ Gesteigerte Formen:
 - Dies führt zu einer Eigenschaftsadaption
 - Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 1:
+Flügel zu Typ 2:
 
 Eigenschaften im positiven Fall:
 
-- stark ausgeprägte Vernunft und Prinzipientreue
-- Talent für die Kreation von Struktur / Ordnung
-- hohes Maß an Ehrgeiz
-- viel Fokus
-- Fähigkeit, die Rolle eines Mentors einzunehmen
-- Drang nach Optimierung / Fehlerbewusstsein
-- Überzeugungskraft
-- mentale Stärke & Disziplin
-- Gewissenhaftigkeit
-- hohe Werte
-- Diskussionsfähigkeit
+- Hang zur Helfermentalität 
+- bemerkenswerte Weiblichkeit 
+- stark ausgeprägte Empathie 
+- ständige Fürsorge 
+  (-> Gastgebermentalität) 
+- starker Zugang zu Emotionen 
+- instinktives Ausleben der Seelsorger-Fähigkeit 
+- natürliche unterstützende Ader 
+- Charme 
+- hat ein “großes Herz” 
+- zwischenmenschliche Wärme
 
 Eigenschaften im negativen Fall:
 
-- Engstirnigkeit
-- Rechthaberei
-- Doppelmoral
-- zu hohe Ansprüche Mitmenschen gegenüber
-- Arroganz
-- Intoleranz anderen Meinungen gegenüber
-- Konfliktsucht
-- Kritikunfähigkeit
-- zwanghafte Präsentation von Überlegenheit`
+- starke emotionale Abhängigkeit 
+- Hang zur Manipulation 
+- Hysterie 
+- steigert sich gerne in Emotionen hinein 
+- Naivität  
+- viele Bedürfnisse 
+- zu stark ausgeprägte Weichheit 
+- Aufopferungsdrang`
     },
 
     {
@@ -200,34 +192,34 @@ Eigenschaften im negativen Fall:
 - Dies führt zu einer Eigenschaftsadaption
 - Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 3:
+Flügel zu Typ 4:
 
 Eigenschaften im positiven Fall:
 
-- Ehrgeiz
-- Fokus / Tunnelblick
-- viele Visionen & Ziele
-- Nüchternheit
-- Charme
-- Selbstdarstellung
-- Fähigkeit zum Einnehmen einer Vorbildfunktion
-- Arbeitsamkeit
-- Leistungsanspruch
-- Image-Bewusstsein
+- Tiefgang  
+- Kreativität 
+- starker Selbstausdruck 
+- Sinn für Ästhetik 
+- Individualitätssinn 
+- starker Zugang zur eigenen Gefühlswelt 
+- Empathie 
+- Besinnlichkeit 
+- tiefes Interesse 
+- Hang zum Übernatürlichen
 
 Eigenschaften im negativen Fall:
 
-- Selbst- & Fremdtäuschung / Lügen
-- Eitelkeit
-- mehr Schein als Sein
-- Empathielosigkeit
-- emotionale Kälte
-- Gefühlsblindheit
-- Hang zur Überarbeitung
-- Skrupellosigkeit
-- übermäßige Identifikation mit äußeren Werten
-- Oberflächlichkeit
-- Opportunismus`
+- Hang zur emotionalen Selbstzerstörung 
+- tiefe innere Trauer & Unvollständigkeit 
+- masochistisch veranlagt 
+- ständiges Lamentieren  
+- Blindheit für die guten Dinge im Leben 
+- malt gerne “den Teufel an die Wand” 
+- übermäßig anspruchsvoll 
+- emotional chaotisch 
+- Hang zu Depressionen 
+- emotionale Hysterie 
+- Extravaganz`
     },
 
     {
@@ -236,21 +228,21 @@ Eigenschaften im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 8:
+Stresspunkt in Typ 9:
 
 Entwicklung im positiven Fall:
 
-- beschützerisch
-- stark
-- unabhängig
-- stabil
+- besonnen
+- sanft
+- ruhig
+- verbindend
 
 Entwicklung im negativen Fall:
 
-- kontrollierend
-- herrisch
-- dominant
-- aggressiv`
+- träge
+- ziellos
+- desorientiert
+- selbstvergessen`
     },
 
     {
@@ -259,21 +251,25 @@ Entwicklung im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
-Entspannungspunkt in Typ 4:
+Definition Entspannungspunkt:
+ 
+Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+
+Entspannungspunkt in Typ 6:
 
 Entwicklung im positiven Fall:
 
-- kreativ
-- tiefgründig
-- ausdrucksstark
-- empathisch
+- strukturiert
+- ehrlich
+- loyal
+- vernünftig
 
 Entwicklung im negativen Fall:
 
-- chaotisch
-- anspruchsvoll
-- melancholisch
-- hysterisch`
+- ängstlich
+- dogmatisch
+- blockiert
+- ignorant`
     }
   ],
 
