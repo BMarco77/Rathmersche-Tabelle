@@ -8,84 +8,87 @@ export const type5Data = {
   color: TYPE_COLORS[5],
 
   centerInfo: {
-    content: `Grundproblem:
-- Schutz-Defizit 
-(Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+    content: `Grundproblem: 
+- Vertrauens-Defizit
+(Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
 
 Hauptthemen:
-- Instinkt 
-- Territorium 
-- Angriff & Verteidigung 
-- Aggressionen 
-- Handlungen
+- Rationalismus, 
+- Analyse, 
+- Struktur, 
+- Sicherheit, - 
+Vorsicht, - 
+Gedanken
 
 Identifikation:
-- „Ich bin, wie ich handle.“`
+- “Ich bin, was mir Sicherheit gibt.”`
   },
 
   typeInfo: {
-    content: `umgewandelte Bauchenergie:
-- Bauchenergie wird auf sich selbst bezogen
+    content: `Überentwickelte Kopfenergie
+- Kopfenergie wird nach außen gerichtet
 
-Grundmotivation:
-- Perfektion
+Grundmotivation: 
+- Wissen
 
-Abwehrmechanismus:
-- Schutz durch Optimierung`
+Abwehrmechanismus: 
+- Sicherheit durch Verständnis`
   },
 
   sideInfo: {
-    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+    content: `Die männliche Seite des Enneagramms umfasst die Enneagrammtypen 5-8 und zeichnet sich durch männliche Charakter- & Körperzüge aus.
 
-Indizien, die hier häufiger beobachtet werden können:
+Indizien, die hier beachtet werden sollten:
 
-Nasenform:
-- zierlich
-- filigran
-- ästhetisch
-- weich geformt
-- feminin
+Nasenform: 
+- grob, 
+- breit, 
+- unförmig, 
+- rund, 
+- kantig, 
+- männlich
 
-Gesichtspartie:
-- weiche Haut
-- reine Haut
-- lange Wimpern
+Gesichtspartie: 
+- grobe Haut, 
+- unreine Haut, 
+- markante Gesichtsform, 
+- starker Unterkiefer, 
+- kurze Wimpern
 
-Wirkung:
-- feminin
-- zart
-- fein`
+Wirkung: 
+- maskulin, 
+- grob, 
+- kantig`
   },
 
   coreModules: [
     {
       label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 1 wird in folgenden Zuständen gemessen:
+      content: `Die Gesundheit des Gemüts von Typ 5 wird in folgenden Zuständen gemessen:
 
-(1 = sehr unbewusst/ungesund,
+(1 = sehr unbewusst/ungesund, 
 9 = sehr bewusst/gesund)
 
-1. Gnadenloser Rächer
-2. Zwanghafter Heuchler
-3. Intoleranter
-4. Besserwisserischer Perfektionist
-5. Ordnungssüchtiger Mensch
-6. Idealistischer Reformer
-7. Prinzipientreuer Lehrer
-8. Vernunftbegabter Mensch
-9. Weiser Realist`
+1. Leerer Schizoider
+2. Von Wahnvorstellungen Gequälter
+3. Isolierter Nihilist
+4. Extremer Reduktionist
+5. Versponnener Theoretiker
+6. Analytiker & Spezialist
+7. Kundiger Experte
+8. Erkennender Beobachter
+9. Pionier & Visionär`
     },
 
     {
       label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist. 
 
 Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
-„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
+Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen: "Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?"
 
-So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann. 
 
 Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
 
@@ -99,156 +102,133 @@ Typ 7: innovativ, inspirierend, anregend
 Typ 8: beschützend, direkt, geradlinig
 Typ 9: akzeptierend, friedlich, friedfertig
 
-Im Fall von Typ 1 gibt es folgende Möglichkeiten für die Tritypen:
+Im Fall von Typ 5 gibt es folgende Möglichkeiten für die Tritypen:
 
-1-2-5: Mentor / Ratgeber
-1-2-6: Unterstützer
-1-4-5: Forscher
-1-2-7: Lehrer
-1-4-6: Philosoph
-1-3-5: Ingenieur
-1-4-7: Visionär
-1-3-6: Arbeitgeber
-1-3-7: Konstrukteur`
+5-1-2: Mentor / Ratgeber
+5-8-2: Stratege
+5-1-4: Forscher
+5-9-2: Problemlöser
+5-8-4: Gelehrter
+5-1-3: Ingenieur
+5-9-4: Kontemplativer
+5-8-3: Allrounder
+5-9-3: Denker`
     },
 
     {
-      label: "Leidenschaft: Groll/Zorn",
+      label: "Leidenschaft: Geiz",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
+- Pseudo-Schutz-Mechanismus, 
+  der wortwörtlich "Leiden schafft"
 
-Bedeutung von Zorn in diesem Kontext:
+Bedeutung von Geiz in diesem Kontext:
 
-- innerer Groll & Handlungsdrang, um vollendete Perfektion zu erlangen
+- Ansammlungsdrang, um das 
+  höchste Maß an Wissen zu
+  erlangen
 
-Gesteigerte Formen:
+Gesteigerte Formen: 
 
-- Selbstjustiz
-- Schwarz-Weiß-Denken
-- Doppelmoral
-- Missionierung
-- Selbstzerstörung durch Disziplin
-- hohe Ansprüche`
+- Egoismus
+- Habsucht
+- Isolation`
     },
 
     {
       label: "Umgang",
-      content: `- Anerkennung der Expertise des Gegenübers
-- keine „unbegründete“ Kritik äußern
-- vernünftig & rational argumentieren
-- keine „sinnlosen“ Argumente anbringen
-- Ordnung & Moral stärken & als Wert präsentieren
-- Unabhängigkeit & Eigenverantwortung des Gegenübers stärken
-- Vorbildcharakter des Gegenübers proklamieren
-- „richtig & falsch“ als Richtwerte anführen
-- Disziplin & Ausdauer zeigen`
+      content: `- wissensvermittelnde Kommunikation 
+- Berufung auf Zahlen, Daten & Fakten
+- rationales Denken des Gegenübers berücksichtigen
+- keine impulsiven und überschießenden Handlungen
+- keine emotionale Hysterie vermitteln
+- Interesse zeigen
+- Abhängigkeit vermeiden`
     },
 
     {
-      label: "Flügel: 9",
+      label: "Flügel: 4",
       content: `Bedeutung der Flügel:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 9:
+Flügel zu Typ 4:
 
 Eigenschaften im positiven Fall:
 
-- Harmoniestreben
-- Schlichtung
-- Vermittlungskompetenz
-- Besonnenheit
-- Spiritualität
-- Zurückhaltung
-- Anpassungsfähigkeit
-- Reflektion
-- Empathie
-- Harmlosigkeit
-- Freundlichkeit
+- Tiefgang  
+- Kreativität 
+- starker Selbstausdruck 
+- Sinn für Ästhetik 
+- Individualitätssinn 
+- starker Zugang zur eigenen 
+  Gefühlswelt 
+- Empathie 
+- Besinnlichkeit 
+- tiefes Interesse 
+- Hang zum Übernatürlichen
 
 Eigenschaften im negativen Fall:
 
-- Konfliktunfähigkeit
-- Entscheidungsunfähigkeit
-- Trägheit
-- Selbstbetäubung
-- Ego, kein Ego zu haben
-- Langsamkeit
-- Stagnation
-- Verschmelzungstendenz
-- Charakterschwäche
-- Durchsetzungsschwäche`
+- Hang zur emotionalen Selbstzerstörung 
+- tiefe innere Trauer & Unvollständigkeit 
+- masochistisch veranlagt 
+- ständiges Lamentieren  
+- Blindheit für die guten Dinge im Leben 
+- malt gerne “den Teufel an die Wand” 
+- übermäßig anspruchsvoll 
+- emotional chaotisch 
+- Hang zu Depressionen 
+- emotionale Hysterie 
+- Extravaganz`
     },
 
     {
-      label: "Flügel: 2",
+      label: "Flügel: 6",
       content: `Bedeutung der Flügel:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 2:
+Flügel zu Typ 6:
 
 Eigenschaften im positiven Fall:
 
-- Hang zur Helfermentalität
-- bemerkenswerte Weiblichkeit
-- stark ausgeprägte Empathie
-- ständige Fürsorge 
-(-> Gastgebermentalität)
-- starker Zugang zu Emotionen
-- instinktives Ausleben der Seelsorger-Fähigkeit
-- natürliche unterstützende Ader 
-- Charme
-- hat ein „großes Herz“
-- zwischenmenschliche Wärme
+- Pflichtbewusstsein 
+- Loyalität 
+- Ehrlichkeit 
+- Mut 
+- gesunde Skepsis 
+- Struktur & Ordnung 
+- Verlässlichkeit 
+- Anpassungsfähigkeit 
+- Sicherheitsorientierung 
+- Freundlichkeit & innere Güte
 
 Eigenschaften im negativen Fall:
 
-- starke emotionale Abhängigkeit
-- Hang zur Manipulation
-- Hysterie
-- steigert sich gerne in Emotionen hinein
-- Naivität
-- viele Bedürfnisse
-- zu stark ausgeprägte Weichheit
-- Aufopferungsdrang`
+- übertriebene Angst 
+- übermäßige Skepsis 
+- Anpassungszwang 
+- Hierarchie-Denken 
+- Autoritätshörigkeit 
+- Engstirnigkeit 
+- Schwarz-Weiß-Denken 
+- hohes Maß an Vorurteilen 
+- Gefühlsblindheit 
+- blockiertes inneres Wesen`
     },
 
     {
-      label: "Stresspunkt: 4",
+      label: "Stresspunkt: 7",
       content: `Definition Stresspunkt:
-
+ 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 4:
-
-Entwicklung im positiven Fall:
-
-- kreativ
-- tiefgründig
-- ausdrucksstark
-- empathisch
-
-Entwicklung im negativen Fall:
-
-- chaotisch
-- anspruchsvoll
-- melancholisch
-- hysterisch`
-    },
-
-    {
-      label: "Entspannungspunkt: 7",
-      content: `Definition Entspannungspunkt:
-
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
-
-Entspannungspunkt in Typ 7:
+Stresspunkt in Typ 7:
 
 Entwicklung im positiven Fall:
 
@@ -262,7 +242,30 @@ Entwicklung im negativen Fall:
 - oberflächlich
 - verdrängend
 - abgelenkt
-- narzisstisch`
+- narzisstisch `
+    },
+
+    {
+      label: "Entspannungspunkt: 8",
+      content: `Definition Entspannungspunkt:
+ 
+Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+
+Entspannungspunkt in Typ 8:
+
+Entwicklung im positiven Fall:
+
+- beschützerisch
+- stark
+- unabhängig
+- stabil
+
+Entwicklung im negativen Fall:
+
+- kontrollierend
+- herrisch
+- dominant
+- aggressiv`
     }
   ],
 
