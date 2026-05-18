@@ -251,10 +251,6 @@ Entwicklung im negativen Fall:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
-Definition Entspannungspunkt:
- 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
-
 Entspannungspunkt in Typ 6:
 
 Entwicklung im positiven Fall:
