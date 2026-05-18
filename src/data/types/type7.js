@@ -8,53 +8,57 @@ export const type7Data = {
   color: TYPE_COLORS[7],
 
   centerInfo: {
-    content: `Grundproblem:
-- Schutz-Defizit 
-(Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+    content: `Grundproblem: 
+Vertrauens-Defizit
+- (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
 
 Hauptthemen:
-- Instinkt 
-- Territorium 
-- Angriff & Verteidigung 
-- Aggressionen 
-- Handlungen
+- Rationalismus, 
+- Analyse, 
+- Struktur, 
+- Sicherheit, 
+- Vorsicht, 
+- Gedanken
 
 Identifikation:
-- „Ich bin, wie ich handle.“`
+- “Ich bin, was mir Sicherheit gibt.”`
   },
 
   typeInfo: {
-    content: `umgewandelte Bauchenergie:
-- Bauchenergie wird auf sich selbst bezogen
+    content: `umgewandelte Kopfenergie
+- (Kopfenergie wird auf sich selbst projiziert)
 
-Grundmotivation:
-- Perfektion
+Grundmotivation: 
+- Spaß
 
-Abwehrmechanismus:
-- Schutz durch Optimierung`
+Abwehrmechanismus: 
+- Sicherheit durch Planung `
   },
 
   sideInfo: {
-    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+    content: `Die männliche Seite des Enneagramms umfasst die Enneagrammtypen 5-8 und zeichnet sich durch männliche Charakter- & Körperzüge aus.
 
-Indizien, die hier häufiger beobachtet werden können:
+Indizien, die hier beachtet werden sollten:
 
-Nasenform:
-- zierlich
-- filigran
-- ästhetisch
-- weich geformt
-- feminin
+Nasenform: 
+- grob, 
+- breit, 
+- unförmig, 
+- rund, 
+- kantig, 
+- männlich
 
-Gesichtspartie:
-- weiche Haut
-- reine Haut
-- lange Wimpern
+Gesichtspartie: 
+- grobe Haut, 
+- unreine Haut, 
+- markante Gesichtsform, 
+- starker Unterkiefer, 
+- kurze Wimpern
 
-Wirkung:
-- feminin
-- zart
-- fein`
+Wirkung: 
+- maskulin, 
+- grob, 
+- kantig`
   },
 
   coreModules: [
