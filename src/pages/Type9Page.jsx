@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import wappen from "../assets/wappen-512.png";
-import { type9Data } from "../data/types/type1";
+import { type9Data } from "../data/types/type9";
 import { TYPE_GRADIENTS } from "../data/typeColors";
 import "../rathmer/rathmer.css";
 
