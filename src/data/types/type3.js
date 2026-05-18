@@ -273,22 +273,29 @@ Entwicklung im negativen Fall:
     {
       code: "se3",
       content: `Grundmotivation:
-Liebe in der Selbsterhaltung
+Erfolg (in der Selbsterhaltung)
 
-Leidenschaft:
-Stolz in der Selbsterhaltung
+Leidenschaft: 
+Eitelkeit (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- Ich-zuerst-Mentalität
-- starke Bedürfnisse
-- liebevoll und kümmernd
-- bei verletzten Bedürfnissen ruppig / grob
-- kann rücksichtslos wirken
-- fühlt sich schnell übergangen
-- erwartet Gegenleistung für Dienste
-- starke Bedürftigkeit
-- Naivität`,
+- Pragmatiker
+- starker Ehrgeiz
+- emotionale Kälte / gespielte Wärme
+- Therapeuten-Ausstrahlung
+- ungeduldig
+- effizient
+- Anwender des Pareto-Prinzips 
+  (= Minimalprinzip)
+- wohlstandsorientiert
+- Autonomie als hoher Wert
+- finanzielle Sicherheit & Unabhängigkeit ist enorm wichtig
+- Workaholic
+- Distanz zu Streit & erfolgskostenden Situationen
+- plant gerne
+- Unfähigkeit, seine Freizeit zu genießen
+- selbst im Urlaub am arbeiten`,
 
       traits: [
         {
