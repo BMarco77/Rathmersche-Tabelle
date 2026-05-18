@@ -1,8 +1,8 @@
 import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
-export const type1Data = {
+export const type9Data = {
   type: 9,
-  title: "Perfektion",
+  title: "Harmonie",
   center: "Bauch-Mensch",
   side: "Neutrale Seite",
   color: TYPE_COLORS[9],
