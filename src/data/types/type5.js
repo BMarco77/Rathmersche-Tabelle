@@ -16,9 +16,9 @@ Hauptthemen:
 - Rationalismus, 
 - Analyse, 
 - Struktur, 
-- Sicherheit, - 
-Vorsicht, - 
-Gedanken
+- Sicherheit, 
+- Vorsicht, 
+- Gedanken
 
 Identifikation:
 - “Ich bin, was mir Sicherheit gibt.”`
