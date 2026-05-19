@@ -766,27 +766,26 @@ Statistisch gesehen wählt die so3 folgende Partner am ehesten:
     {
       code: "sx3",
       content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+Erfolg (in der zwischen-menschlichen Beziehung)
 
-Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+Leidenschaft: 
+Eitelkeit (in der zwischen-menschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
-- sehr feminin
-- unersättlicher Liebesdurst
-- erlebnisorientiert
-- sprunghaft
-- schmeichelnd-manipulativ
-- legt viel Wert auf Attraktivität
-- tierlieb
-- hartnäckig
-- engstirnig
-- verführerisch
-- geht zwischenmenschlich auf andere zu
-- fühlt sich schnell vom Partner betrogen
-- macht sich schnell abhängig vom Partner
-- unterstützend`,
+- emotional kühl
+- scharf & dominant
+- Überzeugung von Mitmenschen ist zentral wichtig
+- andere durch Attraktivität beeindrucken ("Barbie-Puppe")
+- ständiger Wandel der Lebensumstände, angepasst an die jeweiligen zwischenmenschlichen Partner
+- starke Angst vor Zurückweisung
+- Maske nach außen
+- Schönheit & Brillieren stehen im Vordergrund
+- Drang, den zwischenmenschlichen Partner zum Erfolg zu führen
+- Fokus & Ehrgeiz
+- zielgerichtet
+- berechnend
+- Partnerwahl nach Prestige und Bewunderung`,
 
       traits: [
         {
@@ -809,31 +808,33 @@ Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausle
 
 Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
 
-Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+Im Fall der sx3 bedeutet das, dass dieser Enneagrammtyp die Eitelkeit im normalen Maße lebt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Erfolg hat, wenn er seine Eitelkeit nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+         content: `Folgende Eigenschaften sind dem sx3 bewusst und können angesprochen werden:
 
-- sehr hilfsbereit
-- er erlebt gerne viel
-- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
-- er denkt sehr partnerschaftlich
-- er kümmert sich gut um sein Äußeres
-- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
-- er kümmert sich gerne um seine Familie & Freunde
-- er ist sehr empathisch
-- er kann im Stressfall sehr gereizt werden
-- er ist charmant
-- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
-- er ist sehr sensibel
-- er geht auf im Zwischenmenschlichen
-- er verfügt über viele Emotionen`
+- er kann gut zwischenmenschliche Kontakte knüpfen
+- er beherrscht es, auf sein Image und seinen Ruf zu achten
+- er sieht schnell bei anderen, wo die Baustellen liegen und kann sie gut unterstützen
+- er hat viel Empathie
+- er ist reflektiert
+- er achtet auf sich und sein Äußeres
+- Er ist sehr interessiert und hat einen Sinn für Ästhetik
+- er ist kritisch und scharf im Verstand
+- er kann sich gut durchsetzen
+- er kennt viele Menschen
+- er kann sich nach außen gut darstellen
+- er legt Wert auf Attraktivität
+- er hat große Ziele und Visionen
+- er ist effizient
+- er arbeitet viel
+- er ist sehr aktiv`
         },
         {
           label: "Blinder Fleck",
@@ -844,11 +845,12 @@ Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach
 - Gefühls-Identifikation
 - Liebes-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 3 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Eitelkeit & Falschheit als Liebesgarant
+- aktives Schaffen von äußeren Werten als Kompensation
+- Aufsetzen einer Maske im außen
+- zwanghafter Erfolgsdrang
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
@@ -856,100 +858,112 @@ Blinder Fleck des sexuellen Typs im Allgemeinen:
 - Abhängigkeit von äußerer Attraktivität & Bindungen
 - Angst vor Entwertung & Degradierung
 
-Blinder Fleck, speziell bei der sx2:
+Blinder Fleck, speziell bei der sx3:
 
-- sexueller Stolz (Gefühl, betrogen zu werden)
-- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
-- starke Erlebnisorientierung`
+- gespieltes Image
+- sexueller Geltungsdrang
+- Identifikation mit sexuellem Erfolg`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 3 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- herausfordernd
+- fokussiert
+- kühl-strahlend
+- scharf
+- glänzend
+- “Strahleaugen”
 
-Die Blickqualität der sx2 ergänzt sich wie folgt:
+Die Blickqualität der sx3 ergänzt sich wie folgt:
 
 - verführerisch
-- begeistert`
+- dominant
+- scharf`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 3 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- "Bambi-Augen" (große, braune Augen)
-- volle Lippen
-- weibliche, "kurvige" Züge
+- Hang zu Augenringen
+- glatte/reine Haut
+- “gute Gene”
+- weiße Zähne
 
-Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der sx3 ergänzen sich wie folgt:
 
-- schlank
-- lange Haare
-- Model-Statur
-- Tattoos`
+- entspricht Schönheitsidealen`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 3 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- windig
+- eitel
+- angeberisch
+- selbstdarstellerisch
+- gewieft
+- zielorientiert
+- fokussiert
+- “künstlich”
 
-Die Wirkweisen der sx2 ergänzen sich wie folgt:
+Die Wirkweisen der sx3 ergänzen sich wie folgt:
 
-“Casanova”-Ausstrahlung:
-
-- verführerisch
-- abenteuerlustig
-- manipulativ
-- aufreizend`
+“Barbie”-/"Playboy"-Ausstrahlung:
+- scharf
+- schmeichelnd
+- selbstdarstellerisch
+- gepflegt`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 3 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- ständige Verkörperung einer Maske nach außen (“Image”)
 
-Über den sx2 sollte man explizit noch Folgendes wissen:
+Über den sx3 sollte man explizit noch Folgendes wissen:
 
-- häufig Tattoos`
+- anzüglicher Kleidungsstil
+- oft geschminkt
+- “künstlich”`
         },
         {
           label: "Beispiele",
-          content: `- Ariana Grande
-- Elvis Presley
-- Jay-Z
-- Tobias Beck
-- Robert Downey Jr.
-- Pamela Reif
-- Monika Gruber
-- Julienco
-- Ryan Gosling
-- Shawn Mendes`
+          content: `- Marilyn Monroe
+- Kai Pflaume
+- Jeremy Fragrance
+- Lenny Kravitz
+- Mila Kunis
+- Britney Spears
+- Loredana
+- Christian Bale
+- Michael B. Jordan
+- Eddie Murphy
+- Jeff Logan
+- Katy Perry
+- Robert Geiss
+- Prinz Marcus von Anhalt
+- Jennifer Lopez
+- Gordon Ramsey
+- Mia Pejic
+- Kim Kardashian
+- Tom Cruise
+- Brad Pitt`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- sx2
+- so3
 - sx4
-- sx7
+- sx9
+- sx2
+- sx6
 
 Verwechslung in weiblicher Form:
 
-- sx3
 - sx4
+- sx2
 - sx6
 - sx7`
         },
@@ -957,46 +971,37 @@ Verwechslung in weiblicher Form:
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+Statistisch gesehen wählt die sx3 folgende Partner am ehesten:
 
-- sx/so6
-- sx/so7
-- sx/so3
-- sx5
-- sx9`
+- sx/so2
+- sx4
+- se1
+- sx/so7`
         },
         {
           label: "Verkauf",
-          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
-- Verständnis entgegenbringen
-- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
-- Interesse an ihr und ihren Themen zeigen
-- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
-- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
-- liebevollen und warmen Umgang pflegen
-- Sensibilität und Empathie zeigen
-- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
-- Großzügigkeit und Freigebigkeit zeigen`
+          content: `- Anerkennung & Wertschätzung für die Kompetenz der sx3 aufbringen
+- Vorzüge der sx3 anerkennen
+- Lob für bisherige Leistungen
+- Verbindung schaffen, indem man darstellt, dass die sx3 eine sinnenhafte Verwendung für die eigenen Person hat
+- Opportunismus bedienen (Möglichkeiten mit dem eigenen Produkt darlegen)
+- Effizienz & Erfolgschancen darstellen
+- an den Ehrgeiz der sx3 appellieren
+- Eindruck schinden durch Ergebnisse und Erfolge
+- auf ein gepflegtes Äußeres achten
+- Respekt zeigen, Anerkennung der äußeren Maske der sx3`
         },
         {
           label: "Führung",
-          content: `- Dankbarkeit für die sx2 entgegenbringen
-- Komplimente machen
-- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
-- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
-- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
-- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
-- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
-- Verlässlichkeit der sx2 wertschätzen
-- Liebe und Zuneigung entgegenbringen
-- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
-- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
-- empathischer Umgang ist essentiell
-- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
+          content: `- Kontakte zur Führungsebene gewährleisten 
+- eigene Profilierung und Darstellung des eigenen Erfolgs, um die sx3 zu motivieren, auf die Führungsperson zu hören und Anweisungen zu befolgen, da sie selbst diesen Erfolg erreichen möchte
+- Aufmerksamkeiten machen
+- Erfolgspläne zusammen schmieden 
+- Superstar-Stellung für die sx3 gewährleisten 
+- Attraktivität der sx3 mit harter Arbeit in Verbindung setzen, um sie zu motivieren
+- Selbstdarstellung im Unternehmen fördern
+- Bewunderung & Wertschätzung gegenüber der sx3 zeigen
+- dafür sorgen, dass die sx3 ihre Verbindung zum `
           
         }
       ]
