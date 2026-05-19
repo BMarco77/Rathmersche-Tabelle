@@ -516,28 +516,34 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
     {
       code: "so3",
       content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+Erfolg (in der sozialen Gruppe)
 
-Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+Leidenschaft: 
+Eitelkeit (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
 - charmant & schmeichelnd
-- Naivität
-- "die rechte Hand"
-- Seelsorger-Mentalität
-- starkes Helfersyndrom
-- spießig / kultiviert
-- starker Ehrgeiz
-- Verantwortungsbewusstsein
-- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
-- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
-- Einflussnahme in einer Gruppe
-- fachlich kompetent
-- "erwachsen"
-- manipulativ
-- tierlieb`,
+- scharf im Wesen
+- stark maskiert (charakterlich)
+- Mehr Schein als Sein
+- hervorragende Außendarstellung
+- Image-Pflege
+- Entertainer
+- sehr ehrgeizig
+- überzeugender Anführer
+- ideengeladen 
+- effizient
+- viel Energie nach außen
+- chamäleongleich (angepasst)
+- opportunistisch
+- Prestige ist sehr wichtig
+- Anerkennung in der Gruppe ist 
+  ebenso wichtig
+- fördert die Gruppendynamik
+- täuschend & eitel
+- zielgerichtet
+- kreativ in der Lösungsfindung`,
 
       traits: [
         {
@@ -560,33 +566,34 @@ Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke 
 
 Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
 
-Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+Im Fall der so3 bedeutet das, dass dieser Enneagrammtyp die Eitelkeit extrem stark lebt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Erfolg hat, wenn er seine Eitelkeit nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem so3 bewusst und können angesprochen werden:
 
-- er ist hilfsbereit
-- er ist sensibel
-- er legt viel Wert auf Respekt
-- er besitzt eine gewisse Skepsis
-- er kümmert sich gerne um seine Freunde & Verwandten
-- er hat ein starkes Verantwortungsgefühl
-- er ist sehr feminin
-- er ist stolz auf das, was er bereits geschafft hat
-- er hat von Zeit zu Zeit emotionale Löcher
-- er braucht ein gutes Umfeld, um sich zu entwickeln
-- er kann gut vermitteln
-- er hat einen Hang zur Aufopferung
-- er ist sehr ehrgeizig
-- er ist vernünftig
-- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`
+- er achtet auf seine Außendarstellung
+- er ist sehr ehrgeizig & engagiert
+- er nimmt gerne Positionen ein, in denen er sich präsentieren kann
+- er kommt mit fast jedem klar
+- er ist anpassungsfähig
+- er hat ein Talent zum reden
+- er ist innerlich oftmals kalt
+- er sieht schell Möglichkeiten und nutzt sie
+- er strebt stets nach Anerkennung
+- er besitzt gerne Statussymbole 
+  (Uhr, Handy, Auto, Klamotten, ...)
+- er tendiert dazu, sich zu überarbeiten
+- er mag es nicht, wenn Leute seine Leistungen nicht anerkennen
+- Respekt ist ihm wichtig
+- sein Ruf ist ihm wichtig
+- er kann gut erkennen, wie er am besten in der Gruppe ankommt
+- er ist beliebt und seine Gesellschaft ist i.d.R. gern gesehen`
         },
         {
           label: "Blinder Fleck",
@@ -597,11 +604,12 @@ Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach
 - Gefühls-Identifikation
 - Liebes-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 3 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Eitelkeit & Falschheit als Liebesgarant
+- aktives Schaffen von äußeren Werten als Kompensation
+- Aufsetzen einer Maske im außen
+- zwanghafter Erfolgsdrang
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
@@ -609,145 +617,148 @@ Blinder Fleck des sozialen Typs im Allgemeinen:
 - Anpassung an die Gruppe
 - fehlende Motivation ohne Gruppenabgleich
 
-Blinder Fleck, speziell bei der so2:
+Blinder Fleck, speziell bei der so3:
 
-- starkes Ausleben des Stolzes
-- Abhängigkeit von der Anerkennung durch eine Gruppe
-- ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`
+- gespielte Kompetenz
+- Narzissmus
+- Identifikation mit sozialem Erfolg`
         },
         {
           label: "Augen",
-         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+         content: `Typ 3 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- herausfordernd
+- fokussiert
+- kühl-strahlend
+- scharf
+- glänzend
+- “Strahleaugen”
 
-Die Blickqualität der so2 ergänzt sich wie folgt:
+Die Blickqualität der so3 ergänzt sich wie folgt:
 
-- hochmütig
-- ernst`
+- angeberisch
+- eitel
+- charmant`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 3 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- “Bambi-Augen” (große, braune Augen)
-- volle Lippen
-- weibliche, “kurvige” Züge
+- Hang zu Augenringen
+- glatte/reine Haut
+- “gute Gene”
+- weiße Zähne
 
-Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der so3 ergänzen sich wie folgt:
 
-- üppiger Vorbau`
+- volles, nach hinten gestyltes Haar
+- “schönes” Lächeln
+- weiße Zähne`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 3 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- windig
+- eitel
+- angeberisch
+- selbstdarstellerisch
+- gewieft
+- zielorientiert
+- fokussiert
+- “künstlich”
 
-Die Wirkweisen der so2 ergänzen sich wie folgt:
+Die Wirkweisen der so3 ergänzen sich wie folgt:
 
-“Diplomaten”-Ausstrahlung:
-
-- vernünftig
-- strebsam
-- spießig`
+“Schauspieler”-Ausstrahlung:
+- ehrgeizig
+- charmant
+- künstlich
+- angepasst`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 3 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- ständige Verkörperung einer Maske nach außen (“Image”)
 
-Über den so2 sollte man explizit noch Folgendes wissen:
+Über den so3 sollte man explizit noch Folgendes wissen:
 
-- oftmals in Führungspositionen
-- großzügig
-- ehrgeizig`
+- eitles Äußeres (Anzug / 
+  Markenkleidung, ...)`
         },
         {
           label: "Beispiele",
-          content: `- Jenna Ortega
-- Samuel L. Jackson
-- Lewis Hamilton
-- Barack Obama
-- Drake
-- Akon
-- Fynn Kliemann
-- Dr. Dre
-- Will Smith
-- Liam Payne`
+          content: `- Dwayne Johnson
+- Judith Williams
+- Sahra Wagenknecht
+- Mesut Özil
+- Inscope21
+- Daniel Brühl
+- Karl Lagerfeld
+- Lilly Palmer
+- Steve Aoki`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- so3
-- se3
-- se7
+- se1
+- so2
+- so4
 - so7
 - so9
 
 Verwechslung in weiblicher Form:
 
-- so3
-- se7
-- so9
-- se3`
+- se1
+- so7
+- sx3
+- so2
+- so4`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die so2 folgende Partner am ehesten:
+Statistisch gesehen wählt die so3 folgende Partner am ehesten:
 
-- so7
-- so/se3
-- so/se1
-- so6
-- se8 (vereinzelt)`
+- so/sx2
+- so/sx4
+- so/sx7`
         },
         {
           label: "Verkauf",
-          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
--> den Stolz nicht kränken
-
-- Anerkennung für Leistungen und Erfolge geben
-- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
-- Verantwortungsbewusstsein der so2 herausstellen und loben
-- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
-- Helferrolle übernehmen
-- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
-- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
-- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
-- Engagement im Kundenstamm zeigen
-- mitfühlend sein`
+          content: `- Eitelkeiten spielen lassen
+  (Kundenerfolge, Ruf, Äußerlichkeiten, weltliche Errungenschaften, ...)
+- Anerkennung für die bisherigen Leistungen und Erfolge der so3 geben
+- Schmeicheleien spielen lassen
+- sozialen Einfluss zeigen
+- Statussymbole der so3 anerkennen und wertschätzen
+- Empathie und Wärme vermitteln
+- Effizienz zeigen
+- objektive Sinnhaftigkeit des eigenen Produktes zeigen
+- Darstellung eines sozialen Aufstiegs mit Hilfe des eigenen Produktes
+- an Erfolgsdrang der so3 appellieren
+- Respekt & Wohlgefallen zeigen
+- Komplimente machen
+- Ehrgeiz der so3 stärken
+- Ruf der so3 respektieren
+- Darstellung der eigenen Werte
+- Vorbildrolle abgeben`
         },
         {
           label: "Führung",
-          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
-- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
-- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
-- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
-- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
-- Lob erteilen bei guter Aufgabenerfüllung
-- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
-- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
-- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
-- Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
+          content: `- Identifikation mit dem Unternehmen und den Menschen im Unternehmen schaffen, um die so3 zu motivieren
+          - Prestige und Darstellung in der sozialen Gruppe fördern / der so3 die Bühne im Unternehmen bieten, um die Aktivität und den Ehrgeiz hochzuhalten
+- Leistungen der so3 in der sozialen Gruppe kundtun, darstellen und wertschätzen
+- Aufstiegschancen schaffen, um der so3 zu gewährleisten, dass sie in der sozialen Hierarchie aufsteigen kann (Erfolg in der sozialen Gruppe garantieren)
+- Leistungen belohnen und im Unternehmen darstellen
+- Wettbewerbsstrukturen für die so3 schaffen (z.B. ein “Mitarbeiter des Monats”-System)
+- Verantwortung im Unternehmen an die so3 übertragen
+- Strukturen und Werte an die so3 weitergeben, um Integrität zu garantieren
+- Vermeidung von Demütigung vor anderen im Unternehmen 
+- soziale Eitelkeiten stärken (z.B. Komplimente vor anderen machen)`
         }
       ]
     },
