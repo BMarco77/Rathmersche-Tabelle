@@ -766,10 +766,10 @@ Statistisch gesehen wählt die so3 folgende Partner am ehesten:
     {
       code: "sx3",
       content: `Grundmotivation:
-Erfolg (in der zwischen-menschlichen Beziehung)
+Erfolg (in der zwischenmenschlichen Beziehung)
 
 Leidenschaft: 
-Eitelkeit (in der zwischen-menschlichen Beziehung)
+Eitelkeit (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
