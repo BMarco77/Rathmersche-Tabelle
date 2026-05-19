@@ -14,8 +14,7 @@ Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emo
 
 Grundproblem:
 - Liebes-Defizit
-- Gefühl, nicht geliebt zu werden /
-  nicht anerkannt zu sein
+- Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein
 
 Hauptthemen:
 - Image
