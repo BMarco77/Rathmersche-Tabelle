@@ -458,19 +458,20 @@ Die Wirkweisen der se4 ergänzen sich wie folgt:
 },
 
     {
-      label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+  label: "Lookalikes",
+  content: `Verwechslung in männlicher Form:
 
-- se9
-- sx4
-- se6
+- se2
+- so7
+- so8
+- sx5
 
 Verwechslung in weiblicher Form:
 
-- sx4
-- se9
-- sx6`
-    },
+- se2
+- sx5
+- so9`
+},
 
     {
       label: "Partnerwahl",
@@ -686,19 +687,21 @@ Die Wirkweisen der so4 ergänzen sich wie folgt:
 },
 
     {
-      label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+  label: "Lookalikes",
+  content: `Verwechslung in männlicher Form:
 
-- so5
-- sx4
-- so6
+- se6
+- so3
+- so7
+- sx5
 
 Verwechslung in weiblicher Form:
 
-- sx4
-- so2
-- so5`
-    },
+- se6
+- se1
+- sx5
+- so9`
+},
 
     {
       label: "Partnerwahl",
@@ -916,19 +919,21 @@ Die Wirkweisen der sx4 ergänzen sich wie folgt:
 },
 
     {
-      label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+  label: "Lookalikes",
+  content: `Verwechslung in männlicher Form:
 
-- sx7
-- sx2
+- sx8
 - sx6
+- sx3
+- sx7
 
 Verwechslung in weiblicher Form:
 
+- sx6
+- sx3
 - sx2
-- sx7
-- sx6`
-    },
+- sx7`
+},
 
     {
       label: "Partnerwahl",
