@@ -684,8 +684,7 @@ Die Wirkweisen der so3 ergänzen sich wie folgt:
 
 Über den so3 sollte man explizit noch Folgendes wissen:
 
-- eitles Äußeres (Anzug / 
-  Markenkleidung, ...)`
+- eitles Äußeres (Anzug / Markenkleidung, ...)`
         },
         {
           label: "Beispiele",
