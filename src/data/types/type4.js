@@ -446,13 +446,16 @@ Die Wirkweisen der se4 ergänzen sich wie folgt:
 - wirkt oft stärker, als sie sich innerlich fühlt`
     },
 
-    {
-      label: "Beispiele",
-      content: `- Kurt Cobain
-- Billie Eilish
-- Franz Kafka
-- Johnny Cash`
-    },
+  {
+  label: "Beispiele",
+  content: `- Lady Diana
+- Post Malone
+- Paul McCartney
+- Joe Cole
+- Benedict Wells
+- Radhi Devlukia-Shetty
+- Emma Myers`
+},
 
     {
       label: "Lookalikes",
@@ -672,12 +675,15 @@ Die Wirkweisen der so4 ergänzen sich wie folgt:
     },
 
     {
-      label: "Beispiele",
-      content: `- Lana Del Rey
-- Tim Burton
-- Virginia Woolf
-- Marina Abramović`
-    },
+  label: "Beispiele",
+  content: `- Johnny Depp
+- R Kelly
+- John Lennon
+- Chester Bennington
+- Michael Jackson
+- Jack Doohan
+- Maximilian Mundt`
+},
 
     {
       label: "Lookalikes",
@@ -898,12 +904,16 @@ Die Wirkweisen der sx4 ergänzen sich wie folgt:
     },
 
     {
-      label: "Beispiele",
-      content: `- Amy Winehouse
-- Heath Ledger
-- Angelina Jolie
-- Marilyn Manson`
-    },
+  label: "Beispiele",
+  content: `- Adolf Hitler
+- Billie Eilish
+- Anthony Kiedis
+- Axl Rose
+- Kurt Cobain
+- Rihanna
+- Tupac Shakur
+- Justin Bieber`
+},
 
     {
       label: "Lookalikes",
