@@ -436,27 +436,38 @@ Die Wirkweisen der se7 ergänzen sich wie folgt:
     },
 
     {
-      label: "Beispiele",
-      content: `- Leonardo DiCaprio
-- Helge Schneider
-- Stefan Raab
-- Jim Carrey`
-    },
+  label: "Beispiele",
+  content: `- Larry King
+- Thaddaeus Koroma
+- Big Boi
+- Mike Tyson
+- Shaquille O'Neal
+- DJ Khaled
+- Elliott Hulse
+- 50 Cent
+- Vin Diesel
+- Kim Jong Un
+- Adrian Leimkühler
+- Farid Bang`
+},
 
     {
-      label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+  label: "Lookalikes",
+  content: `Verwechslung in männlicher Form:
 
+- se8
 - se2
 - se3
-- se8
+- se9
+- se4
 
 Verwechslung in weiblicher Form:
 
+- se8
 - se2
-- se9
-- sx7`
-    },
+- se3
+- se9`
+},
 
     {
       label: "Partnerwahl",
@@ -666,27 +677,38 @@ Die Wirkweisen der so7 ergänzen sich wie folgt:
     },
 
     {
-      label: "Beispiele",
-      content: `- Elon Musk
-- Richard Branson
-- Robin Williams
-- Johnny Depp`
-    },
+  label: "Beispiele",
+  content: `- Elon Musk
+- Otto Waalkes
+- Jim Carrey
+- Luciano Pavarotti
+- Mark Ruffalo
+- Mark Wahlberg
+- Lionel Messi
+- Kevin Spacey
+- Gene Kelly
+- DJ Bobo
+- Alexander van der Bellen
+- Daniel Aminati`
+},
 
     {
-      label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+  label: "Lookalikes",
+  content: `Verwechslung in männlicher Form:
 
-- so3
-- sx7
 - so2
+- so6
+- se3
+- se4
+- so3
 
 Verwechslung in weiblicher Form:
 
 - so2
-- sx7
-- so3`
-    },
+- so6
+- se3
+- se4`
+},
 
     {
       label: "Partnerwahl",
@@ -893,27 +915,42 @@ Die Wirkweisen der sx7 ergänzen sich wie folgt:
     },
 
     {
-      label: "Beispiele",
-      content: `- Russell Brand
+  label: "Beispiele",
+  content: `- George Clooney
 - Miley Cyrus
-- Conor McGregor
-- Machine Gun Kelly`
-    },
+- Thomas Gottschalk
+- Lady Gaga
+- Beyoncé
+- John Travolta
+- Dennis Rodman
+- Wesley Snipes
+- Kevin Hart
+- Morgan Freeman
+- Lil Baby
+- Shakira
+- Owen Cook
+- Chuck Norris
+- Michael Jordan
+- Blueface
+- Max Tornow`
+},
 
     {
-      label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+  label: "Lookalikes",
+  content: `Verwechslung in männlicher Form:
 
+- sx6
+- sx3
+- so3
 - sx4
-- sx2
-- so7
 
 Verwechslung in weiblicher Form:
 
+- sx6
 - sx2
-- sx4
-- so7`
-    },
+- sx3
+- sx4`
+},
 
     {
       label: "Partnerwahl",
