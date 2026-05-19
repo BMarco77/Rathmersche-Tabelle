@@ -318,32 +318,33 @@ Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der j
 
 Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
 
-Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
+Im Fall der se3 bedeutet das, dass dieser Enneagrammtyp gegen die Eitelkeit ankämpft.
 
-Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er keinen Erfolg hat, wenn er seine Eitelkeit nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem se3 bewusst und können angesprochen werden:
 
-- er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
-- er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
-- er ist ein Kontrollfreak
-- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
-- er ist sehr sensibel und nimmt viel wahr
-- er kann im Stressfall schnell sehr gereizt werden`
+- er hat große Ziele
+- er ist Pragmatiker
+- er hat seine Emotionen im Griff und kann nüchtern reflektieren
+- Impulsivität mag er nicht
+- er möchte möglichst gut überleben und legt sein Leben danach aus
+- er ist ein Freund von Effizienz und Planung, auch wenn er häufig unstrukturiert ist
+- Menschlichkeit, Empathie und Respekt sind ihm wichtig
+- er versucht stets, ein guter Mensch zu sein
+- er arbeitet nach dem Minimalprinzip (wenig Aufwand für viel Erfolg)
+- er ist häufig eine Art Ratgeber für seine Freunde & Verwandten
+- Er ist oftmals sehr vorbildlich
+- er fühlt sich emotional oft kalt, aber spielt nach außen immer den warmen & charmanten Menschen, der mit jedem klarkommt
+- er möchte stets authentisch sein und mag keine Eitelkeiten
+- er möchte nicht mehr Schein als Sein sein`
         },
         {
           label: "Blinder Fleck",
@@ -354,11 +355,12 @@ Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stol
 - Gefühls-Identifikation
 - Liebes-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 3 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starkes Schaffen von Abhängigkeiten im außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Eitelkeit & Falschheit als Liebesgarant
+- aktives Schaffen von äußeren Werten als Kompensation
+- Aufsetzen einer Maske im außen
+- zwanghafter Erfolgsdrang
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
@@ -366,99 +368,103 @@ Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 - Egoismus
 - Bedürfnisorientierung
 
-Blinder Fleck, speziell bei der se2:
+Blinder Fleck, speziell bei der se3:
 
-- Kampf gegen den Stolz
-- Abhängigkeit von inneren Bedürfnissen
-- ungesunder Egoismus
-- Schein-Abhängigkeit von materiellem Wohlbefinden`
+- gespielte Empathie
+- Berechnung im außen
+- Identifikation mit materiellem Erfolg`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 3 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- herausfordernd
+- fokussiert
+- kühl-strahlend
+- scharf
+- glänzend
+- “Strahleaugen”
 
-Die Blickqualität der se2 ergänzt sich wie folgt:
+Die Blickqualität der se3 ergänzt sich wie folgt:
 
-- dominant
-- herrisch`
+- ernst
+- berechnend
+- sicher`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 3 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- „Bambi-Augen“ (große, braune Augen)
-- volle Lippen
-- weibliche, „kurvige“ Züge
+- Hang zu Augenringen
+- glatte/reine Haut
+- “gute Gene”
+- weiße Zähne
 
-Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der se3 ergänzen sich wie folgt:
 
-- weicher, runder, kleiner Körperbau
-- üppiger Vorbau`
+- oftmals große Augen`
         },
         {
           label: "Wirkung",
-         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+         content: `Typ 3 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- windig
+- eitel
+- angeberisch
+- selbstdarstellerisch
+- gewieft
+- zielorientiert
+- fokussiert
+- “künstlich”
 
-Die Wirkweisen der se2 ergänzen sich wie folgt:
+Die Wirkweisen der se3 ergänzen sich wie folgt:
 
-„Matriarchin“-Ausstrahlung:
-
-- stark
-- rau
-- naiv
-- egoistisch`
+“Workaholic”-Ausstrahlung:
+- selbstsicher
+- pragmatisch
+- effizient
+- ausgelaugt`
         },
         {
           label: "Weiteres",
-         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+         content: `Über Typ 3 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- ständige Verkörperung einer Maske nach außen (“Image”)
 
-Über den se2 sollte man explizit noch Folgendes wissen:
+Über den se3 sollte man explizit noch Folgendes wissen:
 
-- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
+- pragmatisch
+- eher “uneitel” nach außen
+- “authentischster”Typ 3`
         },
         {
           label: "Beispiele",
-          content: `- Wolfgang Amadeus Mozart
-- Quentin Tarantino
-- Ice Cube
-- Greta Thunberg
-- Pamela Michaelis
-- 6ix9ine
-- Ron Bielecki
-- Danielle Pinnock
-- Wilson Gonzales Ochsenknecht
-- Leni Klum`
+          content: `- Tony Robbins
+- Gary Vaynerchuk
+- David L. Rathmer
+- Mark Cuban
+- Pep Guardiola
+- Denzil Washington
+- Marc Gebauer
+- Katie Holmes
+- Robert Kardashian`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- se8
+- se1
+- so2
 - se7
+- so9
 
 Verwechslung in weiblicher Form:
 
-- se8
+- se1
+- so2
 - se7
-- se4`
+- so9
+- so7`
         },
         {
           label: "Partnerwahl",
@@ -466,49 +472,43 @@ Verwechslung in weiblicher Form:
 
 Statistisch gesehen wählt die se2 folgende Partner am ehesten:
 
-- se/so7
-- se3
-- se1
-- sx/so/se6`
+- so/sx4
+- so/sx2
+- se7
+- sx5`
         },
         {
           label: "Verkauf",
-          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-- Helfer- & Gastgebermentalität an den Tag legen
-- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-- Fragen stellen
-- immer darauf achten, großzügig/freigiebig zu sein
-- Dankbarkeit schon bei kleinen Gesten zeigen
-- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-- Wertschätzung entgegenbringen / Komplimente machen
-- kleine Geschenke und Zusatzbedürfnisse erfüllen
-- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-- Empathie & Verständnis entgegenbringen
-- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-- ständige Unterstützung zusichern`
+          content: `- Autonomie und Eigenständigkeit ermöglichen und betonen
+- pragmatische Lösungen anbieten
+- effizienter Umgang ohne unnötiges Herumgeschwafel
+- Anerkennung für die weltlich geschaffenen Werte der se3 geben
+- uneitel sein / keine Angeberei
+- Bodenständigkeit zeigen
+- an den Erfolgsdrang der se3 appellieren
+- Menschlichkeit zeigen
+- Professionalität & Souveränität beweisen
+- objektive Sinnhaftigkeit des eigenen Produktes darstellen
+- Effizienz & Pragmatismus stehen immer im Vordergrund bei der se3, also sollte man diese beiden Werte bedienen
+- Freundlichkeit und Respekt sind essentiell wichtig, um bei der se3 anzukommen
+- die Darstellung von inneren Werten & Integrität führt dazu, dass die se3 einen mag
+- Wertschätzung von Zeit & Energie der se3
+  -> Unpünktlichkeit und Ineffizienz vermeiden
+- gepflegtes Äußeres zeigen und Kompetenz vermitteln`
         },
         {
           label: "Führung",
-          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-- Liebe und Wertschätzung entgegenbringen
-- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-- Dankbarkeit für die Leistung der se2 zeigen
-- kleine Geschenke und Zusicherungen machen
-- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-- kein grober Umgang gegenüber der se2
-- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-- klare Kommunikation, um Missverständnisse zu vermeiden
-- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-- mit kleinen Geschenken und Belohnungen motivieren
-- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
+          content: `- finanzielle und materielle Aufstiegschancen in Aussicht stellen
+- die harte Arbeit der se3 belohnen und wertschätzen
+- Verantwortung zusichern, um der se3 ein Pflichtgefühl zu geben 
+- Effizienz und Arbeitsamkeit der se3 wertschätzen, um sie weiterhin motiviert zu halten
+- praktisches und lösungsorientiertes Aufgabendesign ist essentiell wichtig, um die se3 bei Laune zu halten 
+- Geschenke und Aufmerksamkeiten machen
+- klare Aufgabenstellungen und Strukturen vorgeben, damit die se3 ihren Fokus leicht setzen kann und in Folge dessen effizient arbeiten kann 
+- Regeln und Strukturen geben, damit die se3 sich entspannt fühlt 
+- Wichtige Aufgaben geben, damit die se3 in ihrer Eitelkeit gestärkt wird
+- Firmenwagen/materielle Belohnungen in Aussicht stellen
+- Werte, Moral und Ideologie der se3 stärken und in Verbindung mit dem Unternehmen stellen, damit sie sich verpflichtet und identifiziert fühlt `
         }
       ]
     },
