@@ -270,717 +270,685 @@ Entwicklung im negativen Fall:
 
   subtypes: [
     {
-      code: "se1",
-      content: `Grundmotivation:
-Liebe in der Selbsterhaltung
+  code: "se7",
+  content: `Grundmotivation:
+- Freiheit (in der Selbsterhaltung)
 
 Leidenschaft:
-Stolz in der Selbsterhaltung
+- Maßlosigkeit / Völlerei (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- Ich-zuerst-Mentalität
-- starke Bedürfnisse
-- liebevoll und kümmernd
-- bei verletzten Bedürfnissen ruppig / grob
-- kann rücksichtslos wirken
-- fühlt sich schnell übergangen
-- erwartet Gegenleistung für Dienste
-- starke Bedürftigkeit
-- Naivität`,
+- starke Bedürfnisorientierung
+- genießerisch
+- materialistisch
+- unterhaltsam
+- sucht Sicherheit durch Genuss
+- humorvoll
+- hektisch
+- sprunghaft
+- optimistisch
+- vermeidet Schmerz
+- sucht ständig neue Reize
+- freiheitsliebend
+- spontan
+- extrovertiert`,
 
-      traits: [
-        {
-          label: "warm",
-          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+  traits: [
+    {
+      label: "warm",
+      content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
 
 Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
-        },
-        {
-          label: "kindlich",
-          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+    },
+
+    {
+      label: "kindlich",
+      content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
 
 Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
-        },
-        {
-          label: "Kontratyp",
-          content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+    },
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+    {
+      label: "Kontratyp",
+      content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+Im Fall der se7 bedeutet das, dass dieser Enneagrammtyp gegen die Maßlosigkeit ankämpft.
 
-Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
+Er versucht oftmals vernünftiger, kontrollierter und verantwortungsbewusster zu wirken, obwohl innerlich weiterhin starke Bedürfnisse und Impulse vorhanden sind.`
+    }
+  ],
 
-Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
-        }
-      ],
+  modules: [
+    {
+      label: "Demaskierung",
+      content: `Folgende Eigenschaften sind dem se7 bewusst und können angesprochen werden:
 
-      modules: [
-        {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+- starke Freiheitsliebe
+- Bedürfnis nach Genuss & Komfort
+- viele Ideen und Interessen
+- schnelle Begeisterungsfähigkeit
+- Angst vor Einschränkung
+- Probleme mit dauerhafter Disziplin
+- hektische Denkweise
+- starke Bedürfnisorientierung
+- Schwierigkeiten mit Verzicht
+- sucht angenehme Zustände
+- optimistisch
+- spontan
+- kann Verantwortung vermeiden
+- braucht Abwechslung`
+    },
 
-- er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
-- er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
-- er ist ein Kontrollfreak
-- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
-- er ist sehr sensibel und nimmt viel wahr
-- er kann im Stressfall schnell sehr gereizt werden`
-        },
-        {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+    {
+      label: "Blinder Fleck",
+      content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- Angst
+- Unsicherheit
+- Zukunftsprojektion
+- Gedankenkonstrukte
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 7 im Allgemeinen:
 
-- Stolz & Hochmut als Liebesgarant
-- starkes Schaffen von Abhängigkeiten im außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Maßlosigkeit als Fluchtmechanismus
+- Verdrängung von Schmerz
+- Sucht nach positiven Zuständen
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
-- materialistisches Denken
-- Egoismus
 - Bedürfnisorientierung
+- Materialismus
+- Egoismus
 
-Blinder Fleck, speziell bei der se2:
+Blinder Fleck speziell bei der se7:
 
-- Kampf gegen den Stolz
-- Abhängigkeit von inneren Bedürfnissen
-- ungesunder Egoismus
-- Schein-Abhängigkeit von materiellem Wohlbefinden`
-        },
-        {
-          label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
-
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
-
-Die Blickqualität der se2 ergänzt sich wie folgt:
-
-- dominant
-- herrisch`
-        },
-        {
-          label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
-
-- „Bambi-Augen“ (große, braune Augen)
-- volle Lippen
-- weibliche, „kurvige“ Züge
-
-Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
-
-- weicher, runder, kleiner Körperbau
-- üppiger Vorbau`
-        },
-        {
-          label: "Wirkung",
-         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
-
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
-
-Die Wirkweisen der se2 ergänzen sich wie folgt:
-
-„Matriarchin“-Ausstrahlung:
-
-- stark
-- rau
-- naiv
-- egoistisch`
-        },
-        {
-          label: "Weiteres",
-         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
-
-- passen sich tendenziell an den Gesprächspartner an
-
-Über den se2 sollte man explizit noch Folgendes wissen:
-
-- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
-        },
-        {
-          label: "Beispiele",
-          content: `- Wolfgang Amadeus Mozart
-- Quentin Tarantino
-- Ice Cube
-- Greta Thunberg
-- Pamela Michaelis
-- 6ix9ine
-- Ron Bielecki
-- Danielle Pinnock
-- Wilson Gonzales Ochsenknecht
-- Leni Klum`
-        },
-        {
-          label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
-
-- se8
-- se7
-
-Verwechslung in weiblicher Form:
-
-- se8
-- se7
-- se4`
-        },
-        {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
-
-Statistisch gesehen wählt die se2 folgende Partner am ehesten:
-
-- se/so7
-- se3
-- se1
-- sx/so/se6`
-        },
-        {
-          label: "Verkauf",
-          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-- Helfer- & Gastgebermentalität an den Tag legen
-- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-- Fragen stellen
-- immer darauf achten, großzügig/freigiebig zu sein
-- Dankbarkeit schon bei kleinen Gesten zeigen
-- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-- Wertschätzung entgegenbringen / Komplimente machen
-- kleine Geschenke und Zusatzbedürfnisse erfüllen
-- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-- Empathie & Verständnis entgegenbringen
-- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-- ständige Unterstützung zusichern`
-        },
-        {
-          label: "Führung",
-          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-- Liebe und Wertschätzung entgegenbringen
-- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-- Dankbarkeit für die Leistung der se2 zeigen
-- kleine Geschenke und Zusicherungen machen
-- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-- kein grober Umgang gegenüber der se2
-- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-- klare Kommunikation, um Missverständnisse zu vermeiden
-- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-- mit kleinen Geschenken und Belohnungen motivieren
-- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
-        }
-      ]
+- Flucht in Genuss & Komfort
+- Vermeidung unangenehmer Gefühle
+- Rationalisierung von Maßlosigkeit`
     },
 
     {
-      code: "so1",
-      content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+      label: "Augen",
+      content: `Typ 7 im Allgemeinen hat folgende Blickqualität:
+
+- lebendig
+- neugierig
+- verspielt
+- begeistert
+- offen
+- hektisch
+
+Die Blickqualität der se7 ergänzt sich wie folgt:
+
+- weich
+- freundlich`
+    },
+
+    {
+      label: "Körper",
+      content: `Typ 7 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+
+- lebendige Mimik
+- schnelle Bewegungen
+- jugendliche Ausstrahlung
+
+Die körperlichen Auffälligkeiten der se7 ergänzen sich wie folgt:
+
+- weicher Körperbau
+- gemütliche Wirkung
+- entspannte Körpersprache`
+    },
+
+    {
+      label: "Wirkung",
+      content: `Typ 7 im Allgemeinen hat folgende Wirkweisen:
+
+- optimistisch
+- humorvoll
+- inspirierend
+- begeisternd
+- lebendig
+
+Die Wirkweisen der se7 ergänzen sich wie folgt:
+
+„Genießer“-Ausstrahlung:
+
+- gemütlich
+- warm
+- verspielt
+- freiheitsliebend`
+    },
+
+    {
+      label: "Weiteres",
+      content: `Über Typ 7 im Allgemeinen sollte man noch Folgendes wissen:
+
+- meiden Schmerz und Einschränkung
+- suchen positive Erfahrungen
+
+Über die se7 sollte man explizit noch Folgendes wissen:
+
+- liebt Komfort & Genuss
+- versucht sich angenehme Lebensumstände aufzubauen`
+    },
+
+    {
+      label: "Beispiele",
+      content: `- Leonardo DiCaprio
+- Helge Schneider
+- Stefan Raab
+- Jim Carrey`
+    },
+
+    {
+      label: "Lookalikes",
+      content: `Verwechslung in männlicher Form:
+
+- se2
+- se3
+- se8
+
+Verwechslung in weiblicher Form:
+
+- se2
+- se9
+- sx7`
+    },
+
+    {
+      label: "Partnerwahl",
+      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+
+Statistisch gesehen wählt die se7 folgende Partner am ehesten:
+
+- se2
+- sx2
+- se9
+- sx9`
+    },
+
+    {
+      label: "Verkauf",
+      content: `- Freiheit & Möglichkeiten hervorheben
+- angenehme Erfahrungen vermitteln
+- Spaß & Leichtigkeit erzeugen
+- keine zu starre Struktur präsentieren
+- Begeisterung erzeugen
+- positive Zukunftsbilder erschaffen
+- Komfort & Genuss betonen`
+    },
+
+    {
+      label: "Führung",
+      content: `- abwechslungsreiche Aufgaben geben
+- kreative Freiheit ermöglichen
+- nicht zu stark kontrollieren
+- Motivation über Begeisterung erzeugen
+- Lob und positive Perspektiven geben
+- Monotonie vermeiden
+- Raum für Ideen schaffen`
+    }
+  ]
+},
+    {
+  code: "so7",
+  content: `Grundmotivation:
+- Freiheit (in der sozialen Gruppe)
 
 Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+- Maßlosigkeit / Völlerei (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
-- charmant & schmeichelnd
-- Naivität
-- "die rechte Hand"
-- Seelsorger-Mentalität
-- starkes Helfersyndrom
-- spießig / kultiviert
-- starker Ehrgeiz
-- Verantwortungsbewusstsein
-- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
-- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
-- Einflussnahme in einer Gruppe
-- fachlich kompetent
-- "erwachsen"
-- manipulativ
-- tierlieb`,
+- charismatisch
+- visionär
+- kontaktfreudig
+- gruppenorientiert
+- inspirierend
+- humorvoll
+- redegewandt
+- euphorisch
+- vermeidet Schmerz
+- sucht Anerkennung über Inspiration
+- idealistisch
+- enthusiastisch
+- kreativ
+- spontan`,
 
-      traits: [
-        {
-          label: "kalt",
-          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+  traits: [
+    {
+      label: "kalt",
+      content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
-        },
-        {
-          label: "erwachsen",
-          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+Das hat vor allem mit dem „erwachsen-angepassten“ Wesen der Sozialtypen zu tun.`
+    },
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
-        },
-        {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+    {
+      label: "erwachsen",
+      content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild dieses Subtyps.`
+    },
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+    {
+      label: "Verstärkungstyp",
+      content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+Der Verstärkungstyp hat die Erfahrung gemacht, dass das starke Ausleben der Leidenschaft gut funktioniert.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
-        }
-      ],
+Im Fall der so7 bedeutet das, dass dieser Enneagrammtyp seine Maßlosigkeit sozial kanalisiert:
 
-      modules: [
-        {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+- viele Ideen
+- viele Kontakte
+- viele Visionen
+- viele Möglichkeiten
 
-- er ist hilfsbereit
-- er ist sensibel
-- er legt viel Wert auf Respekt
-- er besitzt eine gewisse Skepsis
-- er kümmert sich gerne um seine Freunde & Verwandten
-- er hat ein starkes Verantwortungsgefühl
-- er ist sehr feminin
-- er ist stolz auf das, was er bereits geschafft hat
-- er hat von Zeit zu Zeit emotionale Löcher
-- er braucht ein gutes Umfeld, um sich zu entwickeln
-- er kann gut vermitteln
-- er hat einen Hang zur Aufopferung
-- er ist sehr ehrgeizig
-- er ist vernünftig
-- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`
-        },
-        {
-          label: "Blinder Fleck",
-         content: `Blinder Fleck der Herzenergie im Allgemeinen:
+Er versucht oftmals über Inspiration, Euphorie und Gruppendynamik Freiheit zu erzeugen.`
+    }
+  ],
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+  modules: [
+    {
+      label: "Demaskierung",
+      content: `Folgende Eigenschaften sind dem so7 bewusst und können angesprochen werden:
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+- liebt Austausch & Gruppen
+- viele Ideen gleichzeitig
+- starke Zukunftsorientierung
+- Probleme mit Fokus
+- Angst vor Einschränkung
+- inspirierende Wirkung
+- möchte Menschen begeistern
+- optimistisch
+- kreativ
+- redegewandt
+- braucht Freiraum
+- vermeidet negative Emotionen
+- will Möglichkeiten offenhalten
+- visionäres Denken`
+    },
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+    {
+      label: "Blinder Fleck",
+      content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+
+- Angst
+- Unsicherheit
+- Gedankenkonstrukte
+- Zukunftsprojektionen
+
+Blinder Fleck von Typ 7 im Allgemeinen:
+
+- Maßlosigkeit als Fluchtmechanismus
+- Verdrängung unangenehmer Gefühle
+- Suche nach positiven Zuständen
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Gruppenabhängigkeit
+- Anpassung an Gruppen
+- Bedürfnis nach Zugehörigkeit
 
-Blinder Fleck, speziell bei der so2:
+Blinder Fleck speziell bei der so7:
 
-- starkes Ausleben des Stolzes
-- Abhängigkeit von der Anerkennung durch eine Gruppe
-- ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`
-        },
-        {
-          label: "Augen",
-         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
-
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
-
-Die Blickqualität der so2 ergänzt sich wie folgt:
-
-- hochmütig
-- ernst`
-        },
-        {
-          label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
-
-- “Bambi-Augen” (große, braune Augen)
-- volle Lippen
-- weibliche, “kurvige” Züge
-
-Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
-
-- üppiger Vorbau`
-        },
-        {
-          label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
-
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
-
-Die Wirkweisen der so2 ergänzen sich wie folgt:
-
-“Diplomaten”-Ausstrahlung:
-
-- vernünftig
-- strebsam
-- spießig`
-        },
-        {
-          label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
-
-- passen sich tendenziell an den Gesprächspartner an
-
-Über den so2 sollte man explizit noch Folgendes wissen:
-
-- oftmals in Führungspositionen
-- großzügig
-- ehrgeizig`
-        },
-        {
-          label: "Beispiele",
-          content: `- Jenna Ortega
-- Samuel L. Jackson
-- Lewis Hamilton
-- Barack Obama
-- Drake
-- Akon
-- Fynn Kliemann
-- Dr. Dre
-- Will Smith
-- Liam Payne`
-        },
-        {
-          label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
-
-- so3
-- se3
-- se7
-- so7
-- so9
-
-Verwechslung in weiblicher Form:
-
-- so3
-- se7
-- so9
-- se3`
-        },
-        {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
-
-Statistisch gesehen wählt die so2 folgende Partner am ehesten:
-
-- so7
-- so/se3
-- so/se1
-- so6
-- se8 (vereinzelt)`
-        },
-        {
-          label: "Verkauf",
-          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
--> den Stolz nicht kränken
-
-- Anerkennung für Leistungen und Erfolge geben
-- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
-- Verantwortungsbewusstsein der so2 herausstellen und loben
-- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
-- Helferrolle übernehmen
-- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
-- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
-- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
-- Engagement im Kundenstamm zeigen
-- mitfühlend sein`
-        },
-        {
-          label: "Führung",
-          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
-- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
-- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
-- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
-- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
-- Lob erteilen bei guter Aufgabenerfüllung
-- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
-- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
-- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
-- Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
-        }
-      ]
+- Flucht in Visionen & Möglichkeiten
+- Ablenkung über soziale Aktivität
+- Rationalisierung von Rastlosigkeit`
     },
 
     {
-      code: "sx1",
-      content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+      label: "Augen",
+      content: `Typ 7 im Allgemeinen hat folgende Blickqualität:
 
-Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+- lebendig
+- offen
+- neugierig
+- begeistert
+- hektisch
+- verspielt
 
-Stichpunktartige Beschreibung:
+Die Blickqualität der so7 ergänzt sich wie folgt:
 
-- sehr feminin
-- unersättlicher Liebesdurst
-- erlebnisorientiert
-- sprunghaft
-- schmeichelnd-manipulativ
-- legt viel Wert auf Attraktivität
-- tierlieb
-- hartnäckig
-- engstirnig
-- verführerisch
-- geht zwischenmenschlich auf andere zu
-- fühlt sich schnell vom Partner betrogen
-- macht sich schnell abhängig vom Partner
-- unterstützend`,
+- charismatisch
+- inspirierend`
+    },
 
-      traits: [
-        {
-          label: "hitzig",
-          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+    {
+      label: "Körper",
+      content: `Typ 7 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
-        },
-        {
-          label: "jugendlich",
-          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+- schnelle Bewegungen
+- lebendige Mimik
+- jugendliche Ausstrahlung
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
-        },
-        {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+Die körperlichen Auffälligkeiten der so7 ergänzen sich wie folgt:
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+- elegante Wirkung
+- expressive Körpersprache
+- offene Gestik`
+    },
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+    {
+      label: "Wirkung",
+      content: `Typ 7 im Allgemeinen hat folgende Wirkweisen:
 
-Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+- humorvoll
+- inspirierend
+- motivierend
+- optimistisch
+- lebendig
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
-        }
-      ],
+Die Wirkweisen der so7 ergänzen sich wie folgt:
 
-      modules: [
-        {
-          label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+„Visionär“-Ausstrahlung:
 
-- sehr hilfsbereit
-- er erlebt gerne viel
-- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
-- er denkt sehr partnerschaftlich
-- er kümmert sich gut um sein Äußeres
-- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
-- er kümmert sich gerne um seine Familie & Freunde
-- er ist sehr empathisch
-- er kann im Stressfall sehr gereizt werden
-- er ist charmant
-- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
-- er ist sehr sensibel
-- er geht auf im Zwischenmenschlichen
-- er verfügt über viele Emotionen`
-        },
-        {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+- charismatisch
+- euphorisch
+- inspirierend
+- begeisternd`
+    },
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+    {
+      label: "Weiteres",
+      content: `Über Typ 7 im Allgemeinen sollte man noch Folgendes wissen:
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+- meiden Schmerz & Einschränkung
+- suchen positive Zustände
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+Über die so7 sollte man explizit noch Folgendes wissen:
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+- liebt soziale Dynamiken
+- inspiriert gerne andere Menschen
+- oftmals viele Projekte gleichzeitig`
+    },
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+    {
+      label: "Beispiele",
+      content: `- Elon Musk
+- Richard Branson
+- Robin Williams
+- Johnny Depp`
+    },
 
-Blinder Fleck, speziell bei der sx2:
+    {
+      label: "Lookalikes",
+      content: `Verwechslung in männlicher Form:
 
-- sexueller Stolz (Gefühl, betrogen zu werden)
-- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
-- starke Erlebnisorientierung`
-        },
-        {
-          label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
-
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
-
-Die Blickqualität der sx2 ergänzt sich wie folgt:
-
-- verführerisch
-- begeistert`
-        },
-        {
-          label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
-
-- "Bambi-Augen" (große, braune Augen)
-- volle Lippen
-- weibliche, "kurvige" Züge
-
-Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
-
-- schlank
-- lange Haare
-- Model-Statur
-- Tattoos`
-        },
-        {
-          label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
-
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
-
-Die Wirkweisen der sx2 ergänzen sich wie folgt:
-
-“Casanova”-Ausstrahlung:
-
-- verführerisch
-- abenteuerlustig
-- manipulativ
-- aufreizend`
-        },
-        {
-          label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
-
-- passen sich tendenziell an den Gesprächspartner an
-
-Über den sx2 sollte man explizit noch Folgendes wissen:
-
-- häufig Tattoos`
-        },
-        {
-          label: "Beispiele",
-          content: `- Ariana Grande
-- Elvis Presley
-- Jay-Z
-- Tobias Beck
-- Robert Downey Jr.
-- Pamela Reif
-- Monika Gruber
-- Julienco
-- Ryan Gosling
-- Shawn Mendes`
-        },
-        {
-          label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
-
-- sx2
-- sx4
+- so3
 - sx7
+- so2
 
 Verwechslung in weiblicher Form:
 
-- sx3
-- sx4
-- sx6
-- sx7`
-        },
-        {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+- so2
+- sx7
+- so3`
+    },
 
-Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+    {
+      label: "Partnerwahl",
+      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
 
-- sx/so6
-- sx/so7
-- sx/so3
-- sx5
+Statistisch gesehen wählt die so7 folgende Partner am ehesten:
+
+- so2
+- sx2
+- so9
 - sx9`
-        },
-        {
-          label: "Verkauf",
-          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
-- Verständnis entgegenbringen
-- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
-- Interesse an ihr und ihren Themen zeigen
-- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
-- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
-- liebevollen und warmen Umgang pflegen
-- Sensibilität und Empathie zeigen
-- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
-- Großzügigkeit und Freigebigkeit zeigen`
-        },
-        {
-          label: "Führung",
-          content: `- Dankbarkeit für die sx2 entgegenbringen
-- Komplimente machen
-- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
-- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
-- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
-- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
-- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
-- Verlässlichkeit der sx2 wertschätzen
-- Liebe und Zuneigung entgegenbringen
-- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
-- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
-- empathischer Umgang ist essentiell
-- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
-          
-        }
-      ]
+    },
+
+    {
+      label: "Verkauf",
+      content: `- Visionen & Möglichkeiten aufzeigen
+- Begeisterung erzeugen
+- Inspiration liefern
+- Zukunftsbilder erschaffen
+- soziale Anerkennung vermitteln
+- keine starre Struktur präsentieren
+- Freiheit & Entwicklung betonen`
+    },
+
+    {
+      label: "Führung",
+      content: `- kreative Freiheit ermöglichen
+- Visionen und Ideen fördern
+- nicht zu stark kontrollieren
+- Motivation über Begeisterung erzeugen
+- Raum für Innovation schaffen
+- Abwechslung ermöglichen
+- inspirierende Ziele setzen`
     }
+  ]
+},
+
+    {
+  code: "sx7",
+  content: `Grundmotivation:
+- Freiheit (in der zwischenmenschlichen Beziehung)
+
+Leidenschaft:
+- Maßlosigkeit / Völlerei (in der zwischenmenschlichen Beziehung)
+
+Stichpunktartige Beschreibung:
+
+- intensiv
+- begeisterungsfähig
+- verführerisch
+- abenteuerlustig
+- emotional
+- sprunghaft
+- sucht starke Erlebnisse
+- freiheitsliebend
+- leidenschaftlich
+- euphorisch
+- charmant
+- zwischenmenschlich fokussiert
+- vermeidet Schmerz
+- sucht emotionale Intensität`,
+
+  traits: [
+    {
+      label: "hitzig",
+      content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+
+Das hat vor allem mit dem „jugendlich-energiegeladenen“ Wesen der Sexualtypen zu tun.`
+    },
+
+    {
+      label: "jugendlich",
+      content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+
+Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+    },
+
+    {
+      label: "Normaltyp",
+      content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+
+Der Normaltyp hat die Erfahrung gemacht, dass das moderate Ausleben der Leidenschaft gut funktioniert.
+
+Im Fall der sx7 bedeutet das, dass dieser Enneagrammtyp seine Maßlosigkeit hauptsächlich über intensive Erfahrungen und Beziehungen auslebt.
+
+Er sucht starke Gefühle, Abenteuer und emotionale Intensität, um Freiheit zu erleben und unangenehme Zustände zu vermeiden.`
+    }
+  ],
+
+  modules: [
+    {
+      label: "Demaskierung",
+      content: `Folgende Eigenschaften sind dem sx7 bewusst und können angesprochen werden:
+
+- starke Freiheitsliebe
+- intensive Erlebnisorientierung
+- schnell begeisterbar
+- emotional
+- braucht starke Reize
+- vermeidet Langeweile
+- impulsiv
+- spontan
+- liebt Abenteuer
+- zwischenmenschlich intensiv
+- braucht Abwechslung
+- sucht emotionale Höhepunkte
+- optimistisch
+- charmant`
+    },
+
+    {
+      label: "Blinder Fleck",
+      content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+
+- Angst
+- Unsicherheit
+- Gedankenkonstrukte
+- Zukunftsprojektionen
+
+Blinder Fleck von Typ 7 im Allgemeinen:
+
+- Maßlosigkeit als Fluchtmechanismus
+- Verdrängung unangenehmer Gefühle
+- Sucht nach positiven Zuständen
+
+Blinder Fleck des sexuellen Typs im Allgemeinen:
+
+- Rivalität
+- starke Bindungsabhängigkeit
+- Angst vor Entwertung
+
+Blinder Fleck speziell bei der sx7:
+
+- Flucht in intensive Erlebnisse
+- emotionale Maßlosigkeit
+- starke Abhängigkeit von Begeisterung & Intensität`
+    },
+
+    {
+      label: "Augen",
+      content: `Typ 7 im Allgemeinen hat folgende Blickqualität:
+
+- lebendig
+- neugierig
+- verspielt
+- begeistert
+- offen
+- hektisch
+
+Die Blickqualität der sx7 ergänzt sich wie folgt:
+
+- intensiv
+- verführerisch
+- euphorisch`
+    },
+
+    {
+      label: "Körper",
+      content: `Typ 7 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+
+- schnelle Bewegungen
+- lebendige Mimik
+- jugendliche Ausstrahlung
+
+Die körperlichen Auffälligkeiten der sx7 ergänzen sich wie folgt:
+
+- schlanke Wirkung
+- dynamische Körpersprache
+- auffälliger Stil`
+    },
+
+    {
+      label: "Wirkung",
+      content: `Typ 7 im Allgemeinen hat folgende Wirkweisen:
+
+- humorvoll
+- optimistisch
+- inspirierend
+- begeisternd
+- lebendig
+
+Die Wirkweisen der sx7 ergänzen sich wie folgt:
+
+„Abenteurer“-Ausstrahlung:
+
+- intensiv
+- leidenschaftlich
+- euphorisch
+- verführerisch`
+    },
+
+    {
+      label: "Weiteres",
+      content: `Über Typ 7 im Allgemeinen sollte man noch Folgendes wissen:
+
+- meiden Schmerz & Einschränkung
+- suchen positive Erfahrungen
+
+Über die sx7 sollte man explizit noch Folgendes wissen:
+
+- sucht intensive Beziehungen
+- liebt starke emotionale Erlebnisse
+- häufig sprunghaft & impulsiv`
+    },
+
+    {
+      label: "Beispiele",
+      content: `- Russell Brand
+- Miley Cyrus
+- Conor McGregor
+- Machine Gun Kelly`
+    },
+
+    {
+      label: "Lookalikes",
+      content: `Verwechslung in männlicher Form:
+
+- sx4
+- sx2
+- so7
+
+Verwechslung in weiblicher Form:
+
+- sx2
+- sx4
+- so7`
+    },
+
+    {
+      label: "Partnerwahl",
+      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+
+Statistisch gesehen wählt die sx7 folgende Partner am ehesten:
+
+- sx2
+- sx4
+- sx9
+- sx6`
+    },
+
+    {
+      label: "Verkauf",
+      content: `- Begeisterung & Intensität erzeugen
+- emotionale Erlebnisse vermitteln
+- Freiheit & Abenteuer hervorheben
+- Spannung erzeugen
+- keine Langeweile entstehen lassen
+- Visionen & Möglichkeiten zeigen
+- starke emotionale Bilder erzeugen`
+    },
+
+    {
+      label: "Führung",
+      content: `- kreative Freiheit ermöglichen
+- intensive Projekte geben
+- Motivation über Begeisterung erzeugen
+- Abwechslung schaffen
+- nicht zu stark kontrollieren
+- emotionale Bindung aufbauen
+- Raum für Spontanität & Ideen lassen`
+    }
+  ]
+}
   ]
 };
