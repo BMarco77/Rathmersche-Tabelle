@@ -815,8 +815,7 @@ Stichpunktartige Beschreibung:
 - perfektionistisch
 - zu hohe Ansprüche an ihren Partner
 - leidenschaftlich
-- selbstdarstellerisch
-`,
+- selbstdarstellerisch`,
 
       traits: [
         {
@@ -989,7 +988,7 @@ Verwechslung in weiblicher Form:
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+Statistisch gesehen wählt die sx1 folgende Partner am ehesten:
 
 - sx4
 - sx2
