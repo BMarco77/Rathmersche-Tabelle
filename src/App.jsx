@@ -16,7 +16,7 @@ export default function App() {
 
  if (selectedType === 1) {
   return (
-    <TypePage
+    <Type1Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -32,7 +32,7 @@ export default function App() {
 }
   if (selectedType === 3) {
   return (
-    <TypePage
+    <Type3Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -40,7 +40,7 @@ export default function App() {
 }
   if (selectedType === 4) {
   return (
-    <TypePage
+    <Type4Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -48,7 +48,7 @@ export default function App() {
 }
   if (selectedType === 5) {
   return (
-    <TypePage
+    <Type5Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -56,7 +56,7 @@ export default function App() {
 }
   if (selectedType === 6) {
   return (
-    <TypePage
+    <Type6Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -64,7 +64,7 @@ export default function App() {
 }
   if (selectedType === 7) {
   return (
-    <TypePage
+    <Type7Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -72,7 +72,7 @@ export default function App() {
 }
   if (selectedType === 8) {
   return (
-    <TypePage
+    <Type8Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
@@ -80,7 +80,7 @@ export default function App() {
 }
   if (selectedType === 9) {
   return (
-    <TypePage
+    <Type9Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
