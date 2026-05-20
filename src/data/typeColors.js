@@ -22,14 +22,14 @@ export const TYPE_GRADIENTS = {
   9: "linear-gradient(145deg, #f7a028 0%, #c07a27 45%, #5d3e2a 100%)",
 };
 
-export const TYPE_INFO_GRADIENTS = {
-  1: "linear-gradient(160deg, #c7c7c7 0%, #8f99ad 55%, #435066 100%)",
-  2: "linear-gradient(160deg, #a855f7 0%, #7e3bb3 55%, #46283f 100%)",
-  3: "linear-gradient(160deg, #62d9ee 0%, #4f96aa 55%, #414b55 100%)",
-  4: "linear-gradient(160deg, #7dff45 0%, #569638 55%, #3d3b2b 100%)",
-  5: "linear-gradient(160deg, #3b6cff 0%, #4856aa 55%, #3f3444 100%)",
-  6: "linear-gradient(160deg, #c68642 0%, #875b34 55%, #4f3328 100%)",
-  7: "linear-gradient(160deg, #ffe033 0%, #a88f2f 55%, #504026 100%)",
-  8: "linear-gradient(160deg, #e1251b 0%, #9e2e28 55%, #4e2827 100%)",
-  9: "linear-gradient(160deg, #ff991f 0%, #a76625 55%, #533723 100%)",
+const TYPE_GRADIENTS = {
+  1: "linear-gradient(145deg, #d9dde8 0%, #c9cfdd 60%, #8d98ad 82%, #4e5b73 100%)",
+  2: "linear-gradient(145deg, #b45cff 0%, #a855f7 60%, #944de0 82%, #5a3261 100%)",
+  3: "linear-gradient(145deg, #74def5 0%, #67d4ef 60%, #6ba8da 82%, #4a5361 100%)",
+  4: "linear-gradient(145deg, #82f043 0%, #74de3c 60%, #5f9b35 82%, #463427 100%)",
+  5: "linear-gradient(145deg, #4d6dff 0%, #5c78ff 60%, #5262bd 82%, #473847 100%)",
+  6: "linear-gradient(145deg, #d2944c 0%, #de9e54 60%, #9b6a37 82%, #57392d 100%)",
+  7: "linear-gradient(145deg, #f0d63a 0%, #f5dd45 60%, #b89a2f 82%, #5b4427 100%)",
+  8: "linear-gradient(145deg, #ff2a22 0%, #ef2e22 60%, #b52b23 82%, #5c2f2c 100%)",
+  9: "linear-gradient(145deg, #f7a028 0%, #ffae39 60%, #c07a27 82%, #5d3e2a 100%)",
 };
