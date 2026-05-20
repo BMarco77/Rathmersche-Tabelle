@@ -516,8 +516,8 @@ Statistisch gesehen wählt die se4 folgende Partner am ehesten:
 },
     {
   code: "so4",
-  content: "Grundmotivation:
-`Individualität (in der sozialen Gruppe)
+  content: `Grundmotivation:
+Individualität (in der sozialen Gruppe)
 
 Leidenschaft: 
 Neid (in der sozialen Gruppe)
