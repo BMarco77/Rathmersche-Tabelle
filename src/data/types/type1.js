@@ -149,9 +149,9 @@ Gesteigerte Formen:
       label: "Flügel: 9",
       content: `Bedeutung der Flügel:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
 
 Flügel zu Typ 9:
 
@@ -187,9 +187,9 @@ Eigenschaften im negativen Fall:
       label: "Flügel: 2",
       content: `Bedeutung der Flügel:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
+- Dies führt zu einer Eigenschaftsadaption
+- Einer der beiden Flügel ist besonders stark ausgeprägt
 
 Flügel zu Typ 2:
 
@@ -268,87 +268,104 @@ Entwicklung im negativen Fall:
 
   subtypes: [
     {
-      code: "se1",
-      content: `Grundmotivation:
-Liebe in der Selbsterhaltung
+  code: "se1",
+  content: `Grundmotivation:
+Perfektion (in der Selbsterhaltung)
 
-Leidenschaft:
-Stolz in der Selbsterhaltung
+Leidenschaft: 
+Zorn (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- Ich-zuerst-Mentalität
-- starke Bedürfnisse
-- liebevoll und kümmernd
-- bei verletzten Bedürfnissen ruppig / grob
-- kann rücksichtslos wirken
-- fühlt sich schnell übergangen
-- erwartet Gegenleistung für Dienste
-- starke Bedürftigkeit
-- Naivität`,
+- ordentlich
+- vernünftig
+- prinzipientreu
+- perfektionistisch
+- stets bemüht, ein guter Mensch zu sein
+- hohe Moralvorstellung
+- starke Disziplin
+- rechthaberisch
+- Hang zur Doppelmoral
+- starker innerer Richter
+- Intoleranz
+- ständige Sorgen & Vorausschau
+- mag Alltagsroutinen
+- hat große Angst vor Fehlern
+- sehr selbstkritisch
+- zurückhaltend, aber bestimmt
+- überträgt eigene Werte gerne auf andere
+- ständige Selbstkritik bis hin zur Selbstzerstörung
+- zu hohe eigene Ansprüche
+- großer innerer Richter
+- warmherzig`,
 
-      traits: [
-        {
-          label: "warm",
-          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+  traits: [
+    {
+      label: "warm",
+      content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
-        },
-        {
-          label: "kindlich",
-          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+Das hat vor allem mit dem "kindlich-egoistischen" Wesen der Selbsterhaltungstypen zutun.`
+    },
+    {
+      label: "kindlich",
+      content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
 
 Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
-        },
-        {
-          label: "Kontratyp",
-          content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+    },
+    {
+      label: "Normaltyp",
+      content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+Im Fall der se1 bedeutet das, dass dieser Enneagrammtyp den Zorn im normalen Maße lebt.
 
-Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
+Er hat die Erfahrung gemacht, dass er perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
+    }
+  ],
 
-Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
-        }
-      ],
+  modules: [
+    {
+      label: "Demaskierung",
+      content: `Folgende Eigenschaften sind dem se1 bewusst und können angesprochen werden:
 
-      modules: [
-        {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+- er hat hohe Werte
+- er bemüht sich stets, selbstdiszipliniert und "gut" zu sein
+- er hat ein Händchen für Struktur und Ordnung
+- er ist oftmals vorbildlich in seinem Verhalten
+- er kann sich selbst durch seine Moral gefangen halten
+- er ist sehr umgänglich und warm
+- er ist freundlich und hilfsbereit
+- er fühlt sich innerlich jedoch ständig nicht gut genug
+- er kann gut Fehler oder Baustellen erkennen und sie ausbessern
+- er legt viel Wert auf Gesundheit
+- typische Berufe wären z.B. Lehrer, Ingenieur, Qualitätsmanagement, Buchhalter, ...
+- er hat einen großen inneren Richter, der ihm sagt, was richtig und falsch ist
+- es ist fast schon sein Hobby, sich selbst zu optimieren, disziplinieren und seiner Moral gerecht zu werden
+- er steht zu seiner Meinung kann diese auch gut verteidigen
+- Sturheit ist oftmals auch vorhanden
+- er hat hohe Ansprüche gegenüber sich selbst und neigt dazu, sie auch auf seine Mitmenschen zu projizieren`
+    },
+    {
+      label: "Blinder Fleck",
+      content: `Blinder Fleck der Bauchenergie im Allgemeinen:
 
-- er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
-- er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
-- er ist ein Kontrollfreak
-- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
-- er ist sehr sensibel und nimmt viel wahr
-- er kann im Stressfall schnell sehr gereizt werden`
-        },
-        {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+- Handlungs-Hysterie
+- Territoriums-Identifikation
+- Intuitions-Identifikation
+- Schutz-Defizit
+- starke innere Aggressionen
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+Blinder Fleck von Typ 1 im Allgemeinen: 
 
-Blinder Fleck von Typ 2 im Allgemeinen:
-
-- Stolz & Hochmut als Liebesgarant
-- starkes Schaffen von Abhängigkeiten im außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Zorn & Optimierung als Schutzgarant
+- aktives Schaffen von  äußerer Tadellosigkeit & hohen Werten als Kompensation
+- Bestehen auf eigenem Recht
+- Missionierung bei Überforderung
+- Doppelmoral
+- Arroganz
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
@@ -356,242 +373,257 @@ Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 - Egoismus
 - Bedürfnisorientierung
 
-Blinder Fleck, speziell bei der se2:
+Blinder Fleck, speziell bei der se1:
 
-- Kampf gegen den Stolz
-- Abhängigkeit von inneren Bedürfnissen
-- ungesunder Egoismus
-- Schein-Abhängigkeit von materiellem Wohlbefinden`
-        },
-        {
-          label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+- Selbstgeißelung & übermäßige Prinzipientreue 
+- großer innerer Richter
+- Schwarz-Weiß-Denken`
+    },
+    {
+      label: "Augen",
+      content: `Typ 1 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
-
-Die Blickqualität der se2 ergänzt sich wie folgt:
-
+- ernst
+- starr
 - dominant
-- herrisch`
-        },
-        {
-          label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+- fokussiert
 
-- „Bambi-Augen“ (große, braune Augen)
-- volle Lippen
-- weibliche, „kurvige“ Züge
+Die Blickqualität der se1 ergänzt sich wie folgt:
 
-Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
-
-- weicher, runder, kleiner Körperbau
-- üppiger Vorbau`
-        },
-        {
-          label: "Wirkung",
-         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
-
-- mütterlich
-- feminin
 - warm
 - freundlich
-- süß
-- weich
-- verführerisch
+- kritisch`
+    },
+    {
+      label: "Körper",
+      content: `Typ 1 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-Die Wirkweisen der se2 ergänzen sich wie folgt:
+- tendenziell dünn
+- Hang zur Zornesfalte
+- buschige Augenbrauen
+- gerade Körperhaltung
 
-„Matriarchin“-Ausstrahlung:
+Die körperlichen Auffälligkeiten der se1 ergänzt sich wie folgt:
 
-- stark
-- rau
-- naiv
-- egoistisch`
-        },
-        {
-          label: "Weiteres",
-         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+- reine Haut
+- gerade Haltung`
+    },
+    {
+      label: "Wirkung",
+      content: `Typ 1 im Allgemeinen hat folgende Wirkweisen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- ordentlich
+- arrogant
+- anspruchsvoll
+- überlegen
+- dominant
+- missionierend
 
-Über den se2 sollte man explizit noch Folgendes wissen:
+Die Wirkweisen der se1 ergänzt sich wie folgt:
 
-- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
-        },
-        {
-          label: "Beispiele",
-          content: `- Wolfgang Amadeus Mozart
-- Quentin Tarantino
-- Ice Cube
-- Greta Thunberg
-- Pamela Michaelis
-- 6ix9ine
-- Ron Bielecki
-- Danielle Pinnock
-- Wilson Gonzales Ochsenknecht
-- Leni Klum`
-        },
-        {
-          label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+“Pionier”-Ausstrahlung:
+- freundlich
+- diszipliniert
+- moralisch`
+    },
+    {
+      label: "Weiteres",
+      content: `Über Typ 1 im Allgemeinen sollte man noch Folgendes wissen:
 
-- se8
-- se7
+- verbal versiert
+- i.d.R. eloquent
+- hohe Meinung von Moral & Ordnung
+
+Über den se1 sollte man explizit noch Folgendes wissen:
+
+- tugend- & gewissenhaftes 
+  Verhalten`
+    },
+    {
+      label: "Beispiele",
+      content: `- Joe Biden
+- Wladimir Klitschko
+- David Goggins
+- Phil Jackson
+- Heinz Rühmann
+- Dieter Hallervorden
+- Markus Rühl
+- Harrison Ford
+- Robert De Niro
+- Anthony Hopkins
+- Wolf Dieter Storl`
+    },
+    {
+      label: "Lookalikes",
+      content: `Verwechslung in männlicher Form:
+- se3
+- so3
+- se6
+- so6
+- so2
+- se5
 
 Verwechslung in weiblicher Form:
-
-- se8
-- se7
-- se4`
-        },
-        {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
-
-Statistisch gesehen wählt die se2 folgende Partner am ehesten:
-
-- se/so7
 - se3
-- se1
-- sx/so/se6`
-        },
-        {
-          label: "Verkauf",
-          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-- Helfer- & Gastgebermentalität an den Tag legen
-- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-- Fragen stellen
-- immer darauf achten, großzügig/freigiebig zu sein
-- Dankbarkeit schon bei kleinen Gesten zeigen
-- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-- Wertschätzung entgegenbringen / Komplimente machen
-- kleine Geschenke und Zusatzbedürfnisse erfüllen
-- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-- Empathie & Verständnis entgegenbringen
-- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-- ständige Unterstützung zusichern`
-        },
-        {
-          label: "Führung",
-          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-- Liebe und Wertschätzung entgegenbringen
-- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-- Dankbarkeit für die Leistung der se2 zeigen
-- kleine Geschenke und Zusicherungen machen
-- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-- kein grober Umgang gegenüber der se2
-- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-- klare Kommunikation, um Missverständnisse zu vermeiden
-- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-- mit kleinen Geschenken und Belohnungen motivieren
-- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
-        }
-      ]
+- se6
+- so6
+- so2
+- so4
+- so3`
     },
+    {
+      label: "Partnerwahl",
+      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+
+Statistisch gesehen wählt die se1 folgende Partner am ehesten:
+
+- se/so2
+- sx3
+- so/se5
+- se8
+- so/se6
+- so/sx9`
+    },
+    {
+      label: "Verkauf",
+      content: `- Moralische Werte zeigen
+- Disziplin zeigen
+- Authentizität und Ehrlichkeit vermitteln
+- Darstellung der Optimierungshilfe für das eigene Leben durch das Produkt
+- Besonnenheit zeigen
+- Ruhe und Gelassenheit ausstrahlen 
+- Anerkennung für die Lebensweise der se1 zeigen
+- Anerkennung für die hohen Werte der se1 zeigen
+- Leistung und Qualität sichern und vermitteln
+- hohe Standards proklamieren
+- stetige Entwicklung und Optimierung als Wert anbringen
+- Ordnung und Struktur zeigen - Bescheidenheit und Tugendhaftigkeit zeigen
+- Regeln und Standards als wichtig darstellen
+- Redlichkeit als Wert vermitteln 
+- Lob für die Besonnenheit der se1 zeigen
+- Angeberei vermeiden! 
+- Interesse an der Lebensweise und den Werten der se1 zeigen
+- Kritik vermeiden 
+- Höflichkeit und Respekt anbringen`
+    },
+    {
+      label: "Führung",
+      content: `- Moral und Werte an oberste Stelle setzen und der se1 vermitteln, dass ihre Arbeit und Leistung essentiell sind und zur Optimierung der gesamten Firma dienen
+- Ehrlichkeit und Transparenz gewährleisten, damit die se1 nicht das Gefühl bekommt, angelogen zu werden und ihre Werte in Gefahr sieht
+- Verlässlichkeit und Disziplin der se1 loben und als vorbildlich darstellen, um sie zu motivieren
+- Eine se1 funktioniert wie ein Uhrwerk, sobald sie einmal ihre Routine und Struktur gefunden hat, also sollte man ihr genau dabei behilflich sein, herauszukristallisieren, welche Werte und höhere Ziele sie in der Firma und mit ihrer Arbeit verfolgt
+- Konstruktive Kritik äußern, aber stark darauf achten, dass die se1 sich davon nicht angegriffen fühlt, sondern eher positiv beliefert, da sie dadurch noch besser werden kann
+- Verbesserungsvorschläge machen, um die Arbeit noch perfekter zu gestalten, aber stark darauf achten, die Leistungen der se1 nicht als mangelhaft oder ungenügend darzustellen, da sie das zutiefst kränkt
+- Respekt und Wertschätzung für die Prinzipientreue und Ehrlichkeit der se1 aufbringen
+- Ehrliches Interesse an den Lebensthemen und Alltagssorgen der se1 zeigen, denn sie macht sich viel Gedanken darum, wie die Zukunft wird und sieht in einem dann einen Ruhepol und Ratgeber, was folglich dazu führt, dass die se1 sich noch mehr verpflichtet fühlt, ihre Arbeit gut zu erledigen
+- pünktlich sein und Rechtschaffenheit proklamieren`
+    }
+  ]
+},
 
     {
       code: "so1",
-      content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+  content: `Grundmotivation:
+Perfektion (in der sozialen Gruppe)
 
-Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+Leidenschaft: 
+Zorn (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
-- charmant & schmeichelnd
-- Naivität
-- "die rechte Hand"
-- Seelsorger-Mentalität
-- starkes Helfersyndrom
-- spießig / kultiviert
-- starker Ehrgeiz
-- Verantwortungsbewusstsein
-- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
-- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
-- Einflussnahme in einer Gruppe
-- fachlich kompetent
-- "erwachsen"
-- manipulativ
-- tierlieb`,
+- vernünftig
+- kontrolliert
+- diszipliniert
+- prinzipientreu
+- moralisch
+- perfektionistisch
+- organisiert
+- leistungsorientiert
+- ehrgeizig
+- starkes Verantwortungsgefühl
+- missionierend
+- kritisiert Missstände
+- hohe Ideale
+- strukturiert
+- wirkt erwachsen
+- rechthaberisch
+- möchte die Welt verbessern
+- starker innerer Richter
+- hohe Ansprüche an andere
+- engagiert`,
 
-      traits: [
-        {
-          label: "kalt",
-          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+  traits: [
+    {
+      label: "kalt",
+      content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
-        },
-        {
-          label: "erwachsen",
-          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zutun.`
+    },
+
+    {
+      label: "erwachsen",
+      content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
 
 Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
-        },
-        {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+    },
+
+    {
+      label: "Verstärkungstyp",
+      content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
 Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
 Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
 
-Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+Im Fall der so1 bedeutet das, dass dieser Enneagrammtyp den Zorn extrem stark lebt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
-        }
-      ],
+Er hat die Erfahrung gemacht, dass er perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
+    }
+  ],
 
-      modules: [
-        {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+  modules: [
+    {
+      label: "Demaskierung",
+      content: `Folgende Eigenschaften sind dem so1 bewusst und können angesprochen werden:
 
-- er ist hilfsbereit
-- er ist sensibel
-- er legt viel Wert auf Respekt
-- er besitzt eine gewisse Skepsis
-- er kümmert sich gerne um seine Freunde & Verwandten
-- er hat ein starkes Verantwortungsgefühl
-- er ist sehr feminin
-- er ist stolz auf das, was er bereits geschafft hat
-- er hat von Zeit zu Zeit emotionale Löcher
-- er braucht ein gutes Umfeld, um sich zu entwickeln
-- er kann gut vermitteln
-- er hat einen Hang zur Aufopferung
-- er ist sehr ehrgeizig
-- er ist vernünftig
-- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`
-        },
-        {
-          label: "Blinder Fleck",
-         content: `Blinder Fleck der Herzenergie im Allgemeinen:
+- er ist sehr perfektionistisch
+- er hat sehr hohe Ansprüche 
+- er kann auf seine Mitmenschen arrogant wirken
+- er ist sehr durchsetzungsstark in Diskussionen, da er sich fast immer fundierte Meinungen bildet
+- er ist sehr eigen im Wesen
+- deswegen passt er sich auch ungerne an und kann aus diesem Grund mal anecken
+- er ist innerlich sehr zornig, zügelt sich nach außen aber fast immer
+- er möchte so gut wie möglich sein und anderen zeigen, dass sein Lebensstil der beste ist
+- er kann sehr rechthaberisch sein
+- meist fühlt er sich als Außenseiter
+- er ist schon recht früh erwachsen und übernimmt Verantwortung
+- das Thema, um das sich sein Leben dreht, beherrscht er perfekt
+- er ist ein guter Ratgeber, da er einen vernünftigen und rationalen Blick auf die Dinge hat
+- er wird von seiner Umwelt oftmals enttäuscht, da er so hohe Ansprüche an seine Mitmenschen hat
+- er setzt gerne Standards
+- im Stress kann er sehr chaotisch und impulsiv werden, dennoch ist er eigentlich sehr geordnet im Kopf
+- er orientiert sich ungern an fremden Normen, es sei denn sie überschneiden sich mit seinen eigenen
+- er steht für Exzellenz`
+    },
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+    {
+      label: "Blinder Fleck",
+      content: `Blinder Fleck der Bauchenergie im Allgemeinen:
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+- Handlungs-Hysterie
+- Territoriums-Identifikation
+- Intuitions-Identifikation
+- Schutz-Defizit
+- starke innere Aggressionen
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+Blinder Fleck von Typ 1 im Allgemeinen:
+
+- Zorn & Optimierung als Schutzgarant
+- aktives Schaffen von äußerer Tadellosigkeit & hohen Werten als Kompensation
+- Bestehen auf eigenem Recht
+- Missionierung bei Überforderung
+- Doppelmoral
+- Arroganz
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
@@ -599,148 +631,160 @@ Blinder Fleck des sozialen Typs im Allgemeinen:
 - Anpassung an die Gruppe
 - fehlende Motivation ohne Gruppenabgleich
 
-Blinder Fleck, speziell bei der so2:
+Blinder Fleck, speziell bei der so1:
 
-- starkes Ausleben des Stolzes
-- Abhängigkeit von der Anerkennung durch eine Gruppe
-- ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`
-        },
-        {
-          label: "Augen",
-         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+- Doppelmoral
+- zu hohe Ansprüche an Mitmenschen
+- zwanghafte Missionierung & Verbesserung der Umwelt`
+    },
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+    {
+      label: "Augen",
+      content: `Typ 1 im Allgemeinen hat folgende Blickqualität:
 
-Die Blickqualität der so2 ergänzt sich wie folgt:
+- ernst
+- starr
+- dominant
+- fokussiert
 
-- hochmütig
-- ernst`
-        },
-        {
-          label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+Die Blickqualität der so1 ergänzt sich wie folgt:
 
-- “Bambi-Augen” (große, braune Augen)
-- volle Lippen
-- weibliche, “kurvige” Züge
+- kühl
+- arrogant
+- skeptisch
+- kritisch`
+    },
 
-Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
+    {
+      label: "Körper",
+      content: `Typ 1 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- üppiger Vorbau`
-        },
-        {
-          label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+- tendenziell dünn
+- Hang zur Zornesfalte
+- buschige Augenbrauen
+- gerade Körperhaltung
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+Die körperlichen Auffälligkeiten der so1 ergänzt sich wie folgt:
 
-Die Wirkweisen der so2 ergänzen sich wie folgt:
+- sehr schlank/drahtig
+- adrig`
+    },
 
-“Diplomaten”-Ausstrahlung:
+    {
+      label: "Wirkung",
+      content: `Typ 1 im Allgemeinen hat folgende Wirkweisen:
 
-- vernünftig
-- strebsam
-- spießig`
-        },
-        {
-          label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+- ordentlich
+- arrogant
+- anspruchsvoll
+- überlegen
+- dominant
+- missionierend
 
-- passen sich tendenziell an den Gesprächspartner an
+Die Wirkweisen der so1 ergänzt sich wie folgt:
 
-Über den so2 sollte man explizit noch Folgendes wissen:
+“Aristokraten”-Ausstrahlung:
+- überlegen
+- diskussionsfreudig
+- durchsetzungsstark
+- unangepasst`
+    },
 
-- oftmals in Führungspositionen
-- großzügig
-- ehrgeizig`
-        },
-        {
-          label: "Beispiele",
-          content: `- Jenna Ortega
-- Samuel L. Jackson
-- Lewis Hamilton
-- Barack Obama
-- Drake
-- Akon
-- Fynn Kliemann
-- Dr. Dre
-- Will Smith
-- Liam Payne`
-        },
-        {
-          label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+    {
+      label: "Weiteres",
+      content: `Über Typ 1 im Allgemeinen sollte man noch Folgendes wissen:
 
-- so3
-- se3
-- se7
+- verbal versiert
+- i.d.R. eloquent
+- hohe Meinung von Moral & Ordnung
+
+Über den so1 sollte man explizit noch Folgendes wissen:
+
+- setzt oftmals hohe Standards
+- gehobener Zeigefinger`
+    },
+
+    {
+      label: "Beispiele",
+      content: `- Helmut Schmidt
+- Jordan Peterson
+- Jürgen Klopp
+- Steve Jobs
+- Angelina Jolie
+- Justin Timberlake
+- Hillary Clinton
+- Hugh Laurie (Dr. House)
+- Marvin Gramminger
+- Tim Gabel
+- Matze Knop
+- PewDiePie
+- Logan Paul`
+    },
+
+    {
+      label: "Lookalikes",
+      content: `Verwechslung in männlicher Form:
 - so7
-- so9
+- so6
+- sx4
+- so2
+- se6
+- so5
+- sx6
 
 Verwechslung in weiblicher Form:
-
-- so3
-- se7
-- so9
-- se3`
-        },
-        {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
-
-Statistisch gesehen wählt die so2 folgende Partner am ehesten:
-
-- so7
-- so/se3
-- so/se1
+- se6
 - so6
-- se8 (vereinzelt)`
-        },
-        {
-          label: "Verkauf",
-          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
--> den Stolz nicht kränken
-
-- Anerkennung für Leistungen und Erfolge geben
-- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
-- Verantwortungsbewusstsein der so2 herausstellen und loben
-- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
-- Helferrolle übernehmen
-- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
-- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
-- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
-- Engagement im Kundenstamm zeigen
-- mitfühlend sein`
-        },
-        {
-          label: "Führung",
-          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
-- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
-- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
-- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
-- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
-- Lob erteilen bei guter Aufgabenerfüllung
-- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
-- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
-- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
-- Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
-        }
-      ]
+- so7
+- so3`
     },
+
+    {
+      label: "Partnerwahl",
+      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+
+Statistisch gesehen wählt die so1 folgende Partner am ehesten:
+
+- so/sx2
+- so/sx9
+- so/se6
+(- sx/so/se4)
+(- sx/so/se7)`
+    },
+
+    {
+      label: "Verkauf",
+      content: `- hohe Standards vermitteln und die Qualität an erste Stelle setzen
+- Angeberei vermeiden, Authentizität zeigen
+- Kritik unbedingt vermeiden
+- Anerkennung für die Leistungen in der Gruppe der so1 zeigen 
+- Werte und Regeln der so1 herausfinden und bedienen
+- keine Urteile über den Fachbereich der so1 fällen, da die so1 immer denkt, sie kennt sich besser aus 
+- Offenheit und Lockerheit zeigen
+- Höflichkeit und Respekt anbringen 
+- Ideologie und Werte formulieren, sodass die so1 realisiert, dass das Produkt einen berechtigten Optimierungsanspruch hat
+- Qualität des Produktes darstellen
+- klare Strukturen und Werte formulieren 
+- Arroganz vermeiden 
+- Rationale Sinnhaftigkeit des Produktes beschreiben
+- für eigene Werte bedingungslos einstehen, um der so1 zu imponieren 
+- Reife und Vernunft der so1 bekräftigen und loben 
+- niemals die Qualität der so1 hinterfragen, sondern zeigen, dass trotz bisheriger  guter Qualität der so1 das Produkt einen noch besseren Weg ermöglicht `
+    },
+
+    {
+      label: "Führung",
+      content: `- stark darauf achten, keine negative Kritik zu äußern und der so1 damit vor den Kopf zu stoßen
+- Verbesserungsvorschläge machen, ohne die Prinzipien oder Regeln der so1 infrage zu stellen, sondern eher als Fundament zu nutzen
+- Lob und Anerkennung für die Werte und Zugewandheit der so1 in der sozialen Gruppe geben
+- bei guten Leistungen die so1 vor der Gruppe gut darstellen, um sie nachhaltig zu motivieren, zukünftig ebenso gute Arbeit zu leisten
+- hohe Werte äußern und der so1 das Gefühl geben, selbst sehr hohe Ansprüche zu haben, um sich ihren Respekt zu verdienen
+- in Aussicht stellen, dass die so1 bei guten Leistungen schnell in Führungspositionen kommen kann, in denen sie ihre Werte und Prinzipien leben und weitergeben kann, um ihre Mitmenschen zu fördern
+- sich die Zeit nehmen, mit der so1 über ihr wichtige Themen und Konflikte zu diskutieren, um ihr Respekt zu vermitteln (auch wenn das manchmal sehr anstrengend sein kann, denn die so1 hat eine unfassbar starke Diskussionsfreudigkeit und hat sich zu vielen Themen klare und logische Meinungen gebildet, die man nur mit viel Initiative verändern kann)
+- pünktlich und vorbereitet sein, um den hohen Ansprüchen der so1 gerecht zu werden und ihr unterbewusst zu zeigen, dass man es „wert ist, mit ihr zu arbeiten und ihr Führung zu geben“`
+    }
+  ]
+},
 
     {
       code: "sx1",
