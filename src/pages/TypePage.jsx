@@ -15,7 +15,7 @@ export default function TypePage({ onBack }) {
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
   const [openSubtype, setOpenSubtype] = useState(null);
 
-  const currentType = type4Data.type;
+  const currentType = type2Data.type;
 
   const prevType = currentType === 1 ? 9 : currentType - 1;
   const nextType = currentType === 9 ? 1 : currentType + 1;
