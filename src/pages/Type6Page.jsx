@@ -210,7 +210,7 @@ export default function TypePage({ onBack }) {
       </section>
 
       <section className="rathmer-main-grid">
-        {type4Data.subtypes.map((subtype) => (
+        {type6Data.subtypes.map((subtype) => (
           <div key={subtype.code} className="rathmer-subtype-column">
             <button
               id={`subtype-${subtype.code}`}
