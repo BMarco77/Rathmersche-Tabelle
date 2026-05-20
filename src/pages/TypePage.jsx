@@ -63,15 +63,18 @@ export default function TypePage({ onBack }) {
   return (
     <div className="rathmer-page">
       <div className="rathmer-page-nav">
-  <button className="rathmer-page-nav-button">← Typ 1</button>
+  <button
+  className="rathmer-page-nav-button"
+  style={{ background: TYPE_GRADIENTS[1], color: "white" }}
+>
+  ← Typ 1
+</button>
   <button className="rathmer-page-nav-button" onClick={onBack}>
     Home
   </button>
   <button className="rathmer-page-nav-button">Typ 3 →</button>
 </div>      
-      <button className="rathmer-back-button" onClick={onBack}>
-        Home
-      </button>
+      
 
       <header className="rathmer-home-header">
         <div className="rathmer-wappen">
