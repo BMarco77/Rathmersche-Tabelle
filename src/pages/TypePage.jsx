@@ -4,7 +4,7 @@ import { type2Data } from "../data/types/type2";
 import { TYPE_GRADIENTS, TYPE_INFO_GRADIENTS } from "../data/typeColors";
 import "../rathmer/rathmer.css";
 
-export default function TypePage({ onBack }) {
+export default function TypePage({ onBack, onSelectType }) {
   const [openTopItems, setOpenTopItems] = useState([]);
 
   useEffect(() => {
