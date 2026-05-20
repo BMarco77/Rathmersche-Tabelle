@@ -905,3 +905,40 @@ border: 1px solid rgba(210,170,255,0.28);
     scroll-margin-top: 1rem;
   }
 }
+.rathmer-page-nav {
+  position: absolute;
+  top: 1.2rem;
+  left: 1.2rem;
+
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+
+  z-index: 20;
+}
+
+.rathmer-page-nav-button {
+  border: none;
+  border-radius: 999px;
+
+  padding: 0.55rem 0.95rem;
+
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+
+  color: #2d1d16;
+
+  background: linear-gradient(
+    145deg,
+    #f6efe2 0%,
+    #d9c4a7 50%,
+    #9a7a58 100%
+  );
+
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+
+  cursor: pointer;
+}
