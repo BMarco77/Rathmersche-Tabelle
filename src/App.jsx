@@ -7,6 +7,7 @@ import Type4Page from "./pages/Type4Page";
 import Type5Page from "./pages/Type5Page";
 import Type6Page from "./pages/Type6Page";
 import Type7Page from "./pages/Type7Page";
+import Type8Page from "./pages/Type8Page";
 
 
 export default function App() {
@@ -38,6 +39,10 @@ export default function App() {
 
    if (selectedType === 7) {
     return <Type7Page onBack={() => setSelectedType(null)} />;
+  }
+
+  if (selectedType === 8) {
+    return <Type8Page onBack={() => setSelectedType(null)} />;
   }
 
   return <HomePage onSelectType={setSelectedType} />;
