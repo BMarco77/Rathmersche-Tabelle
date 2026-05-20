@@ -789,12 +789,10 @@ Statistisch gesehen wählt die so1 folgende Partner am ehesten:
     {
       code: "sx1",
       content: `Grundmotivation:
-- Perfektion (in der zwischen-
-menschlichen Beziehung)
+- Perfektion (in der zwischenmenschlichen Beziehung)
 
 Leidenschaft: 
-- Zorn (in der zwischen-
-menschlichen Beziehung)
+- Zorn (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
