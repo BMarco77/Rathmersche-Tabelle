@@ -942,3 +942,30 @@ border: 1px solid rgba(210,170,255,0.28);
 
   cursor: pointer;
 }
+@media (max-width: 900px) {
+  .rathmer-page-nav {
+    position: fixed;
+    top: 0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: calc(100% - 1.5rem);
+    justify-content: center;
+    gap: 0.4rem;
+
+    z-index: 100;
+  }
+
+  .rathmer-page-nav-button {
+    flex: 1;
+    max-width: 120px;
+
+    padding: 0.5rem 0.55rem;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+
+  .rathmer-home-header {
+    padding-top: 3.5rem;
+  }
+}
