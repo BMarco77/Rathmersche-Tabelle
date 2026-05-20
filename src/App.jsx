@@ -6,6 +6,7 @@ import Type1Page from "./pages/Type1Page";
 import Type4Page from "./pages/Type4Page";
 import Type5Page from "./pages/Type5Page";
 import Type6Page from "./pages/Type6Page";
+import Type7Page from "./pages/Type7Page";
 
 
 export default function App() {
@@ -33,6 +34,10 @@ export default function App() {
 
   if (selectedType === 6) {
     return <Type6Page onBack={() => setSelectedType(null)} />;
+  }
+
+   if (selectedType === 7) {
+    return <Type7Page onBack={() => setSelectedType(null)} />;
   }
 
   return <HomePage onSelectType={setSelectedType} />;
