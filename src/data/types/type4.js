@@ -742,27 +742,34 @@ Statistisch gesehen wählt die so4 folgende Partner am ehesten:
     {
   code: "sx4",
   content: `Grundmotivation:
-- Identität / Echtheit (in der zwischenmenschlichen Beziehung)
+Individualität (in der zwischenmenschlichen Beziehung)
 
-Leidenschaft:
-- Neid / Mangelgefühl (in der zwischenmenschlichen Beziehung)
+Leidenschaft: 
+Neid (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
-- intensiv
-- emotional
-- dramatisch
-- leidenschaftlich
-- sucht tiefe Verbindung
-- rebellisch
-- impulsiv
-- kreativ
-- verletzlich
-- neidisch
-- verführerisch
-- sucht Intensität
-- zwischenmenschlich fokussiert
-- ausdrucksstark`,
+- "Verletzte Menschen verletzen Menschen"
+- innerlich sehr verletzt
+- sensibel 
+- sehr kreativ
+- lamentiert gerne
+- "Drama-Queen"
+- vergleicht sich immer in einer Art Wettstreit zu anderen
+- tiefe Angst, dass jemand ihren 
+  besonderen Platz einnehmen könnte
+- verzweifelt bis hasserfüllt
+- emotional hysterisch
+- tiefgründig
+- masochistische Züge
+- großes künstlerisches Potential
+- sehr ausdrucksstark
+- gewieft
+- divenhaftes Wesen
+- anspruchsvoll
+- partnerschaftlich
+- selbstdarstellerisch
+- starker Sinn für Ästhetik`,
 
   traits: [
     {
@@ -783,11 +790,13 @@ Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild d
       label: "Normaltyp",
       content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Normaltyp hat die Erfahrung gemacht, dass das moderate Ausleben seiner Leidenschaft funktioniert.
+Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Im Fall der sx4 bedeutet das, dass dieser Enneagrammtyp seinen Neid und seine Intensität offen zwischenmenschlich lebt.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
 
-Er sucht starke emotionale Resonanz und intensive Beziehungen, um sich lebendig und echt zu fühlen.`
+Im Fall der sx4 bedeutet das, dass dieser Enneagrammtyp den Neid im normalen Maße lebt.
+
+Er hat die Erfahrung gemacht, dass er individuell ist, wenn er seinen Neid nach außen hin lebt.`
     }
   ],
 
@@ -796,20 +805,22 @@ Er sucht starke emotionale Resonanz und intensive Beziehungen, um sich lebendig 
       label: "Demaskierung",
       content: `Folgende Eigenschaften sind dem sx4 bewusst und können angesprochen werden:
 
-- starke emotionale Intensität
-- Bedürfnis nach tiefer Verbindung
-- rebellische Anteile
-- kreative Denkweise
-- starke Individualität
-- impulsive Emotionen
-- empfindsam
-- leidenschaftlich
-- sucht Echtheit
-- zwischenmenschlich intensiv
-- schnell verletzt
-- hohe Ausdrucksstärke
-- sucht starke Gefühle
-- dramatische Wirkung`
+- er ist sehr kreativ und künstlerisch
+- er ist ausdrucksstark und hat Spaß daran, sich nach außen zu präsentieren
+- er vergleicht sich oft mit seinen engen Freunden & Bekannten
+- er legt viel Wert auf Individualität
+- er kann sich schnell in Emotionen hineinsteigern
+- Wenn er sich nicht geliebt fühlt, wird er traurig und hysterisch
+- er hat oftmals mit emotionalen Löchern zu kämpfen
+- er mag es, einen extravaganten Lebensstil zu leben, sofern er es kann. Ansonsten sagt er, dass er keinen Wert darauf legt 
+- er ist sehr sensibel
+- er legt einen starken Fokus auf zwischenmenschliche Beziehungen
+- er liebt es, tiefgehende Beziehungen zu pflegen
+- er hasst Oberflächlichkeit
+- er neigt zum Pessimismus
+- er ist entweder selbst toxisch oder suchst sich toxische Beziehungen
+- er leidet oft unter seinen Umwelteinflüssen
+- er ist sehr empathisch und investiert sich stark in spezielle Menschen, die ihm wichtig sind`
     },
 
     {
@@ -821,55 +832,60 @@ Er sucht starke emotionale Resonanz und intensive Beziehungen, um sich lebendig 
 - Gefühls-Identifikation
 - Liebes-Defizit
 
-Blinder Fleck von Typ 4 im Allgemeinen:
+Blinder Fleck von Typ 4 im Allgemeinen: 
 
-- Identifikation mit Leid & Mangel
-- Andersartigkeit als Identität
-- emotionale Selbstvertiefung
+- Neid & Vergleich als Liebesgarant
+- aktives Schaffen von äußerem Leid & Mangel als Kompensation
+- Individualitätszwang
+- Glück steht in Abhängigkeit zum Selbstausdruck
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
-- Rivalität
-- starke Bindungsabhängigkeit
-- Angst vor Entwertung
+- starke & ständige Rivalität mit 
+  anderen Menschen
+- Abhängigkeit von äußerer 
+  Attraktivität & Bindungen
+- Angst vor Entwertung & 
+  Degradierung
 
-Blinder Fleck speziell bei der sx4:
+Blinder Fleck, speziell bei der sx4:
 
-- emotionale Maßlosigkeit
-- intensive Neid-Dynamiken
-- starke Abhängigkeit von emotionaler Resonanz`
+- Dramatik im Zwischenmenschlichen
+- Masochismus 
+- Abhängigkeit vom Tiefgang / Bindung mit Mitmenschen`
     },
 
     {
       label: "Augen",
       content: `Typ 4 im Allgemeinen hat folgende Blickqualität:
 
-- tiefgründig
-- melancholisch
-- sensibel
-- emotional
-- intensiv
+- tief-emotional
+- träumerisch
+- ausdrucksstark-strahlend
+- traurig/melancholisch
 
 Die Blickqualität der sx4 ergänzt sich wie folgt:
 
-- stechend
-- leidenschaftlich
-- dramatisch`
+- provokant
+- dramatisch
+- herausfordernd
+- abgehoben`
     },
 
     {
       label: "Körper",
       content: `Typ 4 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- sensible Ausstrahlung
-- ästhetische Wirkung
-- kreative Erscheinung
+- “besondere” Augen- oder Haarfarbe 
+- Sommersprossen
+- Tattoos
+- Piercings
+- empfindliche & helle Haut
 
 Die körperlichen Auffälligkeiten der sx4 ergänzen sich wie folgt:
 
-- auffälliger Stil
-- intensive Körpersprache
-- erotische Wirkung`
+- große Stirn
+- orangene Haare`
     },
 
     {
@@ -877,33 +893,33 @@ Die körperlichen Auffälligkeiten der sx4 ergänzen sich wie folgt:
       content: `Typ 4 im Allgemeinen hat folgende Wirkweisen:
 
 - tiefgründig
-- emotional
+- melancholisch
+- träumerisch
+- ausdrucksstark
 - kreativ
-- individuell
-- sensibel
+- authentisch
 
 Die Wirkweisen der sx4 ergänzen sich wie folgt:
 
-„Dramatiker“-Ausstrahlung:
-
-- intensiv
-- leidenschaftlich
-- rebellisch
-- verführerisch`
+“Diven”-Ausstrahlung:
+- extravagant
+- anspruchsvoll
+- toxisch
+- abstrakt`
     },
 
     {
       label: "Weiteres",
       content: `Über Typ 4 im Allgemeinen sollte man noch Folgendes wissen:
 
-- suchen Identität & Echtheit
-- vergleichen sich häufig mit anderen
+- neigen zu Depressionen/Pessimismus und emotionalen Löchern
+- starkes Mangelgefühl
 
-Über die sx4 sollte man explizit noch Folgendes wissen:
+Über den sx4 sollte man explizit noch Folgendes wissen:
 
-- sucht intensive Beziehungen
-- starke emotionale Ausschläge
-- häufig rebellisch & provokativ`
+- sehr selbstdarstellerisch
+- rivalisierend
+- “mad four”`
     },
 
     {
@@ -915,7 +931,8 @@ Die Wirkweisen der sx4 ergänzen sich wie folgt:
 - Kurt Cobain
 - Rihanna
 - Tupac Shakur
-- Justin Bieber`
+- Justin Bieber
+- Sophie Turner`
 },
 
     {
@@ -941,32 +958,44 @@ Verwechslung in weiblicher Form:
 
 Statistisch gesehen wählt die sx4 folgende Partner am ehesten:
 
-- sx5
-- sx7
-- sx9
-- sx6`
+- sx6
+- sx/so/se3
+- sx5`
     },
 
     {
       label: "Verkauf",
-      content: `- emotionale Tiefe vermitteln
-- Echtheit & Authentizität zeigen
-- starke emotionale Bilder erzeugen
-- sensibel kommunizieren
-- keine Oberflächlichkeit ausstrahlen
-- Verständnis & Resonanz vermitteln
-- kreative & individuelle Ansprache wählen`
+      content: `- Vertrauen aufbauen und die sx4 ernst nehmen
+- nicht vorwerfen, die sx4 wäre dramatisch
+- eine tiefe Verbindung schaffen, um die sx4 von sich zu überzeugen, indem man sensible Informationen mit ihr teilt
+- die sx4 auf ein Podest stellen, indem man betont, dass man noch nie mit so einem Menschen wie ihr zusammengearbeitet hat
+- kein oberflächlicher Smalltalk, sondern tiefe und vielschichtige Themen ansprechen
+- keine übermäßige Unbeschwertheit vermitteln, um den Eindruck von Oberflächlichkeit zu vermeiden
+- an die Kreativität und Individualität der sx4 appellieren
+- respektvoller und ruhiger Umgang ist essentiell wichtig
+- einen Fels in der Brandung darstellen
+- die sx4 dramatisch sein lassen und mitspielen
+- Empathie und Einfühlungsvermögen zeigen
+- "ich nehme die Last ... von dir und helfe dir dabei, unbeschwerter zu werden"`
     },
 
     {
       label: "Führung",
-      content: `- emotionale Sicherheit schaffen
-- kreative Freiheit ermöglichen
-- Individualität respektieren
-- Verständnis & Empathie zeigen
-- keinen unnötigen Druck erzeugen
-- emotionale Tiefe ernst nehmen
-- Anerkennung für Kreativität & Ausdruck geben`
+      content: `- sensiblen Umgang mit der sx4 pflegen 
+- Tiefgang und Bindung zur sx4 gewährleisten
+- davor sorgen, dass die sx4 im Unternehmen starke Bindungen aufbauen und pflegen kann
+- Oberflächlichkeit vermeiden im Umgang mit der sx4
+- Wertschätzung für die Kreativität und Verlässlichkeit der sx4 entgegenbringen 
+- zeigen, dass die sx4 für einen ein ganz besonderer Mensch im Unternehmen ist
+- tiefe Bindung zur sx4 aufbauen, um sie zu motivieren
+- einen emotionalen Anker für die sx4 darstellen 
+- offene Kommunikation mit der sx4, um zu verhindern, dass sie sich nicht wertgeschätzt fühlt 
+- die sx4 auf ein Podest stellen, um die Individualität zu befriedigen 
+- das Gefühl geben, dass die Firma ohne die sx4 nicht da wäre, wo sie ist
+- das Gefühl geben, dass ihre Leistung außergewöhnlich ist 
+- Wettbewerb schaffen, um die sx4 in die Rivalität zu bringen und zu motivieren, da sie dann ihre Sonderstellung in Gefahr sieht
+- Geschenke und kleine Aufmerksamkeiten machen, da dies der sx4 das Gefühl gibt, etwas besonderes zu sein
+- die Emotionen der sx4 respektieren und sie berücksichtigen (niemals die Emotionen der sx4 übergehen!) `
     }
   ]
 }
