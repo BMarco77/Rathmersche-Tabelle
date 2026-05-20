@@ -15,11 +15,14 @@ export default function TypePage({ onBack }) {
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
   const [openSubtype, setOpenSubtype] = useState(null);
 
+  const prevType = type === 1 ? 9 : type - 1;
+  const nextType = type === 9 ? 1 : type + 1;
+  
   const theoryRow1 = type2Data.coreModules.slice(0, 4);
   const theoryRow2 = type2Data.coreModules.slice(4, 8);
 
   const toggleItem = (items, setItems, id, item) => {
-    const alreadyOpen = items.some((openItem) => openItem.id === id);
+  const alreadyOpen = items.some((openItem) => openItem.id === id);
 
     if (alreadyOpen) {
       setItems(items.filter((openItem) => openItem.id !== id));
@@ -65,14 +68,25 @@ export default function TypePage({ onBack }) {
       <div className="rathmer-page-nav">
   <button
   className="rathmer-page-nav-button"
-  style={{ background: TYPE_GRADIENTS[1], color: "white" }}
+  style={{
+    background: TYPE_GRADIENTS[prevType],
+    color: "white",
+  }}
 >
-  ← Typ 1
+  ← Typ {prevType}
 </button>
   <button className="rathmer-page-nav-button" onClick={onBack}>
     Home
   </button>
-  <button className="rathmer-page-nav-button">Typ 3 →</button>
+ <button
+  className="rathmer-page-nav-button"
+  style={{
+    background: TYPE_GRADIENTS[nextType],
+    color: "white",
+  }}
+>
+  Typ {nextType} →
+</button>
 </div>      
       
 
