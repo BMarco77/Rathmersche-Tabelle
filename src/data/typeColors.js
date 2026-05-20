@@ -22,7 +22,7 @@ export const TYPE_GRADIENTS = {
   9: "linear-gradient(145deg, #f7a028 0%, #c07a27 45%, #5d3e2a 100%)",
 };
 
-const TYPE_GRADIENTS = {
+const TYPE_INFO_GRADIENTS = {
   1: "linear-gradient(145deg, #eef2ff 0%, #d7deef 52%, #8d98ad 78%, #39465c 100%)",
 
   2: "linear-gradient(145deg, #c86cff 0%, #b45cff 52%, #8b3ee8 78%, #47255f 100%)",
