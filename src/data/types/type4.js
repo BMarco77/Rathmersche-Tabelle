@@ -283,27 +283,27 @@ Entwicklung im negativen Fall:
     {
   code: "se4",
   content: `Grundmotivation:
-- Identität / Echtheit (in der Selbsterhaltung)
+Individualität (in der Selbsterhaltung)
 
-Leidenschaft:
-- Neid / Mangelgefühl (in der Selbsterhaltung)
+Leidenschaft: 
+Neid (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- introvertiert
+- unerschrocken
+- emotionale Tiefe
+- Aggressive Reaktion darauf, wenn andere denken zu wissen, was sie fühlt / denkt
+- sehnt sich nach emotionaler Unterstützung
+- Vermeidung von Monotonie & Bedeutungslosigkeit
+- risikobereit
+- mutig
+- hartnäckig
 - sensibel
-- zurückhaltend
-- melancholisch
-- kreativ
-- leidensfähig
-- tiefgründig
-- fühlt sich oft missverstanden
-- starke Innenwelt
-- sucht Echtheit
-- emotional verletzlich
-- individuell
-- ruhig
-- braucht Rückzug`,
+- empathisch
+- "Leben am Abgrund"
+- setzt nach außen eine positive Maske auf
+- kreativ & ausdrucksstark
+- Beschäftigung mit unbekannten Dingen`,
 
   traits: [
     {
@@ -324,11 +324,15 @@ Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.
       label: "Kontratyp",
       content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Kontratyp hat die Erfahrung gemacht, dass das offene Ausleben seiner Leidenschaft nicht gut funktioniert.
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+
+Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
 
 Im Fall der se4 bedeutet das, dass dieser Enneagrammtyp gegen den Neid ankämpft.
 
-Er versucht oftmals stark, belastbar und unabhängig zu wirken, obwohl innerlich häufig starke Mangelgefühle und emotionale Verletzlichkeit vorhanden sind.`
+Er hat die Erfahrung gemacht, dass er nicht individuell ist, wenn er seinen Neid nach außen hin lebt.`
     }
   ],
 
@@ -336,21 +340,21 @@ Er versucht oftmals stark, belastbar und unabhängig zu wirken, obwohl innerlich
     {
       label: "Demaskierung",
       content: `Folgende Eigenschaften sind dem se4 bewusst und können angesprochen werden:
-
-- starke Innenwelt
-- emotional sensibel
-- fühlt sich häufig missverstanden
-- braucht Rückzug
-- melancholische Grundstimmung
-- kreative Denkweise
-- hohe Leidensfähigkeit
-- introvertiert
-- sucht Echtheit
-- individuell
-- zurückhaltend
-- empfindsam
-- intensive Gefühle
-- Schwierigkeiten mit Oberflächlichkeit`
+- er mag es nicht, sich mit anderen zu vergleichen
+- er ist ein großer Freund von Individualität 
+- er hat einen eigenartigen Lebensstil (im wahrsten Sinne des Wortes: eigenartig)
+- er kann sehr unerschrocken und risikobereit sein, wenn es drauf ankommt
+- er ist sehr sensibel und hat ein sehr gutes Gespür für Vieles
+- er ist kreativ und kann Vieles 
+- er mag es nicht, auf andere angewiesen zu sein
+- sein Emotionen können ihn schnell mal einnehmen
+- er hat einen Hang zur Spiritualität
+- im Inneren fühlt er sich oftmals traurig
+- er neigt eigentlich zum Pessimismus, möchte nach außen aber immer spaßig und locker wirken
+- er fühlt sich oftmals missverstanden
+- er wählt sich seinen Bekanntenkreis anspruchsvoll aus
+- er mag Egoismus nicht
+- er hat viele hohe Werte, die er vertritt`
     },
 
     {
@@ -362,55 +366,57 @@ Er versucht oftmals stark, belastbar und unabhängig zu wirken, obwohl innerlich
 - Gefühls-Identifikation
 - Liebes-Defizit
 
-Blinder Fleck von Typ 4 im Allgemeinen:
+Blinder Fleck von Typ 4 im Allgemeinen: 
 
-- Identifikation mit Leid & Mangel
-- emotionale Selbstvertiefung
-- Suche nach Identität über Andersartigkeit
+- Neid & Vergleich als Liebesgarant
+- aktives Schaffen von  äußerem Leid & Mangel als Kompensation
+- Individualitätszwang
+- Glück steht in Abhängigkeit zum Selbstausdruck
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
-- Bedürfnisorientierung
-- Materialismus
+- materialistisches Denken
 - Egoismus
+- Bedürfnisorientierung
 
-Blinder Fleck speziell bei der se4:
+Blinder Fleck, speziell bei der se4:
 
-- stilles Leiden
-- Unterdrückung emotionaler Bedürfnisse
-- Identifikation mit Schmerz & Entbehrung`
+- gespielter Frohmut im außen
+- stetiger Vergleich mit der Außenwelt
+- "Unerschrockenheit" als Kompensation`
     },
 
     {
       label: "Augen",
       content: `Typ 4 im Allgemeinen hat folgende Blickqualität:
 
-- tiefgründig
-- melancholisch
-- sensibel
-- emotional
-- intensiv
+- tief-emotional
+- träumerisch
+- ausdrucksstark-strahlend
+- traurig/melancholisch
 
 Die Blickqualität der se4 ergänzt sich wie folgt:
 
-- weich
-- traurig
-- zurückhaltend`
+- gesammelt
+- ruhig
+- beständig`
     },
 
     {
       label: "Körper",
       content: `Typ 4 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- sensible Ausstrahlung
-- ästhetische Wirkung
-- kreative Erscheinung
+- “besondere” Augen- oder Haarfarbe 
+- Sommersprossen
+- Tattoos
+- Piercings
+- empfindliche & helle Haut
 
 Die körperlichen Auffälligkeiten der se4 ergänzen sich wie folgt:
 
-- schmaler Körperbau
-- ruhige Körpersprache
-- weiche Wirkung`
+- besonderer Körperbau
+- eigentümliche Frisur
+- robust gebaut`
     },
 
     {
@@ -418,43 +424,34 @@ Die körperlichen Auffälligkeiten der se4 ergänzen sich wie folgt:
       content: `Typ 4 im Allgemeinen hat folgende Wirkweisen:
 
 - tiefgründig
+- melancholisch
+- träumerisch
+- ausdrucksstark
 - kreativ
-- emotional
-- individuell
-- sensibel
+- authentisch
 
 Die Wirkweisen der se4 ergänzen sich wie folgt:
 
-„Leidender Künstler“-Ausstrahlung:
-
+“Kunsthandwerker”-Ausstrahlung:
+- bodenständig
 - ruhig
-- melancholisch
-- weich
-- introvertiert`
+- hingebungsvoll
+- freundlich`
     },
 
     {
       label: "Weiteres",
       content: `Über Typ 4 im Allgemeinen sollte man noch Folgendes wissen:
 
-- suchen Identität & Echtheit
-- vergleichen sich häufig mit anderen
+- neigen zu Depressionen/Pessimismus und emotionalen Löchern
+- starkes Mangelgefühl
 
-Über die se4 sollte man explizit noch Folgendes wissen:
+Über den se4 sollte man explizit noch Folgendes wissen:
 
-- leidet häufig still
-- wirkt oft stärker, als sie sich innerlich fühlt`
-    },
-
-  {
-  label: "Beispiele",
-  content: `- Lady Diana
-- Post Malone
-- Paul McCartney
-- Joe Cole
-- Benedict Wells
-- Radhi Devlukia-Shetty
-- Emma Myers`
+- Nach außen oft positiver
+- mutig
+- unerschrocken
+- “glad four”`
 },
 
     {
@@ -479,59 +476,76 @@ Verwechslung in weiblicher Form:
 
 Statistisch gesehen wählt die se4 folgende Partner am ehesten:
 
-- se9
-- sx9
-- sx5
-- se6`
+- se/so3
+- se/so5
+- se/so/sx6
+- so7
+- so8 (vereinzelt)`
     },
 
     {
       label: "Verkauf",
-      content: `- Verständnis & Empathie zeigen
-- keinen oberflächlichen Eindruck vermitteln
-- Echtheit & Authentizität ausstrahlen
-- emotional respektvoll kommunizieren
-- keinen Druck erzeugen
-- sensibel auf Bedürfnisse eingehen
-- Vertrauen & Sicherheit schaffen`
+      content: `- freundlich und verständnisvoll sein
+- die se4 symbolisch auf ein Podest stellen und an die Individualität appellieren
+- alle Fragen zugewandt beantworten
+- nicht das Gefühl vermitteln, die se4 würde einen langweilen oder nicht interessieren
+- ungewöhnliche Hobbies und Gewohnheiten der se4 bewundern
+- Verständnis für eventuelle Leidensgeschichten aufbringen und mitfühlend reagieren
+- die schlimmen Erwartungen der se4 nicht einfach wegreden, sondern gezielt zuhören und verständnisvoll vermitteln, dass die se4 bei einem in guten Händen ist
+- ein Fels in der Brandung sein (Sicherheit ausstrahlen)
+- die se4 in ihrer Situation ernst nehmen
+
+- Im Hinterkopf behalten, dass für die se4 Geld eher ein Mangelthema darstellt und ihr darin Sicherheit geben, sodass sie investiert
+- "ich nehme die Last ... von dir und helfe dir dabei, unbeschwerter zu werden"`
     },
 
     {
       label: "Führung",
-      content: `- emotionale Sicherheit schaffen
-- Verständnis zeigen
-- kreative Freiheit ermöglichen
-- respektvoll kommunizieren
-- keinen unnötigen Druck erzeugen
-- Individualität wertschätzen
-- Anerkennung für Tiefe & Kreativität geben`
+      content: `- Sensibilität und Einfühlungsvermögen der se4 wertschätzen
+- besondere und anspruchsvolle Aufgaben an die se4 geben und ihr kommunizieren, dass man ihr diese Aufgabe anvertraut, weil man sie als die Richtige dafür sieht
+- so wenig wie möglich die se4 mit anderen vergleichen, da sie unterbewusst stark gegen den Neid ankämpft und nicht vergleicht werden möchte
+- die Individualität der se4 im Unternehmen stärken
+- Anerkennung und Wertschätzung entgegenbringen 
+- Authentizität der se4 wertschätzen und eine individuelle Behandlung vornehmen
+- Vertrauenswürdigkeit der se4 wertschätzen
+- gewährleisten, dass die se4 ihre eigene individuelle Arbeitsweise an den Tag legen kann 
+- Kreativität und Wahrnehmung der se4 wertschätzen und sie in der Aufgabenstellung für die se4 integrieren 
+- viel Eigenverantwortung zusichern / Abhängigkeit reduzieren `
     }
   ]
 },
     {
   code: "so4",
-  content: `Grundmotivation:
-- Identität / Echtheit (in der sozialen Gruppe)
+  content: "Grundmotivation":
+`Individualität (in der sozialen Gruppe)
 
-Leidenschaft:
-- Neid / Mangelgefühl (in der sozialen Gruppe)
+Leidenschaft: 
+Neid (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
-- sensibel
-- emotional
-- kreativ
-- sucht Zugehörigkeit
+- kritisch
 - melancholisch
-- vergleicht sich stark mit anderen
-- fühlt sich oft ausgeschlossen
 - tiefgründig
-- ästhetisch
-- individuell
-- schambesetzt
-- sucht Verständnis
-- sozial angepasst
-- intellektuell`,
+- freundlich
+- unnahbare Wirkung
+- distanziert
+- beobachtend
+- Sinn suchend
+- wirkt betrübt
+- ausdrucksstark
+- hält sich selbst häufig für unkreativ
+- sehr selbstkritisch
+- emotionale Hysterie
+- extrem starkes Schamgefühl
+- mangelnde Selbstachtung
+- starke Sehnsucht
+- mangelnde Erfüllung
+- Schüchternheit / Zaghaftigkeit
+- sehr sensibel / empfindlich
+- nimmt alles persönlich
+- spielt gerne die Mimose
+- Entwicklung von Neid / Missgunst in Bezug auf die soziale Gruppe`,
 
   traits: [
     {
@@ -552,11 +566,13 @@ Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild dieses Subtyps.
       label: "Verstärkungstyp",
       content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Verstärkungstyp hat die Erfahrung gemacht, dass das starke Ausleben seiner Leidenschaft funktioniert.
+Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Im Fall der so4 bedeutet das, dass dieser Enneagrammtyp den Neid sehr stark lebt.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
 
-Er vergleicht sich häufig mit anderen Menschen und entwickelt dadurch intensive Gefühle von Mangel, Andersartigkeit oder Ausschluss.`
+Im Fall der so4 bedeutet das, dass dieser Enneagrammtyp den Neid extrem stark lebt.
+
+Er hat die Erfahrung gemacht, dass er individuell ist, wenn er seinen Neid nach außen hin lebt.`
     }
   ],
 
@@ -564,21 +580,24 @@ Er vergleicht sich häufig mit anderen Menschen und entwickelt dadurch intensive
     {
       label: "Demaskierung",
       content: `Folgende Eigenschaften sind dem so4 bewusst und können angesprochen werden:
-
-- starke emotionale Tiefe
-- Vergleiche mit anderen Menschen
-- Gefühl, anders zu sein
-- kreative Denkweise
-- melancholische Grundstimmung
-- hoher Anspruch an Echtheit
-- starke Sensibilität
-- braucht Verständnis
-- häufig Selbstzweifel
-- intellektuell
-- ästhetisch
-- fühlt sich oft missverstanden
-- sucht Zugehörigkeit
-- emotionale Intensität`
+- er hat ein starkes Schamgefühl
+- er vergleicht sich oft mit seinem Umfeld
+- er zeigt sich nicht gerne in der Öffentlichkeit und ist eher schüchtern
+- im Inneren ist er sehr traurig und emotional, zeigt es in der Öffentlichkeit aber kaum
+- er ist sehr sensibel
+- er ist sehr kritisch
+- er hinterfragt gerne Dinge
+- er ist nicht gutgläubig, sondern eher skeptisch
+- er ist seinen Emotionen oftmals schonungslos ausgesetzt und befindet sich deswegen in emotionalen Löchern
+- er hat ein starkes Mangelgefühl bei Vielem
+- große Aufgaben machen ihm Angst, weil er denkt, er sei für die Erfüllung nicht gut genug
+- er möchte nicht so wie andere sein
+- er hat hohe Ansprüche an sich selbst
+- Trivialität stört ihn
+- er fühlt sich schnell dumm und missverstanden
+- er hat viel Empathie
+- er sieht sich selbst als nicht sonderlich kreativ an, obwohl er viel kreativer als andere ist
+- er mag kein Selbstlob`
     },
 
     {
@@ -590,55 +609,56 @@ Er vergleicht sich häufig mit anderen Menschen und entwickelt dadurch intensive
 - Gefühls-Identifikation
 - Liebes-Defizit
 
-Blinder Fleck von Typ 4 im Allgemeinen:
+Blinder Fleck von Typ 4 im Allgemeinen: 
 
-- Identifikation mit Leid & Mangel
-- emotionale Selbstvertiefung
-- Andersartigkeit als Identität
+- Neid & Vergleich als Liebesgarant
+- aktives Schaffen von  äußerem Leid & Mangel als Kompensation
+- Individualitätszwang
+- Glück steht in Abhängigkeit zum Selbstausdruck
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
-- Gruppenabhängigkeit
-- Anpassung an Gruppen
-- Bedürfnis nach Zugehörigkeit
+- Gruppen-Abhängigkeit
+- Anpassung an die Gruppe
+- fehlende Motivation ohne Gruppenabgleich
 
-Blinder Fleck speziell bei der so4:
+Blinder Fleck, speziell bei der so4:
 
-- starke Vergleichsmechanismen
-- Gefühl von Ausschluss
-- emotionale Identifikation mit Mangel`
+- Dramatik von Kleinigkeiten
+- ständiger innerer Mangel
+- Masochismus`
     },
 
     {
       label: "Augen",
       content: `Typ 4 im Allgemeinen hat folgende Blickqualität:
 
-- tiefgründig
-- melancholisch
-- sensibel
-- emotional
-- intensiv
+- tief-emotional
+- träumerisch
+- ausdrucksstark-strahlend
+- traurig/melancholisch
 
 Die Blickqualität der so4 ergänzt sich wie folgt:
 
-- schambesetzt
-- traurig
-- beobachtend`
+- kritisch-beurteilend
+- schamerfüllt
+- freundlich`
     },
 
     {
       label: "Körper",
       content: `Typ 4 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- sensible Ausstrahlung
-- ästhetische Wirkung
-- kreative Erscheinung
+- “besondere” Augen- oder Haarfarbe 
+- Sommersprossen
+- Tattoos
+- Piercings
+- empfindliche & helle Haut
 
 Die körperlichen Auffälligkeiten der so4 ergänzen sich wie folgt:
 
-- elegante Wirkung
-- kontrollierte Körpersprache
-- feine Mimik`
+- nach unten gezogene Mundwinkel
+- spitzes/kantiges Kinn`
     },
 
     {
@@ -646,44 +666,45 @@ Die körperlichen Auffälligkeiten der so4 ergänzen sich wie folgt:
       content: `Typ 4 im Allgemeinen hat folgende Wirkweisen:
 
 - tiefgründig
-- emotional
+- melancholisch
+- träumerisch
+- ausdrucksstark
 - kreativ
-- individuell
-- sensibel
+- authentisch
 
 Die Wirkweisen der so4 ergänzen sich wie folgt:
 
-„Melancholiker“-Ausstrahlung:
-
-- ruhig
-- traurig
-- ästhetisch
-- intellektuell`
+“Gazellen”-Ausstrahlung:
+- kritisch
+- anspruchsvoll
+- unnahbar
+- zart`
     },
 
     {
       label: "Weiteres",
       content: `Über Typ 4 im Allgemeinen sollte man noch Folgendes wissen:
 
-- suchen Identität & Echtheit
-- vergleichen sich häufig mit anderen
+- neigen zu Depressionen/Pessimismus und emotionalen Löchern
+- starkes Mangelgefühl
 
-Über die so4 sollte man explizit noch Folgendes wissen:
+Über den so4 sollte man explizit noch Folgendes wissen:
 
-- fühlt sich häufig ausgeschlossen
-- sucht tiefe soziale Resonanz
-- starke Schamthematik`
+- starkes Schamgefühl
+- “sad four”`
     },
 
     {
   label: "Beispiele",
-  content: `- Johnny Depp
+  content: - `Johnny Depp
 - R Kelly
 - John Lennon
 - Chester Bennington
 - Michael Jackson
 - Jack Doohan
-- Maximilian Mundt`
+- Maximilian Mundt
+- Til Schweiger
+- Jogi Löw`
 },
 
     {
@@ -709,32 +730,42 @@ Verwechslung in weiblicher Form:
 
 Statistisch gesehen wählt die so4 folgende Partner am ehesten:
 
+- se3
 - so5
-- sx5
-- so9
-- sx9`
+- so/se6
+- sx/so9`
     },
 
     {
       label: "Verkauf",
-      content: `- Verständnis & Tiefe vermitteln
-- keinen oberflächlichen Eindruck erzeugen
-- emotional respektvoll kommunizieren
-- Echtheit & Authentizität ausstrahlen
-- sensibel auf Gefühle eingehen
-- Wertschätzung für Individualität zeigen
-- emotionale Sicherheit schaffen`
+      content: `- empathisch und charmant sein
+- das Gefühl vermitteln, die so4 sei gut bei einem aufgehoben
+- dafür sorgen, dass die so4 sich öffnen kann und all ihre Fragen stellen kann (-> extreme Rücksichtnahme und Nachfragen gewährleisten)
+- keine rapiden und schnellen Reaktionen oder Informationen liefern, um die so4 nicht zu überfordern
+- Die Probleme und Sorgen der so4 sehr ernst nehmen und ihr Lösungen anbieten
+- mitfühlend sein und die so4 emotional abholen
+- viele Informationen liefern und Garantien formulieren, damit die so4 sich sicher in ihrer Entscheidung fühlt
+- alle Mangelgedanken der so4 ernst nehmen und sie beruhigen
+- auf keinen Fall das Gefühl vermitteln, dass die so4 "dumm" sei!
+- sich nicht über sie lustig machen
+- keine oberflächlichen Informationen liefern, sondern immer ausführlich, selbst wenn die so4 nicht ganz mitkommt, um ihr das Gefühl von Tiefe zu geben
+- "ich nehme die Last ... von dir und helfe dir dabei, unbeschwerter zu werden"`
     },
 
     {
       label: "Führung",
-      content: `- emotionale Tiefe respektieren
-- kreative Freiheit ermöglichen
-- keinen unnötigen Druck erzeugen
-- Verständnis & Geduld zeigen
-- Individualität wertschätzen
-- emotionale Sicherheit schaffen
-- Anerkennung für Kreativität & Tiefe geben`
+      content: `- klare Kommunikation wählen
+- dafür sorgen, dass die so4 sich nicht “dumm” fühlt
+- Wertschätzung und Anerkennung entgegenbringen bei Leistung 
+- vor den anderen als etwas besonderes darstellen 
+- Wertschätzung für die Eigenart der so4 entgegenbringen
+- Akzeptanz und Rücksichtnahme auf das starke Schamgefühl der so4 
+- intensive Betreuung und Aufmerksamkeit für die so4 sichern
+- Kreativität und Feingefühl der so4 anerkennen und nutzen
+- keine offene Kritik an die so4 richten, da sie sehr selbstkritisch ist und sich in die Kritik reinsteigert und sich folglich schlecht fühlt
+- übermäßig rücksichtsvolle und wertschätzende Behandlung anbringen 
+- besondere Stellung in der Gruppe ständig gewährleisten und bedienen
+- empathische und strukturierte Herangehensweise an die Leistungsbewertungen der so4`
     }
   ]
 },
