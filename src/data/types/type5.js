@@ -271,24 +271,36 @@ Entwicklung im negativen Fall:
 
   subtypes: [
     {
-      code: "se1",
+      code: "se5",
       content: `Grundmotivation:
-Liebe in der Selbsterhaltung
+Wissen (in der Selbsterhaltung)
 
-Leidenschaft:
-Stolz in der Selbsterhaltung
+Leidenschaft: 
+Geiz (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- Ich-zuerst-Mentalität
-- starke Bedürfnisse
-- liebevoll und kümmernd
-- bei verletzten Bedürfnissen ruppig / grob
-- kann rücksichtslos wirken
-- fühlt sich schnell übergangen
-- erwartet Gegenleistung für Dienste
-- starke Bedürftigkeit
-- Naivität`,
+- stark rational
+- wissbegierig
+- emotionskarg
+- unempathisch
+- gönnt sich selbst wenig
+- sparsam
+- "my home is my castle"
+- isoliert
+- introvertiert
+- privater räum ist sehr wichtig
+- neigt zum Rückzug
+- gestaltet sein Leben eher schlicht und überschaubar
+- Abrupter Abbruch zwischenmenschlicher Kommunikation ("ich habe wirklich keine Zeit mehr")
+- Bücherwurm / andere Informationsquellen
+- zu viel Besitz belastet sie
+- häuft Geld & Zeit an
+- Hamster-Mentalität
+- verlässt sich größtenteils auf sich selbst
+- bittet andere selten um Rat oder Hilfe
+- Abneigung gegen Besitznahme anderer Menschen / Dinge
+- In unbewussten Phasen kann sie zum mürrischen Einsiedler werden`,
 
       traits: [
         {
@@ -304,54 +316,54 @@ Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltung
 Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Kontratyp",
-          content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Verstärkungstyp",
+          content:  `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+Im Fall der se5 bedeutet das, dass dieser Enneagrammtyp den Geiz extrem stark lebt.
 
-Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
-
-Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Wissen bekommt, wenn er seinen Geiz nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem se5 bewusst und können angesprochen werden:
 
-- er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
-- er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
-- er ist ein Kontrollfreak
-- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
-- er ist sehr sensibel und nimmt viel wahr
-- er kann im Stressfall schnell sehr gereizt werden`
+- er ist sehr interessiert und wissbegierig
+- er ist sehr analytisch
+- er kann gut rational entscheiden
+- er hat seine Emotionen unter Kontrolle
+- er ist vernünftig
+- er kann sich gut in Sachverhalte eindenken 
+- er mag Bücher und andere Wissensquellen
+- zuhause fühlt er sich am wohlsten
+- er häuft gerne Dinge und Wissen an
+- er strukturiert und ordnet gerne seinen Kopf
+- Wenn ihn etwas interessiert, widmet er sich dieser Sache vollständig
+- er kann auf andere manchmal unnahbar und nüchtern wirken
+- er liebt klare Lösungen und Wissenskonstrukte
+- er ist nicht gerade freigiebig mit seinen Ressourcen und braucht immer einen rationalen Grund, um Geld in die Hand zu nehmen`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- rationale Hysterie
+- Sicherheits-Identifikation
+- Gedanken-Identifikation
+- Vertrauens-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 5 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starkes Schaffen von Abhängigkeiten im außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Geiz & Habsucht als Sicherheitsgarant
+- aktives Schaffen von  äußerem Wissen & Strategien als Kompensation
+- Beobachtungsdrang
+- Isolation bei Überforderung
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
@@ -359,29 +371,31 @@ Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 - Egoismus
 - Bedürfnisorientierung
 
-Blinder Fleck, speziell bei der se2:
+Blinder Fleck, speziell bei der se5:
 
-- Kampf gegen den Stolz
-- Abhängigkeit von inneren Bedürfnissen
-- ungesunder Egoismus
-- Schein-Abhängigkeit von materiellem Wohlbefinden`
+- Hamster-Mentalität
+- mangelnde Empathie
+- Informations-Arroganz`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 5 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- distanziert
+- nüchtern
+- sachlich
+- matt
+- emotionskarg
+- beobachtend
+- interessiert
 
-Die Blickqualität der se2 ergänzt sich wie folgt:
+Die Blickqualität der se5 ergänzt sich wie folgt:
 
-- dominant
-- herrisch`
+- kalt
+- ruhig
+- schüchtern
+- glänzend
+- unnahbar`
         },
         {
           label: "Körper",
@@ -398,139 +412,127 @@ Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
         },
         {
           label: "Wirkung",
-         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+         content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- Stirnfalten
+- Sehschwäche
+- großer Kopf
+- wenig dichtes Haar
+- “Geheimratsecken”
+- frühe Bildung von grauen Haaren
 
-Die Wirkweisen der se2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der se5 ergänzen sich wie folgt:
 
-„Matriarchin“-Ausstrahlung:
-
-- stark
-- rau
-- naiv
-- egoistisch`
+- kleine Statur`
         },
         {
           label: "Weiteres",
-         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+         content: `Über Typ 5 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- oftmals stark isoliert
+- sparsam (Zeit, Geld, Energie)
+- abstrakt-weltfremd
 
-Über den se2 sollte man explizit noch Folgendes wissen:
+Über den se5 sollte man explizit noch Folgendes wissen:
 
-- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
+- hortet gerne Besitztümer
+- sehr theoretisch & abstrakt denkend`
         },
         {
           label: "Beispiele",
-          content: `- Wolfgang Amadeus Mozart
-- Quentin Tarantino
-- Ice Cube
-- Greta Thunberg
-- Pamela Michaelis
-- 6ix9ine
-- Ron Bielecki
-- Danielle Pinnock
-- Wilson Gonzales Ochsenknecht
-- Leni Klum`
+          content: `- Warren Buffett
+- Vera Birkenbihl
+- Harald Lesch
+- Peter Lustig
+- Christian Rätsch
+- Jean-Marie Le Pen
+- Kai Gniffke`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
 - se8
+- se6
 - se7
+- se9
 
 Verwechslung in weiblicher Form:
-
 - se8
+- se6
 - se7
-- se4`
+- se9`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die se2 folgende Partner am ehesten:
+Statistisch gesehen wählt die se5 folgende Partner am ehesten:
 
-- se/so7
-- se3
-- se1
-- sx/so/se6`
+- se/so6
+- se4
+- se9
+- se2`
         },
         {
           label: "Verkauf",
-          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-- Helfer- & Gastgebermentalität an den Tag legen
-- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-- Fragen stellen
-- immer darauf achten, großzügig/freigiebig zu sein
-- Dankbarkeit schon bei kleinen Gesten zeigen
-- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-- Wertschätzung entgegenbringen / Komplimente machen
-- kleine Geschenke und Zusatzbedürfnisse erfüllen
-- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-- Empathie & Verständnis entgegenbringen
-- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-- ständige Unterstützung zusichern`
+          content: `- unemotional und klar sprechen
+- Sachlichkeit bewahren
+- keine Gefühlsausbrüche äußern
+- viele Informationen liefern
+- alle Fragen der se5 ausführlich beantworten
+- rationale SInnhaftigkeit des Produktes darstellen
+- immer handfeste Gründe/Beweise für Argumente und Statements anbringen
+- wenig Smalltalk, viel Mehrwert
+- Respekt vor der Energie / Zeit der se5
+- große Informationsquellen in Aussicht stellen als Verkaufsargument
+- mehr Sein als Schein darstellen
+- Pünktlichkeit als Wert herausheben
+- Wissenschaftliches arbeiten als hohen Wert herausstellen`
         },
         {
           label: "Führung",
-          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-- Liebe und Wertschätzung entgegenbringen
-- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-- Dankbarkeit für die Leistung der se2 zeigen
-- kleine Geschenke und Zusicherungen machen
-- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-- kein grober Umgang gegenüber der se2
-- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-- klare Kommunikation, um Missverständnisse zu vermeiden
-- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-- mit kleinen Geschenken und Belohnungen motivieren
-- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
+          content: `- eigenen Rückzugsort in der Firma für die se5 errichten
+- sachliche Formulierungen der Aufgaben und Erwartungen
+- gefühlsarme Umgangsweise, um die se5 nicht zu überfordern
+- keine sozialen Ansprüche an die se5 stellen
+- Rückzug der se5 akzeptiere und nicht abwerten
+- rationale Qualitäten der se5 sehen und nutzen
+- Anerkennung der Objektivität und des Wissensschatzes der se5 
+- nüchterne und klare Kommunikation `
         }
       ]
     },
 
     {
-      code: "so1",
+      code: "so5",
       content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+Wissen (in der sozialen Gruppe)
 
-Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+Leidenschaft: 
+Geiz (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
-- charmant & schmeichelnd
-- Naivität
-- "die rechte Hand"
-- Seelsorger-Mentalität
-- starkes Helfersyndrom
-- spießig / kultiviert
-- starker Ehrgeiz
-- Verantwortungsbewusstsein
-- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
-- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
-- Einflussnahme in einer Gruppe
-- fachlich kompetent
-- "erwachsen"
-- manipulativ
-- tierlieb`,
+- wissensspendend
+- wissbegierig
+- wissenschaftlich vorgehend
+- "Schlaftablette"
+- überlädt andere mit Wissen
+- oftmals sehr schlau & bewandert
+- der "typische Professor"
+- hat ein Hauptthema, in dem er forscht
+- widmet diesem Thema sein Leben (tiefes Erforschen)
+- arbeitet gerne nicht festgelegt & flexibel
+- arbeitet gerne entweder selbstständig oder an einem geschützten Platz in einer Hierarchie
+- Gesetze, Normen & Regeln nimmt er als belastend wahr
+- Experte
+- Anerkennung der Gruppe ist wichtig, jedoch reicht ihm eine subtile Form aus
+- starke Neugier
+- Sprengung überholter Muster
+- Sammler-Mentalität (Wissen)
+- große geistige Kompetenz
+- Theoretiker`,
 
       traits: [
         {
@@ -546,55 +548,53 @@ Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
 Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
         },
         {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normaltyp",
+          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
 
-Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+Im Fall der so5 bedeutet das, dass dieser Enneagrammtyp den Geiz im normalen Maße lebt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Wissen bekommt, wenn er seinen Geiz nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem so5 bewusst und können angesprochen werden:
 
-- er ist hilfsbereit
-- er ist sensibel
-- er legt viel Wert auf Respekt
-- er besitzt eine gewisse Skepsis
-- er kümmert sich gerne um seine Freunde & Verwandten
-- er hat ein starkes Verantwortungsgefühl
-- er ist sehr feminin
-- er ist stolz auf das, was er bereits geschafft hat
-- er hat von Zeit zu Zeit emotionale Löcher
-- er braucht ein gutes Umfeld, um sich zu entwickeln
-- er kann gut vermitteln
-- er hat einen Hang zur Aufopferung
-- er ist sehr ehrgeizig
-- er ist vernünftig
-- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`
+- er hat ein Hauptthema, das in im Leben verfolgt
+- dieses Thema erforscht er selbst und häuft viel Wissen darüber an
+- er ist sehr rational und vernünftig
+- er kann gut Daten analysieren und ist intelligent
+- er kann gut Wissen verbreiten
+- er erklärt und versteht gerne Zusammenhänge
+- er ist ein großer Freund von Sinnhaftigkeit und kann Pseudo-Wissenschaft nicht ausstehen
+- er hat einen starken Drang nach neuen Wissensquellen und Verständnis 
+- er gibt nicht gerne unnötiges Geld aus
+- er widmet sich Themen, die ihn interessieren, sehr tiefgehend
+- er ist eher emotionskarg und steigert sich selten in Situationen rein
+- er hat viele Interessen
+- im Stress neigt er zur Faulheit`
         },
         {
           label: "Blinder Fleck",
-         content: `Blinder Fleck der Herzenergie im Allgemeinen:
+         content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- rationale Hysterie
+- Sicherheits-Identifikation
+- Gedanken-Identifikation
+- Vertrauens-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 5 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Geiz & Habsucht als Sicherheitsgarant
+- aktives Schaffen von äußerem Wissen & Strategien als Kompensation
+- Beobachtungsdrang
+- Isolation bei Überforderung
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
@@ -602,173 +602,174 @@ Blinder Fleck des sozialen Typs im Allgemeinen:
 - Anpassung an die Gruppe
 - fehlende Motivation ohne Gruppenabgleich
 
-Blinder Fleck, speziell bei der so2:
+Blinder Fleck, speziell bei der so5:
 
-- starkes Ausleben des Stolzes
-- Abhängigkeit von der Anerkennung durch eine Gruppe
-- ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`
+- Abhängigkeit zu einem Hauptthema als Halt
+- wenig praxisaffin
+- Verkomplizierung des Lebens`
         },
         {
           label: "Augen",
-         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+         content: `Typ 5 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- distanziert
+- nüchtern
+- sachlich
+- matt
+- emotionskarg
+- beobachtend
+- interessiert
 
-Die Blickqualität der so2 ergänzt sich wie folgt:
+Die Blickqualität der so5 ergänzt sich wie folgt:
 
-- hochmütig
-- ernst`
+- arrogant
+- begeistert
+- unnahbar
+- müde`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- “Bambi-Augen” (große, braune Augen)
-- volle Lippen
-- weibliche, “kurvige” Züge
+- Stirnfalten
+- Sehschwäche
+- großer Kopf
+- wenig dichtes Haar
+- “Geheimratsecken”
+- frühe Bildung von grauen Haaren
 
-Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der so5 ergänzen sich wie folgt:
 
-- üppiger Vorbau`
+- neutraler, angepasster 
+  Körperbau`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 5 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- verkopft
+- analytisch
+- theoretisch
+- sachlich-kühl
+- arrogant
+- wissbegierig
+- emotionskarg
+- kompetent
 
-Die Wirkweisen der so2 ergänzen sich wie folgt:
+Die Wirkweisen der so5 ergänzen sich wie folgt:
 
-“Diplomaten”-Ausstrahlung:
-
-- vernünftig
-- strebsam
-- spießig`
+“Professor”-Ausstrahlung:
+- belehrend
+- fachlich-kompetent
+- interessiert
+- schläfrig`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 5 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- oftmals stark isoliert
+- sparsam (Zeit, Geld, Energie)
+- abstrakt-weltfremd
 
-Über den so2 sollte man explizit noch Folgendes wissen:
+Über den so5 sollte man explizit noch Folgendes wissen:
 
-- oftmals in Führungspositionen
-- großzügig
-- ehrgeizig`
+- extrem wissbegierig
+- wissenschaftlich denkend`
         },
         {
           label: "Beispiele",
-          content: `- Jenna Ortega
-- Samuel L. Jackson
-- Lewis Hamilton
-- Barack Obama
-- Drake
-- Akon
-- Fynn Kliemann
-- Dr. Dre
-- Will Smith
-- Liam Payne`
+          content: `- Albert Einstein
+- Bill Gates
+- Wigald Boning
+- Karl Dall
+- Ernst Peter Fischer
+- Carl Gustav Jung
+- David MacMillan`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- so3
-- se3
-- se7
-- so7
+- so6
 - so9
+- sx9
+- so7
+- se1
 
 Verwechslung in weiblicher Form:
 
-- so3
-- se7
-- so9
-- se3`
+- so6
+- se1
+- sx9`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die so2 folgende Partner am ehesten:
+Statistisch gesehen wählt die so5 folgende Partner am ehesten:
 
-- so7
-- so/se3
-- so/se1
-- so6
-- se8 (vereinzelt)`
+- so/se6
+- so/se4
+- so2
+- se1`
         },
         {
           label: "Verkauf",
-          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
--> den Stolz nicht kränken
-
-- Anerkennung für Leistungen und Erfolge geben
-- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
-- Verantwortungsbewusstsein der so2 herausstellen und loben
-- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
-- Helferrolle übernehmen
-- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
-- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
-- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
-- Engagement im Kundenstamm zeigen
-- mitfühlend sein`
+          content: `- Forschergeist zeigen
+- Interesse an seinem Hauptthema zeigen (je nach individuellem Thema)
+- sachlichen Umgang fördern
+- Begeisterung für seine Interessensfelder aufbringen
+- Informationen liefern
+- wenig Smalltalk, viel Mehrwert
+- freundlicher und angepasster Umgang
+- wenig Impulsivität
+- Darstellung der Anwendungsmöglichkeiten des Produktes und der Förderung der Interessensfelder der so5
+- Pünktlichkeit ist wichtig`
         },
         {
           label: "Führung",
-          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
-- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
-- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
-- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
-- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
-- Lob erteilen bei guter Aufgabenerfüllung
-- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
-- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
-- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
-- Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
+          content: `- nüchterne und klare Kommunikation 
+- Anerkennung des Wissensschatzes und der Beobachtungsgabe der so5
+- Möglichkeit geben, dass die so5 ihr Wissen und ihre Forschungen ausbauen und teilen kann im Unternehmen 
+- Wertschätzung der so5 in der Gruppe durch Setzung eines Expertenstatus
+- gefühlsarmer Umgang, sachliche Faktendarstellung 
+- Förderung der Forschungen der so5
+- Befriedigung des Wissensdurstes der so5
+- Austausch in der Firma gewährleisten, um die so5 sozial einzubinden, was sie sich eigentlich wünscht, jedoch von sich aus nicht klar kommunizieren kann
+- Wertschätzung der Objektivität der so5 in der Gruppe 
+- dafür sorgen, dass die so5 nicht überfordert wird durch zu viele emotionale Interaktionen  `
         }
       ]
     },
 
     {
-      code: "sx1",
+      code: "sx5",
       content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+Wissen (in der zwischenmenschlichen Beziehung)
 
-Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+Leidenschaft: 
+Geiz (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
-- sehr feminin
-- unersättlicher Liebesdurst
-- erlebnisorientiert
-- sprunghaft
-- schmeichelnd-manipulativ
-- legt viel Wert auf Attraktivität
-- tierlieb
-- hartnäckig
-- engstirnig
-- verführerisch
-- geht zwischenmenschlich auf andere zu
-- fühlt sich schnell vom Partner betrogen
-- macht sich schnell abhängig vom Partner
-- unterstützend`,
+- "Geheimagent"
+- starker Hang zu Emotionen (4er-Flügel)
+- sensibel
+- wissbegierig
+-"Verschwörungstheoretiker" (beschäftigt sich oftmals mit geheimem Wissen)
+- verschwiegen
+- introvertiert
+- Vorenthaltung von Wissen
+- legt großen Wert auf Privatsphäre
+- scheu, führt jedoch interessante Gespräche, wenn man auf ihn zugeht
+- Interesse an Literatur, Kunst, Psychologie 
+- sehr analytisch & rational trotz emotionalem Hang
+- distanziert
+- schätzt Menschen, die ihre Grenzen anerkennen
+- kann sich schwer ausdrücken
+- doch wenn sie alleine ist, herrscht Klarheit
+- Ambivalenz zwischen Verstand und Emotionen`,
 
       traits: [
         {
@@ -784,53 +785,51 @@ Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu
 Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Kontratyp",
+          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
 
-Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Im Fall der sx5 bedeutet das, dass dieser Enneagrammtyp gegen den Geiz ankämpft.
+
+Er hat die Erfahrung gemacht, dass er kein Wissen bekommt, wenn er seinen Geiz nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+         content: `Folgende Eigenschaften sind dem sx5 bewusst und können angesprochen werden:
 
-- sehr hilfsbereit
-- er erlebt gerne viel
-- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
-- er denkt sehr partnerschaftlich
-- er kümmert sich gut um sein Äußeres
-- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
-- er kümmert sich gerne um seine Familie & Freunde
-- er ist sehr empathisch
-- er kann im Stressfall sehr gereizt werden
-- er ist charmant
-- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
-- er ist sehr sensibel
-- er geht auf im Zwischenmenschlichen
-- er verfügt über viele Emotionen`
+- er hat ein starkes Verlangen nach Verständnis
+- er ist eher zurückhaltend und scheu
+- er ist sehr tiefgründig und möchte den tieferen Sinn hinter den Lebensthemen verstehen
+- er kämpft dagegen an, Dinge anzuhäufen, sondern lebt eher bescheiden
+- er ist kein Angeber und möchte seine zwischenmenschlichen Beziehungen auf das Wichtigste reduzieren
+- er ist eigentlich sehr sensibel und emotional, aber neigt dennoch zum Rationalismus und Denken
+- er findet sich mit den "typischen" Menschen nicht gut zurecht
+- er ist auf tiefgehende zwischenmenschliche Kontakte aus
+- er kämpft gegen unnötigen Geiz an`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- rationale Hysterie
+- Sicherheits-Identifikation
+- Gedanken-Identifikation
+- Vertrauens-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 5 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Geiz & Habsucht als Sicherheitsgarant
+- aktives Schaffen von äußerem Wissen & Strategien als Kompensation
+- Beobachtungsdrang
+- Isolation bei Überforderung
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
@@ -838,147 +837,151 @@ Blinder Fleck des sexuellen Typs im Allgemeinen:
 - Abhängigkeit von äußerer Attraktivität & Bindungen
 - Angst vor Entwertung & Degradierung
 
-Blinder Fleck, speziell bei der sx2:
+Blinder Fleck, speziell bei der sx5:
 
-- sexueller Stolz (Gefühl, betrogen zu werden)
-- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
-- starke Erlebnisorientierung`
+- Geheimniskrämerei im Zwischenmenschlichen
+- Verzettelung in Emotionen & Gedanken
+- exzessive Abstraktion des Lebens`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 5 im Allgemeinen hat folgende Blickqualität:
+
+- distanziert
+- nüchtern
+- sachlich
+- matt
+- emotionskarg
+- beobachtend
+- interessiert
+
+Die Blickqualität der sx5 ergänzt sich wie folgt:
 
 - warm
 - freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
-
-Die Blickqualität der sx2 ergänzt sich wie folgt:
-
-- verführerisch
-- begeistert`
+- schüchtern
+- nahbar`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- "Bambi-Augen" (große, braune Augen)
-- volle Lippen
-- weibliche, "kurvige" Züge
+- Stirnfalten
+- Sehschwäche
+- großer Kopf
+- wenig dichtes Haar
+- “Geheimratsecken”
+- frühe Bildung von grauen Haaren
 
-Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der sx5 ergänzen sich wie folgt:
 
-- schlank
-- lange Haare
-- Model-Statur
-- Tattoos`
+- Hautprobleme
+- starker Bartwuchs
+- rötliche Haare`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 5 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- verkopft
+- analytisch
+- theoretisch
+- sachlich-kühl
+- arrogant
+- wissbegierig
+- emotionskarg
+- kompetent
 
-Die Wirkweisen der sx2 ergänzen sich wie folgt:
+Die Wirkweisen der sx5 ergänzen sich wie folgt:
 
-“Casanova”-Ausstrahlung:
-
-- verführerisch
-- abenteuerlustig
-- manipulativ
-- aufreizend`
+“Geheimagenten”-Ausstrahlung:
+- tiefgründig
+- zurückhaltend
+- emotional
+- nahbar`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 5 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- oftmals stark isoliert
+- sparsam (Zeit, Geld, Energie)
+- abstrakt-weltfremd
 
-Über den sx2 sollte man explizit noch Folgendes wissen:
+Über den sx5 sollte man explizit noch Folgendes wissen:
 
-- häufig Tattoos`
+- wahrt körperlichen Abstand
+- am emotionalsten von allen Fünfern`
         },
         {
           label: "Beispiele",
-          content: `- Ariana Grande
-- Elvis Presley
-- Jay-Z
-- Tobias Beck
-- Robert Downey Jr.
-- Pamela Reif
-- Monika Gruber
-- Julienco
-- Ryan Gosling
-- Shawn Mendes`
+          content: `- Friedrich Nietzsche
+- Taylor Swift
+- Deborah Kerr
+- Heath Ledger
+- David Lindström
+- Mark Zuckerberg
+- Kate Moss
+- Maxim Mankevich`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- sx2
+- se4
+- so4
 - sx4
+- sx9
 - sx7
 
 Verwechslung in weiblicher Form:
 
-- sx3
+- se4
 - sx4
-- sx6
-- sx7`
+- so4
+- sx2
+- sx9`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+Statistisch gesehen wählt die sx5 folgende Partner am ehesten:
 
-- sx/so6
-- sx/so7
-- sx/so3
-- sx5
+- sx/so4
+- sx3
+- sx/so2
+- sx6
 - sx9`
         },
         {
           label: "Verkauf",
-          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
-- Verständnis entgegenbringen
-- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
-- Interesse an ihr und ihren Themen zeigen
-- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
-- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
-- liebevollen und warmen Umgang pflegen
-- Sensibilität und Empathie zeigen
-- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
-- Großzügigkeit und Freigebigkeit zeigen`
+          content: `- sensible Informationen teilen
+- zeigen, dass man die sx5 für eine vertrauenswürdige Person hält
+- Interesse an der sx5 zeigen, ohne Grenzen zu überschreiten oder übergriffig zu werden
+- rationalen Wert des Produktes darstellen
+- Verlässlichkeit zeigen
+- Sicherheit geben durch Kompetenz
+- Informationen liefern und alle Fragen der sx5 adäquat beantworten
+- großen Wissensschatz zeigen
+- Geheimniskrämerei, um die sx5 anzulocken
+- emotional nahbar bleiben, aber nicht impulsiv sein
+- Zeit und Energie der sx5 respektieren
+- Anerkennung für die sx5 aufbringen
+- Sinnhaftigkeit des Produktes darstellen, ohne überheblich zu werden
+- Großzügigkeit zeigen`
         },
         {
           label: "Führung",
-          content: `- Dankbarkeit für die sx2 entgegenbringen
-- Komplimente machen
-- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
-- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
-- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
-- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
-- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
-- Verlässlichkeit der sx2 wertschätzen
-- Liebe und Zuneigung entgegenbringen
-- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
-- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
-- empathischer Umgang ist essentiell
-- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
+          content: `- Bindungsaufbau mit der sx5 ist essentiell wichtig 
+- die sx5 mit speziellen Aufgaben betrauen, die sehr wichtig und vertraulich sind
+- der sx5 Vertrauen entgegenbringen und im Hintergrund agieren lassen
+- Wissensschatz der sx5 wertschätzen und sich mit ihr austauschen
+- die sx5 als Wissensquelle beziehen und sich von ihr Rat geben lassen 
+- tiefe Gespräche und Themen anregen - Geheimwissen vermitteln, was nicht viele Menschen von einem wissen oder erfahren 
+- Vertrauenswürdigkeit der sx5 anerkennen
+- Rückzugsorte für die sx5 zusichern, um ihr das Gefühl von Sicherheit zu vermitteln 
+- die sx5 nicht dazu drängen, im ständigen Kontakt zu vielen Menschen zu sein `
           
         }
       ]
