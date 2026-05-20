@@ -4,6 +4,7 @@ import TypePage from "./pages/TypePage";
 import Type3Page from "./pages/Type3Page";
 import Type1Page from "./pages/Type1Page";
 import Type4Page from "./pages/Type4Page";
+import Type5Page from "./pages/Type5Page";
 
 
 export default function App() {
@@ -24,6 +25,11 @@ export default function App() {
    if (selectedType === 4) {
     return <Type4Page onBack={() => setSelectedType(null)} />;
   }
+
+   if (selectedType === 5) {
+    return <Type5Page onBack={() => setSelectedType(null)} />;
+  }
+
 
   return <HomePage onSelectType={setSelectedType} />;
 }
