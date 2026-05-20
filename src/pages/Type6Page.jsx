@@ -74,7 +74,7 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
       background: TYPE_GRADIENTS[prevType],
       color: "white",
     }}
-  >
+     onClick={() => onSelectType(nextType)}  >
     ← Typ {prevType}
   </button>
 
@@ -91,7 +91,8 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
       background: TYPE_GRADIENTS[nextType],
       color: "white",
     }}
-  >
+    
+  > onClick={() => onSelectType(nextType)}    
     Typ {nextType} →
   </button>
 </div>
