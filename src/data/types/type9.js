@@ -24,56 +24,38 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `umgewandelte Bauchenergie:
-- Bauchenergie wird auf sich selbst bezogen
+    content: `Blockierte Bauchenergie
+- (Bauchenergie wird unterdrückt)
 
-Grundmotivation:
-- Perfektion
+Grundmotivation: 
+- Harmonie
 
-Abwehrmechanismus:
-- Schutz durch Optimierung`
+Abwehrmechanismus: 
+- Schutz durch Verschmelzung`
   },
 
   sideInfo: {
-    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
-
-Indizien, die hier häufiger beobachtet werden können:
-
-Nasenform:
-- zierlich
-- filigran
-- ästhetisch
-- weich geformt
-- feminin
-
-Gesichtspartie:
-- weiche Haut
-- reine Haut
-- lange Wimpern
-
-Wirkung:
-- feminin
-- zart
-- fein`
+    content: `Typ 9 ist der einzige Enneagrammtyp, der sich weder der männlichen noch der weiblichen Seite des Enneagramms zuordnen lässt. 
+    Er weist Neutralität in seinen Charakter- & Körperzügen auf, was eng verbunden mit der Konturenlosigkeit von Typ 9 ist.`
   },
 
   coreModules: [
     {
       label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 1 wird in folgenden Zuständen gemessen:
+      content: `Die Gesundheit des Gemüts von Typ 9 wird in folgenden Zuständen gemessen:
 
-(1 = sehr unbewusst/ungesund,
+(1 = sehr unbewusst/ungesund, 
 9 = sehr bewusst/gesund)
 
-1. Gnadenloser Rächer
-2. Zwanghafter Heuchler
-3. Intoleranter
-4. Besserwisserischer Perfektionist
-5. Ordnungssüchtiger Mensch
-6. Idealistischer Reformer
-7. Prinzipientreuer Lehrer
-8. Vernunftbegabter Mensch
-9. Weiser Realist`
+1. Sich aufgebender Mensch
+2. Gespaltener Mensch
+3. Nachlässiger
+4. Resignierter Fatalist
+5. Passiv-gleichgültiger Mensch
+6. Angepasster Mensch
+7. Gutherziger Friedensstifter
+8. Empfänglicher Mensch
+9. In sich ruhender Mensch`
     },
 
     {
@@ -99,193 +81,200 @@ Typ 7: innovativ, inspirierend, anregend
 Typ 8: beschützend, direkt, geradlinig
 Typ 9: akzeptierend, friedlich, friedfertig
 
-Im Fall von Typ 1 gibt es folgende Möglichkeiten für die Tritypen:
+Im Fall von Typ 9 gibt es folgende Möglichkeiten für die Tritypen:
 
-1-2-5: Mentor / Ratgeber
-1-2-6: Unterstützer
-1-4-5: Forscher
-1-2-7: Lehrer
-1-4-6: Philosoph
-1-3-5: Ingenieur
-1-4-7: Visionär
-1-3-6: Arbeitgeber
-1-3-7: Konstrukteur`
+9-2-5: Problemlöser
+9-2-6: Guter Samariter
+9-4-5: Kontemplativer
+9-2-7: Friedensstifter
+9-4-6: Suchender
+9-3-5: Denker
+9-4-7: Sanftmütiger Geist
+9-3-6: Vermittler
+9-3-7: Botschafter`
     },
 
     {
-      label: "Leidenschaft: Groll/Zorn",
+      label: "Leidenschaft: Trägheit",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
 - Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
 
-Bedeutung von Zorn in diesem Kontext:
+Bedeutung von Trägheit in diesem Kontext:
 
-- innerer Groll & Handlungsdrang, um vollendete Perfektion zu erlangen
+- Langsamkeit, Anpassung & Konfliktscheue, um die größtmögliche Harmonie zu erlangen
 
-Gesteigerte Formen:
+Gesteigerte Formen: 
 
-- Selbstjustiz
-- Schwarz-Weiß-Denken
-- Doppelmoral
-- Missionierung
-- Selbstzerstörung durch Disziplin
-- hohe Ansprüche`
+- Entscheidungsunfähigkeit
+- Stagnation
+- Selbstvergessenheit
+- Verschmelzung`
     },
 
     {
       label: "Umgang",
-      content: `- Anerkennung der Expertise des Gegenübers
-- keine „unbegründete“ Kritik äußern
-- vernünftig & rational argumentieren
-- keine „sinnlosen“ Argumente anbringen
-- Ordnung & Moral stärken & als Wert präsentieren
-- Unabhängigkeit & Eigenverantwortung des Gegenübers stärken
-- Vorbildcharakter des Gegenübers proklamieren
-- „richtig & falsch“ als Richtwerte anführen
-- Disziplin & Ausdauer zeigen`
+      content: `- Friedlicher Umgang (keine Aggressionen)
+- Verbindung schaffen
+- Einstellung auf das Individuum (gewisses Maß an Trägheit akzeptieren)
+- Gemeinsamkeiten herausstellen
+- Harmonie stärken 
+- keine Grenzen aufzeigen
+- Führung übernehmen
+- wenig Verantwortung auf das Gegenüber abschieben
+- Einheitsbewusstsein fördern`
     },
 
     {
-      label: "Flügel: 9",
+      label: "Flügel: 8",
       content: `Bedeutung der Flügel:
 
 Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 Dies führt zu einer Eigenschaftsadaption
 Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 9:
+Flügel zu Typ 8:
 
 Eigenschaften im positiven Fall:
 
-- Harmoniestreben
-- Schlichtung
-- Vermittlungskompetenz
-- Besonnenheit
-- Spiritualität
-- Zurückhaltung
-- Anpassungsfähigkeit
-- Reflektion
-- Empathie
-- Harmlosigkeit
-- Freundlichkeit
+- Beschützerinstinkt 
+- positive Einflussnahme 
+- Führungsqualitäten 
+- großes  Reaktionsvermögen 
+- Präsenz 
+- “Fels in der Brandung” 
+- Durchsetzungsstärke 
+- Verteidigungsbereitschaft 
+- automatisches Verschaffen von Respekt 
+- Stärke
 
 Eigenschaften im negativen Fall:
 
-- Konfliktunfähigkeit
-- Entscheidungsunfähigkeit
-- Trägheit
-- Selbstbetäubung
-- Ego, kein Ego zu haben
-- Langsamkeit
-- Stagnation
-- Verschmelzungstendenz
-- Charakterschwäche
-- Durchsetzungsschwäche`
+- Machtgier 
+- Wollust 
+- überschießende Aggressionen 
+- Besitzergreifung von Objekten & Menschen 
+- Einschüchterung / Eroberung 
+- Gotteskomplex 
+- Zerstörungswut 
+- ausbeuterische Tendenzen 
+- zwanghafte Überlegenheit 
+- direkte Gegengewalt`
     },
 
     {
-      label: "Flügel: 2",
+      label: "Flügel: 1",
       content: `Bedeutung der Flügel:
 
 Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
 Dies führt zu einer Eigenschaftsadaption
 Einer der beiden Flügel ist besonders stark ausgeprägt
 
-Flügel zu Typ 2:
+Flügel zu Typ 1:
 
 Eigenschaften im positiven Fall:
 
-- Hang zur Helfermentalität
-- bemerkenswerte Weiblichkeit
-- stark ausgeprägte Empathie
-- ständige Fürsorge 
-(-> Gastgebermentalität)
-- starker Zugang zu Emotionen
-- instinktives Ausleben der Seelsorger-Fähigkeit
-- natürliche unterstützende Ader 
-- Charme
-- hat ein „großes Herz“
-- zwischenmenschliche Wärme
+- stark ausgeprägte Vernunft und Prinzipientreue 
+- Talent für die Kreation von Struktur / Ordnung 
+- hohes Maß an Ehrgeiz  
+- viel Fokus 
+- Fähigkeit, die Rolle eines Mentors einzunehmen 
+- Drang nach Optimierung / Fehlerbewusstsein 
+- Überzeugungskraft 
+- mentale Stärke & Disziplin 
+- Gewissenhaftigkeit 
+- hohe Werte 
+- Diskussionsfähigkeit
 
 Eigenschaften im negativen Fall:
 
-- starke emotionale Abhängigkeit
-- Hang zur Manipulation
-- Hysterie
-- steigert sich gerne in Emotionen hinein
-- Naivität
-- viele Bedürfnisse
-- zu stark ausgeprägte Weichheit
-- Aufopferungsdrang`
+- Engstirnigkeit 
+- Rechthaberei 
+- Doppelmoral 
+- zu hohe Ansprüche Mitmenschen gegenüber 
+- Arroganz 
+- Intoleranz anderen Meinungen gegenüber 
+- Konfliktsucht 
+- Kritikunfähigkeit 
+- zwanghafte Präsentation von Überlegenheit`
     },
 
     {
-      label: "Stresspunkt: 4",
+      label: "Stresspunkt: 6",
       content: `Definition Stresspunkt:
 
 Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
 
-Stresspunkt in Typ 4:
+Stresspunkt in Typ 6:
 
 Entwicklung im positiven Fall:
 
-- kreativ
-- tiefgründig
-- ausdrucksstark
-- empathisch
+- strukturiert
+- ehrlich
+- loyal
+- vernünftig
 
 Entwicklung im negativen Fall:
 
-- chaotisch
-- anspruchsvoll
-- melancholisch
-- hysterisch`
+- ängstlich
+- dogmatisch
+- blockiert
+- ignorant`
     },
 
     {
-      label: "Entspannungspunkt: 7",
+      label: "Entspannungspunkt: 3",
       content: `Definition Entspannungspunkt:
 
 Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
 
-Entspannungspunkt in Typ 7:
+Entspannungspunkt in Typ 3:
 
 Entwicklung im positiven Fall:
 
-- locker
-- humorvoll
-- weltoffen
-- gelassen
+- fokussiert
+- ehrgeizig
+- selbstdarstellerisch
+- aktiv
 
 Entwicklung im negativen Fall:
 
-- oberflächlich
-- verdrängend
-- abgelenkt
+- eitel
+- täuschend
+- unauthentisch
 - narzisstisch`
     }
   ],
 
   subtypes: [
     {
-      code: "se1",
+      code: "se9",
       content: `Grundmotivation:
-Liebe in der Selbsterhaltung
+Harmonie (in der Selbsterhaltung)
 
-Leidenschaft:
-Stolz in der Selbsterhaltung
+Leidenschaft: 
+Trägheit (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- Ich-zuerst-Mentalität
-- starke Bedürfnisse
-- liebevoll und kümmernd
-- bei verletzten Bedürfnissen ruppig / grob
-- kann rücksichtslos wirken
-- fühlt sich schnell übergangen
-- erwartet Gegenleistung für Dienste
-- starke Bedürftigkeit
-- Naivität`,
+- starker Redefluss
+- viel Appetit (geistig & körperlich)
+- Vulkan-Prinzip (Ausbruch von Aggressionen nach langer Ruhezeit, danach wieder ruhig)
+- schläft in Routinen & Gewohnheiten ein
+- betäubt sich selbst
+- kann sehr feindselig werden, wenn sie "von anderen verarscht wird"
+- starke Aggression, sobald man sie aus ihrer Routine schmeißt
+- prokrastiniert gerne
+- sehr bequem 
+- Entscheidungsschwäche
+- Konfliktunfähigkeit
+- Selbstvergessenheit
+- starke Trägheit
+- sammelt gerne Dinge und Informationen
+- veränderungsunfähig
+- harmonisch im Alltag
+- freundlich & warmherzig
+- zeitweise passiv-aggressiv`,
 
       traits: [
         {
@@ -301,54 +290,56 @@ Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltung
 Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Kontratyp",
-          content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normaltyp",
+          content:  `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+Im Fall der se9 bedeutet das, dass dieser Enneagrammtyp die Trägheit im normalen Maße lebt.
 
-Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
-
-Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Harmonie empfängt, wenn er seine Trägheit nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem se9 bewusst und können angesprochen werden:
 
-- er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
-- er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
-- er ist ein Kontrollfreak
-- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
-- er ist sehr sensibel und nimmt viel wahr
-- er kann im Stressfall schnell sehr gereizt werden`
+- er ist gemütlich veranlagt
+- er mag Routinen und eine feste Tagesstruktur
+- er hat ein großes Herz und übernimmt gerne Verantwortung
+- er hat tiefes Interesse für einige Themen und beschäftigt sich mit Vielem
+- auf gewisse Art und Weise ist er ein Genussmensch und erfreut sich sowohl an geistigen als auch an materiellen Dingen
+- er ist sehr gutmütig
+- er hat ein Helfersyndrom
+- er fühlt sich aber auch schnell in die Enge getrieben und benutzt
+- er ist sehr harmonisch veranlagt
+- er geht Konflikten aus dem Weg
+- er ist im Wesen eher langsam als schnell
+- er hat oftmals einen guten Überblick und kann gut Zusammenhänge erkennen
+- er ist wie ein Vulkan und bricht von Zeit zu Zeit mal aus, ruht dann aber wieder eine gewisse Zeit
+- er kann sehr schlichtend sein, solange er selbst in seiner Mitte ist
+- Selbstvergessenheit gehört zu seinen Schwächen`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- Handlungs-Hysterie
+- Territoriums-Identifikation
+- Intuitions-Identifikation
+- Schutz-Defizit
+- starke innere Aggressionen
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 9 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starkes Schaffen von Abhängigkeiten im außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Trägheit & Passivität als Schutzgarant
+- aktives Schaffen von äußeren Routinen & Anpassungsmechanismen als Kompensation
+- Konfliktscheue
+- Betäubung bei Überforderung
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
@@ -356,86 +347,77 @@ Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 - Egoismus
 - Bedürfnisorientierung
 
-Blinder Fleck, speziell bei der se2:
+Blinder Fleck, speziell bei der se9:
 
-- Kampf gegen den Stolz
-- Abhängigkeit von inneren Bedürfnissen
-- ungesunder Egoismus
-- Schein-Abhängigkeit von materiellem Wohlbefinden`
+- Stagnation durch Routinen & Gewohnheiten
+- Appetit (auf Wissen oder Nahrung) als Betäubung
+- zwanghafte Ablehnung von Eitelkeit & Selbstdarstellung`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 9 im Allgemeinen hat folgende Blickqualität:
 
+- ausdruckslos
 - warm
+- verschmelzend
+- müde
 - freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- peripher
+- “Reptilienaugen”
 
-Die Blickqualität der se2 ergänzt sich wie folgt:
+Die Blickqualität der se9 ergänzt sich wie folgt:
 
-- dominant
-- herrisch`
+- glänzend-hungrig
+- gierig
+- interessiert`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 9 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- „Bambi-Augen“ (große, braune Augen)
-- volle Lippen
-- weibliche, „kurvige“ Züge
+- Zornesfalte
+- weiche Züge
+- großes Lächeln
 
-Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der se9 ergänzen sich wie folgt:
 
-- weicher, runder, kleiner Körperbau
-- üppiger Vorbau`
+- Hang zum Übergewicht
+- weiche & warme Stimme`
         },
         {
           label: "Wirkung",
-         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+         content: `Typ 9 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
+- selbstvergessen
+- angepasst
+- verschmelzend
+- zurückhaltend
+- positiv/optimistisch
 - freundlich
-- süß
-- weich
-- verführerisch
+- träge/langsam
 
-Die Wirkweisen der se2 ergänzen sich wie folgt:
+Die Wirkweisen der se9 ergänzen sich wie folgt:
 
-„Matriarchin“-Ausstrahlung:
-
-- stark
-- rau
-- naiv
-- egoistisch`
+“Gourmet”-Ausstrahlung:
+- warm
+- aufgequollen
+- bequem
+- interessiert`
         },
         {
           label: "Weiteres",
-         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+         content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- Tendenz zum aufopfernden Verhalten
+- starke Konfliktscheue
+- entscheidungs- & reaktionsarm
 
-Über den se2 sollte man explizit noch Folgendes wissen:
+Über den se9 sollte man explizit noch Folgendes wissen:
 
-- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
-        },
-        {
-          label: "Beispiele",
-          content: `- Wolfgang Amadeus Mozart
-- Quentin Tarantino
-- Ice Cube
-- Greta Thunberg
-- Pamela Michaelis
-- 6ix9ine
-- Ron Bielecki
-- Danielle Pinnock
-- Wilson Gonzales Ochsenknecht
-- Leni Klum`
+- Routinefreund
+- viel Appetit (sowohl Wissen als auch Essen)
+- brodelnder Vulkan
+- einziger Typ 9, der offen aggressiv sein kann`
         },
         {
           label: "Lookalikes",
@@ -443,6 +425,8 @@ Die Wirkweisen der se2 ergänzen sich wie folgt:
 
 - se8
 - se7
+- se4
+- so2
 
 Verwechslung in weiblicher Form:
 
@@ -454,80 +438,75 @@ Verwechslung in weiblicher Form:
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die se2 folgende Partner am ehesten:
+Statistisch gesehen wählt die se9 folgende Partner am ehesten:
 
-- se/so7
-- se3
+- se7
 - se1
-- sx/so/se6`
+- se2
+- se4
+- se/sx5`
         },
         {
           label: "Verkauf",
-          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-- Helfer- & Gastgebermentalität an den Tag legen
-- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-- Fragen stellen
-- immer darauf achten, großzügig/freigiebig zu sein
-- Dankbarkeit schon bei kleinen Gesten zeigen
-- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-- Wertschätzung entgegenbringen / Komplimente machen
-- kleine Geschenke und Zusatzbedürfnisse erfüllen
-- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-- Empathie & Verständnis entgegenbringen
-- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-- ständige Unterstützung zusichern`
+          content: `- Gefühl von Harmonie vermitteln 
+- keine Konflikte mit den bestehenden Routinen der se9 provozieren
+- die ausschweifende Art der se9 akzeptieren, ohne Ungeduld zu vermitteln
+- Werte und Ideologie anbringen - kein gehetztes Verhalten zeigen
+- wenig Vorgaben beim Gespräch machen
+- Darstellung des Produktes in einem Licht, dass die se9 realisiert, dass es ihr in alltägliche Routinen / ihrem Alltag stark unterstützen kann
+- viel Muße im Gespräch haben
+- Interesse am Alltag der se9 zeigen 
+- darstellen, dass man die se9 in ihren Routinen und ihrer Harmonie im Alltag unterstützen kann
+- Geschichten erzählen und in Metaphern sprechen 
+- geistreiche Kommentare abgeben 
+- Arroganz vermeiden`
         },
         {
           label: "Führung",
-          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-- Liebe und Wertschätzung entgegenbringen
-- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-- Dankbarkeit für die Leistung der se2 zeigen
-- kleine Geschenke und Zusicherungen machen
-- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-- kein grober Umgang gegenüber der se2
-- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-- klare Kommunikation, um Missverständnisse zu vermeiden
-- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-- mit kleinen Geschenken und Belohnungen motivieren
-- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
+          content: `- Routinen in der Arbeitsweise mit der se9 aufbauen
+- Unterstützung bei Konfliktsituationen liefern, um der se9 Rückhalt zu geben, da sie sich sonst schnell hilflos fühlt
+- Dafür sorgen, dass die se9 ihre Harmonie nicht bedroht sieht mit dem, was sie arbeitstechnisch tun muss (Werte und Ideologie der se9 müssen bedient werden)
+- Empathie und Wohlwollen an den Tag legen
+- Der se9 Führung geben, ohne ihr das Gefühl von Angriff zu geben, weil sie sonst stur wird und in Passivität verfällt, um ihre Harmonie aufrecht zu erhalten
+- Ratschläge in Geschichten verpacken oder schön formulieren, um der se9 diese schmackhaft zu machen
+- Respekt und Wertschätzung für die menschenfreundliche Art der se9 aufbringen
+- Dafür sorgen, dass die se9 auf der Arbeit ihre Komfortzone errichten kann, in der sie sich bewegt und ihre Harmonie schaffen kann (nicht ständig neue Alltagsaufgaben einrichten oder zu viel Spontanität fordern) 
+- die se9 in ihrem Wesen anerkennen und ihr nicht das Gefühl geben, nur ein kleiner Wicht zu sein sein, der für einen arbeitet
+- Anerkennung für die routinierte Arbeit der se9 entgegenbringen
+- Verlässlichkeit und Ehrlichkeit als Werte vertreten und aufstellen, damit die se9 sich geborgen fühlt und keine spontanen Entwicklungen die Harmonie stören könnten`
         }
       ]
     },
 
     {
-      code: "so1",
+      code: "so9",
       content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+Harmonie (in der sozialen Gruppe)
 
-Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+Leidenschaft: 
+Trägheit (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
-- charmant & schmeichelnd
-- Naivität
-- "die rechte Hand"
-- Seelsorger-Mentalität
-- starkes Helfersyndrom
-- spießig / kultiviert
-- starker Ehrgeiz
-- Verantwortungsbewusstsein
-- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
-- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
-- Einflussnahme in einer Gruppe
-- fachlich kompetent
-- "erwachsen"
-- manipulativ
-- tierlieb`,
+- engagiert
+- schließt sich gerne Organisationen & Gruppen an
+- verschmilzt gerne mit der Gruppe
+- "Mitläufer-Mentalität"
+- arbeitet sehr strebsam
+- kämpft gegen seine innere Trägheit an
+- sehr interessiert
+- passiv-aggressiv
+- imitiert gerne den Ehrgeiz und das Chamäleonprinzip von Typ 3
+- sucht in der Gruppe nach Orientierung
+- angepasst
+- freundlich 
+- Angst vor Ausgrenzung
+- Konfliktunfähigkeit
+- Sturheit
+- drängt sich ungerne in den Vordergrund
+- vermittelt gerne
+- starker Gerechtigkeitssinn
+- Entscheidungsunfähigkeit`,
 
       traits: [
         {
@@ -543,55 +522,59 @@ Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
 Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
         },
         {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Kontratyp",
+          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
 
-Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Im Fall der so9 bedeutet das, dass dieser Enneagrammtyp gegen die Trägheit ankämpft.
+
+Er hat die Erfahrung gemacht, dass er keine Harmonie empfängt, wenn er seine Trägheit nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem so9 bewusst und können angesprochen werden:
 
-- er ist hilfsbereit
-- er ist sensibel
-- er legt viel Wert auf Respekt
-- er besitzt eine gewisse Skepsis
-- er kümmert sich gerne um seine Freunde & Verwandten
-- er hat ein starkes Verantwortungsgefühl
-- er ist sehr feminin
-- er ist stolz auf das, was er bereits geschafft hat
-- er hat von Zeit zu Zeit emotionale Löcher
-- er braucht ein gutes Umfeld, um sich zu entwickeln
-- er kann gut vermitteln
-- er hat einen Hang zur Aufopferung
-- er ist sehr ehrgeizig
-- er ist vernünftig
-- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`
+- er arbeitet motiviert
+- er möchte stets möglichst aktiv sein und etwas leisten
+- er möchte sich beweisen
+- im Grunde ist er sehr friedfertig
+- er geht Konflikten aus dem Weg
+- er passt sich gerne an
+- er ist sehr gutmütig
+- sein Freundes- und Familienkreis ist ihm sehr wichtig
+- er möchte stets Anerkennung von seiner sozialen Gruppe bekommen (Arbeit, Familie, Freunde, Sportverein, ...)
+- er mag es nicht, den ganzen Tag faul herumzuliegen, verfällt dennoch manchmal in die Trägheit
+- seine Hobbies/Arbeit sind ihm wichtig
+- er sucht nach Dingen, die ihn erfüllen können
+- in einer Gruppe geht er besonders auf
+- er kann sehr gut vermitteln und dafür sorgen, dass es seinen Mitmenschen gut geht
+- er neigt dazu, sich im außen zu verlieren
+- er ist sehr friedliebend`
         },
         {
           label: "Blinder Fleck",
-         content: `Blinder Fleck der Herzenergie im Allgemeinen:
+         content: `Blinder Fleck der Bauchenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- Handlungs-Hysterie
+- Territoriums-Identifikation
+- Intuitions-Identifikation
+- Schutz-Defizit
+- starke innere Aggressionen
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 9 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Trägheit & Passivität als Schutzgarant
+- aktives Schaffen von  äußeren Routinen & Anpassungsmechanismen als Kompensation
+- Konfliktscheue
+- Betäubung bei Überforderung
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
@@ -599,173 +582,167 @@ Blinder Fleck des sozialen Typs im Allgemeinen:
 - Anpassung an die Gruppe
 - fehlende Motivation ohne Gruppenabgleich
 
-Blinder Fleck, speziell bei der so2:
+Blinder Fleck, speziell bei der so9:
 
-- starkes Ausleben des Stolzes
-- Abhängigkeit von der Anerkennung durch eine Gruppe
-- ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`
+- zwanghafter Kampf gegen Trägheit / Faulheit
+- starker Anpassungszwang
+- Mitläufer-Mentalität`
         },
         {
           label: "Augen",
-         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+         content: `Typ 9 im Allgemeinen hat folgende Blickqualität:
 
+- ausdruckslos
 - warm
+- verschmelzend
+- müde
 - freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- peripher
+- “Reptilienaugen”
 
-Die Blickqualität der so2 ergänzt sich wie folgt:
+Die Blickqualität der so9 ergänzt sich wie folgt:
 
-- hochmütig
-- ernst`
+- interessiert
+- wachsam`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 9 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- “Bambi-Augen” (große, braune Augen)
-- volle Lippen
-- weibliche, “kurvige” Züge
+- Zornesfalte
+- weiche Züge
+- großes Lächeln
 
-Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der so9 ergänzen sich wie folgt:
 
-- üppiger Vorbau`
+- dünner Körperbau
+- groß gebaut`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- Tendenz zum aufopfernden Verhalten
+- starke Konfliktscheue
+- entscheidungs- & reaktionsarm
 
-Die Wirkweisen der so2 ergänzen sich wie folgt:
+Über den so9 sollte man explizit noch Folgendes wissen:
 
-“Diplomaten”-Ausstrahlung:
-
-- vernünftig
-- strebsam
-- spießig`
+- Hang zu Teamsport & körperlichen Tätigkeiten`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- Tendenz zum aufopfernden Verhalten
+- starke Konfliktscheue
+- entscheidungs- & reaktionsarm
 
-Über den so2 sollte man explizit noch Folgendes wissen:
+Über den so9 sollte man explizit noch Folgendes wissen:
 
-- oftmals in Führungspositionen
-- großzügig
-- ehrgeizig`
+- Hang zu Teamsport & körperlichen Tätigkeiten`
         },
         {
           label: "Beispiele",
-          content: `- Jenna Ortega
-- Samuel L. Jackson
-- Lewis Hamilton
-- Barack Obama
-- Drake
-- Akon
-- Fynn Kliemann
-- Dr. Dre
-- Will Smith
-- Liam Payne`
+          content: `- Bill Murray
+- Bill Clinton
+- Bryan Cranston
+- Joachim Watzke
+- David Rockefeller
+- Ian Mc Kellen
+- Joe Cocker
+- Bruce Willis
+- Robin Williams
+- Tom Hanks
+- Deniz Deke`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- so3
-- se3
-- se7
+- so4
+- se6
+- so2
 - so7
-- so9
 
 Verwechslung in weiblicher Form:
-
-- so3
-- se7
-- so9
-- se3`
+- se3
+- so7
+- so2
+- se6`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die so2 folgende Partner am ehesten:
+Statistisch gesehen wählt die so9 folgende Partner am ehesten:
 
-- so7
-- so/se3
-- so/se1
-- so6
-- se8 (vereinzelt)`
+- so2
+- so/sx4
+- so/se7
+- so5
+- so/se1`
         },
         {
           label: "Verkauf",
-          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
--> den Stolz nicht kränken
-
-- Anerkennung für Leistungen und Erfolge geben
-- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
-- Verantwortungsbewusstsein der so2 herausstellen und loben
-- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
-- Helferrolle übernehmen
-- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
-- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
-- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
-- Engagement im Kundenstamm zeigen
-- mitfühlend sein`
+          content: `- Interesse an den Gruppenaktivitäten der so9 zeigen 
+- Netzwerken und Kontaktfreudigkeit als Wert proklamieren 
+- Gruppenbereicherung in Bezug auf die eigene Ideologie & Arbeit darstellen
+- Harmonie und Wohlwollen zeigen 
+- Konfliktlose Kommunikation mit Einstellung auf das Gegenüber
+- Interesse an den Hobbies der so9 zeigen
+- Überwindung der Trägheit als Notwendigkeit darstellen, da die so9 sich damit identifizieren kann 
+- Die Gruppenförderlichkeit des Produktes darstellen
+- Arroganz vermeiden
+- sich selbst als kleinen Teil des großen Ganzen darstellen 
+- Lob für die Einbringung in den Gruppen der so9 anbringen
+- Anerkennung der Aktivitäten und Ziele der so9
+- Produkt als Unterstützung der Gruppe der so9 anbieten `
         },
         {
           label: "Führung",
-          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
-- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
-- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
-- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
-- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
-- Lob erteilen bei guter Aufgabenerfüllung
-- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
-- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
-- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
-- Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
+          content: `- Gruppenideologie stärken und aufstellen
+- dafür sorgen, dass die so9 in die Gruppe integriert wird und einen wichtigen Teil dieser Gruppe darstellt, auf den die Menschen zählen, um sie zu motivieren
+- dafür sorgen, dass das Umfeld der so9 so gefiltert ist, dass ihr nichts im Wege steht, die Gruppenzugehörigkeit in der Firma zu suchen anstatt in einem „schlechten Freundeskreis“, um zu verhindern, dass die so9 sich in der falschen Gruppe angleicht und nichts mehr hinbekommt
+- gewährleisten, dass die Menschen in der Gruppe die Handlungen und Fortschritte der so9 sehen, um sie zu motivieren
+- Anerkennung für die Arbeitsbereitschaft der so9 aufbringen, sofern vorhanden
+- von der so9 „Commitments“ einholen und überprüfen, ob sie sich an diese hält
+- Empathie und Gutherzigkeit vermitteln, um der so9 ein Gefühl von Geborgenheit zu vermitteln
+- für Leistungen viel Anerkennung und Rampenlicht geben, für mangelnde Leistung viel Zuwand und Besorgnis äußern, sodass die so9 sich schnell so fühlt, als würde die Gruppe noch von ihr denken, dass sie träge sei, denn dann beginnt sie wieder zu arbeiten
+- starke Betreuung geben, da die so9 zur Selbstvergessenheit neigt, was auch damit einhergeht, dass man die so9 immer wieder an Ziele, Träume oder Commitments erinnern muss und die so9 in Aktivität halten muss
+- darauf achten, der so9 nicht das Gefühl zu geben, sie anzugreifen oder abzuerkennen`
         }
       ]
     },
 
     {
-      code: "sx1",
+      code: "sx9",
       content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+Harmonie (in der zwischenmenschlichen Beziehung)
 
-Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+Leidenschaft: 
+Trägheit (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
-- sehr feminin
-- unersättlicher Liebesdurst
-- erlebnisorientiert
-- sprunghaft
-- schmeichelnd-manipulativ
-- legt viel Wert auf Attraktivität
-- tierlieb
-- hartnäckig
-- engstirnig
-- verführerisch
-- geht zwischenmenschlich auf andere zu
-- fühlt sich schnell vom Partner betrogen
-- macht sich schnell abhängig vom Partner
-- unterstützend`,
+- verschmelzend
+- gleicht sich ihrem Gegenüber stark an
+- konfliktunfähig
+- kann keine Grenzen setzen
+- rezessiv
+- wird schnell übersehen
+- Einheitsgefühl als Ideal
+- Ohne Beziehung schnell melancholisch
+- versucht, ihren Partner glücklich zu machen, um Konflikte zu vermeiden
+- unterdrückt oft eigene Impulse
+- selbstvergessen
+- vergisst, was sie eigentlich möchte
+- neigt im unbewussten Fall zum Rückzug
+- sensibel
+- empathisch
+- freundlich
+- harmonisch
+- sich auf den anderen einstellend`,
 
       traits: [
         {
@@ -781,53 +758,59 @@ Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu
 Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Verstärkungstyp",
+          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
 
-Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+Im Fall der sx9 bedeutet das, dass dieser Enneagrammtyp die Trägheit extrem stark lebt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Harmonie empfängt, wenn er seine Trägheit nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+         content: `Folgende Eigenschaften sind dem sx9 bewusst und können angesprochen werden:
 
-- sehr hilfsbereit
-- er erlebt gerne viel
-- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
-- er denkt sehr partnerschaftlich
-- er kümmert sich gut um sein Äußeres
-- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
-- er kümmert sich gerne um seine Familie & Freunde
-- er ist sehr empathisch
-- er kann im Stressfall sehr gereizt werden
-- er ist charmant
-- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
-- er ist sehr sensibel
-- er geht auf im Zwischenmenschlichen
-- er verfügt über viele Emotionen`
+- er legt großen Wert auf zwischenmenschliche Verbindungen
+- er ist angepasst und zurückhaltend
+- er ist selbstvergessen
+- er stellt sich gerne auf das Gegenüber ein
+- er "verschmilzt" gerne mit einer Person, einem Thema oder einem Objekt (z.B. mit dem Partner, einem engen Freund, seinem inneren Glauben, IT, seiner Arbeit, seinem Hobby, ...)
+- er ist eher skeptisch
+- er folgt einer eigenen Logik
+- er ist sehr friedliebend
+- er kann sich gut in andere hineinversetzen
+- er ist eher konfliktscheu, steht aber zu seinen Werten
+- er wirkt eher unscheinbar
+- er ist kein Angeber (Understatements sind gängig)
+- er hat hohe Werte und Ideale
+- er ist dennoch sehr tolerant
+- er kommt gut mit seinen Mitmenschen klar
+- er ist oftmals sehr schlau (-> "träges Genie")
+- er ist schnell mit Aktivität überfordert
+- er ist sehr verbindend`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- Handlungs-Hysterie
+- Territoriums-Identifikation
+- Intuitions-Identifikation
+- Schutz-Defizit
+- starke innere Aggressionen
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 9 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Trägheit & Passivität als Schutzgarant
+- aktives Schaffen von äußeren Routinen & Anpassungsmechanismen als Kompensation
+- Konfliktscheue
+- Betäubung bei Überforderung
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
@@ -835,147 +818,153 @@ Blinder Fleck des sexuellen Typs im Allgemeinen:
 - Abhängigkeit von äußerer Attraktivität & Bindungen
 - Angst vor Entwertung & Degradierung
 
-Blinder Fleck, speziell bei der sx2:
+Blinder Fleck, speziell bei der sx9:
 
-- sexueller Stolz (Gefühl, betrogen zu werden)
-- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
-- starke Erlebnisorientierung`
+- extreme Konfliktscheue
+- Selbstvergessenheit
+- Verschmelzung mit einem Thema`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 9 im Allgemeinen hat folgende Blickqualität:
 
+- ausdruckslos
 - warm
+- verschmelzend
+- müde
 - freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- peripher
+- “Reptilienaugen”
 
-Die Blickqualität der sx2 ergänzt sich wie folgt:
+Die Blickqualität der sx9 ergänzt sich wie folgt:
 
-- verführerisch
-- begeistert`
+- unsicher
+- instinktiv
+- interessiert`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 9 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- "Bambi-Augen" (große, braune Augen)
-- volle Lippen
-- weibliche, "kurvige" Züge
+- Zornesfalte
+- weiche Züge
+- großes Lächeln
 
-Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der sx9 ergänzen sich wie folgt:
 
-- schlank
-- lange Haare
-- Model-Statur
-- Tattoos`
+- Hautprobleme
+- unauffälliger Körperbau
+- große Zähne`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 9 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
+- selbstvergessen
+- angepasst
+- verschmelzend
+- zurückhaltend
+- positiv/optimistisch
 - freundlich
-- süß
-- weich
-- verführerisch
+- träge/langsam
 
-Die Wirkweisen der sx2 ergänzen sich wie folgt:
+Die Wirkweisen der sx9 ergänzen sich wie folgt:
 
-“Casanova”-Ausstrahlung:
-
-- verführerisch
-- abenteuerlustig
-- manipulativ
-- aufreizend`
+“Mystiker”-Ausstrahlung:
+- unklar
+- verschwommen
+- unscheinbar
+- verschmelzend`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- Tendenz zum aufopfernden Verhalten
+- starke Konfliktscheue
+- entscheidungs- & reaktionsarm
 
-Über den sx2 sollte man explizit noch Folgendes wissen:
+Über den sx9 sollte man explizit noch Folgendes wissen:
 
-- häufig Tattoos`
+- extrem konfliktscheu und selbstvergessen
+- körperliche Nähe`
         },
         {
           label: "Beispiele",
-          content: `- Ariana Grande
-- Elvis Presley
-- Jay-Z
-- Tobias Beck
-- Robert Downey Jr.
-- Pamela Reif
-- Monika Gruber
-- Julienco
-- Ryan Gosling
-- Shawn Mendes`
+          content: `- Keanu Reeves
+- Ed Sheeran
+- Ringo Starr
+- Carl Rogers
+- Eckhart Tolle
+- Dirk Nowitzki
+- Adam Sandler
+- Hugh Jackman
+- Mario Barth
+- Helge Schneider
+- Mr. Beast`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- sx2
-- sx4
+- se7
+- so4
+- so2
 - sx7
+- sx2
+- so5
 
 Verwechslung in weiblicher Form:
 
-- sx3
-- sx4
-- sx6
-- sx7`
+- se7
+- sx7
+- so7
+- so8
+- so5`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+Statistisch gesehen wählt die sx9 folgende Partner am ehesten:
 
-- sx/so6
-- sx/so7
-- sx/so3
-- sx5
-- sx9`
+- se/sx7
+- se/sx1
+- sx/so2
+- sx/se8
+- sx/so/se5
+- se6`
         },
         {
           label: "Verkauf",
-          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
-- Verständnis entgegenbringen
-- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
-- Interesse an ihr und ihren Themen zeigen
-- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
-- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
-- liebevollen und warmen Umgang pflegen
-- Sensibilität und Empathie zeigen
-- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
-- Großzügigkeit und Freigebigkeit zeigen`
+          content: `- Arroganz vermeiden 
+- Intime Verbindung der sx9 finden (Partner, Thema, Firma, Hobby, Glauben, …) und diese Verbindung nicht in Konflikt bringen
+- Führung übernehmen ohne sich über die sx9 zu stellen 
+- Interesse an den Themen der sx9 zeigen
+- Vielschichtigkeit und Umfänglichkeit des Produktes beschreiben
+- Harmonie und Wohlwollen anbringen
+- Konfliktthemen vermeiden
+- Optimismus zeigen 
+- Tatendrang und Effizienz zeigen, um der sx9 zu vermitteln, dass man selbst nicht der Trägheit unterliegt und ihr ggfs. ebenfalls aus der Trägheit heraushilft
+- Akzeptanz der Trägheit der sx9 zeigen 
+- Darstellung der Schaffung von zwischenmenschlicher Harmonie durch das Produkt
+- Bedeutung und Emotionalität gewährleisten 
+- Unterstützung zusichern
+- Interesse an den Werten der sx9 zeigen `
         },
         {
           label: "Führung",
-          content: `- Dankbarkeit für die sx2 entgegenbringen
-- Komplimente machen
-- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
-- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
-- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
-- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
-- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
-- Verlässlichkeit der sx2 wertschätzen
-- Liebe und Zuneigung entgegenbringen
-- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
-- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
-- empathischer Umgang ist essentiell
-- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
+          content: `- die Anpassungsfähigkeit und Konfliktscheue der sx9 nutzen, um sie zu motivieren (z.B. indem man ihr in Aussicht stellt, einen großen Konflikt zu haben, wenn sie nicht Leistung X/Y erbringt) 
+- Empathie und Einfühlungsvermögen stärken
+- Ego-Gehabe aus dem Spiel lassen, weil die sx9 das eher nervt und einen in schlechtem Licht scheinen lässt
+- dafür sorgen, dass die Verbindung, in der die sx9 ihre Harmonie leben möchte, etwas mit der Firma zutun hat (entweder als Verbindungspol die Führungskraft, die Firma selbst oder ein Ziel hinter der Arbeit schaffen) 
+- Motivation durch Aufrechterhaltung der Harmonie im Zwischenmenschlichen / in der jeweiligen Verbindung (an der Stelle ist es wichtig, herauszufinden, welche Verbindung der sx9 eingegangen ist / was ihm wichtig ist!)
+- Interesse an den Hobbies, der Familie und den Weltanschauungen der sx9 zeigen, um ihm ein Gefühl von Geborgenheit zu vermitteln
+- starke Betreuung, da die sx9 gerne in Trägheit und Passivität verfällt, sofern sie mit diesem Verhalten nicht die Harmonie gefährdet sieht
+- Respekt und Wertschätzung sind sehr wichtig dafür, dass die sx9 sich nicht angegriffen fühlt und stur wird
+- konkrete Führung geben, denn die sx9 braucht nur jemanden, der ihr genau sagt, wie es funktioniert (hohe Umsetzungskompetenz, sobald die Verbindung innerhalb der Firma gesetzt wurde, da due sx9 Angst vor dem Konflikt mit der Firma / Führungskraft hat)
+- Ganzheitlichkeit der Dinge betrachten und darstellen, da die sx9 oftmals von spirituellen Ideen sehr viel hält (einheitliche Verschmelzung mit dem Leben)
+- viel Zeit und Energie der sx9 widmen, um die Verbindung aufrecht zu erhalten und die Aktivität zu gewährleisten`
           
         }
       ]
