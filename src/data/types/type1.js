@@ -844,8 +844,8 @@ Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hi
 Im Fall der sx1 bedeutet das, dass dieser Enneagrammtyp gegen den Zorn ankämpft.
 
 Er hat die Erfahrung gemacht, dass er nicht perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
-        },
-      ]
+        }
+      ],
 
       modules: [
         {
