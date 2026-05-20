@@ -516,7 +516,7 @@ Statistisch gesehen wählt die se4 folgende Partner am ehesten:
 },
     {
   code: "so4",
-  content: "Grundmotivation":
+  content: "Grundmotivation:
 `Individualität (in der sozialen Gruppe)
 
 Leidenschaft: 
