@@ -269,24 +269,32 @@ Entwicklung im negativen Fall:
 
   subtypes: [
     {
-      code: "se1",
+      code: "se6",
       content: `Grundmotivation:
-Liebe in der Selbsterhaltung
+Sicherheit (in der Selbsterhaltung)
 
-Leidenschaft:
-Stolz in der Selbsterhaltung
+Leidenschaft: 
+Angst (in der Selbsterhaltung)
 
 Stichpunktartige Beschreibung:
 
-- Ich-zuerst-Mentalität
-- starke Bedürfnisse
-- liebevoll und kümmernd
-- bei verletzten Bedürfnissen ruppig / grob
-- kann rücksichtslos wirken
-- fühlt sich schnell übergangen
-- erwartet Gegenleistung für Dienste
-- starke Bedürftigkeit
-- Naivität`,
+- sehr skeptisch
+- ideologisch festgefahren
+- extrem sicherheitsorientiert
+- oft Beamte
+- Glauben/innere Überzeugung ist wichtig
+- norm- und wertorientiert
+- Routinen & Strukturen sind essentiell
+- freundlich/warmherzig
+- verantwortungsbewusst
+- sehr loyal
+- geistreiche Art
+- Familienmensch
+- Freunde sind wichtig
+- bemüht sich stets darum, wohlwollend zu sein, auch wenn ihn seine Mitmenschen aufregen/ärgern
+- ständige Sorgen & Zweifel
+- Analyse von Zukunftsprognosen, um Sicherheit zu gewährleisten
+- strukturiert`,
 
       traits: [
         {
@@ -302,54 +310,58 @@ Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltung
 Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Kontratyp",
-          content:  `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Verstärkungstyp",
+          content:  `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg ins Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+Im Fall der se6 bedeutet das, dass dieser Enneagrammtyp die Angst extrem stark lebt.
 
-Im Fall der se2 bedeutet das, dass dieser Enneagrammtyp gegen den Stolz ankämpft.
-
-Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Sicherheit hat, wenn er seine Angst nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem se6 bewusst und können angesprochen werden:
 
-- er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
-- er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
-- er ist ein Kontrollfreak
-- er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
-- er ist sehr sensibel und nimmt viel wahr
-- er kann im Stressfall schnell sehr gereizt werden`
+- er hinterfragt viel
+- er hat eine starke Skepsis
+- er bildet sich immer eine rationale Meinung
+- er hat ein gefestigtes Weltbild
+- er legt viel Wert auf Familie & Freunde
+- er baut sich gerne Routinen 
+- er durchdenkt viele Situationen, bis er sich sicher in seiner Entscheidung ist
+- er tritt für seine Meinungen & sein Weltbild ein
+- seine eigenen Werte sind für ihn von extrem hoher Wichtigkeit 
+- er fühlt sich schnell angegriffen / bedroht
+- er ist immer für seine Familie da
+- er ist sehr loyal und verlässlich
+- er ist ehrlich
+- er ist ein großer Freund von Klarheit und Struktur
+- er sucht sich gerne Halt in äußeren Strukturen
+- im Inneren fühlt er sich sehr vorsichtig & manchmal sogar ängstlich
+- im Stress kann er sehr aktiv werden / zu blindem Aktionismus neigen
+- wenn er entspannt ist, entwickelt er eine gewisse Ruhe und Gelassenheit`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- rationale Hysterie
+- Sicherheits-Identifikation
+- Gedanken-Identifikation
+- Vertrauens-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 6 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starkes Schaffen von Abhängigkeiten im außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Angst & Vorsicht als Sicherheitsgarant
+- aktives Schaffen von äußeren Sicherheiten & Strukturen als Kompensation
+- Klarheitsdrang
+- Paralyse bei Überforderung
 
 Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 
@@ -357,178 +369,184 @@ Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
 - Egoismus
 - Bedürfnisorientierung
 
-Blinder Fleck, speziell bei der se2:
+Blinder Fleck, speziell bei der se6:
 
-- Kampf gegen den Stolz
-- Abhängigkeit von inneren Bedürfnissen
-- ungesunder Egoismus
-- Schein-Abhängigkeit von materiellem Wohlbefinden`
+- Familie/Religion als einzig sicherer Halt & Kompensation
+- stark dogmatisch
+- Zwanghafte Verteidigung des Verlässlichen`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 6 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- skeptisch
+- vorsichtig
+- ängstlich
+- zurückhaltend
+- zögernd
+- analytisch
+- zweifelnd
+- distanziert
+- unsicher
 
-Die Blickqualität der se2 ergänzt sich wie folgt:
+Die Blickqualität der se6 ergänzt sich wie folgt:
 
-- dominant
-- herrisch`
+- hinterfragend
+- bedroht
+- warm`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 6 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- „Bambi-Augen“ (große, braune Augen)
-- volle Lippen
-- weibliche, „kurvige“ Züge
+- Stirnfalten
+- wenig dichtes Haar 
+- Sehschwäche 
+- “Geheimratsecken”
 
-Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der se6 ergänzen sich wie folgt:
 
-- weicher, runder, kleiner Körperbau
-- üppiger Vorbau`
+- sehr dünn/schmal
+- kleiner Brustkorb
+- dünnes Haar`
         },
         {
           label: "Wirkung",
-         content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+         content: `Typ 6 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
+- verkopft
+- analytisch
+- theoretisch
+- sachlich-kühl
+- ignorant
+- vorsichtig
+- ängstlich
+- unruhig
+- treu
+
+Die Wirkweisen der se6 ergänzen sich wie folgt:
+
+“Familienmensch”-Ausstrahlung:
 - warm
-- freundlich
-- süß
-- weich
-- verführerisch
-
-Die Wirkweisen der se2 ergänzen sich wie folgt:
-
-„Matriarchin“-Ausstrahlung:
-
-- stark
-- rau
-- naiv
-- egoistisch`
+- loyal
+- sicherheitsorientiert`
         },
         {
           label: "Weiteres",
-         content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+         content: `Über Typ 6 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- Routinen & Strukturen prägen den Alltag
+- unglaubliche Loyalität & Skepsis
 
-Über den se2 sollte man explizit noch Folgendes wissen:
+Über den se6 sollte man explizit noch Folgendes wissen:
 
-- verspürt starke Bedürfnisse („Ich-zuerst“-Mentalität)`
+- Ideologie (festes Glaubenssystem) ist wichtig
+- Beamtentum ist üblich`
         },
         {
           label: "Beispiele",
-          content: `- Wolfgang Amadeus Mozart
-- Quentin Tarantino
-- Ice Cube
-- Greta Thunberg
-- Pamela Michaelis
-- 6ix9ine
-- Ron Bielecki
-- Danielle Pinnock
-- Wilson Gonzales Ochsenknecht
-- Leni Klum`
+          content: `- Phillip Amthor
+- Karl Lauterbach
+- Woody Allen
+- Detlef Schrempf
+- Neil Armstrong
+- Andrés Iniesta
+- Mark Gatiss
+- Stefan Quandt`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- se8
-- se7
+- so5
+- so1
+- se1
+- so7
+- so9
 
 Verwechslung in weiblicher Form:
 
-- se8
-- se7
-- se4`
+- so5
+- so4
+- so1
+- se1
+- so9`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die se2 folgende Partner am ehesten:
+Statistisch gesehen wählt die se6 folgende Partner am ehesten:
 
+- se2
+- se8
 - se/so7
-- se3
 - se1
-- sx/so/se6`
+- se/so5
+- sx9`
         },
         {
           label: "Verkauf",
-          content: `- das Gefühl vermitteln, dass man ihm helfen möchte und ihm viel geben kann
-- Moral hinter der eigenen Arbeit betonen, da sich die se2 schnell betrogen fühlt und deshalb sehen muss, dass sie einem vertrauen kann
-- Bodenständigkeit präsentieren, um Vertrauen aufzubauen
-- Helfer- & Gastgebermentalität an den Tag legen
-- akribisch darauf achten, die se2 ernstzunehmen und auf ein Podest zu heben
-- Fragen stellen
-- immer darauf achten, großzügig/freigiebig zu sein
-- Dankbarkeit schon bei kleinen Gesten zeigen
-- alle Bedürfnisse der se2 sehen und bedienen, ohne sie als bedürftig darzustellen
-- ständige Verfügbarkeit gewährleisten, sodass die se2 auf ihre Fragen eine unmittelbare Antwort erhält
-- Wertschätzung entgegenbringen / Komplimente machen
-- kleine Geschenke und Zusatzbedürfnisse erfüllen
-- authentisch auftreten, sodass die se2 sich nicht "verarscht" fühlt
-- Empathie & Verständnis entgegenbringen
-- Führung übernehmen, jedoch darauf achten, der se2 immer die finale Kontrolle zu überlassen, da sie meist ein "Kontrollfreak" ist
-- ständige Unterstützung zusichern`
+          content: `- Sicherheit ausstrahlen
+- Unsicherheiten ausmerzen
+- klare und sachliche Sprache
+- Verlässlichkeit und Loyalität als hohe Werte anpreisen
+- Skepsis der se6 als positiv darstellen und alle Fragen ausführlich beantworten
+- Moral und innere Werte anpreisen
+- Das Gespräch klar strukturieren
+- Logische Darstellung der Argumente und Lösungen für die Probleme der se6
+- Verantwortungsgefühl darstellen
+- dem se6 die Angst nehmen, da er sich sonst nicht entscheiden kann zu investieren (alle möglichen Szenarien in Bezug auf den Erwerb des Produktes durchgehen)
+- abtasten, wo die Komfortzone der se6 ist und diese nicht überschreiten, sondern innerhalb seines Dogmas die Lösung anbieten`
         },
         {
           label: "Führung",
-          content: `- auf die Bedürfnisse der se2 eingehen und sie respektieren
-- Liebe und Wertschätzung entgegenbringen
-- Empathie und Geduld aufbringen, um der se2 nicht das Gefühl zu geben, dass sie nervt
-- Anweisungen und Aufgaben mehrmals wiederholen und erklären, damit die se2 sie verinnerlicht
-- Dankbarkeit für die Leistung der se2 zeigen
-- kleine Geschenke und Zusicherungen machen
-- statt dauerhafter Kritik auch die erbrachte Leistung würdigen
-- kein grober Umgang gegenüber der se2
-- erwähnen, dass einem klar ist, dass die se2 nicht den ganzen Tag hören muss, wie gut sie ist, man sie dennoch wertschätzen möchte, was sie tut
-- klare Kommunikation, um Missverständnisse zu vermeiden
-- emotionale Bindung zur se2 aufbauen und ihr auf persönlicher Ebene begegnen
-- vermitteln, dass die se2 gut ist, wie sie ist und nicht dauerhaft an sich herumoptimieren muss
-- Akzeptanz und Toleranz gegenüber den Werten und Denkweisen der se2 entgegenbringen
-- mit kleinen Geschenken und Belohnungen motivieren
-- beruflichen Aufstieg mit persönlicher Lebensverbesserung in Aussicht stellen
-- Respekt vor der Leistung der se2 zeigen und ihr zugleich vermitteln, dass du ihr ganz besonders zutraust, Sache X/Y zu erreichen/erledigen
-- erfragen, welche Ansprüche und Bedürfnisse die se2 hat und ihr die Erfüllung ihrer Wünsche in Aussicht stellen`
+          content: `- Sicherheiten und Strukturen vorgeben, um die Angst des se6 zu reduzieren
+- Als Wegweiser fungieren, ohne überheblich zu werden
+- Darstellung von verlässlichen Methoden, die sich bereits bewährt haben, um die se6 zu motivieren
+- Beachten, dass die se6 großen Wert auf die eigene Ideologie und Integrität legt
+- klare und deutliche Sprache verwenden, um Unsicherheiten zu vermeiden
+- logische Argumente und Sätze verwenden, die der se6 rational begreiflich sind
+- Keine Ungeduld bei Ignoranz zeigen, sondern beharrlich immer wieder dasselbe vermitteln, bis die se6 es versteht und umsetzt
+- Als loyaler Ansprechpartner für alle möglichen Dinge fungieren, sodass die se6 in einem Sicherheit findet
+- Motivation folgt bei der se6 durch die Selbsterhaltung, bedeutet, dass man ihr bei fehlender Leistung eine schlechte Selbsterhaltung in Aussicht stellen kann, um die se6 erneut in Aktivität zu bringen (wenig Geld, Lifestyle, Gesundheit, …)`
         }
       ]
     },
 
     {
-      code: "so1",
+      code: "so6",
       content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+Sicherheit (in der sozialen Gruppe)
 
-Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+Leidenschaft: 
+Angst (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
-- charmant & schmeichelnd
-- Naivität
-- "die rechte Hand"
-- Seelsorger-Mentalität
-- starkes Helfersyndrom
-- spießig / kultiviert
-- starker Ehrgeiz
-- Verantwortungsbewusstsein
-- kümmert sich gerne um Angelegenheiten der sozialen Gruppe
-- Gefühl, betrogen worden zu sein, sobald die Anerkennung nicht erfolgt
-- Einflussnahme in einer Gruppe
-- fachlich kompetent
-- "erwachsen"
-- manipulativ
-- tierlieb`,
+- Pflichtbewusstsein
+- soziale Stellung ist wichtig
+- ambivalent im Wesen (entweder mutig oder ängstlich)
+- strukturiert
+- ignorant
+- überzeugt
+- ständiger innerer Dialog mit einer ganzen Prüfungskommission
+- autoritätshörig
+- angepasst
+- loyal
+- ehrgeizig
+- Regelkonformität
+- zweifelnd
+- misstrauisch
+- skeptisch
+- innerlich zerrissen
+- tut sich schwer damit, einzelnen Personen zu vertrauen (vertraut dafür eher einer größeren Gruppe)
+- Angst vor beruflichem Aufstieg (Strukturorientierung)
+- Abneigung, in einer öffentlich sichtbaren Position zu sein (Schutz vor Kritik)
+- kritisiert gerne Vorgesetzte
+- starker Zweifel an Individuen
+- jedoch macht sie sich ein Idealbild aus Autoritätspersonen
+- kann sich gut für Angelegenheiten einsetzen und starkmachen, an die er fest glaubt`,
 
       traits: [
         {
@@ -544,55 +562,56 @@ Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
 Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
         },
         {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normaltyp",
+          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
 
-Im Fall der so2 bedeutet das, dass dieser Enneagrammtyp den Stolz extrem stark lebt.
+Im Fall der so6 bedeutet das, dass dieser Enneagrammtyp die Angst im normalen Maße lebt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Er hat die Erfahrung gemacht, dass er Sicherheit hat, wenn er seine Angst nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so2 bewusst und können angesprochen werden:
+          content: `Folgende Eigenschaften sind dem so6 bewusst und können angesprochen werden:
 
-- er ist hilfsbereit
-- er ist sensibel
-- er legt viel Wert auf Respekt
-- er besitzt eine gewisse Skepsis
-- er kümmert sich gerne um seine Freunde & Verwandten
-- er hat ein starkes Verantwortungsgefühl
-- er ist sehr feminin
-- er ist stolz auf das, was er bereits geschafft hat
-- er hat von Zeit zu Zeit emotionale Löcher
-- er braucht ein gutes Umfeld, um sich zu entwickeln
-- er kann gut vermitteln
-- er hat einen Hang zur Aufopferung
-- er ist sehr ehrgeizig
+- er ist sehr pflichtbewusst
+- er kann Dinge gut durchdenken
+- er kann gut Risiken abwägen und reflektieren
+- er ist eher sicherheitsorientiert, kann aber in Ausnahmefällen auch mal mit dem Kopf durch die Wand rennen
+- er ist sehr skeptisch, vor allem neuen Menschen gegenüber
+- um ihn von einer Meinung zu überzeugen, muss man ganz logisch erklären, wieso seine Meinung falsch ist
+- er weicht ungern von seinem Standpunkt ab
+- er fühlt sich wohl in Strukturen & Routinen
+- er kann gut kombinieren
+- er ist im Inneren oftmals ängstlich, zeigt es nach außen aber nicht immer
+- er hat gerne Gleichgesinnte um sich herum und sucht in dieser Gruppe seinen Halt
+- er folgt klaren Werten & Prinzipien
 - er ist vernünftig
-- er ist stolz auf das, was er bereits geschafft hat, aber tut sich schwer damit, sich mit der bisherigen Leistung zufriedenzugeben
-- er ist verlässlich`
+- im Stress neigt er zu blindem Aktionismus 
+- wenn er entspannt ist, wird er gelassener und ruhiger
+- er ist sehr engagiert und kann schnell einen gewissen Ehrgeiz entwickeln`
         },
         {
           label: "Blinder Fleck",
-         content: `Blinder Fleck der Herzenergie im Allgemeinen:
+         content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- rationale Hysterie
+- Sicherheits-Identifikation
+- Gedanken-Identifikation
+- Vertrauens-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 6 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Angst & Vorsicht als Sicherheitsgarant
+- aktives Schaffen von  äußeren Sicherheiten & Strukturen als Kompensation
+- Klarheitsdrang
+- Paralyse bei Überforderung
 
 Blinder Fleck des sozialen Typs im Allgemeinen:
 
@@ -600,101 +619,104 @@ Blinder Fleck des sozialen Typs im Allgemeinen:
 - Anpassung an die Gruppe
 - fehlende Motivation ohne Gruppenabgleich
 
-Blinder Fleck, speziell bei der so2:
+Blinder Fleck, speziell bei der so6:
 
-- starkes Ausleben des Stolzes
-- Abhängigkeit von der Anerkennung durch eine Gruppe
-- ungesunde Aufopferungsbereitschaft
-- Spießigkeit, um anerkannt zu werden`
+- zwanghafte Pflichterfüllung als Sicherheitsgarant
+- zwanghafte Anpassung an Umstände 
+- Verzettelung in fremden Strukturen`
         },
         {
           label: "Augen",
-         content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+         content: `Typ 6 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- skeptisch
+- vorsichtig
+- ängstlich
+- zurückhaltend
+- zögernd
+- analytisch
+- zweifelnd
+- distanziert
+- unsicher
 
-Die Blickqualität der so2 ergänzt sich wie folgt:
+Die Blickqualität der so6 ergänzt sich wie folgt:
 
-- hochmütig
-- ernst`
+- kalt
+- ausdruckslos`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 6 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- “Bambi-Augen” (große, braune Augen)
-- volle Lippen
-- weibliche, “kurvige” Züge
+- Stirnfalten
+- wenig dichtes Haar 
+- Sehschwäche 
+- “Geheimratsecken”
 
-Die körperlichen Auffälligkeiten der so2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der so6 ergänzen sich wie folgt:
 
-- üppiger Vorbau`
+- körperlich angepasst/unauffällig
+- weiche Haut`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 6 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- verkopft
+- analytisch
+- theoretisch
+- sachlich-kühl
+- ignorant
+- vorsichtig
+- ängstlich
+- unruhig
+- treu
 
-Die Wirkweisen der so2 ergänzen sich wie folgt:
+Die Wirkweisen der so6 ergänzen sich wie folgt:
 
-“Diplomaten”-Ausstrahlung:
-
+“Vorbild”-Ausstrahlung:
 - vernünftig
-- strebsam
-- spießig`
+- pflichtbewusst
+- strukturiert`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 6 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- Routinen & Strukturen prägen den Alltag
+- unglaubliche Loyalität & Skepsis
 
-Über den so2 sollte man explizit noch Folgendes wissen:
+Über den so6 sollte man explizit noch Folgendes wissen:
 
-- oftmals in Führungspositionen
-- großzügig
-- ehrgeizig`
+- häufig angestellt
+- klettert gerne die Karriereleiter hoch`
         },
         {
           label: "Beispiele",
-          content: `- Jenna Ortega
-- Samuel L. Jackson
-- Lewis Hamilton
-- Barack Obama
-- Drake
-- Akon
-- Fynn Kliemann
-- Dr. Dre
-- Will Smith
-- Liam Payne`
+          content: `- Albert Brooks
+- Andy Reid
+- Sigmund Freud
+- Donata Hopfen
+- Christian Bischoff
+- Melanie Kreis
+- Jonah Hill
+- Steven Spielberg`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- so3
-- se3
-- se7
+- se1
+- so5
 - so7
 - so9
+- se3
 
 Verwechslung in weiblicher Form:
 
-- so3
-- se7
+- se1
+- so5
+- so7
 - so9
 - se3`
         },
@@ -702,71 +724,80 @@ Verwechslung in weiblicher Form:
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die so2 folgende Partner am ehesten:
+Statistisch gesehen wählt die so6 folgende Partner am ehesten:
 
-- so7
-- so/se3
-- so/se1
-- so6
-- se8 (vereinzelt)`
+- so2
+- so/se4
+- se/so7
+- so5
+- se1`
         },
         {
           label: "Verkauf",
-          content: `- darauf achten, der so2 nicht das Gefühl zu vermitteln, dass sie zu inkompetent oder dämlich für bestimmte Dinge sei
--> den Stolz nicht kränken
-
-- Anerkennung für Leistungen und Erfolge geben
-- respektvoller Umgang ist essenziell und ein hoher Wert für die so2
-- Verantwortungsbewusstsein der so2 herausstellen und loben
-- eigenes Verantwortungsgefühl & persönliche Werte betonen, um bei der so2 das Gefühl vorzubeugen, betrogen zu werden
-- Helferrolle übernehmen
-- freundlicher, warmer und respektvoller Umgang ist enorm wichtig, um die so2 von einem zu überzeugen
-- Kompetenz vermitteln und den Eindruck schaffen, damit die so2 sich in guten Händen fühlt
-- erwachsen wirken und Aufmerksamkeiten entgegenbringen (Geschenke, Komplimente, ...)
-- Engagement im Kundenstamm zeigen
-- mitfühlend sein`
+          content: `- Pflichtbewusstsein zeigen
+- soziale Sicherheit geben 
+  ("anderen hat mein Produkt sehr stark geholfen")
+- Verlässlichkeit und Klarheit zeigen
+- keine Doppeldeutigkeiten oder sprachliche Unsicherheiten darstellen
+- viel Bestätigung geben für bisherige Strukturen und Normen, denen die so6 gefolgt ist
+- Vertrauen Schaffen durch Referenzen
+- konkrete Lösungen für bestehende Probleme anbieten
+- Sicherheit geben durch Kompetenz und Expertise
+- Darstellung der sozialen Einflussfaktoren, die das Produkt mit sich bringt
+- Zugehörigkeitsgefühl stärken`
         },
         {
           label: "Führung",
-          content: `- soziale Verantwortung darstellen, um Motivation zu stärken
-- höhere Positionen in Aussicht stellen, die mehr Verantwortung bergen, um den Ehrgeiz der so2 zu aktivieren
-- dafür sorgen, dass die so2 sich mit dem Unternehmen und den Menschen dort identifiziert, indem man z.B. Gruppenveranstaltungen oder Team-Building betreibt, um die Motivation der so2 zu erhalten
-- Respekt und Wertschätzung für die Leistungen der so2 entgegenbringen
-- Stolz bedienen, indem man die so2 vor der Gruppe als besonders qualitativ und leistend darstellt
-- Lob erteilen bei guter Aufgabenerfüllung
-- die so2 nach Rat fragen, um ihren Ehrgeiz zu stärken und ihr zu vermitteln, dass sie eine wichtige Rolle im Unternehmen hat
-- Wertschätzung für die kümmernde und verantwortungsvolle Art und Weise der so2 entgegenbringen
-- dafür sorgen, dass die so2 ebenso viel zurückbekommt, wie sie gibt, um zu verhindern, dass sie sich betrogen fühlt (Belohnung für Überstunden oder Sonderleistungen, Lobesreden, etc.)
-- Empathie und Einfühlungsvermögen erbringen
-- den Anregungen und Vorschlägen der so2 zuhören und sie ernsthaft in Betracht ziehen, damit die so2 sich ernst genommen fühlt`
+          content: `- soziale Sicherheit vermitteln / Hierarchiegedanken fördern
+- Pflichtbewusstsein und Loyalität zeigen, um das volle Vertrauen der so6 zu gewinnen
+- Motivation durch soziale Sicherheitsgedanken (z.B. „Durch deine Leistungen werden die anderen stark abgesichert sein und dich dafür sehr wertschätzen“)
+- Weitblick und Verlässlichkeit als Werte herausstellen
+- Skepsis der so6 als Qualität herausstellen und sie wertschätzen, da sie die Gruppe absichert
+- Rückhalt durch die Gruppe in Aussicht stellen
+- den so6 für seine Verbindlichkeit und Verlässlichkeit loben, um ihn zu bestätigen und folglich zu motivieren
+- Ein großes Ganzes als Ziel darstellen, um dem so6 das Gefühl zu geben, Teil der Gruppe und Vision zu sein
+- klare Kommunikation mit möglichst wenig Doppeldeutigkeiten oder Interpretationsspielräumen, um der so6 die Unsicherheit zu ersparen`
         }
       ]
     },
 
     {
-      code: "sx1",
+      code: "sx6",
       content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+Sicherheit (in der zwischenmenschlichen Beziehung)
 
-Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+Leidenschaft: 
+Angst (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
-- sehr feminin
-- unersättlicher Liebesdurst
-- erlebnisorientiert
-- sprunghaft
-- schmeichelnd-manipulativ
-- legt viel Wert auf Attraktivität
-- tierlieb
-- hartnäckig
-- engstirnig
-- verführerisch
-- geht zwischenmenschlich auf andere zu
-- fühlt sich schnell vom Partner betrogen
-- macht sich schnell abhängig vom Partner
-- unterstützend`,
+- mutig
+- angstabwehrend
+- stark & schön nach außen
+- Sinn für Ästhetik
+- kreativ
+- gewieft
+- provokant
+- dominant
+- rational
+- energiegeladen
+- konkurrenzbewusst
+- arbeitet stets daran, körperlich und intellektuell attraktiv zu sein
+- tierlieb / animalisch
+- loyal
+- in Ausnahmen zögerlich
+- ansonsten "mit dem Kopf durch die Wand"
+- sehr skeptisch
+- misstrauisch
+- "Hunde, die bellen, beißen nicht"
+- Kämpfer-Mentalität
+- verbal versiert
+- logisch denkend
+- einschüchternd
+- Drang nach Unabhängigkeit
+- "einsamer Wolf"
+- schnell ruppig/schroff 
+- willensstark`,
 
       traits: [
         {
@@ -782,53 +813,56 @@ Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu
 Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Kontratyp",
+          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
 
-Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Im Fall der sx6 bedeutet das, dass dieser Enneagrammtyp gegen die Angst ankämpft.
+
+Er hat die Erfahrung gemacht, dass er keine Sicherheit hat, wenn er seine Angst nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+         content: `Folgende Eigenschaften sind dem sx6 bewusst und können angesprochen werden:
 
-- sehr hilfsbereit
-- er erlebt gerne viel
-- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
-- er denkt sehr partnerschaftlich
-- er kümmert sich gut um sein Äußeres
-- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
-- er kümmert sich gerne um seine Familie & Freunde
-- er ist sehr empathisch
-- er kann im Stressfall sehr gereizt werden
-- er ist charmant
-- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
-- er ist sehr sensibel
-- er geht auf im Zwischenmenschlichen
-- er verfügt über viele Emotionen`
+- er ist sehr selbstständig
+- er verlässt sich ungern auf andere
+- er vertraut nur seinem engsten Kreis wirklich, ansonsten ist er sehr skeptisch
+- er ist im Kopf sehr strukturiert und kann sehr gut logisch denken
+- er kümmert sich gerne um seine wichtigsten Menschen (Partner, Freunde, Familie)
+- er hat oftmals das Gefühl, er könne seiner Umwelt nicht vertrauen
+- er ist nach außen hin gerne der Starke / Mutige, fühlt sich im Inneren jedoch sehr oft unsicher
+- er ist sehr ehrgeizig und hat einen unfassbar starken Willen
+- er rennt gerne mal mit dem Kopf durch die Wand
+- er sucht seinen Halt in Verbindungen (zu einem Partner, einem engen Freund, seinem Glauben, ...)
+- er kann sehr gut abwägen, was die richtige Entscheidung ist
+- wenn er sich unsicher fühlt, geht er schnell schroff mit seinen Mitmenschen um
+- er scheut sich nicht davor, ins kalte Wasser zu springen
+- er nimmt die Dinge gerne selbst in die Hand`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- rationale Hysterie
+- Sicherheits-Identifikation
+- Gedanken-Identifikation
+- Vertrauens-Defizit
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 6 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Angst & Vorsicht als Sicherheitsgarant
+- aktives Schaffen von äußeren Sicherheiten & Strukturen als Kompensation
+- Klarheitsdrang
+- Paralyse bei Überforderung
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
@@ -836,147 +870,169 @@ Blinder Fleck des sexuellen Typs im Allgemeinen:
 - Abhängigkeit von äußerer Attraktivität & Bindungen
 - Angst vor Entwertung & Degradierung
 
-Blinder Fleck, speziell bei der sx2:
+Blinder Fleck, speziell bei der sx6:
 
-- sexueller Stolz (Gefühl, betrogen zu werden)
-- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
-- starke Erlebnisorientierung`
+- Leugnung der inneren Angst
+- zwanghaftes Stärkezeigen im außen, bis hin zu schroffem und unempathischen Verhalten
+- Abhängigkeit von zwischenmenschlichen Sicherheiten`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 6 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- skeptisch
+- vorsichtig
+- ängstlich
+- zurückhaltend
+- zögernd
+- analytisch
+- zweifelnd
+- distanziert
+- unsicher
 
-Die Blickqualität der sx2 ergänzt sich wie folgt:
+Die Blickqualität der sx6 ergänzt sich wie folgt:
 
-- verführerisch
-- begeistert`
+- provokant
+- herausfordernd
+- einschüchternd
+- streitbar`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 6 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- "Bambi-Augen" (große, braune Augen)
-- volle Lippen
-- weibliche, "kurvige" Züge
+- Stirnfalten
+- wenig dichtes Haar 
+- Sehschwäche 
+- “Geheimratsecken”
 
-Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der sx6 ergänzen sich wie folgt:
 
-- schlank
-- lange Haare
-- Model-Statur
-- Tattoos`
+- starker Haarwuchs
+- vorstehende Stirn
+- tiefe Augenhöhlen
+- starker Bartwuchs`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 6 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- verkopft
+- analytisch
+- theoretisch
+- sachlich-kühl
+- ignorant
+- vorsichtig
+- ängstlich
+- unruhig
+- treu
 
-Die Wirkweisen der sx2 ergänzen sich wie folgt:
+Die Wirkweisen der sx6 ergänzen sich wie folgt:
 
-“Casanova”-Ausstrahlung:
-
-- verführerisch
-- abenteuerlustig
-- manipulativ
-- aufreizend`
+“Helden”-Ausstrahlung:
+- mutig
+- hitzig
+- selbstbewusst
+- stark/schön
+- beschützerisch`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 6 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- Routinen & Strukturen prägen den Alltag
+- unglaubliche Loyalität & Skepsis
 
-Über den sx2 sollte man explizit noch Folgendes wissen:
+Über den sx6 sollte man explizit noch Folgendes wissen:
 
-- häufig Tattoos`
+- risikoreiche Berufe & Hobbies
+- “Hunde, die bellen, beißen nicht”`
         },
         {
           label: "Beispiele",
-          content: `- Ariana Grande
-- Elvis Presley
-- Jay-Z
-- Tobias Beck
-- Robert Downey Jr.
-- Pamela Reif
-- Monika Gruber
-- Julienco
-- Ryan Gosling
-- Shawn Mendes`
+          content: `- Kollegah
+- John Cena
+- Shirin David
+- Katja Krasavice
+- Karl Ess
+- Fler
+- Chriz Nickel
+- Conor McGregor
+- Mel Gibson 
+- Liam Neeson
+- Flex Lewis
+- Matt Damon
+- Joaquin Phoenix
+- Scarlett Johansson
+- Jennifer Lawrance
+- Stefan Raab
+- Woody Harrelson
+- Michael Schumacher
+- Khabib
+- Jocko Willink
+- Dan Bilzerian
+- Putin
+- Markus Baulig
+- Marvin Reader
+- Charly Imsel`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- sx2
 - sx4
+- sx8
 - sx7
+- sx3
+- so1
 
 Verwechslung in weiblicher Form:
 
-- sx3
 - sx4
-- sx6
+- sx8
+- sx3
+- sx2
 - sx7`
         },
         {
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
+Statistisch gesehen wählt die sx6 folgende Partner am ehesten:
 
-- sx/so6
-- sx/so7
-- sx/so3
+- sx/se4
+- sx/se2
 - sx5
-- sx9`
+- sx7`
         },
         {
           label: "Verkauf",
-          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
-- Verständnis entgegenbringen
-- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
-- Interesse an ihr und ihren Themen zeigen
-- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
-- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
-- liebevollen und warmen Umgang pflegen
-- Sensibilität und Empathie zeigen
-- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
-- Großzügigkeit und Freigebigkeit zeigen`
+          content: `- Respekt zeigen für bisherige Leistungen
+- ultimative Verlässlichkeit und Loyalität zeigen, um der sx6 die innere Unsicherheit zu nehmen
+- sicheren Hafen darstellen im Zwischenmenschlichen
+- Akzeptanz und Wertschätzung der "starken äußeren Maske" der sx6
+- klare, deutliche und ehrliche Kommunikation
+- Transparenz zeigen
+- rationale Argumente anbringen zum Kauf des Produktes
+- Logische Schlussfolgerungen und Strukturen müssen beachtet werden
+- die Werte der sx6 (Respekt, Loyalität, Verlässlichkeit, Transparenz, ...) müssen erfüllt werden, um Vertrauen zu schaffen
+- man sollte sich nicht "dumm stellen", das wird die sx6 erzürnen und aus der Ruhe bringen, da dieses Verhalten eine Unsicherheit darstellt
+- Skepsis der sx6 wertschätzen und Nachfragen ausführlich beantworten
+- Vertrauen und Sicherheiten im Zwischenmenschlichen schaffen!`
         },
         {
           label: "Führung",
-          content: `- Dankbarkeit für die sx2 entgegenbringen
-- Komplimente machen
-- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
-- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
-- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
-- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
-- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
-- Verlässlichkeit der sx2 wertschätzen
-- Liebe und Zuneigung entgegenbringen
-- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
-- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
-- empathischer Umgang ist essentiell
-- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
+          content: `- Eigenständigkeit fördern / wenig regulieren
+- die Willensstärke und das Durchhaltevermögen des sx6 loben und fördern, da dies seine größte Anlage ist
+- Vertraulichkeit und Loyalität gegenüber der sx6 darstellen, damit sie sich unterbewusst aufgehoben bei einem fühlt
+- Strukturen geben, jedoch darauf achten, dass die sx6 „ihre eigene“ Struktur daraus entwickeln kann
+- Ziele formulieren
+- Logik als Argument anbringen, anstatt in Emotionen zu reden
+- Rationalität stärken und auf dieser Ebene kommunizieren, da die sx6 sich ansonsten innerlich unsicher fühlt, da Emotionen nicht „berechenbar“ für sie sind
+- Klarheit in Sprache und Tonalität / keine Doppeldeutigkeiten bei wichtigen Angelegenheiten
+- Interesse an den Themen und Beschäftigungen der sx6 zeigen
+- Verantwortungsgefühl und Prinzipien formulieren und darstellen, um der sx6 Sicherheit zu geben (bishin zu bedingungslosen Prinzipien)
+- Respekt zeigen und keine Erniedrigungen im Umgang einbauen`
           
         }
       ]
