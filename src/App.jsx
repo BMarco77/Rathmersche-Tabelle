@@ -14,32 +14,77 @@ import Type9Page from "./pages/Type9Page";
 export default function App() {
   const [selectedType, setSelectedType] = useState(null);
 
+ if (selectedType === 1) {
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 2) {
-    return <TypePage onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 3) {
-    return <Type3Page onBack={() => setSelectedType(null)} />;
-  }
-  if (selectedType === 1) {
-    return <Type1Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 4) {
-    return <Type4Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 5) {
-    return <Type5Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 6) {
-    return <Type6Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 7) {
-    return <Type7Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 8) {
-    return <Type8Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   if (selectedType === 9) {
-    return <Type9Page onBack={() => setSelectedType(null)} />;
-  }
+  return (
+    <TypePage
+      onBack={() => setSelectedType(null)}
+      onSelectType={setSelectedType}
+    />
+  );
+}
   return <HomePage onSelectType={setSelectedType} />;
 }
