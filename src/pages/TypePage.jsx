@@ -74,7 +74,7 @@ export default function TypePage({ onBack }) {
     background: TYPE_GRADIENTS[prevType],
     color: "white",
   }}
->
+     onClick={() => onSelectType(nextType)}>
   ← Typ {prevType}
 </button>
   <button className="rathmer-page-nav-button" onClick={onBack}>
@@ -86,7 +86,7 @@ export default function TypePage({ onBack }) {
     background: TYPE_GRADIENTS[nextType],
     color: "white",
   }}
->
+    onClick={() => onSelectType(nextType)}>
   Typ {nextType} →
 </button>
 </div>      
