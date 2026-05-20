@@ -359,7 +359,7 @@ export default function TypePage({ onBack }) {
   style={{
     background: selectedSubtypeItem
       ? undefined
-      : TYPE_GRADIENTS[type5Data.type],
+      : TYPE_INFO_GRADIENTS[type5Data.type],
   }}
 >
           {selectedSubtypeItem ? (
