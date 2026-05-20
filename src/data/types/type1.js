@@ -789,27 +789,34 @@ Statistisch gesehen wählt die so1 folgende Partner am ehesten:
     {
       code: "sx1",
       content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+- Perfektion (in der zwischen-
+menschlichen Beziehung)
 
-Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+Leidenschaft: 
+- Zorn (in der zwischen-
+menschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
-- sehr feminin
-- unersättlicher Liebesdurst
-- erlebnisorientiert
-- sprunghaft
-- schmeichelnd-manipulativ
-- legt viel Wert auf Attraktivität
-- tierlieb
-- hartnäckig
-- engstirnig
-- verführerisch
-- geht zwischenmenschlich auf andere zu
-- fühlt sich schnell vom Partner betrogen
-- macht sich schnell abhängig vom Partner
-- unterstützend`,
+- hitzig
+- diskussionsfreudig
+- impulsiv
+- intensiv
+- unsicher
+- gespielte Dominanz
+- sehr eifersüchtig
+- ständig im Wettstreit 
+- fordernd
+- verbessernd
+- besitzergreifend
+- große Sorge, die Mitmenschen könnten sich ihr abwenden
+- will immer attraktiv sein
+- beschämt, wenn ihr innerer Vulkan ausbricht
+- perfektionistisch
+- zu hohe Ansprüche an ihren Partner
+- leidenschaftlich
+- selbstdarstellerisch
+`,
 
       traits: [
         {
@@ -825,53 +832,58 @@ Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu
 Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
         },
         {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Kontratyp",
+          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
 
-Im Fall der sx2 bedeutet das, dass dieser Enneagrammtyp den Stolz im normalen Maße lebt.
+Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
 
-Er hat die Erfahrung gemacht, dass er Liebe empfängt, wenn er seinen Stolz nach außen hin lebt.`
+Im Fall der sx1 bedeutet das, dass dieser Enneagrammtyp gegen den Zorn ankämpft.
+
+Er hat die Erfahrung gemacht, dass er nicht perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx2 bewusst und können angesprochen werden:
+         content: `Folgende Eigenschaften sind dem sx1 bewusst und können angesprochen werden:
 
-- sehr hilfsbereit
-- er erlebt gerne viel
-- er ist stark fokussiert auf spezielle Menschen anstatt auf eine Gruppe
-- er denkt sehr partnerschaftlich
-- er kümmert sich gut um sein Äußeres
-- er ist gutgläubig, fühlt sich aber auch häufig ausgenutzt
-- er kümmert sich gerne um seine Familie & Freunde
-- er ist sehr empathisch
-- er kann im Stressfall sehr gereizt werden
-- er ist charmant
-- er hat eine sehr anziehende Wirkung aufgrund seiner Attraktivität
-- er ist sehr sensibel
-- er geht auf im Zwischenmenschlichen
-- er verfügt über viele Emotionen`
+- er ist sehr hitzig
+- er ist sehr ausdrucksstark
+- er passt sich ungern an
+- er legt Wert auf sein Äußeres
+- er ist diskussionsfreudig
+- er ist eifersüchtig
+- er fokussiert sich stark auf seine zwischenmenschlichen Verbindungen
+- er zeigt es offen nach außen, wenn er sich ungerecht behandelt fühlt
+- er hat einen unfassbar hohen Anspruch an sich selbst
+- er hat seine eigene Moralvorstellungen und folgt ihnen diszipliniert
+- Respekt ist ihm sehr wichtig
+- er kann sehr intensiv sein
+- seine Beziehungen sind sehr rivalisierend`
         },
         {
           label: "Blinder Fleck",
-          content: `Blinder Fleck der Herzenergie im Allgemeinen:
+          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- Handlungs-Hysterie
+- Territoriums-Identifikation
+- Intuitions-Identifikation
+- Schutz-Defizit
+- starke innere Aggressionen
 
-Blinder Fleck von Typ 2 im Allgemeinen:
+Blinder Fleck von Typ 1 im Allgemeinen: 
 
-- Stolz & Hochmut als Liebesgarant
-- starke Abhängigkeiten im Außen
-- ungesundes Helfersyndrom, das dem Individuum selbst Leid schafft
+- Zorn & Optimierung als Schutzgarant
+- aktives Schaffen von  äußerer Tadellosigkeit & hohen Werten als Kompensation
+- Bestehen auf eigenem Recht
+- Missionierung bei Überforderung
+- Doppelmoral
+- Arroganz
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
@@ -879,101 +891,98 @@ Blinder Fleck des sexuellen Typs im Allgemeinen:
 - Abhängigkeit von äußerer Attraktivität & Bindungen
 - Angst vor Entwertung & Degradierung
 
-Blinder Fleck, speziell bei der sx2:
+Blinder Fleck, speziell bei der sx1:
 
-- sexueller Stolz (Gefühl, betrogen zu werden)
-- Abhängigkeit von der Anerkennung durch eine spezielle Person (oftmals verbunden mit Leugnung)
-- starke Erlebnisorientierung`
+- starke Eifersucht
+- hitziges Temperament als Kompensation
+- zu hohe Ansprüche Freunden und Partnern gegenüber`
         },
         {
           label: "Augen",
-          content: `Typ 2 im Allgemeinen hat folgende Blickqualität:
+          content: `Typ 1 im Allgemeinen hat folgende Blickqualität:
 
-- warm
-- freundlich
-- mütterlich
-- kümmernd
-- einfühlsam
-- emotional
-- naiv
+- ernst
+- starr
+- dominant
+- fokussiert
 
-Die Blickqualität der sx2 ergänzt sich wie folgt:
+Die Blickqualität der sx1 ergänzt sich wie folgt:
 
-- verführerisch
-- begeistert`
+- einnehmend
+- herrisch`
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 1 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
-- "Bambi-Augen" (große, braune Augen)
-- volle Lippen
-- weibliche, "kurvige" Züge
+- tendenziell dünn
+- Hang zur Zornesfalte
+- buschige Augenbrauen
+- gerade Körperhaltung
 
-Die körperlichen Auffälligkeiten der sx2 ergänzen sich wie folgt:
+Die körperlichen Auffälligkeiten der sx1 ergänzen sich wie folgt:
 
-- schlank
-- lange Haare
-- Model-Statur
-- Tattoos`
+- starker Unterkiefer
+- unreine Haut`
         },
         {
           label: "Wirkung",
-          content: `Typ 2 im Allgemeinen hat folgende Wirkweisen:
+          content: `Typ 1 im Allgemeinen hat folgende Wirkweisen:
 
-- mütterlich
-- feminin
-- warm
-- freundlich
-- süß
-- weich
-- verführerisch
+- ordentlich
+- arrogant
+- anspruchsvoll
+- überlegen
+- dominant
+- missionierend
 
-Die Wirkweisen der sx2 ergänzen sich wie folgt:
+Die Wirkweisen der sx1 ergänzen sich wie folgt:
 
-“Casanova”-Ausstrahlung:
-
-- verführerisch
-- abenteuerlustig
-- manipulativ
-- aufreizend`
+“Cowboy/Rockstar”-Ausstrahlung:
+- offensiv
+- temperamentvoll
+- hitzig
+- wetteifernd`
         },
         {
           label: "Weiteres",
-          content: `Über Typ 2 im Allgemeinen sollte man noch Folgendes wissen:
+          content: `Über Typ 1 im Allgemeinen sollte man noch Folgendes wissen:
 
-- passen sich tendenziell an den Gesprächspartner an
+- verbal versiert
+- i.d.R. eloquent
+- hohe Meinung von Moral & 
+  Ordnung
 
-Über den sx2 sollte man explizit noch Folgendes wissen:
+Über den sx1 sollte man explizit noch Folgendes wissen:
 
-- häufig Tattoos`
+- ausgefallener Kleidungsstil
+- eifersüchtig`
         },
         {
           label: "Beispiele",
-          content: `- Ariana Grande
-- Elvis Presley
-- Jay-Z
-- Tobias Beck
-- Robert Downey Jr.
-- Pamela Reif
-- Monika Gruber
-- Julienco
-- Ryan Gosling
-- Shawn Mendes`
+          content: `- Leonardo DiCaprio
+- Ludwig Wittgenstein
+- Josef Fritzl
+- Clint Eastwood
+- Michael Genay
+- ArrDee
+- Annie Lennox
+- Jamie Lee Curtis
+- Linda Hamilton
+- Eminem`
         },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
-
-- sx2
 - sx4
+- sx8
+- sx3
 - sx7
 
 Verwechslung in weiblicher Form:
-
-- sx3
+- sx8
 - sx4
-- sx6
+- sx3
 - sx7`
         },
         {
@@ -982,44 +991,39 @@ Verwechslung in weiblicher Form:
 
 Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
 
-- sx/so6
-- sx/so7
-- sx/so3
-- sx5
-- sx9`
+- sx4
+- sx2
+- sx6
+- sx9
+- sx7`
         },
         {
           label: "Verkauf",
-          content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
-- Verständnis entgegenbringen
-- die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
-- Interesse an ihr und ihren Themen zeigen
-- Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
-- Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
-- liebevollen und warmen Umgang pflegen
-- Sensibilität und Empathie zeigen
-- Helfermentalität der sx2 anerkennen und Respekt zeigen, wenn sie sich Verwirklichkeiten schafft
-- Großzügigkeit und Freigebigkeit zeigen`
+          content: `- Ehrlichkeit und Werte anbringen
+- Moral und Integrität statuieren 
+- Respekt und Wohlwollen vermitteln
+- Möglichkeiten und Chancen aufzeigen
+- auf Augenhöhe kommunizieren, niemals über die sx1 stellen
+- Qualität und Ehrgeiz zeigen
+- objektive Förderlichkeit des Produktes darstellen
+- eigene Profilierung, um Rivalität und Reiz der sx1 zu steigern 
+- auch die fragwürdigen Werte der sx1 nicht als verwerflich darstellen
+- Toleranz und Akzeptanz gegenüber der sx1 zeigen 
+- Optimierungswunsch an die sx1 formulieren 
+- Unterstützung und Zusicherung geben `
         },
         {
           label: "Führung",
-          content: `- Dankbarkeit für die sx2 entgegenbringen
-- Komplimente machen
-- Wertschätzung für die zwischenmenschlichen Dienste der sx2 entgegenbringen
-- immer mindestens so viel zurückgeben, wie die sx2 gibt, um zu verhindern, dass sie sich betrogen fühlt
-- Darstellung der emotional tragenden Rolle der sx2 im Unternehmen
-- Rat und Hilfe der sx2 in Beschlag nehmen / Bedürftigkeit zeigen, um in ihr das Helfersyndrom zu wecken
-- zwischenmenschliche und persönliche Wertschätzung entgegenbringen, nicht im ganzen Unternehmen kundtun, sondern im privaten und persönlichen Rahmen äußern
-- Verlässlichkeit der sx2 wertschätzen
-- Liebe und Zuneigung entgegenbringen
-- Bindung zur sx2 aufbauen, um sie emotional an sich und das Unternehmen zu binden
-- Geschenke und Aufmerksamkeiten entgegenbringen, um den Stolz der sx2 zu stärken
-- empathischer Umgang ist essentiell
-- Dankbarkeit und Respekt sind von Nöten, um der sx2 ein Wohlgefühl zu geben`
+          content: `- Achtung: es ist eine sehr anspruchsvolle Aufgabe, einer sx1 eine effiziente Führung zu geben, da sie sich extrem schnell kritisiert und untergraben fühlt!
+- viel Anerkennung für die Bestrebungen der sx1 geben
+- wenig Regulation im Arbeitsverhalten der sx1 geben
+- Eigenverantwortung stärken und fördern
+- Keinerlei Kritik in Bezug auf die Herangehensweisen der sx1 äußern, ansonsten schaltet die sx1 ab und wird stur / setzt nicht das um, was man sagt
+- Immer aufbauend von den Strukturen und Wahrheiten der sx1 Ratschläge oder Verbesserungsvorschläge geben!
+- der sx1 nicht das Gefühl geben, sie sei nur einer von vielen Mitarbeitern, sondern stark darauf achten, die heftige Eifersucht der sx1 nicht zu aktivieren, sondern sie stets auf ein Podest zu stellen und individuell behandeln (ähnlich wie bei Typ 4)
+- keine Rivalität zwischen der sx1 und anderen Mitarbeitern schüren, denn ansonsten wird die sx1 hasserfüllt und verbittert, was sich sehr negativ auf das firmeninterne Klima auswirkt
+- respektvoller Umgang ist essentiell dafür, dass die sx1 die Führung von einem akzeptiert
+- Ehrlichkeit und Transparenz gewährleisten`
           
         }
       ]
