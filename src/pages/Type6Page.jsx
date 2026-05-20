@@ -92,7 +92,7 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
       color: "white",
     }}
     
-  > onClick={() => onSelectType(nextType)}    
+  onClick={() => onSelectType(nextType)} >
     Typ {nextType} →
   </button>
 </div>
