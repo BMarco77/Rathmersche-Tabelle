@@ -511,10 +511,10 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
     {
       code: "so2",
       content: `Grundmotivation:
-- Liebe (in der sozialen Gruppe)
+Liebe (in der sozialen Gruppe)
 
 Leidenschaft:
-- Stolz (in der sozialen Gruppe)
+Stolz (in der sozialen Gruppe)
 
 Stichpunktartige Beschreibung:
 
@@ -750,10 +750,10 @@ Statistisch gesehen wählt die so2 folgende Partner am ehesten:
     {
       code: "sx2",
       content: `Grundmotivation:
-- Liebe (in der zwischenmenschlichen Beziehung)
+Liebe (in der zwischenmenschlichen Beziehung)
 
 Leidenschaft:
-- Stolz (in der zwischenmenschlichen Beziehung)
+Stolz (in der zwischenmenschlichen Beziehung)
 
 Stichpunktartige Beschreibung:
 
