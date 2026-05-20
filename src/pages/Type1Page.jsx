@@ -75,7 +75,7 @@ export default function TypePage({ onBack, onSelectType }) {
       color: "white",
     }}
      onClick={() => onSelectType(prevType)}  >
-    ← Typ {prevType}
+    ←{prevType}
   </button>
 
   <button
@@ -92,7 +92,7 @@ export default function TypePage({ onBack, onSelectType }) {
       color: "white",
     }}
      onClick={() => onSelectType(nextType)}  >
-    Typ {nextType} →
+    {nextType}→
   </button>
 </div>
 
