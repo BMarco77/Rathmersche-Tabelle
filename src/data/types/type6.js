@@ -9,8 +9,7 @@ export const type6Data = {
 
   centerInfo: {
     content: `Grundproblem: 
-Vertrauens-Defizit
-(Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
+Vertrauens-Defizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
 
 Hauptthemen:
 - Rationalismus 
