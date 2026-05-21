@@ -254,6 +254,7 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
               }`}
              style={{
   background: TYPE_GRADIENTS[type7Data.type],
+  boxShadow: `0 16px 30px ${TYPE_SHADOWS[type7Data.type]}`,
 }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
