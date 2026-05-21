@@ -25,8 +25,7 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Blockierte Kopfenergie
-(Kopfenergie wird unterdrückt)
+    content: `Blockierte Kopfenergie (Kopfenergie wird unterdrückt)
 
 Grundmotivation: 
 Sicherheit
