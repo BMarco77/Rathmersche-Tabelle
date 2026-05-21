@@ -1,16 +1,16 @@
 import { useState } from "react";
 import HomePage from "./pages/HomePage";
 import TypePage from "./rathmer/TypePage";
-import Type2Page from "./pages/Type2Page";
-import Type3Page from "./pages/Type3Page";
-import Type1Page from "./pages/Type1Page";
-import Type4Page from "./pages/Type4Page";
-import Type5Page from "./pages/Type5Page";
-import Type6Page from "./pages/Type6Page";
-import Type7Page from "./pages/Type7Page";
-import Type8Page from "./pages/Type8Page";
-import Type9Page from "./pages/Type9Page";
 
+import { type1Data } from "./data/types/type1";
+import { type2Data } from "./data/types/type2";
+import { type3Data } from "./data/types/type3";
+import { type4Data } from "./data/types/type4";
+import { type5Data } from "./data/types/type5";
+import { type6Data } from "./data/types/type6";
+import { type7Data } from "./data/types/type7";
+import { type8Data } from "./data/types/type8";
+import { type9Data } from "./data/types/type9";
 
 export default function App() {
   const [selectedType, setSelectedType] = useState(null);
