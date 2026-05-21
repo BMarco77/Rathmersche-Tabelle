@@ -23,8 +23,7 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `umgewandelte Bauchenergie:
-Bauchenergie wird auf sich selbst bezogen
+    content: `Umgewandelte Bauchenergie (Bauchenergie wird auf sich selbst bezogen)
 
 Grundmotivation:
 Perfektion
