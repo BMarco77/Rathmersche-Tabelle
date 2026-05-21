@@ -24,20 +24,24 @@ export const TYPE_GRADIENTS = {
 
  export const TYPE_INFO_GRADIENTS = {
   1: "linear-gradient(145deg, #eef2ff 0%, #d7deef 52%, #8d98ad 78%, #39465c 100%)",
-
   2: "linear-gradient(145deg, #c86cff 0%, #b45cff 52%, #8b3ee8 78%, #47255f 100%)",
-
   3: "linear-gradient(145deg, #7ae9ff 0%, #59d9f5 52%, #4f9ed8 78%, #344454 100%)",
-
   4: "linear-gradient(145deg, #98ff4d 0%, #7ee63f 52%, #5eab31 78%, #354221 100%)",
-
   5: "linear-gradient(145deg, #6682ff 0%, #4f6eff 52%, #4956c7 78%, #2d2d54 100%)",
-
   6: "linear-gradient(145deg, #e2a45c 0%, #cf8d45 52%, #9d6231 78%, #4b2d23 100%)",
-
   7: "linear-gradient(145deg, #ffe84a 0%, #f2d52e 52%, #c49e21 78%, #4f3b12 100%)",
-
   8: "linear-gradient(145deg, #ff3a30 0%, #ef2e22 52%, #b5211c 78%, #4f1d1b 100%)",
-
   9: "linear-gradient(145deg, #ffb347 0%, #f5a12a 52%, #c57b1d 78%, #53331b 100%)",
+};
+
+export const TYPE_SHADOWS = {
+  1: "rgba(120, 135, 160, 0.22)",
+  2: "rgba(168, 85, 247, 0.24)",
+  3: "rgba(98, 217, 238, 0.24)",
+  4: "rgba(125, 255, 69, 0.22)",
+  5: "rgba(77, 108, 255, 0.24)",
+  6: "rgba(198, 134, 66, 0.24)",
+  7: "rgba(255, 224, 51, 0.22)",
+  8: "rgba(225, 37, 27, 0.24)",
+  9: "rgba(255, 153, 31, 0.24)",
 };
