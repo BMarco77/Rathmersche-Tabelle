@@ -10,22 +10,25 @@ import {
 
 export default function TypePage({ onBack, onSelectType }) {
   const [openTopItems, setOpenTopItems] = useState([]);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   const [openTheoryRow1Items, setOpenTheoryRow1Items] = useState([]);
   const [openTheoryRow2Items, setOpenTheoryRow2Items] = useState([]);
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
   const [openSubtype, setOpenSubtype] = useState(null);
 
-  const currentType = type1Data.type;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
+  const currentType = type1Data.type;
   const prevType = currentType === 1 ? 9 : currentType - 1;
   const nextType = currentType === 9 ? 1 : currentType + 1;
 
   const theoryRow1 = type1Data.coreModules.slice(0, 4);
   const theoryRow2 = type1Data.coreModules.slice(4, 8);
+
+  const activeGlowStyle = {
+    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+  };
 
   const toggleItem = (items, setItems, id, item) => {
     const alreadyOpen = items.some((openItem) => openItem.id === id);
@@ -45,13 +48,9 @@ export default function TypePage({ onBack, onSelectType }) {
     ]);
   };
 
-  const isOpen = (items, id) => {
-    return items.some((item) => item.id === id);
-  };
+  const isOpen = (items, id) => items.some((item) => item.id === id);
 
-  const getOpenItem = (items, id) => {
-    return items.find((item) => item.id === id);
-  };
+  const getOpenItem = (items, id) => items.find((item) => item.id === id);
 
   const scrollToMobileTarget = (id) => {
     if (window.innerWidth > 900) return;
@@ -73,30 +72,30 @@ export default function TypePage({ onBack, onSelectType }) {
     <div className="rathmer-page type-1-page">
       <div className="rathmer-page-nav">
         <button
-  className="rathmer-page-nav-button"
-  style={{
-    background: TYPE_GRADIENTS[prevType],
-    color: "white",
-  }}
-  onClick={() => onSelectType(prevType)}
->
-  ← Typ {prevType}
-</button>
+          className="rathmer-page-nav-button"
+          style={{
+            background: TYPE_GRADIENTS[prevType],
+            color: "white",
+          }}
+          onClick={() => onSelectType(prevType)}
+        >
+          ← Typ {prevType}
+        </button>
 
         <button className="rathmer-page-nav-button" onClick={onBack}>
           Home
         </button>
 
         <button
-  className="rathmer-page-nav-button"
-  style={{
-    background: TYPE_GRADIENTS[nextType],
-    color: "white",
-  }}
-  onClick={() => onSelectType(nextType)}
->
-  Typ {nextType} →
-</button>
+          className="rathmer-page-nav-button"
+          style={{
+            background: TYPE_GRADIENTS[nextType],
+            color: "white",
+          }}
+          onClick={() => onSelectType(nextType)}
+        >
+          Typ {nextType} →
+        </button>
       </div>
 
       <header className="rathmer-home-header">
@@ -113,82 +112,106 @@ export default function TypePage({ onBack, onSelectType }) {
       </header>
 
       <section className="rathmer-top-grid">
-  {[
-    { id: "center", data: type1Data.centerInfo, label: type1Data.center },
-    { id: "type", data: type1Data.typeInfo, label: type1Data.title },
-    { id: "side", data: type1Data.sideInfo, label: type1Data.side },
-  ].map((item) => (
-    <div key={item.id}>
-      <button
-        className={`rathmer-top-button ${
-          isOpen(openTopItems, item.id) ? "is-active" : ""
-        }`}
-        style={{
-          "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-        }}
-        onClick={() =>
-          toggleItem(openTopItems, setOpenTopItems, item.id, item.data)
-        }
-      >
-        {item.label}
-      </button>
+        {[
+          {
+            id: "center",
+            data: type1Data.centerInfo,
+            label: type1Data.center,
+          },
+          {
+            id: "type",
+            data: type1Data.typeInfo,
+            label: type1Data.title,
+          },
+          {
+            id: "side",
+            data: type1Data.sideInfo,
+            label: type1Data.side,
+          },
+        ].map((item) => (
+          <div key={item.id}>
+            <button
+              className={`rathmer-top-button ${
+                isOpen(openTopItems, item.id) ? "is-active" : ""
+              }`}
+              style={activeGlowStyle}
+              onClick={() =>
+                toggleItem(openTopItems, setOpenTopItems, item.id, item.data)
+              }
+            >
+              {item.label}
+            </button>
 
-      {isOpen(openTopItems, item.id) && (
-        <InlineInfo item={getOpenItem(openTopItems, item.id)} />
-      )}
-    </div>
-  ))}
-</section>
+            {isOpen(openTopItems, item.id) && (
+              <InlineInfo item={getOpenItem(openTopItems, item.id)} />
+            )}
+          </div>
+        ))}
+      </section>
 
-<section className="rathmer-theory-grid">
-  {theoryRow1.map((module) => {
-    const id = `row1-${module.label}`;
-    const active = isOpen(openTheoryRow1Items, id);
+      <section className="rathmer-theory-grid">
+        {theoryRow1.map((module) => {
+          const id = `row1-${module.label}`;
+          const active = isOpen(openTheoryRow1Items, id);
 
-    return (
-      <div key={module.label}>
-        <button
-          className={`rathmer-theory-button ${active ? "is-active" : ""}`}
-          style={{
-            "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-          }}
-          onClick={() =>
-            toggleItem(openTheoryRow1Items, setOpenTheoryRow1Items, id, module)
-          }
-        >
-          {module.label}
-        </button>
+          return (
+            <div key={module.label}>
+              <button
+                className={`rathmer-theory-button ${
+                  active ? "is-active" : ""
+                }`}
+                style={activeGlowStyle}
+                onClick={() =>
+                  toggleItem(
+                    openTheoryRow1Items,
+                    setOpenTheoryRow1Items,
+                    id,
+                    module
+                  )
+                }
+              >
+                {module.label}
+              </button>
 
-        {active && <InlineInfo item={getOpenItem(openTheoryRow1Items, id)} />}
-      </div>
-    );
-  })}
-</section>
+              {active && (
+                <InlineInfo item={getOpenItem(openTheoryRow1Items, id)} />
+              )}
+            </div>
+          );
+        })}
+      </section>
 
-<section className="rathmer-theory-grid">
-  {theoryRow2.map((module) => {
-    const id = `row2-${module.label}`;
-    const active = isOpen(openTheoryRow2Items, id);
+      <section className="rathmer-theory-grid">
+        {theoryRow2.map((module) => {
+          const id = `row2-${module.label}`;
+          const active = isOpen(openTheoryRow2Items, id);
 
-    return (
-      <div key={module.label}>
-        <button
-          className={`rathmer-theory-button ${active ? "is-active" : ""}`}
-          style={{
-            "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-          }}
-          onClick={() =>
-            toggleItem(openTheoryRow2Items, setOpenTheoryRow2Items, id, module)
-          }
-        >
-          {module.label}
-        </button>
+          return (
+            <div key={module.label}>
+              <button
+                className={`rathmer-theory-button ${
+                  active ? "is-active" : ""
+                }`}
+                style={activeGlowStyle}
+                onClick={() =>
+                  toggleItem(
+                    openTheoryRow2Items,
+                    setOpenTheoryRow2Items,
+                    id,
+                    module
+                  )
+                }
+              >
+                {module.label}
+              </button>
 
-        {active && <InlineInfo item={getOpenItem(openTheoryRow2Items, id)} />}
-      </div>
-    );
-  })}
-</section>
+              {active && (
+                <InlineInfo item={getOpenItem(openTheoryRow2Items, id)} />
+              )}
+            </div>
+          );
+        })}
+      </section>
 
       <section className="rathmer-main-grid">
         {type1Data.subtypes.map((subtype) => (
