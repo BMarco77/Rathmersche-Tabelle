@@ -254,11 +254,10 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
             <button
               id={`subtype-${subtype.code}`}
               className={`rathmer-subtype-header ${
-                openSubtype === subtype.code ? "is-open" : ""
-              }`}
-             style={{
+  openSubtype === subtype.code ? "is-open" : ""
+}`}
+style={{
   background: TYPE_GRADIENTS[type6Data.type],
-  boxShadow: `0 16px 30px ${TYPE_SHADOWS[type6Data.type]}`,
 }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
