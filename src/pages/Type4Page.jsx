@@ -224,8 +224,7 @@ export default function TypePage({ onBack, onSelectType }) {
                 }`}
                 style={{
   borderColor: active
-    ? TYPE_SHADOWS[type4Data.type]
-    : `${TYPE_SHADOWS[type4Data.type]}55`,
+    ? TYPE_SHADOWS[type4Data.type],
 }}
                 onClick={() =>
                   toggleItem(
