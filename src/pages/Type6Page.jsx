@@ -225,7 +225,9 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
                   active ? "is-active" : ""
                 }`}
                 style={{
-  borderColor: TYPE_SHADOWS[type6Data.type],
+  borderColor: active
+    ? TYPE_SHADOWS[type6Data.type]
+    : `${TYPE_SHADOWS[type6Data.type]}55`,
 }}
                 onClick={() =>
                   toggleItem(
