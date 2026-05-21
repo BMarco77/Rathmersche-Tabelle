@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HomePage from "./pages/HomePage";
-import TypePage from "./pages/TypePage";
+import TypePage from "./rathmer/TypePage";
+import Type2Page from "./pages/Type2Page";
 import Type3Page from "./pages/Type3Page";
 import Type1Page from "./pages/Type1Page";
 import Type4Page from "./pages/Type4Page";
