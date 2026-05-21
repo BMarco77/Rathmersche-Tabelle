@@ -253,6 +253,7 @@ export default function TypePage({ onBack, onSelectType }) {
               }`}
              style={{
   background: TYPE_GRADIENTS[type3Data.type],
+  boxShadow: `0 16px 30px ${TYPE_SHADOWS[type3Data.type]}`,
 }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
