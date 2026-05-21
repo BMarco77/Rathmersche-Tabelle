@@ -24,19 +24,17 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Blockierte Bauchenergie
-- (Bauchenergie wird unterdrückt)
+    content: `Blockierte Bauchenergie (Bauchenergie wird unterdrückt)
 
 Grundmotivation: 
-- Harmonie
+Harmonie
 
 Abwehrmechanismus: 
-- Schutz durch Verschmelzung`
+Schutz durch Verschmelzung`
   },
 
   sideInfo: {
-    content: `Typ 9 ist der einzige Enneagrammtyp, der sich weder der männlichen noch der weiblichen Seite des Enneagramms zuordnen lässt. 
-    Er weist Neutralität in seinen Charakter- & Körperzügen auf, was eng verbunden mit der Konturenlosigkeit von Typ 9 ist.`
+    content: `Typ 9 ist der einzige Enneagrammtyp, der sich weder der männlichen noch der weiblichen Seite des Enneagramms zuordnen lässt. Er weist Neutralität in seinen Charakter- & Körperzügen auf, was eng verbunden mit der Konturenlosigkeit von Typ 9 ist.`
   },
 
   coreModules: [
