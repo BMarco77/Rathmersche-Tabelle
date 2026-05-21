@@ -224,6 +224,9 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
                 className={`rathmer-theory-button ${
                   active ? "is-active" : ""
                 }`}
+                style={{
+  borderColor: TYPE_SHADOWS[type6Data.type],
+}}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow2Items,
