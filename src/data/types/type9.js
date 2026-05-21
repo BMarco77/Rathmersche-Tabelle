@@ -9,8 +9,7 @@ export const type9Data = {
 
   centerInfo: {
     content: `Grundproblem:
-- Schutz-Defizit 
-(Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+Schutz-Defizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
