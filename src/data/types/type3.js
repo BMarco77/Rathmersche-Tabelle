@@ -24,8 +24,7 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Blockierte Herzenergie:
-Herzenergie wird unterdrückt
+    content: `Blockierte Herzenergie (Herzenergie wird unterdrückt)
 
 Grundmotivation:
 Erfolg
