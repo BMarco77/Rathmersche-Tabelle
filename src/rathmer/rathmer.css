@@ -340,7 +340,11 @@ button {
 .rathmer-theory-button:hover {
   transform: translateY(-1px);
 
-  border-color: rgba(155, 77, 204, 0.34);
+  border-color: color-mix(
+    in srgb,
+    var(--active-glow) 38%,
+    rgba(255,255,255,0.25)
+  );
 
   background: linear-gradient(
     180deg,
@@ -349,10 +353,13 @@ button {
   );
 
   box-shadow:
-    0 10px 22px rgba(155, 77, 204, 0.1),
+    0 10px 22px color-mix(
+      in srgb,
+      var(--active-glow) 16%,
+      transparent
+    ),
     0 0 0 1px rgba(255, 255, 255, 0.22) inset;
 }
-
 .rathmer-top-button.is-active,
 .rathmer-theory-button.is-active {
 
