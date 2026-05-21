@@ -115,18 +115,21 @@ export default function TypePage({ onBack, onSelectType }) {
       <section className="rathmer-top-grid">
         <div>
           <button
-            className={`rathmer-top-button ${
-              isOpen(openTopItems, "center") ? "is-active" : ""
-            }`}style={{
-    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],            onClick={() =>
-              toggleItem(
-                openTopItems,
-                setOpenTopItems,
-                "center",
-                type1Data.centerInfo
-              )
-            }
-          >
+  className={`rathmer-top-button ${
+    isOpen(openTopItems, "center") ? "is-active" : ""
+  }`}
+  style={{
+    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+  }}
+  onClick={() =>
+    toggleItem(
+      openTopItems,
+      setOpenTopItems,
+      "center",
+      type1Data.centerInfo
+    )
+  }
+>
             {type1Data.center}
           </button>
 
@@ -137,19 +140,20 @@ export default function TypePage({ onBack, onSelectType }) {
 
         <div>
           <button
-            className={`rathmer-top-button ${
-              isOpen(openTopItems, "type") ? "is-active" : ""
-            }`}
-            style={{
+  className={`rathmer-top-button ${
+    isOpen(openTopItems, "side") ? "is-active" : ""
+  }`}
+  style={{
     "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-  }}            onClick={() =>
-              toggleItem(
-                openTopItems,
-                setOpenTopItems,
-                "type",
-                type1Data.typeInfo
-              )
-            }
+  }}
+  onClick={() =>
+    toggleItem(
+      openTopItems,
+      setOpenTopItems,
+      "side",
+      type1Data.sideInfo
+    )
+  }
           >
             {type1Data.title}
           </button>
