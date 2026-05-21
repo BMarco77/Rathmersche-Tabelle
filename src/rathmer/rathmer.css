@@ -302,7 +302,7 @@ button {
 .rathmer-theory-button {
   position: relative;
 
-  border: 2px solid rgba(255,255,255,0.25);
+  border: 2px solid transparent;
   border-radius: 1.3rem;
 
   background: linear-gradient(
@@ -352,6 +352,8 @@ button {
 .rathmer-top-button.is-active,
 .rathmer-theory-button.is-active {
   border-color: rgba(155, 77, 204, 0.55);
+  transform: translateY(-1px);
+}
 
   background: linear-gradient(
     180deg,
