@@ -9,15 +9,14 @@ export const type7Data = {
 
   centerInfo: {
     content: `Grundproblem: 
-Vertrauens-Defizit
-- (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
+Vertrauens-Defizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
 
 Hauptthemen:
-- Rationalismus, 
-- Analyse, 
-- Struktur, 
-- Sicherheit, 
-- Vorsicht, 
+- Rationalismus 
+- Analyse 
+- Struktur
+- Sicherheit
+- Vorsicht
 - Gedanken
 
 Identifikation:
@@ -25,14 +24,13 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `umgewandelte Kopfenergie
-- (Kopfenergie wird auf sich selbst projiziert)
+    content: `umgewandelte Kopfenergie (Kopfenergie wird auf sich selbst projiziert)
 
 Grundmotivation: 
-- Spaß
+Spaß
 
 Abwehrmechanismus: 
-- Sicherheit durch Planung `
+Sicherheit durch Planung `
   },
 
   sideInfo: {
@@ -41,23 +39,23 @@ Abwehrmechanismus:
 Indizien, die hier beachtet werden sollten:
 
 Nasenform: 
-- grob, 
-- breit, 
-- unförmig, 
-- rund, 
-- kantig, 
+- grob
+- breit 
+- unförmig 
+- rund
+- kantig
 - männlich
 
 Gesichtspartie: 
-- grobe Haut, 
-- unreine Haut, 
-- markante Gesichtsform, 
-- starker Unterkiefer, 
+- grobe Haut
+- unreine Haut 
+- markante Gesichtsform
+- starker Unterkiefer
 - kurze Wimpern
 
 Wirkung: 
-- maskulin, 
-- grob, 
+- maskulin
+- grob 
 - kantig`
   },
 
