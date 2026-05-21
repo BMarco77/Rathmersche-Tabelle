@@ -139,7 +139,9 @@ export default function TypePage({ onBack, onSelectType }) {
             className={`rathmer-top-button ${
               isOpen(openTopItems, "type") ? "is-active" : ""
             }`}
-            onClick={() =>
+            style={{
+    "--active-glow": TYPE_GLOW_COLORS[type3Data.type],
+  }}            onClick={() =>
               toggleItem(
                 openTopItems,
                 setOpenTopItems,
@@ -190,7 +192,9 @@ export default function TypePage({ onBack, onSelectType }) {
                 className={`rathmer-theory-button ${
                   active ? "is-active" : ""
                 }`}
-                onClick={() =>
+                style={{
+    "--active-glow": TYPE_GLOW_COLORS[type3Data.type],
+  }}                onClick={() =>
                   toggleItem(
                     openTheoryRow1Items,
                     setOpenTheoryRow1Items,
