@@ -138,7 +138,7 @@ export default function TypePage({ onBack, onSelectType }) {
               isOpen(openTopItems, "type") ? "is-active" : ""
             }`}
             style={{
-    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+    "--active-glow": TYPE_GLOW_COLORS[type2Data.type],
   }}            onClick={() =>
               toggleItem(
                 openTopItems,
