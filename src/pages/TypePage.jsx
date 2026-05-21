@@ -74,7 +74,7 @@ export default function TypePage({ onBack, onSelectType }) {
         <button
           className="rathmer-page-nav-button"
           style={{
-            "--type-glow": TYPE_GLOW_COLORS[type1Data.type],
+            "--type-glow": TYPE_GLOW_COLORS[type2Data.type],
           }}
           onClick={() => onSelectType(prevType)}
         >
