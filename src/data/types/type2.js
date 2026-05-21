@@ -8,8 +8,7 @@ export const type2Data = {
   color: TYPE_COLORS[2],
 
   centerInfo: {
-    content: `
-Grundproblem:
+    content: `Grundproblem:
 Liebes-Defizit (Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein)
 
 Hauptthemen:
