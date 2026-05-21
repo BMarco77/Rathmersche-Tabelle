@@ -24,8 +24,7 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Überentwickelte Herzenergie:
-Herzenergie wird nach außen gerichtet
+    content: `Überentwickelte Herzenergie (Herzenergie wird nach außen gerichtet)
 
 Grundmotivation:
 Liebe
