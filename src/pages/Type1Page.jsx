@@ -140,7 +140,9 @@ export default function TypePage({ onBack, onSelectType }) {
             className={`rathmer-top-button ${
               isOpen(openTopItems, "type") ? "is-active" : ""
             }`}
-            onClick={() =>
+            style={{
+    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+  }}            onClick={() =>
               toggleItem(
                 openTopItems,
                 setOpenTopItems,
