@@ -9,8 +9,7 @@ export const type8Data = {
 
   centerInfo: {
     content: `Grundproblem:
-- Schutz-Defizit 
-(Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+Schutz-Defizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
@@ -24,8 +23,7 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `Überentwickelte Bauchenergie
-(Bauchenergie wird nach außen gerichtet)
+    content: `Überentwickelte Bauchenergie (Bauchenergie wird nach außen gerichtet)
 
 Grundmotivation: 
 Macht
@@ -40,23 +38,23 @@ Schutz durch Kontrolle`
 Indizien, die hier beachtet werden sollten:
 
 Nasenform: 
-- grob, 
-- breit, 
-- unförmig, 
-- rund, 
-- kantig, 
+- grob
+- breit 
+- unförmig
+- rund 
+- kantig 
 - männlich
 
 Gesichtspartie: 
-- grobe Haut, 
-- unreine Haut, 
-- markante Gesichtsform, 
-- starker Unterkiefer, 
+- grobe Haut
+- unreine Haut 
+- markante Gesichtsform
+- starker Unterkiefer 
 - kurze Wimpern
 
 Wirkung: 
-- maskulin, 
-- grob, 
+- maskulin
+- grob
 - kantig`
   },
 
