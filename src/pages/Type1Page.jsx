@@ -5,7 +5,7 @@ import "../rathmer/rathmer.css";
 import {
   TYPE_GRADIENTS,
   TYPE_INFO_GRADIENTS,
-  TYPE_GLOW_COLORS
+  TYPE_GLOW_COLORS,
 } from "../data/typeColors";
 
 export default function TypePage({ onBack, onSelectType }) {
@@ -22,7 +22,7 @@ export default function TypePage({ onBack, onSelectType }) {
   const currentType = type1Data.type;
 
   const prevType = currentType === 1 ? 9 : currentType - 1;
-  const nextType = currentType === 9 ? 1 : currentType + 1;  
+  const nextType = currentType === 9 ? 1 : currentType + 1;
 
   const theoryRow1 = type1Data.coreModules.slice(0, 4);
   const theoryRow2 = type1Data.coreModules.slice(4, 8);
@@ -72,33 +72,31 @@ export default function TypePage({ onBack, onSelectType }) {
   return (
     <div className="rathmer-page type-1-page">
       <div className="rathmer-page-nav">
-  <button
-    className="rathmer-page-nav-button"
-    style={{
-      background: TYPE_GRADIENTS[prevType],
-      color: "white",
-    }}
-     onClick={() => onSelectType(prevType)}  >
-   ← Typ {prevType}
-  </button>
+        <button
+          className="rathmer-page-nav-button"
+          style={{
+            "--type-glow": TYPE_GLOW_COLORS[type1Data.type],
+          }}
+          onClick={() => onSelectType(prevType)}
+        >
+          ← Typ {prevType}
+        </button>
 
-  <button
-    className="rathmer-page-nav-button"
-    onClick={onBack}
-  >
-    Home
-  </button>
+        <button className="rathmer-page-nav-button" onClick={onBack}>
+          Home
+        </button>
 
-  <button
-    className="rathmer-page-nav-button"
-    style={{
-      background: TYPE_GRADIENTS[nextType],
-      color: "white",
-    }}
-     onClick={() => onSelectType(nextType)}  >
-    {nextType} Typ →
-  </button>
-</div>
+        <button
+          className="rathmer-page-nav-button"
+          style={{
+            background: TYPE_GRADIENTS[nextType],
+            color: "white",
+          }}
+          onClick={() => onSelectType(nextType)}
+        >
+          {nextType} Typ →
+        </button>
+      </div>
 
       <header className="rathmer-home-header">
         <div className="rathmer-wappen">
@@ -189,14 +187,12 @@ export default function TypePage({ onBack, onSelectType }) {
           return (
             <div key={module.label}>
               <button
-                className={`rathmer-theory-button ${
-                  active ? "is-active" : ""
-                }`}
-               style={{
-  borderColor: active
-    ? TYPE_GLOW_COLORS[type1Data.type]
-    : "transparent",
-}}
+                className={`rathmer-theory-button ${active ? "is-active" : ""}`}
+                style={{
+                  borderColor: active
+                    ? TYPE_GLOW_COLORS[type1Data.type]
+                    : "transparent",
+                }}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow1Items,
@@ -225,9 +221,7 @@ export default function TypePage({ onBack, onSelectType }) {
           return (
             <div key={module.label}>
               <button
-                className={`rathmer-theory-button ${
-                  active ? "is-active" : ""
-                }`}
+                className={`rathmer-theory-button ${active ? "is-active" : ""}`}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow2Items,
@@ -250,16 +244,15 @@ export default function TypePage({ onBack, onSelectType }) {
 
       <section className="rathmer-main-grid">
         {type1Data.subtypes.map((subtype) => (
-          <div key={subtype.code} 
-            className="rathmer-subtype-column">
+          <div key={subtype.code} className="rathmer-subtype-column">
             <button
               id={`subtype-${subtype.code}`}
               className={`rathmer-subtype-header ${
-  openSubtype === subtype.code ? "is-open" : ""
-}`}
-style={{
-  background: TYPE_GRADIENTS[type1Data.type],
-}}
+                openSubtype === subtype.code ? "is-open" : ""
+              }`}
+              style={{
+                background: TYPE_GRADIENTS[type1Data.type],
+              }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
                   setOpenSubtype(null);
@@ -303,24 +296,24 @@ style={{
                               ? "is-active"
                               : ""
                           }`}
-                         onClick={() => {
-  const isSameItem =
-    selectedSubtypeItem?.subtype === subtype.code &&
-    selectedSubtypeItem?.title === trait.label;
+                          onClick={() => {
+                            const isSameItem =
+                              selectedSubtypeItem?.subtype === subtype.code &&
+                              selectedSubtypeItem?.title === trait.label;
 
-  if (isSameItem) {
-    setSelectedSubtypeItem(null);
-    return;
-  }
+                            if (isSameItem) {
+                              setSelectedSubtypeItem(null);
+                              return;
+                            }
 
-  setSelectedSubtypeItem({
-    subtype: subtype.code,
-    title: trait.label,
-    content: trait.content,
-  });
+                            setSelectedSubtypeItem({
+                              subtype: subtype.code,
+                              title: trait.label,
+                              content: trait.content,
+                            });
 
-  scrollToMobileTarget(targetId);
-}}
+                            scrollToMobileTarget(targetId);
+                          }}
                         >
                           {trait.label}
                         </button>
@@ -353,23 +346,23 @@ style={{
                                 : ""
                             }`}
                             onClick={() => {
-  const isSameItem =
-    selectedSubtypeItem?.subtype === subtype.code &&
-    selectedSubtypeItem?.title === module.label;
+                              const isSameItem =
+                                selectedSubtypeItem?.subtype === subtype.code &&
+                                selectedSubtypeItem?.title === module.label;
 
-  if (isSameItem) {
-    setSelectedSubtypeItem(null);
-    return;
-  }
+                              if (isSameItem) {
+                                setSelectedSubtypeItem(null);
+                                return;
+                              }
 
-  setSelectedSubtypeItem({
-    subtype: subtype.code,
-    title: module.label,
-    content: module.content,
-  });
+                              setSelectedSubtypeItem({
+                                subtype: subtype.code,
+                                title: module.label,
+                                content: module.content,
+                              });
 
-  scrollToMobileTarget(targetId);
-}}
+                              scrollToMobileTarget(targetId);
+                            }}
                           >
                             {module.label}
                           </button>
@@ -392,16 +385,16 @@ style={{
           </div>
         ))}
 
-       <aside
-  className={`rathmer-side-info ${
-    selectedSubtypeItem ? "is-expanded" : ""
-  }`}
-  style={{
-    background: selectedSubtypeItem
-      ? undefined
-      : TYPE_INFO_GRADIENTS[type1Data.type],
-  }}
->
+        <aside
+          className={`rathmer-side-info ${
+            selectedSubtypeItem ? "is-expanded" : ""
+          }`}
+          style={{
+            background: selectedSubtypeItem
+              ? undefined
+              : TYPE_INFO_GRADIENTS[type1Data.type],
+          }}
+        >
           {selectedSubtypeItem ? (
             <>
               <span className="rathmer-info-label">
@@ -432,9 +425,7 @@ function InlineInfo({ item }) {
 function SubtypeMobileInfo({ item }) {
   return (
     <div className="rathmer-inline-info mobile-info">
-      <span className="rathmer-info-label">
-        {item.subtype.toUpperCase()}
-      </span>
+      <span className="rathmer-info-label">{item.subtype.toUpperCase()}</span>
       <p>{item.content}</p>
     </div>
   );
