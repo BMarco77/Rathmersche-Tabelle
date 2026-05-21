@@ -186,8 +186,11 @@ export default function TypePage({ onBack, onSelectType }) {
 
           return (
             <div key={module.label}>
-              <button
-                className={`rathmer-theory-button ${active ? "is-active" : ""}`}
+                <button
+             className={`rathmer-theory-button ${active ? "is-active" : ""}`}
+             style={{
+             "--active-glow": TYPE_GLOW_COLORS[type2Data.type],
+               }}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow1Items,
