@@ -73,29 +73,30 @@ export default function TypePage({ onBack, onSelectType }) {
     <div className="rathmer-page type-1-page">
       <div className="rathmer-page-nav">
         <button
-          className="rathmer-page-nav-button"
-          style={{
-            "--type-glow": TYPE_GLOW_COLORS[type1Data.type],
-          }}
-          onClick={() => onSelectType(prevType)}
-        >
-          ← Typ {prevType}
-        </button>
+  className="rathmer-page-nav-button"
+  style={{
+    background: TYPE_GRADIENTS[prevType],
+    color: "white",
+  }}
+  onClick={() => onSelectType(prevType)}
+>
+  ← Typ {prevType}
+</button>
 
         <button className="rathmer-page-nav-button" onClick={onBack}>
           Home
         </button>
 
         <button
-          className="rathmer-page-nav-button"
-          style={{
-            background: TYPE_GRADIENTS[nextType],
-            color: "white",
-          }}
-          onClick={() => onSelectType(nextType)}
-        >
-          {nextType} Typ →
-        </button>
+  className="rathmer-page-nav-button"
+  style={{
+    background: TYPE_GRADIENTS[nextType],
+    color: "white",
+  }}
+  onClick={() => onSelectType(nextType)}
+>
+  Typ {nextType} →
+</button>
       </div>
 
       <header className="rathmer-home-header">
