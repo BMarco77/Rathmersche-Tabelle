@@ -3,6 +3,11 @@ import wappen from "../assets/wappen-512.png";
 import { type4Data } from "../data/types/type4";
 import { TYPE_GRADIENTS, TYPE_INFO_GRADIENTS } from "../data/typeColors";
 import "../rathmer/rathmer.css";
+import {
+  TYPE_GRADIENTS,
+  TYPE_INFO_GRADIENTS,
+  TYPE_SHADOWS,
+} from "../data/typeColors";
 
 export default function TypePage({ onBack, onSelectType }) {
   const [openTopItems, setOpenTopItems] = useState([]);
