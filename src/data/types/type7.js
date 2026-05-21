@@ -24,7 +24,7 @@ Identifikation:
   },
 
   typeInfo: {
-    content: `umgewandelte Kopfenergie (Kopfenergie wird auf sich selbst projiziert)
+    content: `Umgewandelte Kopfenergie (Kopfenergie wird auf sich selbst projiziert)
 
 Grundmotivation: 
 Spaß
