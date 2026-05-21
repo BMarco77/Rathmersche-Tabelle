@@ -113,139 +113,82 @@ export default function TypePage({ onBack, onSelectType }) {
       </header>
 
       <section className="rathmer-top-grid">
-        <div>
-          <button
-  className={`rathmer-top-button ${
-    isOpen(openTopItems, "center") ? "is-active" : ""
-  }`}
-  style={{
-    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-  }}
-  onClick={() =>
-    toggleItem(
-      openTopItems,
-      setOpenTopItems,
-      "center",
-      type1Data.centerInfo
-    )
-  }
->
-            {type1Data.center}
-          </button>
+  {[
+    { id: "center", data: type1Data.centerInfo, label: type1Data.center },
+    { id: "type", data: type1Data.typeInfo, label: type1Data.title },
+    { id: "side", data: type1Data.sideInfo, label: type1Data.side },
+  ].map((item) => (
+    <div key={item.id}>
+      <button
+        className={`rathmer-top-button ${
+          isOpen(openTopItems, item.id) ? "is-active" : ""
+        }`}
+        style={{
+          "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+        }}
+        onClick={() =>
+          toggleItem(openTopItems, setOpenTopItems, item.id, item.data)
+        }
+      >
+        {item.label}
+      </button>
 
-          {isOpen(openTopItems, "center") && (
-            <InlineInfo item={getOpenItem(openTopItems, "center")} />
-          )}
-        </div>
+      {isOpen(openTopItems, item.id) && (
+        <InlineInfo item={getOpenItem(openTopItems, item.id)} />
+      )}
+    </div>
+  ))}
+</section>
 
-        <div>
-          <button
-  className={`rathmer-top-button ${
-    isOpen(openTopItems, "side") ? "is-active" : ""
-  }`}
-  style={{
-    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-  }}
-  onClick={() =>
-    toggleItem(
-      openTopItems,
-      setOpenTopItems,
-      "side",
-      type1Data.sideInfo
-    )
-  }
-          >
-            {type1Data.title}
-          </button>
+<section className="rathmer-theory-grid">
+  {theoryRow1.map((module) => {
+    const id = `row1-${module.label}`;
+    const active = isOpen(openTheoryRow1Items, id);
 
-          {isOpen(openTopItems, "type") && (
-            <InlineInfo item={getOpenItem(openTopItems, "type")} />
-          )}
-        </div>
+    return (
+      <div key={module.label}>
+        <button
+          className={`rathmer-theory-button ${active ? "is-active" : ""}`}
+          style={{
+            "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+          }}
+          onClick={() =>
+            toggleItem(openTheoryRow1Items, setOpenTheoryRow1Items, id, module)
+          }
+        >
+          {module.label}
+        </button>
 
-        <div>
-          <button
-            className={`rathmer-top-button ${
-              isOpen(openTopItems, "side") ? "is-active" : ""
-            }`}style={{
-    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],            onClick={() =>
-              toggleItem(
-                openTopItems,
-                setOpenTopItems,
-                "side",
-                type1Data.sideInfo
-              )
-            }
-          >
-            {type1Data.side}
-          </button>
+        {active && <InlineInfo item={getOpenItem(openTheoryRow1Items, id)} />}
+      </div>
+    );
+  })}
+</section>
 
-          {isOpen(openTopItems, "side") && (
-            <InlineInfo item={getOpenItem(openTopItems, "side")} />
-          )}
-        </div>
-      </section>
+<section className="rathmer-theory-grid">
+  {theoryRow2.map((module) => {
+    const id = `row2-${module.label}`;
+    const active = isOpen(openTheoryRow2Items, id);
 
-      <section className="rathmer-theory-grid">
-        {theoryRow1.map((module) => {
-          const id = `row1-${module.label}`;
-          const active = isOpen(openTheoryRow1Items, id);
+    return (
+      <div key={module.label}>
+        <button
+          className={`rathmer-theory-button ${active ? "is-active" : ""}`}
+          style={{
+            "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
+          }}
+          onClick={() =>
+            toggleItem(openTheoryRow2Items, setOpenTheoryRow2Items, id, module)
+          }
+        >
+          {module.label}
+        </button>
 
-          return (
-            <div key={module.label}>
-              <button
-                className={`rathmer-theory-button ${active ? "is-active" : ""}`}
-                style={{
-    "--active-glow": TYPE_GLOW_COLORS[type1Data.type],
-  }}
-                onClick={() =>
-                  toggleItem(
-                    openTheoryRow1Items,
-                    setOpenTheoryRow1Items,
-                    id,
-                    module
-                  )
-                }
-              >
-                {module.label}
-              </button>
-
-              {active && (
-                <InlineInfo item={getOpenItem(openTheoryRow1Items, id)} />
-              )}
-            </div>
-          );
-        })}
-      </section>
-
-      <section className="rathmer-theory-grid">
-        {theoryRow2.map((module) => {
-          const id = `row2-${module.label}`;
-          const active = isOpen(openTheoryRow2Items, id);
-
-          return (
-            <div key={module.label}>
-              <button
-                className={`rathmer-theory-button ${active ? "is-active" : ""}`}
-                onClick={() =>
-                  toggleItem(
-                    openTheoryRow2Items,
-                    setOpenTheoryRow2Items,
-                    id,
-                    module
-                  )
-                }
-              >
-                {module.label}
-              </button>
-
-              {active && (
-                <InlineInfo item={getOpenItem(openTheoryRow2Items, id)} />
-              )}
-            </div>
-          );
-        })}
-      </section>
+        {active && <InlineInfo item={getOpenItem(openTheoryRow2Items, id)} />}
+      </div>
+    );
+  })}
+</section>
 
       <section className="rathmer-main-grid">
         {type1Data.subtypes.map((subtype) => (
