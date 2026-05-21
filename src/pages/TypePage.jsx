@@ -248,8 +248,9 @@ export default function TypePage({ onBack, onSelectType }) {
               className={`rathmer-subtype-header ${
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
-             style={{
+            style={{
   background: TYPE_GRADIENTS[type2Data.type],
+  boxShadow: `0 16px 30px ${TYPE_SHADOWS[type2Data.type]}`,
 }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
