@@ -9,8 +9,7 @@ export const type1Data = {
 
   centerInfo: {
     content: `Grundproblem:
-- Schutz-Defizit 
-(Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+Schutz-Defizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
@@ -25,13 +24,13 @@ Identifikation:
 
   typeInfo: {
     content: `umgewandelte Bauchenergie:
-- Bauchenergie wird auf sich selbst bezogen
+Bauchenergie wird auf sich selbst bezogen
 
 Grundmotivation:
-- Perfektion
+Perfektion
 
 Abwehrmechanismus:
-- Schutz durch Optimierung`
+Schutz durch Optimierung`
   },
 
   sideInfo: {
