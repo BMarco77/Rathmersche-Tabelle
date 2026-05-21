@@ -356,7 +356,7 @@ button {
 .rathmer-top-button.is-active,
 .rathmer-theory-button.is-active {
 
-  border-color: rgba(210,170,255,0.9);
+  border-color: var(--active-glow);
 
   background: linear-gradient(
     180deg,
@@ -365,14 +365,13 @@ button {
   );
 
   box-shadow:
-    0 0 0 2px rgba(210,170,255,0.55),
-    0 0 22px rgba(180,120,255,0.42),
-    0 0 42px rgba(180,120,255,0.22),
-    0 14px 30px rgba(155,77,204,0.22);
+    0 0 0 2px color-mix(in srgb, var(--active-glow) 55%, transparent),
+    0 0 22px color-mix(in srgb, var(--active-glow) 42%, transparent),
+    0 0 42px color-mix(in srgb, var(--active-glow) 22%, transparent),
+    0 14px 30px color-mix(in srgb, var(--active-glow) 22%, transparent);
 
   transform: translateY(-1px);
 }
-
 /* =========================
    INLINE INFO BOXES
 ========================= */
