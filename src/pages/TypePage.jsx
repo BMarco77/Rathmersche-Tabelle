@@ -221,7 +221,8 @@ export default function TypePage({ onBack, onSelectType }) {
                 }`}
                 style={{
   borderColor: active
-    ? TYPE_SHADOWS[type2Data.type],
+    ? TYPE_GLOW_COLORS[type2Data.type]
+    : "transparent",
 }}
                 onClick={() =>
                   toggleItem(
