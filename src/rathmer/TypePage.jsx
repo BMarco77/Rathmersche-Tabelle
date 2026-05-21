@@ -266,7 +266,8 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                               ? "is-active"
                               : ""
                           }`}
-                          onClick={() => {
+                          style={activeGlowStyle}
+                           onClick={() => {
                             const isSameItem =
                               selectedSubtypeItem?.subtype === subtype.code &&
                               selectedSubtypeItem?.title === trait.label;
@@ -315,7 +316,8 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                                 ? "is-active"
                                 : ""
                             }`}
-                            onClick={() => {
+                            style={activeGlowStyle}
+                             onClick={() => {
                               const isSameItem =
                                 selectedSubtypeItem?.subtype === subtype.code &&
                                 selectedSubtypeItem?.title === module.label;
