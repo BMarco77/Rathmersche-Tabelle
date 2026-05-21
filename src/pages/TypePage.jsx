@@ -1,30 +1,33 @@
 import React, { useState, useEffect } from "react";
 import wappen from "../assets/wappen-512.png";
-import { type2Data } from "../data/types/type2";
 import "../rathmer/rathmer.css";
 import {
   TYPE_GRADIENTS,
   TYPE_INFO_GRADIENTS,
   TYPE_GLOW_COLORS,
 } from "../data/typeColors";
-export default function TypePage({ onBack, onSelectType }) {
-  const [openTopItems, setOpenTopItems] = useState([]);
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export default function TypePage({ typeData, onBack, onSelectType }) {
+  const [openTopItems, setOpenTopItems] = useState([]);
   const [openTheoryRow1Items, setOpenTheoryRow1Items] = useState([]);
   const [openTheoryRow2Items, setOpenTheoryRow2Items] = useState([]);
   const [selectedSubtypeItem, setSelectedSubtypeItem] = useState(null);
   const [openSubtype, setOpenSubtype] = useState(null);
 
-  const currentType = type2Data.type;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [typeData.type]);
 
+  const currentType = typeData.type;
   const prevType = currentType === 1 ? 9 : currentType - 1;
   const nextType = currentType === 9 ? 1 : currentType + 1;
 
-  const theoryRow1 = type2Data.coreModules.slice(0, 4);
-  const theoryRow2 = type2Data.coreModules.slice(4, 8);
+  const theoryRow1 = typeData.coreModules.slice(0, 4);
+  const theoryRow2 = typeData.coreModules.slice(4, 8);
+
+  const activeGlowStyle = {
+    "--active-glow": TYPE_GLOW_COLORS[typeData.type],
+  };
 
   const toggleItem = (items, setItems, id, item) => {
     const alreadyOpen = items.some((openItem) => openItem.id === id);
@@ -44,13 +47,9 @@ export default function TypePage({ onBack, onSelectType }) {
     ]);
   };
 
-  const isOpen = (items, id) => {
-    return items.some((item) => item.id === id);
-  };
+  const isOpen = (items, id) => items.some((item) => item.id === id);
 
-  const getOpenItem = (items, id) => {
-    return items.find((item) => item.id === id);
-  };
+  const getOpenItem = (items, id) => items.find((item) => item.id === id);
 
   const scrollToMobileTarget = (id) => {
     if (window.innerWidth > 900) return;
@@ -69,31 +68,33 @@ export default function TypePage({ onBack, onSelectType }) {
       .replace(/[^a-z0-9]+/g, "-");
 
   return (
-    <div className="rathmer-page">
+    <div className={`rathmer-page type-${typeData.type}-page`}>
       <div className="rathmer-page-nav">
         <button
-  className="rathmer-page-nav-button"
-  style={{
-    background: TYPE_GRADIENTS[prevType],
-    color: "white",
-  }}
-  onClick={() => onSelectType(prevType)}
->
-  ← Typ {prevType}
-</button>
+          className="rathmer-page-nav-button"
+          style={{
+            background: TYPE_GRADIENTS[prevType],
+            color: "white",
+          }}
+          onClick={() => onSelectType(prevType)}
+        >
+          ← Typ {prevType}
+        </button>
+
         <button className="rathmer-page-nav-button" onClick={onBack}>
           Home
         </button>
+
         <button
-  className="rathmer-page-nav-button"
-  style={{
-    background: TYPE_GRADIENTS[nextType],
-    color: "white",
-  }}
-  onClick={() => onSelectType(nextType)}
->
-  Typ {nextType} →
-</button>
+          className="rathmer-page-nav-button"
+          style={{
+            background: TYPE_GRADIENTS[nextType],
+            color: "white",
+          }}
+          onClick={() => onSelectType(nextType)}
+        >
+          Typ {nextType} →
+        </button>
       </div>
 
       <header className="rathmer-home-header">
@@ -101,82 +102,50 @@ export default function TypePage({ onBack, onSelectType }) {
           <img src={wappen} alt="Rathmer Wappen" />
         </div>
 
-        <h1>Typ 2 – Der Helfer</h1>
+        <h1>{typeData.title}</h1>
 
         <p>
-          Eine interaktive Übersicht der Typ-2-Struktur, ihrer Grunddynamik und
-          Subtypen.
+          Eine interaktive Übersicht der Typ-{typeData.type}-Struktur, ihrer
+          Grunddynamik und Subtypen.
         </p>
       </header>
 
       <section className="rathmer-top-grid">
-        <div>
-          <button
-            className={`rathmer-top-button ${
-              isOpen(openTopItems, "center") ? "is-active" : ""
-            }`}
-            onClick={() =>
-              toggleItem(
-                openTopItems,
-                setOpenTopItems,
-                "center",
-                type2Data.centerInfo
-              )
-            }
-          >
-            {type2Data.center}
-          </button>
+        {[
+          {
+            id: "center",
+            data: typeData.centerInfo,
+            label: typeData.center,
+          },
+          {
+            id: "type",
+            data: typeData.typeInfo,
+            label: typeData.title,
+          },
+          {
+            id: "side",
+            data: typeData.sideInfo,
+            label: typeData.side,
+          },
+        ].map((item) => (
+          <div key={item.id}>
+            <button
+              className={`rathmer-top-button ${
+                isOpen(openTopItems, item.id) ? "is-active" : ""
+              }`}
+              style={activeGlowStyle}
+              onClick={() =>
+                toggleItem(openTopItems, setOpenTopItems, item.id, item.data)
+              }
+            >
+              {item.label}
+            </button>
 
-          {isOpen(openTopItems, "center") && (
-            <InlineInfo item={getOpenItem(openTopItems, "center")} />
-          )}
-        </div>
-
-        <div>
-          <button
-            className={`rathmer-top-button ${
-              isOpen(openTopItems, "type") ? "is-active" : ""
-            }`}
-            style={{
-    "--active-glow": TYPE_GLOW_COLORS[type2Data.type],
-  }}            onClick={() =>
-              toggleItem(
-                openTopItems,
-                setOpenTopItems,
-                "type",
-                type2Data.typeInfo
-              )
-            }
-          >
-            {type2Data.title}
-          </button>
-
-          {isOpen(openTopItems, "type") && (
-            <InlineInfo item={getOpenItem(openTopItems, "type")} />
-          )}
-        </div>
-
-        <div>
-          <button
-            className={`rathmer-top-button ${
-              isOpen(openTopItems, "side") ? "is-active" : ""
-            }`}
-            onClick={() =>
-              toggleItem(
-                openTopItems,
-                setOpenTopItems,
-                "side",
-                type2Data.sideInfo
-              )
-            }
-          >
-            {type2Data.side}
-          </button>
-
-          {isOpen(openTopItems, "side") && (
-            <InlineInfo item={getOpenItem(openTopItems, "side")} />
-          )}
-        </div>
+            {isOpen(openTopItems, item.id) && (
+              <InlineInfo item={getOpenItem(openTopItems, item.id)} />
+            )}
+          </div>
+        ))}
       </section>
 
       <section className="rathmer-theory-grid">
@@ -186,11 +155,11 @@ export default function TypePage({ onBack, onSelectType }) {
 
           return (
             <div key={module.label}>
-                <button
-             className={`rathmer-theory-button ${active ? "is-active" : ""}`}
-             style={{
-             "--active-glow": TYPE_GLOW_COLORS[type2Data.type],
-               }}
+              <button
+                className={`rathmer-theory-button ${
+                  active ? "is-active" : ""
+                }`}
+                style={activeGlowStyle}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow1Items,
@@ -219,12 +188,10 @@ export default function TypePage({ onBack, onSelectType }) {
           return (
             <div key={module.label}>
               <button
-                className={`rathmer-theory-button ${active ? "is-active" : ""}`}
-                style={{
-                  borderColor: active
-                    ? TYPE_GLOW_COLORS[type2Data.type]
-                    : "transparent",
-                }}
+                className={`rathmer-theory-button ${
+                  active ? "is-active" : ""
+                }`}
+                style={activeGlowStyle}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow2Items,
@@ -246,7 +213,7 @@ export default function TypePage({ onBack, onSelectType }) {
       </section>
 
       <section className="rathmer-main-grid">
-        {type2Data.subtypes.map((subtype) => (
+        {typeData.subtypes.map((subtype) => (
           <div key={subtype.code} className="rathmer-subtype-column">
             <button
               id={`subtype-${subtype.code}`}
@@ -254,7 +221,7 @@ export default function TypePage({ onBack, onSelectType }) {
                 openSubtype === subtype.code ? "is-open" : ""
               }`}
               style={{
-                background: TYPE_GRADIENTS[type2Data.type],
+                background: TYPE_GRADIENTS[typeData.type],
               }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
@@ -395,7 +362,7 @@ export default function TypePage({ onBack, onSelectType }) {
           style={{
             background: selectedSubtypeItem
               ? undefined
-              : TYPE_INFO_GRADIENTS[type2Data.type],
+              : TYPE_INFO_GRADIENTS[typeData.type],
           }}
         >
           {selectedSubtypeItem ? (
