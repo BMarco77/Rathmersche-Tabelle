@@ -9,15 +9,15 @@ export const type6Data = {
 
   centerInfo: {
     content: `Grundproblem: 
-- Vertrauens-Defizit
+Vertrauens-Defizit
 (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
 
 Hauptthemen:
-- Rationalismus, 
-- Analyse, 
-- Struktur, 
-- Sicherheit, 
-- Vorsicht, 
+- Rationalismus 
+- Analyse 
+- Struktur 
+- Sicherheit 
+- Vorsicht 
 - Gedanken
 
 Identifikation:
@@ -26,13 +26,13 @@ Identifikation:
 
   typeInfo: {
     content: `Blockierte Kopfenergie
-- (Kopfenergie wird unterdrückt)
+(Kopfenergie wird unterdrückt)
 
 Grundmotivation: 
-- Sicherheit
+Sicherheit
 
 Abwehrmechanismus: 
-- Sicherheit durch Struktur`
+Sicherheit durch Struktur`
   },
 
   sideInfo: {
@@ -41,23 +41,23 @@ Abwehrmechanismus:
 Indizien, die hier beachtet werden sollten:
 
 Nasenform: 
-- grob, 
-- breit, 
-- unförmig, 
-- rund, 
-- kantig, 
+- grob 
+- breit 
+- unförmig 
+- rund 
+- kantig 
 - männlich
 
 Gesichtspartie: 
-- grobe Haut, 
-- unreine Haut, 
-- markante Gesichtsform, 
-- starker Unterkiefer, 
+- grobe Haut 
+- unreine Haut 
+- markante Gesichtsform 
+- starker Unterkiefer 
 - kurze Wimpern
 
 Wirkung: 
-- maskulin, 
-- grob, 
+- maskulin 
+- grob 
 - kantig`
   },
 
