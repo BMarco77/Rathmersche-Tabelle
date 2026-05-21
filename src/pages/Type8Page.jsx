@@ -117,7 +117,9 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
             className={`rathmer-top-button ${
               isOpen(openTopItems, "center") ? "is-active" : ""
             }`}
-            onClick={() =>
+            style={{
+    "--active-glow": TYPE_GLOW_COLORS[type8Data.type],
+  }}            onClick={() =>
               toggleItem(
                 openTopItems,
                 setOpenTopItems,
@@ -190,7 +192,9 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
                 className={`rathmer-theory-button ${
                   active ? "is-active" : ""
                 }`}
-                onClick={() =>
+                style={{
+    "--active-glow": TYPE_GLOW_COLORS[type8Data.type],
+  }}                onClick={() =>
                   toggleItem(
                     openTheoryRow1Items,
                     setOpenTheoryRow1Items,
