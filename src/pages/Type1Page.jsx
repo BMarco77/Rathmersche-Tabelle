@@ -5,8 +5,7 @@ import "../rathmer/rathmer.css";
 import {
   TYPE_GRADIENTS,
   TYPE_INFO_GRADIENTS,
-  TYPE_SHADOWS,
-  TYPE_GLOW,} from "../data/typeColors";
+  TYPE_SHADOWS,} from "../data/typeColors";
 
 export default function TypePage({ onBack, onSelectType }) {
   const [openTopItems, setOpenTopItems] = useState([]);
