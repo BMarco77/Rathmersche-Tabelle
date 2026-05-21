@@ -8,13 +8,8 @@ export const type3Data = {
   color: TYPE_COLORS[3],
 
   centerInfo: {
-    content: `Die Herzmenschen umfassen die Typen 2, 3 und 4.
-
-Die Aufmerksamkeit richtet sich stark auf Beziehung, Wirkung, Identität und emotionale Resonanz.
-
-Grundproblem:
-- Liebes-Defizit
-- Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein
+    content: `Grundproblem:
+Liebes-Defizit (Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein)
 
 Hauptthemen:
 - Image
@@ -30,13 +25,13 @@ Identifikation:
 
   typeInfo: {
     content: `Blockierte Herzenergie:
-- Herzenergie wird unterdrückt
+Herzenergie wird unterdrückt
 
 Grundmotivation:
-- Erfolg
+Erfolg
 
 Abwehrmechanismus:
-- Liebe durch äußere Werte`
+Liebe durch äußere Werte`
   },
 
   sideInfo: {
