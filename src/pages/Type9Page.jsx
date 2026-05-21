@@ -254,6 +254,7 @@ export default function TypePage({ onBack, onSelectType }) {
               }`}
               style={{
   background: TYPE_GRADIENTS[type9Data.type],
+  boxShadow: `0 16px 30px ${TYPE_SHADOWS[type9Data.type]}`,
 }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
