@@ -12,80 +12,30 @@ import { type7Data } from "./data/types/type7";
 import { type8Data } from "./data/types/type8";
 import { type9Data } from "./data/types/type9";
 
+const typeMap = {
+  1: type1Data,
+  2: type2Data,
+  3: type3Data,
+  4: type4Data,
+  5: type5Data,
+  6: type6Data,
+  7: type7Data,
+  8: type8Data,
+  9: type9Data,
+};
+
 export default function App() {
   const [selectedType, setSelectedType] = useState(null);
 
- if (selectedType === 1) {
-  return (
-    <Type1Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 2) {
-  return (
-    <Type2Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 3) {
-  return (
-    <Type3Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 4) {
-  return (
-    <Type4Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 5) {
-  return (
-    <Type5Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 6) {
-  return (
-    <Type6Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 7) {
-  return (
-    <Type7Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 8) {
-  return (
-    <Type8Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
-  if (selectedType === 9) {
-  return (
-    <Type9Page
-      onBack={() => setSelectedType(null)}
-      onSelectType={setSelectedType}
-    />
-  );
-}
+  if (selectedType) {
+    return (
+      <TypePage
+        typeData={typeMap[selectedType]}
+        onBack={() => setSelectedType(null)}
+        onSelectType={setSelectedType}
+      />
+    );
+  }
+
   return <HomePage onSelectType={setSelectedType} />;
 }
