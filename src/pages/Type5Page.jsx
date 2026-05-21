@@ -225,8 +225,7 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
                 }`}
                 style={{
   borderColor: active
-    ? TYPE_SHADOWS[type5Data.type]
-    : `${TYPE_SHADOWS[type5Data.type]}55`,
+    ? TYPE_SHADOWS[type5Data.type],
 }}
                 onClick={() =>
                   toggleItem(
