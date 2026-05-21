@@ -25,7 +25,7 @@ export default function App() {
 }
   if (selectedType === 2) {
   return (
-    <TypePage
+    <Type2Page
       onBack={() => setSelectedType(null)}
       onSelectType={setSelectedType}
     />
