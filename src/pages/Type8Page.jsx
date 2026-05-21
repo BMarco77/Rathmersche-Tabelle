@@ -253,6 +253,7 @@ const nextType = currentType === 9 ? 1 : currentType + 1;
               }`}
               style={{
   background: TYPE_GRADIENTS[type8Data.type],
+  boxShadow: `0 16px 30px ${TYPE_SHADOWS[type8Data.type]}`,
 }}
               onClick={() => {
                 if (openSubtype === subtype.code) {
