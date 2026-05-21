@@ -219,6 +219,9 @@ export default function TypePage({ onBack, onSelectType }) {
                 className={`rathmer-theory-button ${
                   active ? "is-active" : ""
                 }`}
+                style={{
+  borderColor: TYPE_SHADOWS[type2Data.type],
+}}
                 onClick={() =>
                   toggleItem(
                     openTheoryRow2Items,
