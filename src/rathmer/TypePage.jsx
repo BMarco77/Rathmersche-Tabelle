@@ -15,8 +15,14 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
   const [openSubtype, setOpenSubtype] = useState(null);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [typeData.type]);
+  window.scrollTo(0, 0);
+
+  setOpenTopItems([]);
+  setOpenTheoryRow1Items([]);
+  setOpenTheoryRow2Items([]);
+  setSelectedSubtypeItem(null);
+  setOpenSubtype(null);
+}, [typeData.type]);
 
   const currentType = typeData.type;
   const prevType = currentType === 1 ? 9 : currentType - 1;
