@@ -84,12 +84,6 @@ button {
   margin: 0 auto 4rem;
 }
 
-transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease,
-    filter 0.18s ease;
-}
-
 .rathmer-wappen {
   display: flex;
   justify-content: center;
