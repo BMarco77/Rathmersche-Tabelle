@@ -47,6 +47,12 @@ button {
 
   color: #2d1d16;
 
+  .rathmer-page-nav-button.is-home {
+  background: rgba(255, 248, 240, 0.72);
+  color: #2d1d16;
+  backdrop-filter: blur(8px);
+}
+
   background: linear-gradient(
     145deg,
     #f6efe2 0%,
