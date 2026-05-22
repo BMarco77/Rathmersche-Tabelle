@@ -553,12 +553,6 @@ transition:
 
   backdrop-filter: blur(8px);
 
-  transition:
-    transform 0.18s ease,
-    box-shadow 0.22s ease,
-    background 0.22s ease;
-}
-
 .rathmer-trait-button {
   min-height: 56px;
   padding: 0.85rem 1rem;
