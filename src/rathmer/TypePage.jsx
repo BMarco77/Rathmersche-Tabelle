@@ -115,10 +115,6 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
 
   <h1>{currentMeta.archetype}</h1>
 
-  <p className="rathmer-archetype-subtitle">
-    {currentMeta.archetype}
-  </p>
-
   <p>
     Eine interaktive Übersicht der Typ-{typeData.type}-Struktur, ihrer
     Grunddynamik und Subtypen.
