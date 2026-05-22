@@ -318,8 +318,21 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                     );
 
                     return (
-                      <React.Fragment key={module.label}>
-                        <div id={targetId}>
+  <React.Fragment key={module.label}>
+
+    {index === 0 && (
+      <div className="rathmer-section-divider">
+        Typisierung
+      </div>
+    )}
+
+    {index === 7 && (
+      <div className="rathmer-section-divider">
+        Spezifischer Umgang
+      </div>
+    )}
+
+    <div id={targetId}>
                           <button
                             className={`rathmer-module-button ${
                               selectedSubtypeItem?.subtype === subtype.code &&
