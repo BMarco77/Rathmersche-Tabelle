@@ -497,6 +497,49 @@ button {
    SUBTYPE BUTTONS
 ========================= */
 
+.rathmer-section-divider {
+  position: relative;
+
+  margin: 2rem 0 0.85rem;
+  padding: 0.45rem 0;
+
+  text-align: center;
+
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.015em;
+
+  color: rgba(45, 29, 22, 0.78);
+
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.28);
+}
+
+.rathmer-section-divider::before,
+.rathmer-section-divider::after {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+
+  width: 23%;
+  height: 1px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--active-glow) 28%, rgba(255,255,255,0.42))
+  );
+}
+
+.rathmer-section-divider::before {
+  left: 0;
+}
+
+.rathmer-section-divider::after {
+  right: 0;
+  transform: rotate(180deg);
+}
 .rathmer-trait-grid,
 .rathmer-module-grid {
   display: grid;
