@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
+import { TYPE_META } from "../data/typeMeta";
 import {
   TYPE_GRADIENTS,
   TYPE_INFO_GRADIENTS,
@@ -108,19 +109,21 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
       </div>
 
       <header className="rathmer-home-header">
-        <div className="rathmer-wappen">
-          <img src={wappen} alt="Rathmer Wappen" />
-        </div>
+  <div className="rathmer-wappen">
+    <img src={wappen} alt="Rathmer Wappen" />
+  </div>
 
-        <h1>{currentMeta.title}</h1>
+  <h1>{currentMeta.title}</h1>
 
-        <p className="rathmer-archetype-subtitle">
-        {currentMeta.archetype}
-        </p>
-          Eine interaktive Übersicht der Typ-{typeData.type}-Struktur, ihrer
-          Grunddynamik und Subtypen.
-        </p>
-      </header>
+  <p className="rathmer-archetype-subtitle">
+    {currentMeta.archetype}
+  </p>
+
+  <p>
+    Eine interaktive Übersicht der Typ-{typeData.type}-Struktur, ihrer
+    Grunddynamik und Subtypen.
+  </p>
+</header>
 
       <section className="rathmer-top-grid">
         {[
