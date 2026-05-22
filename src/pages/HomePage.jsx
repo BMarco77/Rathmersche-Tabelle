@@ -1,3 +1,4 @@
+import { TYPE_META } from "../data/typeMeta";
 import { TYPE_COLORS } from "../data/typeColors";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
