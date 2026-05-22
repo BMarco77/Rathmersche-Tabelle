@@ -79,7 +79,7 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
         <button
           className="rathmer-page-nav-button"
           style={{
-            background: TYPE_GRADIENTS[prevType],
+            background: TYPE_GRADIENTS[currentType],
             color: "white",
           }}
           onClick={() => onSelectType(prevType)}
@@ -87,14 +87,17 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
           ← Typ {prevType}
         </button>
 
-        <button className="rathmer-page-nav-button" onClick={onBack}>
-          Home
-        </button>
+       <button
+  className="rathmer-page-nav-button is-home"
+  onClick={onBack}
+>
+  Home
+</button>
 
         <button
           className="rathmer-page-nav-button"
           style={{
-            background: TYPE_GRADIENTS[nextType],
+            background: TYPE_GRADIENTS[currentType],
             color: "white",
           }}
           onClick={() => onSelectType(nextType)}
