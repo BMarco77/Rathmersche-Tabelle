@@ -112,9 +112,11 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
           <img src={wappen} alt="Rathmer Wappen" />
         </div>
 
-        <h1>{typeData.title}</h1>
+        <h1>{currentMeta.title}</h1>
 
-        <p>
+        <p className="rathmer-archetype-subtitle">
+        {currentMeta.archetype}
+        </p>
           Eine interaktive Übersicht der Typ-{typeData.type}-Struktur, ihrer
           Grunddynamik und Subtypen.
         </p>
