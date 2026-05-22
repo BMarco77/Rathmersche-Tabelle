@@ -446,7 +446,17 @@ Die Wirkweisen der se4 ergänzen sich wie folgt:
 - unerschrocken
 - “glad four”`
 },
-
+{    label: "Beispiele",
+  content: `- Lady Diana
+- Post Malone
+- Paul McCartney
+- Joe Cole
+- Benedict Wells
+- Rhadi Devlukia-Shetty
+- Emma Myers
+- Jella Haase
+- Passenger`
+},
     {
   label: "Lookalikes",
   content: `Verwechslung in männlicher Form:
@@ -689,7 +699,7 @@ Die Wirkweisen der so4 ergänzen sich wie folgt:
 
     {
   label: "Beispiele",
-  content: - `Johnny Depp
+  content: `- Johnny Depp
 - R Kelly
 - John Lennon
 - Chester Bennington
