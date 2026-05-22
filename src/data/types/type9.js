@@ -416,6 +416,18 @@ Die Wirkweisen der se9 ergänzen sich wie folgt:
 - brodelnder Vulkan
 - einziger Typ 9, der offen aggressiv sein kann`
         },
+{
+          label: "Beispiele",
+          content: `- Detlef Rathmer
+- Daniel Beuthner
+- Angela Merkel
+- Dirk Bach
+- Gronkh
+- Kevin James
+- Angelo Kelly
+- Lance Barber
+- James Spader`
+        },
         {
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
