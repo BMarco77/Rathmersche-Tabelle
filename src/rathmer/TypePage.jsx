@@ -25,6 +25,7 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
 }, [typeData.type]);
 
   const currentType = typeData.type;
+  const currentMeta = TYPE_META[currentType];
   const prevType = currentType === 1 ? 9 : currentType - 1;
   const nextType = currentType === 9 ? 1 : currentType + 1;
 
