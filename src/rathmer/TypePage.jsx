@@ -113,7 +113,7 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
     <img src={wappen} alt="Rathmer Wappen" />
   </div>
 
-  <h1>{currentMeta.title}</h1>
+  <h1>{currentMeta.archetype}</h1>
 
   <p className="rathmer-archetype-subtitle">
     {currentMeta.archetype}
