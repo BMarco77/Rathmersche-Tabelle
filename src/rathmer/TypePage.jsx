@@ -320,7 +320,7 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                     return (
   <React.Fragment key={module.label}>
 
-    {index === 7 && (
+    {index === 2 && (
       <div className="rathmer-section-divider">
         Typisierung
       </div>
