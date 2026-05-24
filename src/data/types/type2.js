@@ -116,8 +116,7 @@ Im Fall von Typ 2 gibt es folgende Möglichkeiten für die Tritypen:
       label: "Leidenschaft: Stolz",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
-- Pseudo-Schutz-Mechanismus,
-  der wortwörtlich „Leiden schafft“
+- Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
 
 Bedeutung von Stolz in diesem Kontext:
 
@@ -320,14 +319,14 @@ Er hat die Erfahrung gemacht, dass er keine Liebe empfängt, wenn er seinen Stol
           content: `Folgende Eigenschaften sind dem se2 bewusst und können angesprochen werden:
 
 - er hat viele Bedürfnisse
-- er hat eine Abneigung gegen   Abhängigkeiten
-- er ist sehr hilfsbereit, solange es ihm   selbst gut geht
+- er hat eine Abneigung gegen Abhängigkeiten
+- er ist sehr hilfsbereit, solange es ihm selbst gut geht
 - er besitzt einen "gesunden Egoismus"
-- er legt viel Wert auf Dankbarkeit &   Wertschätzung
-- er kann sich gut in andere   hineinversetzen
-- er wird oftmals als zu grob / direkt   wahrgenommen
-- er ist vorsichtig und skeptisch, hat   zudem immer das Gefühl,   ausgenutzt / betrogen zu werden
-- er kann unter Umständen   sehr fordernd sein und für seine   Bedürfnisse und Werte einstehen
+- er legt viel Wert auf Dankbarkeit & Wertschätzung
+- er kann sich gut in andere hineinversetzen
+- er wird oftmals als zu grob / direkt wahrgenommen
+- er ist vorsichtig und skeptisch, hat zudem immer das Gefühl, ausgenutzt / betrogen zu werden
+- er kann unter Umständen sehr fordernd sein und für seine Bedürfnisse und Werte einstehen
 - er ist ein Kontrollfreak
 - er hat ein sehr gutes Bild von sich selbst, würde aber niemals auf die Idee kommen, sich nach außen stolz darauf zu zeigen
 - er ist sehr sensibel und nimmt viel wahr
@@ -919,7 +918,7 @@ Die Wirkweisen der sx2 ergänzen sich wie folgt:
           label: "Lookalikes",
           content: `Verwechslung in männlicher Form:
 
-- sx2
+- sx3
 - sx4
 - sx7
 
@@ -947,10 +946,8 @@ Statistisch gesehen wählt die sx2 folgende Partner am ehesten:
           content: `- Fürsorglichkeit und Aufopferungsbereitschaft zeigen
 - Verständnis entgegenbringen
 - die sx2 als Individuum wertschätzen und ihre Liebenswürdigkeit herauskristallisieren
-- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären
--> Stolz nicht kränken
-- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben
--> das Gefühl geben, dass man sich um alles kümmert
+- nicht so tun, als wäre sie ein Kind, sondern Dinge verständlich und rücksichtsvoll erklären -> Stolz nicht kränken
+- Auch wenn sie es verstehen soll und dahingehend selber Verantwortung für die Entscheidung übernehmen könnte, sollte man in gewisser Weise die Führung übernehmen, um ihr emotionale Sicherheit zu geben -> das Gefühl geben, dass man sich um alles kümmert
 - Interesse an ihr und ihren Themen zeigen
 - Vertrauen schaffen, indem man einen respektvollen Umgang pflegt
 - Komplimente und Aufmerksamkeiten sind von essenzieller Wichtigkeit
