@@ -40,7 +40,7 @@ Indizien, die hier beachtet werden sollten:
 
 Nasenform: 
 - grob 
-- breit, 
+- breit 
 - unförmig 
 - rund 
 - kantig 
@@ -117,14 +117,11 @@ Im Fall von Typ 5 gibt es folgende Möglichkeiten für die Tritypen:
       label: "Leidenschaft: Geiz",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
-- Pseudo-Schutz-Mechanismus, 
-  der wortwörtlich "Leiden schafft"
+- Pseudo-Schutz-Mechanismus, der wortwörtlich "Leiden schafft"
 
 Bedeutung von Geiz in diesem Kontext:
 
-- Ansammlungsdrang, um das 
-  höchste Maß an Wissen zu
-  erlangen
+- Ansammlungsdrang, um das höchste Maß an Wissen zu erlangen
 
 Gesteigerte Formen: 
 
@@ -161,8 +158,7 @@ Eigenschaften im positiven Fall:
 - starker Selbstausdruck 
 - Sinn für Ästhetik 
 - Individualitätssinn 
-- starker Zugang zur eigenen 
-  Gefühlswelt 
+- starker Zugang zur eigenen Gefühlswelt 
 - Empathie 
 - Besinnlichkeit 
 - tiefes Interesse 
@@ -397,31 +393,40 @@ Die Blickqualität der se5 ergänzt sich wie folgt:
         },
         {
           label: "Körper",
-          content: `Typ 2 im Allgemeinen hat folgende körperliche Auffälligkeiten:
-
-- „Bambi-Augen“ (große, braune Augen)
-- volle Lippen
-- weibliche, „kurvige“ Züge
-
-Die körperlichen Auffälligkeiten der se2 ergänzen sich wie folgt:
-
-- weicher, runder, kleiner Körperbau
-- üppiger Vorbau`
-        },
-        {
-          label: "Wirkung",
-         content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
 
 - Stirnfalten
 - Sehschwäche
 - großer Kopf
 - wenig dichtes Haar
-- “Geheimratsecken”
+- "Geheimratsecken"
 - frühe Bildung von grauen Haaren
 
 Die körperlichen Auffälligkeiten der se5 ergänzen sich wie folgt:
 
 - kleine Statur`
+        },
+        {
+          label: "Wirkung",
+         content: `Typ 5 im Allgemeinen hat folgende Wirkweisen:
+
+- verkopft
+- analytisch
+- theoretisch
+- sachlich-kühl
+- arrogant
+- wissbegierig
+- emotionskark
+- kompetent
+
+Die Wirkweisen der se5 ergänzen sich wie folgt:
+
+- "Sammler"-Austrahlung"
+- unemphatisch
+- isoliert
+- zurückhaltend
+- interessiert`
+          
         },
         {
           label: "Weiteres",
@@ -456,6 +461,7 @@ Die körperlichen Auffälligkeiten der se5 ergänzen sich wie folgt:
 - se9
 
 Verwechslung in weiblicher Form:
+
 - se8
 - se6
 - se7
@@ -755,7 +761,7 @@ Stichpunktartige Beschreibung:
 - starker Hang zu Emotionen (4er-Flügel)
 - sensibel
 - wissbegierig
--"Verschwörungstheoretiker" (beschäftigt sich oftmals mit geheimem Wissen)
+- "Verschwörungstheoretiker" (beschäftigt sich oftmals mit geheimem Wissen)
 - verschwiegen
 - introvertiert
 - Vorenthaltung von Wissen
