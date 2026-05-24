@@ -434,8 +434,7 @@ Die Wirkweisen der se1 ergänzt sich wie folgt:
 
 Über den se1 sollte man explizit noch Folgendes wissen:
 
-- tugend- & gewissenhaftes 
-  Verhalten`
+- tugend- & gewissenhaftes Verhalten`
     },
     {
       label: "Beispiele",
@@ -495,7 +494,8 @@ Statistisch gesehen wählt die se1 folgende Partner am ehesten:
 - Leistung und Qualität sichern und vermitteln
 - hohe Standards proklamieren
 - stetige Entwicklung und Optimierung als Wert anbringen
-- Ordnung und Struktur zeigen - Bescheidenheit und Tugendhaftigkeit zeigen
+- Ordnung und Struktur zeigen 
+- Bescheidenheit und Tugendhaftigkeit zeigen
 - Regeln und Standards als wichtig darstellen
 - Redlichkeit als Wert vermitteln 
 - Lob für die Besonnenheit der se1 zeigen
@@ -767,7 +767,7 @@ Statistisch gesehen wählt die so1 folgende Partner am ehesten:
 - Rationale Sinnhaftigkeit des Produktes beschreiben
 - für eigene Werte bedingungslos einstehen, um der so1 zu imponieren 
 - Reife und Vernunft der so1 bekräftigen und loben 
-- niemals die Qualität der so1 hinterfragen, sondern zeigen, dass trotz bisheriger  guter Qualität der so1 das Produkt einen noch besseren Weg ermöglicht `
+- niemals die Qualität der so1 hinterfragen, sondern zeigen, dass trotz bisheriger guter Qualität der so1 das Produkt einen noch besseren Weg ermöglicht `
     },
 
     {
@@ -945,8 +945,7 @@ Die Wirkweisen der sx1 ergänzen sich wie folgt:
 
 - verbal versiert
 - i.d.R. eloquent
-- hohe Meinung von Moral & 
-  Ordnung
+- hohe Meinung von Moral & Ordnung
 
 Über den sx1 sollte man explizit noch Folgendes wissen:
 
