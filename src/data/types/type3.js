@@ -129,8 +129,7 @@ Gesteigerte Formen:
 
     {
       label: "Umgang",
-      content: `- Wertschätzung für Erfolge 
-  entgegenbringen 
+      content: `- Wertschätzung für Erfolge entgegenbringen 
 
 - Fokus & Effizienz im Umgang
 
@@ -156,8 +155,7 @@ Eigenschaften im positiven Fall:
 - Hang zur Helfermentalität 
 - bemerkenswerte Weiblichkeit 
 - stark ausgeprägte Empathie 
-- ständige Fürsorge 
-  (-> Gastgebermentalität) 
+- ständige Fürsorge (-> Gastgebermentalität) 
 - starker Zugang zu Emotionen 
 - instinktives Ausleben der Seelsorger-Fähigkeit 
 - natürliche unterstützende Ader 
@@ -279,8 +277,7 @@ Stichpunktartige Beschreibung:
 - Therapeuten-Ausstrahlung
 - ungeduldig
 - effizient
-- Anwender des Pareto-Prinzips 
-  (= Minimalprinzip)
+- Anwender des Pareto-Prinzips (= Minimalprinzip)
 - wohlstandsorientiert
 - Autonomie als hoher Wert
 - finanzielle Sicherheit & Unabhängigkeit ist enorm wichtig
@@ -485,8 +482,7 @@ Statistisch gesehen wählt die se2 folgende Partner am ehesten:
 - Effizienz & Pragmatismus stehen immer im Vordergrund bei der se3, also sollte man diese beiden Werte bedienen
 - Freundlichkeit und Respekt sind essentiell wichtig, um bei der se3 anzukommen
 - die Darstellung von inneren Werten & Integrität führt dazu, dass die se3 einen mag
-- Wertschätzung von Zeit & Energie der se3
-  -> Unpünktlichkeit und Ineffizienz vermeiden
+- Wertschätzung von Zeit & Energie der se3 -> Unpünktlichkeit und Ineffizienz vermeiden
 - gepflegtes Äußeres zeigen und Kompetenz vermitteln`
         },
         {
@@ -531,8 +527,7 @@ Stichpunktartige Beschreibung:
 - chamäleongleich (angepasst)
 - opportunistisch
 - Prestige ist sehr wichtig
-- Anerkennung in der Gruppe ist 
-  ebenso wichtig
+- Anerkennung in der Gruppe ist ebenso wichtig
 - fördert die Gruppendynamik
 - täuschend & eitel
 - zielgerichtet
@@ -579,8 +574,7 @@ Er hat die Erfahrung gemacht, dass er Erfolg hat, wenn er seine Eitelkeit nach a
 - er ist innerlich oftmals kalt
 - er sieht schell Möglichkeiten und nutzt sie
 - er strebt stets nach Anerkennung
-- er besitzt gerne Statussymbole 
-  (Uhr, Handy, Auto, Klamotten, ...)
+- er besitzt gerne Statussymbole (Uhr, Handy, Auto, Klamotten, ...)
 - er tendiert dazu, sich zu überarbeiten
 - er mag es nicht, wenn Leute seine Leistungen nicht anerkennen
 - Respekt ist ihm wichtig
@@ -721,8 +715,7 @@ Statistisch gesehen wählt die so3 folgende Partner am ehesten:
         },
         {
           label: "Verkauf",
-          content: `- Eitelkeiten spielen lassen
-  (Kundenerfolge, Ruf, Äußerlichkeiten, weltliche Errungenschaften, ...)
+          content: `- Eitelkeiten spielen lassen (Kundenerfolge, Ruf, Äußerlichkeiten, weltliche Errungenschaften, ...)
 - Anerkennung für die bisherigen Leistungen und Erfolge der so3 geben
 - Schmeicheleien spielen lassen
 - sozialen Einfluss zeigen
@@ -742,7 +735,7 @@ Statistisch gesehen wählt die so3 folgende Partner am ehesten:
         {
           label: "Führung",
           content: `- Identifikation mit dem Unternehmen und den Menschen im Unternehmen schaffen, um die so3 zu motivieren
-          - Prestige und Darstellung in der sozialen Gruppe fördern / der so3 die Bühne im Unternehmen bieten, um die Aktivität und den Ehrgeiz hochzuhalten
+- Prestige und Darstellung in der sozialen Gruppe fördern / der so3 die Bühne im Unternehmen bieten, um die Aktivität und den Ehrgeiz hochzuhalten
 - Leistungen der so3 in der sozialen Gruppe kundtun, darstellen und wertschätzen
 - Aufstiegschancen schaffen, um der so3 zu gewährleisten, dass sie in der sozialen Hierarchie aufsteigen kann (Erfolg in der sozialen Gruppe garantieren)
 - Leistungen belohnen und im Unternehmen darstellen
