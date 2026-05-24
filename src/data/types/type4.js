@@ -112,13 +112,11 @@ Im Fall von Typ 4 gibt es folgende Möglichkeiten für die Tritypen:
       label: "Leidenschaft: Neid",
       content: `Bedeutung von Leidenschaft in diesem Kontext:
 
-- Pseudo-Schutz-Mechanismus, 
-  der wortwörtlich "Leiden schafft"
+- Pseudo-Schutz-Mechanismus, der wortwörtlich "Leiden schafft"
 
 Bedeutung von Neid in diesem Kontext:
 
-- Vergleich mit der Außenwelt,    
-  um etwas besonderes zu sein 
+- Vergleich mit der Außenwelt, um etwas besonderes zu sein 
 
 Gesteigerte Formen: 
 
@@ -164,8 +162,7 @@ Eigenschaften im positiven Fall:
 - Nüchternheit 
 - Charme 
 - Selbstdarstellung 
-- Fähigkeit zum Einnehmen einer 
-  Vorbildfunktion 
+- Fähigkeit zum Einnehmen einer Vorbildfunktion 
 - Arbeitsamkeit  
 - Leistungsanspruch 
 - Image-Bewusstsein
@@ -180,8 +177,7 @@ Eigenschaften im negativen Fall:
 - Gefühlsblindheit 
 - Hang zur Überarbeitung 
 - Skrupellosigkeit 
-- übermäßige Identifikation mit - 
-  äußeren Werten 
+- übermäßige Identifikation mit äußeren Werten 
 - Oberflächlichkeit 
 - Opportunismus`
     },
@@ -205,8 +201,7 @@ Eigenschaften im positiven Fall:
 - Nüchternheit 
 - Sparsamkeit 
 - Wissbegier 
-- Fähigkeit zur 
-  Informationsbeschaffung 
+- Fähigkeit zur Informationsbeschaffung 
 - Skepsis 
 - Beobachter-Fähigkeit 
 - geistige Klarheit
@@ -790,8 +785,7 @@ Stichpunktartige Beschreibung:
 - lamentiert gerne
 - "Drama-Queen"
 - vergleicht sich immer in einer Art Wettstreit zu anderen
-- tiefe Angst, dass jemand ihren 
-  besonderen Platz einnehmen könnte
+- tiefe Angst, dass jemand ihren besonderen Platz einnehmen könnte
 - verzweifelt bis hasserfüllt
 - emotional hysterisch
 - tiefgründig
@@ -875,12 +869,9 @@ Blinder Fleck von Typ 4 im Allgemeinen:
 
 Blinder Fleck des sexuellen Typs im Allgemeinen:
 
-- starke & ständige Rivalität mit 
-  anderen Menschen
-- Abhängigkeit von äußerer 
-  Attraktivität & Bindungen
-- Angst vor Entwertung & 
-  Degradierung
+- starke & ständige Rivalität mit anderen Menschen
+- Abhängigkeit von äußerer Attraktivität & Bindungen
+- Angst vor Entwertung & Degradierung
 
 Blinder Fleck, speziell bei der sx4:
 
