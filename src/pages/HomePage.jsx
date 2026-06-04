@@ -55,7 +55,7 @@ export default function HomePage({ onSelectType }) {
         <h1>Rathmer´sche Tabelle</h1>
 
         <p>
-          Eine interaktive Übersicht der Enneagramm-Typen, ihrer Zentren und
+          Eine interaktive Übersicht der Enneagrammtypen, ihrer Triaden und
           Dynamiken.
         </p>
       </header>
