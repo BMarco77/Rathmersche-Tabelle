@@ -17,7 +17,7 @@ const typeGradients = {
 
 const centers = [
   {
-    title: "Herz-Menschen",
+    title: "Herzmenschen",
     types: [
       { number: 2, name: TYPE_META[2].archetype, color: TYPE_COLORS[2] },
       { number: 3, name: TYPE_META[3].archetype, color: TYPE_COLORS[3] },
@@ -26,7 +26,7 @@ const centers = [
   },
 
   {
-    title: "Kopf-Menschen",
+    title: "Kopfmenschen",
     types: [
       { number: 5, name: TYPE_META[5].archetype, color: TYPE_COLORS[5] },
       { number: 6, name: TYPE_META[6].archetype, color: TYPE_COLORS[6] },
@@ -35,7 +35,7 @@ const centers = [
   },
 
   {
-    title: "Bauch-Menschen",
+    title: "Bauchmenschen",
     types: [
       { number: 8, name: TYPE_META[8].archetype, color: TYPE_COLORS[8] },
       { number: 9, name: TYPE_META[9].archetype, color: TYPE_COLORS[9] },
