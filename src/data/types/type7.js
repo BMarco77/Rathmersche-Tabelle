@@ -3,13 +3,13 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 export const type7Data = {
   type: 7,
   title: "Spaß",
-  center: "Kopf-Mensch",
+  center: "Kopfmensch",
   side: "Männliche Seite",
   color: TYPE_COLORS[7],
 
   centerInfo: {
     content: `Grundproblem: 
-Vertrauens-Defizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
+Vertrauensdefizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
 
 Hauptthemen:
 - Rationalismus 
