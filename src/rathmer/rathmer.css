@@ -610,26 +610,27 @@ text-shadow:
 
 .rathmer-trait-button.is-active,
 .rathmer-module-button.is-active {
+
   background: linear-gradient(
     180deg,
-    color-mix(in srgb, var(--active-glow) 12%, rgba(255,248,240,0.32)),
-    color-mix(in srgb, var(--active-glow) 8%, rgba(255,255,255,0.14))
+    color-mix(in srgb, var(--active-glow) 18%, rgba(255,255,255,0.72)),
+    color-mix(in srgb, var(--active-glow) 10%, rgba(255,248,240,0.38))
   );
 
   border: 1px solid color-mix(
     in srgb,
-    var(--active-glow) 38%,
-    rgba(255,255,255,0.22)
+    var(--active-glow) 55%,
+    rgba(255,255,255,0.35)
   );
 
   box-shadow:
-    0 0 0 1px color-mix(in srgb, var(--active-glow) 18%, transparent),
-    0 8px 18px color-mix(in srgb, var(--active-glow) 10%, rgba(0,0,0,0.08)),
-    inset 0 1px 0 rgba(255,255,255,0.1);
+    0 0 0 1px color-mix(in srgb, var(--active-glow) 25%, transparent),
+    0 0 14px color-mix(in srgb, var(--active-glow) 18%, transparent),
+    0 10px 22px rgba(0,0,0,0.10),
+    inset 0 1px 0 rgba(255,255,255,0.45);
 
   transform: translateY(-1px);
 }
-
 /* =========================
    SIDE INFO / 4TH COLUMN
 ========================= */
