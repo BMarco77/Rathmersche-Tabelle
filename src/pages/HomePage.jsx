@@ -1,7 +1,8 @@
 import { TYPE_META } from "../data/typeMeta";
 import {
   TYPE_COLORS,
-  TYPE_GRADIENTS
+  TYPE_GRADIENTS,
+  TYPE_ACCENT_COLORS
 } from "../data/typeColors";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
@@ -68,9 +69,14 @@ export default function HomePage({ onSelectType }) {
                   onClick={() => onSelectType(type.number)}
                 >
                 <div className="rathmer-type-button-inner">
-  <div className="rathmer-type-big-number">
-    {type.number}
-  </div>
+ <div
+  className="rathmer-type-big-number"
+  style={{
+    color: TYPE_ACCENT_COLORS[type.number],
+  }}
+>
+  {type.number}
+</div>
 
   <div className="rathmer-type-text">
    
