@@ -83,7 +83,6 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
          style={{
   background: TYPE_GRADIENTS[prevType],
   color: "#3a2418",
-            opacity: 0.82,
 }}
           onClick={() => onSelectType(prevType)}
         >
@@ -102,7 +101,7 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
           style={{
   background: TYPE_GRADIENTS[nextType],
   color: "#3a2418",
-             opacity: 0.82,
+             
 }}
           onClick={() => onSelectType(nextType)}
         >
