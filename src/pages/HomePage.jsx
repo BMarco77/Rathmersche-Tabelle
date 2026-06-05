@@ -65,6 +65,7 @@ export default function HomePage({ onSelectType }) {
                   className="rathmer-type-button"
                  style={{
   background: TYPE_GRADIENTS[type.number],
+  color: TYPE_ACCENT_COLORS[type.number],
 }}
                   onClick={() => onSelectType(type.number)}
                 >
