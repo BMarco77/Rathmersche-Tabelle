@@ -27,7 +27,7 @@ button {
 .rathmer-page-nav {
   position: absolute;
   top: 2rem;
-  left: 2.5rem;
+  left: 3rem;
 
   display: flex;
   gap: 0.7rem;
@@ -37,6 +37,7 @@ button {
 }
 
 .rathmer-page-nav-button {
+  min-width: 105px;
   border: none;
   border-radius: 999px;
 
