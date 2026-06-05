@@ -35,6 +35,9 @@ export const TYPE_GRADIENTS = {
   8: "linear-gradient(145deg, #EDCECB 0%, #e1251b 100%)",
   9: "linear-gradient(145deg, #F3DFD1 0%, #ff991f 100%)",
 };
+
+export const TYPE_INFO_GRADIENTS = TYPE_GRADIENTS;
+
 export const TYPE_SHADOWS = {
   1: "rgba(0,0,0,0.14)",
   2: "rgba(120, 80, 180, 0.16)",
