@@ -11,15 +11,15 @@ export const TYPE_COLORS = {
 };
 
 export const TYPE_GRADIENTS = {
-  1: "linear-gradient(145deg, #DDDDDD 0%, #B8B8B8 100%)",
-  2: "linear-gradient(145deg, #ECDFF2 0%, #B05CFF 100%)",
-  3: "linear-gradient(145deg, #E0F4F5 0%, #69D7EE 100%)",
-  4: "linear-gradient(145deg, #DAF1D0 0%, #7ED957 100%)",
-  5: "linear-gradient(145deg, #DAE6F5 0%, #5C6DFF 100%)",
-  6: "linear-gradient(145deg, #DED5D3 0%, #C58D52 100%)",
-  7: "linear-gradient(145deg, #F9F0DD 0%, #E0C73A 100%)",
-  8: "linear-gradient(145deg, #EDCECB 0%, #E53935 100%)",
-  9: "linear-gradient(145deg, #F3DFD1 0%, #E6A13C 100%)",
+  1: "linear-gradient(145deg, #DDDDDD 0%, #b8b8b8 100%)",
+  2: "linear-gradient(145deg, #ECDFF2 0%, #a855f7 100%)",
+  3: "linear-gradient(145deg, #E0F4F5 0%, #62d9ee 100%)",
+  4: "linear-gradient(145deg, #DAF1D0 0%, #7dff45 100%)",
+  5: "linear-gradient(145deg, #DAE6F5 0%, #3b6cff 100%)",
+  6: "linear-gradient(145deg, #DED5D3 0%, #c68642 100%)",
+  7: "linear-gradient(145deg, #F9F0DD 0%, #ffe033 100%)",
+  8: "linear-gradient(145deg, #EDCECB 0%, #e1251b 100%)",
+  9: "linear-gradient(145deg, #F3DFD1 0%, #ff991f 100%)",
 };
 
  export const TYPE_INFO_GRADIENTS = {
