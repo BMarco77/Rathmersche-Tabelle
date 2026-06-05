@@ -3,13 +3,13 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 export const type1Data = {
   type: 1,
   title: "Perfektion",
-  center: "Bauch-Mensch",
+  center: "Bauchmensch",
   side: "Weibliche Seite",
   color: TYPE_COLORS[1],
 
   centerInfo: {
     content: `Grundproblem:
-Schutz-Defizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+Schutzdefizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
