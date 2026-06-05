@@ -3,13 +3,13 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 export const type2Data = {
   type: 2,
   title: "Liebe",
-  center: "Herz-Mensch",
+  center: "Herzmensch",
   side: "Weibliche Seite",
   color: TYPE_COLORS[2],
 
   centerInfo: {
     content: `Grundproblem:
-Liebes-Defizit (Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein)
+Liebesdefizit (Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein)
 
 Hauptthemen:
 - Image
