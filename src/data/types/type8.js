@@ -3,13 +3,13 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 export const type8Data = {
   type: 8,
   title: "Macht",
-  center: "Bauch-Mensch",
+  center: "Bauchmensch",
   side: "Männliche Seite",
   color: TYPE_COLORS[8],
 
   centerInfo: {
     content: `Grundproblem:
-Schutz-Defizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+Schutzdefizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
