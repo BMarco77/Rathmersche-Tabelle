@@ -3,13 +3,13 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 export const type9Data = {
   type: 9,
   title: "Harmonie",
-  center: "Bauch-Mensch",
+  center: "Bauchmensch",
   side: "Neutrale Seite",
   color: TYPE_COLORS[9],
 
   centerInfo: {
     content: `Grundproblem:
-Schutz-Defizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+Schutzdefizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
 
 Hauptthemen:
 - Instinkt 
