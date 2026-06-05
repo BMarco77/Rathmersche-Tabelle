@@ -566,7 +566,7 @@ button {
     rgba(255,255,255,0.16)
   );
 
-  color: rgba(255, 250, 242, 0.94);
+  color: #3a2418;
 
 font-weight: 650;
 letter-spacing: 0.01em;
@@ -581,10 +581,10 @@ text-shadow:
   backdrop-filter: blur(8px);
 }
 .rathmer-trait-button {
-  min-height: 56px;
-  padding: 0.85rem 1rem;
-  font-size: 0.98rem;
-  text-align: center;
+  min-height: 64px;
+  padding: 1rem 1.1rem;
+  font-size: 1rem;
+  text-align: left;
 }
 
 .rathmer-module-button {
