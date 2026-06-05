@@ -63,7 +63,7 @@ export default function HomePage({ onSelectType }) {
                   key={type.number}
                   className="rathmer-type-button"
                  style={{
-  background: TYPE_GRADIENTS[type],
+  background: TYPE_GRADIENTS[type.number],
 }}
                   onClick={() => onSelectType(type.number)}
                 >
