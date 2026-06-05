@@ -1,5 +1,5 @@
-export const TYPE_COLORS = {
-  1: "#B8B8B8",
+export const TYPE_PASTEL_COLORS = {
+  1: "#DDDDDD",
   2: "#ECDFF2",
   3: "#E0F4F5",
   4: "#DAF1D0",
@@ -9,6 +9,20 @@ export const TYPE_COLORS = {
   8: "#EDCECB",
   9: "#F3DFD1",
 };
+
+export const TYPE_ACCENT_COLORS = {
+  1: "#b8b8b8",
+  2: "#a855f7",
+  3: "#62d9ee",
+  4: "#7dff45",
+  5: "#3b6cff",
+  6: "#c68642",
+  7: "#ffe033",
+  8: "#e1251b",
+  9: "#ff991f",
+};
+
+export const TYPE_COLORS = TYPE_PASTEL_COLORS;
 
 export const TYPE_GRADIENTS = {
   1: "linear-gradient(145deg, #DDDDDD 0%, #b8b8b8 100%)",
@@ -21,19 +35,6 @@ export const TYPE_GRADIENTS = {
   8: "linear-gradient(145deg, #EDCECB 0%, #e1251b 100%)",
   9: "linear-gradient(145deg, #F3DFD1 0%, #ff991f 100%)",
 };
-
- export const TYPE_INFO_GRADIENTS = {
-  1: "linear-gradient(145deg, #eef2ff 0%, #d7deef 52%, #8d98ad 78%, #39465c 100%)",
-  2: "linear-gradient(145deg, #c86cff 0%, #b45cff 52%, #8b3ee8 78%, #47255f 100%)",
-  3: "linear-gradient(145deg, #7ae9ff 0%, #59d9f5 52%, #4f9ed8 78%, #344454 100%)",
-  4: "linear-gradient(145deg, #98ff4d 0%, #7ee63f 52%, #5eab31 78%, #354221 100%)",
-  5: "linear-gradient(145deg, #6682ff 0%, #4f6eff 52%, #4956c7 78%, #2d2d54 100%)",
-  6: "linear-gradient(145deg, #e2a45c 0%, #cf8d45 52%, #9d6231 78%, #4b2d23 100%)",
-  7: "linear-gradient(145deg, #ffe84a 0%, #f2d52e 52%, #c49e21 78%, #4f3b12 100%)",
-  8: "linear-gradient(145deg, #ff3a30 0%, #ef2e22 52%, #b5211c 78%, #4f1d1b 100%)",
-  9: "linear-gradient(145deg, #ffb347 0%, #f5a12a 52%, #c57b1d 78%, #53331b 100%)",
-};
-
 export const TYPE_SHADOWS = {
   1: "rgba(0,0,0,0.14)",
   2: "rgba(120, 80, 180, 0.16)",
