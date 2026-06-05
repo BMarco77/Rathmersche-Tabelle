@@ -180,12 +180,13 @@ button {
 }
 
 .rathmer-type-button:hover {
-  transform: translateY(-3px);
-  filter: saturate(1.06) brightness(1.03);
+  transform: translateY(-3px) scale(1.015);
+  filter: saturate(1.08) brightness(1.03);
 
   box-shadow:
-    0 16px 28px rgba(0, 0, 0, 0.18),
-    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    0 0 0 1px rgba(255,255,255,0.45) inset,
+    0 0 26px currentColor,
+    0 18px 34px rgba(0, 0, 0, 0.18);
 }
 
 .rathmer-type-button::before {
