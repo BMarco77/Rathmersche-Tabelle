@@ -1,13 +1,13 @@
 export const TYPE_COLORS = {
-  1: "#b8b8b8",
-  2: "#a855f7",
-  3: "#62d9ee",
-  4: "#7dff45",
-  5: "#3b6cff",
-  6: "#c68642",
-  7: "#ffe033",
-  8: "#e1251b",
-  9: "#ff991f",
+  1: "#B8B8B8",
+  2: "#ECDFF2",
+  3: "#E0F4F5",
+  4: "#DAF1D0",
+  5: "#DAE6F5",
+  6: "#DED5D3",
+  7: "#F9F0DD",
+  8: "#EDCECB",
+  9: "#F3DFD1",
 };
 
 export const TYPE_GRADIENTS = {
