@@ -854,6 +854,16 @@ text-shadow:
   }
 }
 
+@media (max-width: 900px) {
+  .mobile-avatar {
+    margin-bottom: 1rem;
+  }
+
+  .mobile-avatar img {
+    max-width: 240px;
+    max-height: 280px;
+  }
+}
 @media (max-width: 560px) {
   .rathmer-page,
   .rathmer-home {
