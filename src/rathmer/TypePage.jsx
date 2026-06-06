@@ -355,11 +355,11 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                               }
 
                               setSelectedSubtypeItem({
-  subtype: subtype.code,
-  title: module.label,
-  content: module.content,
-  avatar: `/avatars/${subtype.code.toUpperCase()}.webp`,
-});
+                               subtype: subtype.code,
+                               title: module.label,
+                               content: module.content,
+                              avatar: `/avatars/${subtype.code.toUpperCase()}.webp`,
+                              });
 
                               scrollToMobileTarget(targetId);
                             }}
@@ -402,7 +402,7 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
         <img
           src={selectedSubtypeItem.avatar}
           alt={selectedSubtypeItem.subtype}
-        />
+          loading="eager"        />
       </div>
     )}
 
