@@ -245,12 +245,13 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                 setOpenSubtype(subtype.code);
 
                 setSelectedSubtypeItem({
-                  subtype: subtype.code,
-                  title: subtype.code.toUpperCase(),
-                  content:
-                    subtype.content ||
-                    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
-                });
+  subtype: subtype.code,
+  title: subtype.code.toUpperCase(),
+  content:
+    subtype.content ||
+    `Hier steht später die Hauptbeschreibung zu ${subtype.code}.`,
+  avatar: `/avatars/${subtype.code.toUpperCase()}.webp`,
+});
 
                 scrollToMobileTarget(`subtype-${subtype.code}`);
               }}
@@ -290,10 +291,11 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                             }
 
                             setSelectedSubtypeItem({
-                              subtype: subtype.code,
-                              title: trait.label,
-                              content: trait.content,
-                            });
+  subtype: subtype.code,
+  title: trait.label,
+  content: trait.content,
+  avatar: `/avatars/${subtype.code.toUpperCase()}.webp`,
+});
 
                             scrollToMobileTarget(targetId);
                           }}
@@ -353,10 +355,11 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
                               }
 
                               setSelectedSubtypeItem({
-                                subtype: subtype.code,
-                                title: module.label,
-                                content: module.content,
-                              });
+  subtype: subtype.code,
+  title: module.label,
+  content: module.content,
+  avatar: `/avatars/${subtype.code.toUpperCase()}.webp`,
+});
 
                               scrollToMobileTarget(targetId);
                             }}
@@ -393,13 +396,23 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
           }}
         >
           {selectedSubtypeItem ? (
-            <>
-              <span className="rathmer-info-label">
-                {selectedSubtypeItem.subtype.toUpperCase()}
-              </span>
+  <>
+    {selectedSubtypeItem.avatar && (
+      <div className="rathmer-avatar-card">
+        <img
+          src={selectedSubtypeItem.avatar}
+          alt={selectedSubtypeItem.subtype}
+        />
+      </div>
+    )}
 
-              <p>{selectedSubtypeItem.content}</p>
-            </>
+    <span className="rathmer-info-label">
+      {selectedSubtypeItem.subtype.toUpperCase()}
+    </span>
+
+    <p>{selectedSubtypeItem.content}</p>
+  </>
+)
           ) : (
             <div className="rathmer-side-placeholder">
               <span>Wissen</span>
