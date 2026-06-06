@@ -434,7 +434,20 @@ function InlineInfo({ item }) {
 function SubtypeMobileInfo({ item }) {
   return (
     <div className="rathmer-inline-info mobile-info">
-      <span className="rathmer-info-label">{item.subtype.toUpperCase()}</span>
+      {item.avatar && (
+        <div className="rathmer-avatar-card mobile-avatar">
+          <img
+            src={item.avatar}
+            alt={item.subtype.toUpperCase()}
+            loading="eager"
+          />
+        </div>
+      )}
+
+      <span className="rathmer-info-label">
+        {item.subtype.toUpperCase()}
+      </span>
+
       <p>{item.content}</p>
     </div>
   );
