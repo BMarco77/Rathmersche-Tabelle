@@ -412,7 +412,6 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
 
     <p>{selectedSubtypeItem.content}</p>
   </>
-)
           ) : (
             <div className="rathmer-side-placeholder">
               <span>Wissen</span>
