@@ -736,19 +736,21 @@ text-shadow:
 .rathmer-avatar-card {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  min-height: 340px;
   margin-bottom: 1.5rem;
 }
 
 .rathmer-avatar-card img {
   width: 100%;
-  max-width: 280px;
+  max-width: 340px;
+  max-height: 340px;
+  object-fit: contain;
 
   border-radius: 1.2rem;
 
-  box-shadow:
-    0 12px 28px rgba(0,0,0,0.16);
-
-  object-fit: contain;
+  filter: drop-shadow(0 14px 24px rgba(0,0,0,0.16));
 }
 /* =========================
    MOBILE / DESKTOP INFO
