@@ -2,34 +2,34 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type1Data = {
   type: 1,
-  title: "Perfektion",
-  center: "Bauchmensch",
-  side: "Weibliche Seite",
+  title: "Perfection",
+  center: "Gut People",
+  side: "Feminine side",
   color: TYPE_COLORS[1],
 
   centerInfo: {
-    content: `Grundproblem:
-Schutzdefizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+    content: `Basic problem:
+Protection deficit (Feeling of being attacked / restricted)
 
-Hauptthemen:
-- Instinkt 
-- Territorium 
-- Angriff & Verteidigung 
-- Aggressionen 
-- Handlungen
+Main issues:
+- Instinct 
+- Territorty 
+- Attack and defense 
+- Aggression 
+- Actions
 
-Identifikation:
-- „Ich bin, wie ich handle.“`
+Identification:
+- „I am how I act.“`
   },
 
   typeInfo: {
-    content: `Umgewandelte Bauchenergie (Bauchenergie wird auf sich selbst bezogen)
+    content: `Converted gut energy (Gut energy is related to oneself)
 
-Grundmotivation:
-Perfektion
+Basic motivation:
+Perfection
 
-Abwehrmechanismus:
-Schutz durch Optimierung`
+Defense mechanism:
+Protection through optimization`
   },
 
   sideInfo: {
