@@ -2,29 +2,29 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type4Data = {
   type: 4,
-  title: "Individualität",
-  center: "Herzmensch",
-  side: "Weibliche Seite",
+  title: "Individuality",
+  center: "Heart People",
+  side: "Feminin Side",
   color: TYPE_COLORS[4],
 
   centerInfo: {
-    content: `Grundproblem:
-Liebesdefizit (Gefühl, nicht geliebt zu werden / nicht anerkannt zu sein)
+    content: `Basic Problem:
+Love deficit (Feeling of not being loved / not being recognized)
 
-Hauptthemen:
+Main issues:
 - Image
-- Beziehungen
-- Empathie
-- Leistung
-- Charme / Scham
-- Gefühle
+- Relationships
+- Empathy
+- Performance
+- Charm / Shame
+- Feelings
 
-Identifikation:
-- „Ich bin, wie ich auf andere wirke.“`
+Identification:
+- „I am how I appear to others.“`
   },
 
   typeInfo: {
-    content: `Umgewandelte Herzenergie (Herzenergie wird auf sich selbst projiziert)
+    content: `Transformed heart energy (Herzenergie wird auf sich selbst projiziert)
 
 Grundmotivation: 
 Individualität
