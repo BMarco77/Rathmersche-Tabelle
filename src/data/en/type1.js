@@ -4,12 +4,12 @@ export const type1Data = {
   type: 1,
   title: "Perfection",
   center: "Gut People",
-  side: "Feminine side",
+  side: "Feminine Side",
   color: TYPE_COLORS[1],
 
   centerInfo: {
-    content: `Basic problem:
-Protection deficit (Feeling of being attacked / restricted)
+    content: `Basic Problem:
+Protection Deficit (Feeling of being attacked / restricted)
 
 Main issues:
 - Instinct 
@@ -33,411 +33,411 @@ Protection through optimization`
   },
 
   sideInfo: {
-    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+    content: `The feminine side of the Enneagram comprises Enneagram types 1-4 and is characterized by feminine character and body traits.
 
-Indizien, die hier häufiger beobachtet werden können:
+Indications that should be noted here:
 
-Nasenform:
-- zierlich
-- filigran
-- ästhetisch
-- weich geformt
-- feminin
+Nose shape:
+- fine 
+- delicate 
+- filigree 
+- aesthetic 
+- well-formed 
+- feminine
 
-Gesichtspartie:
-- weiche Haut
-- reine Haut
-- lange Wimpern
+Facial area: 
+- soft skin 
+- clear skin
+- less prominent face shape 
+- long eyelashes
 
-Wirkung:
-- feminin
-- zart
-- fein`
+Effect: 
+- feminine 
+- delicate 
+- fine`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 1 wird in folgenden Zuständen gemessen:
+      label: "Levels of consciousness",
+      content: `The health of the mind of type 1 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund,
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Gnadenloser Rächer
-2. Zwanghafter Heuchler
-3. Intoleranter
-4. Besserwisserischer Perfektionist
-5. Ordnungssüchtiger Mensch
-6. Idealistischer Reformer
-7. Prinzipientreuer Lehrer
-8. Vernunftbegabter Mensch
-9. Weiser Realist`
+1. merciless avenger
+2. compulsive hypocrite
+3. intolerant
+4. know-it-all perfectionist
+5. order-seeking person
+6. idealistic reformer
+7. principled teacher
+8. rational person
+9. wise realist`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      label: "Tritypes",
+      content: `The purpose of the tritype is that every person has a predominant Enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is of course made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
-„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
+To determine the tritype, you need to ask yourself the following question: “If a person had to be a heart person/head person/belly person, which of the three types in each energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+This creates a triad (e.g. 3-5-8) that can explain the differences in characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the 9 basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: concerned, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, knowing, wise
+Type 6: questioning, scrutinizing, supportive
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peaceable
 
-Im Fall von Typ 1 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 1, there are the following possibilities for the tritypes:
 
-1-2-5: Mentor / Ratgeber
-1-2-6: Unterstützer
-1-4-5: Forscher
-1-2-7: Lehrer
-1-4-6: Philosoph
-1-3-5: Ingenieur
-1-4-7: Visionär
-1-3-6: Arbeitgeber
-1-3-7: Konstrukteur`
+1-2-5: Mentor / Advisor
+1-2-6: Supporter
+1-4-5: Researcher
+1-2-7: Teacher
+1-4-6: Philosopher
+1-3-5: Engineer
+1-4-7: Visionary
+1-3-6: Employer
+1-3-7: Designer`
     },
 
     {
-      label: "Leidenschaft: Groll/Zorn",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+      label: "Passion: Resentment/Anger",
+      content: `Meaning of passion in this context:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
+- Pseudo-protective mechanism, that literally “creates suffering”
 
-Bedeutung von Zorn in diesem Kontext:
+Meaning of anger in this context:
 
-- innerer Groll & Handlungsdrang, um vollendete Perfektion zu erlangen
+- Inner resentment & urge to act, to achieve complete perfection attain perfection
 
-Gesteigerte Formen:
+Heightened forms: 
 
-- Selbstjustiz
-- Schwarz-Weiß-Denken
-- Doppelmoral
-- Missionierung
-- Selbstzerstörung durch Disziplin
-- hohe Ansprüche`
+- Vigilante justice
+- Black and white thinking
+- Double standards
+- Missionizing
+- Self-destruction through discipline
+- High expectations`
     },
 
     {
-      label: "Umgang",
-      content: `- Anerkennung der Expertise des Gegenübers
-- keine „unbegründete“ Kritik äußern
-- vernünftig & rational argumentieren
-- keine „sinnlosen“ Argumente anbringen
-- Ordnung & Moral stärken & als Wert präsentieren
-- Unabhängigkeit & Eigenverantwortung des Gegenübers stärken
-- Vorbildcharakter des Gegenübers proklamieren
-- „richtig & falsch“ als Richtwerte anführen
-- Disziplin & Ausdauer zeigen`
+      label: "Handling",
+      content: `- Recognizing the expertise of the counterpart
+- Do not express “unfounded” criticism
+- Argue reasonably & rationally
+- Do not make “pointless” arguments make
+- Strengthen order & morals & present them as a present as a value
+- Independence & personal responsibility of the Strengthen counterpart
+- Role model character of the Proclaim the counterpart
+- “Right & wrong” as guidelines lead by example 
+- Show discipline & perseverance`
     },
 
     {
-      label: "Flügel: 9",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 9",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 9:
+Wings of type 9:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Harmoniestreben
-- Schlichtung
-- Vermittlungskompetenz
-- Besonnenheit
-- Spiritualität
-- Zurückhaltung
-- Anpassungsfähigkeit
-- Reflektion
-- Empathie
-- Harmlosigkeit
-- Freundlichkeit
+- Striving for harmony 
+- Conciliation 
+- Mediation skills 
+- Prudence 
+- spirituality 
+- Restraint 
+- Adaptability 
+- Reflection 
+- empathy 
+- Harmlessness  
+- friendliness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Konfliktunfähigkeit
-- Entscheidungsunfähigkeit
-- Trägheit
-- Selbstbetäubung
-- Ego, kein Ego zu haben
-- Langsamkeit
-- Stagnation
-- Verschmelzungstendenz
-- Charakterschwäche
-- Durchsetzungsschwäche`
+- Inability to resolve conflicts 
+- inability to make decisions 
+- inertia 
+- self-anesthesia 
+- Ego, having no ego 
+- Slowness 
+- stagnation 
+- tendency to merge 
+- Weakness of character 
+- Assertiveness weakness`
     },
 
     {
-      label: "Flügel: 2",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 2",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 2:
+Wings of type 2:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Hang zur Helfermentalität
-- bemerkenswerte Weiblichkeit
-- stark ausgeprägte Empathie
-- ständige Fürsorge 
-(-> Gastgebermentalität)
-- starker Zugang zu Emotionen
-- instinktives Ausleben der Seelsorger-Fähigkeit
-- natürliche unterstützende Ader 
-- Charme
-- hat ein „großes Herz“
-- zwischenmenschliche Wärme
+- Tendency towards a helper mentality 
+- Remarkable femininity 
+- Strong empathy 
+- constant care (-> host mentality) 
+- strong access to emotions 
+- instinctive living out of the pastoral ability 
+- Natural supportive vein 
+- charm 
+- has a “big heart” 
+- interpersonal warmth
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- starke emotionale Abhängigkeit
-- Hang zur Manipulation
-- Hysterie
-- steigert sich gerne in Emotionen hinein
-- Naivität
-- viele Bedürfnisse
-- zu stark ausgeprägte Weichheit
-- Aufopferungsdrang`
+- strong emotional dependence 
+- Tendency to manipulate 
+- hysteria 
+- likes to get carried away with emotions 
+- naivety  
+- Many needs 
+- too pronounced softness 
+- urge to sacrifice`
     },
 
     {
-      label: "Stresspunkt: 4",
-      content: `Definition Stresspunkt:
+      label: "Stress point: 4",
+      content: `Definition of stress point:
 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+As soon as an Enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, ...), it compensates for this by adopting characteristics from its so-called stress point.
 
-Stresspunkt in Typ 4:
+Stress point in type 4:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- kreativ
-- tiefgründig
-- ausdrucksstark
-- empathisch
+- creative
+- profound
+- expressive
+- empathic
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- chaotisch
-- anspruchsvoll
-- melancholisch
-- hysterisch`
+- chaotic
+- demanding
+- melancholic
+- hysterical`
     },
 
     {
-      label: "Entspannungspunkt: 7",
-      content: `Definition Entspannungspunkt:
+      label: "Relaxation point: 7",
+      content: `Definition of relaxation point:
 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+As soon as an Enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), it develops by taking on characteristics from its so-called relaxation point.
 
-Entspannungspunkt in Typ 7:
+Relaxation point in type 7:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- locker
-- humorvoll
-- weltoffen
-- gelassen
+- relaxed
+- humorous
+- open-minded
+- relaxed
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- oberflächlich
-- verdrängend
-- abgelenkt
-- narzisstisch`
+- superficial
+- repressive
+- distracted
+- narcissistic`
     }
   ],
 
   subtypes: [
     {
   code: "se1",
-  content: `Grundmotivation:
-Perfektion (in der Selbsterhaltung)
+  content: `Basic motivation:
+Perfection (in self-preservation)
 
-Leidenschaft: 
-Zorn (in der Selbsterhaltung)
+Passion: 
+Anger (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- ordentlich
-- vernünftig
-- prinzipientreu
-- perfektionistisch
-- stets bemüht, ein guter Mensch zu sein
-- hohe Moralvorstellung
-- starke Disziplin
-- rechthaberisch
-- Hang zur Doppelmoral
-- starker innerer Richter
-- Intoleranz
-- ständige Sorgen & Vorausschau
-- mag Alltagsroutinen
-- hat große Angst vor Fehlern
-- sehr selbstkritisch
-- zurückhaltend, aber bestimmt
-- überträgt eigene Werte gerne auf andere
-- ständige Selbstkritik bis hin zur Selbstzerstörung
-- zu hohe eigene Ansprüche
-- großer innerer Richter
-- warmherzig`,
+- orderly
+- reasonable
+- principled
+- perfectionist
+- always strives to be a good person to be
+- high moral standards
+- strong discipline
+- opinionated
+- Tendency to double standards
+- strong inner judge
+- intolerance
+- constant worry & foresight
+- likes everyday routines
+- is very afraid of making mistakes
+- very self-critical
+- reserved, but determined
+- likes to transfer his own values to others
+- Constant self-criticism to the point of self-destruction
+- Too high own demands
+- Great inner judge
+- warm-hearted`,
 
   traits: [
     {
-      label: "warm",
-      content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+      label: "Warm",
+      content: `Due to the accumulated energy of the self-preserving subtype, it is often perceived as warmer in comparison to the others.
 
-Das hat vor allem mit dem "kindlich-egoistischen" Wesen der Selbsterhaltungstypen zutun.`
+This is mainly due to the “childish and selfish” nature of the self-preserving types.`
     },
     {
-      label: "kindlich",
-      content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+      label: "Childlike",
+      content: `The self-preserving subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the ego-centered world view of this subtype.`
     },
     {
-      label: "Normaltyp",
-      content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Normal",
+      content: `The normal type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do in moderation what satisfies it.
 
-Im Fall der se1 bedeutet das, dass dieser Enneagrammtyp den Zorn im normalen Maße lebt.
+In the case of se1, this means that this Enneagram type lives anger to a normal degree.
 
-Er hat die Erfahrung gemacht, dass er perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
+He has experienced that he is perfect when he lives his anger outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem se1 bewusst und können angesprochen werden:
+      label: "Unmasking",
+      content: `The following properties are known to se1 and can be addressed:
 
-- er hat hohe Werte
-- er bemüht sich stets, selbstdiszipliniert und "gut" zu sein
-- er hat ein Händchen für Struktur und Ordnung
-- er ist oftmals vorbildlich in seinem Verhalten
-- er kann sich selbst durch seine Moral gefangen halten
-- er ist sehr umgänglich und warm
-- er ist freundlich und hilfsbereit
-- er fühlt sich innerlich jedoch ständig nicht gut genug
-- er kann gut Fehler oder Baustellen erkennen und sie ausbessern
-- er legt viel Wert auf Gesundheit
-- typische Berufe wären z.B. Lehrer, Ingenieur, Qualitätsmanagement, Buchhalter, ...
-- er hat einen großen inneren Richter, der ihm sagt, was richtig und falsch ist
-- es ist fast schon sein Hobby, sich selbst zu optimieren, disziplinieren und seiner Moral gerecht zu werden
-- er steht zu seiner Meinung kann diese auch gut verteidigen
-- Sturheit ist oftmals auch vorhanden
-- er hat hohe Ansprüche gegenüber sich selbst und neigt dazu, sie auch auf seine Mitmenschen zu projizieren`
+- he has high values
+- he always makes an effort, self-disciplined and “good” to be
+- he has a knack for structure and order
+- he is often exemplary in his behavior
+- he can hold himself captive by his morality
+- he is very sociable and warm
+- he is friendly and helpful
+- but he constantly feels constantly not good enough
+- he is good at recognizing mistakes or recognize construction sites and repair them
+- he attaches great importance to health
+- Typical professions would be e.g. Teacher, engineer, quality management, accountant, ...
+- He has a great inner judge who tells him what is right and wrong
+- it's almost his hobby, to optimize himself, discipline and living up to his to live up to it
+- he stands by his opinion and can defend them well
+- Stubbornness is often present
+- he has high standards towards himself and tends to tends to project them onto his project them onto his fellow human beings`
     },
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 1 im Allgemeinen: 
+Blind spot of type 1 in general: 
 
-- Zorn & Optimierung als Schutzgarant
-- aktives Schaffen von  äußerer Tadellosigkeit & hohen Werten als Kompensation
-- Bestehen auf eigenem Recht
-- Missionierung bei Überforderung
-- Doppelmoral
-- Arroganz
+- Anger & optimization as guarantor of protection
+- active creation of external impeccability & high values as compensation
+- Insistence on own right
+- Missionizing in case of excessive demands
+- double standards
+- Arrogance
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking
+- egoism
+- need orientation
 
-Blinder Fleck, speziell bei der se1:
+Blind spot, especially with the se1:
 
-- Selbstgeißelung & übermäßige Prinzipientreue 
-- großer innerer Richter
-- Schwarz-Weiß-Denken`
+- Self-flagellation & excessive adherence to principles 
+- Great inner judge
+- Black and white thinking`
     },
     {
-      label: "Augen",
-      content: `Typ 1 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 1 in general has the following gaze quality:
 
-- ernst
-- starr
+- serious
+- rigid
 - dominant
-- fokussiert
+- focused
 
-Die Blickqualität der se1 ergänzt sich wie folgt:
+The gaze quality of se1 complements each other as follows:
 
 - warm
-- freundlich
-- kritisch`
+- friendly
+- critical`
     },
     {
-      label: "Körper",
-      content: `Typ 1 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 1 in general has the following physical abnormalities:
 
-- tendenziell dünn
-- Hang zur Zornesfalte
-- buschige Augenbrauen
-- gerade Körperhaltung
+- tends to be thin
+- tendency to frown lines
+- bushy eyebrows
+- straight posture
 
-Die körperlichen Auffälligkeiten der se1 ergänzt sich wie folgt:
+The physical characteristics of se1 complement each other as follows:
 
-- reine Haut
-- gerade Haltung`
+- clear skin
+- straight posture`
     },
     {
-      label: "Wirkung",
-      content: `Typ 1 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 1 in general has the following modes of action:
 
-- ordentlich
+- neat
 - arrogant
-- anspruchsvoll
-- überlegen
+- demanding
+- superior
 - dominant
-- missionierend
+- proselytizing
 
-Die Wirkweisen der se1 ergänzt sich wie folgt:
+The effects of the se1 complement each other as follows:
 
-“Pionier”-Ausstrahlung:
-- freundlich
-- diszipliniert
-- moralisch`
+“Pioneer” charisma:
+- friendly
+- disciplined
+- moral`
     },
     {
-      label: "Weiteres",
-      content: `Über Typ 1 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 1 in general:
 
-- verbal versiert
-- i.d.R. eloquent
-- hohe Meinung von Moral & Ordnung
+- verbally adept
+- usually eloquent
+- high opinion of morality & order
 
-Über den se1 sollte man explizit noch Folgendes wissen:
+The following should be explicitly known about se1:
 
-- tugend- & gewissenhaftes Verhalten`
+- virtuous & conscientious behavior`
     },
     {
-      label: "Beispiele",
+      label: "Examples",
       content: `- Joe Biden
 - Wladimir Klitschko
 - David Goggins
@@ -452,7 +452,7 @@ Die Wirkweisen der se1 ergänzt sich wie folgt:
     },
     {
       label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+      content: `Confusion in male form:
 - se3
 - so3
 - se6
@@ -460,7 +460,7 @@ Die Wirkweisen der se1 ergänzt sich wie folgt:
 - so2
 - se5
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 - se3
 - se6
 - so6
@@ -469,10 +469,10 @@ Verwechslung in weiblicher Form:
 - so3`
     },
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die se1 folgende Partner am ehesten:
+Statistically, the se1 is most likely to choose the following partners:
 
 - se/so2
 - sx3
@@ -482,228 +482,230 @@ Statistisch gesehen wählt die se1 folgende Partner am ehesten:
 - so/sx9`
     },
     {
-      label: "Verkauf",
-      content: `- Moralische Werte zeigen
-- Disziplin zeigen
-- Authentizität und Ehrlichkeit vermitteln
-- Darstellung der Optimierungshilfe für das eigene Leben durch das Produkt
-- Besonnenheit zeigen
-- Ruhe und Gelassenheit ausstrahlen 
-- Anerkennung für die Lebensweise der se1 zeigen
-- Anerkennung für die hohen Werte der se1 zeigen
-- Leistung und Qualität sichern und vermitteln
-- hohe Standards proklamieren
-- stetige Entwicklung und Optimierung als Wert anbringen
-- Ordnung und Struktur zeigen 
-- Bescheidenheit und Tugendhaftigkeit zeigen
-- Regeln und Standards als wichtig darstellen
-- Redlichkeit als Wert vermitteln 
-- Lob für die Besonnenheit der se1 zeigen
-- Angeberei vermeiden! 
-- Interesse an der Lebensweise und den Werten der se1 zeigen
-- Kritik vermeiden 
-- Höflichkeit und Respekt anbringen`
+      label: "Sales",
+      content: `- Showing moral values
+- Show discipline
+- Convey authenticity and honesty
+- Showing how the product can help you optimize your own life
+- Show prudence
+- Exude calm and serenity 
+- Show appreciation for se1's way of life
+- Show appreciation for the high values of se1
+- Ensure and communicate performance and quality
+- Proclaim high standards
+- Attach continuous development and optimization as a value
+- Demonstrate order and structure - Show modesty and virtue
+- Present rules and standards as important
+- Communicate honesty as a value 
+- Show praise for the prudence of se1
+- Avoid showing off! 
+- Show interest in the lifestyle and values of the se1
+- Avoid criticism 
+- Show politeness and respect `
     },
     {
-      label: "Führung",
-      content: `- Moral und Werte an oberste Stelle setzen und der se1 vermitteln, dass ihre Arbeit und Leistung essentiell sind und zur Optimierung der gesamten Firma dienen
-- Ehrlichkeit und Transparenz gewährleisten, damit die se1 nicht das Gefühl bekommt, angelogen zu werden und ihre Werte in Gefahr sieht
-- Verlässlichkeit und Disziplin der se1 loben und als vorbildlich darstellen, um sie zu motivieren
-- Eine se1 funktioniert wie ein Uhrwerk, sobald sie einmal ihre Routine und Struktur gefunden hat, also sollte man ihr genau dabei behilflich sein, herauszukristallisieren, welche Werte und höhere Ziele sie in der Firma und mit ihrer Arbeit verfolgt
-- Konstruktive Kritik äußern, aber stark darauf achten, dass die se1 sich davon nicht angegriffen fühlt, sondern eher positiv beliefert, da sie dadurch noch besser werden kann
-- Verbesserungsvorschläge machen, um die Arbeit noch perfekter zu gestalten, aber stark darauf achten, die Leistungen der se1 nicht als mangelhaft oder ungenügend darzustellen, da sie das zutiefst kränkt
-- Respekt und Wertschätzung für die Prinzipientreue und Ehrlichkeit der se1 aufbringen
-- Ehrliches Interesse an den Lebensthemen und Alltagssorgen der se1 zeigen, denn sie macht sich viel Gedanken darum, wie die Zukunft wird und sieht in einem dann einen Ruhepol und Ratgeber, was folglich dazu führt, dass die se1 sich noch mehr verpflichtet fühlt, ihre Arbeit gut zu erledigen
-- pünktlich sein und Rechtschaffenheit proklamieren`
+      label: "Management",
+      content: `- Put morals and values first and convey to the se1 that their work and performance are essential and serve to optimize the entire company
+- Ensure honesty and transparency so that the se1 does not feel that they are being lied to and that their values are at risk
+- Praise the reliability and discipline of the se1 and present them as exemplary in order to motivate them
+- A se1 works like clockwork once she has found her routine and structure, so you should help her to crystallize exactly what values and higher goals she is pursuing in the company and with her work
+- Express constructive criticism, but make sure that the se1 does not feel attacked by it, but rather positively supplied, as this can make her even better
+- Make suggestions for improvement to make the work even more perfect, but take great care not to portray the se1's performance as inadequate or insufficient, as this would deeply offend them
+- Show respect and appreciation for the se1's loyalty to principles and honesty
+- Show sincere interest in the se1's life issues and everyday worries, because she is very concerned about what the future will be like and sees you as a source of calm and advice, which consequently makes the se1 feel even more committed to doing her job well
+- be punctual and proclaim righteousness`
     }
   ]
 },
 
     {
       code: "so1",
-  content: `Grundmotivation:
-Perfektion (in der sozialen Gruppe)
+  content: `Basic motivation:
+Perfection (in the social group)
 
-Leidenschaft: 
-Zorn (in der sozialen Gruppe)
+Passion: 
+Anger (in the social group)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- vernünftig
-- kontrolliert
-- diszipliniert
-- prinzipientreu
-- moralisch
-- perfektionistisch
-- organisiert
-- leistungsorientiert
-- ehrgeizig
-- starkes Verantwortungsgefühl
-- missionierend
-- kritisiert Missstände
-- hohe Ideale
-- strukturiert
-- wirkt erwachsen
-- rechthaberisch
-- möchte die Welt verbessern
-- starker innerer Richter
-- hohe Ansprüche an andere
-- engagiert`,
+- arrogant
+- demanding
+- criticizing
+- preacher mentality
+- strong projection of own values values onto his environment
+- grows up quickly
+- Structured
+- likes to set standards
+- quality-oriented
+- has high expectations of fellow human beings
+- competent
+- professionally accurate
+- socially unadjusted
+- perfectionist
+- uncompromising
+- thirst for change
+- Talent for quality assurance 
+- error awareness
+- convinced
+- open to discussion
+- high moral standards
+- stubborn
+- strong-willed`,
 
   traits: [
     {
-      label: "kalt",
-      content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+      label: "Cold",
+      content: `Due to the adapted energy of the social subtype, it is often perceived as colder in comparison to the others.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zutun.`
+This is mainly due to the “intellectually adapted” nature of the social types.`
     },
 
     {
-      label: "erwachsen",
-      content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+      label: "Adult",
+      content: `The social subtype is usually very adult and intellectual in nature.
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
+This effect is closely linked to the we-centered world view of this subtype.`
     },
 
     {
-      label: "Verstärkungstyp",
-      content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Reinforcement",
+      content: `The reinforcement type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The reinforcement type has experienced in his life that the strong living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything he can to satisfy it.
 
-Im Fall der so1 bedeutet das, dass dieser Enneagrammtyp den Zorn extrem stark lebt.
+In the case of so1, this means that this Enneagram type lives anger extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
+He has experienced that he is perfect when he lives his anger outwardly`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem so1 bewusst und können angesprochen werden:
+      label: "Unmasking",
+      content: `The following characteristics are known to so1 and can be addressed:
 
-- er ist sehr perfektionistisch
-- er hat sehr hohe Ansprüche 
-- er kann auf seine Mitmenschen arrogant wirken
-- er ist sehr durchsetzungsstark in Diskussionen, da er sich fast immer fundierte Meinungen bildet
-- er ist sehr eigen im Wesen
-- deswegen passt er sich auch ungerne an und kann aus diesem Grund mal anecken
-- er ist innerlich sehr zornig, zügelt sich nach außen aber fast immer
-- er möchte so gut wie möglich sein und anderen zeigen, dass sein Lebensstil der beste ist
-- er kann sehr rechthaberisch sein
-- meist fühlt er sich als Außenseiter
-- er ist schon recht früh erwachsen und übernimmt Verantwortung
-- das Thema, um das sich sein Leben dreht, beherrscht er perfekt
-- er ist ein guter Ratgeber, da er einen vernünftigen und rationalen Blick auf die Dinge hat
-- er wird von seiner Umwelt oftmals enttäuscht, da er so hohe Ansprüche an seine Mitmenschen hat
-- er setzt gerne Standards
-- im Stress kann er sehr chaotisch und impulsiv werden, dennoch ist er eigentlich sehr geordnet im Kopf
-- er orientiert sich ungern an fremden Normen, es sei denn sie überschneiden sich mit seinen eigenen
-- er steht für Exzellenz`
+- he is very perfectionist
+- he has very high standards 
+- he can appear arrogant to his fellow human beings appear arrogant
+- he is very assertive in discussions discussions, as he almost always always forms well-founded opinions forms
+- he is very particular in nature
+- which is why he also and for this reason he can and can offend for this reason
+- he is very angry inside, but almost always restrains himself always
+- He wants to be as good as possible and show others that his lifestyle is the best
+- he can be very opinionated
+- he usually feels like an outsider
+- he is an adult quite early grown up and takes on responsibility
+- the subject around which his life revolves around, he masters perfectly
+- he is a good counselor because he has a sensible and rational view of things
+- he is often disappointed by his environment often disappointed by those around him high expectations of his fellow human beings
+- he likes to set standards
+- under stress he can become very chaotic and impulsive, yet he is actually very orderly in mind
+- he does not like to be guided by other people's norms, unless they overlap with his own
+- he stands for excellence`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 1 im Allgemeinen:
+Blind spot of type 1 in general: 
 
-- Zorn & Optimierung als Schutzgarant
-- aktives Schaffen von äußerer Tadellosigkeit & hohen Werten als Kompensation
-- Bestehen auf eigenem Recht
-- Missionierung bei Überforderung
-- Doppelmoral
-- Arroganz
+- Anger & optimization as guarantor of protection
+- active creation of external impeccability & high values as compensation
+- Insistence on own right
+- Missionizing in case of excessive demands
+- double standards
+- Arrogance
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der so1:
+Blind spot, especially with the so1:
 
-- Doppelmoral
-- zu hohe Ansprüche an Mitmenschen
-- zwanghafte Missionierung & Verbesserung der Umwelt`
+- Double standards
+- Too high demands on fellow human beings
+- obsessive proselytizing & improvement of the environment`
     },
 
     {
-      label: "Augen",
-      content: `Typ 1 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 1 in general has the following gaze quality:
 
-- ernst
-- starr
+- serious
+- rigid
 - dominant
-- fokussiert
+- focused
 
-Die Blickqualität der so1 ergänzt sich wie folgt:
+The gaze quality of so1 complements each other as follows:
 
-- kühl
+- cool
 - arrogant
-- skeptisch
-- kritisch`
+- skeptical
+- critical`
     },
 
     {
-      label: "Körper",
-      content: `Typ 1 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 1 in general has the following physical abnormalities:
 
-- tendenziell dünn
-- Hang zur Zornesfalte
-- buschige Augenbrauen
-- gerade Körperhaltung
+- tends to be thin
+- tendency to frown lines
+- bushy eyebrows
+- straight posture
 
-Die körperlichen Auffälligkeiten der so1 ergänzt sich wie folgt:
+The physical characteristics of so1 complement each other as follows:
 
-- sehr schlank/drahtig
-- adrig`
+- very slim/wired
+- veiny`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 1 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 1 in general has the following modes of action:
 
-- ordentlich
+- neat
 - arrogant
-- anspruchsvoll
-- überlegen
+- demanding
+- superior
 - dominant
-- missionierend
+- proselytizing
 
-Die Wirkweisen der so1 ergänzt sich wie folgt:
+The effects of so1 complement each other as follows:
 
-“Aristokraten”-Ausstrahlung:
-- überlegen
-- diskussionsfreudig
-- durchsetzungsstark
-- unangepasst`
+“aristocratic” charisma:
+- superior
+- open to discussion
+- assertive
+- non-conformist`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 1 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 1 in general:
 
-- verbal versiert
-- i.d.R. eloquent
-- hohe Meinung von Moral & Ordnung
+- verbally adept
+- usually eloquent
+- high opinion of morality & order
 
-Über den so1 sollte man explizit noch Folgendes wissen:
+You should also know the following about so1:
 
-- setzt oftmals hohe Standards
-- gehobener Zeigefinger`
+- often sets high standards
+- high index finger`
     },
 
     {
-      label: "Beispiele",
+      label: "Examples",
       content: `- Helmut Schmidt
 - Jordan Peterson
 - Jürgen Klopp
@@ -721,7 +723,7 @@ Die Wirkweisen der so1 ergänzt sich wie folgt:
 
     {
       label: "Lookalikes",
-      content: `Verwechslung in männlicher Form:
+      content: `Confusion in male form:
 - so7
 - so6
 - sx4
@@ -730,7 +732,7 @@ Die Wirkweisen der so1 ergänzt sich wie folgt:
 - so5
 - sx6
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 - se6
 - so6
 - so7
@@ -738,10 +740,10 @@ Verwechslung in weiblicher Form:
     },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die so1 folgende Partner am ehesten:
+Statistically speaking, the so1 is most likely to choose the following partners:
 
 - so/sx2
 - so/sx9
@@ -751,209 +753,209 @@ Statistisch gesehen wählt die so1 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- hohe Standards vermitteln und die Qualität an erste Stelle setzen
-- Angeberei vermeiden, Authentizität zeigen
-- Kritik unbedingt vermeiden
-- Anerkennung für die Leistungen in der Gruppe der so1 zeigen 
-- Werte und Regeln der so1 herausfinden und bedienen
-- keine Urteile über den Fachbereich der so1 fällen, da die so1 immer denkt, sie kennt sich besser aus 
-- Offenheit und Lockerheit zeigen
-- Höflichkeit und Respekt anbringen 
-- Ideologie und Werte formulieren, sodass die so1 realisiert, dass das Produkt einen berechtigten Optimierungsanspruch hat
-- Qualität des Produktes darstellen
-- klare Strukturen und Werte formulieren 
-- Arroganz vermeiden 
-- Rationale Sinnhaftigkeit des Produktes beschreiben
-- für eigene Werte bedingungslos einstehen, um der so1 zu imponieren 
-- Reife und Vernunft der so1 bekräftigen und loben 
-- niemals die Qualität der so1 hinterfragen, sondern zeigen, dass trotz bisheriger guter Qualität der so1 das Produkt einen noch besseren Weg ermöglicht `
+      label: "Sales",
+      content: `- Communicate high standards and put quality first
+- Avoid showing off, show authenticity
+- Avoid criticism at all costs
+- Show appreciation for the achievements of the so1 group 
+- Identify and serve the values and rules of the so1
+- Do not make any judgments about the so1's area of expertise, as the so1 always thinks they know better 
+- Show openness and relaxedness
+- show politeness and respect 
+- Formulate ideology and values so that the so1 realizes that the product has a justified claim to optimization
+- Present the quality of the product
+- Formulate clear structures and values 
+- Avoid arrogance 
+- Describe the rational meaningfulness of the product
+- Stand up for your own values unconditionally in order to impress so1 
+- Affirm and praise the maturity and rationality of so1 
+- Never question the quality of the so1, but show that despite the good quality of the so1 to date, the product enables an even better way forward`
     },
 
     {
-      label: "Führung",
-      content: `- stark darauf achten, keine negative Kritik zu äußern und der so1 damit vor den Kopf zu stoßen
-- Verbesserungsvorschläge machen, ohne die Prinzipien oder Regeln der so1 infrage zu stellen, sondern eher als Fundament zu nutzen
-- Lob und Anerkennung für die Werte und Zugewandheit der so1 in der sozialen Gruppe geben
-- bei guten Leistungen die so1 vor der Gruppe gut darstellen, um sie nachhaltig zu motivieren, zukünftig ebenso gute Arbeit zu leisten
-- hohe Werte äußern und der so1 das Gefühl geben, selbst sehr hohe Ansprüche zu haben, um sich ihren Respekt zu verdienen
-- in Aussicht stellen, dass die so1 bei guten Leistungen schnell in Führungspositionen kommen kann, in denen sie ihre Werte und Prinzipien leben und weitergeben kann, um ihre Mitmenschen zu fördern
-- sich die Zeit nehmen, mit der so1 über ihr wichtige Themen und Konflikte zu diskutieren, um ihr Respekt zu vermitteln (auch wenn das manchmal sehr anstrengend sein kann, denn die so1 hat eine unfassbar starke Diskussionsfreudigkeit und hat sich zu vielen Themen klare und logische Meinungen gebildet, die man nur mit viel Initiative verändern kann)
-- pünktlich und vorbereitet sein, um den hohen Ansprüchen der so1 gerecht zu werden und ihr unterbewusst zu zeigen, dass man es „wert ist, mit ihr zu arbeiten und ihr Führung zu geben“`
+      label: "Management",
+      content: `- take great care not to express negative criticism and thereby offend so1
+- Make suggestions for improvement without questioning the principles or rules of the so1, but rather using them as a foundation
+- Give praise and recognition for the values and dedication of the so1 in the social group
+- Present the so1 well to the group in the event of good performance in order to motivate them to do equally good work in the future
+- express high values and give the so1 the feeling that they themselves have very high standards in order to earn their respect
+- hold out the prospect that, if they perform well, the so1 can quickly move into management positions where they can live and pass on their values and principles in order to promote their fellow human beings
+- take the time to discuss important issues and conflicts with the so1 in order to show her respect (even if this can sometimes be very exhausting, as the so1 is incredibly open to discussion and has formed clear and logical opinions on many topics that can only be changed with a lot of initiative)
+- Be punctual and prepared in order to meet so1's high expectations and subconsciously show her that you are “worth working with and guiding”.`
     }
   ]
 },
 
     {
       code: "sx1",
-      content: `Grundmotivation:
-Perfektion (in der zwischenmenschlichen Beziehung)
+      content: `Basic motivation:
+Perfection (in interpersonal human relationship)
 
-Leidenschaft: 
-Zorn (in der zwischenmenschlichen Beziehung)
+Passion: 
+Anger (in the inter human relationship)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- hitzig
-- diskussionsfreudig
-- impulsiv
-- intensiv
-- unsicher
-- gespielte Dominanz
-- sehr eifersüchtig
-- ständig im Wettstreit 
-- fordernd
-- verbessernd
-- besitzergreifend
-- große Sorge, die Mitmenschen könnten sich ihr abwenden
-- will immer attraktiv sein
-- beschämt, wenn ihr innerer Vulkan ausbricht
-- perfektionistisch
-- zu hohe Ansprüche an ihren Partner
-- leidenschaftlich
-- selbstdarstellerisch`,
+- heated
+- argumentative
+- impulsive
+- intense
+- insecure
+- feigned dominance
+- very jealous
+- constantly in competition 
+- demanding
+- improving
+- possessive
+- very worried that other people could turn away from her
+- always wants to be attractive
+- ashamed when her inner volcano erupts
+- perfectionist
+- too high demands on her partner
+- passionate
+- self-promoting`,
 
       traits: [
         {
-          label: "hitzig",
-          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+          label: "Fiery",
+          content: `Due to the intense energy of the sexual subtype, it is often perceived as more heated compared to the others.
 
-Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
+This is mainly due to the energetic nature of the sexual types.`
         },
         {
-          label: "jugendlich",
-          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+          label: "Youthful",
+          content: `The sexual subtype is usually very youthful and intense in nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the partnership-centered world view of this subtype.`
         },
         {
-          label: "Kontratyp",
-          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Contra",
+          content: `The counter-type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that living out the respective passion does not work well and does not satisfy his basic motivation at all, which is actually the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything he can to prevent it from becoming visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion always finds a way into the person's life through a back door, which they do not consciously realize.
 
-Im Fall der sx1 bedeutet das, dass dieser Enneagrammtyp gegen den Zorn ankämpft.
+In the case of sx1, this means that this Enneagram type fights against anger.
 
-Er hat die Erfahrung gemacht, dass er nicht perfekt ist, wenn er seinen Zorn nach außen hin lebt.`
+He has experienced that he is not perfect when he lives his anger outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx1 bewusst und können angesprochen werden:
+          label: "Unmasking",
+         content: `The sx1 is aware of the following characteristics and these can be addressed:
 
-- er ist sehr hitzig
-- er ist sehr ausdrucksstark
-- er passt sich ungern an
-- er legt Wert auf sein Äußeres
-- er ist diskussionsfreudig
-- er ist eifersüchtig
-- er fokussiert sich stark auf seine zwischenmenschlichen Verbindungen
-- er zeigt es offen nach außen, wenn er sich ungerecht behandelt fühlt
-- er hat einen unfassbar hohen Anspruch an sich selbst
-- er hat seine eigene Moralvorstellungen und folgt ihnen diszipliniert
-- Respekt ist ihm sehr wichtig
-- er kann sehr intensiv sein
-- seine Beziehungen sind sehr rivalisierend`
+- he is very hot-tempered
+- he is very expressive
+- he does not like to conform
+- he attaches importance to his appearance
+- he is fond of discussion
+- he is jealous
+- he focuses strongly on his interpersonal connections
+- he shows it openly to the outside world, when he feels unfairly treated unfairly
+- he has incredibly high demands on himself
+- he has his own moral concepts and follows them disciplined
+- Respect is very important to him
+- he can be very intense
+- his relationships are very rivalrous`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 1 im Allgemeinen: 
+Blind spot of type 1 in general: 
 
-- Zorn & Optimierung als Schutzgarant
-- aktives Schaffen von  äußerer Tadellosigkeit & hohen Werten als Kompensation
-- Bestehen auf eigenem Recht
-- Missionierung bei Überforderung
-- Doppelmoral
-- Arroganz
+- Anger & optimization as guarantor of protection
+- active creation of external impeccability & high values as compensation
+- Insistence on own right
+- Missionizing in case of excessive demands
+- double standards
+- Arrogance
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of sexual type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- strong & constant rivalry with with other people
+- Dependence on external attractiveness & attachments
+- Fear of devaluation & degradation
 
-Blinder Fleck, speziell bei der sx1:
+Blind spot, especially with the sx1:
 
-- starke Eifersucht
-- hitziges Temperament als Kompensation
-- zu hohe Ansprüche Freunden und Partnern gegenüber`
+- strong jealousy
+- hot temper as compensation
+- Too high demands on friends and partners`
         },
         {
-          label: "Augen",
-          content: `Typ 1 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 1 in general has the following gaze quality:
 
-- ernst
-- starr
+- serious
+- rigid
 - dominant
-- fokussiert
+- focused
 
-Die Blickqualität der sx1 ergänzt sich wie folgt:
+The gaze quality of the sx1 complements each other as follows:
 
-- einnehmend
-- herrisch`
+- engaging
+- imperious`
         },
         {
-          label: "Körper",
-          content: `Typ 1 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 1 in general has the following physical abnormalities:
 
-- tendenziell dünn
-- Hang zur Zornesfalte
-- buschige Augenbrauen
-- gerade Körperhaltung
+- tends to be thin
+- tendency to frown lines
+- bushy eyebrows
+- straight posture
 
-Die körperlichen Auffälligkeiten der sx1 ergänzen sich wie folgt:
+The physical characteristics of sx1 complement each other as follows:
 
-- starker Unterkiefer
-- unreine Haut`
+- strong lower jaw
+- blemished skin`
         },
         {
-          label: "Wirkung",
-          content: `Typ 1 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 1 in general has the following modes of action:
 
-- ordentlich
+- neat
 - arrogant
-- anspruchsvoll
-- überlegen
+- demanding
+- superior
 - dominant
-- missionierend
+- proselytizing
 
-Die Wirkweisen der sx1 ergänzen sich wie folgt:
+The effects of the sx1 complement each other as follows:
 
-“Cowboy/Rockstar”-Ausstrahlung:
-- offensiv
-- temperamentvoll
-- hitzig
-- wetteifernd`
+“cowboy/rock star” charisma:
+- offensive
+- spirited
+- hot-tempered
+- competitive`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 1 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `You should also know the following about type 1 in general:
 
-- verbal versiert
-- i.d.R. eloquent
-- hohe Meinung von Moral & Ordnung
+- verbally adept
+- usually eloquent
+- high opinion of morality & order
 
-Über den sx1 sollte man explizit noch Folgendes wissen:
+You should also know the following about the sx1:
 
-- ausgefallener Kleidungsstil
-- eifersüchtig`
+- unusual style of dress
+- jealous`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Leonardo DiCaprio
 - Ludwig Wittgenstein
 - Josef Fritzl
@@ -967,23 +969,23 @@ Die Wirkweisen der sx1 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 - sx4
 - sx8
 - sx3
 - sx7
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 - sx8
 - sx4
 - sx3
 - sx7`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx1 folgende Partner am ehesten:
+Statistically speaking, the sx1 is most likely to choose the following partners:
 
 - sx4
 - sx2
@@ -992,32 +994,32 @@ Statistisch gesehen wählt die sx1 folgende Partner am ehesten:
 - sx7`
         },
         {
-          label: "Verkauf",
-          content: `- Ehrlichkeit und Werte anbringen
-- Moral und Integrität statuieren 
-- Respekt und Wohlwollen vermitteln
-- Möglichkeiten und Chancen aufzeigen
-- auf Augenhöhe kommunizieren, niemals über die sx1 stellen
-- Qualität und Ehrgeiz zeigen
-- objektive Förderlichkeit des Produktes darstellen
-- eigene Profilierung, um Rivalität und Reiz der sx1 zu steigern 
-- auch die fragwürdigen Werte der sx1 nicht als verwerflich darstellen
-- Toleranz und Akzeptanz gegenüber der sx1 zeigen 
-- Optimierungswunsch an die sx1 formulieren 
-- Unterstützung und Zusicherung geben `
+          label: "Sales",
+          content: `- Attaching honesty and values
+- Demonstrate morality and integrity 
+- Convey respect and goodwill
+- Highlight possibilities and opportunities
+- Communicate at eye level, never put yourself above the sx1
+- Show quality and ambition
+- Present objective promotability of the product
+- raise your own profile to increase the rivalry and appeal of the sx1 
+- do not present the questionable values of the sx1 as reprehensible
+- Show tolerance and acceptance towards the sx1 
+- Formulate optimization requests to the sx1 
+- Provide support and reassurance`
         },
         {
-          label: "Führung",
-          content: `- Achtung: es ist eine sehr anspruchsvolle Aufgabe, einer sx1 eine effiziente Führung zu geben, da sie sich extrem schnell kritisiert und untergraben fühlt!
-- viel Anerkennung für die Bestrebungen der sx1 geben
-- wenig Regulation im Arbeitsverhalten der sx1 geben
-- Eigenverantwortung stärken und fördern
-- Keinerlei Kritik in Bezug auf die Herangehensweisen der sx1 äußern, ansonsten schaltet die sx1 ab und wird stur / setzt nicht das um, was man sagt
-- Immer aufbauend von den Strukturen und Wahrheiten der sx1 Ratschläge oder Verbesserungsvorschläge geben!
-- der sx1 nicht das Gefühl geben, sie sei nur einer von vielen Mitarbeitern, sondern stark darauf achten, die heftige Eifersucht der sx1 nicht zu aktivieren, sondern sie stets auf ein Podest zu stellen und individuell behandeln (ähnlich wie bei Typ 4)
-- keine Rivalität zwischen der sx1 und anderen Mitarbeitern schüren, denn ansonsten wird die sx1 hasserfüllt und verbittert, was sich sehr negativ auf das firmeninterne Klima auswirkt
-- respektvoller Umgang ist essentiell dafür, dass die sx1 die Führung von einem akzeptiert
-- Ehrlichkeit und Transparenz gewährleisten`
+          label: "Management",
+          content: `- Caution: it is a very challenging task to provide effective leadership to an sx1, as it is extremely quick to feel criticized and undermined!
+- Give a lot of recognition for the sx1's efforts
+- Provide little regulation of the sx1's work behavior
+- Strengthen and promote personal responsibility
+- Do not express any criticism of the sx1's approach, otherwise the sx1 switches off and becomes stubborn / does not implement what you say
+- Always give advice or suggestions for improvement based on the structures and truths of the sx1!
+- Do not give the sx1 the feeling that they are just one of many employees, but take great care not to activate the sx1's intense jealousy, but always put them on a pedestal and treat them individually (similar to type 4)
+- Do not stir up rivalry between the sx1 and other employees, otherwise the sx1 will become hateful and embittered, which will have a very negative effect on the company's internal climate
+- Respectful interaction is essential for the sx1 to accept your leadership
+- Ensure honesty and transparency`
           
         }
       ]
