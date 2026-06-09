@@ -2,447 +2,444 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type6Data = {
   type: 6,
-  title: "Sicherheit",
-  center: "Kopfmensch",
-  side: "Männliche Seite",
+  title: "Security",
+  center: "Head People",
+  side: "Masculine Side",
   color: TYPE_COLORS[6],
 
   centerInfo: {
-    content: `Grundproblem: 
-Vertrauensdefizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
+    content: `Basic problem: 
+Trust deficit (feeling of not being able to trust / being insecure & anxious)
 
-Hauptthemen:
-- Rationalismus 
-- Analyse 
-- Struktur 
-- Sicherheit 
-- Vorsicht 
-- Gedanken
+Main themes:
+- Rationalism
+- Analysis
+- Structure 
+- Security 
+- Caution 
+- Thoughts
 
-Identifikation:
-- “Ich bin, was mir Sicherheit gibt.”`
+Identification:
+“I am what gives me security.”`
   },
 
   typeInfo: {
-    content: `Blockierte Kopfenergie (Kopfenergie wird unterdrückt)
+    content: `Blocked head energy (head energy is suppressed)
 
-Grundmotivation: 
-Sicherheit
+Basic motivation: 
+Security
 
-Abwehrmechanismus: 
-Sicherheit durch Struktur`
+Defense mechanism: 
+Security through structure`
   },
 
   sideInfo: {
-    content: `Die männliche Seite des Enneagramms umfasst die Enneagrammtypen 5-8 und zeichnet sich durch männliche Charakter- & Körperzüge aus.
+    content: `The masculine side of the Enneagram comprises Enneagram types 5-8 and is characterized by masculine character and body traits.
 
-Indizien, die hier beachtet werden sollten:
+Indications that should be noted here:
 
-Nasenform: 
-- grob 
-- breit 
-- unförmig 
-- rund 
-- kantig 
-- männlich
+Nose shape: 
+- coarse 
+- broad 
+- misshapen 
+- round 
+- angula 
+- masculine
 
-Gesichtspartie: 
-- grobe Haut 
-- unreine Haut 
-- markante Gesichtsform 
-- starker Unterkiefer 
-- kurze Wimpern
+Facial area: 
+- coarse skin 
+- blemished skin 
+- distinctive face shape 
+- strong lower jaw 
+- short eyelashes
 
-Wirkung: 
-- maskulin 
-- grob 
-- kantig`
+Effect: 
+- masculine 
+- coarse 
+- angular`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 6 wird in folgenden Zuständen gemessen:
+      label: "Level of consciousness",
+      content: `The health of the mind of type 6 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund, 
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Selbstzerstörerischer Masochist
-2. Hysteriker
-3. Unsicherer Mensch
-4. Überkompensierter (harter) Typ
-5. Ambivalenter
-6. Gehorsamer Traditionalist
-7. Engagierter & loyaler Freund
-8. Liebenswerter Mensch
-9. Selbstbejahende Persönlichkeit`
+1. Self-destructive masochist
+2. Hysteric
+3. Insecure person
+4. Overcompensating (tough) guy
+5. Ambivalent person
+6. Obedient traditionalist
+7. Committed & loyal friend
+8. Lovable person
+9. Self-affirming personality`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      label: "Tritypes",
+      content: `The purpose of the tritype is that each person has a predominant enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is, of course, made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
-„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
+To determine the tritype, you have to ask yourself the following question: “If a person had to be a heart person/head person/gut person, which of the three types in the respective energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+This is how a trio is put together (e.g. 3-5-8), which can explain differences in the characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the nine basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: caring, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, wise
+Type 6: questioning, examining, supporting
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peace-loving
 
-Im Fall von Typ 6 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 6, the following possibilities exist for the tritypes:
 
-6-1-2: Unterstützer
-6-8-2: Retter
-6-1-4: Philosoph
-6-9-2: Guter Samariter
-6-8-4: Wahrheitsliebender
-6-1-3: Arbeitgeber
-6-9-4: Suchender
-6-8-3: Gerechtigkeitskämpfer
-6-9-3: Vermittler`
+6-1-2: Supporter
+6-8-2: Rescuer
+6-1-4: Philosopher
+6-9-2: Good Samaritan
+6-8-4: Truth-teller
+6-1-3: Employer
+6-9-4: Seeker
+6-8-3: Justice fighter
+6-9-3: Mediator`
     },
 
     {
-      label: "Leidenschaft: Angst",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+      label: "Passion: Fear",
+      content: `Meaning of passion in this context:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
+- a pseudo-protective mechanism that literally “creates suffering”
 
-Bedeutung von Angst in diesem Kontext:
+Meaning of fear in this context:
 
-- Vorsicht, Skepsis & Berechnung, um die größtmögliche Sicherheit zu erlangen
+- caution, skepticism and calculation in order to achieve the greatest possible security
 
-Gesteigerte Formen: 
+Enhanced forms: 
 
-- Kontrollzwang
-- Feindseligkeit
-- übermäßige Skepsis`
+- control compulsion
+- hostility
+- excessive skepticism`
     },
 
     {
-      label: "Umgang",
-      content: `- Sicherheit geben
-- Skepsis des Gegenübers anerkennen & besänftigen
-- Strukturen geben
-- Loyalität zeigen
-- Ehrlichkeit zeigen
-- Klarheit geben über Werte, Meinungen, Beziehungen, ...`
+      label: "Handling",
+      content: `- Provide security
+- Acknowledge and assuage scepticism
+- Provide structure
+- Demonstrate loyalty
+- Demonstrate honesty
+- Be clear about values, opinions, relationships, etc.`
     },
 
     {
-      label: "Flügel: 5",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 5",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an enneatype have an influence on it
+- This leads to an adaptation of characteristics
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 5:
+Wings to type 5:
 
-Eigenschaften im positiven Fall:
+Characteristics in the positive case:
 
-- Analyse-Fähigkeit 
-- tiefes Interesse 
-- Forschergeist 
-- Rationalismus 
-- Nüchternheit 
-- Sparsamkeit 
-- Wissbegier 
-- Fähigkeit zur Informationsbeschaffung 
-- Skepsis 
-- Beobachter-Fähigkeit 
-- geistige Klarheit
+- analytical skills
+- deep interest
+- spirit of research
+- rationalism
+- sobriety
+- frugality
+- curiosity
+- ability to obtain information
+- skepticism
+- ability to observe
+- mental clarity
 
-Eigenschaften im negativen Fall:
+Negative traits:
 
-- Geiz / Habsucht 
-- mangelnde Empathie 
-- übermäßige Rationalisierung  
-- Praxis-Unfähigkeit 
-- Tendenz, emotionskarg zu sein 
-- Isolation 
-- Zurückhaltung von Wissen 
-- Scheue 
-- mangelnde Selbstdarstellung 
-- Reaktionsarmut`
+- stinginess / greed
+- lack of empathy
+- excessive rationalization
+- inability to practice
+- tendency to be emotionally barren
+- isolation
+- withholding of knowledge
+- shyness
+- lack of self-expression
+- lack of reaction`
     },
 
     {
-      label: "Flügel: 7",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 7",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an enneatype have an influence on it
+- This leads to an adaptation of characteristics
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 7:
+Wings to type 7:
 
-Eigenschaften im positiven Fall:
+Characteristics in the positive case:
 
-- Frohmut 
-- Begeisterungsfähigkeit 
-- Abenteuerlust 
-- Optimismus 
-- Wohlwollen  
-- Unbeschwertheit  
-- hohes Maß an Energie  
-- große Motivation bei Belohnungsausschüttung 
-- Intensität 
-- Lichtbringer-Fähigkeit  
-- Offenheit
+- cheerfulness
+- enthusiasm
+- adventurousness
+- optimism
+- benevolence 
+- light-heartedness 
+- high level of energy 
+- great motivation when rewards are given
+- intensity
+- light-bringer ability 
+- openness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- “rosa-rote Brille” 
-- Oberflächlichkeit 
-- Übereifer 
-- Sprunghaftigkeit 
-- Leidverdrängung 
-- mangelnde Disziplin 
-- Opportunismus 
-- Narzissmus 
-- Völlerei 
-- ständige Ablenkung 
-- triebgesteuertes inneres Wesen`
+- “rose-tinted glasses”
+- superficiality
+- overzealousness
+- volatility
+- repression of suffering
+- lack of discipline
+- opportunism
+- narcissism
+- gluttony
+- constant distraction
+- instinct-driven inner being`
     },
 
     {
-      label: "Stresspunkt: 3",
-      content: `Definition Stresspunkt:
+      label: "Stress point: 3",
+      content: `Definition of stress point:
 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+As soon as an enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, etc.), they compensate for it by taking on characteristics of their so-called stress point.
 
-Stresspunkt in Typ 3:
+Stress point in type 3:
 
-Entwicklung im positiven Fall:
+Development in a positive case:
 
-- fokussiert
-- ehrgeizig
-- selbstdarstellerisch
-- aktiv
+- focused
+- ambitious
+- self-promoting
+- active
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- eitel
-- täuschend
-- unauthentisch
-- narzisstisch`
+- vain
+- deceptive
+- inauthentic
+- narcissistic`
     },
 
     {
-      label: "Entspannungspunkt: 9",
-      content: `Definition Entspannungspunkt:
+      label: "Relaxation point: 9",
+      content: `Definition of relaxation point:
 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+As soon as an enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), he develops by taking on characteristics of his so-called relaxation point.
 
-Entspannungspunkt in Typ 9:
+Relaxation point in type 9:
 
-Entwicklung im positiven Fall:
+Development in a positive case:
 
-- besonnen
-- sanft
-- ruhig
-- verbindend
+- level-headed
+- gentle
+- calm
+- connecting
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- träge
-- ziellos
-- desorientiert
-- selbstvergessen`
+- lethargic
+- aimless
+- disoriented
+- self-forgetful`
     }
   ],
 
   subtypes: [
     {
       code: "se6",
-      content: `Grundmotivation:
-Sicherheit (in der Selbsterhaltung)
+      content: `Basic motivation:
+security (in self-preservation)
 
-Leidenschaft: 
-Angst (in der Selbsterhaltung)
+Passion: 
+fear (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Description in bullet points:
 
-- sehr skeptisch
-- ideologisch festgefahren
-- extrem sicherheitsorientiert
-- oft Beamte
-- Glauben/innere Überzeugung ist wichtig
-- norm- und wertorientiert
-- Routinen & Strukturen sind essentiell
-- freundlich/warmherzig
-- verantwortungsbewusst
-- sehr loyal
-- geistreiche Art
-- Familienmensch
-- Freunde sind wichtig
-- bemüht sich stets darum, wohlwollend zu sein, auch wenn ihn seine Mitmenschen aufregen/ärgern
-- ständige Sorgen & Zweifel
-- Analyse von Zukunftsprognosen, um Sicherheit zu gewährleisten
-- strukturiert`,
+- very skeptical
+- ideologically stuck
+- extremely security-oriented
+- often civil servants
+- faith/inner conviction is important
+- norm- and value-oriented
+- routines & structures are essential
+- friendly/warm-hearted
+- responsible
+- very loyal
+- witty manner
+- family person
+- friends are important
+- always strives to be benevolent, even when his fellow human beings upset him
+- constant worries & doubts
+- analysis of future prognoses to ensure security
+- structured`,
 
       traits: [
         {
-          label: "warm",
-          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+          label: "Warm",
+          content: `Due to the energy accumulated by the self-preservation subtype, it often feels warmer than the others.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
+This has mainly to do with the “childlike, egotistical” nature of the self-preservation types.`
         },
         {
-          label: "kindlich",
-          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+          label: "Childlike",
+          content: `The self-sufficient subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely related to the self-centered world view of this subtype.`
         },
         {
-          label: "Verstärkungstyp",
-          content:  `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Reinforcement",
+          content:  `The amplification type describes an expression of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The amplification type has made the experience in his life that living out the respective passion strongly works well and fully satisfies his basic motivation, which is exactly the meaning of passion from an ego point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything to satisfy it.
 
-Im Fall der se6 bedeutet das, dass dieser Enneagrammtyp die Angst extrem stark lebt.
+In the case of the six, this means that this enneagram type lives fear extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er Sicherheit hat, wenn er seine Angst nach außen hin lebt.`
+He has found that he has security when he lives his fear outwards.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se6 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The following characteristics are known to se6 and can be addressed:
 
-- er hinterfragt viel
-- er hat eine starke Skepsis
-- er bildet sich immer eine rationale Meinung
-- er hat ein gefestigtes Weltbild
-- er legt viel Wert auf Familie & Freunde
-- er baut sich gerne Routinen 
-- er durchdenkt viele Situationen, bis er sich sicher in seiner Entscheidung ist
-- er tritt für seine Meinungen & sein Weltbild ein
-- seine eigenen Werte sind für ihn von extrem hoher Wichtigkeit 
-- er fühlt sich schnell angegriffen / bedroht
-- er ist immer für seine Familie da
-- er ist sehr loyal und verlässlich
-- er ist ehrlich
-- er ist ein großer Freund von Klarheit und Struktur
-- er sucht sich gerne Halt in äußeren Strukturen
-- im Inneren fühlt er sich sehr vorsichtig & manchmal sogar ängstlich
-- im Stress kann er sehr aktiv werden / zu blindem Aktionismus neigen
-- wenn er entspannt ist, entwickelt er eine gewisse Ruhe und Gelassenheit`
+- He questions a lot
+- He has a strong sense of skepticism
+- He always forms a rational opinion
+- He has a strong world view
+- He values family and friends a lot
+- He likes to build routines 
+- He thinks through many situations until he is sure of his decision
+- He stands up for his opinions and his world view
+- His own values are extremely important to him 
+- He quickly feels attacked / threatened
+- He is always there for his family
+- he is very loyal and reliable
+- he is honest
+- he is a great friend of clarity and structure
+- he likes to find support in external structures
+- inside, he feels very cautious and sometimes even anxious
+- when stressed, he can become very active / tend towards blind actionism
+- when he is relaxed, he develops a certain calmness and composure`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- security identification
+- thought identification
+- trust deficit
 
-Blinder Fleck von Typ 6 im Allgemeinen: 
+Blind spot of type 6 in general: 
 
-- Angst & Vorsicht als Sicherheitsgarant
-- aktives Schaffen von äußeren Sicherheiten & Strukturen als Kompensation
-- Klarheitsdrang
-- Paralyse bei Überforderung
+- fear & caution as a security guarantor
+- actively creating external securities & structures as compensation
+- clarity urge
+- paralysis when overwhelmed
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking,
+- selfishness,
+- need orientation
 
-Blinder Fleck, speziell bei der se6:
+Blind spot, especially with the se6:
 
-- Familie/Religion als einzig sicherer Halt & Kompensation
-- stark dogmatisch
-- Zwanghafte Verteidigung des Verlässlichen`
+- family/religion as the only secure support & compensation,
+- strongly dogmatic,
+- compulsive defense of the reliable`
         },
         {
-          label: "Augen",
-          content: `Typ 6 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 6 generally has the following gaze quality:
 
-- skeptisch
-- vorsichtig
-- ängstlich
-- zurückhaltend
-- zögernd
-- analytisch
-- zweifelnd
-- distanziert
-- unsicher
+- skeptical
+- cautious
+- fearful
+- reserved
+- hesitant
+- analytical
+- doubting
+- distant
+- uncertain
 
-Die Blickqualität der se6 ergänzt sich wie folgt:
+The gaze quality of se6 complements this as follows:
 
-- hinterfragend
-- bedroht
+- questioning
+- threatened
 - warm`
         },
         {
-          label: "Körper",
-          content: `Typ 6 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 6 generally has the following physical abnormalities:
 
-- Stirnfalten
-- wenig dichtes Haar 
-- Sehschwäche 
-- “Geheimratsecken”
+- forehead wrinkles
+- thin hair 
+- poor eyesight 
+- receding hairline
 
-Die körperlichen Auffälligkeiten der se6 ergänzen sich wie folgt:
+The physical abnormalities of se6 complement each other as follows:
 
-- sehr dünn/schmal
-- kleiner Brustkorb
-- dünnes Haar`
+- very thin/narrow
+- small chest
+- thin hair`
         },
         {
-          label: "Wirkung",
-         content: `Typ 6 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+         content: `Type 6 generally has the following modes of action:
 
-- verkopft
-- analytisch
-- theoretisch
-- sachlich-kühl
+- cerebral
+- analytical
+- theoretical
+- objective and cool
 - ignorant
-- vorsichtig
-- ängstlich
-- unruhig
-- treu
+- cautious
+- anxious
+- restless
+- loyal
 
-Die Wirkweisen der se6 ergänzen sich wie folgt:
+The modes of action of the six complement each other as follows:
 
-“Familienmensch”-Ausstrahlung:
+“Family man” charisma:
 - warm
 - loyal
-- sicherheitsorientiert`
+- security-oriented`
         },
         {
-          label: "Weiteres",
-         content: `Über Typ 6 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+         content: `The following should also be noted about type 6 in general:
 
-- Routinen & Strukturen prägen den Alltag
-- unglaubliche Loyalität & Skepsis
-
-Über den se6 sollte man explizit noch Folgendes wissen:
-
-- Ideologie (festes Glaubenssystem) ist wichtig
-- Beamtentum ist üblich`
+- Routines and structures shape everyday life
+- Incredible loyalty and scepticism
+- The following should be noted explicitly about type 6:
+- Ideology (fixed belief system) is important
+- Officialdom is common`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Phillip Amthor
 - Karl Lauterbach
 - Woody Allen
@@ -454,7 +451,7 @@ Die Wirkweisen der se6 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - so5
 - so1
@@ -462,7 +459,7 @@ Die Wirkweisen der se6 ergänzen sich wie folgt:
 - so7
 - so9
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - so5
 - so4
@@ -471,10 +468,10 @@ Verwechslung in weiblicher Form:
 - so9`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily poorly suited as partners! Here we merely see tendencies.
 
-Statistisch gesehen wählt die se6 folgende Partner am ehesten:
+Statistically, the so6 is most likely to choose the following partners:
 
 - se2
 - se8
@@ -484,213 +481,224 @@ Statistisch gesehen wählt die se6 folgende Partner am ehesten:
 - sx9`
         },
         {
-          label: "Verkauf",
-          content: `- Sicherheit ausstrahlen
-- Unsicherheiten ausmerzen
-- klare und sachliche Sprache
-- Verlässlichkeit und Loyalität als hohe Werte anpreisen
-- Skepsis der se6 als positiv darstellen und alle Fragen ausführlich beantworten
-- Moral und innere Werte anpreisen
-- Das Gespräch klar strukturieren
-- Logische Darstellung der Argumente und Lösungen für die Probleme der se6
-- Verantwortungsgefühl darstellen
-- dem se6 die Angst nehmen, da er sich sonst nicht entscheiden kann zu investieren (alle möglichen Szenarien in Bezug auf den Erwerb des Produktes durchgehen)
-- abtasten, wo die Komfortzone der se6 ist und diese nicht überschreiten, sondern innerhalb seines Dogmas die Lösung anbieten`
+          label: "Sales",
+          content: `- radiate security
+- eliminate uncertainties
+- use clear and factual language
+- praise reliability and loyalty as high values
+- present skepticism as positive and answer all questions in detail
+- praise morals and inner values
+- structure the conversation clearly
+- present logical arguments and solutions to the problems of the six
+- present a sense of responsibility
+- Take away the fear of the se6, otherwise he will not be able to decide to invest (go through all possible scenarios regarding the purchase of the product)
+- Feel out where the comfort zone of the se6 is and do not exceed it, but offer the solution within his dogma`
         },
         {
-          label: "Führung",
-          content: `- Sicherheiten und Strukturen vorgeben, um die Angst des se6 zu reduzieren
-- Als Wegweiser fungieren, ohne überheblich zu werden
-- Darstellung von verlässlichen Methoden, die sich bereits bewährt haben, um die se6 zu motivieren
-- Beachten, dass die se6 großen Wert auf die eigene Ideologie und Integrität legt
-- klare und deutliche Sprache verwenden, um Unsicherheiten zu vermeiden
-- logische Argumente und Sätze verwenden, die der se6 rational begreiflich sind
-- Keine Ungeduld bei Ignoranz zeigen, sondern beharrlich immer wieder dasselbe vermitteln, bis die se6 es versteht und umsetzt
-- Als loyaler Ansprechpartner für alle möglichen Dinge fungieren, sodass die se6 in einem Sicherheit findet
-- Motivation folgt bei der se6 durch die Selbsterhaltung, bedeutet, dass man ihr bei fehlender Leistung eine schlechte Selbsterhaltung in Aussicht stellen kann, um die se6 erneut in Aktivität zu bringen (wenig Geld, Lifestyle, Gesundheit, …)`
+          label: "Management",
+          content: `- Provide security and structure to reduce the se6's fear
+- Act as a guide without being overbearing
+- Present reliable methods that have already proven effective to motivate the se6
+- Note that the se6 places a high value on their own ideology and integrity
+- Use clear and distinct language to avoid uncertainty
+- Use logical arguments and sentences that the six can understand rationally
+- Do not show impatience when faced with ignorance, but persist in conveying the same thing over and over again until the six understands and implements it
+- Act as a loyal point of contact for all kinds of things so that the six can find security in you
+- Motivation follows from self-preservation, which means that if the se6 fails to perform, you can threaten it with poor self-preservation in order to get the se6 to become active again (little money, lifestyle, health, ...).`
         }
       ]
     },
 
     {
       code: "so6",
-      content: `Grundmotivation:
-Sicherheit (in der sozialen Gruppe)
+      content: `Basic motivation:
+security (in the social group)
 
-Leidenschaft: 
-Angst (in der sozialen Gruppe)
+Passion: 
+fear (in the social group)
 
-Stichpunktartige Beschreibung:
+Description in bullet points:
 
-- Pflichtbewusstsein
-- soziale Stellung ist wichtig
-- ambivalent im Wesen (entweder mutig oder ängstlich)
-- strukturiert
+- sense of duty
+- social standing is important
+- ambivalent in nature (either brave or timid)
+- structured
 - ignorant
-- überzeugt
-- ständiger innerer Dialog mit einer ganzen Prüfungskommission
-- autoritätshörig
-- angepasst
+- convinced
+- constant internal dialog with the entire examination commission
+- submissive to authority
+- conformist
 - loyal
-- ehrgeizig
-- Regelkonformität
-- zweifelnd
-- misstrauisch
-- skeptisch
-- innerlich zerrissen
-- tut sich schwer damit, einzelnen Personen zu vertrauen (vertraut dafür eher einer größeren Gruppe)
-- Angst vor beruflichem Aufstieg (Strukturorientierung)
-- Abneigung, in einer öffentlich sichtbaren Position zu sein (Schutz vor Kritik)
-- kritisiert gerne Vorgesetzte
-- starker Zweifel an Individuen
-- jedoch macht sie sich ein Idealbild aus Autoritätspersonen
-- kann sich gut für Angelegenheiten einsetzen und starkmachen, an die er fest glaubt`,
+- ambitious
+- compliant
+- doubtful
+- distrustful
+- skeptical
+- torn internally
+- finds it difficult to trust individuals (but is more likely to trust a larger group)
+- fear of career advancement (structure orientation)
+- dislike of being in a publicly visible position (protection from criticism)
+- likes to criticize superiors
+- strong doubt of individuals
+- however, she creates an ideal image of authority figures for herself
+- can be a strong advocate for causes in which she firmly believes`,
 
       traits: [
         {
-          label: "kalt",
-          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+          label: "Cold",
+          content: `Due to the adapted energy of the social subtype, one often perceives it as colder compared to the others.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
+This has mainly to do with the “intellectual-adapted” nature of the social types.`
         },
         {
-          label: "erwachsen",
-          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+          label: "Adult",
+          content: `The social subtype usually appears very mature and intellectual in its nature.
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
+This effect is closely related to the “we-centered” world view of this subtype.`
         },
         {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normal",
+          content: `The normal type describes an expression of the respective passion of the enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is exactly the purpose of passion from an ego point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do what satisfies it in moderation.
 
-Im Fall der so6 bedeutet das, dass dieser Enneagrammtyp die Angst im normalen Maße lebt.
+In the case of so6, this means that this enneagram type lives fear to a normal extent.
 
-Er hat die Erfahrung gemacht, dass er Sicherheit hat, wenn er seine Angst nach außen hin lebt.`
+He has found that he has security when he lives his fear outwards.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so6 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The following characteristics are known about so6 and can be addressed:
 
-- er ist sehr pflichtbewusst
-- er kann Dinge gut durchdenken
-- er kann gut Risiken abwägen und reflektieren
-- er ist eher sicherheitsorientiert, kann aber in Ausnahmefällen auch mal mit dem Kopf durch die Wand rennen
-- er ist sehr skeptisch, vor allem neuen Menschen gegenüber
-- um ihn von einer Meinung zu überzeugen, muss man ganz logisch erklären, wieso seine Meinung falsch ist
-- er weicht ungern von seinem Standpunkt ab
-- er fühlt sich wohl in Strukturen & Routinen
-- er kann gut kombinieren
-- er ist im Inneren oftmals ängstlich, zeigt es nach außen aber nicht immer
-- er hat gerne Gleichgesinnte um sich herum und sucht in dieser Gruppe seinen Halt
-- er folgt klaren Werten & Prinzipien
-- er ist vernünftig
-- im Stress neigt er zu blindem Aktionismus 
-- wenn er entspannt ist, wird er gelassener und ruhiger
-- er ist sehr engagiert und kann schnell einen gewissen Ehrgeiz entwickeln`
+- he is very conscientious
+- he is good at thinking things through
+- he is good at weighing up risks and reflecting
+- he tends to be security-oriented, but in exceptional cases he can also rush headlong into something
+- he is very skeptical, especially towards new people
+- to convince him of something, you have to explain logically why his opinion is wrong
+- he doesn't like to deviate from his point of view
+- he feels comfortable in structures and routines
+- he is good at deduction
+- he is often anxious inside, but doesn't always show it on the outside
+- he likes to have like-minded people around him and seeks support in this group
+- He follows clear values and principles
+- He is sensible
+- When under stress, he tends towards blind actionism 
+- When he is relaxed, he becomes more composed and calm
+- He is very committed and can quickly develop a certain ambition`
         },
         {
-          label: "Blinder Fleck",
-         content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+          label: "Blind spot",
+         content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- security identification
+- thought identification
+- trust deficit
 
-Blinder Fleck von Typ 6 im Allgemeinen: 
+Blind spot of type 6 in general: 
 
-- Angst & Vorsicht als Sicherheitsgarant
-- aktives Schaffen von  äußeren Sicherheiten & Strukturen als Kompensation
-- Klarheitsdrang
-- Paralyse bei Überforderung
+- fear & caution as a security guarantor
+- actively creating external securities & structures as compensation
+- clarity compulsion
+- paralysis when overwhelmed
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- group dependency
+- adaptation to the group
+- lack of motivation without group alignment
 
-Blinder Fleck, speziell bei der so6:
+Blind spot, especially with the so6:
 
-- zwanghafte Pflichterfüllung als Sicherheitsgarant
-- zwanghafte Anpassung an Umstände 
-- Verzettelung in fremden Strukturen`
+- compulsive fulfillment of duty as a guarantee of security
+- compulsive adaptation to circumstances 
+- getting bogged down in foreign structures`
         },
         {
-          label: "Augen",
-         content: `Typ 6 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+         content: `Type 6 generally has the following gaze quality:
 
-- skeptisch
-- vorsichtig
-- ängstlich
-- zurückhaltend
-- zögernd
-- analytisch
-- zweifelnd
-- distanziert
-- unsicher
+- skeptical
+- cautious
+- fearful
+- reserved
+- hesitant
+- analytical
+- doubting
+- distant
+- uncertain
 
-Die Blickqualität der so6 ergänzt sich wie folgt:
+The gaze quality of so6 complements this as follows:
 
-- kalt
-- ausdruckslos`
+- cold
+- expressionless`
         },
         {
-          label: "Körper",
-          content: `Typ 6 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 6 generally has the following physical abnormalities:
 
-- Stirnfalten
-- wenig dichtes Haar 
-- Sehschwäche 
-- “Geheimratsecken”
+- forehead wrinkles
+- thin, sparse hair 
+- poor eyesight 
+- receding hairline
 
-Die körperlichen Auffälligkeiten der so6 ergänzen sich wie folgt:
+The physical abnormalities of so6 complement each other as follows:
 
-- körperlich angepasst/unauffällig
-- weiche Haut`
+- physically adapted/unremarkable
+- soft skin`
         },
         {
-          label: "Wirkung",
-          content: `Typ 6 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 6 generally has the following physical characteristics:
 
-- verkopft
-- analytisch
-- theoretisch
-- sachlich-kühl
+- forehead wrinkles
+- thin hair 
+- poor eyesight 
+- “receding hairline”
+
+The physical characteristics of so6 complement each other as follows:
+
+- physically adapted/unremarkable
+
+Type 6 generally has the following modes of action:
+
+- intellectual
+- analytical
+- theoretical
+- objective and cool
 - ignorant
-- vorsichtig
-- ängstlich
-- unruhig
-- treu
+- cautious
+- anxious
+- restless
+- loyal
 
-Die Wirkweisen der so6 ergänzen sich wie folgt:
+The effects of the so6 complement each other as follows:
 
-“Vorbild”-Ausstrahlung:
-- vernünftig
-- pflichtbewusst
-- strukturiert`
+“role model” charisma:
+- reasonable
+- dutiful
+- structured`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 6 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `The following should also be noted about type 6 in general:
 
-- Routinen & Strukturen prägen den Alltag
-- unglaubliche Loyalität & Skepsis
+- routines and structures shape everyday life
+- incredible loyalty and skepticism
 
-Über den so6 sollte man explizit noch Folgendes wissen:
+The following should also be noted about so6:
 
-- häufig angestellt
-- klettert gerne die Karriereleiter hoch`
+- often employed
+- likes to climb the career ladder`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Albert Brooks
 - Andy Reid
 - Sigmund Freud
@@ -702,7 +710,7 @@ Die Wirkweisen der so6 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - se1
 - so5
@@ -710,7 +718,7 @@ Die Wirkweisen der so6 ergänzen sich wie folgt:
 - so9
 - se3
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se1
 - so5
@@ -719,10 +727,10 @@ Verwechslung in weiblicher Form:
 - se3`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily poorly suited as partners! Here we merely see tendencies.
 
-Statistisch gesehen wählt die so6 folgende Partner am ehesten:
+Statistically, the so6 is most likely to choose the following partners:
 
 - so2
 - so/se4
@@ -731,223 +739,222 @@ Statistisch gesehen wählt die so6 folgende Partner am ehesten:
 - se1`
         },
         {
-          label: "Verkauf",
-          content: `- Pflichtbewusstsein zeigen
-- soziale Sicherheit geben 
-  ("anderen hat mein Produkt sehr stark geholfen")
-- Verlässlichkeit und Klarheit zeigen
-- keine Doppeldeutigkeiten oder sprachliche Unsicherheiten darstellen
-- viel Bestätigung geben für bisherige Strukturen und Normen, denen die so6 gefolgt ist
-- Vertrauen Schaffen durch Referenzen
-- konkrete Lösungen für bestehende Probleme anbieten
-- Sicherheit geben durch Kompetenz und Expertise
-- Darstellung der sozialen Einflussfaktoren, die das Produkt mit sich bringt
-- Zugehörigkeitsgefühl stärken`
+          label: "Sales",
+          content: `- demonstrate a sense of duty
+- provide social security (“my product has helped others a lot”)
+- show reliability and clarity
+- do not present any ambiguities or linguistic uncertainties
+- provide a lot of confirmation of previous structures and norms that the so6 has followed
+- create trust through references
+- offer concrete solutions to existing problems
+- provide security through competence and expertise
+- Presentation of the social factors of influence that the product brings with it
+- Strengthening a sense of belonging`
         },
         {
-          label: "Führung",
-          content: `- soziale Sicherheit vermitteln / Hierarchiegedanken fördern
-- Pflichtbewusstsein und Loyalität zeigen, um das volle Vertrauen der so6 zu gewinnen
-- Motivation durch soziale Sicherheitsgedanken (z.B. „Durch deine Leistungen werden die anderen stark abgesichert sein und dich dafür sehr wertschätzen“)
-- Weitblick und Verlässlichkeit als Werte herausstellen
-- Skepsis der so6 als Qualität herausstellen und sie wertschätzen, da sie die Gruppe absichert
-- Rückhalt durch die Gruppe in Aussicht stellen
-- den so6 für seine Verbindlichkeit und Verlässlichkeit loben, um ihn zu bestätigen und folglich zu motivieren
-- Ein großes Ganzes als Ziel darstellen, um dem so6 das Gefühl zu geben, Teil der Gruppe und Vision zu sein
-- klare Kommunikation mit möglichst wenig Doppeldeutigkeiten oder Interpretationsspielräumen, um der so6 die Unsicherheit zu ersparen`
+          label: "Management",
+          content: `- Convey a sense of social security / promote hierarchical thinking
+- Show a sense of duty and loyalty in order to gain the full trust of the so6
+- Motivation through social security thinking (e.g. “Through your achievements, the others will be well protected and will value you very much in return”)
+- Highlight vision and reliability as values
+- Highlight the so6's skepticism as a quality and appreciate it, as it protects the group
+- Hold out the prospect of support from the group
+- Praise the so6 for their commitment and reliability in order to affirm them and thus motivate them
+- Present a big picture as a goal to give the so6 the feeling of being part of the group and vision
+- Communicate clearly with as little ambiguity or room for interpretation as possible to spare the so6 the insecurity`
         }
       ]
     },
 
     {
       code: "sx6",
-      content: `Grundmotivation:
-Sicherheit (in der zwischenmenschlichen Beziehung)
+      content: `Basic motivation:
+security (in interpersonal relations)
 
-Leidenschaft: 
-Angst (in der zwischenmenschlichen Beziehung)
+Passion: 
+fear (in interpersonal relations)
 
-Stichpunktartige Beschreibung:
+Description in bullet points:
 
-- mutig
-- angstabwehrend
-- stark & schön nach außen
-- Sinn für Ästhetik
-- kreativ
-- gewieft
-- provokant
+- courageous
+- fear-defying
+- strong & beautiful on the outside
+- sense of aesthetics
+- creative
+- shrewd
+- provocative
 - dominant
 - rational
-- energiegeladen
-- konkurrenzbewusst
-- arbeitet stets daran, körperlich und intellektuell attraktiv zu sein
-- tierlieb / animalisch
+- energetic
+- competitive
+- always working to be physically and intellectually attractive
+- animal-loving / animalistic
 - loyal
-- in Ausnahmen zögerlich
-- ansonsten "mit dem Kopf durch die Wand"
-- sehr skeptisch
-- misstrauisch
-- "Hunde, die bellen, beißen nicht"
-- Kämpfer-Mentalität
-- verbal versiert
-- logisch denkend
-- einschüchternd
-- Drang nach Unabhängigkeit
-- "einsamer Wolf"
-- schnell ruppig/schroff 
-- willensstark`,
+- hesitant in exceptions
+- otherwise “head first through the wall”
+- very skeptical
+- distrustful
+- "a barking dog never bites”
+- fighter mentality
+- verbally adept
+- logical thinker
+- intimidating
+- desire for independence
+- "lone wolf"
+- quick to be gruff/brusque 
+- strong-willed`,
 
       traits: [
         {
-          label: "hitzig",
-          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+          label: "Fiery",
+          content: `Due to the intense energy of the sexual subtype, it is often perceived as more heated than the others.
 
-Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
+This has to do with the energetic nature of the sexual types.`
         },
         {
-          label: "jugendlich",
-          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+          label: "Youthful",
+          content: `The sexual subtype usually appears very youthful and intense in its nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely related to the partnership-centered world view of this subtype.`
         },
         {
-          label: "Kontratyp",
-          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Contra",
+          content: `The counter-type describes an expression of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that acting out the respective passion does not work well and does not satisfy his basic motivation, which is actually the meaning of passion from an ego point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything to not make it visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion repeatedly finds a way into a person's life through a back door, which he is not consciously aware of.
 
-Im Fall der sx6 bedeutet das, dass dieser Enneagrammtyp gegen die Angst ankämpft.
+In the case of the sx6, this means that this enneagram type fights against fear.
 
-Er hat die Erfahrung gemacht, dass er keine Sicherheit hat, wenn er seine Angst nach außen hin lebt.`
+He has learned from experience that he has no security when he lives out his fear in the outside world.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx6 bewusst und können angesprochen werden:
+          label: "Unmasking",
+         content: `The sx6 is aware of the following characteristics and can be addressed:
 
-- er ist sehr selbstständig
-- er verlässt sich ungern auf andere
-- er vertraut nur seinem engsten Kreis wirklich, ansonsten ist er sehr skeptisch
-- er ist im Kopf sehr strukturiert und kann sehr gut logisch denken
-- er kümmert sich gerne um seine wichtigsten Menschen (Partner, Freunde, Familie)
-- er hat oftmals das Gefühl, er könne seiner Umwelt nicht vertrauen
-- er ist nach außen hin gerne der Starke / Mutige, fühlt sich im Inneren jedoch sehr oft unsicher
-- er ist sehr ehrgeizig und hat einen unfassbar starken Willen
-- er rennt gerne mal mit dem Kopf durch die Wand
-- er sucht seinen Halt in Verbindungen (zu einem Partner, einem engen Freund, seinem Glauben, ...)
-- er kann sehr gut abwägen, was die richtige Entscheidung ist
-- wenn er sich unsicher fühlt, geht er schnell schroff mit seinen Mitmenschen um
-- er scheut sich nicht davor, ins kalte Wasser zu springen
-- er nimmt die Dinge gerne selbst in die Hand`
+- he is very independent
+- he does not like to rely on others
+- he only really trusts his closest circle, otherwise he is very skeptical
+- he is very structured in his mind and can think very logically
+- he likes to take care of his most important people (partner, friends, family)
+- He often has the feeling that he cannot trust his environment
+- He likes to appear strong and courageous on the outside, but often feels insecure on the inside
+- He is very ambitious and has an incredibly strong will
+- He likes to rush headlong into things
+- He seeks support in connections (to a partner, a close friend, his faith, ...)
+- He is very good at weighing up what the right decision is
+- When he feels insecure, he can be abrupt with those around him
+- He is not afraid to jump in at the deep end
+- He likes to take matters into his own hands`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- security identification
+- thought identification
+- trust deficit
 
-Blinder Fleck von Typ 6 im Allgemeinen: 
+Blind spot of type 6 in general: 
 
-- Angst & Vorsicht als Sicherheitsgarant
-- aktives Schaffen von äußeren Sicherheiten & Strukturen als Kompensation
-- Klarheitsdrang
-- Paralyse bei Überforderung
+- fear & caution as a guarantee of security
+- actively creating external security & structures as compensation
+- clarity compulsion
+- paralysis when overwhelmed
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of the sexual type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- strong and constant rivalry with other people
+- dependence on external attractiveness and bonds
+- fear of devaluation and degradation
 
-Blinder Fleck, speziell bei der sx6:
+Blind spot, especially with the sx6:
 
-- Leugnung der inneren Angst
-- zwanghaftes Stärkezeigen im außen, bis hin zu schroffem und unempathischen Verhalten
-- Abhängigkeit von zwischenmenschlichen Sicherheiten`
+- Denial of inner fear
+- Compulsive display of strength on the outside, up to and including brusque and unempathic behavior
+- Dependence on interpersonal securities`
         },
         {
-          label: "Augen",
-          content: `Typ 6 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 6 generally has the following gaze quality:
 
-- skeptisch
-- vorsichtig
-- ängstlich
-- zurückhaltend
-- zögernd
-- analytisch
-- zweifelnd
-- distanziert
-- unsicher
+- skeptical
+- cautious
+- fearful
+- reserved
+- hesitant
+- analytical
+- doubtful
+- distant
+- uncertain
 
-Die Blickqualität der sx6 ergänzt sich wie folgt:
+The gaze quality of the sx6 is complemented as follows:
 
-- provokant
-- herausfordernd
-- einschüchternd
-- streitbar`
+- provocative
+- challenging
+- intimidating
+- combative`
         },
         {
-          label: "Körper",
-          content: `Typ 6 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 6 generally has the following physical abnormalities:
 
-- Stirnfalten
-- wenig dichtes Haar 
-- Sehschwäche 
-- “Geheimratsecken”
+- forehead wrinkles
+- thin, sparse hair 
+- poor eyesight 
+- receding hairline
 
-Die körperlichen Auffälligkeiten der sx6 ergänzen sich wie folgt:
+The physical abnormalities of sx6 complement each other as follows:
 
-- starker Haarwuchs
-- vorstehende Stirn
-- tiefe Augenhöhlen
-- starker Bartwuchs`
+- strong hair growth
+- protruding forehead
+- deep eye sockets
+- strong beard growth`
         },
         {
-          label: "Wirkung",
-          content: `Typ 6 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 6 generally has the following modes of action:
 
-- verkopft
-- analytisch
-- theoretisch
-- sachlich-kühl
+- cerebral
+- analytical
+- theoretical
+- objective and cool
 - ignorant
-- vorsichtig
-- ängstlich
-- unruhig
-- treu
+- cautious
+- anxious
+- restless
+- loyal
 
-Die Wirkweisen der sx6 ergänzen sich wie folgt:
+The effects of the sx6 complement each other as follows:
 
-“Helden”-Ausstrahlung:
-- mutig
-- hitzig
-- selbstbewusst
-- stark/schön
-- beschützerisch`
+“Hero” charisma:
+- brave
+- passionate
+- self-confident
+- strong/beautiful
+- protective`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 6 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `The following should also be noted about type 6 in general:
 
-- Routinen & Strukturen prägen den Alltag
-- unglaubliche Loyalität & Skepsis
+- Routines and structures shape everyday life
+- Incredible loyalty and scepticism
 
-Über den sx6 sollte man explizit noch Folgendes wissen:
+The following should also be noted about sx6:
 
-- risikoreiche Berufe & Hobbies
-- “Hunde, die bellen, beißen nicht”`
+- High-risk occupations and hobbies
+- Dogs that bark don't bite`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Kollegah
 - John Cena
 - Shirin David
@@ -976,7 +983,7 @@ Die Wirkweisen der sx6 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - sx4
 - sx8
@@ -984,7 +991,7 @@ Die Wirkweisen der sx6 ergänzen sich wie folgt:
 - sx3
 - so1
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - sx4
 - sx8
@@ -993,10 +1000,10 @@ Verwechslung in weiblicher Form:
 - sx7`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx6 folgende Partner am ehesten:
+Statistically speaking, the so7 is most likely to choose the following partners:
 
 - sx/se4
 - sx/se2
@@ -1004,33 +1011,33 @@ Statistisch gesehen wählt die sx6 folgende Partner am ehesten:
 - sx7`
         },
         {
-          label: "Verkauf",
-          content: `- Respekt zeigen für bisherige Leistungen
-- ultimative Verlässlichkeit und Loyalität zeigen, um der sx6 die innere Unsicherheit zu nehmen
-- sicheren Hafen darstellen im Zwischenmenschlichen
-- Akzeptanz und Wertschätzung der "starken äußeren Maske" der sx6
-- klare, deutliche und ehrliche Kommunikation
-- Transparenz zeigen
-- rationale Argumente anbringen zum Kauf des Produktes
-- Logische Schlussfolgerungen und Strukturen müssen beachtet werden
-- die Werte der sx6 (Respekt, Loyalität, Verlässlichkeit, Transparenz, ...) müssen erfüllt werden, um Vertrauen zu schaffen
-- man sollte sich nicht "dumm stellen", das wird die sx6 erzürnen und aus der Ruhe bringen, da dieses Verhalten eine Unsicherheit darstellt
-- Skepsis der sx6 wertschätzen und Nachfragen ausführlich beantworten
-- Vertrauen und Sicherheiten im Zwischenmenschlichen schaffen!`
+          label: "Sales",
+          content: `- show respect for achievements to date
+- show ultimate reliability and loyalty to remove the sx6's inner insecurity
+- represent a safe haven in interpersonal relationships
+- acceptance and appreciation of the sx6's “strong outer mask”
+- clear, distinct and honest communication
+- show transparency
+- rational arguments for buying the product
+- Logical conclusions and structures must be observed
+- The values of the sx6 (respect, loyalty, reliability, transparency, ...) must be fulfilled to create trust
+- You should not “play dumb”, this will anger the sx6 and unsettle them, as this behavior represents insecurity
+- Appreciate the sx6's skepticism and answer questions in detail
+- create trust and security in interpersonal relationships!`
         },
         {
-          label: "Führung",
-          content: `- Eigenständigkeit fördern / wenig regulieren
-- die Willensstärke und das Durchhaltevermögen des sx6 loben und fördern, da dies seine größte Anlage ist
-- Vertraulichkeit und Loyalität gegenüber der sx6 darstellen, damit sie sich unterbewusst aufgehoben bei einem fühlt
-- Strukturen geben, jedoch darauf achten, dass die sx6 „ihre eigene“ Struktur daraus entwickeln kann
-- Ziele formulieren
-- Logik als Argument anbringen, anstatt in Emotionen zu reden
-- Rationalität stärken und auf dieser Ebene kommunizieren, da die sx6 sich ansonsten innerlich unsicher fühlt, da Emotionen nicht „berechenbar“ für sie sind
-- Klarheit in Sprache und Tonalität / keine Doppeldeutigkeiten bei wichtigen Angelegenheiten
-- Interesse an den Themen und Beschäftigungen der sx6 zeigen
-- Verantwortungsgefühl und Prinzipien formulieren und darstellen, um der sx6 Sicherheit zu geben (bishin zu bedingungslosen Prinzipien)
-- Respekt zeigen und keine Erniedrigungen im Umgang einbauen`
+          label: "Management",
+          content: `- Encourage independence / regulate little
+- Praise and encourage the sx6's willpower and stamina, as these are his greatest assets
+- Present confidentiality and loyalty to the sx6 so that she subconsciously feels taken care of
+- Provide structures, but make sure that the sx6 can develop “her own” structure from them
+- Formulate goals
+- Use logic as an argument instead of talking in terms of emotions
+- Strengthen rationality and communicate at this level, otherwise the sx6 will feel insecure internally, since emotions are not “predictable” for her
+- Clarity in language and tonality / no ambiguity in important matters
+- Show interest in the topics and activities of the sx6
+- Formulate and express a sense of responsibility and principles to make sx6 feel secure (including unconditional principles)
+- Show respect and do not demean them`
           
         }
       ]
