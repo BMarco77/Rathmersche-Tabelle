@@ -24,424 +24,425 @@ Identification:
   },
 
   typeInfo: {
-    content: `Transformed heart energy (Herzenergie wird auf sich selbst projiziert)
+    content: `Transformed heart energy (heart energy is projected onto oneself)
 
-Grundmotivation: 
-Individualität
+Basic motivation: 
+Individuality
 
-Abwehrmechanismus: 
-Liebe durch Selbstausdruck`
+Defense mechanism: 
+Love through self-expression`
   },
 
   sideInfo: {
-    content: `Die weibliche Seite des Enneagramms umfasst die Typen 1–4 und zeichnet sich durch weichere, feinere und ästhetischere Charakter- und Körperzüge aus.
+    content: `The feminine side of the Enneagram comprises Enneagram types 1-4 and is characterized by feminine character and body traits.
 
-Indizien, die hier häufiger beobachtet werden können:
+Indications that should be noted here:
 
-Nasenform:
-- zierlich
-- filigran
-- ästhetisch
-- weich geformt
-- feminin
+Nose shape: 
+- fine 
+- delicate
+- filigree 
+- aesthetic 
+- well-formed 
+- feminine
 
-Gesichtspartie:
-- weiche Haut
-- reine Haut
-- lange Wimpern
+Facial area: 
+- soft skin 
+- clear skin 
+- less prominent face shape 
+- long eyelashes
 
-Wirkung:
-- feminin
-- zart
-- fein`
+Effect: 
+- feminine 
+- delicate 
+- fine`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 4 wird in folgenden Zuständen gemessen:
+      label: "Level of consciousness",
+      content: `The health of the mind of type 4 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund, 
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Selbstzerstörerischer
-2. Emotional Leidender 
-3. Selbstentfremdeter Depressiver
-4. Schwacher Ästhet
-5. Selbstverliebter Introvertierter
-6. Phantasievoller Künstler
-7. Sich offenbarender Mensch
-8. Intuitiv Lebender
-9. Inspiriert-schöpferischer Mensch`
+1. self-destructive
+2. emotional sufferer 
+3. self-alienated depressive
+4. weak aesthete
+5. self-absorbed introvert
+6. imaginative artist
+7. revealing person
+8. intuitively alive
+9. inspired-creative person`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist. 
+      label: "Tritypes",
+      content: `The purpose of the tritype is that every person has a predominant Enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is of course made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen: "Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?"
+To determine the tritype, you have to ask yourself the following question: “If a person had to be a heart person/head person/belly person, which of the three types in the respective energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann. 
+This creates a triad (e.g. 3-5-8) that can explain the differences in characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the 9 basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: concerned, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, knowing, wise
+Type 6: questioning, scrutinizing, supportive
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peaceable
 
-Im Fall von Typ 4 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 4, there are the following possibilities for the tritypes:
 
-4-5-1: Forscher
-4-6-1: Philosoph
-4-5-9: Kontemplativer
-4-7-1: Visionär
-4-6-9: Suchender
-4-5-8: Gelehrter
-4-7-9: Wahrheitsliebender Geist`
+4-5-1: Researcher
+4-6-1: Philosopher
+4-5-9: Contemplative
+4-7-1: Visionary
+4-6-9: Seeker
+4-5-8: Scholar
+4-7-9: Truth-loving spirit
+4-6-8: Truth lover
+4-7-8: Messenger`
     },
 
     {
-      label: "Leidenschaft: Neid",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+      label: "Passion: Envy",
+      content: `Meaning of passion in this context:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich "Leiden schafft"
+- Pseudo-protective mechanism, which literally “creates suffering”
 
-Bedeutung von Neid in diesem Kontext:
+Meaning of envy in this context:
 
-- Vergleich mit der Außenwelt, um etwas besonderes zu sein 
+- Comparison with the outside world, to be something special 
 
-Gesteigerte Formen: 
+Enhanced forms: 
 
-- Missgunst
-- Pessimismus
-- Dramatik`
+- Resentment
+- pessimism
+- Dramatic`
     },
 
     {
-      label: "Umgang",
+      label: "Handling",
       content: `- Tiefgründigkeit im Umgang
-
 - an die Individualität des Gegenübers appellieren
-
 - "mitspielen" bei Dramatik & Stabilität vermitteln 
-
-- Anerkennung & Ernstnehmen der Probleme des Gegenübers
-
-- das Gegenüber symbolisch auf ein Podest stellen
-
-- Empathie & besondere Behandlung des Gegenübers
-
-- Anerkennung der Sensibilität des Gegenübers zeigen
-
-- Berücksichtigung der Sensibilität des Gegenübers`
+- Profundity in dealing
+- Appeal to the individuality of the other person
+- Convey “playing along” with drama & stability 
+- Recognizing & taking the other person's problems seriously
+- Place the other person symbolically on a pedestal
+- Empathy & special treatment of the other person
+- Showing recognition of the other person's sensitivity
+- Consideration of the other person's sensitivity`
     },
 
     {
-      label: "Flügel: 3",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 3",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an enneatype have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 3:
+Wings to type 3:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Ehrgeiz 
-- Fokus / Tunnelblick 
-- viele Visionen & Ziele 
-- Nüchternheit 
-- Charme 
-- Selbstdarstellung 
-- Fähigkeit zum Einnehmen einer Vorbildfunktion 
-- Arbeitsamkeit  
-- Leistungsanspruch 
-- Image-Bewusstsein
+- Ambition 
+- Focus / tunnel vision 
+- Many visions & goals 
+- sobriety 
+- charm 
+- self-presentation 
+- Ability to act as a role model 
+- Diligence  
+- Demand for performance 
+- Image awareness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Selbst- & Fremdtäuschung / Lügen 
-- Eitelkeit 
-- mehr Schein als Sein 
-- Empathielosigkeit  
-- emotionale Kälte  
-- Gefühlsblindheit 
-- Hang zur Überarbeitung 
-- Skrupellosigkeit 
-- übermäßige Identifikation mit äußeren Werten 
-- Oberflächlichkeit 
-- Opportunismus`
+- Self-deception & deception of others / lies 
+- Vanity 
+- More appearance than reality 
+- lack of empathy  
+- emotional coldness  
+- emotional blindness 
+- tendency to overwork 
+- unscrupulousness 
+- Excessive identification with external values 
+- superficiality 
+- opportunism`
     },
 
     {
-      label: "Flügel: 5",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 5",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an enneatype have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 5:
+Wings of type 5:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Analyse-Fähigkeit 
-- tiefes Interesse 
-- Forschergeist 
-- Rationalismus 
-- Nüchternheit 
-- Sparsamkeit 
-- Wissbegier 
-- Fähigkeit zur Informationsbeschaffung 
-- Skepsis 
-- Beobachter-Fähigkeit 
-- geistige Klarheit
+- Ability to analyze 
+- Deep interest 
+- spirit of research 
+- rationalism 
+- sobriety 
+- thriftiness 
+- thirst for knowledge 
+- Ability to gather information 
+- skepticism 
+- ability to observe 
+- mental clarity
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Geiz / Habsucht 
-- mangelnde Empathie 
-- übermäßige Rationalisierung  
-- Praxis-Unfähigkeit 
-- Tendenz, emotionskarg zu sein 
-- Isolation 
-- Zurückhaltung von Wissen 
-- Scheue 
-- mangelnde Selbstdarstellung 
-- Reaktionsarmut`
+- avarice / greed 
+- lack of empathy 
+- Excessive rationalization  
+- inability to practice 
+- Tendency to be emotionally barren 
+- isolation 
+- Retention of knowledge 
+- shyness 
+- Lack of self-expression 
+- lack of reaction`
     },
 
     {
-      label: "Stresspunkt: 2",
-      content: `Definition Stresspunkt:
- 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+      label: "Stress point: 2",
+      content: `Definition of stress point:
 
-Stresspunkt in Typ 2:
+As soon as an Enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, ...), it compensates for this by adopting characteristics from its so-called stress point.
 
-Entwicklung im positiven Fall:
+Stress point in type 2:
 
-- liebevoll
-- kümmernd
+Development in the positive case:
+
+- loving
+- caring
 - warm
-- mitfühlend
+- compassionate
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- bedürftig
-- abhängig
-- manipulativ
-- klammernd`
+- needy
+- dependent
+- manipulative
+- clinging`
     },
 
     {
-      label: "Entspannungspunkt: 1",
-      content: `Definition Entspannungspunkt:
- 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+      label: "Relaxation point: 1",
+      content: `Definition of relaxation point:
 
-Entspannungspunkt in Typ 1:
+As soon as an Enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), it develops by adopting characteristics from its so-called relaxation point.
 
-Entwicklung im positiven Fall:
+Relaxation point in type 1:
 
-- ordentlich
-- diszipliniert
-- vernünftig
-- strukturiert
+Development in the positive case:
 
-Entwicklung im negativen Fall:
+- orderly
+- disciplined
+- reasonable
+- structured
 
-- rechthaberisch
-- perfektionistisch
+Development in the negative case:
+
+- opinionated
+- perfectionist
 - arrogant
-- scheinheilig`
+- hypocritical`
     }
   ],
 
   subtypes: [
     {
   code: "se4",
-  content: `Grundmotivation:
-Individualität (in der Selbsterhaltung)
+  content: `Basic motivation:
+Individuality (in self-preservation)
 
-Leidenschaft: 
-Neid (in der Selbsterhaltung)
+Passion: 
+Envy (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- unerschrocken
-- emotionale Tiefe
-- Aggressive Reaktion darauf, wenn andere denken zu wissen, was sie fühlt / denkt
-- sehnt sich nach emotionaler Unterstützung
-- Vermeidung von Monotonie & Bedeutungslosigkeit
-- risikobereit
-- mutig
-- hartnäckig
-- sensibel
-- empathisch
-- "Leben am Abgrund"
-- setzt nach außen eine positive Maske auf
-- kreativ & ausdrucksstark
-- Beschäftigung mit unbekannten Dingen`,
+- fearless
+- emotional depth
+- Aggressive reaction to others thinking they know what she feels/thinks
+- craves emotional support
+- Avoidance of monotony & meaninglessness
+- willing to take risks
+- courageous
+- persistent
+- sensitive
+- empathic
+- “Living on the edge”
+- puts on a positive mask on the outside
+- creative & expressive
+- preoccupation with unknown things`,
 
   traits: [
     {
-      label: "warm",
-      content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+      label: "Warm",
+      content: `Due to the accumulated energy of the self-preserving subtype, it is often perceived as warmer in comparison to the others.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
+This is mainly due to the “childish and selfish” nature of the self-preserving types.`
     },
 
     {
-      label: "kindlich",
-      content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+      label: "Childlike",
+      content: `The self-preserving subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the ego-centered world view of this subtype.`
     },
 
     {
-      label: "Kontratyp",
-      content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Contra",
+      content: `The counter-type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that living out the respective passion does not work well and does not satisfy his basic motivation at all, which is actually the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything he can to prevent it from becoming visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion always finds a way into a person's life through a back door, which they do not consciously realize.
 
-Im Fall der se4 bedeutet das, dass dieser Enneagrammtyp gegen den Neid ankämpft.
+In the case of se4, this means that this Enneagram type fights against envy.
 
-Er hat die Erfahrung gemacht, dass er nicht individuell ist, wenn er seinen Neid nach außen hin lebt.`
+He has experienced that he is not an individual if he lives his envy outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem se4 bewusst und können angesprochen werden:
-- er mag es nicht, sich mit anderen zu vergleichen
-- er ist ein großer Freund von Individualität 
-- er hat einen eigenartigen Lebensstil (im wahrsten Sinne des Wortes: eigenartig)
-- er kann sehr unerschrocken und risikobereit sein, wenn es drauf ankommt
-- er ist sehr sensibel und hat ein sehr gutes Gespür für Vieles
-- er ist kreativ und kann Vieles 
-- er mag es nicht, auf andere angewiesen zu sein
-- sein Emotionen können ihn schnell mal einnehmen
-- er hat einen Hang zur Spiritualität
-- im Inneren fühlt er sich oftmals traurig
-- er neigt eigentlich zum Pessimismus, möchte nach außen aber immer spaßig und locker wirken
-- er fühlt sich oftmals missverstanden
-- er wählt sich seinen Bekanntenkreis anspruchsvoll aus
-- er mag Egoismus nicht
-- er hat viele hohe Werte, die er vertritt`
+      label: "Unmasking",
+      content: `The following characteristics are known to the se4 and can be addressed:
+
+- he does not like to compare himself with others
+- he is a great friend of individuality 
+- he has a peculiar lifestyle (in the truest sense of the word: peculiar)
+- he can be very fearless and willing to take risks when it counts
+- he is very sensitive and has a very good sense for many things
+- he is creative and can do many things 
+- he does not like to be dependent on others
+- his emotions can quickly get the better of him
+- he has a tendency towards spirituality
+- he often feels sad inside
+- he actually tends to be pessimistic, but always wants to be but always wants to appear fun and and relaxed
+- he often feels misunderstood
+- He chooses his circle of acquaintances chooses
+- he does not like egotism
+- he has many high values that he represents`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Herzenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of heart energy in general:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- emotional hysteria
+- Image identification
+- Emotional identification
+- Love deficit
 
-Blinder Fleck von Typ 4 im Allgemeinen: 
+Blind spot of type 4 in general: 
 
-- Neid & Vergleich als Liebesgarant
-- aktives Schaffen von  äußerem Leid & Mangel als Kompensation
-- Individualitätszwang
-- Glück steht in Abhängigkeit zum Selbstausdruck
+- Envy & comparison as a guarantor of love
+- Active creation of external suffering & lack as compensation
+- Compulsion for individuality
+- Happiness is dependent on self-expression
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking
+- egoism
+- need orientation
 
-Blinder Fleck, speziell bei der se4:
+Blind spot, especially in the se4:
 
-- gespielter Frohmut im außen
-- stetiger Vergleich mit der Außenwelt
-- "Unerschrockenheit" als Kompensation`
+- feigned cheerfulness on the outside
+- Constant comparison with the outside world
+- “fearlessness” as compensation`
     },
 
     {
-      label: "Augen",
-      content: `Typ 4 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 4 generally has the following gaze quality:
 
-- tief-emotional
-- träumerisch
-- ausdrucksstark-strahlend
-- traurig/melancholisch
+- deeply emotional
+- dreamy
+- expressive-radiant
+- sad/melancholic
 
-Die Blickqualität der se4 ergänzt sich wie folgt:
+The gaze quality of se4 complements each other as follows:
 
-- gesammelt
-- ruhig
-- beständig`
+- collected
+- calm
+- steady`
     },
 
     {
-      label: "Körper",
-      content: `Typ 4 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 4 in general has the following physical abnormalities:
 
-- “besondere” Augen- oder Haarfarbe 
-- Sommersprossen
-- Tattoos
-- Piercings
-- empfindliche & helle Haut
+- “special” eye or hair color 
+- freckles
+- tattoos
+- piercings
+- sensitive & fair skin
 
-Die körperlichen Auffälligkeiten der se4 ergänzen sich wie folgt:
+The physical characteristics of se4 complement each other as follows:
 
-- besonderer Körperbau
-- eigentümliche Frisur
-- robust gebaut`
+- special physique
+- peculiar hairstyle
+- robust build`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 4 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 4 in general has the following modes of action:
 
-- tiefgründig
-- melancholisch
-- träumerisch
-- ausdrucksstark
-- kreativ
-- authentisch
+- profound
+- melancholic
+- dreamy
+- expressive
+- creative
+- authentic
 
-Die Wirkweisen der se4 ergänzen sich wie folgt:
+The effects of the se4 complement each other as follows:
 
-“Kunsthandwerker”-Ausstrahlung:
-- bodenständig
-- ruhig
-- hingebungsvoll
-- freundlich`
+“artisan” charisma:
+- down-to-earth
+- calm
+- devoted
+- friendly`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 4 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 4 in general:
 
-- neigen zu Depressionen/Pessimismus und emotionalen Löchern
-- starkes Mangelgefühl
+- are prone to depression/pessimism and emotional holes
+- strong feeling of lack
 
-Über den se4 sollte man explizit noch Folgendes wissen:
+You should also know the following explicitly about se4:
 
-- Nach außen oft positiver
-- mutig
-- unerschrocken
+- Outwardly often more positive
+- courageous
+- fearless
 - “glad four”`
 },
-{    label: "Beispiele",
+{    label: "Examples",
   content: `- Lady Diana
 - Post Malone
 - Paul McCartney
@@ -454,14 +455,14 @@ Die Wirkweisen der se4 ergänzen sich wie folgt:
 },
     {
   label: "Lookalikes",
-  content: `Verwechslung in männlicher Form:
+  content: `Confusion in male form:
 
 - se2
 - so7
 - so8
 - sx5
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se2
 - sx5
@@ -469,10 +470,10 @@ Verwechslung in weiblicher Form:
 },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die se4 folgende Partner am ehesten:
+Statistically speaking, se4 is most likely to choose the following partners:
 
 - se/so3
 - se/so5
@@ -482,218 +483,218 @@ Statistisch gesehen wählt die se4 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- freundlich und verständnisvoll sein
-- die se4 symbolisch auf ein Podest stellen und an die Individualität appellieren
-- alle Fragen zugewandt beantworten
-- nicht das Gefühl vermitteln, die se4 würde einen langweilen oder nicht interessieren
-- ungewöhnliche Hobbies und Gewohnheiten der se4 bewundern
-- Verständnis für eventuelle Leidensgeschichten aufbringen und mitfühlend reagieren
-- die schlimmen Erwartungen der se4 nicht einfach wegreden, sondern gezielt zuhören und verständnisvoll vermitteln, dass die se4 bei einem in guten Händen ist
-- ein Fels in der Brandung sein (Sicherheit ausstrahlen)
-- die se4 in ihrer Situation ernst nehmen
-
-- Im Hinterkopf behalten, dass für die se4 Geld eher ein Mangelthema darstellt und ihr darin Sicherheit geben, sodass sie investiert
-- "ich nehme die Last ... von dir und helfe dir dabei, unbeschwerter zu werden"`
+      label: "Sales",
+      content: `- be friendly and understanding
+- place the se4 symbolically on a pedestal and appeal to individuality
+- answer all questions in a friendly manner
+- Do not give the impression that the se4 is boring or not interested in you
+- Admire the se4's unusual hobbies and habits
+- show understanding for any stories of suffering and react sympathetically
+- don't simply talk away the se4's bad expectations, but listen carefully and convey with understanding that the se4 is in good hands with you
+- Be a rock in the surf (radiate a sense of security)
+- Take the se4 seriously in their situation
+- Keep in mind that for se4 money is more of a a topic of scarcity and give them security so that she invests
+- “I take the burden ... from you and help you to become more carefree”`
     },
 
     {
-      label: "Führung",
-      content: `- Sensibilität und Einfühlungsvermögen der se4 wertschätzen
-- besondere und anspruchsvolle Aufgaben an die se4 geben und ihr kommunizieren, dass man ihr diese Aufgabe anvertraut, weil man sie als die Richtige dafür sieht
-- so wenig wie möglich die se4 mit anderen vergleichen, da sie unterbewusst stark gegen den Neid ankämpft und nicht vergleicht werden möchte
-- die Individualität der se4 im Unternehmen stärken
-- Anerkennung und Wertschätzung entgegenbringen 
-- Authentizität der se4 wertschätzen und eine individuelle Behandlung vornehmen
-- Vertrauenswürdigkeit der se4 wertschätzen
-- gewährleisten, dass die se4 ihre eigene individuelle Arbeitsweise an den Tag legen kann 
-- Kreativität und Wahrnehmung der se4 wertschätzen und sie in der Aufgabenstellung für die se4 integrieren 
-- viel Eigenverantwortung zusichern / Abhängigkeit reduzieren `
+      label: "Management",
+      content: `- Appreciate the sensitivity and empathy of the se4
+- Give special and demanding tasks to the se4 and communicate to her that you are entrusting her with this task because you see her as the right person for it
+- compare the se4 with others as little as possible, as she subconsciously fights envy and does not want to be compared
+- Strengthen the individuality of the se4 in the company
+- Show recognition and appreciation 
+- Appreciate the authenticity of the se4 and treat them individually
+- Appreciate the trustworthiness of the se4
+- ensure that the se4 can demonstrate their own individual way of working 
+- Appreciate the creativity and perception of the se4 and integrate them into the task for the se4 
+- Ensure a high level of personal responsibility / reduce dependency`
     }
   ]
 },
     {
   code: "so4",
-  content: `Grundmotivation:
-Individualität (in der sozialen Gruppe)
+  content: `Basic motivation:
+Individuality (in the social group)
 
-Leidenschaft: 
-Neid (in der sozialen Gruppe)
+Passion: 
+Envy (in the social group)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- kritisch
-- melancholisch
-- tiefgründig
-- freundlich
-- unnahbare Wirkung
-- distanziert
-- beobachtend
-- Sinn suchend
-- wirkt betrübt
-- ausdrucksstark
-- hält sich selbst häufig für unkreativ
-- sehr selbstkritisch
-- emotionale Hysterie
-- extrem starkes Schamgefühl
-- mangelnde Selbstachtung
-- starke Sehnsucht
-- mangelnde Erfüllung
-- Schüchternheit / Zaghaftigkeit
-- sehr sensibel / empfindlich
-- nimmt alles persönlich
-- spielt gerne die Mimose
-- Entwicklung von Neid / Missgunst in Bezug auf die soziale Gruppe`,
+- critical
+- melancholic
+- profound
+- friendly
+- unapproachable effect
+- distant
+- observant
+- seeking meaning
+- seems saddened
+- expressive
+- often considers himself uncreative
+- very self-critical
+- emotional hysteria
+- extremely strong sense of shame
+- lack of self-esteem
+- strong longing
+- lack of fulfillment
+- shyness / timidity
+- very sensitive / touchy
+- takes everything personally
+- likes to play the mimosa
+- Development of envy / resentment in relation to the social group`,
 
   traits: [
     {
-      label: "kalt",
-      content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+      label: "Cold",
+      content: `Due to the adapted energy of the social subtype, it is often perceived as colder in comparison to the others.
 
-Das hat vor allem mit dem „erwachsen-angepassten“ Wesen der Sozialtypen zu tun.`
+This is mainly due to the “intellectually adapted” nature of the social types.`
     },
 
     {
-      label: "erwachsen",
-      content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+      label: "Adult",
+      content: `The social subtype is usually very adult and intellectual in nature.
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the we-centered world view of this subtype.`
     },
 
     {
-      label: "Verstärkungstyp",
-      content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Reinforcement",
+      content: `The reinforcement type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The reinforcement type has experienced in his life that the strong living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything he can to satisfy it.
 
-Im Fall der so4 bedeutet das, dass dieser Enneagrammtyp den Neid extrem stark lebt.
+In the case of so4, this means that this Enneagram type lives envy extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er individuell ist, wenn er seinen Neid nach außen hin lebt.`
+He has experienced that he is individual when he lives his envy outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem so4 bewusst und können angesprochen werden:
-- er hat ein starkes Schamgefühl
-- er vergleicht sich oft mit seinem Umfeld
-- er zeigt sich nicht gerne in der Öffentlichkeit und ist eher schüchtern
-- im Inneren ist er sehr traurig und emotional, zeigt es in der Öffentlichkeit aber kaum
-- er ist sehr sensibel
-- er ist sehr kritisch
-- er hinterfragt gerne Dinge
-- er ist nicht gutgläubig, sondern eher skeptisch
-- er ist seinen Emotionen oftmals schonungslos ausgesetzt und befindet sich deswegen in emotionalen Löchern
-- er hat ein starkes Mangelgefühl bei Vielem
-- große Aufgaben machen ihm Angst, weil er denkt, er sei für die Erfüllung nicht gut genug
-- er möchte nicht so wie andere sein
-- er hat hohe Ansprüche an sich selbst
-- Trivialität stört ihn
-- er fühlt sich schnell dumm und missverstanden
-- er hat viel Empathie
-- er sieht sich selbst als nicht sonderlich kreativ an, obwohl er viel kreativer als andere ist
-- er mag kein Selbstlob`
+      label: "Unmasking",
+      content: `The so4 is aware of the following characteristics and can address them:
+
+- he has a strong sense of shame
+- he often compares himself with those around him
+- he does not like to show himself in public and is rather shy
+- he is very sad and emotional inside, but hardly shows it in public
+- he is very sensitive
+- he is very critical
+- he likes to question things
+- he is not gullible, but rather skeptical
+- he is often relentlessly exposed to his emotions and therefore finds himself in emotional holes
+- he has a strong sense of lack in many things
+- big tasks scare him because he thinks he is not good enough to fulfill them
+- he does not want to be like others
+- He has high expectations of himself
+- Triviality bothers him
+- He quickly feels stupid and misunderstood
+- He has a lot of empathy
+- he does not see himself as particularly creative, although he is is much more creative than others
+- he does not like self-praise`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Herzenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of heart energy in general:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- emotional hysteria
+- Image identification
+- Emotional identification
+- Love deficit
 
-Blinder Fleck von Typ 4 im Allgemeinen: 
+Blind spot of type 4 in general: 
 
-- Neid & Vergleich als Liebesgarant
-- aktives Schaffen von  äußerem Leid & Mangel als Kompensation
-- Individualitätszwang
-- Glück steht in Abhängigkeit zum Selbstausdruck
+- Envy & comparison as a guarantor of love
+- Active creation of external suffering & lack as compensation
+- Compulsion for individuality
+- Happiness is dependent on self-expression
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der so4:
+Blind spot, especially with the so4:
 
-- Dramatik von Kleinigkeiten
-- ständiger innerer Mangel
-- Masochismus`
+- Dramatization of small things
+- Constant inner deficiency
+- masochism`
     },
 
     {
-      label: "Augen",
-      content: `Typ 4 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 4 generally has the following gaze quality:
 
-- tief-emotional
-- träumerisch
-- ausdrucksstark-strahlend
-- traurig/melancholisch
+- deeply emotional
+- dreamy
+- expressive-radiant
+- sad/melancholic
 
-Die Blickqualität der so4 ergänzt sich wie folgt:
+The gaze quality of so4 complements each other as follows:
 
-- kritisch-beurteilend
-- schamerfüllt
-- freundlich`
+- critical-judgmental
+- full of shame
+- friendly`
     },
 
     {
-      label: "Körper",
-      content: `Typ 4 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 4 in general has the following physical abnormalities:
 
-- “besondere” Augen- oder Haarfarbe 
-- Sommersprossen
-- Tattoos
-- Piercings
-- empfindliche & helle Haut
+- “special” eye or hair color 
+- freckles
+- tattoos
+- piercings
+- sensitive & fair skin
 
-Die körperlichen Auffälligkeiten der so4 ergänzen sich wie folgt:
+The physical abnormalities of so4 complement each other as follows:
 
-- nach unten gezogene Mundwinkel
-- spitzes/kantiges Kinn`
+- downturned corners of the mouth corners of the mouth
+- pointed/edged chin`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 4 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 4 in general has the following modes of action:
 
-- tiefgründig
-- melancholisch
-- träumerisch
-- ausdrucksstark
-- kreativ
-- authentisch
+- profound
+- melancholic
+- dreamy
+- expressive
+- creative
+- authentic
 
-Die Wirkweisen der so4 ergänzen sich wie folgt:
+The effects of so4 complement each other as follows:
 
-“Gazellen”-Ausstrahlung:
-- kritisch
-- anspruchsvoll
-- unnahbar
-- zart`
+“gazelle” charisma:
+- critical
+- demanding
+- unapproachable
+- tender`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 4 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 4 in general:
 
-- neigen zu Depressionen/Pessimismus und emotionalen Löchern
-- starkes Mangelgefühl
+- are prone to depression / pessimism and emotional holes
+- strong feeling of lack
 
-Über den so4 sollte man explizit noch Folgendes wissen:
+You should also know the following explicitly about so4:
 
-- starkes Schamgefühl
+- strong sense of shame
 - “sad four”`
     },
 
     {
-  label: "Beispiele",
+  label: "Examples",
   content: `- Johnny Depp
 - R Kelly
 - John Lennon
@@ -707,14 +708,14 @@ Die Wirkweisen der so4 ergänzen sich wie folgt:
 
     {
   label: "Lookalikes",
-  content: `Verwechslung in männlicher Form:
+  content: `Confusion in male form:
 
 - se6
 - so3
 - so7
 - sx5
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se6
 - se1
@@ -723,10 +724,10 @@ Verwechslung in weiblicher Form:
 },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die so4 folgende Partner am ehesten:
+Statistically speaking, so4 is most likely to choose the following partners:
 
 - se3
 - so5
@@ -735,220 +736,220 @@ Statistisch gesehen wählt die so4 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- empathisch und charmant sein
-- das Gefühl vermitteln, die so4 sei gut bei einem aufgehoben
-- dafür sorgen, dass die so4 sich öffnen kann und all ihre Fragen stellen kann (-> extreme Rücksichtnahme und Nachfragen gewährleisten)
-- keine rapiden und schnellen Reaktionen oder Informationen liefern, um die so4 nicht zu überfordern
-- Die Probleme und Sorgen der so4 sehr ernst nehmen und ihr Lösungen anbieten
-- mitfühlend sein und die so4 emotional abholen
-- viele Informationen liefern und Garantien formulieren, damit die so4 sich sicher in ihrer Entscheidung fühlt
-- alle Mangelgedanken der so4 ernst nehmen und sie beruhigen
-- auf keinen Fall das Gefühl vermitteln, dass die so4 "dumm" sei!
-- sich nicht über sie lustig machen
-- keine oberflächlichen Informationen liefern, sondern immer ausführlich, selbst wenn die so4 nicht ganz mitkommt, um ihr das Gefühl von Tiefe zu geben
-- "ich nehme die Last ... von dir und helfe dir dabei, unbeschwerter zu werden"`
+      label: "Sales",
+      content: `- be empathetic and charming
+- convey the feeling that so4 is in good hands with you
+- make sure that the so4 can open up and ask all their questions questions (-> extreme consideration and ensure that questions are asked)
+- no rapid and fast reactions reactions or information so as not to overburden the so4 overwhelm
+- Take the problems and concerns of the so4 very seriously and offer solutions
+- Be compassionate and support the so4 pick them up emotionally
+- provide lots of information and formulate guarantees so that the so4 feels secure in their decision
+- Take all of the so4's thoughts of lack take them seriously and reassure them
+- Under no circumstances convey the feeling that the so4 is “stupid”! is “stupid”!
+- Do not make fun of them
+- Do not provide superficial provide superficial information, but always go into detail, even if the so4 doesn't quite follow, to give her a feeling of depth. depth
+- “I take the burden ... from you and help you become more carefree”`
     },
 
     {
-      label: "Führung",
-      content: `- klare Kommunikation wählen
-- dafür sorgen, dass die so4 sich nicht “dumm” fühlt
-- Wertschätzung und Anerkennung entgegenbringen bei Leistung 
-- vor den anderen als etwas besonderes darstellen 
-- Wertschätzung für die Eigenart der so4 entgegenbringen
-- Akzeptanz und Rücksichtnahme auf das starke Schamgefühl der so4 
-- intensive Betreuung und Aufmerksamkeit für die so4 sichern
-- Kreativität und Feingefühl der so4 anerkennen und nutzen
-- keine offene Kritik an die so4 richten, da sie sehr selbstkritisch ist und sich in die Kritik reinsteigert und sich folglich schlecht fühlt
-- übermäßig rücksichtsvolle und wertschätzende Behandlung anbringen 
-- besondere Stellung in der Gruppe ständig gewährleisten und bedienen
-- empathische und strukturierte Herangehensweise an die Leistungsbewertungen der so4`
+      label: "Management",
+      content: `- Choose clear communication
+- Ensure that the so4 does not feel “stupid”
+- show appreciation and recognition for performance 
+- Present them as something special in front of others 
+- Show appreciation for the so4's individuality
+- Acceptance of and consideration for the so4's strong sense of shame 
+- Ensure intensive care and attention for the so4
+- Recognize and use the creativity and sensitivity of the so4
+- do not openly criticize the so4, as she is very self-critical and gets caught up in the criticism and consequently feels bad about herself
+- treat them with excessive consideration and appreciation 
+- constantly ensure and serve a special position in the group
+- empathic and structured approach to so4's performance evaluations`
     }
   ]
 },
 
     {
   code: "sx4",
-  content: `Grundmotivation:
-Individualität (in der zwischenmenschlichen Beziehung)
+  content: `Basic motivation:
+Individuality (in the inter human relationship)
 
-Leidenschaft: 
-Neid (in der zwischenmenschlichen Beziehung)
+Passion: 
+Envy (in the inter human relationship)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- "Verletzte Menschen verletzen Menschen"
-- innerlich sehr verletzt
-- sensibel 
-- sehr kreativ
-- lamentiert gerne
-- "Drama-Queen"
-- vergleicht sich immer in einer Art Wettstreit zu anderen
-- tiefe Angst, dass jemand ihren besonderen Platz einnehmen könnte
-- verzweifelt bis hasserfüllt
-- emotional hysterisch
-- tiefgründig
-- masochistische Züge
-- großes künstlerisches Potential
-- sehr ausdrucksstark
-- gewieft
-- divenhaftes Wesen
-- anspruchsvoll
-- partnerschaftlich
-- selbstdarstellerisch
-- starker Sinn für Ästhetik`,
+- “Hurt people hurt people”
+- very hurt inside
+- sensitive 
+- very creative
+- likes to lament
+- “drama queen”
+- always compares herself to others in a kind of competition
+- Deep fear that someone could take her special place could
+- desperate to hateful
+- emotionally hysterical
+- profound
+- masochistic traits
+- great artistic potential
+- very expressive
+- cunning
+- diva-like nature
+- demanding
+- cooperative
+- self-promoting
+- strong sense of aesthetics`,
 
   traits: [
     {
-      label: "hitzig",
-      content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+      label: "Fiery",
+      content: `Due to the intense energy of the sexual subtype, it is often perceived as more hot-tempered than the others.
 
-Das hat vor allem mit dem „jugendlich-energiegeladenen“ Wesen der Sexualtypen zu tun.`
+This is mainly due to the energetic nature of the sexual types.`
     },
 
     {
-      label: "jugendlich",
-      content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+      label: "Youthful",
+      content: `The sexual subtype is usually very youthful and intense in nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the partnership-centered world view of this subtype.`
     },
 
     {
-      label: "Normaltyp",
-      content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Normal",
+      content: `The normal type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do in moderation what satisfies it.
 
-Im Fall der sx4 bedeutet das, dass dieser Enneagrammtyp den Neid im normalen Maße lebt.
+In the case of sx4, this means that this Enneagram type lives envy to a normal degree.
 
-Er hat die Erfahrung gemacht, dass er individuell ist, wenn er seinen Neid nach außen hin lebt.`
+He has experienced that he is individual when he lives his envy outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem sx4 bewusst und können angesprochen werden:
+      label: "Unmasking",
+      content: `The sx4 is aware of the following characteristics and these can be addressed:
 
-- er ist sehr kreativ und künstlerisch
-- er ist ausdrucksstark und hat Spaß daran, sich nach außen zu präsentieren
-- er vergleicht sich oft mit seinen engen Freunden & Bekannten
-- er legt viel Wert auf Individualität
-- er kann sich schnell in Emotionen hineinsteigern
-- Wenn er sich nicht geliebt fühlt, wird er traurig und hysterisch
-- er hat oftmals mit emotionalen Löchern zu kämpfen
-- er mag es, einen extravaganten Lebensstil zu leben, sofern er es kann. Ansonsten sagt er, dass er keinen Wert darauf legt 
-- er ist sehr sensibel
-- er legt einen starken Fokus auf zwischenmenschliche Beziehungen
-- er liebt es, tiefgehende Beziehungen zu pflegen
-- er hasst Oberflächlichkeit
-- er neigt zum Pessimismus
-- er ist entweder selbst toxisch oder suchst sich toxische Beziehungen
-- er leidet oft unter seinen Umwelteinflüssen
-- er ist sehr empathisch und investiert sich stark in spezielle Menschen, die ihm wichtig sind`
+- it is very creative and artistic
+- he is expressive and enjoys presenting himself to the outside world
+- he often compares himself with his close friends & acquaintances
+- he attaches great importance to individuality
+- he can quickly get carried away with emotions
+- If he doesn't feel loved, he becomes sad and hysterical
+- he often struggles with emotional holes
+- he likes to live an extravagant lifestyle, if he can. Otherwise, he says he doesn't value it 
+- he is very sensitive
+- he places a strong focus on interpersonal relationships
+- he loves to cultivate deep relationships
+- he hates superficiality
+- he tends to be pessimistic
+- he is either toxic himself or seeks out toxic relationships
+- he often suffers from his environmental influences
+- he is very empathic and invests himself strongly in special people who are important to him`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Herzenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of heart energy in general:
 
-- emotionale Hysterie
-- Image-Identifikation
-- Gefühls-Identifikation
-- Liebes-Defizit
+- emotional hysteria
+- Image identification
+- Emotional identification
+- Love deficit
 
-Blinder Fleck von Typ 4 im Allgemeinen: 
+Blind spot of type 4 in general: 
 
-- Neid & Vergleich als Liebesgarant
-- aktives Schaffen von äußerem Leid & Mangel als Kompensation
-- Individualitätszwang
-- Glück steht in Abhängigkeit zum Selbstausdruck
+- Envy & comparison as a guarantor of love
+- Active creation of external suffering & lack as compensation
+- Compulsion for individuality
+- Happiness is dependent on self-expression
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of sexual type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- strong & constant rivalry with other people
+- Dependence on external attractiveness & attachments
+- Fear of devaluation & degradation
 
-Blinder Fleck, speziell bei der sx4:
+Blind spot, especially with the sx4:
 
-- Dramatik im Zwischenmenschlichen
-- Masochismus 
-- Abhängigkeit vom Tiefgang / Bindung mit Mitmenschen`
+- Drama in interpersonal relationships
+- Masochism 
+- Dependence on depth / bonding with others`
     },
 
     {
-      label: "Augen",
-      content: `Typ 4 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 4 generally has the following gaze quality:
 
-- tief-emotional
-- träumerisch
-- ausdrucksstark-strahlend
-- traurig/melancholisch
+- deeply emotional
+- dreamy
+- expressive-radiant
+- sad/melancholic
 
-Die Blickqualität der sx4 ergänzt sich wie folgt:
+The gaze quality of the sx4 complements each other as follows:
 
-- provokant
-- dramatisch
-- herausfordernd
-- abgehoben`
+- provocative
+- dramatic
+- challenging
+- aloof`
     },
 
     {
-      label: "Körper",
-      content: `Typ 4 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 4 in general has the following physical abnormalities:
 
-- “besondere” Augen- oder Haarfarbe 
-- Sommersprossen
-- Tattoos
-- Piercings
-- empfindliche & helle Haut
+- “special” eye or hair color 
+- freckles
+- tattoos
+- piercings
+- sensitive & fair skin
 
-Die körperlichen Auffälligkeiten der sx4 ergänzen sich wie folgt:
+The physical characteristics of the sx4 complement each other as follows:
 
-- große Stirn
-- orangene Haare`
+- large forehead
+- orange hair`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 4 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 4 in general has the following modes of action:
 
-- tiefgründig
-- melancholisch
-- träumerisch
-- ausdrucksstark
-- kreativ
-- authentisch
+- profound
+- melancholic
+- dreamy
+- expressive
+- creative
+- authentic
 
-Die Wirkweisen der sx4 ergänzen sich wie folgt:
+The effects of the sx4 complement each other as follows:
 
-“Diven”-Ausstrahlung:
+“Diva” charisma:
 - extravagant
-- anspruchsvoll
-- toxisch
-- abstrakt`
+- sophisticated
+- toxic
+- abstract`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 4 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 4 in general:
 
-- neigen zu Depressionen/Pessimismus und emotionalen Löchern
-- starkes Mangelgefühl
+- are prone to depression / pessimism and emotional holes
+- strong feeling of lack
 
-Über den sx4 sollte man explizit noch Folgendes wissen:
+You should also know the following about the sx4:
 
-- sehr selbstdarstellerisch
-- rivalisierend
+- very self-promoting
+- rivalrous
 - “mad four”`
     },
 
     {
-  label: "Beispiele",
+  label: "Examples",
   content: `- Adolf Hitler
 - Billie Eilish
 - Anthony Kiedis
@@ -962,14 +963,14 @@ Die Wirkweisen der sx4 ergänzen sich wie folgt:
 
     {
   label: "Lookalikes",
-  content: `Verwechslung in männlicher Form:
+  content: `Confusion in male form:
 
 - sx8
 - sx6
 - sx3
 - sx7
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - sx6
 - sx3
@@ -978,10 +979,10 @@ Verwechslung in weiblicher Form:
 },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx4 folgende Partner am ehesten:
+Statistically, the sx4 is most likely to choose the following partners:
 
 - sx6
 - sx/so/se3
@@ -989,38 +990,38 @@ Statistisch gesehen wählt die sx4 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- Vertrauen aufbauen und die sx4 ernst nehmen
-- nicht vorwerfen, die sx4 wäre dramatisch
-- eine tiefe Verbindung schaffen, um die sx4 von sich zu überzeugen, indem man sensible Informationen mit ihr teilt
-- die sx4 auf ein Podest stellen, indem man betont, dass man noch nie mit so einem Menschen wie ihr zusammengearbeitet hat
-- kein oberflächlicher Smalltalk, sondern tiefe und vielschichtige Themen ansprechen
-- keine übermäßige Unbeschwertheit vermitteln, um den Eindruck von Oberflächlichkeit zu vermeiden
-- an die Kreativität und Individualität der sx4 appellieren
-- respektvoller und ruhiger Umgang ist essentiell wichtig
-- einen Fels in der Brandung darstellen
-- die sx4 dramatisch sein lassen und mitspielen
-- Empathie und Einfühlungsvermögen zeigen
-- "ich nehme die Last ... von dir und helfe dir dabei, unbeschwerter zu werden"`
+      label: "Sales",
+      content: `- Build trust and take the sx4 seriously
+- don't accuse the sx4 of being dramatic
+- create a deep connection, to convince the sx4 of your by sharing sensitive information with it
+- putting the sx4 on a pedestal, by emphasizing that you have never worked with a person like her before
+- not superficial small talk, but deep and multi-layered address topics
+- do not convey excessive convey excessive light-heartedness in order to avoid the impression of avoid the impression of superficiality
+- appeal to the creativity and individuality of the sx4
+- Respectful and calm interaction is essential
+- a rock in the surf represent
+- let the sx4 be dramatic and play along
+- Empathy and show empathy and sensitivity
+- “I take the burden ... from you and help you become more carefree”`
     },
 
     {
-      label: "Führung",
-      content: `- sensiblen Umgang mit der sx4 pflegen 
-- Tiefgang und Bindung zur sx4 gewährleisten
-- davor sorgen, dass die sx4 im Unternehmen starke Bindungen aufbauen und pflegen kann
-- Oberflächlichkeit vermeiden im Umgang mit der sx4
-- Wertschätzung für die Kreativität und Verlässlichkeit der sx4 entgegenbringen 
-- zeigen, dass die sx4 für einen ein ganz besonderer Mensch im Unternehmen ist
-- tiefe Bindung zur sx4 aufbauen, um sie zu motivieren
-- einen emotionalen Anker für die sx4 darstellen 
-- offene Kommunikation mit der sx4, um zu verhindern, dass sie sich nicht wertgeschätzt fühlt 
-- die sx4 auf ein Podest stellen, um die Individualität zu befriedigen 
-- das Gefühl geben, dass die Firma ohne die sx4 nicht da wäre, wo sie ist
-- das Gefühl geben, dass ihre Leistung außergewöhnlich ist 
-- Wettbewerb schaffen, um die sx4 in die Rivalität zu bringen und zu motivieren, da sie dann ihre Sonderstellung in Gefahr sieht
-- Geschenke und kleine Aufmerksamkeiten machen, da dies der sx4 das Gefühl gibt, etwas besonderes zu sein
-- die Emotionen der sx4 respektieren und sie berücksichtigen (niemals die Emotionen der sx4 übergehen!) `
+      label: "Management",
+      content: `- Maintain a sensitive approach to the sx4 
+- Ensure depth and loyalty to the sx4
+- Ensure that the sx4 can build and maintain strong bonds within the company
+- Avoid superficiality in dealing with the sx4
+- show appreciation for the creativity and reliability of the sx4 
+- show that the sx4 is a very special person in the company for you
+- Build a deep bond with the sx4 to motivate them
+- act as an emotional anchor for the sx4 
+- Communicate openly with the sx4 to prevent them from feeling unappreciated 
+- put the sx4 on a pedestal to satisfy their individuality 
+- give the feeling that the company would not be where it is without the sx4
+- Give the feeling that their performance is exceptional 
+- create competition to bring the sx4 into the rivalry and motivate it, as it then sees its special position in danger
+- giving gifts and small tokens of appreciation, as this makes the sx4 feel special
+- Respect the emotions of the sx4 and take them into account (never ignore the emotions of the sx4!)`
     }
   ]
 }
