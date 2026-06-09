@@ -2,450 +2,453 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type8Data = {
   type: 8,
-  title: "Macht",
-  center: "Bauchmensch",
-  side: "Männliche Seite",
+  title: "Power",
+  center: "Gut People",
+  side: "Masculine Side",
   color: TYPE_COLORS[8],
 
   centerInfo: {
-    content: `Grundproblem:
-Schutzdefizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+    content: `Basic Problem:
+Protection Deficit (Feeling of being attacked / restricted)
 
-Hauptthemen:
-- Instinkt 
-- Territorium 
-- Angriff & Verteidigung 
-- Aggressionen 
-- Handlungen
+Main issues:
+- Instinct 
+- Territorty 
+- Attack and defense 
+- Aggression 
+- Actions
 
-Identifikation:
-- „Ich bin, wie ich handle.“`
+Identification:
+- „I am how I act.“`
   },
 
   typeInfo: {
-    content: `Überentwickelte Bauchenergie (Bauchenergie wird nach außen gerichtet)
+    content: `Overdeveloped gut energy (gut energy is directed outwards)
 
-Grundmotivation: 
-Macht
+Basic motivation: 
+Power
 
-Abwehrmechanismus: 
-Schutz durch Kontrolle`
+Defense mechanism: 
+Protection through control`
   },
 
   sideInfo: {
-    content: `Die männliche Seite des Enneagramms umfasst die Enneagrammtypen 5-8 und zeichnet sich durch männliche Charakter- & Körperzüge aus.
+    content: `The masculine side of the Enneagram comprises Enneagram types 5-8 and is characterized by masculine character and body traits.
 
-Indizien, die hier beachtet werden sollten:
+Indications that should be noted here:
 
-Nasenform: 
-- grob
-- breit 
-- unförmig
-- rund 
-- kantig 
-- männlich
+Nose shape: 
+- coarse 
+- broad 
+- misshapen 
+- round 
+- angula 
+- masculine
 
-Gesichtspartie: 
-- grobe Haut
-- unreine Haut 
-- markante Gesichtsform
-- starker Unterkiefer 
-- kurze Wimpern
+Facial area: 
+- coarse skin 
+- blemished skin 
+- distinctive face shape 
+- strong lower jaw 
+- short eyelashes
 
-Wirkung: 
-- maskulin
-- grob
-- kantig`
+Effect: 
+- masculine 
+- coarse 
+- angular`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 8 wird in folgenden Zuständen gemessen:
+      label: "Level of consciousness",
+      content: `The health of the mind of type 8 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund, 
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Gewalttätiger Zerstörer
-2. Allmächtiger Größenwahnsinniger
-3. Skrupelloser Tyrann
-4. Feindseliger Kämpfer
-5. Dominierender Machtmensch
-6. Unternehmungslustiger Abenteurer
-7. Konstruktiver Anführer
-8. Sich selbst vertrauender Mensch
-9. Großmütiger Menschenfreund`
+1. violent destroyer
+2. omnipotent megalomaniac
+3. ruthless tyrant
+4. hostile fighter
+5. dominating man of power
+6. enterprising adventurer
+7. constructive leader
+8. self-trusting person
+9. magnanimous philanthropist`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      label: "Tritypes",
+      content: `The purpose of the tritype is that every person has a predominant Enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is of course made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
-„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
+To determine the tritype, you have to ask yourself the following question: “If a person had to be a heart person/head person/belly person, which of the three types in each energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+This creates a triad (e.g. 3-5-8) that can explain the differences in characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the 9 basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: concerned, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, knowing, wise
+Type 6: questioning, scrutinizing, supportive
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peaceable
 
-Im Fall von Typ 8 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 8, there are the following possibilities for the tritypes:
 
-8-2-5: Stratege
-8-2-6: Retter
-8-4-5: Gelehrter
-8-2-7: Freigeist
-8-4-6: Wahrheitsliebender
-8-3-5: Allrounder
-8-4-7: Bote
-8-3-6: Gerechtigkeitskämpfer
-8-3-7: Macher`
+8-2-5: Strategist
+8-2-6: Savior
+8-4-5: Scholar
+8-2-7: Free spirit
+8-4-6: Truth lover
+8-3-5: All-rounder
+8-4-7: Messenger
+8-3-6: Justice fighter
+8-3-7: Doer`
     },
 
     {
-      label: "Leidenschaft: Gier",
-      content: `Bedeutung von Gier in diesem Kontext:
+      label: "Passion: Greed",
+      content: `Meaning of passion in this context:
 
-- zwanghafte Befriedigung von Bedürfnissen / Expansion des eigenen Territoriums, um die größtmögliche Macht zu erlangen
+- Pseudo-protective mechanism, which literally “creates suffering”
 
-Gesteigerte Formen: 
+Meaning of greed in this context:
 
-- Kontrollzwang
-- Schamlosigkeit
-- Ausbeutung`
+- compulsive satisfaction of needs / expansion of one's own territory in order to greatest possible power achieve the greatest possible power
+
+Increased forms: 
+
+- Compulsion to control
+- Shamelessness
+- Exploitation`
     },
 
     {
-      label: "Umgang",
-      content: `- das Gegenüber überlegen sein lassen
-- Respekt zeigen
-- keine Witze oder sarkastische Bemerkungen über das Gegenüber
-- Führung dem Gegenüber überlassen
-- Machtspielchen des Gegenübers hinnehmen und gelassen reagieren
-- freundliche Begegnung, sodass das Gegenüber dich zu seinem Territorium dazuzählt und dich mit beschützt
-- Aufzeigen von Grenzen, damit das Gegenüber dich nicht "beherrschen" & ausnutzen kann
-- Anerkennung der Stärke & des Einflusses des Gegenübers `
+      label: "Handling",
+      content: `- Let the other person be superior
+- Show respect
+- No jokes or sarcastic remarks about the other person
+- Let the other person take the lead
+- Accept the other person's power games and react calmly
+- friendly encounter, so that the other person counts you territory and protects you protects you
+- Showing boundaries so that the other person cannot “dominate” & take advantage of you
+- Recognizing the strength & influence influence of the other person`
     },
 
     {
-      label: "Flügel: 7",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 7",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is  particularly pronounced
 
-Flügel zu Typ 7:
+Wings of type 7:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Frohmut 
-- Begeisterungsfähigkeit 
-- Abenteuerlust 
-- Optimismus 
-- Wohlwollen  
-- Unbeschwertheit  
-- hohes Maß an Energie  
-- große Motivation bei Belohnungsausschüttung 
-- Intensität 
-- Lichtbringer-Fähigkeit  
-- Offenheit
+- Cheerfulness 
+- Enthusiasm 
+- thirst for adventure 
+- optimism 
+- benevolence  
+- light-heartedness  
+- High level of energy  
+- great motivation with reward release 
+- intensity 
+- ability to bring light  
+- openness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- “rosa-rote Brille” 
-- Oberflächlichkeit 
-- Übereifer 
-- Sprunghaftigkeit 
-- Leidverdrängung 
-- mangelnde Disziplin 
-- Opportunismus 
-- Narzissmus 
-- Völlerei 
-- ständige Ablenkung 
-- triebgesteuertes inneres Wesen`
+- “rose-colored glasses” 
+- Superficiality 
+- overzealousness 
+- volatility 
+- repression of suffering 
+- Lack of discipline 
+- opportunism 
+- narcissism 
+- gluttony 
+- constant distraction 
+- instinct-driven inner being`
     },
 
     {
-      label: "Flügel: 9",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 9",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 9:
+Wings of type 9:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Harmoniestreben 
-- Schlichtung 
-- Vermittlungskompetenz 
-- Besonnenheit 
-- Spiritualität 
-- Zurückhaltung 
-- Anpassungsfähigkeit 
-- Reflektion 
-- Empathie 
-- Harmlosigkeit  
-- Freundlichkeit
+- Striving for harmony 
+- Conciliation 
+- Mediation skills 
+- Prudence 
+- spirituality 
+- Restraint 
+- Adaptability 
+- Reflection 
+- empathy 
+- Harmlessness  
+- friendliness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Konfliktunfähigkeit 
-- Entscheidungsunfähigkeit 
-- Trägheit 
-- Selbstbetäubung 
-- Ego, kein Ego zu haben 
-- Langsamkeit 
-- Stagnation 
-- Verschmelzungstendenz 
-- Charakterschwäche 
-- Durchsetzungsschwäche`
+- Inability to resolve conflicts 
+- inability to make decisions 
+- inertia 
+- self-anesthesia 
+- Ego, having no ego 
+- Slowness 
+- stagnation 
+- tendency to merge 
+- Weakness of character 
+- Assertiveness weakness`
     },
 
     {
-      label: "Stresspunkt: 5",
-      content: `Definition Stresspunkt:
+      label: "Stress point: 5",
+      content: `Definition of stress point:
 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+As soon as an Enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, ...), it compensates for this by adopting characteristics from its so-called stress point.
 
-Stresspunkt in Typ 5:
+Stress point in type 5:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- tief-interessiert
-- analytisch
+- deeply interested
+- analytical
 - rational
-- bedacht
+- thoughtful
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- isoliert
-- unempathisch
-- verkopft
-- geizig`
+- isolated
+- unsympathetic
+- cerebral
+- stingy`
     },
 
     {
-      label: "Entspannungspunkt: 2",
-      content: `Definition Entspannungspunkt:
+      label: "Relaxation point: 2",
+      content: `Definition of relaxation point:
 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+As soon as an Enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), it develops by adopting characteristics from its so-called relaxation point.
 
-Entspannungspunkt in Typ 2:
+Relaxation point in type 2:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- liebevoll
-- kümmernd
+- loving
+- caring
 - warm
-- mitfühlend
+- compassionate
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- bedürftig
-- abhängig
-- manipulativ
-- klammernd`
+- needy
+- dependent
+- manipulative
+- clinging`
     }
   ],
 
   subtypes: [
     {
       code: "se8",
-      content: `Grundmotivation:
-Macht (in der Selbsterhaltung)
+      content: `Basic motivation:
+Power (in self-preservation)
 
-Leidenschaft: 
-Gier (in der Selbsterhaltung)
+Passion: 
+Greed (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
 - Patriarch
 - dominant
-- durchsetzungsstark
-- gierig
-- gerissen
-- überlegen
-- nimmt sich, was sie will
-- Ressourcen sind sehr wichtig
-- Autonomie liebend
-- sehr unabhängig
-- kann sich nicht unterordnen
-- will sich nicht auf andere verlassen
-- nimmt die Dinge selbst in die Hand
-- es nervt ihn, wenn er nicht das tun kann, was er will
-- wirtschaftliche Vorhaben sind von hoher Relevanz
-- Schutz und Wohlergehen der Familie ist wichtig
-- nimmt auch gerne eine Beobachterposition ein (erhaben)
-- Intoleranz Frustration gegenüber
-- machthungrig
-- nimmt gerne Einfluss auf das Geschehen
-- Fäden ziehend im Hintergrund
-- "Fels in der Brandung"
-- "Wolf im Schafspelz"
-- territoriales Denken`,
+- assertive
+- greedy
+- cunning
+- superior
+- takes what she wants
+- Resources are very important
+- Autonomy loving
+- very independent
+- cannot subordinate herself
+- does not want to rely on others rely on others
+- takes things into his own hand
+- It annoys him when he can't do what he wants
+- Economic projects are of high relevance
+- Protection and well-being of the family is important
+- also likes to take an observer position (exalted)
+- Intolerant of frustration
+- power-hungry
+- likes to exert influence on events
+- Pulling strings in the background
+- “Rock in the surf”
+- “Wolf in sheep's clothing”
+- territorial thinking`,
 
       traits: [
         {
-          label: "warm",
-          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+          label: "Warm",
+          content: `Due to the accumulated energy of the self-preserving subtype, it is often perceived as warmer in comparison to the others.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
+This is mainly due to the “childish and selfish” nature of the self-preserving types.`
         },
         {
-          label: "kindlich",
-          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+          label: "Childlike",
+          content: `The self-preserving subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the ego-centered world view of this subtype.`
         },
         {
-          label: "Normaltyp",
-          content:  `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normal",
+          content:  `The normal type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do in moderation what satisfies it.
 
-Im Fall der se8 bedeutet das, dass dieser Enneagrammtyp die Gier im normalen Maße lebt.
+In the case of se8, this means that this Enneagram type lives greed to a normal degree.
 
-Er hat die Erfahrung gemacht, dass er Macht bekommt, wenn er seine Gier nach außen hin lebt.`
+He has experienced that he gains power when he lives his greed outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se8 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The following characteristics are known to the se8 and can be addressed:
 
-- er ist sehr dominant
-- er kann sich gut durchsetzen
-- er ist sehr berechnend
-- er legt großen Wert auf Autonomie
-- er fühlt sich schnell eingeschränkt
-- er hat oftmals die Kontrolle über seine Lebensverhältnisse
-- die Familie ist ihm wichtig
-- er lässt sich nicht gerne etwas sagen
-- Einflussnahme auf seine Finanzen, seinen Wohnraum und seine Ressourcen ist ihm sehr wichtig
-- er kann sich schlecht verletzlich zeigen
-- im Stress neigt er zum Rückzug
-- er regt sich innerlich schnell über Dinge auf
-- er ist gerne das Familienoberhaupt
-- er kümmert sich gerne um seine Mitmenschen, da er so Einfluss auf sie nehmen kann
-- er ist sehr ehrgeizig
-- er sieht schnell seine Möglichkeiten und nutzt sie
-- er folgt klaren Werten und Prinzipien`
+- he is very dominant
+- he can assert himself well
+- he is very calculating
+- he attaches great importance to autonomy
+- he quickly feels restricted
+- he often has control over his living conditions
+- Family is important to him
+- he does not like to be told what to do to be told
+- Influence over his finances, his living space and his resources is very important to him important
+- he has difficulty being vulnerable show himself
+- he tends to withdraw under stress
+- He quickly gets upset internally about things
+- he likes to be the head of the family
+- he likes to take care of his people, because he can influence them influence them
+- he is very ambitious
+- he is quick to see his opportunities and uses them
+- he follows clear values and principles`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 8 im Allgemeinen: 
+Blind spot of type 8 in general: 
 
-- Gier & Leugnung als Schutzgarant
-- aktives Schaffen von äußerem Einfluss & Kontrolle als Kompensation
-- Kontrollzwang
-- Zerstörungswut bei Überforderung
+- Greed & denial as guarantor of protection
+- active creation of external influence & Control as compensation
+- compulsion to control
+- Destructive rage when excessive demands
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking
+- egoism
+- need orientation
 
-Blinder Fleck, speziell bei der se8:
+Blind spot, especially in the se8:
 
-- familiärer/wirtschaftlicher Kontrollzwang
-- Engstirnigkeit & zwanghafte Dominanz
-- Leugnung eigener Schwächen`
+- family/economic compulsive control
+- Narrow-mindedness & compulsive dominance
+- Denial of own weaknesses`
         },
         {
-          label: "Augen",
-          content: `Typ 8 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 8 in general has the following gaze quality:
 
-- einnehmend
+- engaging
 - dominant
-- gierig
-- kalt-glänzend
-- fokussiert
-- stark
-- intensiv
-- starr
+- greedy
+- cold-shiny
+- focused
+- strong
+- intense
+- rigid
 
-Die Blickqualität der se8 ergänzt sich wie folgt:
+The gaze quality of the se8 complements each other as follows:
 
-- stabil
-- kraftvoll-funkelnd`
+- stable
+- powerful-sparkling`
         },
         {
-          label: "Körper",
-          content: `Typ 8 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 8 generally has the following physical abnormalities:
 
-- starker Haarwuchs
-- männliche (kantige) Züge
-- Zornesfalte
-- kräftiger Körper
-- buschige Augenbrauen
+- strong hair growth
+- masculine (angular) features
+- frown lines
+- strong body
+- bushy eyebrows
 
-Die körperlichen Auffälligkeiten der se8 ergänzen sich wie folgt:
+The physical characteristics of the se8 complement each other as follows:
 
-- klein & kompakt
-- Hang zum Übergewicht`
+- small & compact
+- Tendency to be overweight`
         },
         {
-          label: "Wirkung",
-         content: `Typ 8 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+         content: `Type 8 in general has the following effects:
 
-- männlich
-- mächtig
-- ernst
-- kontrollierend
-- einnehmend
-- intensiv
-- polarisierend
-- stattlich
-- einschüchternd
+- masculine
+- powerful
+- serious
+- controlling
+- engaging
+- intense
+- polarizing
+- stately
+- intimidating
 
-Die Wirkweisen der se8 ergänzen sich wie folgt:
+The effects of the se8 complement each other as follows:
 
-“Boss”-Ausstrahlung:
-- kontrolliert
-- gierig
-- ruhig`
+“Boss” charisma:
+- controlled
+- greedy
+- calm`
         },
         {
-          label: "Weiteres",
-         content: `Über Typ 8 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+         content: `You should also know the following about type 8 in general:
 
-- Kontrollsucht und Dominanz
-- verschafft sich automatisch Respekt
-- mächtige Aura
+- Control and dominance
+- Automatically gains respect
+- powerful aura
 
-Über den se8 sollte man explizit noch Folgendes wissen:
+You should know the following explicitly about se8:
 
-- starker Hang zum Stresspunkt (Typ 5)
-- befriedigendes Überleben`
+- strong tendency to the stress point (type 5)
+- satisfactory survival`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Dan Pena
 - Josef Blatter
 - Gérard Depardieu
@@ -456,14 +459,14 @@ Die Wirkweisen der se8 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
           
 - se7
 - se9
 - se5
 - se2
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se7
 - se5
@@ -471,10 +474,10 @@ Verwechslung in weiblicher Form:
 - se2`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die se8 folgende Partner am ehesten:
+Statistically speaking, the se8 is most likely to choose the following partners:
 
 - se1
 - se/sx7
@@ -483,220 +486,219 @@ Statistisch gesehen wählt die se8 folgende Partner am ehesten:
 - sx4`
         },
         {
-          label: "Verkauf",
-          content: `- Ehrlichkeit ist essentiell wichtig
-- respektvoller Umgang
-- man muss dem se8 gewähren, sich "aufzuspielen" und sich über einen zu stellen
-- nicht auf die Machtspielchen der se8 eingehen, sondern darüberstehen, ohne abgehoben zu wirken
-- Bodenständigkeit und Autonomie als Werte deklarieren
-- versichern, dass die se8 völlig autonom und zu keiner Zeit abhängig von einem ist
-- viel Ernsthaftigkeit an den Tag legen
-- die se8 die Führung übernehmen lassen, sofern sie dies automatisch in Anspruch nimmt
-- keine Provokationen in Richtung der se8 anbringen
-- zeigen, dass man mutig und durchsetzungsstark ist, ohne dabei unsouverän zu wirken
-- das Territorium der se8 achten, was so viel bedeutet, dass man bei Themen, von denen die se8 meint Ahnung zu haben, nicht Paroli bieten sollte
-- Führungskompetenz und Expertise zeigen, ohne zu schwafeln
-- niemals so tun, als ob die se8 dumm sei oder schwer von Begriff
-- das Produkt als sehr wertvolles und erstrebenswertes Add-On darstellen, um die Gier der 8 zu wecken
-- man sollte die se8 nie warten lassen!`
+          label: "Sales",
+          content: `- Honesty is essential
+- respectful interaction
+- you must allow the se8 to “show off” and place themselves above you
+- don't play the se8's power games, but stand above them without appearing aloof
+- declare down-to-earthness and autonomy as values
+- ensure that the se8 is completely autonomous and not dependent on you at any time
+- show a great deal of seriousness
+- allow the se8 to take the lead if they automatically claim it
+- do not make any provocations towards the se8
+- show that you are courageous and assertive without appearing unconfident
+- respect the se8's territory, which means that you should not stand up to them on issues they think they know about
+- show leadership and expertise without waffling
+- never act as if the se8 is stupid or slow on the uptake
+- Present the product as a very valuable and desirable add-on to arouse the greed of the 8
+- you should never keep the se8 waiting!`
         },
         {
-          label: "Führung",
-          content: `- keinerlei autoritäres Verhalten zeigen, da die se8 sehr schnell in den Verteidigungsmodus übergeht
-- Ideen, Werte und Ausgangspunkte der se8 anerkennen und auf ihnen aufbauen und nicht die eigenen Ideologien mit einbringen!
-- Viel Eigenverantwortung übertragen
-- Wenig Regulation
-- Niemals das Gefühl vermitteln, über der se8 zu stehen, da sie darauf meist sehr schnell und kiebig reagiert
-- Eher als Ratgeber fungieren und nicht als Autoritätsperson
-- Motivation durch Einflussgewinnung und Kontrolle über den eigenen Alltag (z.B. „Wenn wir Leistung X/Y erbringen, wirst du schnell aufsteigen und selbstbestimmt arbeiten können, ohne dich irgendwo unterordnen zu müssen“)
-- Anerkennung und Wertschätzung für die Stärke und die Schläue der se8 geben
-- Respekt jederzeit anbringen, „frech sein“ vermeiden`
+          label: "Management",
+          content: `- Show no authoritarian behavior whatsoever, as the se8 very quickly goes into defense mode
+- Acknowledge the ideas, values and starting points of the se8 and build on them rather than introducing your own ideologies!
+- Transfer a lot of personal responsibility
+- Little regulation
+- Never give the feeling that you are above the se8, as they usually react very quickly and knee-jerk to this
+- Act as an advisor rather than an authority figure
+- Motivation through gaining influence and control over your own everyday life (e.g. “If we achieve performance X/Y, you will be able to move up quickly and work independently without having to subordinate yourself anywhere”)
+- Giving recognition and appreciation for the strength and cunning of se8
+- Show respect at all times, avoid “being cheeky”`
         }
       ]
     },
 
     {
       code: "so8",
-      content: `Grundmotivation:
-Macht (in der sozialen Gruppe)
+      content: `Basic motivation:
+Power (in the social group)
 
-Leidenschaft: 
-Gier (in der sozialen Gruppe)
+Passion: 
+Greed (in the social group)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- Wikinger-Mentalität
-- sehr freundschaftlich
-- nimmt gerne automatisch eine Führungsposition ein
-- fair & gerecht
-- vertritt Werte und boxt diese durch
-- freundlich und interessiert
-- "raue Schale"
-- legt viel Wert auf Loyalität & Solidarität
-- lebenslange Freundschaften
-- Verrat ist eine Todsünde 
-- Machtanspruch in der sozialen Gruppe
-- Beschützerinstinkt
-- Schwarz-Weiß-Denken(Freund oder Feind)
-- territoriales Denken
-- viele Werte
-- kumpelhaftes Verhalten
-- grob
-`,
+- Viking mentality
+- very friendly
+- automatically takes a leadership position
+- fair & just
+- represents values and enforces them
+- friendly and interested
+- “rough shell”
+- attaches great importance to loyalty & solidarity
+- Lifelong friendships
+- Betrayal is a mortal sin 
+- Claim to power in the social group
+- Protective instinct
+- Black and white thinking (friend or foe)
+- territorial thinking
+- Many values
+- chummy behavior
+- rude`,
 
       traits: [
         {
-          label: "kalt",
-          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+          label: "Cold",
+          content: `Due to the adapted energy of the social subtype, it is often perceived as colder in comparison to the others.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
+This is mainly due to the “intellectually adapted” nature of the social types.`
         },
         {
-          label: "erwachsen",
-          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+          label: "Adult",
+          content: `The social subtype is usually very adult and intellectual in nature.
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
+This effect is closely linked to the we-centered world view of this subtype.`
         },
         {
-          label: "Kontratyp",
-          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Contra",
+          content: `The counter-type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that living out the respective passion does not work well and does not satisfy his basic motivation at all, which is actually the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything he can to prevent it from becoming visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion always finds a way into a person's life through a back door, which they do not consciously realize.
 
-Im Fall der so8 bedeutet das, dass dieser Enneagrammtyp gegen die Gier ankämpft.
+In the case of so8, this means that this Enneagram type fights against greed.
 
-Er hat die Erfahrung gemacht, dass er keine Macht bekommt, wenn er seine Gier nach außen hin lebt.`
+He has experienced that he will not gain power if he lives his greed outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so8 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The so8 is aware of the following characteristics and can address them:
 
-- er legt viel Wert auf Gerechtigkeit und Fairness
-- er beschützt gerne die Schwachen
-- er nimmt gerne Einfluss auf eine Gruppe und stellt sich als Anführer an die Spitze
-- er ist dominant
-- er lässt sich nicht gerne etwas sagen
-- er steht immer für seine Werte und Freunde ein
-- er ist sehr loyal und kumpelhaft
-- er hat ein großes Herz
-- er legt großen Wert auf Respekt
-- er kümmert sich gut um sein "Territorium"
-- er ist gerne autonom
-- er macht sich nicht gerne abhängig von anderen
-- er kann ein kleiner Kontrollfreak sein
-- Ungerechtigkeit kann er nicht mit ansehen
-- er ist sehr aktiv
-- er hat sehr viel Energie
-- er fühlt sich oftmals machtlos ("ohnmächtig"), was ihn schnell aufregt
-- seine Familie ist ihm sehr wichtig
-- Verlässlichkeit ist ihm sehr wichtig
-- er fühlt sich schnell angegriffen`
+- he attaches great importance to justice and fairness
+- he likes to protect the the weak
+- he likes to influence a group group and places himself as leader at the top
+- he is dominant
+- he does not like to be told what to do to be told
+- He always stands up for his values and friends
+- he's very loyal and chummy
+- he has a big heart
+- he attaches great importance to respect
+- he takes good care of his “territory”
+- he likes to be autonomous
+- he does not like to be dependent on others
+- he can be a bit of a control freak
+- He cannot stand injustice see injustice
+- he is very active
+- he has a lot of energy
+- he often feels powerless (“powerless”), which makes him quickly upset
+- His family is very important to him important
+- Reliability is very important to him important
+- he feels quickly attacked`
         },
         {
-          label: "Blinder Fleck",
-         content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+         content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 8 im Allgemeinen: 
+Blind spot of type 8 in general: 
 
-- Gier & Leugnung als Schutzgarant
-- aktives Schaffen von äußerem Einfluss & Kontrolle als Kompensation
-- Kontrollzwang
-- Zerstörungswut bei Überforderung
+- Greed & denial as guarantor of protection
+- active creation of external influence & Control as compensation
+- compulsion to control
+- Destructive rage when excessive demands
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der so8:
+Blind spot, especially with the so8:
 
-- "Freund-oder-Feind"-Denken
-- zwanghafte Durchsetzung von eigenen Werten in der Gruppe
-- Gefühl von Ohnmacht `
+- “friend-or-foe” thinking
+- Compulsive enforcement of own values in the group
+- Feeling of powerlessness`
         },
         {
-          label: "Augen",
-         content: `Typ 8 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+         content: `Type 8 in general has the following gaze quality:
 
-- einnehmend
+- engaging
 - dominant
-- gierig
-- kalt-glänzend
-- fokussiert
-- stark
-- intensiv
-- starr
+- greedy
+- cold-shiny
+- focused
+- strong
+- intense
+- rigid
 
-Die Blickqualität der so8 ergänzt sich wie folgt:
+The gaze quality of the so8 complements each other as follows:
 
-- freundlich
-- herzlich`
+- friendly
+- warm`
         },
         {
-          label: "Körper",
-          content: `Typ 8 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 8 generally has the following physical abnormalities:
 
-- starker Haarwuchs
-- männliche (kantige) Züge
-- Zornesfalte
-- kräftiger Körper
-- buschige Augenbrauen
+- strong hair growth
+- masculine (angular) features
+- frown lines
+- strong body
+- bushy eyebrows
 
-Die körperlichen Auffälligkeiten der so8 ergänzen sich wie folgt:
+The physical characteristics of the so8 complement each other as follows:
 
-- groß gebaut
-- großer Brustkorb`
+- tall build
+- large chest`
         },
         {
-          label: "Wirkung",
-          content: `Typ 8 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 8 in general has the following effects:
 
-- männlich
-- mächtig
-- ernst
-- kontrollierend
-- einnehmend
-- intensiv
-- polarisierend
-- stattlich
-- einschüchternd
+- masculine
+- powerful
+- serious
+- controlling
+- engaging
+- intense
+- polarizing
+- stately
+- intimidating
 
-Die Wirkweisen der so8 ergänzen sich wie folgt:
+The effects of so8 complement each other as follows:
 
-“Wikinger”-Ausstrahlung:
-- kumpelhaft
+“Viking” charisma:
+- chummy
 - fair
 - loyal`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 8 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `You should also know the following about type 8 in general:
 
-- Kontrollsucht und Dominanz
-- verschafft sich automatisch Respekt
-- mächtige Aura
+- Control and dominance
+- Automatically gains respect
+- powerful aura
 
-Über den so8 sollte man explizit noch Folgendes wissen:
+You should also know the following about so8:
 
-- kontrollierte Haltung
-- Fairness & Gerechtigkeit sind wichtig`
+- controlled attitude
+- Fairness & justice are important`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Carsten Stahl
 - Karl Marx
 - Michelle Obama
@@ -707,23 +709,23 @@ Die Wirkweisen der so8 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
           
 - so7
 - so9
 - so3
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - so7
 - so9
 - so3`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die so8 folgende Partner am ehesten:
+Statistically speaking, so8 is most likely to choose the following partners:
 
 - so/sx7
 - so/sx9
@@ -732,214 +734,214 @@ Statistisch gesehen wählt die so8 folgende Partner am ehesten:
 - so2 (vereinzelt)`
         },
         {
-          label: "Verkauf",
-          content: `- Fairness und Gerechtigkeit fördern
-- Gespräch auf Augenhöhe
-- viel Raum lassen für den Gesprächsanteil der so8
-- kumpelhaftes Verhalten
-- Anerkennung und Wertschätzung entgegenbringen, gerade für Führungskraft und Stärke
-- ehrlich und transparent sein
-- Moral zeigen
-- mit offenen Karten spielen
-- Autonomie der so8 nicht einschränken, sondern das Produkt eher als zusätzliches Add-on betrachten, nicht als MUSS, um der so8 nicht das Gefühl zu geben, sich abhängig zu machen
-- Führungskompetenz und Expertise zeigen, ohne zu schwafeln
-- großes Herz zeigen
-- Ernsthaftigkeit vermitteln
-- Vorbildcharakter darstellen
-- niemals so tun, als ob die so8 dumm sei oder schwer von Begriff
-- das Produkt als sehr wertvolles und erstrebenswertes Add-On darstellen, um die Gier der 8 zu wecken
-- man sollte die so8 nie warten lassen!`
+          label: "Sales",
+          content: `- Promoting fairness and justice
+- Conversation at eye level
+- Leave plenty of room for so8's share of the conversation
+- Buddy-like behavior
+- Show recognition and appreciation, especially for leadership and strength
+- Be honest and transparent
+- Show morale
+- play with open cards
+- Do not restrict the so8's autonomy, but rather view the product as an additional add-on, not as a MUST, so as not to give the so8 the feeling of dependency
+- Show leadership and expertise without waffling
+- Show a big heart
+- Convey seriousness
+- act as a role model
+- Never act as if the so8 is stupid or slow on the uptake
+- Present the product as a very valuable and desirable add-on to arouse the so8's greed
+- you should never keep the so8 waiting!`
         },
         {
-          label: "Führung",
-          content: `- Fariness & Gerechtigkeit in der Gruppe jederzeit gewährleisten und der so8 das Gefühl geben, dass diese Werte nicht in Gefahr sind
-- Sprechen auf Augenhöhe, ohne sich über die so8 zu stellen
-- Motivation durch Einflussnahme über die Gruppe (z.B. „Wenn du Leistung X/Y erbringst, wirst du sehr schnell in eine Führungsposition kommen und Menschen leiten können“)
-- Der so8 hat ein Herz für die Schwachen, das sollte man jederzeit loben und wertschätzen
-- Loyalität und Ehrlichkeit als starke Werte etablieren und der so8 jederzeit das Gefühl geben, hundert Prozent aufrichtig zu sein
-- Wenig Regulation, viel Freiraum lassen, weil die so8 mit dem Kontrollverlust nicht umgehen kann
-- Chancengleichheit als Wert aufstellen und die so8 damit motivieren („Person X/Y hatte genau dieselben Chancen und hat Sache X/Y geschafft, dann kannst du das genauso!“)
-- Respekt zu jeder Zeit gewährleisten, nicht „frech“ sein, wenn man nicht genau darauf achtet, bei welchen Themen man es im Kontext dder jeweiligen so8 sein darf`
+          label: "Management",
+          content: `- Ensure fairness and justice in the group at all times and give the so8 the feeling that these values are not in danger
+- Speaking at eye level without placing yourself above the so8
+- Motivation by exerting influence over the group (e.g. “If you achieve X/Y, you will very quickly get into a leadership position and be able to lead people”)
+- The so8 has a heart for the weak, which should be praised and appreciated at all times
+- Establish loyalty and honesty as strong values and give the so8 the feeling of being one hundred percent honest at all times
+- Leave little regulation and a lot of freedom, because the so8 cannot cope with the loss of control
+- Establish equal opportunities as a value and use it to motivate the so8 (“Person X/Y had exactly the same opportunities and did thing X/Y, then you can do the same!”)
+- Ensure respect at all times, don't be “cheeky” if you don't pay close attention to which topics you are allowed to be in the context of the respective so8`
         }
       ]
     },
 
     {
       code: "sx8",
-      content: `Grundmotivation:
-Macht (in der zwischenmenschlichen Beziehung)
+      content: `Basic motivation:
+Power (in the inter human relationship)
 
-Leidenschaft: 
-Gier (in der zwischenmenschlichen Beziehung)
+Passion: 
+Greed (in the inter human relationship)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- übergriffig
+- assaultive
 - dominant
-- besitzergreifend
-- "Guru-Ausstrahlung"
-- extrem im Wesen
-- Nashorn-Wirkung
-- kann sich nur verletzlich zeigen, wenn er dem zwischenmenschlichen Partner vollends vertraut
-- möchte den Ton angeben
-- sehr direkt
-- schroff
-- manipulativ
-- beeinflussend
-- wahrheitsliebend
-- streitsüchtig
-- sehr empfindlich bei "Machtspielchen" anderer
-- Angst vor Verlust von zwischenmenschlichen Beziehungen
-- großes Ego`,
+- possessive
+- “guru charisma”
+- extreme in nature
+- Rhinoceros effect
+- can only show himself vulnerable when he is close to the interpersonal partner completely trusted
+- wants to set the tone
+- very direct
+- harsh
+- manipulative
+- influencing
+- truthful
+- quarrelsome
+- very sensitive to “power games” of others
+- Fear of loss of interpersonal relationships
+- Big ego`,
 
       traits: [
         {
-          label: "hitzig",
-          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+          label: "Fiery",
+          content: `Due to the intense energy of the sexual subtype, it is often perceived as hotter compared to the others.
 
-Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
+This is mainly due to the energetic nature of the sexual types.`
         },
         {
-          label: "jugendlich",
-          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+          label: "Youthful",
+          content: `The sexual subtype is usually very youthful and intense in nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the partnership-centered world view of this subtype.`
         },
         {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Reinforcement",
+          content: `The reinforcement type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The reinforcement type has experienced in his life that the strong living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything he can to satisfy it.
 
-Im Fall der sx8 bedeutet das, dass dieser Enneagrammtyp die Gier extrem stark lebt.
+In the case of sx8, this means that this Enneagram type lives greed extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er Macht bekommt, wenn er seine Gier nach außen hin lebt.`
+He has experienced that he gains power when he lives his greed outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx8 bewusst und können angesprochen werden:
+          label: "Unmasking",
+         content: `The sx8 is aware of the following characteristics and these can be addressed:
 
-- er ist sehr dominant
-- er kann sich gut durchsetzen
-- er kennt sich mit bestimmten Themen sehr gut aus
-- er kann gut als Guru auftreten
-- er beherrscht es, Leute von sich zu begeistern und ihren Respekt zu bekommen
-- er ist sehr aktiv und schafft viel
-- er kann Leute gut anführen
-- er ist sehr skeptisch
-- er hat viel Energie
-- er nimmt seine Mitmenschen automatisch in Beschlag
-- er hat ein Helfersyndrom und hilft, auch wenn er nicht darum gebeten wird (übergriffig)
-- er kann schnell impulsiv sein
-- seine Mitmenschen haben großen Respekt vor ihm
-- er denkt in Machtverhältnissen
-- er kann Abhängigkeit nicht ausstehen
-- er ist ein Kontrollfreak
-- er legt viel Wert auf Autonomie`
+- it is very dominant
+- he can assert himself well
+- he is very familiar with certain topics very well
+- he is good at acting as a guru
+- he knows how to win people over and gain their respect get their respect
+- he is very active and gets a lot done
+- he is good at leading people
+- he is very skeptical
+- he has a lot of energy
+- he automatically takes his fellow human beings automatically in control
+- he has a helper syndrome and helps, even if he is not asked asked (overbearing)
+- He can be impulsive quickly
+- His fellow human beings have have great respect for him
+- he thinks in terms of power relations
+- he cannot stand dependence stand dependence
+- he is a control freak
+- he attaches great importance to autonomy`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 8 im Allgemeinen: 
+Blind spot of type 8 in general: 
 
-- Gier & Leugnung als Schutzgarant
-- aktives Schaffen von äußerem Einfluss & Kontrolle als Kompensation
-- Kontrollzwang
-- Zerstörungswut bei Überforderung
+- Greed & denial as guarantor of protection
+- active creation of external influence & Control as compensation
+- compulsion to control
+- Destructive rage when excessive demands
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of the sexual type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- strong & constant rivalry with with other people
+- Dependence on external attractiveness & attachments
+- Fear of devaluation & degradation
 
-Blinder Fleck, speziell bei der sx8:
+Blind spot, especially with sx8:
 
-- Kontrollzwang im Zwischenmenschlichen
-- aggressive Rivalitätsgedanken
-- Eroberungs-Mentalität als Kompensation`
+- Compulsion to control interpersonal relationships
+- Aggressive thoughts of rivalry
+- Conquest mentality as compensation`
         },
         {
-          label: "Augen",
-          content: `Typ 8 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 8 in general has the following gaze quality:
 
-- einnehmend
+- engaging
 - dominant
-- gierig
-- kalt-glänzend
-- fokussiert
-- stark
-- intensiv
-- starr
+- greedy
+- cold-shiny
+- focused
+- strong
+- intense
+- rigid
 
-Die Blickqualität der sx8 ergänzt sich wie folgt:
+The gaze quality of the sx8 complements each other as follows:
 
-- einschüchternd
-- verwegen`
+- intimidating
+- bold`
         },
         {
-          label: "Körper",
-          content: `Typ 8 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 8 generally has the following physical abnormalities:
 
-- starker Haarwuchs
-- männliche (kantige) Züge
-- Zornesfalte
-- kräftiger Körper
-- buschige Augenbrauen
+- strong hair growth
+- masculine (angular) features
+- frown lines
+- strong body
+- bushy eyebrows
 
-Die körperlichen Auffälligkeiten der sx8 ergänzen sich wie folgt:
+The physical characteristics of the sx8 complement each other as follows:
 
-- groß gebaut
-- Hautprobleme`
+- tall build
+- skin problems`
         },
         {
-          label: "Wirkung",
-          content: `Typ 8 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 8 in general has the following effects:
 
-- männlich
-- mächtig
-- ernst
-- kontrollierend
-- einnehmend
-- intensiv
-- polarisierend
-- stattlich
-- einschüchternd
+- masculine
+- powerful
+- serious
+- controlling
+- engaging
+- intense
+- polarizing
+- stately
+- intimidating
 
-Die Wirkweisen der sx8 ergänzen sich wie folgt:
+The effects of the sx8 complement each other as follows:
 
-“Befehlshaber”-Ausstrahlung:
-- exzessiv
-- bestimmend
-- einnehmend`
+“commander” aura:
+- excessive
+- authoritative
+- engaging`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 8 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `You should also know the following about type 8 in general:
 
-- Kontrollsucht und Dominanz
-- verschafft sich automatisch Respekt
-- mächtige Aura
+- Control and dominance
+- Automatically gains respect
+- powerful aura
 
-Über den sx8 sollte man explizit noch Folgendes wissen:
+You should also know the following about the sx8:
 
-- sehr impulsiv
-- offen aggressiv`
+- very impulsive
+- openly aggressive`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Thomas Hertlein
 - Andrew Tate
 - Jeffrey Epstein
@@ -950,13 +952,13 @@ Die Wirkweisen der sx8 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - sx6
 - sx3
 - sx1
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - sx6
 - sx3
@@ -964,10 +966,10 @@ Verwechslung in weiblicher Form:
 - sx1`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx8 folgende Partner am ehesten:
+Statistically speaking, the sx8 is most likely to choose the following partners:
 
 - sx2
 - sx/se7
@@ -975,27 +977,27 @@ Statistisch gesehen wählt die sx8 folgende Partner am ehesten:
 - so/se6`
         },
         {
-          label: "Verkauf",
-          content: `- Dominanz und Überlegenheit der sx8 zulassen und nicht dagegen anstreben
-- Respekt & Wertschätzung für die sx8 und ihre Errungenschaften erbringen
-- der sx8 das letzte Wort lassen
-- das Produkt als sehr wertvolles und erstrebenswertes Add-On darstellen, um die Gier der 8 zu wecken
-- Interesse für die sx8 anbringen
-- den Gotteskomplex der sx8 bedienen und ihr symbolisch applaudieren
-- Ehrlichkeit, Transparent und Integrität ist der sx8 besonders wichtig, ebenso wie Stabilität und Verlässlichkeit
-- man sollte die sx8 nie warten lassen!
-- Bündnisschließung als Hilfsmittel nutzen`
+          label: "Sales",
+          content: `- Allow dominance and superiority of the sx8 and not strive against it
+- show respect & appreciation for the sx8 and its achievements
+- let the sx8 have the last word
+- Present the product as a very valuable and desirable add-on to arouse the greed of the sx8
+- generate interest in the sx8
+- serve the god complex of the sx8 and applaud it symbolically
+- honesty, transparency and integrity are particularly important to the sx8, as are stability and reliability
+- you should never keep the sx8 waiting!
+- Use alliance formation as a tool`
         },
         {
-          label: "Führung",
-          content: `- Achtung: sehr anspruchsvolle Herausforderung in der Führung aufgrund der extremen Fügungsunfähigkeit der sx8!
-- Stärke und Initiative der sx8 loben und anerkennen
-- niemals vom oben herab sprechen, eher als Ratgeber fungieren
-- viel Freiraum lassen und die sx8 autonom arbeiten lassen
-- Machtspielchen mit der sx8 nicht persönlich nehmen und gereizt darauf reagieren, denn dadurch testet sie einen unterbewusst nur
-- keinerlei Strukturen vorgeben, sondern die sx8 alles, was sie macht, selbst entwickeln lassen
-- Respekt vor der sx8 und ihren Leistungen haben, aber sich nicht einschüchtern lassen, denn sie spürt sehr schnell, wie die Machtverhältnisse sind und ab dem Zeitpunkt, in dem man sich unterordnet und die sx8 spürt, dass sie auf einmal in der Führungsrolle ist, wird sie diese nicht mehr loslassen, sondern daran festhalten und einen immer wieder spüren lassen, wie die Machtverhältnisse sind
-- Stärke und Ehrlichkeit zeigen`
+          label: "Management",
+          content: `- Caution: very demanding leadership challenge due to the extreme inability of the sx8 to join!
+- Praise and recognize the strength and initiative of the sx8
+- Never talk down to the sx8, rather act as an advisor
+- Allow plenty of freedom and let the sx8 work autonomously
+- Don't take power games with the sx8 personally and react irritably to them, as this only tests you subconsciously
+- Do not dictate any structures, but let the sx8 develop everything it does itself
+- Have respect for the sx8 and her achievements, but don't let yourself be intimidated, because she senses very quickly what the balance of power is like and from the moment you subordinate yourself and the sx8 senses that she is suddenly in the leadership role, she will not let go of it, but will hold on to it and let you feel again and again what the balance of power is like.
+- Show strength and honesty`
           
         }
       ]
