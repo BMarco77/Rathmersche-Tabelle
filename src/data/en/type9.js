@@ -2,422 +2,422 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type9Data = {
   type: 9,
-  title: "Harmonie",
-  center: "Bauchmensch",
-  side: "Neutrale Seite",
+  title: "Harmony",
+  center: "Gut People",
+  side: "Neutral",
   color: TYPE_COLORS[9],
 
   centerInfo: {
-    content: `Grundproblem:
-Schutzdefizit (Gefühl, angegriffen zu werden / eingeschränkt zu sein)
+    content: `Basic problem: 
+Trust deficit (feeling of not being able to trust / being insecure & anxious)
 
-Hauptthemen:
-- Instinkt 
-- Territorium 
-- Angriff & Verteidigung 
-- Aggressionen 
-- Handlungen
+Main themes:
+- Rationalism
+- Analysis
+- Structure 
+- Security 
+- Caution 
+- Thoughts
 
-Identifikation:
-- „Ich bin, wie ich handle.“`
+Identification:
+“I am what gives me security.”`
   },
 
   typeInfo: {
-    content: `Blockierte Bauchenergie (Bauchenergie wird unterdrückt)
+    content: `Blocked gut energy (gut energy is suppressed)
 
-Grundmotivation: 
-Harmonie
+Basic motivation: 
+Harmony
 
-Abwehrmechanismus: 
-Schutz durch Verschmelzung`
+Defense mechanism: 
+Protection through fusion`
   },
 
   sideInfo: {
-    content: `Typ 9 ist der einzige Enneagrammtyp, der sich weder der männlichen noch der weiblichen Seite des Enneagramms zuordnen lässt. Er weist Neutralität in seinen Charakter- & Körperzügen auf, was eng verbunden mit der Konturenlosigkeit von Typ 9 ist.`
+    content: `Type 9 is the only Enneagram type that cannot be assigned to either the masculine or feminine side of the Enneagram. It exhibits neutrality in its character and body traits, which is closely linked to the lack of contours of type 9.`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 9 wird in folgenden Zuständen gemessen:
+      label: "Levels of consciousness",
+      content: `The health of the mind of type 9 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund, 
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Sich aufgebender Mensch
-2. Gespaltener Mensch
-3. Nachlässiger
-4. Resignierter Fatalist
-5. Passiv-gleichgültiger Mensch
-6. Angepasster Mensch
-7. Gutherziger Friedensstifter
-8. Empfänglicher Mensch
-9. In sich ruhender Mensch`
+1. surrendering person
+2. split person
+3. careless
+4. resigned fatalist
+5. passive-indifferent person
+6. conformist
+7. kind-hearted peacemaker
+8. receptive person
+9. introverted person`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      label: "Tritypes",
+      content: `The purpose of the tritype is that every person has a predominant Enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is of course made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
-„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
+To determine the tritype, you have to ask yourself the following question: “If a person had to be a heart person/head person/belly person, which of the three types in each energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+This creates a triad (e.g. 3-5-8) that can explain the differences in characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the 9 basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: concerned, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, knowing, wise
+Type 6: questioning, scrutinizing, supportive
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peaceable
 
-Im Fall von Typ 9 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 9, there are the following possibilities for the tritypes:
 
-9-2-5: Problemlöser
-9-2-6: Guter Samariter
-9-4-5: Kontemplativer
-9-2-7: Friedensstifter
-9-4-6: Suchender
-9-3-5: Denker
-9-4-7: Sanftmütiger Geist
-9-3-6: Vermittler
-9-3-7: Botschafter`
+9-2-5: Problem solver
+9-2-6: Good Samaritan
+9-4-5: Contemplative
+9-2-7: Peacemaker
+9-4-6: Seeker
+9-3-5: Thinker
+9-4-7: Gentle spirit
+9-3-6: Mediator
+9-3-7: Ambassador`
     },
 
     {
-      label: "Leidenschaft: Trägheit",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+      label: "Passion: Inertia",
+      content: `Meaning of passion in this context:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
+- Pseudo-protective mechanism, which literally “creates suffering”
 
-Bedeutung von Trägheit in diesem Kontext:
+Meaning of Inertia in this context:
 
-- Langsamkeit, Anpassung & Konfliktscheue, um die größtmögliche Harmonie zu erlangen
+- Slowness, adaptation & conflict aversion in order to greatest possible harmony harmony
 
-Gesteigerte Formen: 
+Increased forms: 
 
-- Entscheidungsunfähigkeit
-- Stagnation
-- Selbstvergessenheit
-- Verschmelzung`
+- Inability to make decisions
+- stagnation
+- Self-forgetfulness
+- Merging`
     },
 
     {
-      label: "Umgang",
-      content: `- Friedlicher Umgang (keine Aggressionen)
-- Verbindung schaffen
-- Einstellung auf das Individuum (gewisses Maß an Trägheit akzeptieren)
-- Gemeinsamkeiten herausstellen
-- Harmonie stärken 
-- keine Grenzen aufzeigen
-- Führung übernehmen
-- wenig Verantwortung auf das Gegenüber abschieben
-- Einheitsbewusstsein fördern`
+      label: "Handling",
+      content: `- Peaceful interaction (no aggression)
+- Creating a connection
+- Attitude towards the individual (accept a certain degree of inertia accept)
+- Emphasize commonalities
+- Strengthen harmony 
+- Do not show boundaries
+- Take the lead
+- Shift little responsibility to the shift responsibility to the other person
+- Promote a sense of unity`
     },
 
     {
-      label: "Flügel: 8",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 8",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 8:
+Wings of type 8:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Beschützerinstinkt 
-- positive Einflussnahme 
-- Führungsqualitäten 
-- großes  Reaktionsvermögen 
-- Präsenz 
-- “Fels in der Brandung” 
-- Durchsetzungsstärke 
-- Verteidigungsbereitschaft 
-- automatisches Verschaffen von Respekt 
-- Stärke
+- Protective instinct 
+- Positive influence 
+- leadership qualities 
+- great responsiveness 
+- presence 
+- “Rock in the surf” 
+- assertiveness 
+- Readiness to defend 
+- automatic acquisition of respect 
+- strength
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Machtgier 
-- Wollust 
-- überschießende Aggressionen 
-- Besitzergreifung von Objekten & Menschen 
-- Einschüchterung / Eroberung 
-- Gotteskomplex 
-- Zerstörungswut 
-- ausbeuterische Tendenzen 
-- zwanghafte Überlegenheit 
-- direkte Gegengewalt`
+- greed for power 
+- lust 
+- Excessive aggression 
+- Possession of objects & people 
+- intimidation / conquest 
+- God complex 
+- Destructive rage 
+- Exploitative tendencies 
+- compulsive superiority 
+- direct counter-violence`
     },
 
     {
-      label: "Flügel: 1",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 1",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an enneatype have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 1:
+Wing to type 1:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- stark ausgeprägte Vernunft und Prinzipientreue 
-- Talent für die Kreation von Struktur / Ordnung 
-- hohes Maß an Ehrgeiz  
-- viel Fokus 
-- Fähigkeit, die Rolle eines Mentors einzunehmen 
-- Drang nach Optimierung / Fehlerbewusstsein 
-- Überzeugungskraft 
-- mentale Stärke & Disziplin 
-- Gewissenhaftigkeit 
-- hohe Werte 
-- Diskussionsfähigkeit
+- Strongly developed reason and loyalty to principle 
+- Talent for the creation of structure / order 
+- High level of ambition  
+- a lot of focus 
+- Ability to take on the role of a mentor 
+- Drive for optimization / error awareness 
+- persuasiveness 
+- Mental strength & discipline 
+- conscientiousness 
+- high values 
+- discussion skills
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Engstirnigkeit 
-- Rechthaberei 
-- Doppelmoral 
-- zu hohe Ansprüche Mitmenschen gegenüber 
-- Arroganz 
-- Intoleranz anderen Meinungen gegenüber 
-- Konfliktsucht 
-- Kritikunfähigkeit 
-- zwanghafte Präsentation von Überlegenheit`
+- narrow-mindedness 
+- dogmatism 
+- double standards 
+- Too high expectations towards fellow human beings 
+- arrogance 
+- Intolerance of other opinions towards 
+- addiction to conflict 
+- inability to criticize 
+- Compulsive presentation of superiority`
     },
 
     {
-      label: "Stresspunkt: 6",
-      content: `Definition Stresspunkt:
+      label: "Stress point: 6",
+      content: `Definition of stress point:
 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+As soon as an Enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, ...), it compensates for this by adopting characteristics from its so-called stress point.
 
-Stresspunkt in Typ 6:
+Stress point in type 6:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- strukturiert
-- ehrlich
+- structured
+- honest
 - loyal
-- vernünftig
+- reasonable
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- ängstlich
-- dogmatisch
-- blockiert
+- fearful
+- dogmatic
+- blocked
 - ignorant`
     },
 
     {
-      label: "Entspannungspunkt: 3",
-      content: `Definition Entspannungspunkt:
+      label: "Relaxation point: 3",
+      content: `Definition of relaxation point:
 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+As soon as an Enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), it develops by adopting characteristics from its so-called relaxation point.
 
-Entspannungspunkt in Typ 3:
+Relaxation point in type 3:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- fokussiert
-- ehrgeizig
-- selbstdarstellerisch
-- aktiv
+- focused
+- ambitious
+- self-promoting
+- active
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- eitel
-- täuschend
-- unauthentisch
-- narzisstisch`
+- vain
+- deceptive
+- inauthentic
+- narcissistic`
     }
   ],
 
   subtypes: [
     {
       code: "se9",
-      content: `Grundmotivation:
-Harmonie (in der Selbsterhaltung)
+      content: `Basic motivation:
+Harmony (in self-preservation)
 
-Leidenschaft: 
-Trägheit (in der Selbsterhaltung)
+Passion: 
+Inertia (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- starker Redefluss
-- viel Appetit (geistig & körperlich)
-- Vulkan-Prinzip (Ausbruch von Aggressionen nach langer Ruhezeit, danach wieder ruhig)
-- schläft in Routinen & Gewohnheiten ein
-- betäubt sich selbst
-- kann sehr feindselig werden, wenn sie "von anderen verarscht wird"
-- starke Aggression, sobald man sie aus ihrer Routine schmeißt
-- prokrastiniert gerne
-- sehr bequem 
-- Entscheidungsschwäche
-- Konfliktunfähigkeit
-- Selbstvergessenheit
-- starke Trägheit
-- sammelt gerne Dinge und Informationen
-- veränderungsunfähig
-- harmonisch im Alltag
-- freundlich & warmherzig
-- zeitweise passiv-aggressiv`,
+- strong flow of speech
+- much appetite (mental & physical)
+- volcano principle (eruption of aggression after a long rest, then calm again)
+- falls asleep in routines & habits habits
+- numbs himself
+- can become very hostile, when she is “made fun of by others by others”
+- strong aggression as soon as throws them out of their routine
+- likes to procrastinate
+- Very comfortable 
+- poor decision-making
+- inability to deal with conflict
+- self-forgetfulness
+- strong laziness
+- likes to collect things and information
+- incapable of change
+- harmonious in everyday life
+- friendly & warm-hearted
+- passive-aggressive at times`,
 
       traits: [
         {
-          label: "warm",
-          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+          label: "Warm",
+          content: `Due to the accumulated energy of the self-preserving subtype, it is often perceived as warmer in comparison to the others.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
+This is mainly due to the “childish and selfish” nature of the self-preserving types.`
         },
         {
-          label: "kindlich",
-          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+          label: "Childlike",
+          content: `The self-preserving subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the ego-centered world view of this subtype.`
         },
         {
-          label: "Normaltyp",
-          content:  `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normal",
+          content:  `The normal type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do in moderation what satisfies it.
 
-Im Fall der se9 bedeutet das, dass dieser Enneagrammtyp die Trägheit im normalen Maße lebt.
+In the case of the se9, this means that this Enneagram type lives inertia to a normal degree.
 
-Er hat die Erfahrung gemacht, dass er Harmonie empfängt, wenn er seine Trägheit nach außen hin lebt.`
+He has experienced that he receives harmony when he lives his inertia outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se9 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The following characteristics are known to the se9 and can be addressed:
 
-- er ist gemütlich veranlagt
-- er mag Routinen und eine feste Tagesstruktur
-- er hat ein großes Herz und übernimmt gerne Verantwortung
-- er hat tiefes Interesse für einige Themen und beschäftigt sich mit Vielem
-- auf gewisse Art und Weise ist er ein Genussmensch und erfreut sich sowohl an geistigen als auch an materiellen Dingen
-- er ist sehr gutmütig
-- er hat ein Helfersyndrom
-- er fühlt sich aber auch schnell in die Enge getrieben und benutzt
-- er ist sehr harmonisch veranlagt
-- er geht Konflikten aus dem Weg
-- er ist im Wesen eher langsam als schnell
-- er hat oftmals einen guten Überblick und kann gut Zusammenhänge erkennen
-- er ist wie ein Vulkan und bricht von Zeit zu Zeit mal aus, ruht dann aber wieder eine gewisse Zeit
-- er kann sehr schlichtend sein, solange er selbst in seiner Mitte ist
-- Selbstvergessenheit gehört zu seinen Schwächen`
+- he has a leisurely disposition
+- He likes routines and a fixed daily structure
+- He has a big heart and likes to take on responsibility
+- he has a deep interest in some topics and deals with many things
+- in a certain way he is a man of pleasure and enjoys both spiritual and material things as well as material things
+- he is very good-natured
+- he has a helper syndrome
+- but he also quickly feels cornered cornered and used
+- he has a very harmonious disposition
+- he avoids conflicts
+- he is rather slow in nature than fast
+- he often has a good overview and is good at recognize connections
+- he is like a volcano and erupts erupts from time to time, but then but then rests again for a certain time
+- it can be very conciliatory, as long as he himself is in his center is
+- Self-forgetfulness is one of his weaknesses`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 9 im Allgemeinen: 
+Blind spot of type 9 in general: 
 
-- Trägheit & Passivität als Schutzgarant
-- aktives Schaffen von äußeren Routinen & Anpassungsmechanismen als Kompensation
-- Konfliktscheue
-- Betäubung bei Überforderung
+- Inertia & passivity as guarantor of protection
+- active creation of external routines & adaptation mechanisms as compensation
+- conflict aversion
+- Anesthesia in case of excessive demands
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking
+- egoism
+- need orientation
 
-Blinder Fleck, speziell bei der se9:
+Blind spot, especially in the se9:
 
-- Stagnation durch Routinen & Gewohnheiten
-- Appetit (auf Wissen oder Nahrung) als Betäubung
-- zwanghafte Ablehnung von Eitelkeit & Selbstdarstellung`
+- Stagnation through routines & habits
+- Appetite (for knowledge or food) as anesthesia
+- Compulsive rejection of vanity & self-expression`
         },
         {
-          label: "Augen",
-          content: `Typ 9 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 9 generally has the following gaze quality:
 
-- ausdruckslos
+- expressionless
 - warm
-- verschmelzend
-- müde
-- freundlich
-- peripher
-- “Reptilienaugen”
+- melting
+- tired
+- friendly
+- peripheral
+- “Reptilian eyes”
 
-Die Blickqualität der se9 ergänzt sich wie folgt:
+The gaze quality of the se9 complements each other as follows:
 
-- glänzend-hungrig
-- gierig
-- interessiert`
+- shiny-hungry
+- greedy
+- interested`
         },
         {
-          label: "Körper",
-          content: `Typ 9 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 9 in general has the following physical abnormalities:
 
-- Zornesfalte
-- weiche Züge
-- großes Lächeln
+- frown lines
+- soft features
+- big smile
 
-Die körperlichen Auffälligkeiten der se9 ergänzen sich wie folgt:
+The physical characteristics of se9 complement each other as follows:
 
-- Hang zum Übergewicht
-- weiche & warme Stimme`
+- tendency to be overweight
+- soft & warm voice`
         },
         {
-          label: "Wirkung",
-         content: `Typ 9 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+         content: `Type 9 in general has the following effects:
 
-- selbstvergessen
-- angepasst
-- verschmelzend
-- zurückhaltend
-- positiv/optimistisch
-- freundlich
-- träge/langsam
+- oblivious
+- adapted
+- merging
+- reserved
+- positive/optimistic
+- friendly
+- sluggish/slow
 
-Die Wirkweisen der se9 ergänzen sich wie folgt:
+The effects of the se9 complement each other as follows:
 
-“Gourmet”-Ausstrahlung:
+“Gourmet” charisma:
 - warm
-- aufgequollen
-- bequem
-- interessiert`
+- puffy
+- comfortable
+- interested`
         },
         {
-          label: "Weiteres",
-         content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+         content: `You should also know the following about type 9 in general:
 
-- Tendenz zum aufopfernden Verhalten
-- starke Konfliktscheue
-- entscheidungs- & reaktionsarm
+- Tendency towards self-sacrificing behavior
+- Strong conflict aversion
+- poor decision making & reaction
 
-Über den se9 sollte man explizit noch Folgendes wissen:
+The following should be explicitly known about se9:
 
-- Routinefreund
-- viel Appetit (sowohl Wissen als auch Essen)
-- brodelnder Vulkan
-- einziger Typ 9, der offen aggressiv sein kann`
+- routine friend
+- a lot of appetite (both knowledge and as well as food)
+- seething volcano
+- only type 9 that can be openly can be aggressive`
         },
 {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Detlef Rathmer
 - Daniel Beuthner
 - Angela Merkel
@@ -430,24 +430,24 @@ Die Wirkweisen der se9 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - se8
 - se7
 - se4
 - so2
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se8
 - se7
 - se4`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die se9 folgende Partner am ehesten:
+Statistically speaking, the se9 is most likely to choose the following partners:
 
 - se7
 - se1
