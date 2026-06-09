@@ -2,457 +2,456 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type7Data = {
   type: 7,
-  title: "Spaß",
-  center: "Kopfmensch",
-  side: "Männliche Seite",
+  title: "Fun",
+  center: "Head People",
+  side: "Masculine Side",
   color: TYPE_COLORS[7],
 
   centerInfo: {
-    content: `Grundproblem: 
-Vertrauensdefizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
+    content: `Basic problem: 
+Trust deficit (feeling of not being able to trust / being insecure & anxious)
 
-Hauptthemen:
-- Rationalismus 
-- Analyse 
-- Struktur
-- Sicherheit
-- Vorsicht
-- Gedanken
+Main themes:
+- Rationalism
+- Analysis
+- Structure 
+- Security 
+- Caution 
+- Thoughts
 
-Identifikation:
-- “Ich bin, was mir Sicherheit gibt.”`
+Identification:
+“I am what gives me security.”`
   },
 
   typeInfo: {
-    content: `Umgewandelte Kopfenergie (Kopfenergie wird auf sich selbst projiziert)
+    content: `Converted head energy (head energy is projected onto oneself)
 
-Grundmotivation: 
-Spaß
+Basic motivation: 
+Fun
 
-Abwehrmechanismus: 
-Sicherheit durch Planung `
+Defense mechanism: 
+Safety through planning`
   },
 
   sideInfo: {
-    content: `Die männliche Seite des Enneagramms umfasst die Enneagrammtypen 5-8 und zeichnet sich durch männliche Charakter- & Körperzüge aus.
+    content: `The masculine side of the Enneagram comprises Enneagram types 5-8 and is characterized by masculine character and body traits.
 
-Indizien, die hier beachtet werden sollten:
+Indications that should be noted here:
 
-Nasenform: 
-- grob
-- breit 
-- unförmig 
-- rund
-- kantig
-- männlich
+Nose shape: 
+- coarse 
+- broad 
+- misshapen 
+- round 
+- angula 
+- masculine
 
-Gesichtspartie: 
-- grobe Haut
-- unreine Haut 
-- markante Gesichtsform
-- starker Unterkiefer
-- kurze Wimpern
+Facial area: 
+- coarse skin 
+- blemished skin 
+- distinctive face shape 
+- strong lower jaw 
+- short eyelashes
 
-Wirkung: 
-- maskulin
-- grob 
-- kantig`
+Effect: 
+- masculine 
+- coarse 
+- angular`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 7 wird in folgenden Zuständen gemessen:
+      label: "Level of consciousness",
+      content: `The health of the mind of type 7 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund, 
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Panischer Hysteriker
-2. Manisch-triebhafter Mensch
-3. Impulsiver Realitätsflüchtling
-4. Exzessiver Materialist
-5. Hyperaktiver Extravertierter
-6. Welterfahrener Lebenskünstler
-7. Tüchtiger Alleskönner
-8. Glücklicher Enthusiast
-9. Ekstatischer Genießer`
+1. panic hysteric
+2. manic-driven person
+3. impulsive escapee from reality
+4. excessive materialist
+5. hyperactive extravert
+6. worldly-wise bon vivant
+7. capable all-rounder
+8. happy enthusiast
+9. ecstatic bon vivant`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist.
+      label: "Tritypes",
+      content: `The purpose of the tritype is that every person has a predominant Enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is of course made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen:
-„Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?“
+To determine the tritype, you have to ask yourself the following question: “If a person had to be a heart person/head person/belly person, which of the three types in each energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z. B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann.
+This creates a triad (e.g. 3-5-8) that can explain the differences in characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the 9 basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: concerned, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, knowing, wise
+Type 6: questioning, scrutinizing, supportive
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peaceable
 
-Im Fall von Typ 7 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 7, there are the following possibilities for the tritypes:
 
-7-1-2: Lehrer
-7-8-2: Freigeist
-7-1-4: Visionär
-7-9-2: Friedensstifter
-7-8-4: Bote
-7-1-3: Konstrukteur
-7-9-4: Sanftmütiger Geist
-7-8-3: Macher
-7-9-3: Botschafter`
+7-1-2: Teacher
+7-8-2: Free spirit
+7-1-4: Visionary
+7-9-2: Peacemaker
+7-8-4: Messenger
+7-1-3: Constructor
+7-9-4: Gentle spirit
+7-8-3: Doer
+7-9-3: Ambassador`
     },
 
     {
-      label: "Leidenschaft: Völlerei",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+      label: "Passion: Gluttony",
+      content: `Meaning of passion in this context:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich „Leiden schafft“
+- Pseudo-protective mechanism, which literally “creates suffering”
 
-Bedeutung von Zorn in diesem Kontext:
+Meaning of gluttony in this context:
 
-- Leben in Extremen, um den größtmöglichen Spaß zu erlangen
+- Living in extremes to get the greatest possible pleasure possible
 
-Gesteigerte Formen: 
+Increased forms: 
 
-- Oberflächlichkeit
-- Sprunghaftigkeit
-- Opportunismus
-- Leidverdrängung`
+- Superficiality
+- volatility
+- opportunism
+- Repression of suffering`
     },
 
     {
-      label: "Umgang",
-      content: `- Humor & Spaß fördern
-- Abwechslung bringen
-- Langeweile beim Gegenüber vermeiden
-- Leichtigkeit & Unbeschwertheit vermitteln
-- Leid- & Problemgespräche vermeiden
-- Darstellung des Positiven
-- Berücksichtigung des großen inneren Kindes des Gegenübers
-- wenig Komplexität mit einbringen (Einfachheit stärken)
-- Freiheit als hohen Wert darstellen`
+      label: "Handling",
+      content: `- Promote humor & fun
+- Bring variety
+- avoid boredomavoid
+- Lightness & light-heartedness convey
+- Suffering & problem conversations avoid
+- Presenting the positive
+- Consideration of the big inner child of the other person
+- Include little complexity (strengthen simplicity)
+- Present freedom as a high value represent`
     },
 
     {
-      label: "Flügel: 6",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 6",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 6:
+Wings of type 6:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Pflichtbewusstsein 
-- Loyalität 
-- Ehrlichkeit 
-- Mut 
-- gesunde Skepsis 
-- Struktur & Ordnung 
-- Verlässlichkeit 
-- Anpassungsfähigkeit 
-- Sicherheitsorientierung 
-- Freundlichkeit & innere Güte
+- Sense of duty 
+- loyalty 
+- honesty 
+- courage 
+- healthy skepticism 
+- Structure & order 
+- reliability 
+- adaptability 
+- safety orientation 
+- Kindness & inner goodness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- übertriebene Angst 
-- übermäßige Skepsis 
-- Anpassungszwang 
-- Hierarchie-Denken 
-- Autoritätshörigkeit 
-- Engstirnigkeit 
-- Schwarz-Weiß-Denken 
-- hohes Maß an Vorurteilen 
-- Gefühlsblindheit 
-- blockiertes inneres Wesen`
+- exaggerated fear 
+- Excessive skepticism 
+- compulsion to conform 
+- hierarchical thinking 
+- Deference to authority 
+- narrow-mindedness 
+- black-and-white thinking 
+- High degree of prejudice 
+- emotional blindness 
+- blocked inner being`
     },
 
     {
-      label: "Flügel: 8",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 8",
+      content: `Meaning of the wings:
 
-Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-Dies führt zu einer Eigenschaftsadaption
-Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 8:
+Wings of type 8:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Beschützerinstinkt 
-- positive Einflussnahme 
-- Führungsqualitäten 
-- großes  Reaktionsvermögen 
-- Präsenz 
-- “Fels in der Brandung” 
-- Durchsetzungsstärke 
-- Verteidigungsbereitschaft 
-- automatisches Verschaffen von Respekt 
-- Stärke
+- Protective instinct 
+- Positive influence 
+- leadership qualities 
+- great responsiveness 
+- presence 
+- “Rock in the surf” 
+- assertiveness 
+- Readiness to defend 
+- Automatic acquisition of respect 
+- strength
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Machtgier 
-- Wollust 
-- überschießende Aggressionen 
-- Besitzergreifung von Objekten & Menschen 
-- Einschüchterung / Eroberung 
-- Gotteskomplex 
-- Zerstörungswut 
-- ausbeuterische Tendenzen 
-- zwanghafte Überlegenheit 
-- direkte Gegengewalt`
+- greed for power 
+- lust 
+- Excessive aggression 
+- Possession of objects & people 
+- intimidation / conquest 
+- God complex 
+- Destructive rage 
+- Exploitative tendencies 
+- compulsive superiority 
+- direct counter-violence`
     },
 
     {
-      label: "Stresspunkt: 1",
-      content: `Definition Stresspunkt:
+      label: "Stress point: 1",
+      content: `Definition of stress point:
 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+As soon as an Enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, ...), it compensates for this by adopting characteristics from its so-called stress point.
 
-Stresspunkt in Typ 1:
+Stress point in type 1:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- ordentlich
-- diszipliniert
-- vernünftig
-- strukturiert
+- orderly
+- disciplined
+- reasonable
+- structured
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- rechthaberisch
-- perfektionistisch
+- opinionated
+- perfectionist
 - arrogant
-- scheinheilig`
+- hypocritical`
     },
 
     {
-      label: "Entspannungspunkt: 5",
-      content: `Definition Entspannungspunkt:
+      label: "Relaxation point: 5",
+      content: `Definition of relaxation point:
 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+As soon as an Enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), it develops by adopting characteristics from its so-called relaxation point.
 
-Entspannungspunkt in Typ 5:
+Relaxation point in type 5:
 
-Entwicklung im positiven Fall:
+Development in the positive case:
 
-- tief-interessiert
-- analytisch
+- deeply interested
+- analytical
 - rational
-- bedacht
+- thoughtful
 
-Entwicklung im negativen Fall:
+Development in the negative case:
 
-- isoliert
-- unempathisch
-- verkopft
-- geizig`
+- isolated
+- unsympathetic
+- cerebral
+- stingy`
     }
   ],
 
   subtypes: [
     {
   code: "se7",
-  content: `Grundmotivation:
-Spaß (in der Selbsterhaltung)
+  content: `Basic motivation:
+Fun (in self-preservation)
 
-Leidenschaft: 
-Völlerei (in der Selbsterhaltung)
+Passion: 
+Gluttony (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- Genussmensch
-- starkes inneres Kind
-- unselbstständig
-- naiv
-- oberflächlich
-- interessiert
-- begeistert
-- bequem
-- Ihr Zuhause als sicherer Anhaltspunkt
-- im Familienverbund sehr unterstützend
-- hält die Leute bei Laune
-- Familie als Clan, in dem jeder jedem hilft, um für jeden den größtmögliche Spaß zu gewährleisten
-- schließt gerne Bündnisse
-- Planer-Mentalität
-- lebendige Vorstellungskraft & Phantasie
-- Planung von Erlebnissen/Ausflügen
-- stark materialistisch
-- spontan, plant aber auch gerne
-- starker Optimismus
-- sieht gerne nur das Schöne
-- heimatverbunden
-- bodenständig
-- ist traditionellen Werten zugeneigt`,
+- Pleasure seeker
+- strong inner child
+- dependent
+- naive
+- superficial
+- interested
+- enthusiastic
+- comfortable
+- Your home as a safe point of reference
+- very supportive
+- keeps people happy
+- Family as a clan, where everyone helps everyone in order to the greatest possible fun ensure
+- Likes to form alliances
+- Planner mentality
+- vivid imagination & imagination
+- planning of experiences/excursions
+- strongly materialistic
+- spontaneous, but also likes to plan
+- Strong optimism
+- likes to see only the beautiful things
+- close to home
+- down-to-earth
+- is attached to traditional values inclined`,
 
   traits: [
     {
-      label: "warm",
-      content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+      label: "Warm",
+      content: `Due to the accumulated energy of the self-preserving subtype, it is often perceived as warmer in comparison to the others.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
+This is mainly due to the “childish and selfish” nature of the self-preserving types.`
     },
 
     {
-      label: "kindlich",
-      content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+      label: "Childlike",
+      content: `The self-preserving subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the ego-centered world view of this subtype.`
     },
 
     {
-      label: "Normaltyp",
-      content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Normal",
+      content: `The normal type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do in moderation what satisfies it.
 
-Im Fall der se7 bedeutet das, dass dieser Enneagrammtyp die Völlerei im normalen Maße lebt.
+In the case of the se7, this means that this Enneagram type lives gluttony to a normal degree.
 
-Er hat die Erfahrung gemacht, dass er Spaß hat, wenn er seine Völlerei nach außen hin lebt.`
+He has experienced that he has fun when he lives his gluttony outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem se7 bewusst und können angesprochen werden:
+      label: "Unmasking",
+      content: `The se7 is aware of the following characteristics and can address them:
 
-- er ist ein Genussmensch
-- er plant gerne Aktivitäten und Erlebnisse
-- er ist tierlieb
-- er ist eher optimistisch veranlagt
-- er mag Langeweile nicht
-- er gönnt sich gerne mal etwas
-- die Familie ist ihm sehr wichtig
-- er legt viel Wert auf die eigene Freiheit und Selbstbestimmtheit
-- er hat eine starke Abneigung gegen Negativität 
-- er kann schnell seine Möglichkeiten erkennen
-- er schließt gerne Bündnisse, um möglichst unbeschwert zu leben
-- Spaß und Freude sind ihm sehr wichtig
-- er ist recht sprunghaft und spontan
-- er genießt gerne die Freuden des Lebens
-- er ist mit Leid oftmals überfordert 
-- er kann im Stress recht gereizt und durchsetzungsstark werden
-- wenn er entspannt ist, entwickelt er tieferes Interesse für bestimmte Themen`
+- he is a pleasure-seeker
+- he likes to plan activities and experiences
+- he is fond of animals
+- he is rather optimistic
+- he does not like boredom
+- he likes to treat himself
+- his family is very important to him
+- he attaches great importance to his own freedom and self-determination
+- he has a strong aversion against negativity 
+- he can quickly recognize his recognize opportunities
+- he likes to make alliances in order to live as carefree as possible
+- Fun and joy are very important to him important
+- He is quite volatile and spontaneous
+- he likes to enjoy the pleasures of life
+- he is often overwhelmed by suffering overwhelmed 
+- he can become quite irritable under stress and assertive
+- when he is relaxed, he develops he develops a deeper interest in certain topics`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- Security identification
+- Thought identification
+- Trust deficit
 
-Blinder Fleck von Typ 7 im Allgemeinen: 
+Blind spot of type 7 in general: 
 
-- Verdrängung & Völlerei als Sicherheitsgarant
-- aktives Schaffen von äußeren Erlebnissen & Spaß als Kompensation
-- Freiheitszwang
-- Leidverdrängung bei Überforderung
+- Repression & gluttony as security guarantor
+- Active creation of external experiences & fun as compensation
+- Compulsion for freedom
+- Displacement of suffering in case of excessive demands
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking
+- egoism
+- need orientation
 
-Blinder Fleck, speziell bei der se7:
+Blind spot, especially with the se7:
 
-- Genusssucht
-- blinder, kindlicher Egoismus
-- Prokrastination`
+- Addiction to pleasure
+- Blind, childish egoism
+- procrastination`
     },
 
     {
-      label: "Augen",
-      content: `Typ 7 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 7 generally has the following look quality:
 
-- strahlend
-- begeistert-glänzend
-- auffressend
-- positiv
-- “Knopfaugen”
--  flüchtig
+- radiant
+- enthusiastic-shining
+- devouring
+- positive
+- “beady eyes”
+- fleeting
 
-Die Blickqualität der se7 ergänzt sich wie folgt:
+The gaze quality of the se7 complements each other as follows:
 
-- ruhig
-- optimistisch
+- calm
+- optimistic
 - dominant`
     },
 
     {
-      label: "Körper",
-      content: `Typ 7 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 7 in general has the following physical abnormalities:
 
-- großes Lächeln
-- Lachfalten
-- Sehschwäche
-- “Geheimratsecken”
-- sonderbare Kopfform
-- Tattoos
+- big smile
+- laugh lines
+- poor eyesight
+- “receding hairline”
+- Strange head shape
+- tattoos
 
-Die körperlichen Auffälligkeiten der se7 ergänzen sich wie folgt:
+The physical abnormalities of se7 complement each other as follows:
 
-- kräftigerer Körperbau
--  “Knopfaugen”
--  (Übergewicht)`
+- Stronger physique
+- “beady eyes”
+- (overweight)`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 7 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 7 in general has the following effects:
 
-- humorvoll
-- oberflächlich
-- flüchtig
-- abgelenkt
-- positiv
-- energiegeladen
-- “verrückt”
+- humorous
+- superficial
+- fleeting
+- distracted
+- positive
+- energetic
+- “crazy”
 
-Die Wirkweisen der se7 ergänzen sich wie folgt:
+The effects of the se7 complement each other as follows:
 
-“Optimisten”-Ausstrahlung:
-- genussfreudig
-- planend
-- blauäugig`
+“optimist” charisma:
+- enjoyable
+- planning
+- blue-eyed`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 7 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 7 in general:
 
-- Hang zum Exzessiven
-- starke Sprunghaftigkeit/“Kindlichkeit”
+- Tendency to excess
+- strong volatility/ “childishness”
 
-Über den se7 sollte man explizit noch Folgendes wissen:
+You should also know the following explicitly about se7:
 
-- Familie als Bündnis ist fundamental wichtig`
+- Family as an alliance is fundamentally important`
     },
 
     {
-  label: "Beispiele",
+  label: "Examples",
   content: `- Larry King
 - Thaddaeus Koroma
 - Big Boi
@@ -469,7 +468,7 @@ Die Wirkweisen der se7 ergänzen sich wie folgt:
 
     {
   label: "Lookalikes",
-  content: `Verwechslung in männlicher Form:
+  content: `Confusion in male form:
 
 - se8
 - se2
@@ -477,7 +476,7 @@ Die Wirkweisen der se7 ergänzen sich wie folgt:
 - se9
 - se4
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se8
 - se2
@@ -486,10 +485,10 @@ Verwechslung in weiblicher Form:
 },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die se7 folgende Partner am ehesten:
+Statistically speaking, the so7 is most likely to choose the following partners:
 
 - se/so/sx9
 - se/so6
@@ -498,69 +497,69 @@ Statistisch gesehen wählt die se7 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- Verantwortungsübernahme zeigen, damit die kindliche 7 kein Gefühl von Überforderung bekommt
-- an den gemütlichen und schönen Lebensalltag appellieren -> "Durch mein Produkt wirst du ein schöneres Leben haben"
-- positiv und begeisternd klingen
-- Negativität oder Leidthemen vermeiden
-- verständliche und leichte Erklärung des Produktes und der Sinnhaftigkeit dahinter
-- Beschreibung des Produktes, sodass die se7 vermittelt bekommt, sie könne damit ihr Leben genussvoller und schöner gestalten
-- genauen Plan ausarbeiten, wie die se7 ihre Ziele mit Hilfe des Produktes erreicht, sodass es ihr leicht und umbeschwerlich vorkommt
-- so wenig verpflichtend wie möglich formulieren, um die se7 nicht abzuschrecken
-- Spaß und Freude vermitteln und keine gedrückte Stimmung
-- Sicherheit und Pflichtbewusstsein ausstrahlen
-- Storytelling ist wichtig, damit die se7 bei Laune gehalten wird`
+      label: "Sales",
+      content: `- Taking responsibility so that the child 7 feeling of being overwhelmed gets
+- to the cozy and beautiful everyday life appeal to -> “With my product you will have a better life”
+- sound positive and inspiring
+- Negativity or topics of suffering avoid
+- Understandable and easy explanation of the product and the meaningfulness behind it
+- Describe the product so that the se7 gets the impression that she can use it to make her life more enjoyable and beautiful
+- work out a precise plan for how the se7 can achieve her goals with the help of the product so that it seems easy and effortless to her
+- formulate as few obligations as possible so as not to deter the se7
+- convey fun and joy and not a depressed mood
+- Exude security and a sense of duty
+- Storytelling is important to keep the se7 happy`
     },
 
     {
-      label: "Führung",
-      content: `- Wohlwollen entgegenbringen und eine starke Förderung der se7 kommunizieren
-- Spaß und Humor mit in die Führung integrieren / zu starke Ernsthaftigkeit und Monotonie vermeiden
-- Bündnisgründung als Mittel zum Zweck, denn wenn die se7 das Gefühl hat, dass sie aus einem „Deal“ viel herausbekommt, ist sie sehr motiviert
-- Belohnungssystem einbauen, um den se7 zu motivieren und bei Laune zu halten 
-- aus der Arbeit ein „Spiel“ oder eine „Challenge“ machen, um dem se7 das Gefühl von Leichtigkeit zu vermitteln und ihm seinen Spielplatz zu bieten, damit er folglich in diesem Bereich in die positive Völlerei reingeht
--  materielle Werte und Ziele formulieren
-- Leichtigkeit und Unbeschwertheit bei disziplinierter Arbeit in Aussicht stellen
-- Opportunismus der se7 bedienen und ihr rational begreifbar machen, dass das Leben viel schöner ist, wenn sie einige Zeit durch harte Arbeit durchgegangen ist, weil sie dann viel freier leben kann
-- ständige Betreuung, da die se7 schnell die Motivation und den Spaß verliert und nichts mehr macht
-- Freiheit fördern`
+      label: "Management",
+      content: `- Show goodwill and communicate strong support for se7
+- Integrate fun and humor into the leadership / avoid too much seriousness and monotony
+- Establish alliances as a means to an end, because if the se7 has the feeling that they are getting a lot out of a “deal”, they are very motivated
+- Build in a reward system to motivate the se7 and keep them happy 
+- turn work into a “game” or “challenge” to give the se7 a feeling of lightness and provide him with his playground, so that he consequently goes into positive gluttony in this area
+- Formulate material values and goals
+- Promise ease and light-heartedness with disciplined work
+- cater to se7's opportunism and make her rationally understand that life is much nicer when she has worked hard for a while, because then she can live much more freely
+- constant supervision, as the se7 quickly loses motivation and fun and no longer does anything
+- Promote freedom`
     }
   ]
 },
     {
   code: "so7",
-  content: `Grundmotivation:
-Spaß (in der sozialen Gruppe)
+  content: `Basic motivation:
+Fun (in the social group)
 
-Leidenschaft: 
-Völlerei (in der sozialen Gruppe)
+Passion: 
+Gluttony (in the social group)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- kämpft gegen ihren "inneren Schweinehund" an
-- Märtyrerhaltung
-- möchte sich disziplinieren
-- Visionär
-- hohe Ideale
-- freiheitsliebend
-- Freund von Fairness
-- sehr interessiert
-- intellektuell
-- aufopfernd in der sozialen Gruppe
-- kann sich gut vorstellen, für eine bestimmte Sache alles auf's Spiel zu setzen
-- zögernd, wenn Freizeit beschnitten wird
-- empfindet es als unangenehm, sich für seine Mitmenschen verantwortlich zu fühlen
-- freundschaftlich/kameradschaftlich
-- ungeduldig
-- Spannungsfeld zwischen Ungeduld & Idealismus
-- Anerkennung ist wichtig`,
+- fights against her “inner inner bastard
+- martyr attitude
+- wants to discipline herself
+- visionary
+- high ideals
+- freedom-loving
+- friend of fairness
+- very interested
+- intellectual
+- self-sacrificing in the social group
+- can well imagine going all out for a to put everything on at risk
+- hesitant when free time is curtailed
+- finds it unpleasant, feeling responsible for his fellow human beings to feel responsible for others
+- friendly/ companionable
+- impatient
+- Tension between Impatience & idealism
+- Recognition is important`,
 
   traits: [
     {
-      label: "kalt",
-      content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+      label: "Cold",
+      content: `Due to the adapted energy of the social subtype, it is often perceived as colder in comparison to the others.
 
-Das hat vor allem mit dem „erwachsen-angepassten“ Wesen der Sozialtypen zu tun.`
+This is mainly due to the “intellectually adapted” nature of the social types.`
     },
 
     {
@@ -571,143 +570,143 @@ Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild dieses Subtyps.
     },
 
     {
-      label: "Kontratyp",
-      content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Contra",
+      content: `The counter-type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that living out the respective passion does not work well and does not satisfy his basic motivation at all, which is actually the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything he can to prevent it from becoming visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion always finds a way into a person's life through a back door, which they do not consciously realize.
 
-Im Fall der so7 bedeutet das, dass dieser Enneagrammtyp gegen die Völlerei ankämpft.
+In the case of so7, this means that this Enneagram type fights against gluttony.
 
-Er hat die Erfahrung gemacht, dass er keinen Spaß hat, wenn er seine Völlerei nach außen hin lebt.`
+He has experienced that he has no fun if he lives his gluttony outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem so7 bewusst und können angesprochen werden:
+      label: "Unmasking",
+      content: `The so7 is aware of the following characteristics and can address them:
 
-- er hat hohe Ideale und Visionen
-- er ist eher nüchtern statt begeistert
-- er hat ständig den Drang, sich zu disziplinieren
-- er neigt dazu, sich für andere aufzuopfern
-- er ist vernünftig und rational, aber möchte dennoch hoch hinaus
-- er optimiert sich selbst gerne
-- er möchte jedem seiner Mitmenschen gleichermaßen Freude bringen
-- er neigt dazu, im Extrem zu leben und sich stark einzuschränken
-- er plant gerne Aktivitäten oder Erlebnisse
-- er kann gut in Gruppendynamik arbeiten
-- er hat einen Sinn für Humor
-- Langeweile mag er nicht
-- er ist sehr aktiv
-- er übernimmt gerne Verantwortung
-- er kann gut mit Menschen umgehen
-- er hat ein großes inneres Kind, was er nach außen aber nicht rauslassen möchte`
+- he has high ideals and visions
+- he is sober rather than enthusiastic
+- he constantly has the urge to discipline
+- he tends to sacrifice himself for others sacrifice himself for others
+- he is reasonable and rational, but still wants to aim high aim high
+- he likes to optimize himself
+- he wants to help each of his people equally bring joy
+- he tends to live in extremes living in extremes and restrict himself
+- he likes to plan activities or experiences
+- he is good at group dynamics work
+- He has a sense of humor
+- He does not like boredom
+- he is very active
+- he likes to take responsibility
+- he is good with people with people
+- he has a big inner child, which he does not want to wants to let out`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- Security identification
+- Thought identification
+- Trust deficit
 
-Blinder Fleck von Typ 7 im Allgemeinen: 
+Blind spot of type 7 in general: 
 
-- Verdrängung & Völlerei als Sicherheitsgarant
-- aktives Schaffen von äußeren Erlebnissen & Spaß als Kompensation
-- Freiheitszwang
-- Leidverdrängung bei Überforderung
+- Repression & gluttony as security guarantor
+- Active creation of external experiences & fun as compensation
+- Compulsion for freedom
+- Displacement of suffering in case of excessive demands
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der so7:
+Blind spot, especially with the so7:
 
-- zu idealistisch
-- Stagnation durch zu hohe Werte
-- unnötige Selbstgeißelung`
+- too idealistic
+- Stagnation due to too high values
+- Unnecessary self-flagellation`
     },
 
     {
-      label: "Augen",
-      content: `Typ 7 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 7 generally has the following look quality:
 
-- strahlend
-- begeistert-glänzend
-- auffressend
-- positiv
-- “Knopfaugen”
--  flüchtig
+- radiant
+- enthusiastic-shining
+- devouring
+- positive
+- “beady eyes”
+- fleeting
 
-Die Blickqualität der so7 ergänzt sich wie folgt:
+The gaze quality of the so7 complements each other as follows:
 
-- ernst
-- skeptisch
-- nachdenklich
-- interessiert`
+- serious
+- skeptical
+- thoughtful
+- interested`
     },
 
     {
-      label: "Körper",
-      content: `Typ 7 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 7 in general has the following physical abnormalities:
 
-- großes Lächeln
-- Lachfalten
-- Sehschwäche
-- “Geheimratsecken”
-- sonderbare Kopfform
-- Tattoos
+- big smile
+- laugh lines
+- poor eyesight
+- “receding hairline”
+- Strange head shape
+- tattoos
 
-Die körperlichen Auffälligkeiten der so7 ergänzen sich wie folgt:
+The physical abnormalities of so7 complement each other as follows:
 
-- starker Bartwuchs
-- Haarausfall`
+- strong beard growth
+- hair loss`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 7 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 7 in general has the following effects:
 
-- humorvoll
-- oberflächlich
-- flüchtig
-- abgelenkt
-- positiv
-- energiegeladen
-- “verrückt”
+- humorous
+- superficial
+- fleeting
+- distracted
+- positive
+- energetic
+- “crazy”
 
-Die Wirkweisen der so7 ergänzen sich wie folgt:
+The effects of so7 complement each other as follows:
 
-“Visionär”-Ausstrahlung:
-- phantasievoll
-- interessiert
-- aufopfernd`
+“visionary” charisma:
+- imaginative
+- interested
+- self-sacrificing`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 7 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 7 in general:
 
-- Hang zum Exzessiven
-- starke Sprunghaftigkeit/“Kindlichkeit”
+- Tendency to excess
+- strong volatility / “childishness”
 
-Über den so7 sollte man explizit noch Folgendes wissen:
+You should know the following explicitly about so7:
 
-- “Besiegen des inneren Schweinehunds” ist wichtig`
+- “Defeating the inner pig dog” is important`
     },
 
     {
-  label: "Beispiele",
+  label: "Examples",
   content: `- Elon Musk
 - Otto Waalkes
 - Jim Carrey
@@ -724,7 +723,7 @@ Die Wirkweisen der so7 ergänzen sich wie folgt:
 
     {
   label: "Lookalikes",
-  content: `Verwechslung in männlicher Form:
+  content: `Confusion in male form:
 
 - so2
 - so6
@@ -732,7 +731,7 @@ Die Wirkweisen der so7 ergänzen sich wie folgt:
 - se4
 - so3
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - so2
 - so6
@@ -741,10 +740,10 @@ Verwechslung in weiblicher Form:
 },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die so7 folgende Partner am ehesten:
+Statistically speaking, the so7 is most likely to choose the following partners:
 
 - so/sx/se2
 - so/sx/se3
@@ -755,233 +754,233 @@ Statistisch gesehen wählt die so7 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- eine Vision verkaufen
-- höhere Werte formulieren, sodass die erwachsene so7 einen tieferen Sinn hinter dem Produkt sieht
-- Flexibilität zeigen
-- Humor & Positivität verkörpern, ohne dabei "albern" zu sein
-- freundlich, zuvorkommend und seriös sein
-- Negativität im Umgang vermeiden
-- Freiheit und Chancenreichtum als Grundwert formulieren, um dem so7 zu zeigen, dass man auf seiner Wellenlänge ist
-- Vielschichtigkeit des Produktes zeigen
-- Leichtigkeit und Unbeschwertheit vermitteln, sodass die so7 nicht abgeschreckt wird
-- einen genauen Plan für den so7 formulieren, um für ihn das bestmögliche aus dem Produkt herauszuholen
-- Interesse an der so7 zeigen und Nachfragen stellen
-- Storytelling ist wichtig, damit die so7 bei Laune gehalten wird
-- Sicherheit geben und pflichtbewusst auftreten`
+      label: "Sales",
+      content: `- sell a vision
+- formulate higher values so that the adult so7 sees a deeper meaning behind the product
+- Show flexibility
+- Embody humor & positivity without being “silly”
+- Be friendly, courteous and serious
+- Avoid negativity in interactions
+- Formulate freedom and a wealth of opportunities as core values to show the so7 that you are on their wavelength
+- Complexity of the product show
+- Convey lightness and light-heartedness so that the so7 is not put off
+- Formulate a precise plan for the so7 to get the best out of the product for them
+- Show interest in the so7 and ask questions
+- Storytelling is important to keep the so7 happy
+- Provide security and act dutifully`
     },
 
     {
-      label: "Führung",
-      content: `- Visionen und Ziele stecken
-- Ehrgeiz und Aufopferung für höhere Werte und Prinzipien als Motivation nutzen
-- mit Humor und Leichtigkeit arbeiten, anstatt engstirnig, stur und ernst zu führen, da die so7 sonst schnell den Spaß an der Sache verliert
-- Langeweile und Monotonie vermeiden
-- Ansehen und Leichtigkeit in der Gruppe in Aussicht stellen
-- Freiheit als Grundwert definieren
-- Abwechslungsreichtum in der Arbeitsweise fördern 
-- Gruppengefühl stärken
-- die Arbeit als Challenge oder „Spiel“ darstellen, um der so7 die Verspieltheit zu gewähren und sie zu motivieren
-- soziale Aufstiegschancen in Aussicht stellen
-- Fairness und Gerechtigkeit garantieren`
+      label: "Management",
+      content: `- Setting visions and goals
+- Use ambition and sacrifice for higher values and principles as motivation
+- Work with humor and lightness instead of leading in a narrow-minded, stubborn and serious manner, otherwise the so7 will quickly lose the fun of the job
+- Avoid boredom and monotony
+- Promise prestige and lightness in the group
+- Define freedom as a fundamental value
+- Promote variety in the way we work 
+- Strengthen group spirit
+- Present the work as a challenge or “game” to allow the so7 to be playful and motivate them
+- Offer the prospect of social advancement opportunities
+- Guarantee fairness and justice`
     }
   ]
 },
 
     {
   code: "sx7",
-  content: `Grundmotivation:
-Spaß (in der zwischenmenschlichen Beziehung)
+  content: `Basic motivation:
+Fun (in the inter human relationship)
 
-Leidenschaft: 
-Völlerei (in der zwischenmenschlichen Beziehung)
+Passion: 
+Gluttony (in the inter human relationship)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- sprunghaft
-- oberflächlich
-- Opportunist
-- Entertainer-Mentalität
-- "Playboy"
-- naiv
-- schnell begeistert
-- "rosa-rote Brille"
-- erbaut sich gerne Luftschlösser
-- verdrängt stark das Leid
-- sehr erlebnisorientiert
-- mag Herausforderungen / einen Reiz
-- Plant gerne im Zwischenmenschlichen
-- mag alles, was außergewöhnlich, intensiv, leuchtend & faszinierend ist
-- verführerischer, als er beabsichtigt
-- immer auf der Suche nach außergewöhnlichen Menschen
-- legt sich nicht gerne fest
-- limitiert sich sehr ungerne
-- hasst Langeweile
-- es macht ihn unglücklich, wenn der zwischenmenschliche Partner nicht an den Erlebnissen teilnimmt
-- sehr optimistisch und aktiv
-- schnell abgelenkt`,
+- erratic
+- superficial
+- opportunist
+- entertainer mentality
+- “playboy”
+- naive
+- quickly enthusiastic
+- “rose-colored glasses”
+- likes to build castles in the air
+- strongly represses suffering
+- very experience-oriented
+- likes challenges / a stimulus stimulus
+- likes to plan in interpersonal relationships
+- likes everything that extraordinary, intense, bright & fascinating
+- more seductive than he ' intends
+- always on the lookout for extraordinary people
+- does not like to commit himself
+- does not like to limit himself
+- hates boredom
+- It makes him unhappy when the interpersonal partner does not participate experiences
+- very optimistic and active
+- Quickly distracted`,
 
   traits: [
     {
-      label: "hitzig",
-      content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+      label: "Fiery",
+      content: `Due to the intense energy of the sexual subtype, it is often perceived as hotter compared to the others.
 
-Das hat vor allem mit dem „jugendlich-energiegeladenen“ Wesen der Sexualtypen zu tun.`
+This is mainly due to the energetic nature of the sexual types.`
     },
 
     {
-      label: "jugendlich",
-      content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+      label: "Youthful",
+      content: `The sexual subtype is usually very youthful and intense in nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the partnership-centered world view of this subtype.`
     },
 
     {
-      label: "Verstärkungstyp",
-      content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+      label: "Reinforcement",
+      content: `The reinforcement type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The reinforcement type has experienced in his life that the strong living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything he can to satisfy it.
 
-Im Fall der sx7 bedeutet das, dass dieser Enneagrammtyp die Völlerei extrem stark lebt.
+In the case of sx7, this means that this Enneagram type lives gluttony extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er Spaß hat, wenn er seine Völlerei nach außen hin lebt.`
+He has experienced that he has fun when he lives his gluttony outwardly.`
     }
   ],
 
   modules: [
     {
-      label: "Demaskierung",
-      content: `Folgende Eigenschaften sind dem sx7 bewusst und können angesprochen werden:
+      label: "Unmasking",
+      content: `The sx7 is aware of the following characteristics and can address them:
 
-- er ist sehr begeisterungsfähig
-- er ist in der Regel sehr motiviert
-- Spaß und Freude ist ihm enorm wichtig
-- er möchte nichts tun, was ihn einschränkt oder langweilig ist
-- er schlängelt sich gut durch's Leben
-- er sieht schnell seine Möglichkeiten und kostet sie aus
-- er hat die Fähigkeit, durch eine rosarote Brille zu gucken
-- er ist sehr optimistisch
-- er plant sehr gerne, egal ob Erlebnisse oder Aktivitäten
-- er ist sehr erlebnisorientiert
-- er hat viel Energie
-- er hat eine Entertainer-Fähigkeit
-- er kommt mit fast jedem klar
-- er ist sehr sprunghaft
-- er sucht immer den größten Lebensgenuss
-- er ist ein "Ganz-oder-gar-nicht"-Typ
-- er lebt oft in Extremen
-- er hat eine starke Intensität
-- er legt viel Wert darauf, mit speziellen Menschen viel Spaß zu haben
-- er neigt dazu, schnell abgelenkt zu sein
-- er hat ein großes inneres Kind
-- im Stress kann er gereizt und rechthaberisch werden
-- er sieht das Leben tendenziell als Spiel
-- er läuft oftmals unbeschwerter durch's Leben als andere Menschen`
+- he is very enthusiastic
+- he is usually very motivated
+- Fun and enjoyment are enormously important
+- he does not want to do anything that restrictive or boring
+- he meanders well through life
+- he quickly sees his opportunities and makes the most of them
+- he has the ability to look through to look through rose-colored glasses
+- he is very optimistic
+- he likes to plan, whether experiences or activities
+- he is very experience-oriented
+- he has a lot of energy
+- he has an entertainer's ability
+- he gets along with almost everyone
+- he is very volatile
+- he is always looking for the greatest pleasure in life
+- he is a “all-or-nothing” type
+- he often lives in extremes
+- he has a strong intensity
+- he attaches great importance to having a lot of fun with special people to have fun
+- he tends to be quickly distracted to be distracted
+- he has a big inner child
+- under stress he can become irritable and become opinionated
+- he tends to see life as a game
+- he often runs through life through life than other people people`
     },
 
     {
-      label: "Blinder Fleck",
-      content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+      label: "Blind spot",
+      content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- Security identification
+- Thought identification
+- Trust deficit
 
-Blinder Fleck von Typ 7 im Allgemeinen: 
+Blind spot of type 7 in general: 
 
-- Verdrängung & Völlerei als Sicherheitsgarant
-- aktives Schaffen von äußeren Erlebnissen & Spaß als Kompensation
-- Freiheitszwang
-- Leidverdrängung bei Überforderung
+- Repression & gluttony as a guarantee of security
+- Active creation of external experiences & fun as compensation
+- Compulsion for freedom
+- Repression of suffering in case of excessive demands
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of the sexual type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- strong & constant rivalry with other people
+- Dependence on external attractiveness & attachments
+- Fear of devaluation & degradation
 
-Blinder Fleck, speziell bei der sx7:
+Blind spot, especially with the sx7:
 
-- extreme Sprunghaftigkeit 
-- zu starke Identifikation mit zwischenmenschlichen Erlebnissen
-- "Ganz-oder-gar-nicht"-Einstellung`
+- extreme volatility 
+- Too strong identification with interpersonal experiences
+- “All-or-nothing” attitude`
     },
 
     {
-      label: "Augen",
-      content: `Typ 7 im Allgemeinen hat folgende Blickqualität:
+      label: "Eyes",
+      content: `Type 7 generally has the following look quality:
 
-- strahlend
-- begeistert-glänzend
-- auffressend
-- positiv
-- “Knopfaugen”
-- flüchtig
+- radiant
+- enthusiastic-shining
+- devouring
+- positive
+- “beady eyes”
+- fleeting
 
-Die Blickqualität der sx7 ergänzt sich wie folgt:
+The gaze quality of the sx7 complements each other as follows:
 
-- energiegeladen
-- impulsiv
-- intensiv
-- interessiert`
+- full of energy
+- impulsive
+- intense
+- interested`
     },
 
     {
-      label: "Körper",
-      content: `Typ 7 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+      label: "Body",
+      content: `Type 7 in general has the following physical abnormalities:
 
-- großes Lächeln
-- Lachfalten
-- Sehschwäche
-- “Geheimratsecken”
-- sonderbare Kopfform
-- Tattoos
+- big smile
+- laugh lines
+- poor eyesight
+- “receding hairline”
+- Strange head shape
+- tattoos
 
-Die körperlichen Auffälligkeiten der sx7 ergänzen sich wie folgt:
+The physical abnormalities of sx7 complement each other as follows:
 
-- orangene Haare
-- groß gebaut`
+- orange hair
+- tall build`
     },
 
     {
-      label: "Wirkung",
-      content: `Typ 7 im Allgemeinen hat folgende Wirkweisen:
+      label: "Effects",
+      content: `Type 7 in general has the following effects:
 
-- humorvoll
-- oberflächlich
-- flüchtig
-- abgelenkt
-- positiv
-- energiegeladen
-- “verrückt”
+- humorous
+- superficial
+- fleeting
+- distracted
+- positive
+- energetic
+- “crazy”
 
-Die Wirkweisen der sx7 ergänzen sich wie folgt:
+The effects of the sx7 complement each other as follows:
 
-“Abenteurer”-Ausstrahlung:
-- erlebnisorientiert
-- sprunghaft
-- energiegeladen
-- begeisterungsfähig`
+“adventurer” charisma:
+- experience-oriented
+- volatile
+- full of energy
+- enthusiastic`
     },
 
     {
-      label: "Weiteres",
-      content: `Über Typ 7 im Allgemeinen sollte man noch Folgendes wissen:
+      label: "Other",
+      content: `You should also know the following about type 7 in general:
 
-- Hang zum Exzessiven
-- starke Sprunghaftigkeit/“Kindlichkeit”
+- Tendency to excess
+- strong volatility / “childishness”
 
-Über den sx7 sollte man explizit noch Folgendes wissen:
+You should also know the following explicitly about the sx7:
 
-- Entertainer-Mentalität
-- starker Hang zum Extrem`
+- Entertainer mentality
+- strong tendency to extremes`
     },
 
     {
-  label: "Beispiele",
+  label: "Examples",
   content: `- George Clooney
 - Miley Cyrus
 - Thomas Gottschalk
@@ -1003,14 +1002,14 @@ Die Wirkweisen der sx7 ergänzen sich wie folgt:
 
     {
   label: "Lookalikes",
-  content: `Verwechslung in männlicher Form:
+  content: `Confusion in male form:
   
 - sx6
 - sx3
 - so3
 - sx4
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - sx6
 - sx2
@@ -1019,10 +1018,10 @@ Verwechslung in weiblicher Form:
 },
 
     {
-      label: "Partnerwahl",
-      content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet.
+      label: "Choice of Partner",
+      content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx7 folgende Partner am ehesten:
+Statistically speaking, the sx7 is most likely to choose the following partners:
 
 - sx/so2
 - sx6
@@ -1032,34 +1031,34 @@ Statistisch gesehen wählt die sx7 folgende Partner am ehesten:
     },
 
     {
-      label: "Verkauf",
-      content: `- Langeweile vermeiden
-- begeistern und euphorisch sein
-- Möglichkeiten mit dem Produkt offenbaren
-- Vielfalt des Produktes zeigen
-- direkte und offene Kommunikation
-- Interesse an der sx7 zeigen, um sie bei Laune zu halten
-- keine langen Monologe, sondern schnelle und zackige Antworten, um die sx7 nicht zu langweilen
-- mit Humor und Begeisterung verkaufen
-- Darstellung davon, dass das Leben der sx7 mit dem Produkt um ein Vielfaches schöner ist
-- Spontanität und besondere Möglichkeiten zeigen
-- Persönliche Bindung zur sx7 aufbauen, Gruppenzugehörigkeit vermeiden
-- Begeisterung für die Themen der sx7 zeigen
-- Spaß und das schöne Leben (Erfahrungen, Erlebnisse, ...) in den Mittelpunkt stellen`
+      label: "Sales",
+      content: `- Avoid boredom
+- be enthusiastic and euphoric
+- Reveal possibilities with the product
+- Show the variety of the product
+- Communicate directly and openly
+- Show interest in the sx7 to keep them happy
+- no long monologues, but quick and snappy answers so as not to bore the sx7
+- Sell with humor and enthusiasm
+- Show that the sx7's life is much better with the product
+- Show spontaneity and special possibilities
+- Build a personal bond with the sx7, avoid group affiliation
+- Show enthusiasm for the topics of the sx7
+- Focus on fun and the good life (experiences, adventures, ...)`
     },
 
     {
-      label: "Führung",
-      content: `- mit Humor und Witz führen
-- für ständige Abwechslung sorgen, damit die sx7 dich stetig „entertained“ fühlt, um die Motivation nicht zu verlieren
-- zwischenmenschliche Werte vermitteln
-- damit rechnen, dass das Arbeitsverhalten der sx7 wie eine Achterbahnfahrt ist, weil es ihm schnell zu langweilig wird und deswegen immer zur richtigen Zeit „hochhypen“, um den größten Nutzen aus den Hochs zu generieren
-- Motivation durch Lifestyle, Leichtigkeit und Selbstbestimmheit
-- Positives stark herausheben und das Negative nicht allzu sehr aufbauschen, damit der sx7 nicht den Spaß verliert
-- Erlebnisse und Aktivitäten mit der sx7 als Belohnung planen (z.B. Reisen, reizvolle Erlebnisse oder kleine Unternehmungen)
-- Negative Themen eher vermeiden, um die sx7 nicht abzuschrecken (-> kein Klagelied singen)
-- In Extremen sprechen und motivieren, entweder Ganz oder gar nicht, um die Völlerei der sx7 zu bedienen (-> keine „Balance-Reden“ halten)
-- Freiheit garantieren und Selbstbestimmtheit fördern, jedoch zugleich sehr intensice Betreuung liefern, da die sx7 sich sonst ein „neues glänzendes Spielzeug“ sucht und nicht mehr bei der Sache ist `
+      label: "Management",
+      content: `- lead with humor and wit
+- Provide constant variety so that the sx7 feels constantly “entertained” in order not to lose motivation
+- convey interpersonal values
+- expect the sx7's work behavior to be like a rollercoaster ride because it quickly becomes too boring and therefore always “hype up” at the right time to generate the greatest benefit from the highs
+- Motivation through lifestyle, lightness and self-determination
+- Emphasize the positive and don't play up the negative too much so that the sx7 doesn't lose its fun
+- Plan experiences and activities with the sx7 as a reward (e.g. trips, exciting experiences or small undertakings)
+- Avoid negative topics so as not to put the sx7 off (-> don't sing a lament)
+- Speak in extremes and motivate, either completely or not at all, in order to satisfy the sx7's gluttony (-> no “balance speeches”)
+- Guarantee freedom and promote self-determination, but at the same time provide very intensive care, as otherwise the sx7 will look for a “new shiny toy” and will no longer be focused on the task at hand`
     }
   ]
 }
