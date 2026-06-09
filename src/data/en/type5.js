@@ -2,447 +2,447 @@ import { TYPE_COLORS, TYPE_GRADIENTS } from "../typeColors";
 
 export const type5Data = {
   type: 5,
-  title: "Wissen",
-  center: "Kopfmensch",
-  side: "Männliche Seite",
+  title: "Knowledge",
+  center: "Head People",
+  side: "Masculine Side",
   color: TYPE_COLORS[5],
 
   centerInfo: {
-    content: `Grundproblem: 
-Vertrauensdefizit (Gefühl, nicht vertrauen zu können / unsicher & ängstlich zu sein)
+    content: `Basic problem: 
+Trust deficit (feeling of not being able to trust / being insecure & anxious)
 
-Hauptthemen:
-- Rationalismus 
-- Analyse 
-- Struktur 
-- Sicherheit 
-- Vorsicht 
-- Gedanken
+Main themes:
+- Rationalism
+- Analysis
+- Structure 
+- Security 
+- Caution 
+- Thoughts
 
-Identifikation:
-- “Ich bin, was mir Sicherheit gibt.”`
+Identification:
+“I am what gives me security.”`
   },
 
   typeInfo: {
-    content: `Überentwickelte Kopfenergie (Kopfenergie wird nach außen gerichtet)
+    content: `Overdeveloped head energy (Head energy is directed outwards)
 
-Grundmotivation: 
-Wissen
+Basic motivation: 
+Knowledge
 
-Abwehrmechanismus: 
-Sicherheit durch Verständnis`
+Defense mechanism: 
+Security through understanding`
   },
 
   sideInfo: {
-    content: `Die männliche Seite des Enneagramms umfasst die Enneagrammtypen 5-8 und zeichnet sich durch männliche Charakter- & Körperzüge aus.
+    content: `The masculine side of the Enneagram comprises Enneagram types 5-8 and is characterized by masculine character and body traits.
 
-Indizien, die hier beachtet werden sollten:
+Indications that should be noted here:
 
-Nasenform: 
-- grob 
-- breit 
-- unförmig 
-- rund 
-- kantig 
-- männlich
+Nose shape: 
+- coarse 
+- broad 
+- misshapen 
+- round 
+- angula 
+- masculine
 
-Gesichtspartie: 
-- grobe Haut 
-- unreine Haut 
-- markante Gesichtsform 
-- starker Unterkiefer 
-- kurze Wimpern
+Facial area: 
+- coarse skin 
+- blemished skin 
+- distinctive face shape 
+- strong lower jaw 
+- short eyelashes
 
-Wirkung: 
-- maskulin 
-- grob 
-- kantig`
+Effect: 
+- masculine 
+- coarse 
+- angular`
   },
 
   coreModules: [
     {
-      label: "Bewusstseinsstufen",
-      content: `Die Gesundheit des Gemüts von Typ 5 wird in folgenden Zuständen gemessen:
+      label: "Level of consciousness",
+      content: `The health of the mind of type 5 is measured in the following states:
 
-(1 = sehr unbewusst/ungesund, 
-9 = sehr bewusst/gesund)
+(1 = very unconscious/unhealthy, 
+9 = very conscious/healthy)
 
-1. Leerer Schizoider
-2. Von Wahnvorstellungen Gequälter
-3. Isolierter Nihilist
-4. Extremer Reduktionist
-5. Versponnener Theoretiker
-6. Analytiker & Spezialist
-7. Kundiger Experte
-8. Erkennender Beobachter
-9. Pionier & Visionär`
+1. empty schizoid
+2. tormented by delusions
+3. isolated nihilist
+4. extreme reductionist
+5. crazy theorist
+6. analyst & specialist
+7. knowledgeable expert
+8. cognizant observer
+9. pioneer & visionary`
     },
 
     {
-      label: "Tritypen",
-      content: `Der Trityp verfolgt den Sinn, dass jeder Mensch einen vorwiegenden Enneagrammtypen in jeder der drei Grundenergien aufweist. 
+      label: "Tritypes",
+      content: `The purpose of the tritype is that every person has a predominant Enneagram type in each of the three basic energies. 
 
-Die Kombination des Trityps setzt sich natürlich zum einen aus dem grundlegenden Enneatyp des Menschen und den jeweils vorwiegenden Typen der beiden verbleibenden Energien zusammen.
+The combination of the tritype is of course made up of the person's basic enneatype and the predominant types of the two remaining energies.
 
-Um den Tritypen zu ermitteln, muss man sich folgende Frage stellen: "Wenn der Mensch ein Herzmensch/Kopfmensch/Bauchmensch sein müsste, welcher der drei Typen in der jeweiligen Energie wäre er am ehesten?"
+To determine the tritype, you have to ask yourself the following question: “If a person had to be a heart person/head person/belly person, which of the three types in the respective energy would they most likely be?”
 
-So stellt sich ein Dreigespann zusammen (z.B. 3-5-8), das Unterschiede in den Eigenschaften zwischen zwei identischen Enneatypen erklären kann. 
+This creates a triad (e.g. 3-5-8) that can explain the differences in characteristics between two identical enneatypes. 
 
-Folgende Eigenschaften werden den 9 Grundtypen zugeordnet:
+The following characteristics are assigned to the 9 basic types:
 
-Typ 1: fleißig, sorgfältig, moralisch
-Typ 2: besorgt, mitfühlend, dienend
-Typ 3: fokussiert, effizient, ehrgeizig
-Typ 4: intuitiv, ursprünglich, echt, kreativ
-Typ 5: sachkundig, wissend, weise
-Typ 6: fragend, prüfend, unterstützend
-Typ 7: innovativ, inspirierend, anregend
-Typ 8: beschützend, direkt, geradlinig
-Typ 9: akzeptierend, friedlich, friedfertig
+Type 1: hardworking, careful, moral
+Type 2: concerned, compassionate, serving
+Type 3: focused, efficient, ambitious
+Type 4: intuitive, original, genuine, creative
+Type 5: knowledgeable, knowing, wise
+Type 6: questioning, scrutinizing, supportive
+Type 7: innovative, inspiring, stimulating
+Type 8: protective, direct, straightforward
+Type 9: accepting, peaceful, peaceable
 
-Im Fall von Typ 5 gibt es folgende Möglichkeiten für die Tritypen:
+In the case of type 5, there are the following possibilities for the tritypes:
 
-5-1-2: Mentor / Ratgeber
-5-8-2: Stratege
-5-1-4: Forscher
-5-9-2: Problemlöser
-5-8-4: Gelehrter
-5-1-3: Ingenieur
-5-9-4: Kontemplativer
-5-8-3: Allrounder
-5-9-3: Denker`
+5-1-2: Mentor / Advisor
+5-8-2: Strategist
+5-1-4: Researcher
+5-9-2: Problem solver
+5-8-4: Scholar
+5-1-3: Engineer
+5-9-4: Contemplative
+5-8-3: All-rounder
+5-9-3: Thinker`
     },
 
     {
-      label: "Leidenschaft: Geiz",
-      content: `Bedeutung von Leidenschaft in diesem Kontext:
+      label: "Passion: Avarice",
+      content: `Meaning of passion in this context:
 
-- Pseudo-Schutz-Mechanismus, der wortwörtlich "Leiden schafft"
+- Pseudo-protective mechanism that literally “creates suffering”
 
-Bedeutung von Geiz in diesem Kontext:
+Meaning of avarice in this context:
 
-- Ansammlungsdrang, um das höchste Maß an Wissen zu erlangen
+- Urge to accumulate in order to attain the highest level of knowledge
 
-Gesteigerte Formen: 
+Increased forms: 
 
-- Egoismus
-- Habsucht
-- Isolation`
+- Selfishness
+- greed
+- isolation`
     },
 
     {
-      label: "Umgang",
-      content: `- wissensvermittelnde Kommunikation 
-- Berufung auf Zahlen, Daten & Fakten
-- rationales Denken des Gegenübers berücksichtigen
-- keine impulsiven und überschießenden Handlungen
-- keine emotionale Hysterie vermitteln
-- Interesse zeigen
-- Abhängigkeit vermeiden`
+      label: "Handling",
+      content: `- knowledge transfer communication 
+- Reference to figures, data & facts
+- Rational thinking of the consider the other person
+- no impulsive and excessive actions
+- no emotional hysteria communicate
+- Show interest
+- Avoid dependency`
     },
 
     {
-      label: "Flügel: 4",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 4",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 4:
+Wings of type 4:
 
-Eigenschaften im positiven Fall:
+Properties in the positive case:
 
-- Tiefgang  
-- Kreativität 
-- starker Selbstausdruck 
-- Sinn für Ästhetik 
-- Individualitätssinn 
-- starker Zugang zur eigenen Gefühlswelt 
-- Empathie 
-- Besinnlichkeit 
-- tiefes Interesse 
-- Hang zum Übernatürlichen
+- Depth  
+- creativity 
+- strong self-expression 
+- Sense of aesthetics 
+- sense of individuality 
+- strong access to one's own emotional world 
+- empathy 
+- contemplativeness 
+- Deep interest 
+- Tendency towards the supernatural
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- Hang zur emotionalen Selbstzerstörung 
-- tiefe innere Trauer & Unvollständigkeit 
-- masochistisch veranlagt 
-- ständiges Lamentieren  
-- Blindheit für die guten Dinge im Leben 
-- malt gerne “den Teufel an die Wand” 
-- übermäßig anspruchsvoll 
-- emotional chaotisch 
-- Hang zu Depressionen 
-- emotionale Hysterie 
-- Extravaganz`
+- Tendency to emotional self-destruction 
+- deep inner sadness & incompleteness 
+- masochistic disposition 
+- constant lamenting  
+- blindness for the good things in life life 
+- likes to “paint the devil on the wall on the wall” 
+- overly demanding 
+- emotionally chaotic 
+- Tendency to depression 
+- emotional hysteria 
+- extravagance`
     },
 
     {
-      label: "Flügel: 6",
-      content: `Bedeutung der Flügel:
+      label: "Wing: 6",
+      content: `Meaning of the wings:
 
-- Die Nachbartypen eines Enneatyps haben einen Einfluss auf ihn
-- Dies führt zu einer Eigenschaftsadaption
-- Einer der beiden Flügel ist besonders stark ausgeprägt
+- The neighboring types of an Enneatypes have an influence on it
+- This leads to a property adaptation
+- One of the two wings is particularly pronounced
 
-Flügel zu Typ 6:
+Wings of type 6:
 
-Eigenschaften im positiven Fall:
+Traits in the positive case:
 
-- Pflichtbewusstsein 
-- Loyalität 
-- Ehrlichkeit 
-- Mut 
-- gesunde Skepsis 
-- Struktur & Ordnung 
-- Verlässlichkeit 
-- Anpassungsfähigkeit 
-- Sicherheitsorientierung 
-- Freundlichkeit & innere Güte
+- Sense of duty 
+- loyalty 
+- honesty 
+- courage 
+- healthy skepticism 
+- Structure & order 
+- reliability 
+- adaptability 
+- safety orientation 
+- Kindness & inner goodness
 
-Eigenschaften im negativen Fall:
+Characteristics in the negative case:
 
-- übertriebene Angst 
-- übermäßige Skepsis 
-- Anpassungszwang 
-- Hierarchie-Denken 
-- Autoritätshörigkeit 
-- Engstirnigkeit 
-- Schwarz-Weiß-Denken 
-- hohes Maß an Vorurteilen 
-- Gefühlsblindheit 
-- blockiertes inneres Wesen`
+- exaggerated fear 
+- Excessive skepticism 
+- compulsion to conform 
+- hierarchical thinking 
+- Deference to authority 
+- narrow-mindedness 
+- black-and-white thinking 
+- High degree of prejudice 
+- emotional blindness 
+- blocked inner being`
     },
 
     {
-      label: "Stresspunkt: 7",
-      content: `Definition Stresspunkt:
- 
-Sobald ein Enneagrammtyp im außen Stress ausgesetzt ist (viel Arbeit, psychischer Stress, Überforderung, ...), kompensiert er diesen, indem er Eigenschaften von seinem sog. Stresspunkt annimmt.
+      label: "Stress point: 7",
+      content: `Definition of stress point:
 
-Stresspunkt in Typ 7:
+As soon as an Enneagram type is exposed to external stress (a lot of work, psychological stress, excessive demands, ...), it compensates for this by adopting characteristics from its so-called stress point.
 
-Entwicklung im positiven Fall:
+Stress point in type 7:
 
-- locker
-- humorvoll
-- weltoffen
-- gelassen
+Development in the positive case:
 
-Entwicklung im negativen Fall:
+- easy-going
+- humorous
+- open-minded
+- relaxed
 
-- oberflächlich
-- verdrängend
-- abgelenkt
-- narzisstisch `
+Development in the negative case:
+
+- superficial
+- repressive
+- distracted
+- narcissistic`
     },
 
     {
-      label: "Entspannungspunkt: 8",
-      content: `Definition Entspannungspunkt:
- 
-Sobald ein Enneagrammtyp im außen Entspannung erlebt (wenig Arbeit, Urlaub, Feierabend, ...), entwickelt er sich, indem er Eigenschaften von seinem sog. Entspannungspunkt annimmt.
+      label: "Relaxation point: 8",
+      content: `Definition of relaxation point:
 
-Entspannungspunkt in Typ 8:
+As soon as an Enneagram type experiences relaxation on the outside (little work, vacation, after work, ...), it develops by taking on characteristics from its so-called relaxation point.
 
-Entwicklung im positiven Fall:
+Relaxation point in type 8:
 
-- beschützerisch
-- stark
-- unabhängig
-- stabil
+Development in the positive case:
 
-Entwicklung im negativen Fall:
+- protective
+- strong
+- independent
+- stable
 
-- kontrollierend
-- herrisch
+Development in the negative case:
+
+- controlling
+- domineering
 - dominant
-- aggressiv`
+- aggressive`
     }
   ],
 
   subtypes: [
     {
       code: "se5",
-      content: `Grundmotivation:
-Wissen (in der Selbsterhaltung)
+      content: `Basic motivation:
+Knowledge (in self-preservation)
 
-Leidenschaft: 
-Geiz (in der Selbsterhaltung)
+Passion: 
+Avarice (in self-preservation)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- stark rational
-- wissbegierig
-- emotionskarg
-- unempathisch
-- gönnt sich selbst wenig
-- sparsam
-- "my home is my castle"
-- isoliert
-- introvertiert
-- privater räum ist sehr wichtig
-- neigt zum Rückzug
-- gestaltet sein Leben eher schlicht und überschaubar
-- Abrupter Abbruch zwischenmenschlicher Kommunikation ("ich habe wirklich keine Zeit mehr")
-- Bücherwurm / andere Informationsquellen
-- zu viel Besitz belastet sie
-- häuft Geld & Zeit an
-- Hamster-Mentalität
-- verlässt sich größtenteils auf sich selbst
-- bittet andere selten um Rat oder Hilfe
-- Abneigung gegen Besitznahme anderer Menschen / Dinge
-- In unbewussten Phasen kann sie zum mürrischen Einsiedler werden`,
+- strongly rational
+- inquisitive
+- emotionless
+- unsympathetic
+- indulges himself little
+- frugal
+- “my home is my castle”
+- isolated
+- introverted
+- private space is very important
+- tends to withdraw
+- tends to organize his life simple and manageable
+- Abrupt termination of interpersonal communication ("I really don't have really no more time")
+- Bookworm / other sources of information
+- too many possessions weigh her down
+- accumulates money & time
+- hoarder mentality
+- relies mostly on herself
+- rarely asks others for advice or help
+- Aversion to taking possession other people / things
+- In unconscious phases she can become a grumpy recluse become`,
 
       traits: [
         {
-          label: "warm",
-          content: `Aufgrund der gesammelten Energie des selbsterhaltenden Subtyps empfindet man diesen oftmals als wärmer im Vergleich zu den anderen.
+          label: "Warm",
+          content: `Due to the accumulated energy of the self-preserving subtype, it is often perceived as warmer in comparison to the others.
 
-Dies hat vor allem mit dem „kindlich-egoistischen“ Wesen der Selbsterhaltungstypen zu tun.`
+This is mainly due to the “childish and selfish” nature of the self-preserving types.`
         },
         {
-          label: "kindlich",
-          content: `Der selbsterhaltende Subtyp wirkt zumeist sehr kindlich & weich in seinem Wesen.
+          label: "Childlike",
+          content: `The self-preserving subtype usually appears very childlike and soft in nature.
 
-Diese Wirkung ist eng verbunden mit dem Ich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the ego-centered world view of this subtype.`
         },
         {
-          label: "Verstärkungstyp",
-          content:  `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Reinforcement",
+          content:  `The reinforcement type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The reinforcement type has experienced in his life that the strong living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything he can to satisfy it.
 
-Im Fall der se5 bedeutet das, dass dieser Enneagrammtyp den Geiz extrem stark lebt.
+In the case of the se5, this means that this Enneagram type lives avarice extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er Wissen bekommt, wenn er seinen Geiz nach außen hin lebt.`
+He has experienced that he gets knowledge when he lives his avarice outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem se5 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The se5 is aware of the following characteristics and can address them:
 
-- er ist sehr interessiert und wissbegierig
-- er ist sehr analytisch
-- er kann gut rational entscheiden
-- er hat seine Emotionen unter Kontrolle
-- er ist vernünftig
-- er kann sich gut in Sachverhalte eindenken 
-- er mag Bücher und andere Wissensquellen
-- zuhause fühlt er sich am wohlsten
-- er häuft gerne Dinge und Wissen an
-- er strukturiert und ordnet gerne seinen Kopf
-- Wenn ihn etwas interessiert, widmet er sich dieser Sache vollständig
-- er kann auf andere manchmal unnahbar und nüchtern wirken
-- er liebt klare Lösungen und Wissenskonstrukte
-- er ist nicht gerade freigiebig mit seinen Ressourcen und braucht immer einen rationalen Grund, um Geld in die Hand zu nehmen`
+- he is very interested and inquisitive
+- he is very analytical
+- he is good at making rational decisions
+- he has his emotions under under control
+- he is reasonable
+- he is good at thinking his way into think his way into things 
+- he likes books and other sources of knowledge
+- he feels most at home most comfortable
+- he likes to accumulate things and knowledge accumulate
+- he likes to structure and organize his head
+- If something interests him he devotes himself to it completely
+- He can sometimes appear unapproachable and sober
+- he loves clear solutions and knowledge constructs
+- he is not exactly generous with his resources and always needs always needs a rational reason to spend money`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- Security identification
+- Thought identification
+- Trust deficit
 
-Blinder Fleck von Typ 5 im Allgemeinen: 
+Blind spot of type 5 in general: 
 
-- Geiz & Habsucht als Sicherheitsgarant
-- aktives Schaffen von  äußerem Wissen & Strategien als Kompensation
-- Beobachtungsdrang
-- Isolation bei Überforderung
+- Avarice & greed as security guarantor
+- Active creation of external knowledge & strategies as compensation
+- urge to observe
+- Isolation in case of excessive demands
 
-Blinder Fleck des Selbsterhaltungs-Typs im Allgemeinen:
+Blind spot of the self-preservation type in general:
 
-- materialistisches Denken
-- Egoismus
-- Bedürfnisorientierung
+- materialistic thinking
+- egoism
+- need orientation
 
-Blinder Fleck, speziell bei der se5:
+Blind spot, especially with the se5:
 
-- Hamster-Mentalität
-- mangelnde Empathie
-- Informations-Arroganz`
+- Hamster mentality
+- Lack of empathy
+- Information arrogance`
         },
         {
-          label: "Augen",
-          content: `Typ 5 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 5 generally has the following gaze quality:
 
-- distanziert
-- nüchtern
-- sachlich
-- matt
-- emotionskarg
-- beobachtend
-- interessiert
+- distant
+- sober
+- matter-of-fact
+- dull
+- emotionless
+- observant
+- interested
 
-Die Blickqualität der se5 ergänzt sich wie folgt:
+The gaze quality of the se5 complements each other as follows:
 
-- kalt
-- ruhig
-- schüchtern
-- glänzend
-- unnahbar`
+- cold
+- calm
+- shy
+- shiny
+- unapproachable`
         },
         {
-          label: "Körper",
-          content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 5 generally has the following physical abnormalities:
 
-- Stirnfalten
-- Sehschwäche
-- großer Kopf
-- wenig dichtes Haar
-- "Geheimratsecken"
-- frühe Bildung von grauen Haaren
+- Forehead wrinkles
+- poor eyesight
+- large head
+- Hair of low density
+- “receding hairline”
+- Early formation of gray hair
 
-Die körperlichen Auffälligkeiten der se5 ergänzen sich wie folgt:
+The physical characteristics of se5 complement each other as follows:
 
-- kleine Statur`
+- short stature`
         },
         {
-          label: "Wirkung",
-         content: `Typ 5 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+         content: `Type 5 in general has the following effects:
 
-- verkopft
-- analytisch
-- theoretisch
-- sachlich-kühl
+- cerebral
+- analytical
+- theoretical
+- factual-cool
 - arrogant
-- wissbegierig
-- emotionskark
-- kompetent
+- inquisitive
+- unemotional
+- competent
 
-Die Wirkweisen der se5 ergänzen sich wie folgt:
+The effects of the se5 complement each other as follows:
 
-- "Sammler"-Austrahlung"
-- unemphatisch
-- isoliert
-- zurückhaltend
-- interessiert`
+“Collector” charisma:
+- unsympathetic
+- isolated
+- reserved
+- interested`
           
         },
         {
-          label: "Weiteres",
-         content: `Über Typ 5 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+         content: `You should also know the following about type 5 in general:
 
-- oftmals stark isoliert
-- sparsam (Zeit, Geld, Energie)
-- abstrakt-weltfremd
+- often highly insulated
+- thrifty (time, money, energy)
+- abstract and unworldly
 
-Über den se5 sollte man explizit noch Folgendes wissen:
+You should also know the following about se5:
 
-- hortet gerne Besitztümer
-- sehr theoretisch & abstrakt denkend`
+- likes to hoard possessions
+- very theoretical & abstract thinking`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Warren Buffett
 - Vera Birkenbihl
 - Harald Lesch
@@ -453,14 +453,13 @@ Die Wirkweisen der se5 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
-
+          content: `Confusion in male form:
 - se8
 - se6
 - se7
 - se9
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se8
 - se6
@@ -468,10 +467,10 @@ Verwechslung in weiblicher Form:
 - se9`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die se5 folgende Partner am ehesten:
+Statistically speaking, the se5 is most likely to choose the following partners:
 
 - se/so6
 - se4
@@ -479,210 +478,209 @@ Statistisch gesehen wählt die se5 folgende Partner am ehesten:
 - se2`
         },
         {
-          label: "Verkauf",
-          content: `- unemotional und klar sprechen
-- Sachlichkeit bewahren
-- keine Gefühlsausbrüche äußern
-- viele Informationen liefern
-- alle Fragen der se5 ausführlich beantworten
-- rationale SInnhaftigkeit des Produktes darstellen
-- immer handfeste Gründe/Beweise für Argumente und Statements anbringen
-- wenig Smalltalk, viel Mehrwert
-- Respekt vor der Energie / Zeit der se5
-- große Informationsquellen in Aussicht stellen als Verkaufsargument
-- mehr Sein als Schein darstellen
-- Pünktlichkeit als Wert herausheben
-- Wissenschaftliches arbeiten als hohen Wert herausstellen`
+          label: "Sales",
+          content: `- Speak unemotionally and clearly
+- Maintain objectivity
+- do not express emotional outbursts
+- Provide a lot of information
+- answer all questions from the se5 in detail answer
+- present the rational usefulness of the of the product
+- Always provide reasons/evidence for arguments and statements
+- little small talk, lots of added value
+- Respect for the energy / time of the se5
+- great sources of information in offer the prospect of sales argument
+- Present more being than appearance
+- emphasize punctuality as a value emphasize
+- Emphasize scientific work as a high value`
         },
         {
-          label: "Führung",
-          content: `- eigenen Rückzugsort in der Firma für die se5 errichten
-- sachliche Formulierungen der Aufgaben und Erwartungen
-- gefühlsarme Umgangsweise, um die se5 nicht zu überfordern
-- keine sozialen Ansprüche an die se5 stellen
-- Rückzug der se5 akzeptiere und nicht abwerten
-- rationale Qualitäten der se5 sehen und nutzen
-- Anerkennung der Objektivität und des Wissensschatzes der se5 
-- nüchterne und klare Kommunikation `
+          label: "Management",
+          content: `- Set up your own retreat in the company for the se5
+- objective formulation of tasks and expectations
+- Be unemotional so as not to overburden the se5
+- Do not make any social demands on the se5
+- Accept the withdrawal of the se5 and do not devalue it
+- See and use the rational qualities of the se5
+- Recognize the objectivity and wealth of knowledge of the se5 
+- sober and clear communication`
         }
       ]
     },
 
     {
       code: "so5",
-      content: `Grundmotivation:
-Wissen (in der sozialen Gruppe)
+      content: `Basic motivation:
+Knowledge (in the social group)
 
-Leidenschaft: 
-Geiz (in der sozialen Gruppe)
+Passion: 
+Avarice (in the social group)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- wissensspendend
-- wissbegierig
-- wissenschaftlich vorgehend
-- "Schlaftablette"
-- überlädt andere mit Wissen
-- oftmals sehr schlau & bewandert
-- der "typische Professor"
-- hat ein Hauptthema, in dem er forscht
-- widmet diesem Thema sein Leben (tiefes Erforschen)
-- arbeitet gerne nicht festgelegt & flexibel
-- arbeitet gerne entweder selbstständig oder an einem geschützten Platz in einer Hierarchie
-- Gesetze, Normen & Regeln nimmt er als belastend wahr
-- Experte
-- Anerkennung der Gruppe ist wichtig, jedoch reicht ihm eine subtile Form aus
-- starke Neugier
-- Sprengung überholter Muster
-- Sammler-Mentalität (Wissen)
-- große geistige Kompetenz
-- Theoretiker`,
+- knowledge-giving
+- inquisitive
+- scientific in approach
+- “sleeping pill”
+- overloads others with knowledge
+- often very smart & knowledgeable
+- the “typical professor”
+- has a main topic in which he researches
+- dedicates his life to this topic life (deep research)
+- likes to work in a non-fixed & flexible
+- likes to work either independently or in a protected place in a hierarchy
+- Laws, norms & rules perceives them as burdensome
+- Expert
+- Recognition of the group is important, but a subtle subtle form is sufficient
+- Strong curiosity
+- Breaking outdated patterns
+- collector mentality (knowledge)
+- great intellectual competence
+- theorist`,
 
       traits: [
         {
-          label: "kalt",
-          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+          label: "Cold",
+          content: `Due to the adapted energy of the social subtype, it is often perceived as colder in comparison to the others.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
+This is mainly due to the “intellectually adapted” nature of the social types.`
         },
         {
-          label: "erwachsen",
-          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+          label: "Adult",
+          content: `The social subtype is usually very adult and intellectual in nature.
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
+This effect is closely linked to the we-centered world view of this subtype.`
         },
         {
-          label: "Normaltyp",
-          content: `Der Normaltyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Normal",
+          content: `The normal type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Normaltyp hat in seinem Leben die Erfahrung gemacht, dass das moderate Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The normal type has experienced in his life that the moderate living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und in Maßen das zu tun, was sie befriedigt.
+For this reason, he has decided to accept this inner voice and to do in moderation what satisfies it.
 
-Im Fall der so5 bedeutet das, dass dieser Enneagrammtyp den Geiz im normalen Maße lebt.
+In the case of so5, this means that this Enneagram type lives avarice to a normal degree.
 
-Er hat die Erfahrung gemacht, dass er Wissen bekommt, wenn er seinen Geiz nach außen hin lebt.`
+He has experienced that he gets knowledge when he lives his stinginess outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so5 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The so5 is aware of the following characteristics and can address them:
 
-- er hat ein Hauptthema, das in im Leben verfolgt
-- dieses Thema erforscht er selbst und häuft viel Wissen darüber an
-- er ist sehr rational und vernünftig
-- er kann gut Daten analysieren und ist intelligent
-- er kann gut Wissen verbreiten
-- er erklärt und versteht gerne Zusammenhänge
-- er ist ein großer Freund von Sinnhaftigkeit und kann Pseudo-Wissenschaft nicht ausstehen
-- er hat einen starken Drang nach neuen Wissensquellen und Verständnis 
-- er gibt nicht gerne unnötiges Geld aus
-- er widmet sich Themen, die ihn interessieren, sehr tiefgehend
-- er ist eher emotionskarg und steigert sich selten in Situationen rein
-- er hat viele Interessen
-- im Stress neigt er zur Faulheit`
+- he has a main theme that he pursues in life
+- he researches this topic himself and accumulates a lot of knowledge about it
+- he is very rational and reasonable
+- he is good at analyzing data and is intelligent
+- he is good at disseminating knowledge
+- he likes to explain and understand connections
+- he is a great friend of meaningfulness and cannot stand pseudo-science
+- he has a strong urge for new sources of knowledge and understanding 
+- he does not like to spend unnecessary money
+- he devotes himself to topics that interest him in great depth
+- he is rather unemotional and rarely gets involved in situations
+- he has many interests
+- he tends to be lazy under stress`
         },
         {
-          label: "Blinder Fleck",
-         content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+          label: "Blind spot",
+         content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- Security identification
+- Thought identification
+- Trust deficit
 
-Blinder Fleck von Typ 5 im Allgemeinen: 
+Blind spot of type 5 in general: 
 
-- Geiz & Habsucht als Sicherheitsgarant
-- aktives Schaffen von äußerem Wissen & Strategien als Kompensation
-- Beobachtungsdrang
-- Isolation bei Überforderung
+- Avarice & greed as a guarantor of security
+- Active creation of external knowledge & strategies as compensation
+- urge to observe
+- Isolation in case of excessive demands
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der so5:
+Blind spot, especially with the so5:
 
-- Abhängigkeit zu einem Hauptthema als Halt
-- wenig praxisaffin
-- Verkomplizierung des Lebens`
+- Dependence on one main topic as a foothold
+- little practical experience
+- Complicating life`
         },
         {
-          label: "Augen",
-         content: `Typ 5 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+         content: `Type 5 generally has the following gaze quality:
 
-- distanziert
-- nüchtern
-- sachlich
-- matt
-- emotionskarg
-- beobachtend
-- interessiert
+- distant
+- sober
+- matter-of-fact
+- dull
+- emotionless
+- observant
+- interested
 
-Die Blickqualität der so5 ergänzt sich wie folgt:
+The gaze quality of the so5 complements each other as follows:
 
 - arrogant
-- begeistert
-- unnahbar
-- müde`
+- enthusiastic
+- aloof
+- tired`
         },
         {
-          label: "Körper",
-          content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 5 generally has the following physical abnormalities:
 
-- Stirnfalten
-- Sehschwäche
-- großer Kopf
-- wenig dichtes Haar
-- “Geheimratsecken”
-- frühe Bildung von grauen Haaren
+- Forehead wrinkles
+- poor eyesight
+- large head
+- Hair of low density
+- “receding hairline”
+- Early formation of gray hair
 
-Die körperlichen Auffälligkeiten der so5 ergänzen sich wie folgt:
+The physical characteristics of so5 complement each other as follows:
 
-- neutraler, angepasster 
-  Körperbau`
+- neutral, adapted physique`
         },
         {
-          label: "Wirkung",
-          content: `Typ 5 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 5 in general has the following effects:
 
-- verkopft
-- analytisch
-- theoretisch
-- sachlich-kühl
+- cerebral
+- analytical
+- theoretical
+- factual-cool
 - arrogant
-- wissbegierig
-- emotionskarg
-- kompetent
+- inquisitive
+- unemotional
+- competent
 
-Die Wirkweisen der so5 ergänzen sich wie folgt:
+The effects of the so5 complement each other as follows:
 
-“Professor”-Ausstrahlung:
-- belehrend
-- fachlich-kompetent
-- interessiert
-- schläfrig`
+“Professor” charisma:
+- instructive
+- professionally competent
+- interested
+- sleepy`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 5 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `You should also know the following about type 5 in general:
 
-- oftmals stark isoliert
-- sparsam (Zeit, Geld, Energie)
-- abstrakt-weltfremd
+- often highly insulated
+- thrifty (time, money, energy)
+- abstract and unworldly
 
-Über den so5 sollte man explizit noch Folgendes wissen:
+You should also know the following explicitly about so5:
 
-- extrem wissbegierig
-- wissenschaftlich denkend`
+- extremely inquisitive
+- scientifically minded`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Albert Einstein
 - Bill Gates
 - Wigald Boning
@@ -693,7 +691,7 @@ Die Wirkweisen der so5 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - so6
 - so9
@@ -701,17 +699,17 @@ Die Wirkweisen der so5 ergänzen sich wie folgt:
 - so7
 - se1
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - so6
 - se1
 - sx9`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die so5 folgende Partner am ehesten:
+Statistically speaking, the so5 is most likely to choose the following partners:
 
 - so/se6
 - so/se4
@@ -719,206 +717,206 @@ Statistisch gesehen wählt die so5 folgende Partner am ehesten:
 - se1`
         },
         {
-          label: "Verkauf",
-          content: `- Forschergeist zeigen
-- Interesse an seinem Hauptthema zeigen (je nach individuellem Thema)
-- sachlichen Umgang fördern
-- Begeisterung für seine Interessensfelder aufbringen
-- Informationen liefern
-- wenig Smalltalk, viel Mehrwert
-- freundlicher und angepasster Umgang
-- wenig Impulsivität
-- Darstellung der Anwendungsmöglichkeiten des Produktes und der Förderung der Interessensfelder der so5
-- Pünktlichkeit ist wichtig`
+          label: "Sales",
+          content: `- Show a spirit of research
+- interest in his main topic show (depending on the individual topic)
+- Encourage objective interaction
+- show enthusiasm for his fields of interest
+- provide information
+- little small talk, lots of added value
+- Friendly and appropriate interaction
+- little impulsiveness
+- Presentation of the application possibilities of the product and the Promotion of the fields of interest of the so5
+- Punctuality is important`
         },
         {
-          label: "Führung",
-          content: `- nüchterne und klare Kommunikation 
-- Anerkennung des Wissensschatzes und der Beobachtungsgabe der so5
-- Möglichkeit geben, dass die so5 ihr Wissen und ihre Forschungen ausbauen und teilen kann im Unternehmen 
-- Wertschätzung der so5 in der Gruppe durch Setzung eines Expertenstatus
-- gefühlsarmer Umgang, sachliche Faktendarstellung 
-- Förderung der Forschungen der so5
-- Befriedigung des Wissensdurstes der so5
-- Austausch in der Firma gewährleisten, um die so5 sozial einzubinden, was sie sich eigentlich wünscht, jedoch von sich aus nicht klar kommunizieren kann
-- Wertschätzung der Objektivität der so5 in der Gruppe 
-- dafür sorgen, dass die so5 nicht überfordert wird durch zu viele emotionale Interaktionen  `
+          label: "Management",
+          content: `- Sober and clear communication 
+- Recognition of so5's wealth of knowledge and powers of observation
+- Giving so5 the opportunity to expand and share their knowledge and research within the company 
+- Appreciation of the so5 in the group by giving them expert status
+- De-emotional interaction, factual presentation of facts 
+- Promotion of the so5's research
+- Satisfying the thirst for knowledge of the so5
+- Ensuring exchange within the company in order to integrate the so5 socially, which she actually wants but cannot communicate clearly on her own initiative
+- Appreciate the so5's objectivity in the group 
+- Ensure that the so5 is not overwhelmed by too many emotional interactions`
         }
       ]
     },
 
     {
       code: "sx5",
-      content: `Grundmotivation:
-Wissen (in der zwischenmenschlichen Beziehung)
+      content: `Basic motivation:
+Knowledge (in the inter human relationship)
 
-Leidenschaft: 
-Geiz (in der zwischenmenschlichen Beziehung)
+Passion: 
+Avarice (in the inter human relationship)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- "Geheimagent"
-- starker Hang zu Emotionen (4er-Flügel)
-- sensibel
-- wissbegierig
-- "Verschwörungstheoretiker" (beschäftigt sich oftmals mit geheimem Wissen)
-- verschwiegen
-- introvertiert
-- Vorenthaltung von Wissen
-- legt großen Wert auf Privatsphäre
-- scheu, führt jedoch interessante Gespräche, wenn man auf ihn zugeht
-- Interesse an Literatur, Kunst, Psychologie 
-- sehr analytisch & rational trotz emotionalem Hang
-- distanziert
-- schätzt Menschen, die ihre Grenzen anerkennen
-- kann sich schwer ausdrücken
-- doch wenn sie alleine ist, herrscht Klarheit
-- Ambivalenz zwischen Verstand und Emotionen`,
+- “secret agent”
+- strong tendency to emotions (4-wing)
+- sensitive
+- inquisitive
+- conspiracy theorist (often deals with secret knowledge)
+- secretive
+- introverted
+- withholds knowledge
+- attaches great importance to privacy
+- shy, but will engage in interesting conversations if approached
+- Interested in literature, art, psychology 
+- very analytical & rational despite emotional tendencies
+- detached
+- appreciates people who recognize their boundaries
+- has difficulty expressing herself
+- but when she is alone, clarity prevails
+- Ambivalence between intellect and emotions`,
 
       traits: [
         {
-          label: "hitzig",
-          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+          label: "Fiery",
+          content: `Due to the intense energy of the sexual subtype, it is often perceived as more hot-tempered than the others.
 
-Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
+This is mainly due to the energetic nature of the sexual types.`
         },
         {
-          label: "jugendlich",
-          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+          label: "Youthful",
+          content: `The sexual subtype is usually very youthful and intense in nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the partnership-centered world view of this subtype.`
         },
         {
-          label: "Kontratyp",
-          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Contra",
+          content: `The counter-type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that living out the respective passion does not work well and does not satisfy his basic motivation at all, which is actually the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything he can to prevent it from becoming visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion always finds a way into the person's life through a back door, which they do not consciously realize.
 
-Im Fall der sx5 bedeutet das, dass dieser Enneagrammtyp gegen den Geiz ankämpft.
+In the case of sx5, this means that this Enneagram type fights against avarice.
 
-Er hat die Erfahrung gemacht, dass er kein Wissen bekommt, wenn er seinen Geiz nach außen hin lebt.`
+He has experienced that he does not gain knowledge if he lives his avarice outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx5 bewusst und können angesprochen werden:
+          label: "Unmasking",
+         content: `The sx5 is aware of the following characteristics and can address them:
 
-- er hat ein starkes Verlangen nach Verständnis
-- er ist eher zurückhaltend und scheu
-- er ist sehr tiefgründig und möchte den tieferen Sinn hinter den Lebensthemen verstehen
-- er kämpft dagegen an, Dinge anzuhäufen, sondern lebt eher bescheiden
-- er ist kein Angeber und möchte seine zwischenmenschlichen Beziehungen auf das Wichtigste reduzieren
-- er ist eigentlich sehr sensibel und emotional, aber neigt dennoch zum Rationalismus und Denken
-- er findet sich mit den "typischen" Menschen nicht gut zurecht
-- er ist auf tiefgehende zwischenmenschliche Kontakte aus
-- er kämpft gegen unnötigen Geiz an`
+- it has a strong desire for understanding
+- he is rather reserved and shy
+- he is very profound and wants to understand the deeper meaning behind behind life issues
+- he fights against accumulating things accumulating things, but rather lives modestly
+- he is not a show-off and wants to his interpersonal relationships relationships to the most important reduce
+- he is actually very sensitive and emotional, but still tends to rationalism and thinking
+- he doesn't get on well with the “typical” people well
+- he is dependent on deep interpersonal contacts out for
+- he fights against unnecessary avarice against`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Kopfenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of head energy in general:
 
-- rationale Hysterie
-- Sicherheits-Identifikation
-- Gedanken-Identifikation
-- Vertrauens-Defizit
+- rational hysteria
+- Security identification
+- Thought identification
+- Trust deficit
 
-Blinder Fleck von Typ 5 im Allgemeinen: 
+Blind spot of type 5 in general: 
 
-- Geiz & Habsucht als Sicherheitsgarant
-- aktives Schaffen von äußerem Wissen & Strategien als Kompensation
-- Beobachtungsdrang
-- Isolation bei Überforderung
+- Avarice & greed as a guarantor of security
+- Active creation of external knowledge & strategies as compensation
+- urge to observe
+- Isolation in case of excessive demands
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der sx5:
+Blind spot, especially with the so5:
 
-- Geheimniskrämerei im Zwischenmenschlichen
-- Verzettelung in Emotionen & Gedanken
-- exzessive Abstraktion des Lebens`
+- Dependence on one main topic as a foothold
+- little practical experience
+- Complicating life`
         },
         {
-          label: "Augen",
-          content: `Typ 5 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 5 generally has the following gaze quality:
 
-- distanziert
-- nüchtern
-- sachlich
-- matt
-- emotionskarg
-- beobachtend
-- interessiert
+- distant
+- sober
+- matter-of-fact
+- dull
+- emotionless
+- observant
+- interested
 
-Die Blickqualität der sx5 ergänzt sich wie folgt:
+The gaze quality of the sx5 complements each other as follows:
 
 - warm
-- freundlich
-- schüchtern
-- nahbar`
+- friendly
+- shy
+- approachable`
         },
         {
-          label: "Körper",
-          content: `Typ 5 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 5 generally has the following physical abnormalities:
 
-- Stirnfalten
-- Sehschwäche
-- großer Kopf
-- wenig dichtes Haar
-- “Geheimratsecken”
-- frühe Bildung von grauen Haaren
+- Forehead wrinkles
+- poor eyesight
+- large head
+- Hair of low density
+- “receding hairline”
+- Early formation of gray hair
 
-Die körperlichen Auffälligkeiten der sx5 ergänzen sich wie folgt:
+The physical abnormalities of sx5 complement each other as follows:
 
-- Hautprobleme
-- starker Bartwuchs
-- rötliche Haare`
+- Skin problems
+- strong beard growth
+- reddish hair`
         },
         {
-          label: "Wirkung",
-          content: `Typ 5 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 5 in general has the following effects:
 
-- verkopft
-- analytisch
-- theoretisch
-- sachlich-kühl
+- cerebral
+- analytical
+- theoretical
+- factual-cool
 - arrogant
-- wissbegierig
-- emotionskarg
-- kompetent
+- inquisitive
+- unemotional
+- competent
 
-Die Wirkweisen der sx5 ergänzen sich wie folgt:
+The effects of the sx5 complement each other as follows:
 
-“Geheimagenten”-Ausstrahlung:
-- tiefgründig
-- zurückhaltend
+“secret agent” charisma:
+- profound
+- reserved
 - emotional
-- nahbar`
+- approachable`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 5 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `You should also know the following about type 5 in general:
 
-- oftmals stark isoliert
-- sparsam (Zeit, Geld, Energie)
-- abstrakt-weltfremd
+- often highly insulated
+- thrifty (time, money, energy)
+- abstract and unworldly
 
-Über den sx5 sollte man explizit noch Folgendes wissen:
+You should also know the following about the sx5:
 
-- wahrt körperlichen Abstand
-- am emotionalsten von allen Fünfern`
+- Maintains physical distance
+- most emotional of all fives`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Friedrich Nietzsche
 - Taylor Swift
 - Deborah Kerr
@@ -930,7 +928,7 @@ Die Wirkweisen der sx5 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - se4
 - so4
@@ -938,7 +936,7 @@ Die Wirkweisen der sx5 ergänzen sich wie folgt:
 - sx9
 - sx7
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se4
 - sx4
@@ -947,10 +945,10 @@ Verwechslung in weiblicher Form:
 - sx9`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx5 folgende Partner am ehesten:
+Statistically speaking, the sx5 is most likely to choose the following partners::
 
 - sx/so4
 - sx3
@@ -959,33 +957,33 @@ Statistisch gesehen wählt die sx5 folgende Partner am ehesten:
 - sx9`
         },
         {
-          label: "Verkauf",
-          content: `- sensible Informationen teilen
-- zeigen, dass man die sx5 für eine vertrauenswürdige Person hält
-- Interesse an der sx5 zeigen, ohne Grenzen zu überschreiten oder übergriffig zu werden
-- rationalen Wert des Produktes darstellen
-- Verlässlichkeit zeigen
-- Sicherheit geben durch Kompetenz
-- Informationen liefern und alle Fragen der sx5 adäquat beantworten
-- großen Wissensschatz zeigen
-- Geheimniskrämerei, um die sx5 anzulocken
-- emotional nahbar bleiben, aber nicht impulsiv sein
-- Zeit und Energie der sx5 respektieren
-- Anerkennung für die sx5 aufbringen
-- Sinnhaftigkeit des Produktes darstellen, ohne überheblich zu werden
-- Großzügigkeit zeigen`
+          label: "Sales",
+          content: `- share sensitive information
+- show that you consider the sx5 a trustworthy person a trustworthy person
+- show interest in the sx5, without overstepping boundaries or becoming overbearing
+- rational value of the product present
+- Show reliability
+- Provide security through competence
+- Provide information and answer all questions of the sx5 adequately answer
+- Show a wealth of knowledge
+- be secretive to attract the sx5 attract them
+- remain emotionally approachable, but not be impulsive
+- Respect the time and energy of the sx5 Respect
+- Show appreciation for the sx5 show appreciation
+- Show the usefulness of the product present it without being arrogant becoming
+- Show generosity`
         },
         {
-          label: "Führung",
-          content: `- Bindungsaufbau mit der sx5 ist essentiell wichtig 
-- die sx5 mit speziellen Aufgaben betrauen, die sehr wichtig und vertraulich sind
-- der sx5 Vertrauen entgegenbringen und im Hintergrund agieren lassen
-- Wissensschatz der sx5 wertschätzen und sich mit ihr austauschen
-- die sx5 als Wissensquelle beziehen und sich von ihr Rat geben lassen 
-- tiefe Gespräche und Themen anregen - Geheimwissen vermitteln, was nicht viele Menschen von einem wissen oder erfahren 
-- Vertrauenswürdigkeit der sx5 anerkennen
-- Rückzugsorte für die sx5 zusichern, um ihr das Gefühl von Sicherheit zu vermitteln 
-- die sx5 nicht dazu drängen, im ständigen Kontakt zu vielen Menschen zu sein `
+          label: "Management",
+          content: `- Building a bond with the sx5 is essential 
+- entrust the sx5 with special tasks that are very important and confidential
+- Trust the sx5 and allow them to act in the background
+- Appreciate the sx5's wealth of knowledge and exchange ideas with them
+- Refer to the sx5 as a source of knowledge and seek advice from them 
+- Stimulate deep conversations and topics - impart secret knowledge that not many people know or experience from you 
+- Recognize the trustworthiness of the sx5
+- Ensure that the sx5 has places to retreat to in order to give them a sense of security 
+- Do not pressure the sx5 to be in constant contact with many people`
           
         }
       ]
