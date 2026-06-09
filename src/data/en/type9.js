@@ -456,203 +456,199 @@ Statistically speaking, the se9 is most likely to choose the following partners:
 - se/sx5`
         },
         {
-          label: "Verkauf",
-          content: `- Gefühl von Harmonie vermitteln 
-- keine Konflikte mit den bestehenden Routinen der se9 provozieren
-- die ausschweifende Art der se9 akzeptieren, ohne Ungeduld zu vermitteln
-- Werte und Ideologie anbringen - kein gehetztes Verhalten zeigen
-- wenig Vorgaben beim Gespräch machen
-- Darstellung des Produktes in einem Licht, dass die se9 realisiert, dass es ihr in alltägliche Routinen / ihrem Alltag stark unterstützen kann
-- viel Muße im Gespräch haben
-- Interesse am Alltag der se9 zeigen 
-- darstellen, dass man die se9 in ihren Routinen und ihrer Harmonie im Alltag unterstützen kann
-- Geschichten erzählen und in Metaphern sprechen 
-- geistreiche Kommentare abgeben 
-- Arroganz vermeiden`
+          label: "Sales",
+          content: `- Convey a feeling of harmony 
+- Do not provoke conflicts with the se9's existing routines
+- Accept the se9's excessive nature without conveying impatience
+- Attach values and ideology - do not show rushed behavior
+- Make few demands during the conversation
+- Present the product in such a light that the se9 realizes that it can greatly support her in her daily routines / everyday life
+- Have a lot of leisure time in the conversation
+- Show interest in the se9's everyday life 
+- show that you can support the se9 in their routines and harmony in everyday life
+- tell stories and speak in metaphors 
+- make witty comments 
+- Avoid arrogance`
         },
         {
-          label: "Führung",
-          content: `- Routinen in der Arbeitsweise mit der se9 aufbauen
-- Unterstützung bei Konfliktsituationen liefern, um der se9 Rückhalt zu geben, da sie sich sonst schnell hilflos fühlt
-- Dafür sorgen, dass die se9 ihre Harmonie nicht bedroht sieht mit dem, was sie arbeitstechnisch tun muss (Werte und Ideologie der se9 müssen bedient werden)
-- Empathie und Wohlwollen an den Tag legen
-- Der se9 Führung geben, ohne ihr das Gefühl von Angriff zu geben, weil sie sonst stur wird und in Passivität verfällt, um ihre Harmonie aufrecht zu erhalten
-- Ratschläge in Geschichten verpacken oder schön formulieren, um der se9 diese schmackhaft zu machen
-- Respekt und Wertschätzung für die menschenfreundliche Art der se9 aufbringen
-- Dafür sorgen, dass die se9 auf der Arbeit ihre Komfortzone errichten kann, in der sie sich bewegt und ihre Harmonie schaffen kann (nicht ständig neue Alltagsaufgaben einrichten oder zu viel Spontanität fordern) 
-- die se9 in ihrem Wesen anerkennen und ihr nicht das Gefühl geben, nur ein kleiner Wicht zu sein sein, der für einen arbeitet
-- Anerkennung für die routinierte Arbeit der se9 entgegenbringen
-- Verlässlichkeit und Ehrlichkeit als Werte vertreten und aufstellen, damit die se9 sich geborgen fühlt und keine spontanen Entwicklungen die Harmonie stören könnten`
+          label: "Management",
+          content: `- Establish routines for working with the se9
+- Provide support in conflict situations to give the se9 backing, as otherwise she will quickly feel helpless
+- Ensure that the se9 does not see their harmony threatened by what they have to do at work (values and ideology of the se9 must be served)
+- Demonstrate empathy and goodwill
+- Give the se9 guidance without making her feel attacked, because otherwise she will become stubborn and fall into passivity in order to maintain her harmony
+- Wrap up advice in stories or formulate it beautifully to make it palatable to the se9
+- Show respect and appreciation for the se9's philanthropic nature
+- Ensure that the se9 can establish their comfort zone at work in which they can move and create harmony (do not constantly set up new everyday tasks or demand too much spontaneity) 
+- Recognize the se9 for who she is and not make her feel like she is just a little runt working for you
+- Show appreciation for the routine work of the se9
+- Represent and establish reliability and honesty as values so that the se9 feels secure and no spontaneous developments could disrupt the harmony`
         }
       ]
     },
 
     {
       code: "so9",
-      content: `Grundmotivation:
-Harmonie (in der sozialen Gruppe)
+      content: `Basic motivation:
+Harmony (in the social group)
 
-Leidenschaft: 
-Trägheit (in der sozialen Gruppe)
+Passion: 
+Inertia (in the social group)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- engagiert
-- schließt sich gerne Organisationen & Gruppen an
-- verschmilzt gerne mit der Gruppe
-- "Mitläufer-Mentalität"
-- arbeitet sehr strebsam
-- kämpft gegen seine innere Trägheit an
-- sehr interessiert
-- passiv-aggressiv
-- imitiert gerne den Ehrgeiz und das Chamäleonprinzip von Typ 3
-- sucht in der Gruppe nach Orientierung
-- angepasst
-- freundlich 
-- Angst vor Ausgrenzung
-- Konfliktunfähigkeit
-- Sturheit
-- drängt sich ungerne in den Vordergrund
-- vermittelt gerne
-- starker Gerechtigkeitssinn
-- Entscheidungsunfähigkeit`,
+- Committed
+- likes to join organizations & groups
+- likes to merge with the group
+- “follower mentality”
+- works very hard
+- fights against his inner inertia
+- very interested
+- passive-aggressive
+- likes to imitate ambition and the chameleon principle of type 3
+- looks for orientation in the group orientation
+- adapted
+- friendly 
+- Fear of exclusion
+- incapable of conflict
+- stubbornness
+- Unwilling to push himself into the foreground
+- likes to communicate
+- Strong sense of justice
+- inability to make decisions`,
 
       traits: [
         {
-          label: "kalt",
-          content: `Aufgrund der angepassten Energie des sozialen Subtyps empfindet man diesen oftmals als kälter im Vergleich zu den anderen.
+          label: "Cold",
+          content: `Due to the adapted energy of the social subtype, it is often perceived as colder in comparison to the others.
 
-Das hat vor allem mit dem "erwachsen-angepassten" Wesen der Sozialtypen zu tun.`
+This is mainly due to the “intellectually adapted” nature of the social types.`
         },
         {
-          label: "erwachsen",
-          content: `Der soziale Subtyp wirkt zumeist sehr erwachsen & intellektuell in seinem Wesen.
+          label: "Adult",
+          content: `The social subtype is usually very adult and intellectual in nature.
 
-Diese Wirkung ist eng verbunden mit dem Wir-zentrierten Weltbild des Subtyps.`
+This effect is closely linked to the we-centered world view of this subtype.`
         },
         {
-          label: "Kontratyp",
-          content: `Der Kontratyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Contra",
+          content: `The counter-type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Kontratyp hat in seinem Leben die Erfahrung gemacht, dass das Ausleben der jeweiligen Leidenschaft nicht gut funktioniert und seine Grundmotivation gar nicht befriedigt, was eigentlich der Sinn der Leidenschaft aus Ego-Sicht ist.
+The counter-type has experienced in his life that living out the respective passion does not work well and does not satisfy his basic motivation at all, which is actually the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, gegen diese innere Stimme anzukämpfen und alles zu tun, um sie nicht nach außen sichtbar zu machen.
+For this reason, he has decided to fight against this inner voice and do everything he can to prevent it from becoming visible to the outside world.
 
-Dies klappt jedoch nur bedingt, da diese Leidenschaft immer wieder durch eine Hintertür einen Weg in's Leben des Menschen findet, was er jedoch nicht bewusst merkt.
+However, this only works to a limited extent, as this passion always finds a way into a person's life through a back door, which they do not consciously realize.
 
-Im Fall der so9 bedeutet das, dass dieser Enneagrammtyp gegen die Trägheit ankämpft.
+In the case of so9, this means that this Enneagram type fights against inertia.
 
-Er hat die Erfahrung gemacht, dass er keine Harmonie empfängt, wenn er seine Trägheit nach außen hin lebt.`
+He has experienced that he does not receive harmony if he lives his inertia outwardly.`
         }
       ],
 
       modules: [
         {
-          label: "Demaskierung",
-          content: `Folgende Eigenschaften sind dem so9 bewusst und können angesprochen werden:
+          label: "Unmasking",
+          content: `The so9 is aware of the following characteristics and can address them:
 
-- er arbeitet motiviert
-- er möchte stets möglichst aktiv sein und etwas leisten
-- er möchte sich beweisen
-- im Grunde ist er sehr friedfertig
-- er geht Konflikten aus dem Weg
-- er passt sich gerne an
-- er ist sehr gutmütig
-- sein Freundes- und Familienkreis ist ihm sehr wichtig
-- er möchte stets Anerkennung von seiner sozialen Gruppe bekommen (Arbeit, Familie, Freunde, Sportverein, ...)
-- er mag es nicht, den ganzen Tag faul herumzuliegen, verfällt dennoch manchmal in die Trägheit
-- seine Hobbies/Arbeit sind ihm wichtig
-- er sucht nach Dingen, die ihn erfüllen können
-- in einer Gruppe geht er besonders auf
-- er kann sehr gut vermitteln und dafür sorgen, dass es seinen Mitmenschen gut geht
-- er neigt dazu, sich im außen zu verlieren
-- er ist sehr friedliebend`
+- he works with motivation
+- he always wants to be as active as possible and achieve something
+- he wants to prove himself
+- he is basically very peaceful
+- he avoids conflicts
+- he likes to adapt
+- he is very good-natured
+- His circle of friends and family is very important to him
+- he always wants recognition from his social group (work, family, friends, sports club, ...)
+- He doesn't like to spend the whole day lazing around all day, but nevertheless sometimes falls into laziness
+- his hobbies/work are important to him important
+- he looks for things that can fulfill him
+- in a group he is especially
+- he is very good at communicating and make sure that his fellow people are doing well
+- he tends to lose himself on the outside lose himself
+- he is very peace-loving`
         },
         {
-          label: "Blinder Fleck",
-         content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+         content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 9 im Allgemeinen: 
+Blind spot of type 9 in general: 
 
-- Trägheit & Passivität als Schutzgarant
-- aktives Schaffen von  äußeren Routinen & Anpassungsmechanismen als Kompensation
-- Konfliktscheue
-- Betäubung bei Überforderung
+- Inertia & passivity as guarantor of protection
+- active creation of external routines & adaptation mechanisms as compensation
+- conflict aversion
+- Anesthesia in case of excessive demands
 
-Blinder Fleck des sozialen Typs im Allgemeinen:
+Blind spot of the social type in general:
 
-- Gruppen-Abhängigkeit
-- Anpassung an die Gruppe
-- fehlende Motivation ohne Gruppenabgleich
+- Group dependency
+- Adaptation to the group
+- Lack of motivation without group adjustment
 
-Blinder Fleck, speziell bei der so9:
+Blind spot, especially with the so9:
 
-- zwanghafter Kampf gegen Trägheit / Faulheit
-- starker Anpassungszwang
-- Mitläufer-Mentalität`
+- compulsive fight against inertia / laziness
+- strong compulsion to conform
+- follower mentality`
         },
         {
-          label: "Augen",
-         content: `Typ 9 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+         content: `Type 9 generally has the following gaze quality:
 
-- ausdruckslos
+- expressionless
 - warm
-- verschmelzend
-- müde
-- freundlich
-- peripher
-- “Reptilienaugen”
+- melting
+- tired
+- friendly
+- peripheral
+- “reptilian eyes”
 
-Die Blickqualität der so9 ergänzt sich wie folgt:
+The gaze quality of the so9 complements each other as follows:
 
-- interessiert
-- wachsam`
+- interested
+- alert`
         },
         {
-          label: "Körper",
-          content: `Typ 9 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 9 in general has the following physical abnormalities:
 
-- Zornesfalte
-- weiche Züge
-- großes Lächeln
+- frown lines
+- soft features
+- big smile
 
-Die körperlichen Auffälligkeiten der so9 ergänzen sich wie folgt:
+The physical characteristics of so9 complement each other as follows:
 
-- dünner Körperbau
-- groß gebaut`
+- thin physique
+- tall build`
         },
         {
-          label: "Wirkung",
-          content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Effects",
+          content: `Type 9 in general has the following effects:
 
-- Tendenz zum aufopfernden Verhalten
-- starke Konfliktscheue
-- entscheidungs- & reaktionsarm
+- oblivious
+- adapted
+- merging
+- reserved
+- positive/optimistic
+- friendly
+- sluggish/slow
 
-Über den so9 sollte man explizit noch Folgendes wissen:
+The effects of the so9 complement each other as follows:
 
-- Hang zu Teamsport & körperlichen Tätigkeiten`
+“Employee” charisma:
+- willing to work
+- active
+- peaceful
+- committed`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
-
-- Tendenz zum aufopfernden Verhalten
-- starke Konfliktscheue
-- entscheidungs- & reaktionsarm
-
-Über den so9 sollte man explizit noch Folgendes wissen:
-
-- Hang zu Teamsport & körperlichen Tätigkeiten`
-        },
-        {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Bill Murray
 - Bill Clinton
 - Bryan Cranston
@@ -667,24 +663,25 @@ Die körperlichen Auffälligkeiten der so9 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
-
+          content: `Confusion in male form:
+          
 - so4
 - se6
 - so2
 - so7
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
+
 - se3
 - so7
 - so2
 - se6`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Partner",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die so9 folgende Partner am ehesten:
+Statistically speaking, the so9 is most likely to choose the following partners:
 
 - so2
 - so/sx4
@@ -693,213 +690,213 @@ Statistisch gesehen wählt die so9 folgende Partner am ehesten:
 - so/se1`
         },
         {
-          label: "Verkauf",
-          content: `- Interesse an den Gruppenaktivitäten der so9 zeigen 
-- Netzwerken und Kontaktfreudigkeit als Wert proklamieren 
-- Gruppenbereicherung in Bezug auf die eigene Ideologie & Arbeit darstellen
-- Harmonie und Wohlwollen zeigen 
-- Konfliktlose Kommunikation mit Einstellung auf das Gegenüber
-- Interesse an den Hobbies der so9 zeigen
-- Überwindung der Trägheit als Notwendigkeit darstellen, da die so9 sich damit identifizieren kann 
-- Die Gruppenförderlichkeit des Produktes darstellen
-- Arroganz vermeiden
-- sich selbst als kleinen Teil des großen Ganzen darstellen 
-- Lob für die Einbringung in den Gruppen der so9 anbringen
-- Anerkennung der Aktivitäten und Ziele der so9
-- Produkt als Unterstützung der Gruppe der so9 anbieten `
+          label: "Sales",
+          content: `- Show interest in the group activities of the so9 
+- Proclaim networking and sociability as a value 
+- Represent group enrichment in relation to own ideology & work
+- Show harmony and goodwill 
+- Conflict-free communication with an attitude towards the other person
+- Show interest in the hobbies of the so9
+- Present overcoming inertia as a necessity, as the so9 can identify with it 
+- Demonstrate the group benefits of the product
+- Avoid arrogance
+- Present themselves as a small part of the big picture 
+- Praise the so9's contribution to the groups
+- Recognize the activities and goals of the so9
+- Offer the product as support for the so9 group`
         },
         {
-          label: "Führung",
-          content: `- Gruppenideologie stärken und aufstellen
-- dafür sorgen, dass die so9 in die Gruppe integriert wird und einen wichtigen Teil dieser Gruppe darstellt, auf den die Menschen zählen, um sie zu motivieren
-- dafür sorgen, dass das Umfeld der so9 so gefiltert ist, dass ihr nichts im Wege steht, die Gruppenzugehörigkeit in der Firma zu suchen anstatt in einem „schlechten Freundeskreis“, um zu verhindern, dass die so9 sich in der falschen Gruppe angleicht und nichts mehr hinbekommt
-- gewährleisten, dass die Menschen in der Gruppe die Handlungen und Fortschritte der so9 sehen, um sie zu motivieren
-- Anerkennung für die Arbeitsbereitschaft der so9 aufbringen, sofern vorhanden
-- von der so9 „Commitments“ einholen und überprüfen, ob sie sich an diese hält
-- Empathie und Gutherzigkeit vermitteln, um der so9 ein Gefühl von Geborgenheit zu vermitteln
-- für Leistungen viel Anerkennung und Rampenlicht geben, für mangelnde Leistung viel Zuwand und Besorgnis äußern, sodass die so9 sich schnell so fühlt, als würde die Gruppe noch von ihr denken, dass sie träge sei, denn dann beginnt sie wieder zu arbeiten
-- starke Betreuung geben, da die so9 zur Selbstvergessenheit neigt, was auch damit einhergeht, dass man die so9 immer wieder an Ziele, Träume oder Commitments erinnern muss und die so9 in Aktivität halten muss
-- darauf achten, der so9 nicht das Gefühl zu geben, sie anzugreifen oder abzuerkennen`
+          label: "Management",
+          content: `- Strengthen and establish group ideology
+- ensure that the so9 is integrated into the group and is an important part of this group that people count on to motivate them
+- ensure that the so9's environment is filtered in such a way that nothing stands in the way of her seeking group membership in the company rather than in a “bad circle of friends”, to prevent the so9 from conforming to the wrong group and not getting anything done
+- ensure that the people in the group see the so9's actions and progress in order to motivate them
+- show appreciation for the so9's willingness to work, if any
+- Obtain “commitments” from the so9 and check whether they are sticking to them
+- Convey empathy and kindness to give the so9 a feeling of security
+- Give a lot of recognition and spotlight for achievements, express a lot of care and concern for lack of performance, so that the so9 quickly feels as if the group still thinks of her as lazy, because then she starts working again
+- provide strong supervision, as the so9 tends to forget herself, which also means that you have to keep reminding the so9 of goals, dreams or commitments and keep the so9 active
+- be careful not to make the so9 feel attacked or dismissed`
         }
       ]
     },
 
     {
       code: "sx9",
-      content: `Grundmotivation:
-Harmonie (in der zwischenmenschlichen Beziehung)
+      content: `Basic motivation:
+Harmony (in the inter human relationship)
 
-Leidenschaft: 
-Trägheit (in der zwischenmenschlichen Beziehung)
+Passion: 
+Inertia (in the inter human relationship)
 
-Stichpunktartige Beschreibung:
+Key point description:
 
-- verschmelzend
-- gleicht sich ihrem Gegenüber stark an
-- konfliktunfähig
-- kann keine Grenzen setzen
-- rezessiv
-- wird schnell übersehen
-- Einheitsgefühl als Ideal
-- Ohne Beziehung schnell melancholisch
-- versucht, ihren Partner glücklich zu machen, um Konflikte zu vermeiden
-- unterdrückt oft eigene Impulse
-- selbstvergessen
-- vergisst, was sie eigentlich möchte
-- neigt im unbewussten Fall zum Rückzug
-- sensibel
-- empathisch
-- freundlich
-- harmonisch
-- sich auf den anderen einstellend`,
+- merging
+- strongly assimilates to her counterpart
+- incapable of conflict
+- cannot set boundaries
+- recessive
+- is quickly overlooked
+- Feeling of unity as an ideal
+- Without relationship quickly melancholic
+- tries to make their partner happy to make their partner happy in order to avoid conflicts
+- often suppresses own impulses
+- self-forgetful
+- forgets what she actually ' wants
+- tends to unconsciously retreat
+- sensitive
+- empathic
+- friendly
+- harmonious
+- attuned to the other person`,
 
       traits: [
         {
-          label: "hitzig",
-          content: `Aufgrund der intensiven Energie des sexuellen Subtyps empfindet man diesen oftmals als hitziger im Vergleich zu den anderen.
+          label: "Fiery",
+          content: `Due to the intense energy of the sexual subtype, it is often perceived as more hot-tempered than the others.
 
-Das hat vor allem mit dem "jugendlich-energiegeladenen" Wesen der Sexualtypen zu tun.`
+This is mainly due to the energetic nature of the sexual types.`
         },
         {
-          label: "jugendlich",
-          content: `Der sexuelle Subtyp wirkt zumeist sehr jugendlich & intensiv in seinem Wesen.
+          label: "Youthful",
+          content: `The sexual subtype is usually very youthful and intense in nature.
 
-Diese Wirkung ist eng verbunden mit dem partnerschaftlich-zentrierten Weltbild dieses Subtyps.`
+This effect is closely linked to the partnership-centered world view of this subtype.`
         },
         {
-          label: "Verstärkungstyp",
-          content: `Der Verstärkungstyp beschreibt eine Ausprägung der jeweiligen Leidenschaft des Enneagrammtypen.
+          label: "Reinforcement",
+          content: `The reinforcement type describes a manifestation of the respective passion of the Enneagram type.
 
-Der Verstärkungstyp hat in seinem Leben die Erfahrung gemacht, dass das starke Ausleben der jeweiligen Leidenschaft gut funktioniert und seine Grundmotivation vollends befriedigt, was genau der Sinn der Leidenschaft aus Ego-Sicht ist.
+The reinforcement type has experienced in his life that the strong living out of the respective passion works well and fully satisfies his basic motivation, which is precisely the purpose of the passion from the ego's point of view.
 
-Aus diesem Grund hat er sich dazu entschieden, diese innere Stimme zu akzeptieren und alles zu tun, um sie zu befriedigen.
+For this reason, he has decided to accept this inner voice and do everything he can to satisfy it.
 
-Im Fall der sx9 bedeutet das, dass dieser Enneagrammtyp die Trägheit extrem stark lebt.
+In the case of sx9, this means that this Enneagram type lives inertia extremely strongly.
 
-Er hat die Erfahrung gemacht, dass er Harmonie empfängt, wenn er seine Trägheit nach außen hin lebt.`
+He has experienced that he receives harmony when he lives his inertia outwardly.`
         }
       ],
 
       modules: [
         {
           label: "Demaskierung",
-         content: `Folgende Eigenschaften sind dem sx9 bewusst und können angesprochen werden:
+         content: `The sx9 is aware of the following characteristics and can address them:
 
-- er legt großen Wert auf zwischenmenschliche Verbindungen
-- er ist angepasst und zurückhaltend
-- er ist selbstvergessen
-- er stellt sich gerne auf das Gegenüber ein
-- er "verschmilzt" gerne mit einer Person, einem Thema oder einem Objekt (z.B. mit dem Partner, einem engen Freund, seinem inneren Glauben, IT, seiner Arbeit, seinem Hobby, ...)
-- er ist eher skeptisch
-- er folgt einer eigenen Logik
-- er ist sehr friedliebend
-- er kann sich gut in andere hineinversetzen
-- er ist eher konfliktscheu, steht aber zu seinen Werten
-- er wirkt eher unscheinbar
-- er ist kein Angeber (Understatements sind gängig)
-- er hat hohe Werte und Ideale
-- er ist dennoch sehr tolerant
-- er kommt gut mit seinen Mitmenschen klar
-- er ist oftmals sehr schlau (-> "träges Genie")
-- er ist schnell mit Aktivität überfordert
-- er ist sehr verbindend`
+- it attaches great importance to interpersonal connections
+- he is adapted and reserved
+- he is self-forgetful
+- he likes to adapt to the counterpart
+- he likes to “merge” with a person, a topic or an object (e.g. with his partner, a close friend, his inner beliefs, IT, his work, his hobby, ...)
+- he is rather skeptical
+- he follows his own logic
+- he is very peace-loving
+- he can put himself in other people's shoes
+- he tends to shy away from conflict, but stands by his values
+- he seems rather inconspicuous
+- he is not a show-off (understatements are common)
+- He has high values and ideals
+- he is nevertheless very tolerant
+- he gets on well with his fellow human beings
+- he is often very clever (-> “lazy genius”)
+- he is quickly overwhelmed with activity overwhelmed
+- he is very connecting`
         },
         {
-          label: "Blinder Fleck",
-          content: `Blinder Fleck der Bauchenergie im Allgemeinen:
+          label: "Blind spot",
+          content: `Blind spot of gut energy in general:
 
-- Handlungs-Hysterie
-- Territoriums-Identifikation
-- Intuitions-Identifikation
-- Schutz-Defizit
-- starke innere Aggressionen
+- Action hysteria
+- Territory identification
+- Intuition-identification
+- protection deficit
+- strong inner aggression
 
-Blinder Fleck von Typ 9 im Allgemeinen: 
+Blind spot of type 9 in general: 
 
-- Trägheit & Passivität als Schutzgarant
-- aktives Schaffen von äußeren Routinen & Anpassungsmechanismen als Kompensation
-- Konfliktscheue
-- Betäubung bei Überforderung
+- Inertia & passivity as guarantor of protection
+- active creation of external routines & adaptation mechanisms as compensation
+- conflict aversion
+- Anesthesia in case of excessive demands
 
-Blinder Fleck des sexuellen Typs im Allgemeinen:
+Blind spot of the sexual type in general:
 
-- starke & ständige Rivalität mit anderen Menschen
-- Abhängigkeit von äußerer Attraktivität & Bindungen
-- Angst vor Entwertung & Degradierung
+- strong & constant rivalry with other people
+- Dependence on external attractiveness & attachments
+- Fear of devaluation & degradation
 
-Blinder Fleck, speziell bei der sx9:
+Blind spot, especially with the sx9:
 
-- extreme Konfliktscheue
-- Selbstvergessenheit
-- Verschmelzung mit einem Thema`
+- extreme conflict aversion
+- Self-forgetfulness
+- Merging with one subject`
         },
         {
-          label: "Augen",
-          content: `Typ 9 im Allgemeinen hat folgende Blickqualität:
+          label: "Eyes",
+          content: `Type 9 generally has the following gaze quality:
 
-- ausdruckslos
+- expressionless
 - warm
-- verschmelzend
-- müde
-- freundlich
-- peripher
-- “Reptilienaugen”
+- melting
+- tired
+- friendly
+- peripheral
+- “Reptilian eyes”
 
-Die Blickqualität der sx9 ergänzt sich wie folgt:
+The gaze quality of the sx9 complements each other as follows:
 
-- unsicher
-- instinktiv
-- interessiert`
+- uncertain
+- instinctive
+- interested`
         },
         {
-          label: "Körper",
-          content: `Typ 9 im Allgemeinen hat folgende körperliche Auffälligkeiten:
+          label: "Body",
+          content: `Type 9 in general has the following physical abnormalities:
 
-- Zornesfalte
-- weiche Züge
-- großes Lächeln
+- frown lines
+- soft features
+- big smile
 
-Die körperlichen Auffälligkeiten der sx9 ergänzen sich wie folgt:
+The physical characteristics of sx9 complement each other as follows:
 
-- Hautprobleme
-- unauffälliger Körperbau
-- große Zähne`
+- skin problems
+- inconspicuous physique
+- large teeth`
         },
         {
-          label: "Wirkung",
-          content: `Typ 9 im Allgemeinen hat folgende Wirkweisen:
+          label: "Effects",
+          content: `Type 9 in general has the following effects:
 
-- selbstvergessen
-- angepasst
-- verschmelzend
-- zurückhaltend
-- positiv/optimistisch
-- freundlich
-- träge/langsam
+- oblivious
+- adapted
+- merging
+- reserved
+- positive/optimistic
+- friendly
+- sluggish/slow
 
-Die Wirkweisen der sx9 ergänzen sich wie folgt:
+The effects of the sx9 complement each other as follows:
 
-“Mystiker”-Ausstrahlung:
-- unklar
-- verschwommen
-- unscheinbar
-- verschmelzend`
+“mystic” charisma:
+- unclear
+- blurred
+- inconspicuous
+- merging- verschmelzend`
         },
         {
-          label: "Weiteres",
-          content: `Über Typ 9 im Allgemeinen sollte man noch Folgendes wissen:
+          label: "Other",
+          content: `You should also know the following about type 9 in general:
 
-- Tendenz zum aufopfernden Verhalten
-- starke Konfliktscheue
-- entscheidungs- & reaktionsarm
+- Tendency towards self-sacrificing behavior
+- Strong conflict aversion
+- poor decision making & reaction
 
-Über den sx9 sollte man explizit noch Folgendes wissen:
+You should also know the following about the sx9:
 
-- extrem konfliktscheu und selbstvergessen
-- körperliche Nähe`
+- extremely conflict-averse and oblivious
+- physical closeness`
         },
         {
-          label: "Beispiele",
+          label: "Examples",
           content: `- Keanu Reeves
 - Ed Sheeran
 - Ringo Starr
@@ -914,7 +911,7 @@ Die Wirkweisen der sx9 ergänzen sich wie folgt:
         },
         {
           label: "Lookalikes",
-          content: `Verwechslung in männlicher Form:
+          content: `Confusion in male form:
 
 - se7
 - so4
@@ -923,7 +920,7 @@ Die Wirkweisen der sx9 ergänzen sich wie folgt:
 - sx2
 - so5
 
-Verwechslung in weiblicher Form:
+Confusion in female form:
 
 - se7
 - sx7
@@ -932,10 +929,10 @@ Verwechslung in weiblicher Form:
 - so5`
         },
         {
-          label: "Partnerwahl",
-          content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
+          label: "Choice of Parter",
+          content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistisch gesehen wählt die sx9 folgende Partner am ehesten:
+Statistically speaking, the sx9 is most likely to choose the following partners:
 
 - se/sx7
 - se/sx1
@@ -945,35 +942,35 @@ Statistisch gesehen wählt die sx9 folgende Partner am ehesten:
 - se6`
         },
         {
-          label: "Verkauf",
-          content: `- Arroganz vermeiden 
-- Intime Verbindung der sx9 finden (Partner, Thema, Firma, Hobby, Glauben, …) und diese Verbindung nicht in Konflikt bringen
-- Führung übernehmen ohne sich über die sx9 zu stellen 
-- Interesse an den Themen der sx9 zeigen
-- Vielschichtigkeit und Umfänglichkeit des Produktes beschreiben
-- Harmonie und Wohlwollen anbringen
-- Konfliktthemen vermeiden
-- Optimismus zeigen 
-- Tatendrang und Effizienz zeigen, um der sx9 zu vermitteln, dass man selbst nicht der Trägheit unterliegt und ihr ggfs. ebenfalls aus der Trägheit heraushilft
-- Akzeptanz der Trägheit der sx9 zeigen 
-- Darstellung der Schaffung von zwischenmenschlicher Harmonie durch das Produkt
-- Bedeutung und Emotionalität gewährleisten 
-- Unterstützung zusichern
-- Interesse an den Werten der sx9 zeigen `
+          label: "Sales",
+          content: `- Avoid arrogance 
+- Find an intimate connection between the sx9 (partner, topic, company, hobby, faith, ...) and do not bring this connection into conflict
+- Take the lead without placing yourself above the sx9 
+- Show interest in the topics of the sx9
+- Describe the complexity and comprehensiveness of the product
+- Display harmony and goodwill
+- Avoid conflict issues
+- Show optimism 
+- Show drive and efficiency in order to convey to the sx9 that you are not subject to inertia yourself and, if necessary, will also help them out of their inertia
+- Show acceptance of the sx9's inertia 
+- Represent the creation of interpersonal harmony through the product
+- Ensure meaning and emotionality 
+- Assure support
+- Show interest in the values of the sx9`
         },
         {
-          label: "Führung",
-          content: `- die Anpassungsfähigkeit und Konfliktscheue der sx9 nutzen, um sie zu motivieren (z.B. indem man ihr in Aussicht stellt, einen großen Konflikt zu haben, wenn sie nicht Leistung X/Y erbringt) 
-- Empathie und Einfühlungsvermögen stärken
-- Ego-Gehabe aus dem Spiel lassen, weil die sx9 das eher nervt und einen in schlechtem Licht scheinen lässt
-- dafür sorgen, dass die Verbindung, in der die sx9 ihre Harmonie leben möchte, etwas mit der Firma zutun hat (entweder als Verbindungspol die Führungskraft, die Firma selbst oder ein Ziel hinter der Arbeit schaffen) 
-- Motivation durch Aufrechterhaltung der Harmonie im Zwischenmenschlichen / in der jeweiligen Verbindung (an der Stelle ist es wichtig, herauszufinden, welche Verbindung der sx9 eingegangen ist / was ihm wichtig ist!)
-- Interesse an den Hobbies, der Familie und den Weltanschauungen der sx9 zeigen, um ihm ein Gefühl von Geborgenheit zu vermitteln
-- starke Betreuung, da die sx9 gerne in Trägheit und Passivität verfällt, sofern sie mit diesem Verhalten nicht die Harmonie gefährdet sieht
-- Respekt und Wertschätzung sind sehr wichtig dafür, dass die sx9 sich nicht angegriffen fühlt und stur wird
-- konkrete Führung geben, denn die sx9 braucht nur jemanden, der ihr genau sagt, wie es funktioniert (hohe Umsetzungskompetenz, sobald die Verbindung innerhalb der Firma gesetzt wurde, da due sx9 Angst vor dem Konflikt mit der Firma / Führungskraft hat)
-- Ganzheitlichkeit der Dinge betrachten und darstellen, da die sx9 oftmals von spirituellen Ideen sehr viel hält (einheitliche Verschmelzung mit dem Leben)
-- viel Zeit und Energie der sx9 widmen, um die Verbindung aufrecht zu erhalten und die Aktivität zu gewährleisten`
+          label: "Management",
+          content: `- Use the sx9's adaptability and conflict aversion to motivate her (e.g. by holding out the prospect of a major conflict if she does not perform X/Y) 
+- Strengthen empathy and sensitivity
+- Leave ego-talk out of it, because it tends to annoy the sx9 and makes you look bad
+- Ensure that the connection in which the sx9 wants to live their harmony has something to do with the company (either create the manager, the company itself or a goal behind the work as a connecting pole) 
+- Motivation through maintaining harmony in interpersonal relationships / in the respective connection (at this point it is important to find out which connection the sx9 has entered into / what is important to him!)
+- Show interest in the sx9's hobbies, family and world views in order to give them a feeling of security
+- Strong support, as the sx9 likes to fall into inertia and passivity, as long as she does not see this behavior as a threat to harmony
+- Respect and appreciation are very important to ensure that the sx9 does not feel attacked and become stubborn
+- Provide concrete guidance, because the sx9 only needs someone to tell her exactly how it works (high implementation competence as soon as the connection has been made within the company, as the sx9 is afraid of conflict with the company / manager)
+- View and present a holistic view of things, as the sx9 often thinks very highly of spiritual ideas (unified fusion with life)
+- devote a lot of time and energy to the sx9 to maintain the connection and ensure activity`
           
         }
       ]
