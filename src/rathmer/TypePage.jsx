@@ -325,14 +325,16 @@ export default function TypePage({ typeData, onBack, onSelectType }) {
 
     {index === 2 && (
       <div className="rathmer-section-divider">
-        Typisierung
-      </div>
+  {language === "en" ? "PROFILING" : "TYPISIERUNG"}
+</div>
     )}
 
     {index === 9 && (
       <div className="rathmer-section-divider">
-        Spezifischer Umgang
-      </div>
+  {language === "en"
+    ? "SUBTYPE DYNAMICS"
+    : "SPECIFIC HANDLING"}
+</div>
     )}
 
     <div id={targetId}>
