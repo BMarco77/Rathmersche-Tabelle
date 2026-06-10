@@ -3,40 +3,10 @@ import { TYPE_META as TYPE_META_EN } from "../data/en/typeMeta";
 import {
   TYPE_COLORS,
   TYPE_GRADIENTS,
-  TYPE_ACCENT_COLORS
+  TYPE_ACCENT_COLORS,
 } from "../data/typeColors";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
-
-
-const centers = [
-  {
-    title: "Herzmenschen",
-    types: [
-      { number: 2, name: TYPE_META[2].archetype, color: TYPE_COLORS[2] },
-      { number: 3, name: TYPE_META[3].archetype, color: TYPE_COLORS[3] },
-      { number: 4, name: TYPE_META[4].archetype, color: TYPE_COLORS[4] },
-    ],
-  },
-
-  {
-    title: "Kopfmenschen",
-    types: [
-      { number: 5, name: TYPE_META[5].archetype, color: TYPE_COLORS[5] },
-      { number: 6, name: TYPE_META[6].archetype, color: TYPE_COLORS[6] },
-      { number: 7, name: TYPE_META[7].archetype, color: TYPE_COLORS[7] },
-    ],
-  },
-
-  {
-    title: "Bauchmenschen",
-    types: [
-      { number: 8, name: TYPE_META[8].archetype, color: TYPE_COLORS[8] },
-      { number: 9, name: TYPE_META[9].archetype, color: TYPE_COLORS[9] },
-      { number: 1, name: TYPE_META[1].archetype, color: TYPE_COLORS[1] },
-    ],
-  },
-];
 
 export default function HomePage({ onSelectType, language, setLanguage }) {
   const TYPE_META = language === "en" ? TYPE_META_EN : TYPE_META_DE;
@@ -69,16 +39,38 @@ export default function HomePage({ onSelectType, language, setLanguage }) {
   ];
 
   return (
-      <header className="rathmer-home-header">
-       <div className="rathmer-wappen">
-  <img src={wappen} alt="Rathmer Wappen" />
-</div>
+    <div className="rathmer-home">
+      <div className="language-switch">
+        <span
+          className={language === "de" ? "active" : ""}
+          onClick={() => setLanguage("de")}
+        >
+          DE
+        </span>
 
-        <h1>Rathmer´sche Tabelle</h1>
+        <span className="separator">|</span>
+
+        <span
+          className={language === "en" ? "active" : ""}
+          onClick={() => setLanguage("en")}
+        >
+          EN
+        </span>
+      </div>
+
+      <header className="rathmer-home-header">
+        <div className="rathmer-wappen">
+          <img src={wappen} alt="Rathmer Wappen" />
+        </div>
+
+        <h1>
+          {language === "en" ? "Rathmer's Table" : "Rathmer´sche Tabelle"}
+        </h1>
 
         <p>
-          Eine interaktive Übersicht der Enneagrammtypen, ihrer Triaden und
-          Dynamiken.
+          {language === "en"
+            ? "An interactive overview of the Enneagram types, their triads and dynamics."
+            : "Eine interaktive Übersicht der Enneagrammtypen, ihrer Triaden und Dynamiken."}
         </p>
       </header>
 
@@ -92,30 +84,28 @@ export default function HomePage({ onSelectType, language, setLanguage }) {
                 <button
                   key={type.number}
                   className="rathmer-type-button"
-                 style={{
-  background: TYPE_GRADIENTS[type.number],
-  color: TYPE_ACCENT_COLORS[type.number],
-}}
+                  style={{
+                    background: TYPE_GRADIENTS[type.number],
+                    color: TYPE_ACCENT_COLORS[type.number],
+                  }}
                   onClick={() => onSelectType(type.number)}
                 >
-                <div className="rathmer-type-button-inner">
- <div
-  className="rathmer-type-big-number"
-  style={{
-    color: TYPE_ACCENT_COLORS[type.number],
-  }}
->
-  {type.number}
-</div>
+                  <div className="rathmer-type-button-inner">
+                    <div
+                      className="rathmer-type-big-number"
+                      style={{
+                        color: TYPE_ACCENT_COLORS[type.number],
+                      }}
+                    >
+                      {type.number}
+                    </div>
 
-  <div className="rathmer-type-text">
-   
-
-    <span className="rathmer-type-archetype">
-      {type.name}
-    </span>
-  </div>
-</div>
+                    <div className="rathmer-type-text">
+                      <span className="rathmer-type-archetype">
+                        {type.name}
+                      </span>
+                    </div>
+                  </div>
                 </button>
               ))}
             </div>
