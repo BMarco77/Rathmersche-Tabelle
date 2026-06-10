@@ -8,7 +8,13 @@ import {
   TYPE_GLOW_COLORS,
 } from "../data/typeColors";
 
-export default function TypePage({ typeData, onBack, onSelectType }) {
+export default function TypePage({
+  typeData,
+  onBack,
+  onSelectType,
+  language,
+  setLanguage,
+}) {
   const [openTopItems, setOpenTopItems] = useState([]);
   const [openTheoryRow1Items, setOpenTheoryRow1Items] = useState([]);
   const [openTheoryRow2Items, setOpenTheoryRow2Items] = useState([]);
