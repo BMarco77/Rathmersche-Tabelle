@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import wappen from "../assets/wappen-512.png";
 import "../rathmer/rathmer.css";
-import { TYPE_META } from "../data/typeMeta";
+import { TYPE_META as TYPE_META_DE } from "../data/typeMeta";
+import { TYPE_META as TYPE_META_EN } from "../data/en/typeMeta";
 import {
   TYPE_GRADIENTS,
   TYPE_INFO_GRADIENTS,
@@ -30,7 +31,11 @@ export default function TypePage({
   setSelectedSubtypeItem(null);
   setOpenSubtype(null);
 }, [typeData.type]);
-
+  
+const TYPE_META =
+  language === "en"
+    ? TYPE_META_EN
+    : TYPE_META_DE;
   const currentType = typeData.type;
   const currentMeta = TYPE_META[currentType];
   const prevType = currentType === 1 ? 9 : currentType - 1;
