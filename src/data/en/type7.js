@@ -488,7 +488,7 @@ Confusion in female form:
       label: "Choice of Partner",
       content: `DISCLAIMER: Enneatypes not listed here are not necessarily bad partners! We only see tendencies here.
 
-Statistically speaking, the so7 is most likely to choose the following partners:
+Statistically speaking, the se7 is most likely to choose the following partners:
 
 - se/so/sx9
 - se/so6
