@@ -122,10 +122,11 @@ export default function TypePage({
 
   <h1>{currentMeta.archetype}</h1>
 
-  <p>
-    Eine interaktive Übersicht der Typ-{typeData.type}-Struktur, ihrer
-    Grunddynamik und Subtypen.
-  </p>
+<p>
+  {language === "en"
+    ? `An interactive overview of the Type ${typeData.type} structure, its core dynamics and subtypes.`
+    : `Eine interaktive Übersicht der Typ-${typeData.type}-Struktur, ihrer Grunddynamik und Subtypen.`}
+</p>
 </header>
 
       <section className="rathmer-top-grid">
