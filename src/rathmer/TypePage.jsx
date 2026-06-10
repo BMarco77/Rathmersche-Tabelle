@@ -338,8 +338,8 @@ export default function TypePage({
     {index === 9 && (
       <div className="rathmer-section-divider">
   {language === "en"
-    ? "SUBTYPE DYNAMICS"
-    : "SPECIFIC HANDLING"}
+    ? "SPECIFIC HANDLING"
+    : "SPEZIFISCHER UMGANG"}
 </div>
     )}
 
