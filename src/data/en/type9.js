@@ -648,6 +648,18 @@ The effects of the so9 complement each other as follows:
 - committed`
         },
         {
+          label: "Other",
+          content: `You should also know the following about type 9 in general:
+
+- Tendency towards self-sacrificing behavior
+- Strong conflict aversion
+- poor decision making & reaction
+
+You should know the following explicitly about so9:
+
+- Tendency to team sports & physical activities`
+        },
+        {
           label: "Examples",
           content: `- Bill Murray
 - Bill Clinton
