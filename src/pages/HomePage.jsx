@@ -1,4 +1,5 @@
-import { TYPE_META } from "../data/typeMeta";
+import { TYPE_META as TYPE_META_DE } from "../data/typeMeta";
+import { TYPE_META as TYPE_META_EN } from "../data/en/typeMeta";
 import {
   TYPE_COLORS,
   TYPE_GRADIENTS,
@@ -37,9 +38,27 @@ const centers = [
   },
 ];
 
-export default function HomePage({ onSelectType }) {
+export default function HomePage({ onSelectType, language, setLanguage }) {
+  const TYPE_META = language === "en" ? TYPE_META_EN : TYPE_META_DE;
   return (
     <div className="rathmer-home">
+      <div className="language-switch">
+  <span
+    className={language === "de" ? "active" : ""}
+    onClick={() => setLanguage("de")}
+  >
+    DE
+  </span>
+
+  <span className="separator">|</span>
+
+  <span
+    className={language === "en" ? "active" : ""}
+    onClick={() => setLanguage("en")}
+  >
+    EN
+  </span>
+</div>
       <header className="rathmer-home-header">
        <div className="rathmer-wappen">
   <img src={wappen} alt="Rathmer Wappen" />
