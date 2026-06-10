@@ -40,25 +40,35 @@ const centers = [
 
 export default function HomePage({ onSelectType, language, setLanguage }) {
   const TYPE_META = language === "en" ? TYPE_META_EN : TYPE_META_DE;
+
+  const centers = [
+    {
+      title: language === "en" ? "Heart Types" : "Herzmenschen",
+      types: [
+        { number: 2, name: TYPE_META[2].archetype, color: TYPE_COLORS[2] },
+        { number: 3, name: TYPE_META[3].archetype, color: TYPE_COLORS[3] },
+        { number: 4, name: TYPE_META[4].archetype, color: TYPE_COLORS[4] },
+      ],
+    },
+    {
+      title: language === "en" ? "Head Types" : "Kopfmenschen",
+      types: [
+        { number: 5, name: TYPE_META[5].archetype, color: TYPE_COLORS[5] },
+        { number: 6, name: TYPE_META[6].archetype, color: TYPE_COLORS[6] },
+        { number: 7, name: TYPE_META[7].archetype, color: TYPE_COLORS[7] },
+      ],
+    },
+    {
+      title: language === "en" ? "Body Types" : "Bauchmenschen",
+      types: [
+        { number: 8, name: TYPE_META[8].archetype, color: TYPE_COLORS[8] },
+        { number: 9, name: TYPE_META[9].archetype, color: TYPE_COLORS[9] },
+        { number: 1, name: TYPE_META[1].archetype, color: TYPE_COLORS[1] },
+      ],
+    },
+  ];
+
   return (
-    <div className="rathmer-home">
-      <div className="language-switch">
-  <span
-    className={language === "de" ? "active" : ""}
-    onClick={() => setLanguage("de")}
-  >
-    DE
-  </span>
-
-  <span className="separator">|</span>
-
-  <span
-    className={language === "en" ? "active" : ""}
-    onClick={() => setLanguage("en")}
-  >
-    EN
-  </span>
-</div>
       <header className="rathmer-home-header">
        <div className="rathmer-wappen">
   <img src={wappen} alt="Rathmer Wappen" />
