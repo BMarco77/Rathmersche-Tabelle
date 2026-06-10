@@ -752,6 +752,35 @@ text-shadow:
 
   filter: drop-shadow(0 14px 24px rgba(0,0,0,0.16));
 }
+.language-switch {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  z-index: 100;
+
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.language-switch span {
+  cursor: pointer;
+  color: rgba(58, 36, 24, 0.55);
+}
+
+.language-switch .active {
+  color: #3a2418;
+}
+
+.language-switch .separator {
+  opacity: 0.5;
+  cursor: default;
+}
+
 /* =========================
    MOBILE / DESKTOP INFO
 ========================= */
