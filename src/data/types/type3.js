@@ -460,7 +460,7 @@ Verwechslung in weiblicher Form:
           label: "Partnerwahl",
           content: `DISCLAIMER: hier nicht aufgeführte Enneatypen sind nicht zwingend schlecht als Partner geeignet! Hier sehen wir lediglich Tendenzen.
 
-Statistisch gesehen wählt die se2 folgende Partner am ehesten:
+Statistisch gesehen wählt die se3 folgende Partner am ehesten:
 
 - so/sx4
 - so/sx2
